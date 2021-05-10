@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Business_Planning</members>
+        <members>Business_Planning/Business_Plan_Submission_Email_Notification</members>
+        <members>Business_Planning/Business_Planning_Successful_Cloning_Notification_for_PSM</members>
+        <members>MailFldr</members>
+        <members>MailFldr/MktMailResponse</members>
+        <name>EmailTemplate</name>
+    </types>
+    <version>52.0</version>
+</Package>
