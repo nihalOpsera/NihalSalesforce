@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>ALL</members>
+        <members>ALL/CH_Case_Closure_Email_Notification_with_Survey</members>
+        <members>unfiled$public/Embed_a_Survey_Link</members>
+        <members>unfiled$public/FollowUpSAMPLE</members>
+        <name>EmailTemplate</name>
+    </types>
+    <version>52.0</version>
+</Package>
