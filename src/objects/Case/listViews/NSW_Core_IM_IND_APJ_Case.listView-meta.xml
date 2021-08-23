@@ -5,6 +5,6 @@
     <label>NSW-Core_IM_IND-APJ</label>
     <queue>NSW_Core_IM_IND_APJ</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

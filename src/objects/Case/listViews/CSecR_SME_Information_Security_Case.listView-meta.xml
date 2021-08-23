@@ -5,6 +5,6 @@
     <label>CSecR SME - Information Security</label>
     <queue>CSecR_SME_Information_Security</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

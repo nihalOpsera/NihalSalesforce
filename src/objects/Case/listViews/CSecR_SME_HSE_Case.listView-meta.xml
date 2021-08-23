@@ -5,6 +5,6 @@
     <label>CSecR SME - HSE</label>
     <queue>CSecR_SME_HSE</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

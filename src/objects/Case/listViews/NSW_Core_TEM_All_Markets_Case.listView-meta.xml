@@ -5,6 +5,6 @@
     <label>NSW-Core_TEM_All-Markets</label>
     <queue>NSW_Core_TEM_All_Markets</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

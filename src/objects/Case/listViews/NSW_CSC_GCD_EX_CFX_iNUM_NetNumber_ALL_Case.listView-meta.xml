@@ -5,6 +5,6 @@
     <label>NSW_CSC-GCD_EX_CFX-iNUM-NetNumber_ALL</label>
     <queue>NSW_CSC_GCD_EX_CFX_iNUM_NetNumber_ALL</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>
