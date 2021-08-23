@@ -1,39 +1,984 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
-        <fullName>ACC_MANAGER_TRICON_SCO</fullName>
+        <fullName>ApprovalScope_ErrorMessage</fullName>
         <language>en_US</language>
         <protected>false</protected>
-        <shortDescription>req 5468- Opportunity owner populate to team</shortDescription>
-        <value>Account Manager (TRICORN Sales Case Owner (SCO))</value>
+        <shortDescription>Req: 3856(To show error message fpr &apos;Approval Scope&apos; Field</shortDescription>
+        <value>You cannot update the Approval Scope once the G4/G5 was submitted for approval.</value>
     </labels>
     <labels>
-        <fullName>CH_InboundS2SRequest_InvalidCaseOriginValidation</fullName>
-        <categories>S2S Interfaces</categories>
+        <fullName>BOM_Upload_QTC_CQ_Id</fullName>
         <language>en_US</language>
         <protected>false</protected>
-        <shortDescription>Validation of Invalid Case Origin</shortDescription>
-        <value>{0} request references a case not created by the S2S-nterface.</value>
+        <shortDescription>BOM_Upload_QTC_CQ_Id</shortDescription>
+        <value>16603cff-93ae-4c13-82ea-469e22340726</value>
     </labels>
     <labels>
-        <fullName>Restrict_Oppty_PTA_Doc_Upload</fullName>
+        <fullName>BulkCustomProductNote</fullName>
         <language>en_US</language>
         <protected>false</protected>
-        <shortDescription>PTA document upload restriction when G6 Bypass selected</shortDescription>
-        <value>&apos;PTA&apos;  Document on Opportunity cannot be uploaded at this moment as Active Offer has &apos;Gate 6 Bypass (No Execute needed)&apos; been selected.</value>
+        <shortDescription>Bulk Custom Product Note</shortDescription>
+        <value>Note: Please make sure that uploaded csv file should not contain comma(,) in the product data and percentage (%) in discount columns</value>
     </labels>
     <labels>
-        <fullName>emailbatch_CQterrsharing</fullName>
+        <fullName>CAPS_Default_Priority</fullName>
         <language>en_US</language>
         <protected>false</protected>
-        <shortDescription>emailbatch_CQterrsharing desc</shortDescription>
-        <value>rakesh.dandae@accenture.com;sahely.banerjee@accenture.com;rakesh.dandae.ext@nokia.com</value>
+        <shortDescription>CAPS Default Priority</shortDescription>
+        <value>P5</value>
     </labels>
     <labels>
-        <fullName>rebateFormURL</fullName>
+        <fullName>CAPS_StatusUpdateBatchQuery</fullName>
+        <categories>CAPS Query</categories>
         <language>en_US</language>
         <protected>false</protected>
-        <shortDescription>rebateFormURL</shortDescription>
+        <shortDescription>CAPS_StatusUpdateBatchQuery</shortDescription>
+        <value>SELECT Id,Name,File_Name__c,CH_NoSuchFileinCAPS__c,CH_MarkForDelete__c,CH_Actual_Delete_Date__c,CH_FileType__c,AttachmentID__c,CH_Status__c,CH_Uploaded__c FROM CH_Attachment__c WHERE CreatedById != &apos;0052M000008cFpRQAU&apos; AND (CH_Status__c NOT IN(&apos;Ready&apos;,&apos;Deleted&apos;,&apos;On Hold&apos;,&apos;Failed&apos;) OR (CH_MarkForDelete__c = true AND CH_Actual_Delete_Date__c = null AND CH_Expected_Delete_Date__c &lt;= : todaysDate))</value>
+    </labels>
+    <labels>
+        <fullName>CH_Archived_Case_No_Owner</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CH Archived Case No Owner</shortDescription>
+        <value>0053h000004rx4DAAQ</value>
+    </labels>
+    <labels>
+        <fullName>CH_Business_Group</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CH Business Group</shortDescription>
+        <value>MN Mobile Networks</value>
+    </labels>
+    <labels>
+        <fullName>CH_CaseClosureReportURL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CH Case Closure Report URL</shortDescription>
+        <value>https://apps.powerapps.com/play/4f4b77f5-cf27-4c1b-a1f7-bd106862b824</value>
+    </labels>
+    <labels>
+        <fullName>CH_EDP_Product_BG</fullName>
+        <categories>Case Handling</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CH_EDP_Product_BG</shortDescription>
+        <value>SELECT Id, NSNClassnumber__c, NSNClassType__c, Name__c FROM ProductClassification__c WHERE NSNClassnumber__c = :childBGName AND ClassificationStatus__c = &apos;Active&apos; AND NSNClassType__c = &apos;BG&apos; AND EDP_ActiveStatus__c = TRUE</value>
+    </labels>
+    <labels>
+        <fullName>CH_EDP_Product_BL</fullName>
+        <categories>Case Handling</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CH_EDP_Product_BL</shortDescription>
+        <value>SELECT Id, NSNClassnumber__c, NSNClassType__c, Name__c FROM ProductClassification__c WHERE NSNClassnumber__c = :childBLNames AND ClassificationStatus__c = &apos;Active&apos; AND NSNClassType__c = &apos;BL&apos; AND EDP_ActiveStatus__c = TRUE</value>
+    </labels>
+    <labels>
+        <fullName>CH_EDP_Product_BU</fullName>
+        <categories>Case Handling</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CH_EDP_Product_BU</shortDescription>
+        <value>SELECT Id, NSNClassnumber__c, NSNClassType__c, Name__c FROM ProductClassification__c WHERE NSNClassnumber__c = :childBUName AND ClassificationStatus__c = &apos;Active&apos; AND NSNClassType__c = &apos;BU&apos; AND EDP_ActiveStatus__c = TRUE</value>
+    </labels>
+    <labels>
+        <fullName>CH_EmailContentLimit</fullName>
+        <categories>Case Handling</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CH_EmailContentLimit</shortDescription>
+        <value>125000</value>
+    </labels>
+    <labels>
+        <fullName>CH_FIR_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CH FIR URL</shortDescription>
+        <value>https://apps.powerapps.com/play/4f4b77f5-cf27-4c1b-a1f7-bd106862b824</value>
+    </labels>
+    <labels>
+        <fullName>CH_IMError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CH_IMError</shortDescription>
+        <value>You are not Authorized to see the Report Please Contact Admin</value>
+    </labels>
+    <labels>
+        <fullName>CH_IMListLink</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CH_IMListLink</shortDescription>
+        <value>/lightning/o/CH_Case_PA_InterfaceMapping__c</value>
+    </labels>
+    <labels>
+        <fullName>CH_IMReportLink</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CH_IMReportLink</shortDescription>
+        <value>/lightning/r/Report/00O01000000OF76EAG/view</value>
+    </labels>
+    <labels>
+        <fullName>CH_ManageSchedule_ExcelLimit</fullName>
+        <categories>CaseHandling</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CH_ManageSchedule_ExcelLimit</shortDescription>
+        <value>2000</value>
+    </labels>
+    <labels>
+        <fullName>CH_Portal_Article_Limit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CH_Portal_Article_Limit</shortDescription>
+        <value>6000</value>
+    </labels>
+    <labels>
+        <fullName>CH_Product_Filter</fullName>
+        <categories>Case Handling</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CH Product Filter</shortDescription>
+        <value>AND CH_Valid__c=true AND 
+                                                                                     (PMD_Portfolio_Classification__c = &apos;Product&apos; OR 
+                                                                                     PMD_Portfolio_Classification__c = &apos;Solution&apos; OR 
+                                                                                     (PMD_Portfolio_Classification__c = &apos;Complementary Product&apos; AND   
+                                                                                     (PMD_Additional_Classification__c = &apos;N/A&apos; OR 
+                                                                                     PMD_Additional_Classification__c = &apos;Life Extender Product&apos;)))</value>
+    </labels>
+    <labels>
+        <fullName>CH_VendorCCM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CHVendorCCM</shortDescription>
+        <value>CH_Customer Care Manager</value>
+    </labels>
+    <labels>
+        <fullName>CH_VendorCM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CHVendorCM</shortDescription>
+        <value>CH_Vendor Contract Manager</value>
+    </labels>
+    <labels>
+        <fullName>CH_VendorOwnerErrorMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CHVendorOwnerErrorMessage</shortDescription>
+        <value>The Owner has to have one of the permission set CH_Vendor ContractManager or CARE DV&amp;T Admin or CH_Customer Care Manager</value>
+    </labels>
+    <labels>
+        <fullName>CH_VendorPermissionDVT</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CHVendorPermissionDVT</shortDescription>
+        <value>CARE DV&amp;T Admin</value>
+    </labels>
+    <labels>
+        <fullName>CLM_Agreement_Clone_Fields</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CLM_Agreement_Clone_Fields</shortDescription>
+        <value>Apttus__Account__c,Apttus__Related_Opportunity__c,Lead_BG__c,Apttus__Primary_Contact__c,CLM_Lead_BU__c,CLM_Document_Collaboration_Link__c,Apttus__Description__c,CLM_Opportunity_Comments__c,Apttus__Source__c,Apttus__Total_Contract_Value__c,CLM_Expected_G4_Date__c,Apttus__Requestor__c,Apttus__Status_Category__c,Apttus__Status__c</value>
+    </labels>
+    <labels>
+        <fullName>CLM_AgrmtTeam_CMCntrctMangrMsg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CLM_AgrmtTeam_CMCntrctMangrMsg</shortDescription>
+        <value>Please add Commercial Contract Manager in the Agreement Team.</value>
+    </labels>
+    <labels>
+        <fullName>CLM_AgrmtTeam_ExistingCMCntrctMangr</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CLM_AgrmtTeam_ExistingCMCntrctMangr</shortDescription>
+        <value>A Commercial Contract Manager(L&amp;C) record already exists in
+the Agreement Team. If you wish to change, please delete the existing record and re-add a new
+user</value>
+    </labels>
+    <labels>
+        <fullName>CLM_Amend_Url</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CLM_Amend_Url</shortDescription>
+        <value>/apex/Apttus__LightningAgreementAmend</value>
+    </labels>
+    <labels>
+        <fullName>CLM_Cancel_Url</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CLM_Cancel_Url</shortDescription>
+        <value>/apex/Apttus__LightningAgreementCancel</value>
+    </labels>
+    <labels>
+        <fullName>CLM_OptyTeam_CMCntrctMangrMsg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CLM_OptyTeam_CMCntrctMangrMsg</shortDescription>
+        <value>Please add Commercial Contract Manager in the Opportunity Team.</value>
+    </labels>
+    <labels>
+        <fullName>CLM_OptyTeam_ExistingCMCntrctMangr</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CLM_OptyTeam_ExistingCMCntrctMangr</shortDescription>
+        <value>A Commercial Contract Manager(L&amp;C) record already exists in
+the Opportunity Team. If you wish to change, please delete the existing record and re-add a new
+user</value>
+    </labels>
+    <labels>
+        <fullName>CLM_Renew_Url</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CLM_Renew_Url</shortDescription>
+        <value>/apex/Apttus__LightningAgreementRenew</value>
+    </labels>
+    <labels>
+        <fullName>CLM_Return_to_Requestor</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CLM_Return_to_Requestor</shortDescription>
+        <value>/apex/Apttus__AgreementReturnToRequestor</value>
+    </labels>
+    <labels>
+        <fullName>CLM_Submit_Request_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CLM_Submit_Request_URL</shortDescription>
+        <value>/apex/Apttus__AgreementSubmitRequest</value>
+    </labels>
+    <labels>
+        <fullName>CPQ_Apply_Discounts</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CPQ_Apply_Discounts</shortDescription>
+        <value>Apply Discounts</value>
+    </labels>
+    <labels>
+        <fullName>CQ_EAI_ProcessQuote</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQ_EAI_ProcessQuote</shortDescription>
+        <value>https://naipgeneric.ext.net.nokia.com:443/ws/ALU_SalesForce.source.ProcessQuoteUpdate.webServices.provider:processQuoteUpdate</value>
+    </labels>
+    <labels>
+        <fullName>CRM_Care_OIF_PL</fullName>
+        <categories>CRM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CRM Care OIF PL</shortDescription>
+        <value>CNSREDX;CNSBSEDT;CNSBSEDI;CNSAREDO;CCCARSS;COREPCC;CNSEXTCARE;FNCARE;CNCCARE;MVCARE;IPRMAIN;OPTMAIN;CAREHWS;CARESWS</value>
+    </labels>
+    <labels>
+        <fullName>CRM_OIF_Cat_To_Clone_Renew</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CRM_OIF_Cat_To_Clone_Renew</shortDescription>
+        <value>Secure;Risk;Upside;RoP;Booked</value>
+    </labels>
+    <labels>
+        <fullName>CSVHeader</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CSVHeader</shortDescription>
+        <value>Line No,Product Code,Parent Line No,Quantity,Proposed Price,Product Description,Sub Heading,Flexible Group</value>
+    </labels>
+    <labels>
+        <fullName>Chatter_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Chatter Message</shortDescription>
+        <value>OIF deviation to G4/G5 wtd Case in BGs.</value>
+    </labels>
+    <labels>
+        <fullName>Current_Period_End_Date</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Current Period End Date</shortDescription>
+        <value>2021-09-03</value>
+    </labels>
+    <labels>
+        <fullName>Current_Period_Start_Date</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Current Period Start Date</shortDescription>
+        <value>2021-08-07</value>
+    </labels>
+    <labels>
+        <fullName>DeleteProcessingPeriod</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeleteProcessingPeriod</shortDescription>
+        <value>14</value>
+    </labels>
+    <labels>
+        <fullName>Direct_Portfolio</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Direct_Portfolio</shortDescription>
+        <value>IP Routing,Fixed Network</value>
+    </labels>
+    <labels>
+        <fullName>Direct_Price_List</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Direct Price List</shortDescription>
+        <value>Direct Pricelist FN (USD)</value>
+    </labels>
+    <labels>
+        <fullName>Duplicate_SerialNumber</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HWS Duplicate SerialNumber</shortDescription>
         <value>https://nokia.lightning.force.com/</value>
+    </labels>
+    <labels>
+        <fullName>Duplicate_SerialNumber_Portal</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HWS Duplicate SerialNumber Portal</shortDescription>
+        <value>https://nokiapartners.force.com/customers/s/case/</value>
+    </labels>
+    <labels>
+        <fullName>EDUT_Invalid_Subjects</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>description</shortDescription>
+        <value>Vacation alert,On Vacation,Out of Office,OoO,OOO,Thank you for your mail!,Automatyczna odpowiedź,Automatic reply,Automatikus válasz,Automaattinen vastaus,Автоматический ответ,Réponse automatique,Automatische,Antwort,Resposta,Automática,Respuesta automática,Răspuns automat,การตอบกลับอัตโนมัติ,自動回覆,自动答复,Delivery Report,Undelivered Mail Returned to Sender,Suspected SPAM,HR Connections Americas Mailbox,Undeliverable:,Mail Delivery Subsystem, Returned email:,Holiday</value>
+    </labels>
+    <labels>
+        <fullName>G3_Strategy_Submit_Faciliator_Treshold</fullName>
+        <categories>CRM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>G3 Strategy Submit Faciliator Treshold</shortDescription>
+        <value>5000000</value>
+    </labels>
+    <labels>
+        <fullName>HWS_Archived_Case_No_Owner</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HWS Archived Case No Owne</shortDescription>
+        <value>0053h000004rx4D</value>
+    </labels>
+    <labels>
+        <fullName>HWS_PO_MISSING</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HWS_PO_MISSING Created as part of NOKIASC-34275</shortDescription>
+        <value>Purchase Order Number Missing , Press OK to refer this to a Nokia Specialist</value>
+    </labels>
+    <labels>
+        <fullName>HWS_RCA_FMA_SharePointEmail</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HWS RCA-FMA SharePointEmail</shortDescription>
+        <value>global.fma-returns@nokia.com</value>
+    </labels>
+    <labels>
+        <fullName>HWS_RedTagFMACaseNumberNotExistsError</fullName>
+        <categories>HWS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HWS RedTagFMA CaseNumber Not Exists Error</shortDescription>
+        <value>Ticket Number you provided does not exist. Please enter a valid software ticket number in the Related Software Ticket Number field</value>
+    </labels>
+    <labels>
+        <fullName>HWS_RedTagFMAInvalidServiceTypeError</fullName>
+        <categories>HWS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HWS RedTagFMA Invalid ServiceType Error</shortDescription>
+        <value>Please enter a valid software ticket number in the Related Software Ticket Number field</value>
+    </labels>
+    <labels>
+        <fullName>HWS_RedTagFMALegalEnityMismatchError</fullName>
+        <categories>HWS</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HWS RedTagFMA Legal Enity Mismatch Error</shortDescription>
+        <value>The Legal Entity listed on the software ticket, does not match. Please enter a software ticket number with matching Legal Entity</value>
+    </labels>
+    <labels>
+        <fullName>HWS_Referral_Instruction_Event</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HWS Referral Instruction Event</shortDescription>
+        <value>True</value>
+    </labels>
+    <labels>
+        <fullName>HWS_Referral_Instruction_Time</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HWS Referral Instruction Time</shortDescription>
+        <value>100000</value>
+    </labels>
+    <labels>
+        <fullName>HWS_Report_Count_Validation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Report Count Validation</shortDescription>
+        <value>Timeout issue. Please apply or adjust search filters to limit the results to max 5000 rows or click on download standard reports link for more reporting options.</value>
+    </labels>
+    <labels>
+        <fullName>HWS_Report_Count_Validation_CSV</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Report Count Validation CSV</shortDescription>
+        <value>Timeout issue. Please apply or adjust search filters to limit the results to max 5000 rows or click on download standard reports link for more reporting options.</value>
+    </labels>
+    <labels>
+        <fullName>HWS_Review_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HWS Review Message</shortDescription>
+        <value>No review required here, please check at parent case level for review.</value>
+    </labels>
+    <labels>
+        <fullName>HWS_SOOCallRequired</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HWS_SOOCallRequired</shortDescription>
+        <value>true</value>
+    </labels>
+    <labels>
+        <fullName>HWS_WCheck_ALL_IW</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HWS_WCheck_ALL_IW</shortDescription>
+        <value>Please click Validate &amp; Submit Button</value>
+    </labels>
+    <labels>
+        <fullName>HWS_WCheck_Few_OOW</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HWS_WCheck_Few_OOW</shortDescription>
+        <value>As per the contractual agreement any serial numbers which are Out Of Warranty will not be processed. ​Please review and apply any changes prior to validating and submitting your request</value>
+    </labels>
+    <labels>
+        <fullName>HWS_WCheck_Few_OOW_Cancel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HWS_WCheck_Few_OOW_Cancel</shortDescription>
+        <value>Validated and successfully submitted and Out Of Warranty cancelled as per contractual agreement</value>
+    </labels>
+    <labels>
+        <fullName>HWS_WCheck_OOW</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HWS_WCheck_OOW</shortDescription>
+        <value>As per the contractual agreement any serial numbers which are Out of Warranty will not be processed. Please review and apply any changes to the highlighted items prior to validating and submitting your request.</value>
+    </labels>
+    <labels>
+        <fullName>HWS_WCheck_SUBMIT</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HWS_WCheck_SUBMIT</shortDescription>
+        <value>Your request has been processed as per the contractual agreement. A detailed summary of your request will be provided via email.</value>
+    </labels>
+    <labels>
+        <fullName>HWS_WCheck_UnKnowns</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HWS_WCheck_UnKnowns</shortDescription>
+        <value>Nokia was unable to determine the Warranty and/or Quotation is required for one or more items.Please validate/correct any serial numbers with unknown warranty and SUBMIT or Press OK to route this request to a Nokia specialist</value>
+    </labels>
+    <labels>
+        <fullName>HWS_WCheck_UnKnowns_Escalated</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HWS_WCheck_UnKnowns_Escalated</shortDescription>
+        <value>The case has been escalated to a Nokia Specialist</value>
+    </labels>
+    <labels>
+        <fullName>HWS_WCheck_VALIDATE_SUBMIT</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HWS_WCheck_VALIDATE_SUBMIT</shortDescription>
+        <value>As per the contractual agreement these serial numbers will be processed. Please click Validate and Submit.</value>
+    </labels>
+    <labels>
+        <fullName>LeadBGbypassforallmarket</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Req4534-&quot;Pre-approved price list for Account Manager&quot; for all markets</shortDescription>
+        <value>MN;CNS;NI</value>
+    </labels>
+    <labels>
+        <fullName>Lead_MN_UpsellDeltaValue</fullName>
+        <categories>Value</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Lead_MN_UpsellDeltaValue</shortDescription>
+        <value>-100000</value>
+    </labels>
+    <labels>
+        <fullName>Lead_NI_CNS_UpsellDeltaValue</fullName>
+        <categories>Value</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Lead_NI_CNS_UpsellDeltaValue</shortDescription>
+        <value>-500000</value>
+    </labels>
+    <labels>
+        <fullName>Market_India</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Market India</shortDescription>
+        <value>0052M000008qgZs</value>
+    </labels>
+    <labels>
+        <fullName>Market_NFS</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Market NFS</shortDescription>
+        <value>0052M000008qsZh</value>
+    </labels>
+    <labels>
+        <fullName>Market_North_America_Business_Ops</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Market North America Business Ops</shortDescription>
+        <value>0053h000000REetAAG</value>
+    </labels>
+    <labels>
+        <fullName>MasterData_FloorPrice</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MasterData_FloorPrice</shortDescription>
+        <value>Floor Pricing</value>
+    </labels>
+    <labels>
+        <fullName>MasterData_MarketPriceLists</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MasterData_MarketPriceLists</shortDescription>
+        <value>APJ Market Price List (USD),EMEA Market Price List (USD),LATAM Market Price List (USD),NA Market Price List (USD)</value>
+    </labels>
+    <labels>
+        <fullName>MasterData_RepriceQuoteStages</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MasterData_RepriceQuoteStages</shortDescription>
+        <value>Draft,Approval Required,In Review,Requires Approval,Required Approval,Pending Approval</value>
+    </labels>
+    <labels>
+        <fullName>NCPAlcrId</fullName>
+        <categories>NCP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NCPAlcrId</shortDescription>
+        <value>ALCR</value>
+    </labels>
+    <labels>
+        <fullName>NCPSecAlcrId</fullName>
+        <categories>NCP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NCPSecAlcrId</shortDescription>
+        <value>nokiaSecAlcrId</value>
+    </labels>
+    <labels>
+        <fullName>NCP_ACTASProfile</fullName>
+        <categories>NCP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NCP_ACTASProfile</shortDescription>
+        <value>PRM Unauthorized Partner User Login;PRM Partner Community User Login;PRM Partner Relationship Manager Login</value>
+    </labels>
+    <labels>
+        <fullName>NCP_Case_End_Status</fullName>
+        <categories>NCP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NCPCaseEndStatus</shortDescription>
+        <value>Closed,Cancelled,Completed,Rejected</value>
+    </labels>
+    <labels>
+        <fullName>NCP_JITCommonErrorMessage</fullName>
+        <categories>NCP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NCP_JITCommonErrorMessage</shortDescription>
+        <value>. For faster resolution, please attach the error screenshot.</value>
+    </labels>
+    <labels>
+        <fullName>NCP_NDAChatbotURL</fullName>
+        <categories>NCP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NCP_NDAChatbotURL</shortDescription>
+        <value>https://digital-assistant.nokia.com/saml/login?botId=16&amp;parentKey=BCD504E10C</value>
+    </labels>
+    <labels>
+        <fullName>NCP_Separator</fullName>
+        <categories>NCP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NCP_Separator</shortDescription>
+        <value>;</value>
+    </labels>
+    <labels>
+        <fullName>NCP_ThreeDot</fullName>
+        <categories>NCP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NCP_ThreeDot</shortDescription>
+        <value>...</value>
+    </labels>
+    <labels>
+        <fullName>NCP_page_not_found_explanation</fullName>
+        <categories>NCP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NCP page not found explanation</shortDescription>
+        <value>Sorry,  you have reached this page as you may not have sufficient privileges or you are not allowed to see the content due to data security measures.</value>
+    </labels>
+    <labels>
+        <fullName>NCP_upgrade_service_request</fullName>
+        <categories>NCP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NCP_upgrade_service_request</shortDescription>
+        <value>Your Service Request is being reviewed</value>
+    </labels>
+    <labels>
+        <fullName>NCP_upgrade_service_request_description</fullName>
+        <categories>NCP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NCP_upgrade_service_request_description</shortDescription>
+        <value>Your request has been sent and is currently being reviewed. Kindly reach out to CaPM if your request has been granted.</value>
+    </labels>
+    <labels>
+        <fullName>NDAURL</fullName>
+        <categories>NDA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NDAURL</shortDescription>
+        <value>https://digital-assistant.nokia.com/saml/login?idp=extrafed&amp;botId=16&amp;question=analyse case%20{0}&amp;parentKey=PG026XCJ7K</value>
+    </labels>
+    <labels>
+        <fullName>NF_Email_Backup_Admin_Assignment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email IDs for Sales Role Batch Job - Backup Admin Assignments</shortDescription>
+        <value>keith.siler@nokia.com, crm.tier2_admin@nokia.com</value>
+    </labels>
+    <labels>
+        <fullName>NF_Email_Duplicate_Batch_APAC</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email IDs for Batch - Duplicate Entries for APAC</shortDescription>
+        <value>laurentius.lingga@nokia.com,manish.dhingra@nokia.com, crm.tier2_admin@nokia.com</value>
+    </labels>
+    <labels>
+        <fullName>NF_Email_Duplicate_Batch_EUROPE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email IDs for Batch- Duplicate Entries for Europ</shortDescription>
+        <value>yassine.almiaadi@nokia.com, oleg.parilov@nokia.com, crm.tier2_admin@nokia.com</value>
+    </labels>
+    <labels>
+        <fullName>NF_Email_Duplicate_Batch_GCHN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email IDs for Batch - Duplicate Entries for GCHN</shortDescription>
+        <value>mei.gao@nokia-sbell.com, deqin.cao@nokia-sbell.com, crm.tier2_admin@nokia.com</value>
+    </labels>
+    <labels>
+        <fullName>NF_Email_Duplicate_Batch_Global</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email IDs for Batch - Duplicate Entries Global</shortDescription>
+        <value>crm.tier2_admin@nokia.com</value>
+    </labels>
+    <labels>
+        <fullName>NF_Email_Duplicate_Batch_INDIA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email IDs for Batch - Duplicate Entries for India</shortDescription>
+        <value>ashok.wadhwa@nokia.com, ajay.sethi@nokia.com, crm.tier2_admin@nokia.com</value>
+    </labels>
+    <labels>
+        <fullName>NF_Email_Duplicate_Batch_LAT</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email IDs for Batch - Duplicate Entries for LAT</shortDescription>
+        <value>roberto.moreno@nokia.com, tania.perez@nokia.com, crm.tier2_admin@nokia.com</value>
+    </labels>
+    <labels>
+        <fullName>NF_Email_Duplicate_Batch_MEA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email IDs for Batch - Duplicate Entries for MEA</shortDescription>
+        <value>lutfur.russell@nokia.com,carel.terblanche@nokia.com, crm.tier2_admin@nokia.com</value>
+    </labels>
+    <labels>
+        <fullName>NF_Email_Duplicate_Batch_NAM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email IDs for Batch- Duplicate Entries for NAM</shortDescription>
+        <value>geraldine.pell@nokia.com,amanda.salvarani@nokia.com, crm.tier2_admin@nokia.com</value>
+    </labels>
+    <labels>
+        <fullName>NF_Email_Duplicate_Batch_No_Duplicate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NF_Email_Duplicate_Batch_No_Duplicate</shortDescription>
+        <value>crm.tier2_admin@nokia.com</value>
+    </labels>
+    <labels>
+        <fullName>NF_Email_Duplicate_Same_Batch</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email IDs for Sales Role Batch Job - Gaps &amp; Duplicate</shortDescription>
+        <value>crm.tier2_admin@nokia.com</value>
+    </labels>
+    <labels>
+        <fullName>NF_Email_Gaps_Batch_Global</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email IDs for Batch- Missing Entries for Global</shortDescription>
+        <value>renaud.mary@nokia.com,keith.siler@nokia.com,geraldine.pell@nokia.com,yassine.almiaadi@nokia.com,I_GSS_TIER2ADMIN@nokia.com</value>
+    </labels>
+    <labels>
+        <fullName>NF_Email_Gaps_Batch_Latin_America</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NF_Email_Gaps_Batch_Latin_America</shortDescription>
+        <value>renaud.mary@nokia.com,keith.siler@nokia.com,tania.perez@nokia.com</value>
+    </labels>
+    <labels>
+        <fullName>NF_Email_Gaps_Batch_Market_Asia_Pacific_Japan</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NF_Email_Gaps_Batch_Market_Asia_Pacific_Japan</shortDescription>
+        <value>renaud.mary@nokia.com,keith.siler@nokia.com, sandra.yang@nokia.com,rahul.1.seth@nokia.com</value>
+    </labels>
+    <labels>
+        <fullName>NF_Email_Gaps_Batch_Market_NFS</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NF_Email_Gaps_Batch_Market_NFS</shortDescription>
+        <value>geraldine.pell@nokia.com, amanda.salvarani@nokia.com, keith.siler@nokia.com</value>
+    </labels>
+    <labels>
+        <fullName>NF_Email_Gaps_Batch_North_America</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NF_Email_Gaps_Batch_Co_America</shortDescription>
+        <value>renaud.mary@nokia.com,keith.siler@nokia.com,amanda.salvarani@nokia.com,geraldine.pell@nokia.com</value>
+    </labels>
+    <labels>
+        <fullName>NF_Market_NFS</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NF_Market_NFS</shortDescription>
+        <value>Market NFS</value>
+    </labels>
+    <labels>
+        <fullName>NF_Offer_LoA_Level_Validation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NF_Offer_LoA_Level_Validation</shortDescription>
+        <value>Please create an offer with Approval Level to proceed.</value>
+    </labels>
+    <labels>
+        <fullName>NF_PSRO_OC_RO</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NF_PSRO_OC_RO</shortDescription>
+        <value>You are not authorized to submit the request (level A escalation), please add involved Offer Controller (for MN/CNS) or the BG controller (for NI) to Opportunity Team by assigning them the role of “Offer Controller”, then contact them to submit the request.</value>
+    </labels>
+    <labels>
+        <fullName>NF_PrM_LoABypass</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NF_PrM_LoABypass</shortDescription>
+        <value>Only User added in Offer/Opportunity Team with Team Role as &quot;Pricing Manager&quot; or &quot;Pricing Manager (Lead)&quot; (Primary role, not Additional) can select &quot;G4/G5 Bypass Offer Condition&quot; field with &quot;Authorized for Pricing Manager&quot; value.</value>
+    </labels>
+    <labels>
+        <fullName>NF_Upsell_BG</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Req: 5216, BGs for additional validation</shortDescription>
+        <value>NI</value>
+    </labels>
+    <labels>
+        <fullName>NokiaCPQ_InReview_DirectQuote</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NokiaCPQ_InReview_DirectQuote</shortDescription>
+        <value>Quote is In Review. Please send the opportunity for G4/G5 approval.</value>
+    </labels>
+    <labels>
+        <fullName>OIF_Upside_and_Risk_Threshold</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OIF Upside and Risk Threshold</shortDescription>
+        <value>2000000</value>
+    </labels>
+    <labels>
+        <fullName>Offer_Team_creation_warning_message</fullName>
+        <categories>Warning Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Offer Team creation warning message</shortDescription>
+        <value>Thank you for ensuring the Bid Manager, Tricorn roles (Sales Case Owner, Customer Solution Owner, Project Execution Owner), the Lead roles (Solution manager, Pricing Manager, Service Solution Manager).</value>
+    </labels>
+    <labels>
+        <fullName>OppStageForPriceListUpdation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OppStageForPriceListUpdation</shortDescription>
+        <value>Identify Opportunity,Develop Opportunity,Create Offer (Bid)</value>
+    </labels>
+    <labels>
+        <fullName>PRM_GSS_Mail</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PRM GSS Mail</shortDescription>
+        <value>gss.partnersupport@nokia.com</value>
+    </labels>
+    <labels>
+        <fullName>PRM_Other_Markets</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PRM Other Markets</shortDescription>
+        <value>00541000002bIsr</value>
+    </labels>
+    <labels>
+        <fullName>PSRO_Threshold_send_Mail</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PSRO Market Threshold - send email List</shortDescription>
+        <value>NSNA_BGFPA;NSNB_BGFPA;</value>
+    </labels>
+    <labels>
+        <fullName>PSR_Sales_Value_BU_NI_FN_Percentage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PSR Sales Value BU NI - FN Percentage</shortDescription>
+        <value>55</value>
+    </labels>
+    <labels>
+        <fullName>PSR_Sales_Value_BU_NI_IPRTG_Percentage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PSR Sales Value BU NI - IPRTG Percentage</shortDescription>
+        <value>40</value>
+    </labels>
+    <labels>
+        <fullName>PSR_Sales_Value_BU_NI_OPTICS_Percentage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PSR Sales Value BU NI - OPTICS Percentage</shortDescription>
+        <value>60</value>
+    </labels>
+    <labels>
+        <fullName>PSR_Sales_Value_CNS_Percentage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PSR Sales Value CNS Percentage</shortDescription>
+        <value>45</value>
+    </labels>
+    <labels>
+        <fullName>PSR_Sales_Value_MN_Percentage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PSR Sales Value MN Percentage</shortDescription>
+        <value>62</value>
+    </labels>
+    <labels>
+        <fullName>Partner_Oppty_BG_BU_Banner</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Partner Oppty BG BU Banner</shortDescription>
+        <value>The BG/BU mapping has changed as below:
+
+MN=  MN Lead BU: MN
+FN = NI  Lead BU: NI-FN
+ION = NI  Lead BU: NI-IPRTG or NI-Optics
+NEN = CNS  Lead BU: CNS
+NSW = CNS  Lead BU: CNS</value>
+    </labels>
+    <labels>
+        <fullName>Permission_Set_Access_Pre_Approved</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Permission Set Access Pre Approved</shortDescription>
+        <value>Nokia_CPQ_Pricing_Manager</value>
+    </labels>
+    <labels>
+        <fullName>Pre_Approved</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pre_Approved</shortDescription>
+        <value>Pre Approved Custom Products</value>
+    </labels>
+    <labels>
+        <fullName>Pre_Approved_Product</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pre Approved Products Notification Delay Days</shortDescription>
+        <value>90</value>
+    </labels>
+    <labels>
+        <fullName>QTC_Order_EAI_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>QTC Order EAI Label</shortDescription>
+        <value>https://naipgeneric.ext.net.nokia.com:443/ws/ALU_SCPQ.source.AddQuote003.webServices.provider:processAddQuoteAdd_WSD</value>
+    </labels>
+    <labels>
+        <fullName>Restrict_Reference_Oppty</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Restrict Reference Oppty</shortDescription>
+        <value>Reference Opportunity should be G4 Approved For Opportunity with Active Offer and without G4/G5 Bypass.</value>
+    </labels>
+    <labels>
+        <fullName>SSF_CSV_Header</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SSF_CSV_Header</shortDescription>
+        <value>Tool|Version</value>
+    </labels>
+    <labels>
+        <fullName>SSF_Upload</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SSF_Upload</shortDescription>
+        <value>SSF Upload</value>
+    </labels>
+    <labels>
+        <fullName>SharePointEndpointURLOfferSync</fullName>
+        <categories>https://frqameai-med1.zeu.alcatel-lucent.com:1057/ws/vs_Internal_MED_SyncQuoteUpdate_Proxy_QAM</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SharePointEndpointURLOfferSync</shortDescription>
+        <value>https://naipgeneric.ext.net.nokia.com:443/ws/ALU_SalesForce.source.SyncQuoteUpdate.webServices.provider:syncQuoteUpdate</value>
+    </labels>
+    <labels>
+        <fullName>Site_Phase_Allocation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site Phase Allocation</shortDescription>
+        <value>Site/Phase</value>
+    </labels>
+    <labels>
+        <fullName>Validate_Unweighted_Value</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Req- 4215:Validate Unweighted Value for LoA Bypass cases</shortDescription>
+        <value>You cannot request a Gate Bypass for this opportunity as total OIF(s) for same BU exceeds €5M. Please remove/change the &quot;G4/G5 Bypass offer condition&quot; in the offer.</value>
+    </labels>
+    <labels>
+        <fullName>Validation_Error_Message_For_LoA_Bypass_Offer_Condition_Field_Of_Offer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Validation Error Message For LoA Bypass Offer Condition Field Of Offer</shortDescription>
+        <value>Only User added in Oppty/Offer Team with Team Role as &quot;Pricing Manager&quot; or &quot;Pricing Manager (Lead)&quot; (Primary role, not Additional) can select &quot;G4/G5 Bypass Offer Condition&quot; field with &quot;Authorized for Pricing Manager&quot; value.</value>
     </labels>
 </CustomLabels>
