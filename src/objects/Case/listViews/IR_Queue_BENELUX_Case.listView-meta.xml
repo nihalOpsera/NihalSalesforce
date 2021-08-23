@@ -5,6 +5,6 @@
     <label>IR Queue BENELUX</label>
     <queue>IR_Queue_BENELUX</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>
