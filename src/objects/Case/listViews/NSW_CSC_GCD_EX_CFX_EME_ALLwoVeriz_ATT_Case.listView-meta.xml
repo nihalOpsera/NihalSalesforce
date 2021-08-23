@@ -5,6 +5,6 @@
     <label>NSW_CSC-GCD_EX_CFX-EME_ALLwoVeriz-ATT</label>
     <queue>NSW_CSC_GCD_EX_CFX_EME_ALLwoVeriz_ATT</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

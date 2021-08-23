@@ -5,6 +5,6 @@
     <label>WT-NAR-Offers</label>
     <queue>WT_NAR_Offers</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

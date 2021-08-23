@@ -5,6 +5,6 @@
     <label>na-proposals</label>
     <queue>na_proposals</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

@@ -5,6 +5,6 @@
     <label>HWS Admin Queue</label>
     <queue>HWS_Admin_Queue</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

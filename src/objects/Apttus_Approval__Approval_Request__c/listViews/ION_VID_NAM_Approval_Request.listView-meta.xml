@@ -5,6 +5,6 @@
     <label>ION-VID-NAM</label>
     <queue>ION_VID_NAM</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>
