@@ -5,6 +5,6 @@
     <label>GS-MN_C_CSS-fNok_EX_AS_5G-TC30_ALL</label>
     <queue>GS_MN_C_CSS_fNok_EX_AS_5G_TC30_ALL</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

@@ -5,6 +5,6 @@
     <label>NSW-Core_IM_MEA</label>
     <queue>NSW_Core_IM_MEA</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

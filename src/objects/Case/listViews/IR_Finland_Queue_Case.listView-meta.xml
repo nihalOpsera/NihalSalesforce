@@ -5,6 +5,6 @@
     <label>IR Finland Queue</label>
     <queue>IR_Finland_Queue</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

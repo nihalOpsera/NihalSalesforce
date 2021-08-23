@@ -5,6 +5,6 @@
     <label>TEST_IAES_R_All-Products_Dummy-Test</label>
     <queue>TEST_IAES_R_All_Products_Dummy_Test</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

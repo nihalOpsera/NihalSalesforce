@@ -5,6 +5,6 @@
     <label>NSW_CSC-GCD_EN_SDM-EME_CG-WORLD-L2IwoIND</label>
     <queue>NSW_CSC_GCD_EN_SDM_EME_CG_WORLD_L2IwoIND</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

@@ -5,6 +5,6 @@
     <label>CSecR GSS - GMS</label>
     <queue>CSecR_GSS_GMS</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>
