@@ -5,6 +5,6 @@
     <label>Marketing Queue</label>
     <queue>Marketing_Queue</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

@@ -5,6 +5,6 @@
     <label>GWC</label>
     <queue>GWC</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

@@ -5,6 +5,6 @@
     <label>NSW_CSC-GCD_EN_CLOUD-EME_ALL</label>
     <queue>NSW_CSC_GCD_EN_CLOUD_EME_ALL</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>
