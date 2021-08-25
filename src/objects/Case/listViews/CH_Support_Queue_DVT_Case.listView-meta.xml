@@ -17,6 +17,6 @@
     <label>CH &amp; HWS Support Queue - DV&amp;T</label>
     <queue>CH_Support_Queue_DV_T</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

@@ -5,6 +5,6 @@
     <label>NSB-GWC_All-Products_NSB-Customers</label>
     <queue>NSB_GWC_All_Products_NSB_Customers</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

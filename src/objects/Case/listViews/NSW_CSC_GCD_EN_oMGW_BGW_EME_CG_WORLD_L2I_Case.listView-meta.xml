@@ -5,6 +5,6 @@
     <label>NSW_CSC-GCD_EN_oMGW-BGW-EME_CG-WORLD-L2I</label>
     <queue>NSW_CSC_GCD_EN_oMGW_BGW_EME_CG_WORLD_L2I</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

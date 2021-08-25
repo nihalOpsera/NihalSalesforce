@@ -22,6 +22,6 @@
     </filters>
     <label>Tier 2 - GSS</label>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

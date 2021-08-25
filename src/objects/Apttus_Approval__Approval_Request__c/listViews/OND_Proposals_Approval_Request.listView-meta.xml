@@ -5,6 +5,6 @@
     <label>OND-Proposals</label>
     <queue>OND_Proposals</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>
