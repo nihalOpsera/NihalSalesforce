@@ -5,6 +5,6 @@
     <label>NSW-SPR-NAM</label>
     <queue>A_A_Sprint</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

@@ -5,6 +5,6 @@
     <label>GS-MN_C-GDC-E-fnok_EN_IS_Radio_EE</label>
     <queue>GS_MN_C_GDC_E_fnok_EN_IS_Radio_EE</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

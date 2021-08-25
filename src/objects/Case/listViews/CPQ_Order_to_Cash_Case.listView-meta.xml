@@ -5,6 +5,6 @@
     <label>CPQ-Order-to-Cash</label>
     <queue>CPQ_Order_to_Cash</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

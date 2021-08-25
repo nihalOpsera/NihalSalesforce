@@ -12,6 +12,6 @@
     <label>GS_ST1_R_Dispatcher_PRT_All-Customers</label>
     <queue>GS_ST1_R_Dispatcher_PRT_All_Customers</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

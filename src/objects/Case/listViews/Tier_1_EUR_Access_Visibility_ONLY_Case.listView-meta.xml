@@ -5,6 +5,6 @@
     <label>Tier 1-EUR (Access/Visibility ONLY)</label>
     <queue>Tier_1_EUR_Access_Visibility_ONLY</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

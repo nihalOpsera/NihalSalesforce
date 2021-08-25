@@ -5,6 +5,6 @@
     <label>NSW_CSC-GCD_EX_PG-CloudInfrastrcture_ALL</label>
     <queue>NSW_CSC_GCD_EX_PG_CloudInfrastrcture_ALL</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>
