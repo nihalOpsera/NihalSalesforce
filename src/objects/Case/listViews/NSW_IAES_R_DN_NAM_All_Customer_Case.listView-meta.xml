@@ -5,6 +5,6 @@
     <label>NSW_IAES_R_DN_NAM_All-Customers</label>
     <queue>NSW_IAES_R_DN_NAM_All_Customers</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

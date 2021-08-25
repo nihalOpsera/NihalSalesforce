@@ -5,6 +5,6 @@
     <label>NSW-Core_IM_NAM</label>
     <queue>NSW_Core_IM_NAM</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

@@ -5,6 +5,6 @@
     <label>GS_IS_R_WCDMA_MJO_APJ_All-Customers</label>
     <queue>GS_IS_R_WCDMA_MJO_APJ_All_Customers</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

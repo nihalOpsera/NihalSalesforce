@@ -5,6 +5,6 @@
     <label>NSW_CSC-GCD_EX_HSS-NT-HLR_ALL</label>
     <queue>NSW_CSC_GCD_EX_HSS_NT_HLR_ALL</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

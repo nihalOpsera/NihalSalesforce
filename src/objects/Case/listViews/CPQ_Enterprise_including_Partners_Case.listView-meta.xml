@@ -5,6 +5,6 @@
     <label>CPQ-Enterprise ( including Partners)</label>
     <queue>CPQ_Enterprise_including_Partners</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

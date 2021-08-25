@@ -5,6 +5,6 @@
     <label>CPQ-NAM Contracted Quote</label>
     <queue>CPQ_NAM_Contracted_Quote</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>
