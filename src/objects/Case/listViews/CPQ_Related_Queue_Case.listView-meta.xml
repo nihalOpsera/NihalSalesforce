@@ -27,6 +27,6 @@
     </filters>
     <label>Tier 2-CPQ Related Queue</label>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

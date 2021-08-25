@@ -5,6 +5,6 @@
     <label>ION_ES_R_PaCo-IP-Control_Global_All-Cust</label>
     <queue>ION_ES_R_PaCo_IP_Control_Global_All_Cust</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

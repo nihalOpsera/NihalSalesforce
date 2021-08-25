@@ -5,6 +5,6 @@
     <label>CPQ- General Issues</label>
     <queue>CPQ_General_Issues</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

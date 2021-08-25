@@ -17,6 +17,6 @@
     <label>CH &amp; HWS Support Queue - Security Group</label>
     <queue>CH_Support_Queue_Security_Group</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>
