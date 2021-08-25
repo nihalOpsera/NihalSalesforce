@@ -5,6 +5,6 @@
     <label>GS_IAES_R_NCS_Global_All-Customers</label>
     <queue>GS_IAES_R_NCS_Global_All_Customers</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

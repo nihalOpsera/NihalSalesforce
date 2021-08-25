@@ -5,6 +5,6 @@
     <label>GS-MN_C-GDC-E-fnok_EN_IS_SRAN_EUR-LAT</label>
     <queue>GS_MN_C_GDC_E_fnok_EN_IS_SRAN_EUR_LAT</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

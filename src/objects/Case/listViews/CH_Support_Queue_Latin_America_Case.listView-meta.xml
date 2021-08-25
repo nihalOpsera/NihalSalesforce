@@ -5,6 +5,6 @@
     <label>CH SWS Support Queue - LAT</label>
     <queue>CH_Support_Queue_Latin_America</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

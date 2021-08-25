@@ -5,6 +5,6 @@
     <label>NSW_CSC-GCD_EN_CS-VoLTE-EME_CG-EUR1</label>
     <queue>NSW_CSC_GCD_EN_CS_VoLTE_EME_CG_EUR1</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

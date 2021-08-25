@@ -5,6 +5,6 @@
     <label>LAT ION VID Market Latin America</label>
     <queue>LAT_ION_VID_Market_Latin_America</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

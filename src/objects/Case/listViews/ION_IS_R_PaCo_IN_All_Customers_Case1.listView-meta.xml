@@ -5,6 +5,6 @@
     <label>ION_C_EN_R_PaCo_IN</label>
     <queue>ION_C_EN_R_PaCo_IN</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>
