@@ -13,7 +13,7 @@
     <language>en_US</language>
     <queue>IR_Queue_USA_NSA</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
         <roleAndSubordinatesInternal>Global</roleAndSubordinatesInternal>
     </sharedTo>
 </ListView>

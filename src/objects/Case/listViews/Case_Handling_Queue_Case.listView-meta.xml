@@ -5,6 +5,6 @@
     <label>Case Handling Queue</label>
     <queue>Case_Handling_Queue</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>
