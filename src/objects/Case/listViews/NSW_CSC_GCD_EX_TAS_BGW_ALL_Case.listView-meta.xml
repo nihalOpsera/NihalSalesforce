@@ -5,6 +5,6 @@
     <label>NSW_CSC-GCD_EX_TAS-BGW_ALL</label>
     <queue>NSW_CSC_GCD_EX_TAS_BGW_ALL</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

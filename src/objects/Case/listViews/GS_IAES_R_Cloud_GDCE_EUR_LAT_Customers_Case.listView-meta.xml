@@ -5,6 +5,6 @@
     <label>GS_IAES_R_Cloud_GDCE_EUR_LAT-Customers</label>
     <queue>GS_IAES_R_Cloud_GDCE_EUR_LAT_Customers</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

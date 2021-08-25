@@ -18,6 +18,6 @@
     <label>Tier 3 - COE</label>
     <queue>Tier_3_COE</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

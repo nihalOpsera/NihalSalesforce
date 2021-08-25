@@ -5,6 +5,6 @@
     <label>NSW-Core_IM_LAT</label>
     <queue>NSW_Core_IM_LAT</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

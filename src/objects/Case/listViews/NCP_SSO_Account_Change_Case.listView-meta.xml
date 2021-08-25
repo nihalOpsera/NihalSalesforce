@@ -13,6 +13,6 @@
     <label>NCP SSO Account Change</label>
     <queue>NCP_SSO_Account_Change</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>
