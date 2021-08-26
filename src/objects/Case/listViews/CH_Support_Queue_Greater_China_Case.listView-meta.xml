@@ -5,6 +5,6 @@
     <label>CH SWS Support Queue - GCH</label>
     <queue>CH_Support_Queue_Greater_China</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

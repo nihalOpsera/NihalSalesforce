@@ -52,6 +52,6 @@
     </filters>
     <label>IR Queue Microwave</label>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

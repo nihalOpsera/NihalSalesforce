@@ -5,6 +5,6 @@
     <label>NSW_CSC-GCD_EX_HSS-EME_ALLwoVerizon</label>
     <queue>NSW_CSC_GCD_EX_HSS_EME_ALLwoVerizon</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

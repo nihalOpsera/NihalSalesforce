@@ -5,6 +5,6 @@
     <label>NSW-Core_IM_EUR</label>
     <queue>NSW_Core_IM_EUR</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

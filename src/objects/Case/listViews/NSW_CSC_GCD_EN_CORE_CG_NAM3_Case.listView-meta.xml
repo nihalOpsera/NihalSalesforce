@@ -5,6 +5,6 @@
     <label>NSW_CSC-GCD_EN_CORE_CG-NAM3</label>
     <queue>NSW_CSC_GCD_EN_CORE_CG_NAM3</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>
