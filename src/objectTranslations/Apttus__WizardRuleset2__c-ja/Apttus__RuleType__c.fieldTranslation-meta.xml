@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>実行時ウィザードフローをナビゲートするルールタイプはフォーカスオブジェクトとレコードタイプを決定します</help>
+    <label></label>
+    <name>Apttus__RuleType__c</name>
+    <picklistValues>
+        <masterLabel>Determine Focus Object</masterLabel>
+        <translation>フォーカスオブジェクトを決定</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Determine Record Type</masterLabel>
+        <translation>レコードタイプを決定</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Disable This Control</masterLabel>
+        <translation>このコントロールを無効化</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Enable This Control</masterLabel>
+        <translation>このコントロールを有効化</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Go To Abort</masterLabel>
+        <translation>中止に進む</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Go To Step</masterLabel>
+        <translation>ステップに進む</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Go To Submit</masterLabel>
+        <translation>送信へ進む</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hide This Control</masterLabel>
+        <translation>このコントロールを非表示</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Set This Control Value</masterLabel>
+        <translation>このコントロールの値を設定</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Show This Control</masterLabel>
+        <translation>このコントロールを表示</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Apttus__ProtectionLevel__c</name>
+    <picklistValues>
+        <masterLabel>Fill in form fields only</masterLabel>
+        <translation>フォームフィールドのみ入力</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Full access</masterLabel>
+        <translation>フルアクセス</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insert comments and tracked changes only</masterLabel>
+        <translation>コメントと変更履歴のみ挿入</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insert comments only</masterLabel>
+        <translation>コメントのみ挿入</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Read only</masterLabel>
+        <translation>読み取り専用</translation>
+    </picklistValues>
+</CustomFieldTranslation>

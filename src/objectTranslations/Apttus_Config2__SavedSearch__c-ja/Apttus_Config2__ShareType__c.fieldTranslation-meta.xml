@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>共有タイプ</help>
+    <label></label>
+    <name>Apttus_Config2__ShareType__c</name>
+    <picklistValues>
+        <masterLabel>private</masterLabel>
+        <translation>プライベート</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>public</masterLabel>
+        <translation>パブリック</translation>
+    </picklistValues>
+</CustomFieldTranslation>

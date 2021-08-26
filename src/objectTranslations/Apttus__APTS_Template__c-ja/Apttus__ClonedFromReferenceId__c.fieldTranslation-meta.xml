@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>コピーされた条項またはコピーされてきたテンプレートの参照識別子</help>
+    <label></label>
+    <name>Apttus__ClonedFromReferenceId__c</name>
+</CustomFieldTranslation>

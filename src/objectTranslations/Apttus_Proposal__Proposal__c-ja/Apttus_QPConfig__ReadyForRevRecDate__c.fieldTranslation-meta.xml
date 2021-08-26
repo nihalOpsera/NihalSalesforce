@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>オーダー収益認識準備できた日。収益スケジュールはこの日に作成されます</help>
+    <label></label>
+    <name>Apttus_QPConfig__ReadyForRevRecDate__c</name>
+</CustomFieldTranslation>

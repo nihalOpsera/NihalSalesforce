@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Rollupやリベート計算が必要とする期間が実行されます。指定された期間内のみの入力レコードが処理のために選択されます</help>
+    <label></label>
+    <name>Apttus_Config2__CalculationPeriod__c</name>
+    <picklistValues>
+        <masterLabel>Current Half Year</masterLabel>
+        <translation>現在の半年</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Current Month</masterLabel>
+        <translation>今月</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Current Quarter</masterLabel>
+        <translation>今四半期</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Current Year</masterLabel>
+        <translation>本年度</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Default Period</masterLabel>
+        <translation>初期期間</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fixed Date</masterLabel>
+        <translation>期日</translation>
+    </picklistValues>
+</CustomFieldTranslation>

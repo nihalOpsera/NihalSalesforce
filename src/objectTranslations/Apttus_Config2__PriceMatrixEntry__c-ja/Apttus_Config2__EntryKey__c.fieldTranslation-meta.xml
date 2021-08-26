@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>エントリーキーがキーマトリックス価格設定で利用されています。ディメンションマトリックスのみ適用されます</help>
+    <label></label>
+    <name>Apttus_Config2__EntryKey__c</name>
+</CustomFieldTranslation>

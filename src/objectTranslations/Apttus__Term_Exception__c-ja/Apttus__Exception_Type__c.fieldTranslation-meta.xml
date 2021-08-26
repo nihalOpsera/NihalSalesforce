@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Apttus__Exception_Type__c</name>
+    <picklistValues>
+        <masterLabel>Corporate</masterLabel>
+        <translation>会社</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>その他</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Procurement</masterLabel>
+        <translation>調達</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales</masterLabel>
+        <translation>販売</translation>
+    </picklistValues>
+</CustomFieldTranslation>

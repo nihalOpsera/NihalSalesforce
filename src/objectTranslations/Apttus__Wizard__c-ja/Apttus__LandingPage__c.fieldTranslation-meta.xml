@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>すべての質問が完了したときにウィザードが落ちる必要があるページ。初期ではレコードになります</help>
+    <label></label>
+    <name>Apttus__LandingPage__c</name>
+</CustomFieldTranslation>

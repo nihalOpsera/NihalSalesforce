@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>順番が表示されるためには、この入力を続行すべきかを示します。形態（1）（1 OR 2）（1 AND 2）等</help>
+    <label></label>
+    <name>Apttus__Precedence__c</name>
+</CustomFieldTranslation>

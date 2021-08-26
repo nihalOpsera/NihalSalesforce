@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>定期的なジョブを実行する頻度を指定します。例）6時間ごと</help>
+    <label></label>
+    <name>Apttus_Config2__JobRecurrenceFrequencyValue__c</name>
+</CustomFieldTranslation>

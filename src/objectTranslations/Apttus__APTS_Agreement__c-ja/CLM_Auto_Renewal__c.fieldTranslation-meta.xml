@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>CLM_Auto_Renewal__c</name>
+    <picklistValues>
+        <masterLabel>Auto-Renew multiple times/years</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto-Renew unless terminated with notice</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Auto-Renewal</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

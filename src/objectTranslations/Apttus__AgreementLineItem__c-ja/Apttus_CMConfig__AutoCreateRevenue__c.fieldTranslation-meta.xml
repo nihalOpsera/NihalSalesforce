@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>収益スケジュールは合意が実行されたときの合意品目に関連付けられたオーダー品目のために作成されるかどうかを示します</help>
+    <label></label>
+    <name>Apttus_CMConfig__AutoCreateRevenue__c</name>
+</CustomFieldTranslation>

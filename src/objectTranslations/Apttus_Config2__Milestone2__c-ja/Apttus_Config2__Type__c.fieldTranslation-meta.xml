@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>マイルストーンタイプ</help>
+    <label></label>
+    <name>Apttus_Config2__Type__c</name>
+    <picklistValues>
+        <masterLabel>Deliverable</masterLabel>
+        <translation>成果物</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Milestone</masterLabel>
+        <translation>マイルストーン</translation>
+    </picklistValues>
+</CustomFieldTranslation>

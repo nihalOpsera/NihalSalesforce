@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>選択オプションに基づいて、属性または詳細ページのURLの内容が表示されます</help>
+    <label></label>
+    <name>Apttus_Config2__ContentType__c</name>
+    <picklistValues>
+        <masterLabel>Attributes</masterLabel>
+        <translation>商品属性</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Detail Page</masterLabel>
+        <translation>詳細ページ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Options</masterLabel>
+        <translation>オプション</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Apttus_Config2__RelationType__c</name>
+    <picklistValues>
+        <masterLabel>Accessories</masterLabel>
+        <translation>アクセサリー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Compatible</masterLabel>
+        <translation>互換性あり</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cross Sell</masterLabel>
+        <translation>クロスセル</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Replacement</masterLabel>
+        <translation>置換</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service and Support</masterLabel>
+        <translation>サービスとサポート</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Up Sell</masterLabel>
+        <translation>アップセル</translation>
+    </picklistValues>
+</CustomFieldTranslation>

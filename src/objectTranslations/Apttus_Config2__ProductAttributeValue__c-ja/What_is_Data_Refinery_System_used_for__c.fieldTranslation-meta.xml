@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>What_is_Data_Refinery_System_used_for__c</name>
+    <picklistValues>
+        <masterLabel>Billing mediation or other mediation</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Charging Gateway</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Combined Charging Gateway and Syslog Collection</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Syslog Collection</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

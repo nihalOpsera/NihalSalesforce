@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>12ヶ月の今日と背面からすべての定期的な請求額の合計</help>
+    <label></label>
+    <name>Apttus_Config2__AnnualRecurringBillingsToday__c</name>
+</CustomFieldTranslation>

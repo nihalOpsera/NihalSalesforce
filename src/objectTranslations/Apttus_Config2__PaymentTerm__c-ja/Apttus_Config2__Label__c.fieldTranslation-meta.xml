@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>支払条件のラベル</help>
+    <label></label>
+    <name>Apttus_Config2__Label__c</name>
+    <picklistValues>
+        <masterLabel>Due Upon Receipt</masterLabel>
+        <translation>受信時に起因</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Net 120 Days</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Net 180 Days</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Net 30 Days</masterLabel>
+        <translation>30日以内</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Net 45 Days</masterLabel>
+        <translation>45日以内</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Net 60 Days</masterLabel>
+        <translation>60日以内</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Net 90 days</masterLabel>
+        <translation>90日以内</translation>
+    </picklistValues>
+</CustomFieldTranslation>

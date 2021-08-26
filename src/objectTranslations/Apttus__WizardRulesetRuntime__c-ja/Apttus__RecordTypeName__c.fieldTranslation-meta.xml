@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このルールセットによって決定された場合のレコードタイプ名。何も決定されていない場合、この値はnullになります</help>
+    <label></label>
+    <name>Apttus__RecordTypeName__c</name>
+</CustomFieldTranslation>

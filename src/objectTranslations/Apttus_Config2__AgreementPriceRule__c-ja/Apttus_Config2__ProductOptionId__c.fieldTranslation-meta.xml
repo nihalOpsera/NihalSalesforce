@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>価格ルールに関連付けられている商品オプションID</help>
+    <label></label>
+    <name>Apttus_Config2__ProductOptionId__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

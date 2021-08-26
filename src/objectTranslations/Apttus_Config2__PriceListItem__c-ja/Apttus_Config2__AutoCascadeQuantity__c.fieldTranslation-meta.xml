@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>バンドル製品からオプションへ数量が自動カスケードされているかを示します。繰り返しおよび利用価格タイプに対してのみ適用されます</help>
+    <label></label>
+    <name>Apttus_Config2__AutoCascadeQuantity__c</name>
+</CustomFieldTranslation>

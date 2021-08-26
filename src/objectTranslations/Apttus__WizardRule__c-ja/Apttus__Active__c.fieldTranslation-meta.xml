@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ルールセット内のルールが有効であることを示します。ウィザードデザインを有効化すると自動的に含まれるルールを有効化します</help>
+    <label></label>
+    <name>Apttus__Active__c</name>
+</CustomFieldTranslation>

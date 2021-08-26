@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ルートの合意ID。ルート合意は階層内の子、孫などのすべてを持っている原始合意です。階層のため1つのルート合意のみ存在する場合もあります。 
+Root &gt; 親 &gt; 最下層</help>
+    <label></label>
+    <name>Apttus__AgreementRootId__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>インセンティブに関連付けられたカスタム表示設定の名前。これは既存のインセンティブレコードが編集された際に使用されます。
+ 新レコードのために、名前がURLパラメータとして渡されます</help>
+    <label></label>
+    <name>Apttus_Config2__CustomDisplaySetting__c</name>
+</CustomFieldTranslation>

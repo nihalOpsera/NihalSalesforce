@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ルートの取引先ID。 rootアカウントは、階層内の子、孫などのすべてを持っている原始アカウントです。階層に対して唯一のrootアカウントがある場合もあります。
+Root &gt; 親 &gt; 最下層</help>
+    <label></label>
+    <name>Apttus__AccountRootId__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

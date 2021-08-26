@@ -5,6 +5,6 @@
     <label>FN_AES_R_Gainspeed_Global_All-Customers</label>
     <queue>FN_AES_R_Gainspeed_Global_All_Customers</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

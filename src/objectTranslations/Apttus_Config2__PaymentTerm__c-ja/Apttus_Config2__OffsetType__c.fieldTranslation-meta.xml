@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>支払条件から計算された日付を表示</help>
+    <label></label>
+    <name>Apttus_Config2__OffsetType__c</name>
+    <picklistValues>
+        <masterLabel>Day</masterLabel>
+        <translation>日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>End of Month</masterLabel>
+        <translation>月末</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Month</masterLabel>
+        <translation>月</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Receipt</masterLabel>
+        <translation>受領時</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Specific Day</masterLabel>
+        <translation>特定日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Start of Month</masterLabel>
+        <translation>月の始め</translation>
+    </picklistValues>
+</CustomFieldTranslation>

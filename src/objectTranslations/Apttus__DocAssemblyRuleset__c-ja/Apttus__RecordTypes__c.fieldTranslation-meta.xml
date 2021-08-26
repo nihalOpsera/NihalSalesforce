@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>注：新しい合意/見積書のレコードタイプを追加する場合、タイプは手動でも合意/見積書とテンプレートとの間に同期してレコードタイプを維持するために選択リスト値のセットに追加する必要があります</help>
+    <label></label>
+    <name>Apttus__RecordTypes__c</name>
+    <picklistValues>
+        <masterLabel>All</masterLabel>
+        <translation>全て</translation>
+    </picklistValues>
+</CustomFieldTranslation>

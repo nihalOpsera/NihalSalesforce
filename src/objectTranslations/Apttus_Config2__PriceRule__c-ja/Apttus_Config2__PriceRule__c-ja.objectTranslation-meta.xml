@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fieldSets>
+        <label></label>
+        <name>Apttus_Config2__BenefitRateTableSectionFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>Apttus_Config2__BenefitSectionFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>Apttus_Config2__PriceProgramBenefitRateTableFields</name>
+    </fieldSets>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label></label>
+        <name>Apttus_Config2__EditPriceRule</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Apttus_Config2__NewPriceRule</name>
+    </webLinks>
+</CustomObjectTranslation>

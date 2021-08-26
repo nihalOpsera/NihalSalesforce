@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>マイルストーンステータス</help>
+    <label></label>
+    <name>Apttus_Config2__Status__c</name>
+    <picklistValues>
+        <masterLabel>Completed</masterLabel>
+        <translation>完了済</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Expected</masterLabel>
+        <translation>予想済</translation>
+    </picklistValues>
+</CustomFieldTranslation>

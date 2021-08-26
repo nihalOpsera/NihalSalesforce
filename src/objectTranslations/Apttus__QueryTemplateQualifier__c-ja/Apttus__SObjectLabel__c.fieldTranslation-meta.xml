@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>クエリーへのオブジェクト</help>
+    <label></label>
+    <name>Apttus__SObjectLabel__c</name>
+    <picklistValues>
+        <masterLabel>Agreement</masterLabel>
+        <translation>合意</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Organization</masterLabel>
+        <translation>組織</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>User</masterLabel>
+        <translation>ユーザ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>証明書の有効期限証明書は、この日付以降に無効となります</help>
+    <label></label>
+    <name>Apttus_Config2__ExpirationDate__c</name>
+</CustomFieldTranslation>

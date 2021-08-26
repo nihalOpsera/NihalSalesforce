@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Select_a_Second_Power_Supply__c</name>
+    <picklistValues>
+        <masterLabel>PS - 7210 SAS E/M/T -48V DC PS (Non ETR) 135 Watt</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PS - 7210 SAS M/Mxp/T AC PS (NON-ETR) 200 Watt</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PS - 7210 SAS M/T AC PS (Non ETR) 135 Watt</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PS - 7210 SAS-M/T/Mxp ETR (200W) AC Power Supply</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PS - 7210 SAS-M/T/Mxp ETR +24V (200W) DC Power Supply</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PS - 7210 SAS-M/T/Mxp ETR -48V (200W) DC Power Supply</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

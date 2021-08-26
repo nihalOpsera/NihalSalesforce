@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ウィザードデザイン内のステップが有効であることを示します。自動的に有効ウィザードのデザインを設定すると含まれるステップを有効化させます</help>
+    <label></label>
+    <name>Apttus__Active__c</name>
+</CustomFieldTranslation>

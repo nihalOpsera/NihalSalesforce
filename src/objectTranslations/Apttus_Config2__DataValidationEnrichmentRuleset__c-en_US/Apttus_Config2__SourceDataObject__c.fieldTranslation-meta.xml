@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label></label>
+    <name>Apttus_Config2__SourceDataObject__c</name>
+    <picklistValues>
+        <masterLabel>Apttus_Config2__OrderLineItem__c</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Apttus_Config2__Order__c</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Apttus_Proposal__Proposal_Line_Item__c</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Apttus_Proposal__Proposal__c</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Apttus__APTS_Agreement__c</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Apttus__AgreementLineItem__c</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

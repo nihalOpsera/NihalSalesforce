@@ -8,15 +8,15 @@
     <allowStandardPortalPages>true</allowStandardPortalPages>
     <allowStandardSearch>false</allowStandardSearch>
     <browserXssProtection>true</browserXssProtection>
+    <cachePublicVisualforcePagesInProxyServers>true</cachePublicVisualforcePagesInProxyServers>
     <clickjackProtectionLevel>SameOriginOnly</clickjackProtectionLevel>
     <contentSniffingProtection>true</contentSniffingProtection>
-    <cspUpgradeInsecureRequests>true</cspUpgradeInsecureRequests>
     <enableAuraRequests>true</enableAuraRequests>
     <indexPage xsi:nil="true"/>
     <masterLabel>Customers</masterLabel>
+    <redirectToCustomDomain>false</redirectToCustomDomain>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
-    <requireHttps>true</requireHttps>
     <siteAdmin>niklas.waller.ext@singlecrm.nokia.com</siteAdmin>
-    <siteGuestRecordDefaultOwner>rob.janek@singlecrm.nokia.com</siteGuestRecordDefaultOwner>
+    <siteGuestRecordDefaultOwner>mark.galloway@singlecrm.nokia.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetworkPicasso</siteType>
 </CustomSite>

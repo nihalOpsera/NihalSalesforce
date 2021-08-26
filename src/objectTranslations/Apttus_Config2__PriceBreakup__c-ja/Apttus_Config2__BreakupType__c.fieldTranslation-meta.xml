@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>価格ブレークタイプ</help>
+    <label></label>
+    <name>Apttus_Config2__BreakupType__c</name>
+    <picklistValues>
+        <masterLabel>Related Price</masterLabel>
+        <translation>関連価格</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tier Price</masterLabel>
+        <translation>階層価格</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Total</masterLabel>
+        <translation>合計</translation>
+    </picklistValues>
+</CustomFieldTranslation>

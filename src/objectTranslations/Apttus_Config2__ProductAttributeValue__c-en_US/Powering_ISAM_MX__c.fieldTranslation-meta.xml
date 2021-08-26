@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label></label>
+    <name>Powering_ISAM_MX__c</name>
+    <picklistValues>
+        <masterLabel>AC power supply</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AC with Battery connection</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DC Power Supply</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Redundant DC Power Supply</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

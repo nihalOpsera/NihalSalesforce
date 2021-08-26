@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Apttus_Config2__Category__c</name>
+    <picklistValues>
+        <masterLabel>Agreement</masterLabel>
+        <translation>合意</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>All</masterLabel>
+        <translation>全て</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Proposal</masterLabel>
+        <translation>提案書</translation>
+    </picklistValues>
+</CustomFieldTranslation>

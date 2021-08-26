@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このフィールドの値がどの価格調整が適用されているかを管理します。例えば、価格の割引は定価、または正味価格に適用されるかどうか</help>
+    <label></label>
+    <name>Apttus_Config2__AdjustmentAppliesTo__c</name>
+    <picklistValues>
+        <masterLabel>Base Extended Price</masterLabel>
+        <translation>基本拡張価格</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Base Price</masterLabel>
+        <translation>基本価格</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom Price Point</masterLabel>
+        <translation>カスタム価格ポイント</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extended Price</masterLabel>
+        <translation>拡張価格</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>List Price</masterLabel>
+        <translation>定価</translation>
+    </picklistValues>
+</CustomFieldTranslation>

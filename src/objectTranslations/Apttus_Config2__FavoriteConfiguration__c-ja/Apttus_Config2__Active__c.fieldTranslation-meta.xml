@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>お気に入りの設定が有効であるかどうかを表します。無効のお気に入りの設定は、カタログページに表示されません</help>
+    <label></label>
+    <name>Apttus_Config2__Active__c</name>
+</CustomFieldTranslation>

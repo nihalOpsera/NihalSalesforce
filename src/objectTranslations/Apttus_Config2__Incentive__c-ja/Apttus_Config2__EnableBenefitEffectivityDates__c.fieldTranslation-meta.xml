@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>インセンティブと関連するメリットのために、効果的な日付が有効になっているかどうかを表示します</help>
+    <label></label>
+    <name>Apttus_Config2__EnableBenefitEffectivityDates__c</name>
+</CustomFieldTranslation>

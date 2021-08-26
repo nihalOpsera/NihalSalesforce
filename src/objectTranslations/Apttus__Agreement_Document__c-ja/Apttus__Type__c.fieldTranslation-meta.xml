@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Apttus__Type__c</name>
+    <picklistValues>
+        <masterLabel>Final Electronic Copy</masterLabel>
+        <translation>最終的な電子コピー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interim Version</masterLabel>
+        <translation>暫定版</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>その他</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scanned Image</masterLabel>
+        <translation>スキャン済イメージ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Supporting Attachment</masterLabel>
+        <translation>添付ファイルサポート</translation>
+    </picklistValues>
+</CustomFieldTranslation>

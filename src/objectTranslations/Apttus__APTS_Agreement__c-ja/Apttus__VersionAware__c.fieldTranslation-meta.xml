@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この合意書はバージョン認識しているかどうかを示します。このフラグは本合意レコードのすべてのドキュメントのバージョン管理を有効にして、提供されたドキュメントのバージョン管理はカスタム設定で有効になります</help>
+    <label></label>
+    <name>Apttus__VersionAware__c</name>
+</CustomFieldTranslation>

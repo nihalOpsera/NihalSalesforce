@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>定期的なアイテムが自動期間の終了時に更新するかどうかを示します</help>
+    <label></label>
+    <name>Apttus_QPConfig__AutoRenew__c</name>
+</CustomFieldTranslation>

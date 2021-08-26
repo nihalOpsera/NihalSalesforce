@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>品目をフィルタリングするために使用される条件仕様。これはSOQL WHERE条項です</help>
+    <label></label>
+    <name>Apttus__FilterCriteria__c</name>
+</CustomFieldTranslation>

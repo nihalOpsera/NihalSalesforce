@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>関連する拡張された価格は、数量 X 期間 X 関連する基本価格であります</help>
+    <label></label>
+    <name>Apttus_Config2__RelatedExtendedPrice__c</name>
+</CustomFieldTranslation>

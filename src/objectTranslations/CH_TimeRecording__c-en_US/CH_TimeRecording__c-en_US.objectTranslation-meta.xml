@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Time Recording</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Time Recordings</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>CH_StartDate_not_Less_CaseReportedDat</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>CH_Start_Date_Can_Not_in_the_Future</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>owner_cannot_be_Change</name>
+    </validationRules>
+</CustomObjectTranslation>

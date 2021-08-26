@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>一過性のバージョンを示します。ドキュメントが正常バージョンに添付されるまで、新しいバージョンが過渡状態です。ワークフロールールは、動作前に偽(false)テストするにはこのフィールドをチェックする必要があります</help>
+    <label></label>
+    <name>Apttus__IsTransient__c</name>
+</CustomFieldTranslation>

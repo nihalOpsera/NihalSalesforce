@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>個別の請求書が場所のために生成する必要があるかどうかを示します</help>
+    <label></label>
+    <name>Apttus_Config2__InvoiceSeparately__c</name>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation>いいえ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes</masterLabel>
+        <translation>はい</translation>
+    </picklistValues>
+</CustomFieldTranslation>

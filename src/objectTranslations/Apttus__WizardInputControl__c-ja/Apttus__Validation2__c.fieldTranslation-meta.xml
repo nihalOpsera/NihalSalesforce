@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>値のリストは実行時に表示されます</help>
+    <label></label>
+    <name>Apttus__Validation2__c</name>
+</CustomFieldTranslation>

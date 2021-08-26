@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Q_Mounting__c</name>
+    <picklistValues>
+        <masterLabel>Horizontal mounting kit for FX-4 Shelf ETSI rack</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Horizontal mounting kit for FX-8 Shelf ETSI rack</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No kit needed</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vertical Mounting Kit 19 inch</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vertical Mounting Kit ETSI</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

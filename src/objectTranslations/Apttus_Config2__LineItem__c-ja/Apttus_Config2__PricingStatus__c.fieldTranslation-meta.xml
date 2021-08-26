@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Apttus_Config2__PricingStatus__c</name>
+    <picklistValues>
+        <masterLabel>Complete</masterLabel>
+        <translation>完了</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending</masterLabel>
+        <translation>保留中</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>How_is_the_system_deployed__c</name>
+    <picklistValues>
+        <masterLabel>Bare metal</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cloud</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Migrate from Bare metal to Cloud</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

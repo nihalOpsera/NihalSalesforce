@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>レビューワーに送信された文書のバージョン詳細</help>
+    <label></label>
+    <name>Apttus__DocumentVersionDetailId__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>包含を繰り返すために、これをチェックしてください</help>
+    <label></label>
+    <name>Apttus_Config2__RepeatInclusion__c</name>
+</CustomFieldTranslation>

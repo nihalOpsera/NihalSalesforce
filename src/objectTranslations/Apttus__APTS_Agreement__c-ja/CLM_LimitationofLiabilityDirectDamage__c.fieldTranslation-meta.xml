@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>CLM_LimitationofLiabilityDirectDamage__c</name>
+    <picklistValues>
+        <masterLabel>Excessive indemnities beyond 3rd party</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Excessive liability exclusions from the cap</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Liability cap &gt; 100% of the contract value</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Liability cap &gt; 100M€</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MN: Liability cap &gt; EUR 100m</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MN: Liability cap &gt;100% of the contract value</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NSW, FN or ION : Liability cap &gt; EUR 10m</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NSW, FN or ION: Liability cap &gt;100% of the total contract value</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unlimited</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

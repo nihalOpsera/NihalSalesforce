@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>CLM_Tracking_Commitment__c</name>
+    <picklistValues>
+        <masterLabel>Catalogue-based pricing</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Condition-based discount pricing</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quantity roll-out</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Value w/o scope</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

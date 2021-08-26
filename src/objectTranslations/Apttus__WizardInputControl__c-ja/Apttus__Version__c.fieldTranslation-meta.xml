@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>入力制御設計のバージョン番号（カウンタ）。これは、設定の年表で一意に入力コントロールを識別します</help>
+    <label></label>
+    <name>Apttus__Version__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>一度クリックしたら結果ページにユーザーを導く合意書エクスプローラタブ上にてリンクとして表示される数式フィールドです</help>
+    <label></label>
+    <name>Apttus__Title__c</name>
+</CustomFieldTranslation>

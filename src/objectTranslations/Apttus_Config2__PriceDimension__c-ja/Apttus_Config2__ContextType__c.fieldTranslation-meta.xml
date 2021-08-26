@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Apttus_Config2__ContextType__c</name>
+    <picklistValues>
+        <masterLabel>Child Filter</masterLabel>
+        <translation>フィルター(子)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom</masterLabel>
+        <translation>カスタム</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>External Order Child Filter</masterLabel>
+        <translation>外部オーダー子供フィルター</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>External Order Formula Field</masterLabel>
+        <translation>外部オーダー式フィールド</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>External Order Summary Item</masterLabel>
+        <translation>外部オーダー要約項目</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Formula Field</masterLabel>
+        <translation>式フィールド</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Line Item</masterLabel>
+        <translation>品目</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Order Child Filter</masterLabel>
+        <translation>オーダー子フィルター</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Order Formula Field</masterLabel>
+        <translation>オーダー式フィールド</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Order Line Item</masterLabel>
+        <translation>オーダー品目</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Attribute</masterLabel>
+        <translation>商品属性</translation>
+    </picklistValues>
+</CustomFieldTranslation>

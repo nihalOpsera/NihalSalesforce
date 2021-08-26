@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Apttus__Relationship_From_Type__c</name>
+    <picklistValues>
+        <masterLabel>Is Amended By</masterLabel>
+        <translation>修正者</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Is Amendment For</masterLabel>
+        <translation>修正目的</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Is Child Of</masterLabel>
+        <translation>データ（子）</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Is Master Of</masterLabel>
+        <translation>マスター</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Is NDA For</masterLabel>
+        <translation>NDA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Is Related Contract</masterLabel>
+        <translation>関連契約</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Is Renewal For</masterLabel>
+        <translation>のため更新</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Is Renewed By</masterLabel>
+        <translation>により更新済</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Is SOW Of</masterLabel>
+        <translation>SOW</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Is Superceded By</masterLabel>
+        <translation>置き換え済</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Related NDA Is</masterLabel>
+        <translation>関連NDA</translation>
+    </picklistValues>
+</CustomFieldTranslation>

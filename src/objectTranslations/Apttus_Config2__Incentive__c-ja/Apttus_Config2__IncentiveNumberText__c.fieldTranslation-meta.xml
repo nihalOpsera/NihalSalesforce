@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>内部でのみ使用されます。画面やレポートでは使用しないでください</help>
+    <label></label>
+    <name>Apttus_Config2__IncentiveNumberText__c</name>
+</CustomFieldTranslation>

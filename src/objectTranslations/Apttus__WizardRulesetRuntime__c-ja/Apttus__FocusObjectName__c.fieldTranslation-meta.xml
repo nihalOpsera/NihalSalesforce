@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>一つがこのルールセットによって決定された場合のフォーカスオブジェクト名。何も決定されていない場合、この値はnullになります</help>
+    <label></label>
+    <name>Apttus__FocusObjectName__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ルールに4つの制約が追加された場合の例（（1,2）または（3,4））</help>
+    <label></label>
+    <name>Apttus_Config2__ConditionAssociation__c</name>
+</CustomFieldTranslation>

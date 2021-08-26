@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ステップ内の入力コントロールが有効であることを示します。有効としてウィザードのデザインを設定すると自動的に含まれる入力コントロールを有効にします</help>
+    <label></label>
+    <name>Apttus__Active__c</name>
+</CustomFieldTranslation>

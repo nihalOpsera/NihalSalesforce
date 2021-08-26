@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>インジケータは合意を期限切れにします</help>
+    <label></label>
+    <name>Apttus__Expire__c</name>
+</CustomFieldTranslation>

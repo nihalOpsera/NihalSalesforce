@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Q_Installed_SM_Release__c</name>
+    <picklistValues>
+        <masterLabel>NFM-P 17</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SAM R14</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

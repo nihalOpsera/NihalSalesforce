@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>関連商品の価格調整量</help>
+    <label></label>
+    <name>Apttus_Config2__RelatedAdjustmentAmount__c</name>
+</CustomFieldTranslation>

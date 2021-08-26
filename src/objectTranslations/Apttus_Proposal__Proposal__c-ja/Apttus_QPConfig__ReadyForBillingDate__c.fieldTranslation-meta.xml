@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>オーダー請求準備ができた日。請求スケジュールがこの日に作成されます</help>
+    <label></label>
+    <name>Apttus_QPConfig__ReadyForBillingDate__c</name>
+</CustomFieldTranslation>

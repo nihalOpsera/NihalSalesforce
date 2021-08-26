@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>入力がステップ内でグループ化されている時、入力の順番を繰り返します。それ以外の場合は0</help>
+    <label></label>
+    <name>Apttus__InputRepeatSequence__c</name>
+</CustomFieldTranslation>

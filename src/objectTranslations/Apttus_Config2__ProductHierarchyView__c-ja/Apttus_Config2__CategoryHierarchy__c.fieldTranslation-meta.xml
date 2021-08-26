@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>子商品に関連したカテゴリ階層</help>
+    <label></label>
+    <name>Apttus_Config2__CategoryHierarchy__c</name>
+</CustomFieldTranslation>

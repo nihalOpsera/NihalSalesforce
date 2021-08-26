@@ -5,6 +5,6 @@
     <label>GS_ES_R_WCDMA_BTS_EME_All-Customers</label>
     <queue>GS_ES_R_WCDMA_BTS_EME_All_Customers</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

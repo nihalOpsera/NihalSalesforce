@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>用語期間開始インジケータ</help>
+    <label></label>
+    <name>Apttus_Config2__TermPeriodStart__c</name>
+    <picklistValues>
+        <masterLabel>At Begin Of Term</masterLabel>
+        <translation>期間の開始時に</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>At End Of Term</masterLabel>
+        <translation>期間の終了時に</translation>
+    </picklistValues>
+</CustomFieldTranslation>

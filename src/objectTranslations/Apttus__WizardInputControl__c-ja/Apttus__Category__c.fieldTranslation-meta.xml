@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>サブカテゴリフィールドを制御して、リストの値がユーザーに検索やコントロールの入力の選択を許可する必要があります</help>
+    <label></label>
+    <name>Apttus__Category__c</name>
+    <picklistValues>
+        <masterLabel>Category 1</masterLabel>
+        <translation>カテゴリ1</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Default</masterLabel>
+        <translation>初期値</translation>
+    </picklistValues>
+</CustomFieldTranslation>

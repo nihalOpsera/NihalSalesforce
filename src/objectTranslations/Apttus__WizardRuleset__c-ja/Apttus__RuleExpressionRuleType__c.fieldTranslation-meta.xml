@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>実行時ウィザードフローをナビゲートするルールタイプはフォーカスオブジェクトとレコードタイプを決定します</help>
+    <label></label>
+    <name>Apttus__RuleExpressionRuleType__c</name>
+    <picklistValues>
+        <masterLabel>Determine Focus Object</masterLabel>
+        <translation>フォーカスオブジェクトを決定</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Determine Record Type</masterLabel>
+        <translation>レコードタイプを決定</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Go To Input</masterLabel>
+        <translation>入力に進む</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Go To Step</masterLabel>
+        <translation>ステップに進む</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Go To Submit</masterLabel>
+        <translation>送信へ進む</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Go To URL</masterLabel>
+        <translation>URLにアクセス</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Next Step</masterLabel>
+        <translation>次のステップ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

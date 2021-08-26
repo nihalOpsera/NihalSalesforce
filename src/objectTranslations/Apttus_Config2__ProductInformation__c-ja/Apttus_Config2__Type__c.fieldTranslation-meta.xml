@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>商品付帯の種類を識別</help>
+    <label></label>
+    <name>Apttus_Config2__Type__c</name>
+    <picklistValues>
+        <masterLabel>Image</masterLabel>
+        <translation>画像</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manual</masterLabel>
+        <translation>マニュアル</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing Flyer</masterLabel>
+        <translation>マーケティングフライヤー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Video</masterLabel>
+        <translation>ビデオ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

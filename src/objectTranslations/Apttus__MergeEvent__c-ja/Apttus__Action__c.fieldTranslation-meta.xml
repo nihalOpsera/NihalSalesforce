@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Apttus__Action__c</name>
+    <picklistValues>
+        <masterLabel>Check In</masterLabel>
+        <translation>チェックイン</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Check Out</masterLabel>
+        <translation>チェックアウト</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Create Offline Agreement</masterLabel>
+        <translation>オフライン合意書を作成</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Generate</masterLabel>
+        <translation>生成</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Generate Supporting Document</masterLabel>
+        <translation>サポートドキュメントの生成</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Import Offline Agreement</masterLabel>
+        <translation>オフライン合意書をインポート</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preview</masterLabel>
+        <translation>プレビュー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regenerate</masterLabel>
+        <translation>再作成</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revert Check Out</masterLabel>
+        <translation>チェックアウトを元に戻す</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Review</masterLabel>
+        <translation>レビュー</translation>
+    </picklistValues>
+</CustomFieldTranslation>

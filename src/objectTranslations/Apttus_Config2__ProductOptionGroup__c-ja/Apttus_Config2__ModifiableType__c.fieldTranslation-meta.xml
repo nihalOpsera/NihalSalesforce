@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Apttus_Config2__ModifiableType__c</name>
+    <picklistValues>
+        <masterLabel>Fixed</masterLabel>
+        <translation>固定</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variable</masterLabel>
+        <translation>変数</translation>
+    </picklistValues>
+</CustomFieldTranslation>

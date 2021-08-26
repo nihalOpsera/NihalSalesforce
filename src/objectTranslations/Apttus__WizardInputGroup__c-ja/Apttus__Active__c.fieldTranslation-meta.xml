@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ステップ内の入力グループが有効であることを示します。ステップ有効設定が自動的に含まれる入力グループを有効化します</help>
+    <label></label>
+    <name>Apttus__Active__c</name>
+</CustomFieldTranslation>

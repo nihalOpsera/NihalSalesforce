@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Apttus__Status__c</name>
+    <picklistValues>
+        <masterLabel>Activated</masterLabel>
+        <translation>有効化済</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Approved Request</masterLabel>
+        <translation>承認済要求</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Author Contract</masterLabel>
+        <translation>Author 契約</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Being Amended</masterLabel>
+        <translation>改正中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Being Renewed</masterLabel>
+        <translation>更新中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Being Terminated</masterLabel>
+        <translation>解除中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancelled Request</masterLabel>
+        <translation>キャンセル済要求</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Expired</masterLabel>
+        <translation>期限切れ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fulfilled Request</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fully Signed</masterLabel>
+        <translation>完全に署名済</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>G4 Approval</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>G4 Approved</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>G5 Approval</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>G5 Approved</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Amendment</masterLabel>
+        <translation>改正中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Application</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Reconciliation</masterLabel>
+        <translation>調整中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Renewal</masterLabel>
+        <translation>更新中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internal Review</masterLabel>
+        <translation>内部レビュー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internal Signatures</masterLabel>
+        <translation>内部署名</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Language Approval</masterLabel>
+        <translation>言語の承認</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Language Approved</masterLabel>
+        <translation>言語の承認</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Party Review</masterLabel>
+        <translation>相手方のレビュー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Party Signatures</masterLabel>
+        <translation>相手方の署名</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Processing Request</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ready for Review</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ready for Signatures</masterLabel>
+        <translation>署名のための準備完了</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reconciled</masterLabel>
+        <translation>調整済</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request</masterLabel>
+        <translation>要求</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request Approval</masterLabel>
+        <translation>要求の承認</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Returned to Requestor</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Signature Declined</masterLabel>
+        <translation>署名は拒否されました</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Submitted Request</masterLabel>
+        <translation>申請済要求</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Superseded</masterLabel>
+        <translation>置き換え済</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Terminated</masterLabel>
+        <translation>解除済</translation>
+    </picklistValues>
+</CustomFieldTranslation>

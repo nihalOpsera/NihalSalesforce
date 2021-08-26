@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>受注処理日</help>
+    <label></label>
+    <name>Apttus_Config2__FulfilledDate__c</name>
+</CustomFieldTranslation>

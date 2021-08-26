@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>QTO_Sub_Classification_Indicator__c</name>
+    <picklistValues>
+        <masterLabel>Risk-Order</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Standard PO</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Optional_Additional_CFM_SAR8__c</name>
+    <picklistValues>
+        <masterLabel>2 GB</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4 GB</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8 GB</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>請求の選好が有効であるかどうかを示します。無効な設定は新しいアソシエーションでは使用できません</help>
+    <label></label>
+    <name>Apttus_Config2__Active__c</name>
+</CustomFieldTranslation>

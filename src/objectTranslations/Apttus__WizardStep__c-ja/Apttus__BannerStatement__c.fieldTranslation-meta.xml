@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>初期設定はデザインラベルをステップし、バナーなどのウィザードステップ実行時によって使用されます</help>
+    <label></label>
+    <name>Apttus__BannerStatement__c</name>
+</CustomFieldTranslation>

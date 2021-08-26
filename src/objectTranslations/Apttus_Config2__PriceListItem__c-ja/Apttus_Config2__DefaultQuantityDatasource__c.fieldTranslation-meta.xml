@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>数量のデフォルト値を提供するデータソース。デフォルトの量が利用可能な場合にのみ適用されます</help>
+    <label></label>
+    <name>Apttus_Config2__DefaultQuantityDatasource__c</name>
+</CustomFieldTranslation>

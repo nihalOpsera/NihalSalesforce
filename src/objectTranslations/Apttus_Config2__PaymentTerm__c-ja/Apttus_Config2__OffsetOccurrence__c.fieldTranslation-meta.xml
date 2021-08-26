@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>支払条件を計算する際に特定のオフセットが発生する回数を示します</help>
+    <label></label>
+    <name>Apttus_Config2__OffsetOccurrence__c</name>
+</CustomFieldTranslation>

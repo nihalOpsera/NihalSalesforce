@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <webLinks>
+        <label></label>
+        <name>Apttus__AddClauses</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Apttus__CheckForClauseApproval</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Apttus__DeleteClauses</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Apttus__EditClauses</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Apttus__SubmitForClauseApproval</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>CLM_Report</name>
+    </webLinks>
+</CustomObjectTranslation>

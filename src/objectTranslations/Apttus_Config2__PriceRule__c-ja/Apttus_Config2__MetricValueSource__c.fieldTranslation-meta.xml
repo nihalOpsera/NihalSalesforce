@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ボリュームまたは収益を表すトランザクションレコードのフィールド 
+1.	 数量：一般的に標準的なフィールド「数量」
+2.	 収入：一般的に標準的なフィールド「正価」 しかし、また他のフィールドを使用することができます</help>
+    <label></label>
+    <name>Apttus_Config2__MetricValueSource__c</name>
+</CustomFieldTranslation>

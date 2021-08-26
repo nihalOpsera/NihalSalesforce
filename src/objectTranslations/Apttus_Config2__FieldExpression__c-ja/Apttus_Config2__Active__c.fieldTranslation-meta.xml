@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>フィールド式が有効であるかどうかを表します。チェックしない場合は、フィールド式は実行時に評価されていません</help>
+    <label></label>
+    <name>Apttus_Config2__Active__c</name>
+</CustomFieldTranslation>

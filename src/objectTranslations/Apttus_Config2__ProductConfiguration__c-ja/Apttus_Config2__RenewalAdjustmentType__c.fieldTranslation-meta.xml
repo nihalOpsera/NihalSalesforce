@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>リニューアル価格調整タイプ</help>
+    <label></label>
+    <name>Apttus_Config2__RenewalAdjustmentType__c</name>
+    <picklistValues>
+        <masterLabel>% Uplift</masterLabel>
+        <translation>アップリフト%</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uplift Amount</masterLabel>
+        <translation>アップリフト額</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ウィザードデザインステータス</help>
+    <label></label>
+    <name>Apttus__Status__c</name>
+    <picklistValues>
+        <masterLabel>Activated</masterLabel>
+        <translation>有効化済</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deactivated</masterLabel>
+        <translation>無効化済</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Draft</masterLabel>
+        <translation>ドラフト</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retired</masterLabel>
+        <translation>引退済</translation>
+    </picklistValues>
+</CustomFieldTranslation>

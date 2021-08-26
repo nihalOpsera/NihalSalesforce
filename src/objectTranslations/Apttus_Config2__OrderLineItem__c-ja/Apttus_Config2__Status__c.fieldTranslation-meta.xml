@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>オーダーラインステータス</help>
+    <label></label>
+    <name>Apttus_Config2__Status__c</name>
+    <picklistValues>
+        <masterLabel>Activated</masterLabel>
+        <translation>有効化済</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancelled</masterLabel>
+        <translation>キャンセル済</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Draft</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fulfilled</masterLabel>
+        <translation>成就済</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Fulfillment</masterLabel>
+        <translation>フルフィルメント中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partially Fulfilled</masterLabel>
+        <translation>部分的に成就</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending</masterLabel>
+        <translation>保留中</translation>
+    </picklistValues>
+</CustomFieldTranslation>

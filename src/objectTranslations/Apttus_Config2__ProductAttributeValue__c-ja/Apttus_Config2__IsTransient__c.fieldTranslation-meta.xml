@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>初期値を使用してアプリケーションによって作成された過渡レコードを示します。レコードがユーザーによって明示的に保存されるまで新商品の属性値は、過渡状態です</help>
+    <label></label>
+    <name>Apttus_Config2__IsTransient__c</name>
+</CustomFieldTranslation>
