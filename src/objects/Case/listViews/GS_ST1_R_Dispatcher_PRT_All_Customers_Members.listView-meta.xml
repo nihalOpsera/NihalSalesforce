@@ -29,6 +29,6 @@
     <label>GS_ST1_R_Dispatcher_PRT / Members</label>
     <language>en_US</language>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>
