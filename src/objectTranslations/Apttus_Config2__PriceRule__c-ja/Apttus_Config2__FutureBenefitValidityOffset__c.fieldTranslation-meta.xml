@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>将来の給付の有効期間を確立するためのオフセット。唯一のインセンティブのルールに適用。</help>
+    <label></label>
+    <name>Apttus_Config2__FutureBenefitValidityOffset__c</name>
+</CustomFieldTranslation>

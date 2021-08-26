@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>取引先の料金概略を完全に計算されたときの時間のポイントです。１つ以上の貢献課金オブジェクト（請求書、スケジュールなど）が変更され、変更が取引先の料金概略バッチジョブによって検出された時にこれは発生します</help>
+    <label></label>
+    <name>Apttus_Config2__LastCalculated__c</name>
+</CustomFieldTranslation>

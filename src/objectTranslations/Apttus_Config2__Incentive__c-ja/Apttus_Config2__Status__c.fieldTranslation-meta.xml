@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>インセンティブステータス</help>
+    <label></label>
+    <name>Apttus_Config2__Status__c</name>
+    <picklistValues>
+        <masterLabel>Activated</masterLabel>
+        <translation>有効化済</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Being Amended</masterLabel>
+        <translation>改正中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Being Renewed</masterLabel>
+        <translation>更新中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Being Terminated</masterLabel>
+        <translation>解除中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Amendment</masterLabel>
+        <translation>改正中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Renewal</masterLabel>
+        <translation>更新中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New</masterLabel>
+        <translation>新規</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Superseded</masterLabel>
+        <translation>置き換え済</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Terminated</masterLabel>
+        <translation>解除済</translation>
+    </picklistValues>
+</CustomFieldTranslation>

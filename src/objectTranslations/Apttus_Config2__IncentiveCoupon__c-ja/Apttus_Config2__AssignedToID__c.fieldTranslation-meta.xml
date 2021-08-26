@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>クーポンが割り当てられているエンティティID</help>
+    <label></label>
+    <name>Apttus_Config2__AssignedToID__c</name>
+</CustomFieldTranslation>

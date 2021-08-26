@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>IMM_Slot_3__c</name>
+    <picklistValues>
+        <masterLabel>IMM - 7210 SAS-R-b 10SFP - 1SFP+</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IMM - 7210 SAS-R-b 11SFP/22cSFP</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IMM - 7210 SAS-R-b 16TX</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IMM - 7210 SAS-R-b 2SFP+</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IMM - 7210 SAS-R-b 4SFP+</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

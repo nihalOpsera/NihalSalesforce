@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Apttus_Config2__ApplicationMethod__c</name>
+    <picklistValues>
+        <masterLabel>Apply to Line Items</masterLabel>
+        <translation>品目に適用</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Create Summary Lines</masterLabel>
+        <translation>集計行作成</translation>
+    </picklistValues>
+</CustomFieldTranslation>

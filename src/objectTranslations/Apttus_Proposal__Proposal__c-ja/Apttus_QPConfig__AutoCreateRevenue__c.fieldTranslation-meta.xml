@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>収益スケジュールは見積/提案が受け入れられたときの見積/提案に関連付けられたオーダーのために作成されるかどうかを示します</help>
+    <label></label>
+    <name>Apttus_QPConfig__AutoCreateRevenue__c</name>
+</CustomFieldTranslation>

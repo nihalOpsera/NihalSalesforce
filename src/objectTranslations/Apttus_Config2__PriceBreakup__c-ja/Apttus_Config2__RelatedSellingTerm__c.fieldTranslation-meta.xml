@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>関連する商品/サービスに関連する販売用語</help>
+    <label></label>
+    <name>Apttus_Config2__RelatedSellingTerm__c</name>
+</CustomFieldTranslation>

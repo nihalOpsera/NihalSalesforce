@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>その生涯にわたる納入商品からの月平均経常収益</help>
+    <label></label>
+    <name>Apttus_Config2__AssetMRR__c</name>
+</CustomFieldTranslation>

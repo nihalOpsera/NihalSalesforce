@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Number_of_Year</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Select_the_release_of_the_installed_SMP</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Software_Suits</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Which_SMP_is_installed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Years_of_Maintenance</name>
+    </validationRules>
+</CustomObjectTranslation>

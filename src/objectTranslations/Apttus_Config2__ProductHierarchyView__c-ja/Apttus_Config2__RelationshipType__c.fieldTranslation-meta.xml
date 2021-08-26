@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Apttus_Config2__RelationshipType__c</name>
+    <picklistValues>
+        <masterLabel>Classification Node</masterLabel>
+        <translation>分類ノード</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Node</masterLabel>
+        <translation>商品ノード</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Root Node</masterLabel>
+        <translation>ルートノード</translation>
+    </picklistValues>
+</CustomFieldTranslation>

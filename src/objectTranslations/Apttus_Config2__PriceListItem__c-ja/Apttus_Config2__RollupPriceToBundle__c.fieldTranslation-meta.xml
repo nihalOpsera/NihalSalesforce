@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>デフォルト数量フィールドに新しい値を取得する際に量が自動更新されるかどうかを示します</help>
+    <label></label>
+    <name>Apttus_Config2__RollupPriceToBundle__c</name>
+</CustomFieldTranslation>

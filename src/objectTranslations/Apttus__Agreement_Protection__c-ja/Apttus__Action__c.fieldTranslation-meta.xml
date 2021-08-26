@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Apttus__Action__c</name>
+    <picklistValues>
+        <masterLabel>Auto Generate Agreement</masterLabel>
+        <translation>合意書自動生成</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Create Offline Agreement</masterLabel>
+        <translation>オフライン合意書を作成</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Generate Agreement</masterLabel>
+        <translation>合意書の生成</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Generate Supporting Document</masterLabel>
+        <translation>サポートドキュメントの生成</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Import Offline Agreement</masterLabel>
+        <translation>オフライン合意書をインポート</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preview Agreement</masterLabel>
+        <translation>合意プレビュー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regenerate Agreement</masterLabel>
+        <translation>合意書を再生成</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Save External Version</masterLabel>
+        <translation>外部バージョンを保存</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Save Final Version</masterLabel>
+        <translation>最終バージョンを保存</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Save Internal Version</masterLabel>
+        <translation>内部バージョンを保存</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Send To Other Party For Review</masterLabel>
+        <translation>レビュー用に相手に送信</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Send To Other Party For Signatures</masterLabel>
+        <translation>署名のために相手に送信</translation>
+    </picklistValues>
+</CustomFieldTranslation>

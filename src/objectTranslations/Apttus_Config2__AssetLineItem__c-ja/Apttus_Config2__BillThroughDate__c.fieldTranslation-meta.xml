@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>最後の請求期間の日付から請求書が作成された日</help>
+    <label></label>
+    <name>Apttus_Config2__BillThroughDate__c</name>
+</CustomFieldTranslation>

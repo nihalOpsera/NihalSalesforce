@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>全員か所有者のみがまだ有効化されていないウィザードのデザインを編集することができるようにコントロールします</help>
+    <label></label>
+    <name>Apttus__OwnerEditsOnly__c</name>
+</CustomFieldTranslation>

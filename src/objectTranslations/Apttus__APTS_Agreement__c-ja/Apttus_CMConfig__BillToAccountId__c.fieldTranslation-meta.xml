@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>合意に関連付けられた請求先取引先ID</help>
+    <label></label>
+    <name>Apttus_CMConfig__BillToAccountId__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

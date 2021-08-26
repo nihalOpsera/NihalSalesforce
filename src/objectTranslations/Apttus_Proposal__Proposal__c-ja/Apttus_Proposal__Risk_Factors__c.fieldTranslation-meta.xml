@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Apttus_Proposal__Risk_Factors__c</name>
+    <picklistValues>
+        <masterLabel>Price Pressure</masterLabel>
+        <translation>価格圧力</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technical Delivery</masterLabel>
+        <translation>技術的な配達</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Turnaround Time</masterLabel>
+        <translation>ターンアラウンドタイム</translation>
+    </picklistValues>
+</CustomFieldTranslation>

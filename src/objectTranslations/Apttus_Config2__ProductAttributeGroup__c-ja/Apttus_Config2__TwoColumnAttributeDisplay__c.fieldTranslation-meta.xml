@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>2列の様式でこのグループ内の属性の詳細を表示したいかを確認してください。オフにした場合、初期は1列です</help>
+    <label></label>
+    <name>Apttus_Config2__TwoColumnAttributeDisplay__c</name>
+</CustomFieldTranslation>

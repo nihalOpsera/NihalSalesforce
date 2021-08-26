@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>これは表形式/水平グループであることを示します</help>
+    <label></label>
+    <name>Apttus__Table__c</name>
+</CustomFieldTranslation>

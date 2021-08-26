@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Do_you_need_a_High_Vol_or_a_Low_Vol__c</name>
+    <picklistValues>
+        <masterLabel>High Voltage</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Low Voltage</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

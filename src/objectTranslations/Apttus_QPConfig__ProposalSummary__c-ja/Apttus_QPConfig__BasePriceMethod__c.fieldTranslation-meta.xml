@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Apttus_QPConfig__BasePriceMethod__c</name>
+    <picklistValues>
+        <masterLabel>Flat Price</masterLabel>
+        <translation>均一価格</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Per Unit</masterLabel>
+        <translation>単位当たり</translation>
+    </picklistValues>
+</CustomFieldTranslation>

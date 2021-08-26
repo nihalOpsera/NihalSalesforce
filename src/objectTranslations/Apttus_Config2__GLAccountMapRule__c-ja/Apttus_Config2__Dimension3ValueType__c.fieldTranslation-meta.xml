@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>3rdディメンションの値タイプ</help>
+    <label></label>
+    <name>Apttus_Config2__Dimension3ValueType__c</name>
+    <picklistValues>
+        <masterLabel>Discrete</masterLabel>
+        <translation>個別</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Range</masterLabel>
+        <translation>範囲</translation>
+    </picklistValues>
+</CustomFieldTranslation>

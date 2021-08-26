@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>コンポーネントタイプ</help>
+    <label></label>
+    <name>Apttus__Type__c</name>
+    <picklistValues>
+        <masterLabel>Footer</masterLabel>
+        <translation>フッター</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Header</masterLabel>
+        <translation>ヘッダ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Logo</masterLabel>
+        <translation>ロゴ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Terms and Conditions</masterLabel>
+        <translation>規約と条件</translation>
+    </picklistValues>
+</CustomFieldTranslation>

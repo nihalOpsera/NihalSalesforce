@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>X7750_SRe_Variant__c</name>
+    <picklistValues>
+        <masterLabel>SR-1e</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SR-2e</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SR-3e</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

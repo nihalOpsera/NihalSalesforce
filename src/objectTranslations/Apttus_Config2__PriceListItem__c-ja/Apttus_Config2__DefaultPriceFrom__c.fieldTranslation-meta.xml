@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>関連オブジェクトからのベース価格をデフォルトに。関連オブジェクトが利用できない場合、表示価格が使用されます</help>
+    <label></label>
+    <name>Apttus_Config2__DefaultPriceFrom__c</name>
+    <picklistValues>
+        <masterLabel>Advanced Formula</masterLabel>
+        <translation>高度な数式</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Attribute</masterLabel>
+        <translation>商品属性</translation>
+    </picklistValues>
+</CustomFieldTranslation>

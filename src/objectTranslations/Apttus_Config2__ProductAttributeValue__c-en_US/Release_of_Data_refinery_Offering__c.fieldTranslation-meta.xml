@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Release_of_Data_refinery_Offering__c</name>
+    <picklistValues>
+        <masterLabel>DR 7.2.2</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DR 8.0</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

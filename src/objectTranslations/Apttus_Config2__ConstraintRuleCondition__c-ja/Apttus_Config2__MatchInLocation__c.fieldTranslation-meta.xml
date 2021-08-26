@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>唯一の場所特定のルールのため、この値をtrueに設定します</help>
+    <label></label>
+    <name>Apttus_Config2__MatchInLocation__c</name>
+</CustomFieldTranslation>

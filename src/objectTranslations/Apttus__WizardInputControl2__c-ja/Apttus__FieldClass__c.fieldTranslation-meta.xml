@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ウィザードの入力フィールド - 決定を行うためウィザード内にのみ存在するフィールド
+オブジェクトフィールド - 決定を行うためにSalesforceのオブジェクトとして存在するフィールド</help>
+    <label></label>
+    <name>Apttus__FieldClass__c</name>
+    <picklistValues>
+        <masterLabel>Object Field</masterLabel>
+        <translation>オブジェクトフィールド</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wizard Input Field</masterLabel>
+        <translation>ウィザード入力フィールド</translation>
+    </picklistValues>
+</CustomFieldTranslation>

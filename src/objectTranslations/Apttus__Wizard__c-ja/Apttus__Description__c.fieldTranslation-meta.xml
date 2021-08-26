@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>実行時ウィザードの使用目的を理解するための実行時ウィザードのユーザーのためにより多くの情報を提供します</help>
+    <label></label>
+    <name>Apttus__Description__c</name>
+</CustomFieldTranslation>

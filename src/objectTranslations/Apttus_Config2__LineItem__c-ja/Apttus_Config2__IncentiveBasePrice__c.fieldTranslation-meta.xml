@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>インセンティブ基本価格は、個々の商品およびオプションの基本価格+インセンティブの調整であります</help>
+    <label></label>
+    <name>Apttus_Config2__IncentiveBasePrice__c</name>
+</CustomFieldTranslation>

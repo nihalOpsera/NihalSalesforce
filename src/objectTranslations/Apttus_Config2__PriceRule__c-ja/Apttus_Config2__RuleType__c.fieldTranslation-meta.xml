@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label></label>
+    <name>Apttus_Config2__RuleType__c</name>
+    <picklistValues>
+        <masterLabel>Condition</masterLabel>
+        <translation>制限</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dimension</masterLabel>
+        <translation>ディメンション</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inclusion</masterLabel>
+        <translation>包含</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rate Table - No Tiers</masterLabel>
+        <translation>料金表 -  階層なし</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rate Table - With Tiers</masterLabel>
+        <translation>料金表 -  階層つき</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Single Rate</masterLabel>
+        <translation>シングルレート</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Volume</masterLabel>
+        <translation>ボリューム</translation>
+    </picklistValues>
+</CustomFieldTranslation>

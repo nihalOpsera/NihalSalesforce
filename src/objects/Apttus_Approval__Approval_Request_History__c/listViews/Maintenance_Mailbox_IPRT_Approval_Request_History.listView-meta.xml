@@ -5,6 +5,6 @@
     <label>Maintenance Mailbox IPRT</label>
     <queue>Maintenance_Mailbox_IPRT</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

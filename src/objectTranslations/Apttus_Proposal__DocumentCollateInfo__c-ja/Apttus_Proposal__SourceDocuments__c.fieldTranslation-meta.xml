@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>添付ファイルのリストは、最終的なドキュメントを生成するために使用されます</help>
+    <label></label>
+    <name>Apttus_Proposal__SourceDocuments__c</name>
+</CustomFieldTranslation>

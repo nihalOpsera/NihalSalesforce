@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>按分期間処理方法。これは、サービス期間が開始され、請求日の準備ができたときの間の時間に対処することです</help>
+    <label></label>
+    <name>Apttus_Config2__ProrationPeriodTreatment__c</name>
+    <picklistValues>
+        <masterLabel>Charge Full</masterLabel>
+        <translation>フル請求</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Combine with First Period</masterLabel>
+        <translation>最初の期間と結合</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extend Period</masterLabel>
+        <translation>延長期間</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ignore</masterLabel>
+        <translation>無視</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Separate Period</masterLabel>
+        <translation>別々の期間</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spread over Remaining Period</masterLabel>
+        <translation>残存期間にわたって広がります</translation>
+    </picklistValues>
+</CustomFieldTranslation>

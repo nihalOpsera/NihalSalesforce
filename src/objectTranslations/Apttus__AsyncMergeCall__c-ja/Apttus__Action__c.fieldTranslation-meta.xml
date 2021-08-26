@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Apttus__Action__c</name>
+    <picklistValues>
+        <masterLabel>Generate</masterLabel>
+        <translation>生成</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Generate Supporting Document</masterLabel>
+        <translation>サポートドキュメントの生成</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preview</masterLabel>
+        <translation>プレビュー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Publish</masterLabel>
+        <translation>公開</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regenerate</masterLabel>
+        <translation>再作成</translation>
+    </picklistValues>
+</CustomFieldTranslation>

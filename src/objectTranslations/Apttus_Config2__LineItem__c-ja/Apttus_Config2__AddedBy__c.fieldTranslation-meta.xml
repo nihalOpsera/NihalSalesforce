@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Apttus_Config2__AddedBy__c</name>
+    <picklistValues>
+        <masterLabel>Constraint Rule</masterLabel>
+        <translation>強制ルール</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Default Rule</masterLabel>
+        <translation>標準ルール</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>System</masterLabel>
+        <translation>システム</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>User</masterLabel>
+        <translation>ユーザ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

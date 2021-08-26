@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>チェックボックスをオンにすると、すべてのルール条件はバンドルのコンテキスト内で評価されます</help>
+    <label></label>
+    <name>Apttus_Config2__IsBundleContext__c</name>
+</CustomFieldTranslation>

@@ -5,6 +5,6 @@
     <label>GS_IS_R_IM_LAT_All-Customers</label>
     <queue>GS_IS_R_IM_LAT_All_Customers</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Apttus_Config2__ProductFieldOperatorB__c</name>
+    <picklistValues>
+        <masterLabel>contains</masterLabel>
+        <translation>次の文字列を含む</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>does not contain</masterLabel>
+        <translation>次の文字列を含まない</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>equal to</masterLabel>
+        <translation>次の文字列と一致する</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>not equal to</masterLabel>
+        <translation>次の文字列と一致しない</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>starts with</masterLabel>
+        <translation>次の文字列で始まる</translation>
+    </picklistValues>
+</CustomFieldTranslation>

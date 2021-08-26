@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Apttus_Config2__ChargeType__c</name>
+    <picklistValues>
+        <masterLabel>1 Year Maintenance</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Adjustment</masterLabel>
+        <translation>調整</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Implementation Fee</masterLabel>
+        <translation>導入費</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Installation Fee</masterLabel>
+        <translation>設置費</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>License Fee</masterLabel>
+        <translation>ライセンス費</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maintenance Fee</masterLabel>
+        <translation>メンテナンス費</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maintenance Y1</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maintenance Y2+</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maintenance for Y2 &amp; Beyond</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maintenance for Y2 and Beyond</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SRS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SSP</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Tax</masterLabel>
+        <translation>消費税</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shipping &amp; Handling</masterLabel>
+        <translation>配送と処理</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Standard Price</masterLabel>
+        <translation>標準価格</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Subscription Fee</masterLabel>
+        <translation>サブスクリプション料</translation>
+    </picklistValues>
+</CustomFieldTranslation>

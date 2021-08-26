@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このステップが属する参照/検索ウィザード実行時</help>
+    <label></label>
+    <name>Apttus__WizardRuntimeId__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

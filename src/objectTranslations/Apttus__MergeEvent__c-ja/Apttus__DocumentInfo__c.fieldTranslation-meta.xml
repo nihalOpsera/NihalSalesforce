@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>追加ドキュメント情報</help>
+    <label></label>
+    <name>Apttus__DocumentInfo__c</name>
+    <picklistValues>
+        <masterLabel>Clean</masterLabel>
+        <translation>クリーン</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Draft</masterLabel>
+        <translation>ドラフト</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Final</masterLabel>
+        <translation>最終</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Redlines</masterLabel>
+        <translation>朱書き</translation>
+    </picklistValues>
+</CustomFieldTranslation>

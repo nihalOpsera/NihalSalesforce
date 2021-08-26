@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>取引先階層の取引先の階層レベル。
+インデントを識別するために取引先階層内のツリービューで使用されます</help>
+    <label></label>
+    <name>Apttus__AccountLevel__c</name>
+</CustomFieldTranslation>

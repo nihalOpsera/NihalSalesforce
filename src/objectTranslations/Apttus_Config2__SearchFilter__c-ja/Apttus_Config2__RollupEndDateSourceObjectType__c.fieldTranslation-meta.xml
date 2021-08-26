@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Rollup終了日のソースが含まれているオブジェクトのタイプを示します</help>
+    <label></label>
+    <name>Apttus_Config2__RollupEndDateSourceObjectType__c</name>
+    <picklistValues>
+        <masterLabel>Child Filter</masterLabel>
+        <translation>フィルター(子)</translation>
+    </picklistValues>
+</CustomFieldTranslation>

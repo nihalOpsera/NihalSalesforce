@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>請求開始日。また最初の請求期間の終了日として知られています</help>
+    <label></label>
+    <name>Apttus_Config2__BillingStartDate__c</name>
+</CustomFieldTranslation>

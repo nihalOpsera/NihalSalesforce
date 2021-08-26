@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Apttus_Config2__InclusionCriteriaCompOper__c</name>
+    <picklistValues>
+        <masterLabel>equal to</masterLabel>
+        <translation>次の文字列と一致する</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>not equal to</masterLabel>
+        <translation>次の文字列と一致しない</translation>
+    </picklistValues>
+</CustomFieldTranslation>

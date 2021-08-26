@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>コンテキストの種類、その全てまたはオブジェクトかどうか。
+「全て」の意味はステップデザインでどんな入力を行うことができることを意味します。
+「オブジェクト」の意味は整列（同じオブジェクト）ステップデザインでこの入力のみ利用できることを意味します</help>
+    <label></label>
+    <name>Apttus__ContextType__c</name>
+    <picklistValues>
+        <masterLabel>All</masterLabel>
+        <translation>全て</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Object</masterLabel>
+        <translation>オブジェクト</translation>
+    </picklistValues>
+</CustomFieldTranslation>

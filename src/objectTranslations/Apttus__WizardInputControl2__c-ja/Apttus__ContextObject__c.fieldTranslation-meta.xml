@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ステップとウィザードのデザイン内の入力をフィルタリングし、整列させるために使用される商品構成のコンテキスト</help>
+    <label></label>
+    <name>Apttus__ContextObject__c</name>
+</CustomFieldTranslation>

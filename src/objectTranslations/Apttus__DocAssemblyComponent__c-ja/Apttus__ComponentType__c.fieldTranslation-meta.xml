@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>条項=条項ドキュメント、添付ファイル（Id）＝ハードコードされた添付ファイルID、添付ファイル（オブジェクト/フィールド）＝フィールド内の添付ファイルID、親（オブジェクト/フィールド）＝フィールドで表示される親データの中の最初の添付ファイル、コンテンツ（オブジェクト/フィールド）＝フィールドの生データ</help>
+    <label></label>
+    <name>Apttus__ComponentType__c</name>
+    <picklistValues>
+        <masterLabel>Attachment (Id)</masterLabel>
+        <translation>添付ファイル (Id)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attachment (Object/Field)</masterLabel>
+        <translation>添付ファイル（オブジェクト/フィールド）</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clause</masterLabel>
+        <translation>条項</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Content (Object/Field)</masterLabel>
+        <translation>コンテンツ（オブジェクト/フィールド）</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parent (Object/Field)</masterLabel>
+        <translation>親(オブジェクト/フィールド)</translation>
+    </picklistValues>
+</CustomFieldTranslation>

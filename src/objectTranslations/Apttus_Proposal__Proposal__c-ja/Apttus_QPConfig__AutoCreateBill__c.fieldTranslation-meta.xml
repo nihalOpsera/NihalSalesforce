@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>見積/提案が受け入れられた時に見積/提案に関連した注文のために請求スケジュールが作成されるかどうかを示します</help>
+    <label></label>
+    <name>Apttus_QPConfig__AutoCreateBill__c</name>
+</CustomFieldTranslation>

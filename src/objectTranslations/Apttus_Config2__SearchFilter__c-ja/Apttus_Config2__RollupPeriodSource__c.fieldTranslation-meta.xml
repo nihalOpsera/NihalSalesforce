@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Rollup期間を決定するRollup商品構成内のソースフィールドを示します</help>
+    <label></label>
+    <name>Apttus_Config2__RollupPeriodSource__c</name>
+</CustomFieldTranslation>

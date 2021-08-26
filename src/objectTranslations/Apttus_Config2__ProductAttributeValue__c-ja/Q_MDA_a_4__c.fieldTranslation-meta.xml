@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Q_MDA_a_4__c</name>
+    <picklistValues>
+        <masterLabel>1-port 100GE CFP MDA-a XP</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1-port 100GE CFP2 MDA-a XP</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1-port 100GE CFP4 MDA-a XP</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10-port 10GE SFP+ MDA-a XP</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2-port 10GE SFP+ and 12-port GE SFP Combo MDA-a</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>20-port 10/100/1000 TX RJ45 MDA-a</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>22-port GE SFP MDA-a</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4-port 10GE SFP+ MDA-a</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>44-port GE cSFP MDA-a</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>6-port 10GE SFP+ and 1-port 40GE QSFP+ XP</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -5,6 +5,6 @@
     <label>NSW_CSC-GCD_EX_HLR-EIR-MNP-EME_NAM-LAT</label>
     <queue>NSW_CSC_GCD_EX_HLR_EIR_MNP_EME_NAM_LAT</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

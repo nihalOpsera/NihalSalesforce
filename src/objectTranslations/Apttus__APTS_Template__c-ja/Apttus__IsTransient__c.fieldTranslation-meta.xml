@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>テンプレートが一時レコードであるかどうかを示します。通常テンプレートはドキュメントをチェックインせずに作成されます</help>
+    <label></label>
+    <name>Apttus__IsTransient__c</name>
+</CustomFieldTranslation>

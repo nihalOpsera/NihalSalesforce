@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ディメンションタイプ</help>
+    <label></label>
+    <name>Apttus_Config2__Type__c</name>
+    <picklistValues>
+        <masterLabel>Amount</masterLabel>
+        <translation>金額</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quantity</masterLabel>
+        <translation>数量</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Standard</masterLabel>
+        <translation>標準</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Term</masterLabel>
+        <translation>期間</translation>
+    </picklistValues>
+</CustomFieldTranslation>

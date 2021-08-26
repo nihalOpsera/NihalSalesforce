@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>構成の変化の可能性による再検証の必要性を示すためにフラグします</help>
+    <label></label>
+    <name>Apttus_Config2__IsValidationPending__c</name>
+</CustomFieldTranslation>

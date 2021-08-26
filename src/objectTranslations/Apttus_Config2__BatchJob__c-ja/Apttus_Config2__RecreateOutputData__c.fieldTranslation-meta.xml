@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>期間のための既存のRollupやリベートのレコードが削除され、再作成されるかどうかを示します。有効でない場合、既存のレコードが更新された場合に彼らはまだ存在していなかった場合、新しいレコードが作成されます</help>
+    <label></label>
+    <name>Apttus_Config2__RecreateOutputData__c</name>
+</CustomFieldTranslation>

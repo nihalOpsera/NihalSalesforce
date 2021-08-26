@@ -21,6 +21,6 @@
     <label>CSR Tickets Status View</label>
     <language>en_US</language>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

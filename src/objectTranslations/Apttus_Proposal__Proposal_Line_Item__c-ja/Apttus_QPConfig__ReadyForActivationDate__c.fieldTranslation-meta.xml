@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>オーダー項目の有効化の準備ができた日。オーダー項目はこの日に有効化されます</help>
+    <label></label>
+    <name>Apttus_QPConfig__ReadyForActivationDate__c</name>
+</CustomFieldTranslation>

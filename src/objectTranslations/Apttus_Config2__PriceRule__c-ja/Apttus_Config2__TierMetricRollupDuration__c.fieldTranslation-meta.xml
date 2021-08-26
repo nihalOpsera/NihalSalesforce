@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>階層メトリックが集約された期間です。階層なしの意味は階層メトリックが個々のトランザクションからの値のみに基づいているということです</help>
+    <label></label>
+    <name>Apttus_Config2__TierMetricRollupDuration__c</name>
+    <picklistValues>
+        <masterLabel>Half Yearly</masterLabel>
+        <translation>半年毎</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incentive Lifetime</masterLabel>
+        <translation>インセンティブの生涯</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incentive Period</masterLabel>
+        <translation>インセンティブ期間</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Monthly</masterLabel>
+        <translation>毎月</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Rollup</masterLabel>
+        <translation>Rollupなし</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quarterly</masterLabel>
+        <translation>四半期ごと</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rebate Payout Period</masterLabel>
+        <translation>リベート支払期間</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yearly</masterLabel>
+        <translation>毎年</translation>
+    </picklistValues>
+</CustomFieldTranslation>

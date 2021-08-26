@@ -10,9 +10,9 @@
     <authorizationRequiredPage>CommunitiesLogin</authorizationRequiredPage>
     <bandwidthExceededPage>BandwidthExceeded</bandwidthExceededPage>
     <browserXssProtection>true</browserXssProtection>
+    <cachePublicVisualforcePagesInProxyServers>true</cachePublicVisualforcePagesInProxyServers>
     <clickjackProtectionLevel>SameOriginOnly</clickjackProtectionLevel>
     <contentSniffingProtection>true</contentSniffingProtection>
-    <cspUpgradeInsecureRequests>true</cspUpgradeInsecureRequests>
     <customWebAddresses>
         <certificate>Customer_Community_Certificate</certificate>
         <domainName>customer.nokia.com</domainName>
@@ -24,12 +24,12 @@
     <inMaintenancePage>InMaintenance</inMaintenancePage>
     <indexPage>CommunitiesLanding</indexPage>
     <masterLabel>Customers</masterLabel>
+    <redirectToCustomDomain>false</redirectToCustomDomain>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
-    <requireHttps>true</requireHttps>
     <robotsTxtPage>CustomerCommunityRobotTXT</robotsTxtPage>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
     <siteAdmin>portal.support@nokia.com</siteAdmin>
-    <siteGuestRecordDefaultOwner>rob.janek@singlecrm.nokia.com</siteGuestRecordDefaultOwner>
+    <siteGuestRecordDefaultOwner>mark.galloway@singlecrm.nokia.com</siteGuestRecordDefaultOwner>
     <siteRedirectMappings>
         <action>Permanent</action>
         <isActive>true</isActive>

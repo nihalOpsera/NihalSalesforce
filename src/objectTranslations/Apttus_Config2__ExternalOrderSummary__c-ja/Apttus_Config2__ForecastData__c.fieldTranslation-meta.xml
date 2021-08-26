@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>提供データが「売上見込みデータ」であるか「売上実績データ」かどうかを示します</help>
+    <label></label>
+    <name>Apttus_Config2__ForecastData__c</name>
+</CustomFieldTranslation>

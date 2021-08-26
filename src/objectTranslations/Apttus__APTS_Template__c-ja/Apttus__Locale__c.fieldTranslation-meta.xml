@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Apttus__Locale__c</name>
+    <picklistValues>
+        <masterLabel>Chinese</masterLabel>
+        <translation>中国</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Canada)</masterLabel>
+        <translation>英語（カナダ）</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Ireland)</masterLabel>
+        <translation>英語（アイルランド）</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (United Kingdom)</masterLabel>
+        <translation>英語（英国）</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (United States)</masterLabel>
+        <translation>英語（米国）</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>German</masterLabel>
+        <translation>ドイツ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Greek(Greece)</masterLabel>
+        <translation>ギリシャ語（ギリシャ）</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Italian</masterLabel>
+        <translation>イタリア</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Japanese</masterLabel>
+        <translation>日本</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Korean</masterLabel>
+        <translation>韓国</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Norwegian</masterLabel>
+        <translation>ノルウェー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Polish</masterLabel>
+        <translation>ポーランド</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Portuguese</masterLabel>
+        <translation>ポルトガル</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Russian</masterLabel>
+        <translation>ロシア</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish</masterLabel>
+        <translation>スペイン</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Swedish</masterLabel>
+        <translation>スウェーデン</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thai</masterLabel>
+        <translation>タイ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>添付ファイルのリストは、電子メールを送信するために添付ファイルとして使用されてます</help>
+    <label></label>
+    <name>Apttus_Proposal__EmailAttachments__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>マージプロセスから指定された親を除外するために子オブジェクトを指定します。子オブジェクトは、複数の親を持っている場合にのみ適用可能です</help>
+    <label></label>
+    <name>Apttus__ExcludedMergeChildObjects__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>指定されたクエリの文脈</help>
+    <label></label>
+    <name>Apttus__Context__c</name>
+    <picklistValues>
+        <masterLabel>Agreement</masterLabel>
+        <translation>合意</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Agreement By Account(s)</masterLabel>
+        <translation>取引先ごとの合意</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Agreement Search</masterLabel>
+        <translation>合意検索</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ユーザーによって削除される可能性があります。過渡的合意を示しています。合意はユーザーによって明示的に保存されるまで、新しい合意は過渡状態です</help>
+    <label></label>
+    <name>Apttus__Workflow_Trigger_Created_From_Clone__c</name>
+</CustomFieldTranslation>

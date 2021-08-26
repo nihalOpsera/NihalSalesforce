@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>式の参加者が変更した時の初期数量の自動更新</help>
+    <label></label>
+    <name>Apttus_Config2__AutoUpdateQuantity__c</name>
+</CustomFieldTranslation>

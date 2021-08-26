@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Apttus_Config2__Status__c</name>
+    <picklistValues>
+        <masterLabel>Abandoned</masterLabel>
+        <translation>放棄済</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Approval Required</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finalized</masterLabel>
+        <translation>確定済</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Collaboration</masterLabel>
+        <translation>協力中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New</masterLabel>
+        <translation>新規</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending Approval</masterLabel>
+        <translation>承認待ち</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ready For Approvals</masterLabel>
+        <translation>承認の準備完了</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ready For Finalization</masterLabel>
+        <translation>確定の準備完了</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Saved</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Superseded</masterLabel>
+        <translation>置き換え済</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>マトリックスの有効期限。マトリックスはこの日付以降に無効になります。</help>
+    <label></label>
+    <name>Apttus_Config2__ExpirationDate__c</name>
+</CustomFieldTranslation>

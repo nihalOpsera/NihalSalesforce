@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>価格アイテムに関連付けられた請求ルール</help>
+    <label></label>
+    <name>Apttus_Config2__BillingRule__c</name>
+    <picklistValues>
+        <masterLabel>Bill In Advance</masterLabel>
+        <translation>前払い</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bill In Arrears</masterLabel>
+        <translation>後払い</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bill on Ready for Billing Date</masterLabel>
+        <translation>請求日の準備ができたら請求</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Milestone Billing</masterLabel>
+        <translation>マイルストーン請求</translation>
+    </picklistValues>
+</CustomFieldTranslation>

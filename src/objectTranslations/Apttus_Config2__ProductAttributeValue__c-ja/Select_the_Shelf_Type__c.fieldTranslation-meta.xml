@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Select_the_Shelf_Type__c</name>
+    <picklistValues>
+        <masterLabel>SAR-A(-48V) with 8 x Gig-E,4 x FE and 8 x E1/T1 ports</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SAR-A(-48V) with 8 x Gig-E,4 x FE ports</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SAR-Ax(-48V/+24V) with 12 x Gig-E ports</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

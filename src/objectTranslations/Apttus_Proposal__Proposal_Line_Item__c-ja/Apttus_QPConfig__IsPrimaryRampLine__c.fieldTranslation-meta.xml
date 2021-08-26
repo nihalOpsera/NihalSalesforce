@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ラインは、価格Rampのための主要回線であるかどうかを示します。次の場合にのみ適用価格Rampは商品またはオプションに有効です</help>
+    <label></label>
+    <name>Apttus_QPConfig__IsPrimaryRampLine__c</name>
+</CustomFieldTranslation>

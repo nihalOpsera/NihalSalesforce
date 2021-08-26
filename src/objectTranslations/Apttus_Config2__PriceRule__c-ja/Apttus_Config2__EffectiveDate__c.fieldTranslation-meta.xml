@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ルールや効果的な日付に利益をもたらします。ルールや利点はこの日に有効となります。また、価格Rampの開始日を示すことができます</help>
+    <label></label>
+    <name>Apttus_Config2__EffectiveDate__c</name>
+</CustomFieldTranslation>

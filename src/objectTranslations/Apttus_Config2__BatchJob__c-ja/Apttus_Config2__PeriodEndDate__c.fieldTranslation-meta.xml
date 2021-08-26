@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>入力レコードがRollupやリベート計算のために考慮されるまでの固定の終了日。一定の計算期間にのみ適用されます</help>
+    <label></label>
+    <name>Apttus_Config2__PeriodEndDate__c</name>
+</CustomFieldTranslation>

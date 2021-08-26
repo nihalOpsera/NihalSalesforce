@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label></label>
+    <name>Apttus_Approval__MatchRule__c</name>
+    <picklistValues>
+        <masterLabel>Match All</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Match Any</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

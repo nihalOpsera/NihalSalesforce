@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>インセンティブの検索フィールド</help>
+    <label></label>
+    <name>Apttus_Config2__SearchField__c</name>
+</CustomFieldTranslation>

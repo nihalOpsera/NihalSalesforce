@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>納入商品等の製品と一致するかどうかを示します。インクルージョンベースのルールにのみ適用されます</help>
+    <label></label>
+    <name>Apttus_Config2__MatchInAsset__c</name>
+</CustomFieldTranslation>

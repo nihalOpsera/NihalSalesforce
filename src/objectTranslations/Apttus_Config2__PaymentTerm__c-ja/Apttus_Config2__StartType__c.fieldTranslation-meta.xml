@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>開始種類のタイプが支払期限を計算するために使用されるかを示します</help>
+    <label></label>
+    <name>Apttus_Config2__StartType__c</name>
+    <picklistValues>
+        <masterLabel>Day</masterLabel>
+        <translation>日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>End of Month</masterLabel>
+        <translation>月末</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>End of Quarter</masterLabel>
+        <translation>四半期の終わり</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invoice Date</masterLabel>
+        <translation>請求日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Month</masterLabel>
+        <translation>月</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Specific Day</masterLabel>
+        <translation>特定日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Start of Month</masterLabel>
+        <translation>月の始め</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Start of Quarter</masterLabel>
+        <translation>四半期の始め</translation>
+    </picklistValues>
+</CustomFieldTranslation>

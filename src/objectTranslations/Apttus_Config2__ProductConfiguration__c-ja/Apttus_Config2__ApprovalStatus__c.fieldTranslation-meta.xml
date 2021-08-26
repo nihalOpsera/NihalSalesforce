@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>見積/合意書/標準承認インジケータ。カートの承認が有効になっているときには適用されません。</help>
+    <label></label>
+    <name>Apttus_Config2__ApprovalStatus__c</name>
+    <picklistValues>
+        <masterLabel>Approval Required</masterLabel>
+        <translation>承認必須</translation>
+    </picklistValues>
+</CustomFieldTranslation>

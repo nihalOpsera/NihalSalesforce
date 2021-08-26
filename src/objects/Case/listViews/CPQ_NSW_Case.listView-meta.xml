@@ -5,6 +5,6 @@
     <label>CPQ- NSW</label>
     <queue>CPQ_NSW</queue>
     <sharedTo>
-        <allInternalUsers/>
+        <allInternalUsers></allInternalUsers>
     </sharedTo>
 </ListView>

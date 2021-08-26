@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>オーダー参照番号はこの順に割り当てられています</help>
+    <label></label>
+    <name>Apttus_Config2__OrderReferenceNumber__c</name>
+</CustomFieldTranslation>

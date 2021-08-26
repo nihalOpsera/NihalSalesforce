@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>フィールド更新やRollup式から実行時に値を取得しターゲット・フィールド名を表します</help>
+    <label></label>
+    <name>Apttus_Config2__UpdateField__c</name>
+</CustomFieldTranslation>

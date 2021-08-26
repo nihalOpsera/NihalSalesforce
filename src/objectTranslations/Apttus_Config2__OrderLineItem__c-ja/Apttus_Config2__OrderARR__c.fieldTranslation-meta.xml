@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>納入商品の元サービスの期間中による年間経常収益の変化</help>
+    <label></label>
+    <name>Apttus_Config2__OrderARR__c</name>
+</CustomFieldTranslation>

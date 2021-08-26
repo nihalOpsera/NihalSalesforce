@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>実行時ユーザーがレビュー時に入力を編集することが許可されているかどうかを示します</help>
+    <label></label>
+    <name>Apttus__AllowReviewEdit__c</name>
+</CustomFieldTranslation>

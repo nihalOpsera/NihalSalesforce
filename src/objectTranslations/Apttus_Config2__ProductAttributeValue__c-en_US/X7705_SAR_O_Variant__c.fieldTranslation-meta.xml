@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>X7705_SAR_O_Variant__c</name>
+    <picklistValues>
+        <masterLabel>7705 SAR-O 2-FIBER CWDM 4 COLOR1471-1531</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>7705 SAR-O 2-FIBER CWDM 4 COLOR1551-1611</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>7705 SAR-O 2-FIBERCWDM 4 COLOR 1271-1331</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>7705 SAR-O 2-FIBERCWDM 4 COLOR 1351-1451</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>
