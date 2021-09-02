@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPageWebLinks>
+        <label><!-- Asset Library --></label>
+        <name>Asset_Library</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Toolkit Mobile App --></label>
+        <name>Toolkit_Mobile_App</name>
+    </customPageWebLinks>
+</Translations>
