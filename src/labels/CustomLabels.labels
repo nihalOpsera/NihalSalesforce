@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ApprovalScope_ErrorMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Req: 3856(To show error message fpr &apos;Approval Scope&apos; Field</shortDescription>
+        <value>You cannot update the Approval Scope once the G4/G5 was submitted for approval.</value>
+    </labels>
+    <labels>
+        <fullName>BOM_Upload_QTC_CQ_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BOM_Upload_QTC_CQ_Id</shortDescription>
+        <value>16603cff-93ae-4c13-82ea-469e22340726</value>
+    </labels>
+</CustomLabels>
