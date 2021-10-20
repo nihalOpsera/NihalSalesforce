@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>BOM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BOM_Upload_QTC_NCQ_Id</shortDescription>
+        <value>88a6c74f-b9bc-4164-b4d1-9ae9466bcd04</value>
+    </labels>
+</CustomLabels>
