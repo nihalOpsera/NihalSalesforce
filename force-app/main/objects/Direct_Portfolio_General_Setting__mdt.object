@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Approval_Based_On_Traffic_Lights__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Approval Based On Traffic Lights</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Cost_Calculation_In_PCB__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Cost Calculation In PCB</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Direct_CPQ__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Direct CPQ</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>GSS_Flow__c</fullName>
+        <description>This flow is for Is List price only true condition</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>GSS Flow</label>
+        <length>45</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MNDirectFlow__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>MNDirectFlow</label>
+        <length>45</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Non_GSS_Flow__c</fullName>
+        <description>Triggered when Is list Price only is false</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Non GSS Flow</label>
+        <length>55</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Portfolio__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Portfolio</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Direct Portfolio General Setting</label>
+    <listViews>
+        <fullName>All_portfolio</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>Portfolio__c</columns>
+        <columns>Cost_Calculation_In_PCB__c</columns>
+        <columns>Approval_Based_On_Traffic_Lights__c</columns>
+        <columns>Direct_CPQ__c</columns>
+        <columns>GSS_Flow__c</columns>
+        <columns>MNDirectFlow__c</columns>
+        <columns>Non_GSS_Flow__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All portfolio</label>
+        <language>en_US</language>
+    </listViews>
+    <pluralLabel>Direct Portfolio General Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

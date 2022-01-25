@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Customer facing Attirbutes from JSoN</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Account</description>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Customer Facing Attributes</relationshipLabel>
+        <relationshipName>DS_customer_facing_Attributes</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Attribute_Indicator__c</fullName>
+        <description>Indicates if the Attibute is Header / Item</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Attribute Indicator</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Attribute_Label__c</fullName>
+        <description>Attribute Label</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Attribute Label</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Attribute_Name__c</fullName>
+        <description>Attribute Name</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Attribute Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Attribute_Value__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Attribute Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Attribute_Visibility__c</fullName>
+        <description>Customer Facing attribute</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Attribute Visibility</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPO__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Customer Purchase Order</description>
+        <externalId>false</externalId>
+        <label>CPO</label>
+        <referenceTo>Apttus_Config2__CustomerPurchaseOrder__c</referenceTo>
+        <relationshipName>DS_customer_facing_Attributes</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CPO_item__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Customer Purchase order Item</description>
+        <externalId>false</externalId>
+        <label>CPO item</label>
+        <referenceTo>Apttus_Config2__CustomerPOItem__c</referenceTo>
+        <relationshipName>DS_customer_facing_Attributes</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Configuration_Line_item__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Product Configuration Line item</description>
+        <externalId>false</externalId>
+        <label>Configuration Line item</label>
+        <referenceTo>Apttus_Config2__LineItem__c</referenceTo>
+        <relationshipName>DS_customer_facing_Attributes</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DS_Staging__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>DS Staging</description>
+        <externalId>false</externalId>
+        <label>DS Staging</label>
+        <referenceTo>DS_Staging__c</referenceTo>
+        <relationshipName>DS_customer_facing_Attributes</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Digital_Proposal__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Digital Proposal</description>
+        <externalId>false</externalId>
+        <label>Digital Proposal</label>
+        <referenceTo>SWx_Upsell_Proposal__c</referenceTo>
+        <relationshipName>DS_customer_facing_Attributes</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QTO_Customer_Document_Line_Items__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Customer Document Line Items</label>
+        <referenceTo>Customer_Document_Line_Items__c</referenceTo>
+        <relationshipLabel>Customer Facing Attributes</relationshipLabel>
+        <relationshipName>Customer_Facing_Attributes</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QTO_Customer_Document__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Customer Document</label>
+        <referenceTo>Customer_Document__c</referenceTo>
+        <relationshipLabel>Customer Facing Attributes</relationshipLabel>
+        <relationshipName>Customer_Facing_Attributes</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Quote_Approval_Stage__c</fullName>
+        <description>Approval stage from Quote</description>
+        <externalId>false</externalId>
+        <label>Quote Approval Stage</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>false</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>For Configure</fullName>
+                    <default>false</default>
+                    <label>For Configure</label>
+                </value>
+                <value>
+                    <fullName>For Pricing</fullName>
+                    <default>false</default>
+                    <label>For Pricing</label>
+                </value>
+                <value>
+                    <fullName>In Review</fullName>
+                    <default>false</default>
+                    <label>In Review</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Published - In Progress</fullName>
+                    <default>false</default>
+                    <label>Published - In Progress</label>
+                </value>
+                <value>
+                    <fullName>Published - Ready</fullName>
+                    <default>false</default>
+                    <label>Published - Ready</label>
+                </value>
+                <value>
+                    <fullName>Accepted</fullName>
+                    <default>false</default>
+                    <label>Accepted</label>
+                </value>
+                <value>
+                    <fullName>Expired</fullName>
+                    <default>false</default>
+                    <label>Expired</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>Withdrawn</fullName>
+                    <default>false</default>
+                    <label>Withdrawn</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Quote_Line_Item__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Quote Line item</description>
+        <externalId>false</externalId>
+        <label>Quote Line Item</label>
+        <referenceTo>Apttus_Proposal__Proposal_Line_Item__c</referenceTo>
+        <relationshipName>DS_customer_facing_Attributes</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Quote__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Quote detail</description>
+        <externalId>false</externalId>
+        <label>Quote/Proposal</label>
+        <referenceTo>Apttus_Proposal__Proposal__c</referenceTo>
+        <relationshipName>DS_customer_facing_Attributes</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SWx_Items__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Digital Proposal Line item</description>
+        <externalId>false</externalId>
+        <label>SWx Items</label>
+        <referenceTo>SWx_Upsell_Items__c</referenceTo>
+        <relationshipName>DS_customer_facing_Attributes</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Customer Facing Attribute</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Quote__c</columns>
+        <columns>Quote_Approval_Stage__c</columns>
+        <columns>Attribute_Label__c</columns>
+        <columns>Attribute_Name__c</columns>
+        <columns>Attribute_Value__c</columns>
+        <columns>Attribute_Visibility__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Mass_update_GDC</fullName>
+        <columns>Account__c</columns>
+        <columns>Quote__c</columns>
+        <columns>Quote_Approval_Stage__c</columns>
+        <columns>Attribute_Label__c</columns>
+        <columns>Attribute_Value__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Quote__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>Quote_Approval_Stage__c</field>
+            <operation>equals</operation>
+            <value>Approved</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>11/14/2019 12:00 AM</value>
+        </filters>
+        <label>Quote Stage Mass Update</label>
+        <sharedTo>
+            <group>DS_Order_Management_Group</group>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <displayFormat>CFE-{000000}</displayFormat>
+        <label>CFE Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Customer Facing Attributes</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Update_Stage_only_to_Published</fullName>
+        <active>true</active>
+        <description>GDC can update the stage only to Published - In progress and Published -Ready from Approved.</description>
+        <errorConditionFormula>AND
+(
+OR
+(
+$Profile.Name = &quot;Digital Sales Customer Profile&quot;,
+AND(
+$Permission.DS_GDC,
+NOT($Permission.SWX_CCRE_Account_manager)
+)
+),
+ISCHANGED(Quote_Approval_Stage__c), 
+OR
+(
+ISPICKVAL(PRIORVALUE(Quote_Approval_Stage__c), &apos;Approved&apos;), 
+ISPICKVAL(PRIORVALUE(Quote_Approval_Stage__c), &apos;Published - Ready&apos;), 
+ISPICKVAL(PRIORVALUE(Quote_Approval_Stage__c), &apos;Published - In Progress&apos;),
+ISPICKVAL(PRIORVALUE(Quote_Approval_Stage__c), &apos;Call-off Ready&apos;)
+),
+NOT(Text(Quote_Approval_Stage__c) = &apos;Approved&apos;), 
+NOT(Text(Quote_Approval_Stage__c) = &apos;Published - Ready&apos;), 
+NOT(Text(Quote_Approval_Stage__c) = &apos;Published - In Progress&apos;),
+NOT(Text(Quote_Approval_Stage__c) = &apos;Call-off Ready&apos;),
+NOT(Text(Quote_Approval_Stage__c) = &apos;Accepted&apos;),
+NOT(Text(Quote_Approval_Stage__c) = &apos;Rejected&apos;) 
+)</errorConditionFormula>
+        <errorMessage>Invalid state change. Approval stage be changed by GDC users only among &quot;Approved&quot;, &quot;Published - In Progress&quot;, &quot;Published - Ready&quot; and &quot;Call-off Ready&quot; or to &quot;Accepted&quot; or &quot;Rejected&quot;.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

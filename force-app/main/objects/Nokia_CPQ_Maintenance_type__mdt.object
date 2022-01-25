@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>The setting is used for creating a valuemap for maintenance type, portfolio &amp; maintenance accreditation.</description>
+    <fields>
+        <fullName>Default_Value__c</fullName>
+        <description>Default value for the associated scenario</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Default Value</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_LEO_Quote__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Is LEO Quote</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Maintenance_Type__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Maintenance Type</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Maintenance_Pricing_Levels__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>NokiaCPQ Maintenance Pricing Levels</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Portfolio__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>NokiaCPQ Portfolio</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <label>Nokia CPQ Maintenance type</label>
+    <listViews>
+        <fullName>cpq_view</fullName>
+        <columns>MasterLabel</columns>
+        <columns>NokiaCPQ_Portfolio__c</columns>
+        <columns>NokiaCPQ_Maintenance_Pricing_Levels__c</columns>
+        <columns>Maintenance_Type__c</columns>
+        <columns>Default_Value__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>cpq view</label>
+        <language>en_US</language>
+    </listViews>
+    <pluralLabel>Nokia CPQ Maintenance types</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

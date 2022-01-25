@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>This  Custom setting is used for Sync quote message to EAI</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Is_CQpicklist__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is CQpicklist</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Message__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Message</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Size__c</fullName>
+        <externalId>false</externalId>
+        <label>Size</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sync__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Sync</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>CQ Sync Quote EAI</label>
+    <listViews>
+        <fullName>CQ_Sync_Quote_EAI</fullName>
+        <columns>NAME</columns>
+        <columns>Message__c</columns>
+        <columns>Size__c</columns>
+        <columns>Sync__c</columns>
+        <columns>Is_CQpicklist__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>CQ_Sync_Quote_EAI</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Field_mapping</fullName>
+        <columns>NAME</columns>
+        <columns>Message__c</columns>
+        <columns>Is_CQpicklist__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Is_CQpicklist__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Field mapping</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

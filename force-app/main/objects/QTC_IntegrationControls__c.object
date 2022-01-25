@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Setting to enable/disable integration with Workato for each Quote Type.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>QTC_EnableWorkato__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Enables Workato integration and quotes will be sent to external systems.</inlineHelpText>
+        <label>Enable Workato</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QTC_QuoteType__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the Quote Type for which Workato needs to be enabled. Otherwise if set to false, default integration service is EAI.</inlineHelpText>
+        <label>Quote Type</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <label>QTC Integration Controls</label>
+    <listViews>
+        <fullName>Details</fullName>
+        <columns>NAME</columns>
+        <columns>QTC_EnableWorkato__c</columns>
+        <columns>QTC_QuoteType__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>AllDetails</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

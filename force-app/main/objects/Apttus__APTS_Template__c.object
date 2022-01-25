@@ -1,0 +1,2596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Contract language templates available in the system. These templates specify guidance, language, local setitngs, and include Word attachment templates representing the bulk of actual contracts that can be used when creating a first draft . Templates can include standard and non-standard language.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fieldSets>
+        <fullName>Apttus__BatchTemplatePublishResultFieldSet</fullName>
+        <availableFields>
+            <field>Apttus__Agreement_Types__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Category__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Guidance__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__IsActive__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__ReferenceId__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Subcategory__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>BatchTemplatePublish</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus__Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus__Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus__Language__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus__Locale__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus__NumberOfClauses__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus__NeedsPublishing__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus__PublishStatus__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus__PublishedDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Batch Template Publish Result FieldSet</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Apttus__BrowseTemplatesResultFieldSet</fullName>
+        <availableFields>
+            <field>Apttus__Category__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Language__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Locale__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Subcategory__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>Apttus__BrowseTemplates</description>
+        <displayedFields>
+            <field>Apttus__Guidance__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Browse Templates Result FieldSet</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Apttus__CheckinTemplateFieldSet</fullName>
+        <availableFields>
+            <field>Apttus__Agreement_Types__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__BusinessObject__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Category__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Guidance__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Keywords__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Language__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Locale__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Subcategory__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>For checkin page</description>
+        <label>Checkin Template Field Set</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Apttus__CreateTemplateFieldSet</fullName>
+        <availableFields>
+            <field>Apttus__Agreement_Types__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__BusinessObject__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Category__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Guidance__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Language__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Locale__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Subcategory__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>For Create Template Page</description>
+        <label>Create Template Field Set</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Apttus__TemplateListColumnFieldSet</fullName>
+        <availableFields>
+            <field>Apttus__Agreement_Types__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__BusinessObject__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__IsActive__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Language__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Locale__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Apttus__Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>This field set allows you to determine which template attributes should be displayed as columns in the template selection section that is available in the preview document, generate document, regenerate document, and generate supporting document pages.</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus__Guidance__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus__Category__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Apttus__Subcategory__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Template List Column Field Set</label>
+    </fieldSets>
+    <fields>
+        <fullName>Apttus_Proposal__RFP_Response_Content__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>RFP Response Content</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__ActivateVersion__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF (True, HYPERLINK(&quot;/apex/Apttus__TemplateFinder?source=salesforce&amp;callerMode=activate&amp;templateId=&quot; &amp;Id, IMAGE(&quot;/resource/Apttus__Button_ActivateVersion&quot;, &quot;Activate&quot;),&quot;_self&quot;), NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Activate Version</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__ActiveVersionId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to active version of the template</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lookup to active version of the template</inlineHelpText>
+        <label>Active Version</label>
+        <referenceTo>Apttus__TemplateVersion__c</referenceTo>
+        <relationshipLabel>Templates (Template Version)</relationshipLabel>
+        <relationshipName>Templates1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Agreement_Types__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Note: If you add a new agreement record type, the type must also be manually added to this set of picklist values to keep record types in sync between agreements and templates.</description>
+        <externalId>false</externalId>
+        <label>Agreement Types</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Default</fullName>
+                    <default>false</default>
+                    <label>Default</label>
+                </value>
+                <value>
+                    <fullName>Proposal</fullName>
+                    <default>false</default>
+                    <label>Proposal</label>
+                </value>
+                <value>
+                    <fullName>QTC NCQ Quote</fullName>
+                    <default>false</default>
+                    <label>QTC NCQ Quote</label>
+                </value>
+                <value>
+                    <fullName>Supply and Services Agreement</fullName>
+                    <default>false</default>
+                    <label>Supply and Services Agreement</label>
+                </value>
+                <value>
+                    <fullName>Care Agreement</fullName>
+                    <default>false</default>
+                    <label>Care Agreement</label>
+                </value>
+                <value>
+                    <fullName>Frame Agreement</fullName>
+                    <default>false</default>
+                    <label>Frame Agreement</label>
+                </value>
+                <value>
+                    <fullName>QTC CQ Quote</fullName>
+                    <default>false</default>
+                    <label>QTC CQ Quote</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus__BusinessObject__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The API name of the business object associated with the template</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The API name of the business object associated with the template</inlineHelpText>
+        <label>Business Object</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Apttus__Type__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Apttus__APTS_Agreement__c</fullName>
+                    <default>false</default>
+                    <label>Apttus__APTS_Agreement__c</label>
+                </value>
+                <value>
+                    <fullName>Apttus_Proposal__Proposal__c</fullName>
+                    <default>false</default>
+                    <label>Apttus_Proposal__Proposal__c</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Agreement</controllingFieldValue>
+                <controllingFieldValue>Clause</controllingFieldValue>
+                <controllingFieldValue>Section</controllingFieldValue>
+                <controllingFieldValue>Supporting Document</controllingFieldValue>
+                <valueName>Apttus__APTS_Agreement__c</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Clause</controllingFieldValue>
+                <controllingFieldValue>Proposal</controllingFieldValue>
+                <controllingFieldValue>Section</controllingFieldValue>
+                <controllingFieldValue>Supporting Document</controllingFieldValue>
+                <valueName>Apttus_Proposal__Proposal__c</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__Category__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Specifies the class of template or clauses into a high level category</description>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Default</fullName>
+                    <default>false</default>
+                    <label>Default</label>
+                </value>
+                <value>
+                    <fullName>Acceptance</fullName>
+                    <default>false</default>
+                    <label>Acceptance</label>
+                </value>
+                <value>
+                    <fullName>Warranty</fullName>
+                    <default>false</default>
+                    <label>Warranty</label>
+                </value>
+                <value>
+                    <fullName>Asset Management</fullName>
+                    <default>false</default>
+                    <label>Asset Management</label>
+                </value>
+                <value>
+                    <fullName>Compliance and Assurance</fullName>
+                    <default>false</default>
+                    <label>Compliance and Assurance</label>
+                </value>
+                <value>
+                    <fullName>Customer Security Management</fullName>
+                    <default>false</default>
+                    <label>Customer Security Management</label>
+                </value>
+                <value>
+                    <fullName>Health and Safety Governance</fullName>
+                    <default>false</default>
+                    <label>Health and Safety Governance</label>
+                </value>
+                <value>
+                    <fullName>Identity and Access Management</fullName>
+                    <default>false</default>
+                    <label>Identity and Access Management</label>
+                </value>
+                <value>
+                    <fullName>Incident Response and Handling</fullName>
+                    <default>false</default>
+                    <label>Incident Response and Handling</label>
+                </value>
+                <value>
+                    <fullName>Information Security</fullName>
+                    <default>false</default>
+                    <label>Information Security</label>
+                </value>
+                <value>
+                    <fullName>IT Cybersecurity Controls</fullName>
+                    <default>false</default>
+                    <label>IT Cybersecurity Controls</label>
+                </value>
+                <value>
+                    <fullName>Privacy</fullName>
+                    <default>false</default>
+                    <label>Privacy</label>
+                </value>
+                <value>
+                    <fullName>Product Security</fullName>
+                    <default>false</default>
+                    <label>Product Security</label>
+                </value>
+                <value>
+                    <fullName>Supply Chain Security</fullName>
+                    <default>false</default>
+                    <label>Supply Chain Security</label>
+                </value>
+                <value>
+                    <fullName>Commitment</fullName>
+                    <default>false</default>
+                    <label>Commitment</label>
+                </value>
+                <value>
+                    <fullName>Delivery</fullName>
+                    <default>false</default>
+                    <label>Delivery</label>
+                </value>
+                <value>
+                    <fullName>Financials</fullName>
+                    <default>false</default>
+                    <label>Financials</label>
+                </value>
+                <value>
+                    <fullName>Governance</fullName>
+                    <default>false</default>
+                    <label>Governance</label>
+                </value>
+                <value>
+                    <fullName>Scope</fullName>
+                    <default>false</default>
+                    <label>Scope</label>
+                </value>
+                <value>
+                    <fullName>SLAs</fullName>
+                    <default>false</default>
+                    <label>SLAs</label>
+                </value>
+                <value>
+                    <fullName>Software</fullName>
+                    <default>false</default>
+                    <label>Software</label>
+                </value>
+                <value>
+                    <fullName>Customer Remote Access</fullName>
+                    <default>false</default>
+                    <label>Customer Remote Access</label>
+                </value>
+                <value>
+                    <fullName>Limitation of Liability</fullName>
+                    <default>false</default>
+                    <label>Limitation of Liability</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__CheckoutById__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>User who has checked out the template</description>
+        <externalId>false</externalId>
+        <inlineHelpText>User who has checked out the template</inlineHelpText>
+        <label>Checkout By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>CheckedoutTemplates</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__CheckoutDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Date when the template was checked out</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Date when the template was checked out</inlineHelpText>
+        <label>Checkout Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__CheckoutVersionId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Version id that the user checked out for edit</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Version id that the user checked out for edit</inlineHelpText>
+        <label>Checkout Version</label>
+        <referenceTo>Apttus__TemplateVersion__c</referenceTo>
+        <relationshipLabel>Templates (Checked Out Version)</relationshipLabel>
+        <relationshipName>CheckedoutTemplates</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__ClauseType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Type of clause</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Type of clause</inlineHelpText>
+        <label>Clause Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Alternate Clause</fullName>
+                    <default>false</default>
+                    <label>Alternate Clause</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__ClonedFromId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the clause or template this was cloned from</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the clause or template this was cloned from</inlineHelpText>
+        <label>Cloned From</label>
+        <referenceTo>Apttus__APTS_Template__c</referenceTo>
+        <relationshipLabel>Clones</relationshipLabel>
+        <relationshipName>Clones</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__ClonedFromReferenceId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Reference identifier of the clause or template this was cloned from</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference identifier of the clause or template this was cloned from</inlineHelpText>
+        <label>Cloned From Reference</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__EnableAgreementClauseTracking__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enables tracking of agreement clause changes</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enables tracking of agreement clause changes</inlineHelpText>
+        <label>Enable Agreement Clause Tracking</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__ExcludedMergeChildObjects__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Specifies the child objects to exclude for a given parent from the merge process. Only applicable when a child object has multiple parents.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Specifies the child objects to exclude for a given parent from the merge process. Only applicable when a child object has multiple parents.</inlineHelpText>
+        <label>Excluded Merge Child Objects</label>
+        <length>4000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus__FrameworkFormat__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Template framework format</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Template framework format</inlineHelpText>
+        <label>Framework Format</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pre FX2</fullName>
+                    <default>false</default>
+                    <label>Pre FX2</label>
+                </value>
+                <value>
+                    <fullName>FX2</fullName>
+                    <default>false</default>
+                    <label>FX2</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__Guidance__c</fullName>
+        <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Guidance</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus__IsActive__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Denotes whether the contract template is active or not</description>
+        <externalId>false</externalId>
+        <label>IsActive</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__IsTransient__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates if the template is a transient record. Usually when a template is created without checking in the document</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates if the template is a transient record. Usually when a template is created without checking in the document</inlineHelpText>
+        <label>Is Transient</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Keywords__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Keywords on which the contract template can be searched and included in search layouts</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Keywords</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Language__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Language</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>English</fullName>
+                    <default>true</default>
+                    <label>English</label>
+                </value>
+                <value>
+                    <fullName>German</fullName>
+                    <default>false</default>
+                    <label>German</label>
+                </value>
+                <value>
+                    <fullName>Spanish</fullName>
+                    <default>false</default>
+                    <label>Spanish</label>
+                </value>
+                <value>
+                    <fullName>French</fullName>
+                    <default>false</default>
+                    <label>French</label>
+                </value>
+                <value>
+                    <fullName>Italian</fullName>
+                    <default>false</default>
+                    <label>Italian</label>
+                </value>
+                <value>
+                    <fullName>Japanese</fullName>
+                    <default>false</default>
+                    <label>Japanese</label>
+                </value>
+                <value>
+                    <fullName>Swedish</fullName>
+                    <default>false</default>
+                    <label>Swedish</label>
+                </value>
+                <value>
+                    <fullName>Korean</fullName>
+                    <default>false</default>
+                    <label>Korean</label>
+                </value>
+                <value>
+                    <fullName>Chinese (Traditional)</fullName>
+                    <default>false</default>
+                    <label>Chinese (Traditional)</label>
+                </value>
+                <value>
+                    <fullName>Chinese (Simplified)</fullName>
+                    <default>false</default>
+                    <label>Chinese (Simplified)</label>
+                </value>
+                <value>
+                    <fullName>Portugese (Brazilian)</fullName>
+                    <default>false</default>
+                    <label>Portugese (Brazilian)</label>
+                </value>
+                <value>
+                    <fullName>Dutch</fullName>
+                    <default>false</default>
+                    <label>Dutch</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__Locale__c</fullName>
+        <deprecated>false</deprecated>
+        <description>APTTUS RESERVED.  CUSTOMERS SHOULD NOT CHANGE VALUES</description>
+        <externalId>false</externalId>
+        <label>Locale</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>English (United States)</fullName>
+                    <default>true</default>
+                    <label>English (United States)</label>
+                </value>
+                <value>
+                    <fullName>English (United Kingdom)</fullName>
+                    <default>false</default>
+                    <label>English (United Kingdom)</label>
+                </value>
+                <value>
+                    <fullName>English (Canada)</fullName>
+                    <default>false</default>
+                    <label>English (Canada)</label>
+                </value>
+                <value>
+                    <fullName>English (Ireland)</fullName>
+                    <default>false</default>
+                    <label>English (Ireland)</label>
+                </value>
+                <value>
+                    <fullName>Italian</fullName>
+                    <default>false</default>
+                    <label>Italian</label>
+                </value>
+                <value>
+                    <fullName>German</fullName>
+                    <default>false</default>
+                    <label>German</label>
+                </value>
+                <value>
+                    <fullName>Chinese</fullName>
+                    <default>false</default>
+                    <label>Chinese</label>
+                </value>
+                <value>
+                    <fullName>Spanish</fullName>
+                    <default>false</default>
+                    <label>Spanish</label>
+                </value>
+                <value>
+                    <fullName>Japanese</fullName>
+                    <default>false</default>
+                    <label>Japanese</label>
+                </value>
+                <value>
+                    <fullName>Korean</fullName>
+                    <default>false</default>
+                    <label>Korean</label>
+                </value>
+                <value>
+                    <fullName>Thai</fullName>
+                    <default>false</default>
+                    <label>Thai</label>
+                </value>
+                <value>
+                    <fullName>Norwegian</fullName>
+                    <default>false</default>
+                    <label>Norwegian</label>
+                </value>
+                <value>
+                    <fullName>Swedish</fullName>
+                    <default>false</default>
+                    <label>Swedish</label>
+                </value>
+                <value>
+                    <fullName>Russian</fullName>
+                    <default>false</default>
+                    <label>Russian</label>
+                </value>
+                <value>
+                    <fullName>Portuguese</fullName>
+                    <default>false</default>
+                    <label>Portuguese</label>
+                </value>
+                <value>
+                    <fullName>Polish</fullName>
+                    <default>false</default>
+                    <label>Polish</label>
+                </value>
+                <value>
+                    <fullName>Greek(Greece)</fullName>
+                    <default>false</default>
+                    <label>Greek(Greece)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__Mergefields2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Merge fields used both in the template and clauses nested in the template. Automatically maintained by the Apttus Author.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Merge fields used both in the template and clauses nested in the template. Automatically maintained by the Apttus Author.</inlineHelpText>
+        <label>Mergefields</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus__Mergefields__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Merge fields used in the template. Automatically maintained by the Apttus Author or manually entered using the following form: object1 (field1,field2,...fieldn); object2 (field1,field2,...fieldn); etc</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Merge fields used in the template.</inlineHelpText>
+        <label>Mergefields (Internal)</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus__NeedsPublishing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the template needs to be published.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the template needs to be published.</inlineHelpText>
+        <label>Needs Publishing</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Next_Revision_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Next Revision Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__NumberOfClauses__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates the number of clauses associated with the template</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the number of clauses associated with the template</inlineHelpText>
+        <label>Number Of Clauses</label>
+        <summaryForeignKey>Apttus__TemplateClauseReference__c.Apttus__TemplateId__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__OutputPage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the Visualforce page to render a simple document in PDF format</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the Visualforce page to render a simple document in PDF format</inlineHelpText>
+        <label>Output Page</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__PubDocId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The published template document</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Published Doc ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__PublishStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The template publish status</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The template publish status</inlineHelpText>
+        <label>Publish Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Published</fullName>
+                    <default>false</default>
+                    <label>Published</label>
+                </value>
+                <value>
+                    <fullName>Submitted</fullName>
+                    <default>false</default>
+                    <label>Submitted</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__Publish__c</fullName>
+        <deprecated>false</deprecated>
+        <description>&quot;Publish&quot; custom button</description>
+        <externalId>false</externalId>
+        <formula>IF (True, HYPERLINK(&quot;/apex/Apttus__TemplatePublish?id=&quot; &amp;Id, IMAGE(&quot;/resource/Apttus__Button_Publish&quot;, &quot;Publish&quot;),&quot;_self&quot;), NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Publish</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__PublishedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Date when the template was published</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Date when the template was published</inlineHelpText>
+        <label>Published Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__ReferenceId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A unique external reference identifier</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>true</externalId>
+        <inlineHelpText>A unique external reference identifier</inlineHelpText>
+        <label>Reference</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__Subcategory__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Subcategory</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Apttus__Category__c</controllingField>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Arbitration</fullName>
+                    <default>false</default>
+                    <label>Arbitration</label>
+                </value>
+                <value>
+                    <fullName>Asset Classification</fullName>
+                    <default>false</default>
+                    <label>Asset Classification</label>
+                </value>
+                <value>
+                    <fullName>Asset Inventory</fullName>
+                    <default>false</default>
+                    <label>Asset Inventory</label>
+                </value>
+                <value>
+                    <fullName>Audit and Log Management​</fullName>
+                    <default>false</default>
+                    <label>Audit and Log Management​</label>
+                </value>
+                <value>
+                    <fullName>Audit and Reporting</fullName>
+                    <default>false</default>
+                    <label>Audit and Reporting</label>
+                </value>
+                <value>
+                    <fullName>Audit Rights</fullName>
+                    <default>false</default>
+                    <label>Audit Rights</label>
+                </value>
+                <value>
+                    <fullName>Best Customer</fullName>
+                    <default>false</default>
+                    <label>Best Customer</label>
+                </value>
+                <value>
+                    <fullName>Business Continuity</fullName>
+                    <default>false</default>
+                    <label>Business Continuity</label>
+                </value>
+                <value>
+                    <fullName>Business Continuity Management</fullName>
+                    <default>false</default>
+                    <label>Business Continuity Management</label>
+                </value>
+                <value>
+                    <fullName>Certificate and Key Management​</fullName>
+                    <default>false</default>
+                    <label>Certificate and Key Management​</label>
+                </value>
+                <value>
+                    <fullName>Change Control Procedure</fullName>
+                    <default>false</default>
+                    <label>Change Control Procedure</label>
+                </value>
+                <value>
+                    <fullName>Change Management</fullName>
+                    <default>false</default>
+                    <label>Change Management</label>
+                </value>
+                <value>
+                    <fullName>China Cybersecurity Law (CSL)</fullName>
+                    <default>false</default>
+                    <label>China Cybersecurity Law (CSL)</label>
+                </value>
+                <value>
+                    <fullName>Communicate Nokia Security Principles</fullName>
+                    <default>false</default>
+                    <label>Communicate Nokia Security Principles</label>
+                </value>
+                <value>
+                    <fullName>Compability</fullName>
+                    <default>false</default>
+                    <label>Compability</label>
+                </value>
+                <value>
+                    <fullName>Compliance against Nokia Security Policies</fullName>
+                    <default>false</default>
+                    <label>Compliance against Nokia Security Policies</label>
+                </value>
+                <value>
+                    <fullName>Compliance with Laws</fullName>
+                    <default>false</default>
+                    <label>Compliance with Laws</label>
+                </value>
+                <value>
+                    <fullName>Confidentiality</fullName>
+                    <default>false</default>
+                    <label>Confidentiality</label>
+                </value>
+                <value>
+                    <fullName>Consequential &amp; Indirect Damages</fullName>
+                    <default>false</default>
+                    <label>Consequential &amp; Indirect Damages</label>
+                </value>
+                <value>
+                    <fullName>Contract Renewal</fullName>
+                    <default>false</default>
+                    <label>Contract Renewal</label>
+                </value>
+                <value>
+                    <fullName>Conversion</fullName>
+                    <default>false</default>
+                    <label>Conversion</label>
+                </value>
+                <value>
+                    <fullName>Counterparts</fullName>
+                    <default>false</default>
+                    <label>Counterparts</label>
+                </value>
+                <value>
+                    <fullName>Credential Management​</fullName>
+                    <default>false</default>
+                    <label>Credential Management​</label>
+                </value>
+                <value>
+                    <fullName>Currency Conversion</fullName>
+                    <default>false</default>
+                    <label>Currency Conversion</label>
+                </value>
+                <value>
+                    <fullName>Customer Commitments (Volume etc)</fullName>
+                    <default>false</default>
+                    <label>Customer Commitments (Volume etc)</label>
+                </value>
+                <value>
+                    <fullName>Customer Compliance Verification</fullName>
+                    <default>false</default>
+                    <label>Customer Compliance Verification</label>
+                </value>
+                <value>
+                    <fullName>Customer Data Security</fullName>
+                    <default>false</default>
+                    <label>Customer Data Security</label>
+                </value>
+                <value>
+                    <fullName>Data Breach Management​</fullName>
+                    <default>false</default>
+                    <label>Data Breach Management​</label>
+                </value>
+                <value>
+                    <fullName>Data Loss Prevention</fullName>
+                    <default>false</default>
+                    <label>Data Loss Prevention</label>
+                </value>
+                <value>
+                    <fullName>Data Security</fullName>
+                    <default>false</default>
+                    <label>Data Security</label>
+                </value>
+                <value>
+                    <fullName>Default</fullName>
+                    <default>false</default>
+                    <label>Default</label>
+                </value>
+                <value>
+                    <fullName>Direct Damages</fullName>
+                    <default>false</default>
+                    <label>Direct Damages</label>
+                </value>
+                <value>
+                    <fullName>Dispute Resolution</fullName>
+                    <default>false</default>
+                    <label>Dispute Resolution</label>
+                </value>
+                <value>
+                    <fullName>Endpoint Security​</fullName>
+                    <default>false</default>
+                    <label>Endpoint Security​</label>
+                </value>
+                <value>
+                    <fullName>Enterprise Risk Management</fullName>
+                    <default>false</default>
+                    <label>Enterprise Risk Management</label>
+                </value>
+                <value>
+                    <fullName>Entire Agreement</fullName>
+                    <default>false</default>
+                    <label>Entire Agreement</label>
+                </value>
+                <value>
+                    <fullName>E-Signature</fullName>
+                    <default>false</default>
+                    <label>E-Signature</label>
+                </value>
+                <value>
+                    <fullName>Exclusivity</fullName>
+                    <default>false</default>
+                    <label>Exclusivity</label>
+                </value>
+                <value>
+                    <fullName>Force Majeure</fullName>
+                    <default>false</default>
+                    <label>Force Majeure</label>
+                </value>
+                <value>
+                    <fullName>Forecasting</fullName>
+                    <default>false</default>
+                    <label>Forecasting</label>
+                </value>
+                <value>
+                    <fullName>Forensics​</fullName>
+                    <default>false</default>
+                    <label>Forensics​</label>
+                </value>
+                <value>
+                    <fullName>GDPR</fullName>
+                    <default>false</default>
+                    <label>GDPR</label>
+                </value>
+                <value>
+                    <fullName>General Acceptance Terms</fullName>
+                    <default>false</default>
+                    <label>General Acceptance Terms</label>
+                </value>
+                <value>
+                    <fullName>General Warranty Exclusions</fullName>
+                    <default>false</default>
+                    <label>General Warranty Exclusions</label>
+                </value>
+                <value>
+                    <fullName>General Warranty Terms</fullName>
+                    <default>false</default>
+                    <label>General Warranty Terms</label>
+                </value>
+                <value>
+                    <fullName>Governing Law</fullName>
+                    <default>false</default>
+                    <label>Governing Law</label>
+                </value>
+                <value>
+                    <fullName>Hardware</fullName>
+                    <default>false</default>
+                    <label>Hardware</label>
+                </value>
+                <value>
+                    <fullName>Health &amp; Safety</fullName>
+                    <default>false</default>
+                    <label>Health &amp; Safety</label>
+                </value>
+                <value>
+                    <fullName>Health and Safety Policy​</fullName>
+                    <default>false</default>
+                    <label>Health and Safety Policy​</label>
+                </value>
+                <value>
+                    <fullName>Health and Safety Roles​</fullName>
+                    <default>false</default>
+                    <label>Health and Safety Roles​</label>
+                </value>
+                <value>
+                    <fullName>Incident Reporting</fullName>
+                    <default>false</default>
+                    <label>Incident Reporting</label>
+                </value>
+                <value>
+                    <fullName>Incident Response and Handling​</fullName>
+                    <default>false</default>
+                    <label>Incident Response and Handling​</label>
+                </value>
+                <value>
+                    <fullName>Incoterms</fullName>
+                    <default>false</default>
+                    <label>Incoterms</label>
+                </value>
+                <value>
+                    <fullName>Indemnification</fullName>
+                    <default>false</default>
+                    <label>Indemnification</label>
+                </value>
+                <value>
+                    <fullName>Inflation</fullName>
+                    <default>false</default>
+                    <label>Inflation</label>
+                </value>
+                <value>
+                    <fullName>Information Security Policy</fullName>
+                    <default>false</default>
+                    <label>Information Security Policy</label>
+                </value>
+                <value>
+                    <fullName>Insurance</fullName>
+                    <default>false</default>
+                    <label>Insurance</label>
+                </value>
+                <value>
+                    <fullName>International Standards</fullName>
+                    <default>false</default>
+                    <label>International Standards</label>
+                </value>
+                <value>
+                    <fullName>Invoicing Terms</fullName>
+                    <default>false</default>
+                    <label>Invoicing Terms</label>
+                </value>
+                <value>
+                    <fullName>IS Event Management​</fullName>
+                    <default>false</default>
+                    <label>IS Event Management​</label>
+                </value>
+                <value>
+                    <fullName>IS Incident and Response Management​</fullName>
+                    <default>false</default>
+                    <label>IS Incident and Response Management​</label>
+                </value>
+                <value>
+                    <fullName>IT Cybersecurity Testing​</fullName>
+                    <default>false</default>
+                    <label>IT Cybersecurity Testing​</label>
+                </value>
+                <value>
+                    <fullName>IT Minimum Baseline</fullName>
+                    <default>false</default>
+                    <label>IT Minimum Baseline</label>
+                </value>
+                <value>
+                    <fullName>IT Patch Management</fullName>
+                    <default>false</default>
+                    <label>IT Patch Management</label>
+                </value>
+                <value>
+                    <fullName>Late Payment</fullName>
+                    <default>false</default>
+                    <label>Late Payment</label>
+                </value>
+                <value>
+                    <fullName>Legal and Regulatory HS Compliance​</fullName>
+                    <default>false</default>
+                    <label>Legal and Regulatory HS Compliance​</label>
+                </value>
+                <value>
+                    <fullName>Manage Services</fullName>
+                    <default>false</default>
+                    <label>Manage Services</label>
+                </value>
+                <value>
+                    <fullName>National Security Agreement (NSA)</fullName>
+                    <default>false</default>
+                    <label>National Security Agreement (NSA)</label>
+                </value>
+                <value>
+                    <fullName>Network Documentation</fullName>
+                    <default>false</default>
+                    <label>Network Documentation</label>
+                </value>
+                <value>
+                    <fullName>Network DOS Protection</fullName>
+                    <default>false</default>
+                    <label>Network DOS Protection</label>
+                </value>
+                <value>
+                    <fullName>Network Filtering</fullName>
+                    <default>false</default>
+                    <label>Network Filtering</label>
+                </value>
+                <value>
+                    <fullName>Network Isolation</fullName>
+                    <default>false</default>
+                    <label>Network Isolation</label>
+                </value>
+                <value>
+                    <fullName>Network Security​</fullName>
+                    <default>false</default>
+                    <label>Network Security​</label>
+                </value>
+                <value>
+                    <fullName>Network Segregation</fullName>
+                    <default>false</default>
+                    <label>Network Segregation</label>
+                </value>
+                <value>
+                    <fullName>Other Standards</fullName>
+                    <default>false</default>
+                    <label>Other Standards</label>
+                </value>
+                <value>
+                    <fullName>People/HR Security</fullName>
+                    <default>false</default>
+                    <label>People/HR Security</label>
+                </value>
+                <value>
+                    <fullName>Performance Bond/ Corporate Guarantee</fullName>
+                    <default>false</default>
+                    <label>Performance Bond/ Corporate Guarantee</label>
+                </value>
+                <value>
+                    <fullName>Physical Security</fullName>
+                    <default>false</default>
+                    <label>Physical Security</label>
+                </value>
+                <value>
+                    <fullName>Privacy Engineering and Assurance​</fullName>
+                    <default>false</default>
+                    <label>Privacy Engineering and Assurance​</label>
+                </value>
+                <value>
+                    <fullName>Privacy Management ​</fullName>
+                    <default>false</default>
+                    <label>Privacy Management ​</label>
+                </value>
+                <value>
+                    <fullName>Privacy Requirements Policy​</fullName>
+                    <default>false</default>
+                    <label>Privacy Requirements Policy​</label>
+                </value>
+                <value>
+                    <fullName>Privacy Review​</fullName>
+                    <default>false</default>
+                    <label>Privacy Review​</label>
+                </value>
+                <value>
+                    <fullName>Privacy Roles and Responsibilities​</fullName>
+                    <default>false</default>
+                    <label>Privacy Roles and Responsibilities​</label>
+                </value>
+                <value>
+                    <fullName>Privacy Training and Awareness​</fullName>
+                    <default>false</default>
+                    <label>Privacy Training and Awareness​</label>
+                </value>
+                <value>
+                    <fullName>Privileged User Access Management</fullName>
+                    <default>false</default>
+                    <label>Privileged User Access Management</label>
+                </value>
+                <value>
+                    <fullName>Product Hardening Guidelines​</fullName>
+                    <default>false</default>
+                    <label>Product Hardening Guidelines​</label>
+                </value>
+                <value>
+                    <fullName>Product Phase Out</fullName>
+                    <default>false</default>
+                    <label>Product Phase Out</label>
+                </value>
+                <value>
+                    <fullName>Product Security Testing​</fullName>
+                    <default>false</default>
+                    <label>Product Security Testing​</label>
+                </value>
+                <value>
+                    <fullName>Product Support</fullName>
+                    <default>false</default>
+                    <label>Product Support</label>
+                </value>
+                <value>
+                    <fullName>Product Threat and Risk Assessment​</fullName>
+                    <default>false</default>
+                    <label>Product Threat and Risk Assessment​</label>
+                </value>
+                <value>
+                    <fullName>PSIRT</fullName>
+                    <default>false</default>
+                    <label>PSIRT</label>
+                </value>
+                <value>
+                    <fullName>Remedies</fullName>
+                    <default>false</default>
+                    <label>Remedies</label>
+                </value>
+                <value>
+                    <fullName>Remote Access User authentication to Nokia network</fullName>
+                    <default>false</default>
+                    <label>Remote Access User authentication to Nokia network</label>
+                </value>
+                <value>
+                    <fullName>Resilience Mechanisms​</fullName>
+                    <default>false</default>
+                    <label>Resilience Mechanisms​</label>
+                </value>
+                <value>
+                    <fullName>Risk Management Health and Safety​</fullName>
+                    <default>false</default>
+                    <label>Risk Management Health and Safety​</label>
+                </value>
+                <value>
+                    <fullName>Roadmap</fullName>
+                    <default>false</default>
+                    <label>Roadmap</label>
+                </value>
+                <value>
+                    <fullName>Secure Coding​</fullName>
+                    <default>false</default>
+                    <label>Secure Coding​</label>
+                </value>
+                <value>
+                    <fullName>Security Awareness and Training</fullName>
+                    <default>false</default>
+                    <label>Security Awareness and Training</label>
+                </value>
+                <value>
+                    <fullName>Security Awareness and Training for Suppliers​</fullName>
+                    <default>false</default>
+                    <label>Security Awareness and Training for Suppliers​</label>
+                </value>
+                <value>
+                    <fullName>Security Baseline Requirements​</fullName>
+                    <default>false</default>
+                    <label>Security Baseline Requirements​</label>
+                </value>
+                <value>
+                    <fullName>Security Requirement</fullName>
+                    <default>false</default>
+                    <label>Security Requirement</label>
+                </value>
+                <value>
+                    <fullName>Services</fullName>
+                    <default>false</default>
+                    <label>Services</label>
+                </value>
+                <value>
+                    <fullName>Session Management</fullName>
+                    <default>false</default>
+                    <label>Session Management</label>
+                </value>
+                <value>
+                    <fullName>Set off Right</fullName>
+                    <default>false</default>
+                    <label>Set off Right</label>
+                </value>
+                <value>
+                    <fullName>Software</fullName>
+                    <default>false</default>
+                    <label>Software</label>
+                </value>
+                <value>
+                    <fullName>Software Licensing Terms</fullName>
+                    <default>false</default>
+                    <label>Software Licensing Terms</label>
+                </value>
+                <value>
+                    <fullName>Software Subscription</fullName>
+                    <default>false</default>
+                    <label>Software Subscription</label>
+                </value>
+                <value>
+                    <fullName>Subcontractors</fullName>
+                    <default>false</default>
+                    <label>Subcontractors</label>
+                </value>
+                <value>
+                    <fullName>Supplier Access</fullName>
+                    <default>false</default>
+                    <label>Supplier Access</label>
+                </value>
+                <value>
+                    <fullName>Supplier Roles and Responsibilities​</fullName>
+                    <default>false</default>
+                    <label>Supplier Roles and Responsibilities​</label>
+                </value>
+                <value>
+                    <fullName>Suppliers Audit and Evaluation​</fullName>
+                    <default>false</default>
+                    <label>Suppliers Audit and Evaluation​</label>
+                </value>
+                <value>
+                    <fullName>Suppliers Response and Recovery​</fullName>
+                    <default>false</default>
+                    <label>Suppliers Response and Recovery​</label>
+                </value>
+                <value>
+                    <fullName>Supply Chain Risk Management​</fullName>
+                    <default>false</default>
+                    <label>Supply Chain Risk Management​</label>
+                </value>
+                <value>
+                    <fullName>Support &amp; Maintenance (Care)</fullName>
+                    <default>false</default>
+                    <label>Support &amp; Maintenance (Care)</label>
+                </value>
+                <value>
+                    <fullName>Swap</fullName>
+                    <default>false</default>
+                    <label>Swap</label>
+                </value>
+                <value>
+                    <fullName>Taxes</fullName>
+                    <default>false</default>
+                    <label>Taxes</label>
+                </value>
+                <value>
+                    <fullName>Telecom Standards</fullName>
+                    <default>false</default>
+                    <label>Telecom Standards</label>
+                </value>
+                <value>
+                    <fullName>User Management</fullName>
+                    <default>false</default>
+                    <label>User Management</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Delivery</controllingFieldValue>
+                <valueName>Forecasting</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Delivery</controllingFieldValue>
+                <valueName>Incoterms</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Financials</controllingFieldValue>
+                <valueName>Currency Conversion</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Financials</controllingFieldValue>
+                <valueName>Inflation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Financials</controllingFieldValue>
+                <valueName>Insurance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Financials</controllingFieldValue>
+                <valueName>Invoicing Terms</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Financials</controllingFieldValue>
+                <valueName>Late Payment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Financials</controllingFieldValue>
+                <valueName>Performance Bond/ Corporate Guarantee</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Financials</controllingFieldValue>
+                <valueName>Set off Right</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Financials</controllingFieldValue>
+                <valueName>Taxes</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Arbitration</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Audit Rights</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Business Continuity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Compliance with Laws</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Confidentiality</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Contract Renewal</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Counterparts</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Dispute Resolution</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Entire Agreement</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>E-Signature</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Force Majeure</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Governing Law</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Health &amp; Safety</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Indemnification</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Manage Services</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <controllingFieldValue>Customer Security Management</controllingFieldValue>
+                <valueName>Security Requirement</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Scope</controllingFieldValue>
+                <valueName>Change Control Procedure</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Scope</controllingFieldValue>
+                <valueName>Subcontractors</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Scope</controllingFieldValue>
+                <valueName>Swap</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SLAs</controllingFieldValue>
+                <valueName>Support &amp; Maintenance (Care)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <valueName>Compability</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <valueName>Software Licensing Terms</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <valueName>Software Subscription</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Customer Remote Access</controllingFieldValue>
+                <valueName>Audit and Reporting</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Customer Remote Access</controllingFieldValue>
+                <valueName>Data Security</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Customer Remote Access</controllingFieldValue>
+                <controllingFieldValue>IT Cybersecurity Controls</controllingFieldValue>
+                <valueName>Endpoint Security​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Customer Remote Access</controllingFieldValue>
+                <valueName>Network Security​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Customer Remote Access</controllingFieldValue>
+                <controllingFieldValue>Identity and Access Management</controllingFieldValue>
+                <valueName>Session Management</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Customer Remote Access</controllingFieldValue>
+                <valueName>User Management</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Customer Security Management</controllingFieldValue>
+                <valueName>Communicate Nokia Security Principles</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Customer Security Management</controllingFieldValue>
+                <valueName>Customer Compliance Verification</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Customer Security Management</controllingFieldValue>
+                <valueName>Customer Data Security</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Health and Safety Governance</controllingFieldValue>
+                <valueName>Health and Safety Policy​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Health and Safety Governance</controllingFieldValue>
+                <valueName>Health and Safety Roles​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Health and Safety Governance</controllingFieldValue>
+                <valueName>Legal and Regulatory HS Compliance​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Health and Safety Governance</controllingFieldValue>
+                <valueName>Risk Management Health and Safety​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Identity and Access Management</controllingFieldValue>
+                <controllingFieldValue>IT Cybersecurity Controls</controllingFieldValue>
+                <valueName>Audit and Log Management​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Identity and Access Management</controllingFieldValue>
+                <valueName>Certificate and Key Management​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Identity and Access Management</controllingFieldValue>
+                <valueName>Credential Management​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Identity and Access Management</controllingFieldValue>
+                <valueName>Privileged User Access Management</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Identity and Access Management</controllingFieldValue>
+                <valueName>Remote Access User authentication to Nokia network</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incident Response and Handling</controllingFieldValue>
+                <valueName>Data Breach Management​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incident Response and Handling</controllingFieldValue>
+                <valueName>Forensics​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incident Response and Handling</controllingFieldValue>
+                <valueName>Incident Reporting</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incident Response and Handling</controllingFieldValue>
+                <valueName>Incident Response and Handling​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incident Response and Handling</controllingFieldValue>
+                <valueName>IS Event Management​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incident Response and Handling</controllingFieldValue>
+                <valueName>IS Incident and Response Management​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Information Security</controllingFieldValue>
+                <valueName>Business Continuity Management</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Information Security</controllingFieldValue>
+                <valueName>Change Management</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Information Security</controllingFieldValue>
+                <valueName>Enterprise Risk Management</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Information Security</controllingFieldValue>
+                <valueName>Information Security Policy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Information Security</controllingFieldValue>
+                <valueName>People/HR Security</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Information Security</controllingFieldValue>
+                <valueName>Physical Security</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Information Security</controllingFieldValue>
+                <valueName>Security Awareness and Training</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IT Cybersecurity Controls</controllingFieldValue>
+                <valueName>Data Loss Prevention</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IT Cybersecurity Controls</controllingFieldValue>
+                <valueName>IT Cybersecurity Testing​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IT Cybersecurity Controls</controllingFieldValue>
+                <valueName>IT Minimum Baseline</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IT Cybersecurity Controls</controllingFieldValue>
+                <valueName>IT Patch Management</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IT Cybersecurity Controls</controllingFieldValue>
+                <valueName>Network Documentation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IT Cybersecurity Controls</controllingFieldValue>
+                <valueName>Network DOS Protection</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IT Cybersecurity Controls</controllingFieldValue>
+                <valueName>Network Filtering</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IT Cybersecurity Controls</controllingFieldValue>
+                <valueName>Network Isolation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IT Cybersecurity Controls</controllingFieldValue>
+                <valueName>Network Segregation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IT Cybersecurity Controls</controllingFieldValue>
+                <valueName>Resilience Mechanisms​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Privacy</controllingFieldValue>
+                <valueName>GDPR</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Privacy</controllingFieldValue>
+                <valueName>Privacy Engineering and Assurance​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Privacy</controllingFieldValue>
+                <valueName>Privacy Management ​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Privacy</controllingFieldValue>
+                <valueName>Privacy Requirements Policy​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Privacy</controllingFieldValue>
+                <valueName>Privacy Review​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Privacy</controllingFieldValue>
+                <valueName>Privacy Roles and Responsibilities​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Privacy</controllingFieldValue>
+                <valueName>Privacy Training and Awareness​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Security</controllingFieldValue>
+                <valueName>Product Hardening Guidelines​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Security</controllingFieldValue>
+                <valueName>Product Security Testing​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Security</controllingFieldValue>
+                <valueName>Product Threat and Risk Assessment​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Security</controllingFieldValue>
+                <valueName>PSIRT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Security</controllingFieldValue>
+                <valueName>Secure Coding​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Security</controllingFieldValue>
+                <valueName>Security Baseline Requirements​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Supply Chain Security</controllingFieldValue>
+                <valueName>Security Awareness and Training for Suppliers​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Supply Chain Security</controllingFieldValue>
+                <valueName>Supplier Access</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Supply Chain Security</controllingFieldValue>
+                <valueName>Supplier Roles and Responsibilities​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Supply Chain Security</controllingFieldValue>
+                <valueName>Suppliers Audit and Evaluation​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Supply Chain Security</controllingFieldValue>
+                <valueName>Suppliers Response and Recovery​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Supply Chain Security</controllingFieldValue>
+                <valueName>Supply Chain Risk Management​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Default</controllingFieldValue>
+                <valueName>Default</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Limitation of Liability</controllingFieldValue>
+                <valueName>Consequential &amp; Indirect Damages</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Limitation of Liability</controllingFieldValue>
+                <valueName>Direct Damages</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Warranty</controllingFieldValue>
+                <valueName>General Warranty Exclusions</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Warranty</controllingFieldValue>
+                <valueName>General Warranty Terms</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Warranty</controllingFieldValue>
+                <controllingFieldValue>Acceptance</controllingFieldValue>
+                <valueName>Hardware</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Warranty</controllingFieldValue>
+                <valueName>Remedies</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Warranty</controllingFieldValue>
+                <controllingFieldValue>Acceptance</controllingFieldValue>
+                <valueName>Services</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Warranty</controllingFieldValue>
+                <controllingFieldValue>Acceptance</controllingFieldValue>
+                <valueName>Software</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Asset Management</controllingFieldValue>
+                <valueName>Asset Classification</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Asset Management</controllingFieldValue>
+                <valueName>Asset Inventory</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Compliance and Assurance</controllingFieldValue>
+                <valueName>China Cybersecurity Law (CSL)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Compliance and Assurance</controllingFieldValue>
+                <valueName>Compliance against Nokia Security Policies</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Compliance and Assurance</controllingFieldValue>
+                <valueName>International Standards</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Compliance and Assurance</controllingFieldValue>
+                <valueName>National Security Agreement (NSA)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Compliance and Assurance</controllingFieldValue>
+                <valueName>Other Standards</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Compliance and Assurance</controllingFieldValue>
+                <valueName>Telecom Standards</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Acceptance</controllingFieldValue>
+                <valueName>General Acceptance Terms</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Commitment</controllingFieldValue>
+                <valueName>Best Customer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Commitment</controllingFieldValue>
+                <valueName>Customer Commitments (Volume etc)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Commitment</controllingFieldValue>
+                <valueName>Exclusivity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Commitment</controllingFieldValue>
+                <valueName>Product Phase Out</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Commitment</controllingFieldValue>
+                <valueName>Product Support</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Commitment</controllingFieldValue>
+                <valueName>Roadmap</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__TermExceptionId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the term exception associated with the clause or section</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the term exception associated with the clause or section</inlineHelpText>
+        <label>Term Exception</label>
+        <referenceTo>Apttus__Term_Exception__c</referenceTo>
+        <relationshipLabel>Sections/Clauses</relationshipLabel>
+        <relationshipName>Templates</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__TextContent__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The text content of the template document</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Text Content</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus__Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Specifies the contract template type which can be either a template or clause type.</description>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Agreement</fullName>
+                    <default>true</default>
+                    <label>Agreement</label>
+                </value>
+                <value>
+                    <fullName>Clause</fullName>
+                    <default>false</default>
+                    <label>Clause</label>
+                </value>
+                <value>
+                    <fullName>Proposal</fullName>
+                    <default>false</default>
+                    <label>Proposal</label>
+                </value>
+                <value>
+                    <fullName>Section</fullName>
+                    <default>false</default>
+                    <label>Section</label>
+                </value>
+                <value>
+                    <fullName>Supporting Document</fullName>
+                    <default>false</default>
+                    <label>Supporting Document</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__Unpublish__c</fullName>
+        <deprecated>false</deprecated>
+        <description>&quot;Unpublish&quot; custom button</description>
+        <externalId>false</externalId>
+        <formula>IF ( LEN( Apttus__PubDocId__c ) &gt; 0 , HYPERLINK(&quot;/apex/Apttus__TemplateUnpublish?id=&quot; &amp;Id, IMAGE(&quot;/resource/Apttus__Button_Unpublish&quot;, &quot;Unpublish&quot;),&quot;_self&quot;), NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Unpublish</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CLM_Compliance__c</fullName>
+        <externalId>false</externalId>
+        <label>Compliance</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Partial</fullName>
+                    <default>false</default>
+                    <label>Partial</label>
+                </value>
+                <value>
+                    <fullName>Full</fullName>
+                    <default>false</default>
+                    <label>Full</label>
+                </value>
+                <value>
+                    <fullName>Not compliant</fullName>
+                    <default>false</default>
+                    <label>Not compliant</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CLM_Scope__c</fullName>
+        <externalId>false</externalId>
+        <label>Scope</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Product</fullName>
+                    <default>false</default>
+                    <label>Product</label>
+                </value>
+                <value>
+                    <fullName>Service</fullName>
+                    <default>false</default>
+                    <label>Service</label>
+                </value>
+                <value>
+                    <fullName>Infosec</fullName>
+                    <default>false</default>
+                    <label>Infosec</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <label>Template</label>
+    <listViews>
+        <fullName>Apttus__Agreements</fullName>
+        <columns>NAME</columns>
+        <columns>Apttus__IsActive__c</columns>
+        <columns>Apttus__Category__c</columns>
+        <columns>Apttus__Subcategory__c</columns>
+        <columns>Apttus__Agreement_Types__c</columns>
+        <columns>Apttus__Guidance__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Apttus__Type__c</field>
+            <operation>equals</operation>
+            <value>Agreement</value>
+        </filters>
+        <label>Agreements</label>
+    </listViews>
+    <listViews>
+        <fullName>Apttus__All</fullName>
+        <columns>Apttus__Type__c</columns>
+        <columns>NAME</columns>
+        <columns>Apttus__IsActive__c</columns>
+        <columns>Apttus__Category__c</columns>
+        <columns>Apttus__Subcategory__c</columns>
+        <columns>Apttus__Agreement_Types__c</columns>
+        <columns>Apttus__Guidance__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Apttus__Clauses</fullName>
+        <columns>NAME</columns>
+        <columns>Apttus__IsActive__c</columns>
+        <columns>Apttus__Category__c</columns>
+        <columns>Apttus__Subcategory__c</columns>
+        <columns>Apttus__Agreement_Types__c</columns>
+        <columns>Apttus__Guidance__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Apttus__Type__c</field>
+            <operation>equals</operation>
+            <value>Clause</value>
+        </filters>
+        <label>Clauses</label>
+    </listViews>
+    <listViews>
+        <fullName>Apttus__Proposals</fullName>
+        <columns>NAME</columns>
+        <columns>Apttus__IsActive__c</columns>
+        <columns>Apttus__Category__c</columns>
+        <columns>Apttus__Subcategory__c</columns>
+        <columns>Apttus__Agreement_Types__c</columns>
+        <columns>Apttus__Guidance__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Apttus__Type__c</field>
+            <operation>equals</operation>
+            <value>Proposal</value>
+        </filters>
+        <label>Proposals</label>
+    </listViews>
+    <listViews>
+        <fullName>Apttus__Sections</fullName>
+        <columns>NAME</columns>
+        <columns>Apttus__IsActive__c</columns>
+        <columns>Apttus__Category__c</columns>
+        <columns>Apttus__Subcategory__c</columns>
+        <columns>Apttus__Agreement_Types__c</columns>
+        <columns>Apttus__Guidance__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Apttus__Type__c</field>
+            <operation>equals</operation>
+            <value>Section</value>
+        </filters>
+        <label>Sections</label>
+    </listViews>
+    <listViews>
+        <fullName>Apttus__SupportingDocuments</fullName>
+        <columns>NAME</columns>
+        <columns>Apttus__IsActive__c</columns>
+        <columns>Apttus__Category__c</columns>
+        <columns>Apttus__Subcategory__c</columns>
+        <columns>Apttus__Agreement_Types__c</columns>
+        <columns>Apttus__Guidance__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Apttus__Type__c</field>
+            <operation>equals</operation>
+            <value>Supporting Document</value>
+        </filters>
+        <label>Supporting Documents</label>
+    </listViews>
+    <nameField>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Templates</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Apttus__IsActive__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__Category__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__Subcategory__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__Agreement_Types__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__Guidance__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Apttus__Keywords__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__IsActive__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__Category__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__Subcategory__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__Agreement_Types__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__Guidance__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Apttus__Keywords__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__IsActive__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__Type__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__Description__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__Category__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__Subcategory__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__Agreement_Types__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__Guidance__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Apttus__Keywords__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Apttus__IsActive__c</searchFilterFields>
+        <searchFilterFields>Apttus__Type__c</searchFilterFields>
+        <searchFilterFields>Apttus__Description__c</searchFilterFields>
+        <searchFilterFields>Apttus__Category__c</searchFilterFields>
+        <searchFilterFields>Apttus__Subcategory__c</searchFilterFields>
+        <searchFilterFields>Apttus__Agreement_Types__c</searchFilterFields>
+        <searchFilterFields>Apttus__Keywords__c</searchFilterFields>
+        <searchResultsAdditionalFields>Apttus__IsActive__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__Category__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__Subcategory__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__Agreement_Types__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__Guidance__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Apttus__Keywords__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>Competitor_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Competitor_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <description>Sales Process : 5047</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Capture any comments about competition as appropriate.</inlineHelpText>
+        <label>Comments</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Competitor_New__c</fullName>
+        <description>Sales Process : Req5047</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Choose Competitor from the list; if not there choose Other and create a Support ticket.</inlineHelpText>
+        <label>Competitor</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>All_Competitors</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Competitors_Price_Aggressiveness__c</fullName>
+        <description>Req 5047: Enhance Competitor Object</description>
+        <externalId>false</externalId>
+        <label>Competitors Price Aggressiveness</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Significantly lower than target</fullName>
+                    <default>false</default>
+                    <label>Significantly lower than target</label>
+                </value>
+                <value>
+                    <fullName>Moderately lower than target</fullName>
+                    <default>false</default>
+                    <label>Moderately lower than target</label>
+                </value>
+                <value>
+                    <fullName>In line with customer target</fullName>
+                    <default>false</default>
+                    <label>In line with customer target</label>
+                </value>
+                <value>
+                    <fullName>Moderately higher than target</fullName>
+                    <default>false</default>
+                    <label>Moderately higher than target</label>
+                </value>
+                <value>
+                    <fullName>Significantly higher than target</fullName>
+                    <default>false</default>
+                    <label>Significantly higher than target</label>
+                </value>
+                <value>
+                    <fullName>Not participating</fullName>
+                    <default>false</default>
+                    <label>Not participating</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Won__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>518:Provide the ability for an account manager to associate one or many competitor accounts to an opportunity.</description>
+        <externalId>false</externalId>
+        <label>Winning Competitor</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <description>518:Provide the ability for an account manager to associate one or many competitor accounts to an opportunity.</description>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Competitors</relationshipLabel>
+        <relationshipName>Competitors</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Primary_Competitor__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field will help the analysis on competition and to know where we need to focus our business next.</description>
+        <externalId>false</externalId>
+        <label>Primary Competitor</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Won_Share_Allocation_in__c</fullName>
+        <description>Req. 5517: New field on Competitor Object &quot;Won Share Allocation&quot;</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Won Share Allocation value for all Winning Competitors on Opportunity should not exceed 100%.</inlineHelpText>
+        <label>Won Share Allocation (in %)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Competitor</label>
+    <listViews>
+        <fullName>All_Competitors</fullName>
+        <columns>Opportunity__c</columns>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Competitors per Oppty</label>
+    </listViews>
+    <nameField>
+        <displayFormat>Com-{0000}</displayFormat>
+        <label>Competitor Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Competitors</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Lock_Competitor_For_PendingApprovalOppty</fullName>
+        <active>true</active>
+        <description>Req 5052: Competitor Related List editable at all times (except pending approval)</description>
+        <errorConditionFormula>AND( 
+$Profile.Name &lt;&gt; $Label.Data_Loader_Profile_Name,
+$Profile.Name &lt;&gt;&apos;System Administrator&apos;,
+$Profile.Name&lt;&gt;&apos;Global Process Admin Profile&apos;,
+$Profile.Name&lt;&gt;&apos;Integration API Only Profile&apos;,
+OR( 
+Opportunity__r.RecordType.DeveloperName == &apos;Direct_Record_Type&apos;, 
+Opportunity__r.RecordType.DeveloperName == &apos;Indirect_Record_Type&apos;
+), 
+OR( 
+ISPICKVAL(Opportunity__r.Phase_Status__c , &apos;Submitted for G2 Approval&apos;), 
+ISPICKVAL(Opportunity__r.Phase_Status__c , &apos;Submitted for G3 Approval&apos;), 
+ISPICKVAL(Opportunity__r.Phase_Status__c , &apos;Submitted for G4 Approval&apos;), 
+ISPICKVAL(Opportunity__r.Phase_Status__c , &apos;Submitted for G5 Approval&apos;), 
+ISPICKVAL(Opportunity__r.Phase_Status__c , &apos;Submitted for G6 Approval&apos;)
+) 
+)</errorConditionFormula>
+        <errorMessage>You cannot update the opportunity, when it is pending for approval</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Won_Share_Allocation_Field_Validation</fullName>
+        <active>true</active>
+        <description>D-10078 : Won Share allocation should be in between 0 and 100.</description>
+        <errorConditionFormula>AND(
+$Profile.Name &lt;&gt; $Label.Data_Loader_Profile_Name, 
+OR(
+Won_Share_Allocation_in__c &lt;0,
+Won_Share_Allocation_in__c &gt;100
+)
+)</errorConditionFormula>
+        <errorDisplayField>Won_Share_Allocation_in__c</errorDisplayField>
+        <errorMessage>Won Share must be between 0 and 100 (%) .</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

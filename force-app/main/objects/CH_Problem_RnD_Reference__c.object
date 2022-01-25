@@ -1,0 +1,1483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>CH_Rnd_Interaction_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>CH_Rnd_Interaction_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>R&amp;D Interaction</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>CH_Completion_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Completion Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CH_Error_Stage__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Error Stage</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_Error_Type__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Error Type</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_Originating_Incident__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Originating Incident</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_Related_Record__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related Record</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>R&amp;D Interactions</relationshipLabel>
+        <relationshipName>CH_R_D_Interactions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_Related_RnD_Interaction__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related R&amp;D Interaction</label>
+        <referenceTo>CH_Problem_RnD_Reference__c</referenceTo>
+        <relationshipLabel>R&amp;D Interactions</relationshipLabel>
+        <relationshipName>CH_RnD_Interactions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_Request__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Request</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CH_RnD_Comment__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Comment</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CH_RnD_Content__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Content</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CH_RnD_Description__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CH_RnD_Direction__c</fullName>
+        <externalId>false</externalId>
+        <label>Direction</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>inbound</fullName>
+                    <default>false</default>
+                    <label>inbound</label>
+                </value>
+                <value>
+                    <fullName>outbound</fullName>
+                    <default>false</default>
+                    <label>outbound</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_RnD_Error_Message__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Error Message</label>
+        <length>5000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CH_RnD_Interface__c</fullName>
+        <externalId>false</externalId>
+        <label>Interface Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>JIRA</fullName>
+                    <default>false</default>
+                    <label>JIRA</label>
+                </value>
+                <value>
+                    <fullName>PRONTO</fullName>
+                    <default>false</default>
+                    <label>PRONTO</label>
+                </value>
+                <value>
+                    <fullName>OTHER</fullName>
+                    <default>false</default>
+                    <label>OTHER</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_RnD_Reference__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>R&amp;D Reference</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_RnD_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Transaction Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>false</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Failed</fullName>
+                    <default>false</default>
+                    <label>Failed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_RnD_Subject__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Subject</label>
+        <length>150</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_RnD_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Information Update</fullName>
+                    <default>false</default>
+                    <label>Information Update</label>
+                </value>
+                <value>
+                    <fullName>Update from R&amp;D</fullName>
+                    <default>false</default>
+                    <label>Update from R&amp;D</label>
+                </value>
+                <value>
+                    <fullName>Information Request</fullName>
+                    <default>false</default>
+                    <label>Information Request</label>
+                </value>
+                <value>
+                    <fullName>Cancel Information Request</fullName>
+                    <default>false</default>
+                    <label>Cancel Information Request</label>
+                </value>
+                <value>
+                    <fullName>Workaround</fullName>
+                    <default>false</default>
+                    <label>Workaround</label>
+                </value>
+                <value>
+                    <fullName>Correction Plan</fullName>
+                    <default>false</default>
+                    <label>Correction Plan</label>
+                </value>
+                <value>
+                    <fullName>Correction Response</fullName>
+                    <default>false</default>
+                    <label>Correction Response</label>
+                </value>
+                <value>
+                    <fullName>Correction Not Needed</fullName>
+                    <default>false</default>
+                    <label>Correction Not Needed</label>
+                </value>
+                <value>
+                    <fullName>Failed R&amp;D Interaction</fullName>
+                    <default>false</default>
+                    <label>Failed R&amp;D Interaction</label>
+                </value>
+                <value>
+                    <fullName>Successful R&amp;D Interaction</fullName>
+                    <default>false</default>
+                    <label>Successful R&amp;D Interaction</label>
+                </value>
+                <value>
+                    <fullName>Transfer to R&amp;D</fullName>
+                    <default>false</default>
+                    <label>Transfer to R&amp;D</label>
+                </value>
+                <value>
+                    <fullName>Information Response</fullName>
+                    <default>false</default>
+                    <label>Information Response</label>
+                </value>
+                <value>
+                    <fullName>Workaround Rejected</fullName>
+                    <default>false</default>
+                    <label>Workaround Rejected</label>
+                </value>
+                <value>
+                    <fullName>Workaround Accepted</fullName>
+                    <default>false</default>
+                    <label>Workaround Accepted</label>
+                </value>
+                <value>
+                    <fullName>Correction Rejected</fullName>
+                    <default>false</default>
+                    <label>Correction Rejected</label>
+                </value>
+                <value>
+                    <fullName>Update to R&amp;D</fullName>
+                    <default>false</default>
+                    <label>Update to R&amp;D</label>
+                </value>
+                <value>
+                    <fullName>Severity Change</fullName>
+                    <default>false</default>
+                    <label>Severity Change</label>
+                </value>
+                <value>
+                    <fullName>Acknowledgement</fullName>
+                    <default>false</default>
+                    <label>Acknowledgement</label>
+                </value>
+                <value>
+                    <fullName>Update Contact</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Update Contact</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>R&amp;D Interaction</label>
+    <nameField>
+        <displayFormat>RD-{000000}</displayFormat>
+        <label>R&amp;D Interaction Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>R&amp;D Interactions</pluralLabel>
+    <recordTypes>
+        <fullName>Correction</fullName>
+        <active>true</active>
+        <label>Correction</label>
+        <picklistValues>
+            <picklist>CH_RnD_Direction__c</picklist>
+            <values>
+                <fullName>inbound</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>outbound</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CH_RnD_Interface__c</picklist>
+            <values>
+                <fullName>JIRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PRONTO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CH_RnD_Status__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CH_RnD_Type__c</picklist>
+            <values>
+                <fullName>Cancel Information Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Not Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Plan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Response</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed R%26D Interaction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Response</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Update</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Severity Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Successful R%26D Interaction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transfer to R%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Update from R%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Update to R%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workaround</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workaround Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workaround Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Failed</fullName>
+        <active>true</active>
+        <label>Failed</label>
+        <picklistValues>
+            <picklist>CH_RnD_Direction__c</picklist>
+            <values>
+                <fullName>inbound</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>outbound</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CH_RnD_Interface__c</picklist>
+            <values>
+                <fullName>JIRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PRONTO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CH_RnD_Status__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CH_RnD_Type__c</picklist>
+            <values>
+                <fullName>Acknowledgement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancel Information Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Not Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Plan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Response</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed R%26D Interaction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Response</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Update</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Severity Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Successful R%26D Interaction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transfer to R%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Update from R%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Update to R%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workaround</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workaround Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workaround Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Inbound</fullName>
+        <active>true</active>
+        <label>Inbound</label>
+        <picklistValues>
+            <picklist>CH_RnD_Direction__c</picklist>
+            <values>
+                <fullName>inbound</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>outbound</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CH_RnD_Interface__c</picklist>
+            <values>
+                <fullName>JIRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PRONTO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CH_RnD_Status__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CH_RnD_Type__c</picklist>
+            <values>
+                <fullName>Acknowledgement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancel Information Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Not Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Plan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Response</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed R%26D Interaction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Response</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Update</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Severity Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Successful R%26D Interaction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transfer to R%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Update from R%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Update to R%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workaround</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workaround Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workaround Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Information_Request</fullName>
+        <active>true</active>
+        <label>Information Request</label>
+        <picklistValues>
+            <picklist>CH_RnD_Direction__c</picklist>
+            <values>
+                <fullName>inbound</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>outbound</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CH_RnD_Interface__c</picklist>
+            <values>
+                <fullName>JIRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PRONTO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CH_RnD_Status__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CH_RnD_Type__c</picklist>
+            <values>
+                <fullName>Cancel Information Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Not Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Plan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Response</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed R%26D Interaction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Response</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Update</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Severity Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Successful R%26D Interaction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transfer to R%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Update from R%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Update to R%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workaround</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workaround Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workaround Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Open</fullName>
+        <active>true</active>
+        <label>Open</label>
+        <picklistValues>
+            <picklist>CH_RnD_Direction__c</picklist>
+            <values>
+                <fullName>inbound</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>outbound</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CH_RnD_Interface__c</picklist>
+            <values>
+                <fullName>JIRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PRONTO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CH_RnD_Status__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CH_RnD_Type__c</picklist>
+            <values>
+                <fullName>Cancel Information Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Not Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Plan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Response</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed R%26D Interaction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Response</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Update</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Severity Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Successful R%26D Interaction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transfer to R%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Update from R%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Update to R%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workaround</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workaround Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workaround Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Outbound</fullName>
+        <active>true</active>
+        <label>Outbound</label>
+        <picklistValues>
+            <picklist>CH_RnD_Direction__c</picklist>
+            <values>
+                <fullName>inbound</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>outbound</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CH_RnD_Interface__c</picklist>
+            <values>
+                <fullName>JIRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PRONTO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CH_RnD_Status__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CH_RnD_Type__c</picklist>
+            <values>
+                <fullName>Cancel Information Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Not Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Plan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Response</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed R%26D Interaction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Response</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Update</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Severity Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Successful R%26D Interaction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transfer to R%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Update from R%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Update to R%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workaround</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workaround Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workaround Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Transfer_To_RnD</fullName>
+        <active>true</active>
+        <label>Transfer To R&amp;D</label>
+        <picklistValues>
+            <picklist>CH_RnD_Direction__c</picklist>
+            <values>
+                <fullName>inbound</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>outbound</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CH_RnD_Interface__c</picklist>
+            <values>
+                <fullName>JIRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PRONTO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CH_RnD_Status__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CH_RnD_Type__c</picklist>
+            <values>
+                <fullName>Cancel Information Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Not Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Plan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Response</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed R%26D Interaction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Response</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Update</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Severity Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Successful R%26D Interaction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transfer to R%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Update from R%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Update to R%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workaround</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workaround Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workaround Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Workaround</fullName>
+        <active>true</active>
+        <label>Workaround</label>
+        <picklistValues>
+            <picklist>CH_RnD_Direction__c</picklist>
+            <values>
+                <fullName>inbound</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>outbound</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CH_RnD_Interface__c</picklist>
+            <values>
+                <fullName>JIRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PRONTO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CH_RnD_Status__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CH_RnD_Type__c</picklist>
+            <values>
+                <fullName>Cancel Information Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Not Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Plan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Correction Response</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed R%26D Interaction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Response</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Information Update</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Severity Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Successful R%26D Interaction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transfer to R%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Update from R%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Update to R%26D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workaround</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workaround Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workaround Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

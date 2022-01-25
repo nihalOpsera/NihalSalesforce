@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Dynamically display the fieldset for Quote creation on the NokiaCPQ_newQuoteVF page if the Record type is selected as &apos;New QTC Quote - CPQ&apos;</description>
+    <fields>
+        <fullName>Display_Order__c</fullName>
+        <description>Order in which Quote/Proposal record type are displayed at the time of Quote creation</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Display Order</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Field_Set_Name__c</fullName>
+        <description>Name of the Field Set mapped to the Quote/Proposal Record type</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Field Set Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Is the Record Type and Field Set mapping for the Quote/Proposal  is active?</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Is Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Record_Type_Name__c</fullName>
+        <description>Name (Record Type Label) of the Quote/Proposal Record Type mapped to display lable and Field Set</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Record Type Label</inlineHelpText>
+        <label>Record Type Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>CPQ Quote RT and FS mapping</label>
+    <pluralLabel>CPQ Quote RT and FS mappings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

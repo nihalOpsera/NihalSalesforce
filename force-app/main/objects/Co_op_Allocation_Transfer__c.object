@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Co_op_Allocation_Transferred_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Co-op Allocation Transferred Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Reason for Transfer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>PRM_A_A_Vital_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>A&amp;A (Vital) Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PRM_FN_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>FN Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PRM_ION_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>ION Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PRM_ION_NUAGE_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>ION (NUAGE) Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PRM_ION_OPTICS_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>ION-OPTICS Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PRM_ION_Routing_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>ION-Routing Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PRM_MN_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>MN Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Transfer_From_Co_op__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Transfer From</label>
+        <referenceTo>Co_Op_Allocation__c</referenceTo>
+        <relationshipLabel>Co-op Allocation Transfers -Transfer From</relationshipLabel>
+        <relationshipName>PRM_Junctions1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Transfer_To_Co_op__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Transfer To</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Co_Op_Allocation__c.Status__c</field>
+                <operation>equals</operation>
+                <value>Active</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Co_Op_Allocation__c</referenceTo>
+        <relationshipLabel>Co-op Allocation Transfers - Transfer To</relationshipLabel>
+        <relationshipName>PRM_Junctions</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Co-op Allocation Transfer</label>
+    <nameField>
+        <displayFormat>Junc-{00000000}</displayFormat>
+        <label>PRM Junction Object Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Co-op Allocation Transfers</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>PRM_BG_Amount_Check</fullName>
+        <active>true</active>
+        <description>SFPRM-453</description>
+        <errorConditionFormula>AND(
+    ISNEW(),
+				OR(
+        PRM_A_A_Vital_Amount__c &gt; Transfer_From_Co_op__r.A_A_VITAL_Allocation__c,
+  				  PRM_FN_Amount__c &gt; Transfer_From_Co_op__r.FN_Allocation__c,
+        PRM_ION_Amount__c &gt; Transfer_From_Co_op__r.ION_Allocation__c,
+        PRM_ION_NUAGE_Amount__c &gt; Transfer_From_Co_op__r.ION_NUAGE_Allocation__c, 
+								PRM_ION_OPTICS_Amount__c &gt; Transfer_From_Co_op__r.ION_OPTICS_Allocation__c,
+        PRM_ION_Routing_Amount__c &gt; Transfer_From_Co_op__r.ION_Routing_Allocation__c,
+        PRM_MN_Amount__c &gt; Transfer_From_Co_op__r.MN_Allocation__c
+							),
+		OR(
+		  NOT(CONTAINS(Description__c, &apos;Automated Transfer&apos;)),
+		  ISBLANK(Description__c))
+)</errorConditionFormula>
+        <errorMessage>You can&apos;t transfer more than what is available in the Allocation for each BG.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PRM_BG_Amount_Sum</fullName>
+        <active>true</active>
+        <description>SFPRM-453</description>
+        <errorConditionFormula>AND(
+				Co_op_Allocation_Transferred_Amount__c != 
+   	( PRM_A_A_Vital_Amount__c + PRM_FN_Amount__c + PRM_ION_Amount__c +
+		  PRM_ION_NUAGE_Amount__c + PRM_ION_OPTICS_Amount__c +
+	  	PRM_ION_Routing_Amount__c + PRM_MN_Amount__c ),
+		  NOT(CONTAINS(Description__c, &apos;Automated Transfer&apos;))
+)</errorConditionFormula>
+        <errorDisplayField>Co_op_Allocation_Transferred_Amount__c</errorDisplayField>
+        <errorMessage>Transferred Amount must equal the sum of BG Amounts.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Transfer_amount_can_not_exceed_balance</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+    ISNEW(),
+    Co_op_Allocation_Transferred_Amount__c &gt;  Transfer_From_Co_op__r.Allocation_Period_Balance__c,
+		  NOT(CONTAINS(Description__c, &apos;Automated Transfer&apos;))
+)</errorConditionFormula>
+        <errorMessage>You do not have sufficient balance to transfer the amount. Please check Co-op Allocation &quot;Allocation Period Balance&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Transfer_should_be_only_in_same_period</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(
+ISNEW(),
+OR(
+(TEXT(Transfer_From_Co_op__r.Allocation_Month__c) !=  TEXT(Transfer_To_Co_op__r.Allocation_Month__c)),
+(TEXT(Transfer_From_Co_op__r.Allocation_Year__c) !=  TEXT(Transfer_To_Co_op__r.Allocation_Year__c))
+)
+)</errorConditionFormula>
+        <errorMessage>Transfers can only come out of and into the same allocation period. Please select same Period in Transfer To and Transfer From.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Validation_on_same_allocation_of_transfe</fullName>
+        <active>true</active>
+        <errorConditionFormula>Transfer_From_Co_op__r.Name  =  Transfer_To_Co_op__r.Name</errorConditionFormula>
+        <errorMessage>Please choose different allocations. Transfer in and Transfer out allocations can not be same</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

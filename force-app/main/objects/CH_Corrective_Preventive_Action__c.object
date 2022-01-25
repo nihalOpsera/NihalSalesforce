@@ -1,0 +1,1565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>CH_Corrective_Preventive_Action_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>CH_Action_Executed__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Action Executed</label>
+        <length>200</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_Additional_Comms__c</fullName>
+        <description>put additional communication done by CPA manager</description>
+        <externalId>false</externalId>
+        <label>Additional Comms</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Alert/Issue Bulletins Creation</fullName>
+                    <default>false</default>
+                    <label>Alert/Issue Bulletins Creation</label>
+                </value>
+                <value>
+                    <fullName>Email to Customer team</fullName>
+                    <default>false</default>
+                    <label>Email to Customer team</label>
+                </value>
+                <value>
+                    <fullName>Email to Product team</fullName>
+                    <default>false</default>
+                    <label>Email to Product team</label>
+                </value>
+                <value>
+                    <fullName>Email to Service Team</fullName>
+                    <default>false</default>
+                    <label>Email to Service Team</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Assigned_Date_Time__c</fullName>
+        <description>The date when a CPA owner is assigned to the action</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Assigned Date/Time</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CH_CPA_Closed__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Corrective&amp;Preventive Action Closed Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CH_CPA_Link__c</fullName>
+        <externalId>false</externalId>
+        <formula>LEFT($Api.Partner_Server_URL_300, FIND( &apos;/services&apos;, $Api.Partner_Server_URL_300))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CPA Link</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_CPA_Manager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>name of the person who is accoutable  for the action lifecycle</description>
+        <externalId>false</externalId>
+        <label>CPA Manager</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Corrective_Preventive_Actions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_CPA_Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Corrective &amp; Preventive Action  Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>CH_Corrective_Preventive_Actions3</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_CPA_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Corrective &amp; Preventive Action Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Created</fullName>
+                    <default>true</default>
+                    <label>Created</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Assigned</fullName>
+                    <default>false</default>
+                    <label>Assigned</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Performed</fullName>
+                    <default>false</default>
+                    <label>Performed</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_CPA_UserisOwnerOrNot__c</fullName>
+        <externalId>false</externalId>
+        <formula>$User.Id  =  OwnerId</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CH_CPA_UserisOwnerOrNot</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CH_Cancellation_Cause__c</fullName>
+        <description>cause why the CPA manager cancels the action</description>
+        <externalId>false</externalId>
+        <label>Cancellation Cause</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Case follow-up</fullName>
+                    <default>false</default>
+                    <label>Case follow-up</label>
+                </value>
+                <value>
+                    <fullName>CPA no longer needed</fullName>
+                    <default>false</default>
+                    <label>CPA no longer needed</label>
+                </value>
+                <value>
+                    <fullName>Follow-up notification</fullName>
+                    <default>false</default>
+                    <label>Follow-up notification</label>
+                </value>
+                <value>
+                    <fullName>Improvement project</fullName>
+                    <default>false</default>
+                    <label>Improvement project</label>
+                </value>
+                <value>
+                    <fullName>No CPA possible</fullName>
+                    <default>false</default>
+                    <label>No CPA possible</label>
+                </value>
+                <value>
+                    <fullName>Product bug/feature/Enhancement req.</fullName>
+                    <default>false</default>
+                    <label>Product bug/feature/Enhancement req.</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Cancelled_Date_Time__c</fullName>
+        <description>date when the action was cancelled</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Cancelled Date/Time</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CH_Category__c</fullName>
+        <description>allows to classify the category of the action</description>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Care Delivery</fullName>
+                    <default>false</default>
+                    <label>Care Delivery</label>
+                </value>
+                <value>
+                    <fullName>Common Software Foundation</fullName>
+                    <default>false</default>
+                    <label>Common Software Foundation</label>
+                </value>
+                <value>
+                    <fullName>Customer</fullName>
+                    <default>false</default>
+                    <label>Customer</label>
+                </value>
+                <value>
+                    <fullName>Market Services</fullName>
+                    <default>false</default>
+                    <label>Market Services</label>
+                </value>
+                <value>
+                    <fullName>Product – R&amp;D</fullName>
+                    <default>false</default>
+                    <label>Product – R&amp;D</label>
+                </value>
+                <value>
+                    <fullName>Product Quality</fullName>
+                    <default>false</default>
+                    <label>Product Quality</label>
+                </value>
+                <value>
+                    <fullName>Regional Support</fullName>
+                    <default>false</default>
+                    <label>Regional Support</label>
+                </value>
+                <value>
+                    <fullName>Services Delivery</fullName>
+                    <default>false</default>
+                    <label>Services Delivery</label>
+                </value>
+                <value>
+                    <fullName>Third Party</fullName>
+                    <default>false</default>
+                    <label>Third Party</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Cause_Analysis__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Cause Analysis</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CH_Classification__c</fullName>
+        <externalId>false</externalId>
+        <label>Classification</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Corrective</fullName>
+                    <default>true</default>
+                    <label>Corrective</label>
+                </value>
+                <value>
+                    <fullName>Preventive</fullName>
+                    <default>false</default>
+                    <label>Preventive</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Closed_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Closed Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All Deliverables complete</fullName>
+                    <default>false</default>
+                    <label>All Deliverables complete</label>
+                </value>
+                <value>
+                    <fullName>Execution result recorded</fullName>
+                    <default>false</default>
+                    <label>Execution result recorded</label>
+                </value>
+                <value>
+                    <fullName>Action content up to date</fullName>
+                    <default>false</default>
+                    <label>Action content up to date</label>
+                </value>
+                <value>
+                    <fullName>CPA no longer needed</fullName>
+                    <default>false</default>
+                    <label>CPA no longer needed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Closing_criteria__c</fullName>
+        <description>criteria to be checked to  close an action, picklist to be defined</description>
+        <externalId>false</externalId>
+        <label>Closing criteria</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All Deliverables complete</fullName>
+                    <default>false</default>
+                    <label>All Deliverables complete</label>
+                </value>
+                <value>
+                    <fullName>Execution result recorded</fullName>
+                    <default>false</default>
+                    <label>Execution result recorded</label>
+                </value>
+                <value>
+                    <fullName>Action content up to date</fullName>
+                    <default>false</default>
+                    <label>Action content up to date</label>
+                </value>
+                <value>
+                    <fullName>CPA no longer needed</fullName>
+                    <default>false</default>
+                    <label>CPA no longer needed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Comments_Feedback__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Comments/Feedback</label>
+        <length>200</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_Customer_Delivery_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Customer Delivery Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CH_Customer_Delivery__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Customer Delivery</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CH_Customer_Target_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Customer Target Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CH_Description__c</fullName>
+        <description>the complete  description of the action</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CH_Domain__c</fullName>
+        <externalId>false</externalId>
+        <label>Domain</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Care</fullName>
+                    <default>false</default>
+                    <label>Care</label>
+                </value>
+                <value>
+                    <fullName>Installation</fullName>
+                    <default>false</default>
+                    <label>Installation</label>
+                </value>
+                <value>
+                    <fullName>Installation &amp; Enginnering Audit</fullName>
+                    <default>false</default>
+                    <label>Installation &amp; Enginnering Audit</label>
+                </value>
+                <value>
+                    <fullName>Managed Services</fullName>
+                    <default>false</default>
+                    <label>Managed Services</label>
+                </value>
+                <value>
+                    <fullName>Network Engineering Services</fullName>
+                    <default>false</default>
+                    <label>Network Engineering Services</label>
+                </value>
+                <value>
+                    <fullName>Provisionning</fullName>
+                    <default>false</default>
+                    <label>Provisionning</label>
+                </value>
+                <value>
+                    <fullName>Software Develpoment Services</fullName>
+                    <default>false</default>
+                    <label>Software Develpoment Services</label>
+                </value>
+                <value>
+                    <fullName>Telecom Network integration</fullName>
+                    <default>false</default>
+                    <label>Telecom Network integration</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Executed_Date_Time__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Executed Date/Time</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CH_Follow_up__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Follow-up</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CH_Free_text_box__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Free text box</label>
+        <length>200</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_Impacted_Business_Groups__c</fullName>
+        <externalId>false</externalId>
+        <label>Impacted Business Groups</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Customer Operations</fullName>
+                    <default>false</default>
+                    <label>Customer Operations</label>
+                </value>
+                <value>
+                    <fullName>Fixed networks</fullName>
+                    <default>false</default>
+                    <label>Fixed networks</label>
+                </value>
+                <value>
+                    <fullName>Global services</fullName>
+                    <default>false</default>
+                    <label>Global services</label>
+                </value>
+                <value>
+                    <fullName>IP Optical networks</fullName>
+                    <default>false</default>
+                    <label>IP Optical networks</label>
+                </value>
+                <value>
+                    <fullName>Mobile networks</fullName>
+                    <default>false</default>
+                    <label>Mobile networks</label>
+                </value>
+                <value>
+                    <fullName>Nokia Enterprise</fullName>
+                    <default>false</default>
+                    <label>Nokia Enterprise</label>
+                </value>
+                <value>
+                    <fullName>Nokia Software</fullName>
+                    <default>false</default>
+                    <label>Nokia Software</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Implemented_by__c</fullName>
+        <externalId>false</externalId>
+        <label>Implemented by</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Customer</fullName>
+                    <default>false</default>
+                    <label>Customer</label>
+                </value>
+                <value>
+                    <fullName>Nokia</fullName>
+                    <default>false</default>
+                    <label>Nokia</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Missed_cause__c</fullName>
+        <externalId>false</externalId>
+        <label>Missed cause</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Customer-Action Deferred</fullName>
+                    <default>false</default>
+                    <label>Customer-Action Deferred</label>
+                </value>
+                <value>
+                    <fullName>Customer-Action Not Accepted</fullName>
+                    <default>false</default>
+                    <label>Customer-Action Not Accepted</label>
+                </value>
+                <value>
+                    <fullName>Customer-No Remote Access</fullName>
+                    <default>false</default>
+                    <label>Customer-No Remote Access</label>
+                </value>
+                <value>
+                    <fullName>Customer-Site Not Accessible</fullName>
+                    <default>false</default>
+                    <label>Customer-Site Not Accessible</label>
+                </value>
+                <value>
+                    <fullName>Process-Action Deferred-Nokia</fullName>
+                    <default>false</default>
+                    <label>Process-Action Deferred-Nokia</label>
+                </value>
+                <value>
+                    <fullName>Process-Other Priority-Nokia</fullName>
+                    <default>false</default>
+                    <label>Process-Other Priority-Nokia</label>
+                </value>
+                <value>
+                    <fullName>Resource-Material-Nokia</fullName>
+                    <default>false</default>
+                    <label>Resource-Material-Nokia</label>
+                </value>
+                <value>
+                    <fullName>Tech-Difficult Problem</fullName>
+                    <default>false</default>
+                    <label>Tech-Difficult Problem</label>
+                </value>
+                <value>
+                    <fullName>Tech-Environment</fullName>
+                    <default>false</default>
+                    <label>Tech-Environment</label>
+                </value>
+                <value>
+                    <fullName>Tech-Action Failed</fullName>
+                    <default>false</default>
+                    <label>Tech-Action Failed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Other_Sources__c</fullName>
+        <description>link toward the source</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Other Sources</label>
+        <length>200</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_Priority__c</fullName>
+        <externalId>false</externalId>
+        <label>Priority</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Emergency</fullName>
+                    <default>false</default>
+                    <label>Emergency</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Process_Stage__c</fullName>
+        <externalId>false</externalId>
+        <label>Process Stage</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Identify -Create</fullName>
+                    <default>true</default>
+                    <label>Identify -Create</label>
+                </value>
+                <value>
+                    <fullName>Manage</fullName>
+                    <default>false</default>
+                    <label>Manage</label>
+                </value>
+                <value>
+                    <fullName>Implement</fullName>
+                    <default>false</default>
+                    <label>Implement</label>
+                </value>
+                <value>
+                    <fullName>Close</fullName>
+                    <default>false</default>
+                    <label>Close</label>
+                </value>
+                <value>
+                    <fullName>Create</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Create</label>
+                </value>
+                <value>
+                    <fullName>Identify</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Identify</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Recommendation__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>detailsto execute the action  or  guidance, standards  as defined in the outage forums , team meetings etc</inlineHelpText>
+        <label>Recommendation</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CH_Rejected_Date_Time__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Rejected Date /Time</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CH_Rejection_Cause__c</fullName>
+        <externalId>false</externalId>
+        <label>Rejection Cause</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Business Case not justified</fullName>
+                    <default>false</default>
+                    <label>Business Case not justified</label>
+                </value>
+                <value>
+                    <fullName>CPA Domain not supported</fullName>
+                    <default>false</default>
+                    <label>CPA Domain not supported</label>
+                </value>
+                <value>
+                    <fullName>Customer Domain not suported</fullName>
+                    <default>false</default>
+                    <label>Customer Domain not suported</label>
+                </value>
+                <value>
+                    <fullName>No Capacity</fullName>
+                    <default>false</default>
+                    <label>No Capacity</label>
+                </value>
+                <value>
+                    <fullName>Not Available (holiday, training, sick leave)</fullName>
+                    <default>false</default>
+                    <label>Not Available (holiday, training, sick leave)</label>
+                </value>
+                <value>
+                    <fullName>Not Enough Information</fullName>
+                    <default>false</default>
+                    <label>Not Enough Information</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Related_Case__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related Case</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Corrective &amp; Preventive Actions</relationshipLabel>
+        <relationshipName>Corrective_Preventive_Actions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_Result__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Result</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CH_Scope__c</fullName>
+        <externalId>false</externalId>
+        <label>Scope</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All Customer</fullName>
+                    <default>false</default>
+                    <label>All Customer</label>
+                </value>
+                <value>
+                    <fullName>One Customer</fullName>
+                    <default>false</default>
+                    <label>One Customer</label>
+                </value>
+                <value>
+                    <fullName>All Nokia products team</fullName>
+                    <default>false</default>
+                    <label>All Nokia products team</label>
+                </value>
+                <value>
+                    <fullName>All  Nokia Services team</fullName>
+                    <default>false</default>
+                    <label>All  Nokia Services team</label>
+                </value>
+                <value>
+                    <fullName>All Business Groups</fullName>
+                    <default>false</default>
+                    <label>All Business Groups</label>
+                </value>
+                <value>
+                    <fullName>Customer Operations</fullName>
+                    <default>false</default>
+                    <label>Customer Operations</label>
+                </value>
+                <value>
+                    <fullName>Fixed networks</fullName>
+                    <default>false</default>
+                    <label>Fixed networks</label>
+                </value>
+                <value>
+                    <fullName>Global services</fullName>
+                    <default>false</default>
+                    <label>Global services</label>
+                </value>
+                <value>
+                    <fullName>IP Optical networks</fullName>
+                    <default>false</default>
+                    <label>IP Optical networks</label>
+                </value>
+                <value>
+                    <fullName>Mobile networks</fullName>
+                    <default>false</default>
+                    <label>Mobile networks</label>
+                </value>
+                <value>
+                    <fullName>Nokia Enterprise</fullName>
+                    <default>false</default>
+                    <label>Nokia Enterprise</label>
+                </value>
+                <value>
+                    <fullName>Nokia Software</fullName>
+                    <default>false</default>
+                    <label>Nokia Software</label>
+                </value>
+                <value>
+                    <fullName>Third party</fullName>
+                    <default>false</default>
+                    <label>Third party</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Sensibility__c</fullName>
+        <description>allows to specify who could see the action</description>
+        <externalId>false</externalId>
+        <label>Sensitivity</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Nokia Internal use</fullName>
+                    <default>true</default>
+                    <label>Nokia Internal use</label>
+                </value>
+                <value>
+                    <fullName>Confidential</fullName>
+                    <default>false</default>
+                    <label>Confidential</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Souce_information__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Source information</label>
+        <length>200</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_Source__c</fullName>
+        <externalId>false</externalId>
+        <label>Source</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Case Handling Routing Issue</fullName>
+                    <default>false</default>
+                    <label>Case Handling Routing Issue</label>
+                </value>
+                <value>
+                    <fullName>Case Rejected resolutions</fullName>
+                    <default>false</default>
+                    <label>Case Rejected resolutions</label>
+                </value>
+                <value>
+                    <fullName>Case Root Cause Analysis</fullName>
+                    <default>false</default>
+                    <label>Case Root Cause Analysis</label>
+                </value>
+                <value>
+                    <fullName>Customer Complaint</fullName>
+                    <default>false</default>
+                    <label>Customer Complaint</label>
+                </value>
+                <value>
+                    <fullName>Customer Survey feedback</fullName>
+                    <default>false</default>
+                    <label>Customer Survey feedback</label>
+                </value>
+                <value>
+                    <fullName>Improvement programs</fullName>
+                    <default>false</default>
+                    <label>Improvement programs</label>
+                </value>
+                <value>
+                    <fullName>Issue Bulletins/Alerts</fullName>
+                    <default>false</default>
+                    <label>Issue Bulletins/Alerts</label>
+                </value>
+                <value>
+                    <fullName>KPI degradation</fullName>
+                    <default>false</default>
+                    <label>KPI degradation</label>
+                </value>
+                <value>
+                    <fullName>Management Escalation</fullName>
+                    <default>false</default>
+                    <label>Management Escalation</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Sub_category__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub-category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Best Practice</fullName>
+                    <default>false</default>
+                    <label>Best Practice</label>
+                </value>
+                <value>
+                    <fullName>Competence Development  / CoDe</fullName>
+                    <default>false</default>
+                    <label>Competence Development  / CoDe</label>
+                </value>
+                <value>
+                    <fullName>Customer Training</fullName>
+                    <default>false</default>
+                    <label>Customer Training</label>
+                </value>
+                <value>
+                    <fullName>Customization</fullName>
+                    <default>false</default>
+                    <label>Customization</label>
+                </value>
+                <value>
+                    <fullName>Documentation</fullName>
+                    <default>false</default>
+                    <label>Documentation</label>
+                </value>
+                <value>
+                    <fullName>Installation and Commissioning</fullName>
+                    <default>false</default>
+                    <label>Installation and Commissioning</label>
+                </value>
+                <value>
+                    <fullName>Issue bulletin/ Alert Implementation</fullName>
+                    <default>false</default>
+                    <label>Issue bulletin/ Alert Implementation</label>
+                </value>
+                <value>
+                    <fullName>Maintenance Support</fullName>
+                    <default>false</default>
+                    <label>Maintenance Support</label>
+                </value>
+                <value>
+                    <fullName>Network Integration</fullName>
+                    <default>false</default>
+                    <label>Network Integration</label>
+                </value>
+                <value>
+                    <fullName>Network touch</fullName>
+                    <default>false</default>
+                    <label>Network touch</label>
+                </value>
+                <value>
+                    <fullName>Patches Implementation</fullName>
+                    <default>false</default>
+                    <label>Patches Implementation</label>
+                </value>
+                <value>
+                    <fullName>Process Improvements</fullName>
+                    <default>false</default>
+                    <label>Process Improvements</label>
+                </value>
+                <value>
+                    <fullName>Product Improvement</fullName>
+                    <default>false</default>
+                    <label>Product Improvement</label>
+                </value>
+                <value>
+                    <fullName>RCA/EDA</fullName>
+                    <default>false</default>
+                    <label>RCA/EDA</label>
+                </value>
+                <value>
+                    <fullName>Service migration</fullName>
+                    <default>false</default>
+                    <label>Service migration</label>
+                </value>
+                <value>
+                    <fullName>Upgrade</fullName>
+                    <default>false</default>
+                    <label>Upgrade</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Target_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF  (   ISPICKVAL(CH_Priority__c , &quot;Emergency&quot;) , CreatedDate + (7* 4), 
+			   
+					   IF(ISPICKVAL(CH_Priority__c , &quot;High&quot;) , CreatedDate + (7* 8), 
+											
+											IF(ISPICKVAL(CH_Priority__c , &quot;Medium&quot;) , CreatedDate + (7* 12), null)
+									) 
+			
+				
+	)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Target Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <label>Corrective &amp; Preventive Action</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>CH_CPA_manager_queue_CH_Corrective_Preventive_Action</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CPA-manager-queue</label>
+        <queue>CH_CPA_manager_queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <displayFormat>CPA-{00000000}</displayFormat>
+        <label>Corrective &amp; Preventive Action Number</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Corrective &amp; Preventive Action</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>CH_CPA_AssignOnlyCPAManager</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISPICKVAL(CH_CPA_Status__c,&quot;Assigned&quot;),
+	$User.Id &lt;&gt; CH_CPA_Manager__r.Id
+				)</errorConditionFormula>
+        <errorDisplayField>CH_CPA_Status__c</errorDisplayField>
+        <errorMessage>You are not allowed to assign the CPA as you are not the Manager</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_CPA_CancelledFromCreated_Only</fullName>
+        <active>true</active>
+        <description>If a cancel is requested for other status that created actions , error message &apos; only Created actions could be cancelled, the other actions should be closed&quot;</description>
+        <errorConditionFormula>AND(
+ISCHANGED(CH_CPA_Status__c),
+ ISPICKVAL(CH_CPA_Status__c,&quot;Cancelled&quot;) ,
+NOT(TEXT(PRIORVALUE(CH_CPA_Status__c))=&quot;Created&quot;)
+)</errorConditionFormula>
+        <errorDisplayField>CH_CPA_Status__c</errorDisplayField>
+        <errorMessage>Only Created actions could be Cancelled, The other actions should be closed</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_CPA_CancelledOnlyCPAManager</fullName>
+        <active>true</active>
+        <description>https://yoursl.atlassian.net/browse/NOKIASC-20143</description>
+        <errorConditionFormula>AND(
+ISPICKVAL(CH_CPA_Status__c,&quot;Cancelled&quot;),
+$User.Id &lt;&gt; CH_CPA_Manager__r.Id
+)</errorConditionFormula>
+        <errorDisplayField>CH_CPA_Status__c</errorDisplayField>
+        <errorMessage>You are not allowed to cancel the CPA as you are not the Manager</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_CPA_ClosedActionStatus</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISPICKVAL(CH_CPA_Status__c,&quot;Closed&quot;),
+$User.Id &lt;&gt; CH_CPA_Manager__r.Id
+)</errorConditionFormula>
+        <errorDisplayField>CH_CPA_Status__c</errorDisplayField>
+        <errorMessage>You are not allowed to close the CPA as you are not the Manager</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_CPA_ClosedStage_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND ( 
+ISPICKVAL(CH_CPA_Status__c,&quot;Closed&quot;),
+				
+ISPICKVAL(CH_Process_Stage__c,&quot;Close&quot;),
+				
+ISPICKVAL( CH_Closed_Reason__c, &quot;&quot;)
+	
+)</errorConditionFormula>
+        <errorDisplayField>CH_Closed_Reason__c</errorDisplayField>
+        <errorMessage>Please update Closed Reason</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_CPA_Created_IdentifyCreateNewCPA</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(ISNEW(),
+NOT(ISPICKVAL(CH_Process_Stage__c, &apos;Identify -Create&apos;))
+	)</errorConditionFormula>
+        <errorDisplayField>CH_Process_Stage__c</errorDisplayField>
+        <errorMessage>Process Stage should be Identify-Create for a New CPA</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_CPA_Created_NewCPA</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(ISNEW(),
+			NOT(ISPICKVAL(CH_CPA_Status__c, &apos;Created&apos;))
+				
+				)</errorConditionFormula>
+        <errorDisplayField>CH_CPA_Status__c</errorDisplayField>
+        <errorMessage>Status should be Created for a New CPA</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_CPA_IdentifyStatus_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(
+				
+					AND ( ISPICKVAL( CH_Process_Stage__c, &quot;Identify&quot;),
+										  ISPICKVAL( CH_Source__c, &quot;&quot;) 
+									)
+    ,
+			
+ 				AND ( ISPICKVAL( CH_Process_Stage__c, &quot;Identify&quot;),
+										CH_Cause_Analysis__c=null   
+									)
+)</errorConditionFormula>
+        <errorMessage>Cause Analysis &amp; Source is mandatory on Identify Status</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_CPA_ImplementStatus_Validation</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND ( ISPICKVAL( CH_Process_Stage__c , &quot;Implement&quot;),
+						  OR(
+            NOT(CH_Customer_Delivery__c)	,
+												ISPICKVAL( CH_Implemented_by__c , &quot;&quot;)  ,
+												 CH_Follow_up__c =null,
+												 CH_Action_Executed__c =null,  
+  												CH_Result__c  =null
+										)
+				)</errorConditionFormula>
+        <errorMessage>Please Complete Customer Delivery,Implemented by,Follow-up ,Action Executed,Result Fields</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_CPA_ImplementToClose_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND (
+ISPICKVAL( CH_CPA_Status__c , &quot;Performed&quot;),
+ISPICKVAL( CH_Process_Stage__c , &quot;Implement&quot;),
+(OR(
+ 
+ISPICKVAL( CH_Implemented_by__c , &quot;&quot;) ,
+CH_Follow_up__c =null,
+CH_Action_Executed__c =null,  
+CH_Result__c  =null,
+ISBLANK(CH_CPA_Manager__c)
+)
+)
+)</errorConditionFormula>
+        <errorMessage>Please Complete Implemented by,Follow-up ,Action Executed,Result .</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_CPA_Implement_Rejected_Validation</fullName>
+        <active>true</active>
+        <description>Rejection Cause should be provided if CPA Stage is Implement and Status is Rejected</description>
+        <errorConditionFormula>AND(  ISPICKVAL(CH_CPA_Status__c, &quot;Rejected&quot;),
+
+ ISPICKVAL(CH_Process_Stage__c , &quot;Implement&quot;), 
+ ISPICKVAL(CH_Rejection_Cause__c, &quot;&quot;)
+
+)</errorConditionFormula>
+        <errorDisplayField>CH_Rejection_Cause__c</errorDisplayField>
+        <errorMessage>Rejection Cause should be provided</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_CPA_ManageCancelledStatus_Validation</fullName>
+        <active>true</active>
+        <description>Cancellation Cause when status is cancelled and stage is manage</description>
+        <errorConditionFormula>AND ( ISPICKVAL( CH_CPA_Status__c , &quot;Cancelled&quot;),
+       ISPICKVAL(CH_Process_Stage__c, &quot;Manage&quot;),
+       ISPICKVAL( CH_Cancellation_Cause__c , &quot;&quot;)
+ 
+ 
+
+)</errorConditionFormula>
+        <errorDisplayField>CH_Cancellation_Cause__c</errorDisplayField>
+        <errorMessage>Please fill the cancellation cause</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_CPA_ManageStage_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISPICKVAL( CH_CPA_Status__c , &quot;Assigned&quot;),
+ISPICKVAL( CH_Process_Stage__c , &quot;Manage&quot;),
+ISBLANK(CH_CPA_Manager__c)
+)</errorConditionFormula>
+        <errorDisplayField>CH_CPA_Manager__c</errorDisplayField>
+        <errorMessage>Please provide CPA Manager</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_CPA_ManageToImplement_Mandatory</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISPICKVAL( CH_CPA_Status__c , &quot;Assigned&quot;),
+ISPICKVAL( CH_Process_Stage__c , &quot;Manage&quot;),
+ISBLANK(CH_CPA_Manager__c)
+)</errorConditionFormula>
+        <errorMessage>Please provide CPA Manager</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_CPA_OnlyOwnerPerformed</fullName>
+        <active>true</active>
+        <description>CH_CPA_OnlyOwnerPerform</description>
+        <errorConditionFormula>AND(
+ISPICKVAL(CH_CPA_Status__c,&quot;Performed&quot;),
+$User.Id &lt;&gt;  OwnerId
+  
+)</errorConditionFormula>
+        <errorDisplayField>CH_CPA_Status__c</errorDisplayField>
+        <errorMessage>You are not allowed to Perform the CPA as you are not the Owner</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_CPA_OwnerRejected_Validation</fullName>
+        <active>false</active>
+        <description>US-20347: As CPA owner , I want to have the capacity to reject the ownership of the action and fills the rejection cause</description>
+        <errorConditionFormula>AND(
+NOT(ISPICKVAL(PRIORVALUE(CH_CPA_Status__c), &quot;Rejected&quot;)) , 
+ISPICKVAL(CH_CPA_Status__c,&quot;Rejected&quot;),
+$User.Id &lt;&gt;  OwnerId
+
+)</errorConditionFormula>
+        <errorDisplayField>CH_CPA_Status__c</errorDisplayField>
+        <errorMessage>You are not allowed to reject the CPA as you are not the owner</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_CPA_freeTextBox_Mandatory_for_Others</fullName>
+        <active>true</active>
+        <description>When the value &apos;Other&apos; in the picklist for the different fields of an action, the system proposes to fill &apos; Free text box&apos; field.</description>
+        <errorConditionFormula>AND((OR(ISPICKVAL( CH_Source__c , &apos;Other&apos;),ISPICKVAL(CH_Category__c  , &apos;Other&apos;),ISPICKVAL( CH_Sub_category__c  , &apos;Other&apos;),ISPICKVAL(CH_Scope__c , &apos;Other&apos;),ISPICKVAL( CH_Additional_Comms__c  , &apos;Other&apos;),ISPICKVAL( CH_Cancellation_Cause__c   , &apos;Other&apos;),ISPICKVAL( CH_Rejection_Cause__c , &apos;Other&apos;))), ISBLANK( CH_Free_text_box__c ) )</errorConditionFormula>
+        <errorDisplayField>CH_Free_text_box__c</errorDisplayField>
+        <errorMessage>Please specify the value that misses in the pick-list where you put other thank you.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

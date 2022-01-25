@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>TOOLKIT - An object that represents a significant event in the project&apos;s lifespan.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Actual_End_Date__c</fullName>
+        <description>Actual date of completion of Milestone.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Actual End Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Actual_Start_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Actual Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Adjusted_Target_End_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Used to mark updated Target Dates</inlineHelpText>
+        <label>Adjusted Target End Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Adjusted_Target_Start_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Used to mark updated Target Dates</inlineHelpText>
+        <label>Adjusted Target Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Asset_Initiative_Milestone__c</fullName>
+        <description>Milestone for an Asset or a Initiative.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Milestone for an Asset or a Initiative.</inlineHelpText>
+        <label>Asset/Initiative Milestone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Gain Stakeholder Buy-in</fullName>
+                    <default>false</default>
+                    <label>Gain Stakeholder Buy-in</label>
+                </value>
+                <value>
+                    <fullName>Gather Requirements/ Define Scope</fullName>
+                    <default>false</default>
+                    <label>Gather Requirements/ Define Scope</label>
+                </value>
+                <value>
+                    <fullName>Design/Draft</fullName>
+                    <default>false</default>
+                    <label>Design/Draft</label>
+                </value>
+                <value>
+                    <fullName>Build/Develop Final Content</fullName>
+                    <default>false</default>
+                    <label>Build/Develop Final Content</label>
+                </value>
+                <value>
+                    <fullName>Test/Validate</fullName>
+                    <default>false</default>
+                    <label>Test/Validate</label>
+                </value>
+                <value>
+                    <fullName>Deploy/Publish</fullName>
+                    <default>false</default>
+                    <label>Deploy/Publish</label>
+                </value>
+                <value>
+                    <fullName>Optimize/Maintain</fullName>
+                    <default>false</default>
+                    <label>Optimize/Maintain</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Support_Ticket__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Support Ticket</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Milestones</relationshipLabel>
+        <relationshipName>Milestones</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Color__c</fullName>
+        <externalId>false</externalId>
+        <formula>if((Planned_End_Date__c &lt; TODAY()) &amp;&amp; ( VALUE ( TEXT (Complete2__c ) ) &lt;&gt; 100), &quot;Red&quot;,
+ 
+
+if((Planned_End_Date__c &lt;= TODAY()+5) &amp;&amp; ( VALUE ( TEXT (Complete2__c ) ) &lt;&gt; 100), &quot;Yellow&quot;,
+ 
+
+&quot;Green&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Color</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <description>Comments or additional information about Milestone.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this comment box to indicate the variance between milestone dates. (e.g. Holidays)</inlineHelpText>
+        <label>Comments</label>
+        <length>4000</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Complete2__c</fullName>
+        <externalId>false</externalId>
+        <label>% Complete</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>25</fullName>
+                    <default>false</default>
+                    <label>25</label>
+                </value>
+                <value>
+                    <fullName>50</fullName>
+                    <default>false</default>
+                    <label>50</label>
+                </value>
+                <value>
+                    <fullName>75</fullName>
+                    <default>false</default>
+                    <label>75</label>
+                </value>
+                <value>
+                    <fullName>90</fullName>
+                    <default>false</default>
+                    <label>90</label>
+                </value>
+                <value>
+                    <fullName>100</fullName>
+                    <default>false</default>
+                    <label>100</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Domain__c</fullName>
+        <externalId>false</externalId>
+        <label>Domain</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Business</fullName>
+                    <default>false</default>
+                    <label>Business</label>
+                </value>
+                <value>
+                    <fullName>IT</fullName>
+                    <default>false</default>
+                    <label>IT</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Milestone_Id__c</fullName>
+        <description>Milestone Id to distinguish a milestone for an Asset/Initiative.</description>
+        <displayFormat>{000}</displayFormat>
+        <externalId>false</externalId>
+        <inlineHelpText>Milestone Id to distinguish a milestone for an Asset/Initiative.</inlineHelpText>
+        <label>Milestone Id</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Milestone_Name__c</fullName>
+        <description>Milestone Name</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Name/Label for this milestone.</inlineHelpText>
+        <label>Milestone Name</label>
+        <length>60</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Milestones__c</fullName>
+        <description>Stage of Milestone.</description>
+        <externalId>false</externalId>
+        <label>Milestone</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Preliminary Release Scope</fullName>
+                    <default>false</default>
+                    <label>Preliminary Release Scope</label>
+                </value>
+                <value>
+                    <fullName>Requirements Definition</fullName>
+                    <default>false</default>
+                    <label>Requirements Definition</label>
+                </value>
+                <value>
+                    <fullName>Level of Effort Estimates</fullName>
+                    <default>false</default>
+                    <label>Level of Effort Estimates</label>
+                </value>
+                <value>
+                    <fullName>Preliminary Scope Lock</fullName>
+                    <default>false</default>
+                    <label>Preliminary Scope Lock</label>
+                </value>
+                <value>
+                    <fullName>Design</fullName>
+                    <default>false</default>
+                    <label>Design</label>
+                </value>
+                <value>
+                    <fullName>Final Scope Lock (Design Sign-off)</fullName>
+                    <default>false</default>
+                    <label>Final Scope Lock (Design Sign-off)</label>
+                </value>
+                <value>
+                    <fullName>Development &amp; Unit Test</fullName>
+                    <default>false</default>
+                    <label>Development &amp; Unit Test</label>
+                </value>
+                <value>
+                    <fullName>SIT</fullName>
+                    <default>false</default>
+                    <label>SIT</label>
+                </value>
+                <value>
+                    <fullName>UAT</fullName>
+                    <default>false</default>
+                    <label>UAT</label>
+                </value>
+                <value>
+                    <fullName>Deploy &amp; Train</fullName>
+                    <default>false</default>
+                    <label>Deploy &amp; Train</label>
+                </value>
+                <value>
+                    <fullName>Optimize/Maintain</fullName>
+                    <default>false</default>
+                    <label>Optimize/Maintain</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>On_Target__c</fullName>
+        <description>Displays a status as red, green or yellow ball.</description>
+        <externalId>false</externalId>
+        <formula>if((Planned_End_Date__c &lt; TODAY()) &amp;&amp; ( VALUE ( TEXT (Complete2__c ) ) &lt;&gt; 100), IMAGE(&quot;/img/samples/light_red.gif&quot;, &quot;Red&quot;),
+ 
+
+if((Planned_End_Date__c &lt;= TODAY()+5) &amp;&amp; ( VALUE ( TEXT (Complete2__c ) ) &lt;&gt; 100), IMAGE(&quot;/img/samples/light_yellow.gif&quot;, &quot;Yellow&quot;),
+ 
+
+IMAGE(&quot;/img/samples/light_green.gif&quot;, &quot;Green&quot;)))</formula>
+        <label>On Target</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Owner of this Milestone</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Owner of this Milestone</inlineHelpText>
+        <label>Owner</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Milestones</relationshipLabel>
+        <relationshipName>Milestones</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Percent_Complete__c</fullName>
+        <description>Percentage completion of Milestone.</description>
+        <externalId>false</externalId>
+        <label>% Complete</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Planned_End_Date__c</fullName>
+        <description>Expected or Preplanned date of completion of Milestone.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Planned End Date</label>
+        <required>true</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Planned_Start_Date__c</fullName>
+        <description>Baseline Plan Dates. Initial load, and not editable except after a re-baseline</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Baseline Plan Dates. Initial load, and not editable except after a re-baseline</inlineHelpText>
+        <label>Planned Start Date</label>
+        <required>true</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Progress__c</fullName>
+        <description>Current status of Milestone</description>
+        <externalId>false</externalId>
+        <label>Progress</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Started</fullName>
+                    <default>true</default>
+                    <label>Not Started</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Complete</fullName>
+                    <default>false</default>
+                    <label>Complete</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Release__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Release related to this milestone.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Release related to this milestone.</inlineHelpText>
+        <label>Release</label>
+        <referenceTo>Release__c</referenceTo>
+        <relationshipLabel>Milestones</relationshipLabel>
+        <relationshipName>Milestones</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SOURCE_ID__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>SOURCE ID</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sprint__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Sprint</label>
+        <referenceTo>Sprint__c</referenceTo>
+        <relationshipLabel>Milestones</relationshipLabel>
+        <relationshipName>Milestones</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <description>Starting Date for the Milestone</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Status2__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( VALUE (TEXT ( Complete2__c )) , 
+0, &apos;Not Started&apos;, 
+100, &apos;Complete&apos;, 
+&apos;In Progress&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Green</fullName>
+                    <default>false</default>
+                    <label>Green</label>
+                </value>
+                <value>
+                    <fullName>Red</fullName>
+                    <default>false</default>
+                    <label>Red</label>
+                </value>
+                <value>
+                    <fullName>Yellow</fullName>
+                    <default>false</default>
+                    <label>Yellow</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Milestone</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Milestone_Name__c</columns>
+        <columns>Planned_Start_Date__c</columns>
+        <columns>Planned_End_Date__c</columns>
+        <columns>Progress__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>On_Target__c</columns>
+        <columns>Release__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>PRM_User_Stories</fullName>
+        <columns>NAME</columns>
+        <columns>Milestone_Name__c</columns>
+        <columns>Progress__c</columns>
+        <columns>Percent_Complete__c</columns>
+        <columns>Sprint__c</columns>
+        <columns>Planned_Start_Date__c</columns>
+        <columns>Planned_End_Date__c</columns>
+        <columns>On_Target__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Release__c</field>
+            <operation>contains</operation>
+            <value>PRM</value>
+        </filters>
+        <label>PRM User Stories</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>{000}</displayFormat>
+        <label>Milestone ID</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Milestones</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Milestone_Asset_Initiative</fullName>
+        <active>false</active>
+        <description>Milestones for Assets/Initiatives</description>
+        <label>Milestone for Asset/Initiative</label>
+        <picklistValues>
+            <picklist>Asset_Initiative_Milestone__c</picklist>
+            <values>
+                <fullName>Build%2FDevelop Final Content</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deploy%2FPublish</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design%2FDraft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gain Stakeholder Buy-in</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gather Requirements%2F Define Scope</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Optimize%2FMaintain</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test%2FValidate</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Complete2__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>50</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>75</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>90</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Domain__c</picklist>
+            <values>
+                <fullName>Business</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Milestones__c</picklist>
+            <values>
+                <fullName>Deploy %26 Train</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Development %26 Unit Test</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Final Scope Lock %28Design Sign-off%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Level of Effort Estimates</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Optimize%2FMaintain</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Preliminary Release Scope</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Preliminary Scope Lock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requirements Definition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SIT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UAT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Progress__c</picklist>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Green</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Red</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yellow</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Milestone_Release</fullName>
+        <active>true</active>
+        <description>Milestones specific to Releases.</description>
+        <label>Milestone for Release</label>
+        <picklistValues>
+            <picklist>Asset_Initiative_Milestone__c</picklist>
+            <values>
+                <fullName>Build%2FDevelop Final Content</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deploy%2FPublish</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design%2FDraft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gain Stakeholder Buy-in</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gather Requirements%2F Define Scope</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Optimize%2FMaintain</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test%2FValidate</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Complete2__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>50</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>75</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>90</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Domain__c</picklist>
+            <values>
+                <fullName>Business</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Milestones__c</picklist>
+            <values>
+                <fullName>Deploy %26 Train</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Development %26 Unit Test</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Final Scope Lock %28Design Sign-off%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Level of Effort Estimates</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Optimize%2FMaintain</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Preliminary Release Scope</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Preliminary Scope Lock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requirements Definition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SIT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UAT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Progress__c</picklist>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Green</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Red</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yellow</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Milestone_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Planned_Start_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Planned_End_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Progress__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OWNER.LAST_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>On_Target__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Release__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Milestone_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Planned_Start_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Planned_End_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Progress__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OWNER.LAST_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>On_Target__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Release__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Milestone_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Planned_Start_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Planned_End_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Progress__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OWNER.LAST_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>On_Target__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Release__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Progress_Required</fullName>
+        <active>true</active>
+        <description>Progress on a milestone is mandatory</description>
+        <errorConditionFormula>ISPICKVAL( Progress__c,&apos;&apos;)</errorConditionFormula>
+        <errorMessage>Please select an appropriate status for this milestone.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Release_Actual_End_Date</fullName>
+        <active>true</active>
+        <description>Release end date should not be greater than today&apos;s date</description>
+        <errorConditionFormula>Actual_End_Date__c &gt; Today()</errorConditionFormula>
+        <errorDisplayField>Actual_End_Date__c</errorDisplayField>
+        <errorMessage>Actual End Date can&apos;t be greater than today&apos;s date.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SetMilestone</fullName>
+        <active>false</active>
+        <errorConditionFormula>ISPICKVAL( Asset_Initiative_Milestone__c , &apos;&apos;)</errorConditionFormula>
+        <errorDisplayField>Asset_Initiative_Milestone__c</errorDisplayField>
+        <errorMessage>Select an appropriate Milestone.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>planned_end_date</fullName>
+        <active>true</active>
+        <description>planned end date should be greater than start date</description>
+        <errorConditionFormula>OR(Planned_End_Date__c  &lt;  Planned_Start_Date__c , Actual_End_Date__c  &lt;  Planned_Start_Date__c )</errorConditionFormula>
+        <errorMessage>Planned/Actual End Date must be greater than the Start Date.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

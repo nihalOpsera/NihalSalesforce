@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>CH_CoveredNetworkElementAsset</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>CH_CoveredNetworkElementAsset</fullName>
+        <fields>CH_NetworkElementAsset__c</fields>
+        <fields>CH_City__c</fields>
+        <label>CH_CoveredNetworkElementAsset</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>CH_CNEA_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Covered Network Element Asset ID</label>
+        <length>36</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>CH_City__c</fullName>
+        <externalId>false</externalId>
+        <formula>CH_NetworkElementAsset__r.Address__r.City</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>City</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_ContractLineItem__c</fullName>
+        <externalId>false</externalId>
+        <label>Contract Line Item</label>
+        <referenceTo>ContractLineItem</referenceTo>
+        <relationshipLabel>Covered Network Element Assets</relationshipLabel>
+        <relationshipName>Covered_NE_Assets</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>CH_NetworkElementAsset__c</fullName>
+        <externalId>false</externalId>
+        <label>Network Element Asset</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Asset.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Network Element Asset</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Asset</referenceTo>
+        <relationshipLabel>Covered Network Element Assets</relationshipLabel>
+        <relationshipName>Network_Element_Assets</relationshipName>
+        <relationshipOrder>1</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>CH_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>false</default>
+                    <label>Active</label>
+                </value>
+                <value>
+                    <fullName>Inactive</fullName>
+                    <default>false</default>
+                    <label>Inactive</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Covered Network Element Asset</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>CH_ContractLineItem__c</columns>
+        <columns>CH_NetworkElementAsset__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>DV_T_Covered_Network_Element_Assets</fullName>
+        <columns>NAME</columns>
+        <columns>CH_NetworkElementAsset__c</columns>
+        <columns>OBJECT_ID</columns>
+        <columns>CH_Status__c</columns>
+        <columns>CH_ContractLineItem__c</columns>
+        <columns>CH_City__c</columns>
+        <columns>CH_CNEA_ID__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>DV&amp;T Covered Network Element Assets</label>
+        <sharedTo>
+            <group>SEC_GWC_ALL</group>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Covered Network Element Asset</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Covered Network Element Assets</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>CH_CDBContractTypeInternal</fullName>
+        <active>true</active>
+        <errorConditionFormula>CONTAINS(CH_ContractLineItem__r.ServiceContract.CH_CDB_ContractType__c, &apos;Internal&apos;)</errorConditionFormula>
+        <errorMessage>This Contract Line Item cannot be selected. The service contract cannot have CDB Contract Type of Internal.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_ValidateCLIServiceClassificationOnNEA</fullName>
+        <active>true</active>
+        <description>NOKIASC-24906</description>
+        <errorConditionFormula>ISBLANK(CH_ContractLineItem__r.CH_ServiceClassification__c )</errorConditionFormula>
+        <errorMessage>Service Classification on Contract Line Item is null. So, cant associate Network Element Asset to CLI</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_ValidationForCLIandNEA</fullName>
+        <active>true</active>
+        <description>NOKIASC-24277</description>
+        <errorConditionFormula>AND(
+    CH_ContractLineItem__r.CH_ServiceClassification__c !=&quot;HWS Service&quot; ,
+    (CH_NetworkElementAsset__r.CH_CountryISOName__c &lt;&gt; CH_ContractLineItem__r.Asset.CH_CountryISOName__c) || 
+    (CH_NetworkElementAsset__r.Product2.Name &lt;&gt;  CH_ContractLineItem__r.Asset.Product2.Name) || 
+    ((CH_NetworkElementAsset__r.CH_ProductVariant__c  &lt;&gt;  CH_ContractLineItem__r.Asset.CH_ProductVariant__c) &amp;&amp; (CH_ContractLineItem__r.Asset.CH_ProductVariant__c  &lt;&gt; &apos;&apos;) &amp;&amp; (CH_NetworkElementAsset__r.CH_ProductVariant__c  &lt;&gt; &apos;&apos;)) || 
+    ((CH_NetworkElementAsset__r.CH_Solution__c  &lt;&gt;  CH_ContractLineItem__r.Asset.CH_Solution__c) &amp;&amp; (CH_ContractLineItem__r.Asset.CH_Solution__c  &lt;&gt; &apos;&apos;) &amp;&amp; (CH_NetworkElementAsset__r.CH_Solution__c  &lt;&gt; &apos;&apos;)) || 
+    ((CH_NetworkElementAsset__r.CH_ProductRelease__c  &lt;&gt;  CH_ContractLineItem__r.Asset.CH_ProductRelease__c) &amp;&amp; (CH_NetworkElementAsset__r.CH_ProductRelease__c  &lt;&gt; &apos;&apos;))
+)</errorConditionFormula>
+        <errorMessage>CLI and NE Asset should have the same Country, Product, Product Variant, Solution and Product Release. or Product Release field can be blank on NE Asset</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_ValidationForCLIandNEAForHWS</fullName>
+        <active>true</active>
+        <description>NOKIASC-24916 - For HWS</description>
+        <errorConditionFormula>AND( 
+	CH_ContractLineItem__r.CH_ServiceClassification__c =&quot;HWS Service&quot; ,
+	 OR (
+			CH_ContractLineItem__r.ServiceContract.AccountId &lt;&gt;  CH_NetworkElementAsset__r.AccountId ,
+			CH_NetworkElementAsset__r.CH_CountryISOName__c &lt;&gt; CH_ContractLineItem__r.Asset.CH_CountryISOName__c ,
+			CH_NetworkElementAsset__r.Product2Id &lt;&gt;  CH_ContractLineItem__r.Asset.Product2Id
+		)
+	)</errorConditionFormula>
+        <errorMessage>CLI and NE Asset should have the same Country, Product and Product Release. or Product Release field can be blank on NE Asset</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

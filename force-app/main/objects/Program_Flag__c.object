@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Description__c</fullName>
+        <description>To capture the description of the Program Flag</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Describe the details of the Program Flag here</inlineHelpText>
+        <label>Description</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Flag_Category__c</fullName>
+        <description>To capture the category of Program Flag</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Flag Category of the Program Flag</inlineHelpText>
+        <label>Flag Category</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Alliance</fullName>
+                    <default>false</default>
+                    <label>Alliance</label>
+                </value>
+                <value>
+                    <fullName>NI FN</fullName>
+                    <default>false</default>
+                    <label>NI FN</label>
+                </value>
+                <value>
+                    <fullName>GS BG</fullName>
+                    <default>false</default>
+                    <label>GS BG</label>
+                </value>
+                <value>
+                    <fullName>NI ION</fullName>
+                    <default>false</default>
+                    <label>NI ION</label>
+                </value>
+                <value>
+                    <fullName>MN BG</fullName>
+                    <default>false</default>
+                    <label>MN BG</label>
+                </value>
+                <value>
+                    <fullName>CNS ENT</fullName>
+                    <default>false</default>
+                    <label>CNS ENT</label>
+                </value>
+                <value>
+                    <fullName>GSS</fullName>
+                    <default>false</default>
+                    <label>GSS</label>
+                </value>
+                <value>
+                    <fullName>APJ</fullName>
+                    <default>false</default>
+                    <label>APJ</label>
+                </value>
+                <value>
+                    <fullName>EUR</fullName>
+                    <default>false</default>
+                    <label>EUR</label>
+                </value>
+                <value>
+                    <fullName>GCHN</fullName>
+                    <default>false</default>
+                    <label>GCHN</label>
+                </value>
+                <value>
+                    <fullName>INDIA</fullName>
+                    <default>false</default>
+                    <label>INDIA</label>
+                </value>
+                <value>
+                    <fullName>LAT</fullName>
+                    <default>false</default>
+                    <label>LAT</label>
+                </value>
+                <value>
+                    <fullName>MEA</fullName>
+                    <default>false</default>
+                    <label>MEA</label>
+                </value>
+                <value>
+                    <fullName>NAM</fullName>
+                    <default>false</default>
+                    <label>NAM</label>
+                </value>
+                <value>
+                    <fullName>Global</fullName>
+                    <default>false</default>
+                    <label>Global</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>CNS CSP</fullName>
+                    <default>false</default>
+                    <label>CNS CSP</label>
+                </value>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>B</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>B</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>C</label>
+                </value>
+                <value>
+                    <fullName>CC 5G</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CC 5G</label>
+                </value>
+                <value>
+                    <fullName>CC Cloud</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CC Cloud</label>
+                </value>
+                <value>
+                    <fullName>E2E</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>E2E</label>
+                </value>
+                <value>
+                    <fullName>E2E CSP</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>E2E CSP</label>
+                </value>
+                <value>
+                    <fullName>E2E DEP</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>E2E DEP</label>
+                </value>
+                <value>
+                    <fullName>E2E EMP</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>E2E EMP</label>
+                </value>
+                <value>
+                    <fullName>E2E NSP</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>E2E NSP</label>
+                </value>
+                <value>
+                    <fullName>E2E internal</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>E2E internal</label>
+                </value>
+                <value>
+                    <fullName>NSW BG</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSW BG</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Flag_End_Date__c</fullName>
+        <description>Date when Program Flag will be made inactive</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Date when Program Flag will be made inactive</inlineHelpText>
+        <label>Flag End Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Is_Flag_Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Active/Inactive Program Flag Data</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If flag is inactive, it can&apos;t be selected in an opportunity</inlineHelpText>
+        <label>Is Flag Active</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Program Flag Data</label>
+    <listViews>
+        <fullName>Active_Program_Flag_Data</fullName>
+        <columns>NAME</columns>
+        <columns>Description__c</columns>
+        <columns>Flag_Category__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Is_Flag_Active__c</columns>
+        <columns>Flag_End_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Is_Flag_Active__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Active Program Flag Data</label>
+    </listViews>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Description__c</columns>
+        <columns>Flag_Category__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Is_Flag_Active__c</columns>
+        <columns>Flag_End_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Inactive_Program_Flag_Data</fullName>
+        <columns>NAME</columns>
+        <columns>Description__c</columns>
+        <columns>Flag_Category__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Is_Flag_Active__c</columns>
+        <columns>Flag_End_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Is_Flag_Active__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>Inactive Program Flag Data</label>
+    </listViews>
+    <nameField>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Flag Name</label>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Program Flag Data</pluralLabel>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Is_Flag_Active__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Flag_End_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Flag_Category__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OWNER.FIRST_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OWNER.LAST_NAME</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

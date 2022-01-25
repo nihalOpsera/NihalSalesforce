@@ -1,0 +1,2031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>TOOLKIT - An object to track action items and key decisions related to the project.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Completed_Date__c</fullName>
+        <description>Completion date of Key Action/Decision</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Completed Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Days_Open__c</fullName>
+        <description>Number of days Key Action/Decision remained open</description>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISPICKVAL(Status__c, &quot;Completed&quot;)), NOW() - CreatedDate,  Completed_Date__c - (DATEVALUE(CreatedDate)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days Open</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Decision_Outcome__c</fullName>
+        <description>Description of outcome of Key Action/Decision</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter details of the outcome of the action item (what was determined) or the decision reached (what was agreed to, which option was selected). This field is required when Status is Completed.</inlineHelpText>
+        <label>Decision/Outcome</label>
+        <length>2000</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <description>Description of Key Action/Decision</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter a detailed desription of the Action to be completed or the Decision needed.</inlineHelpText>
+        <label>Description</label>
+        <length>2000</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Display_on_Timeline__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Display on Timeline</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Domain__c</fullName>
+        <externalId>false</externalId>
+        <label>Domain</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Business</fullName>
+                    <default>false</default>
+                    <label>Business</label>
+                </value>
+                <value>
+                    <fullName>IT</fullName>
+                    <default>false</default>
+                    <label>IT</label>
+                </value>
+                <value>
+                    <fullName>Accenture</fullName>
+                    <default>false</default>
+                    <label>Accenture</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Due_Date__c</fullName>
+        <description>Days exceeded</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the date when the Action Item must be completed or the Decision must be made. Items not completed by the Due Date pose a risk to deliverables.</inlineHelpText>
+        <label>Due Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Key_Action_Decision_Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Key Action/Decision Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Key_Actions_Decisions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Key_Action_Decision__c</fullName>
+        <description>Key Action/Decision number</description>
+        <displayFormat>KAD-{00000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Key Action/Decision #</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Meeting_Notes__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Meeting Notes</label>
+        <referenceTo>Meeting_Notes__c</referenceTo>
+        <relationshipLabel>Key Actions/Decisions</relationshipLabel>
+        <relationshipName>Key_Actions_Decisions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Options__c</fullName>
+        <description>Details of options which are under evaluation</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the options under evaluation.</inlineHelpText>
+        <label>Options</label>
+        <length>32768</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Priority__c</fullName>
+        <description>Days to close entered in Help Text are a suggestion, and can be changed by individual projects to meet their specific needs.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Normal Priority items should be closed within 5 business days. High Priority items should be closed within 2 business days.</inlineHelpText>
+        <label>Priority</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Normal</fullName>
+                    <color>#0B6FCE</color>
+                    <default>true</default>
+                    <label>Normal</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <color>#F3D904</color>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Related_Capability__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Capability related to current Key Action/Decision</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicate which Capability this Key Action/Key is related to, if any.</inlineHelpText>
+        <label>Related Feature</label>
+        <referenceTo>Capability__c</referenceTo>
+        <relationshipLabel>Key Actions/Decisions</relationshipLabel>
+        <relationshipName>Key_Actions_Decisions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Related_Issue_Risk__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Issue/risk related to current Key Action/Decision</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If this Key Action/Decision is directly related to a single Issue or Risk, select that Issue or Risk here.</inlineHelpText>
+        <label>Related Issue/Risk</label>
+        <referenceTo>Issues_Risks__c</referenceTo>
+        <relationshipLabel>Key Actions/Decisions</relationshipLabel>
+        <relationshipName>Key_Actions_Decisions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Related_Key_Action_Decision__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Key Action/Decision related to current Key Action/Decision</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If this Key Action/Decision was created as a result of another Action Item or Decision, select the related item here.</inlineHelpText>
+        <label>Related Key Action/Decision</label>
+        <referenceTo>Key_Action_Decision__c</referenceTo>
+        <relationshipLabel>Key Actions/Decisions</relationshipLabel>
+        <relationshipName>Key_Actions_Decisions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Related_Question_Log__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related Question Log</label>
+        <referenceTo>Question_Log__c</referenceTo>
+        <relationshipLabel>Key Actions/Decisions</relationshipLabel>
+        <relationshipName>Key_Actions_Decisions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Related_Release__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Release related to current  Key Action/Decision</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the Release that this Key Action/Decision is related to.</inlineHelpText>
+        <label>Related Release</label>
+        <referenceTo>Release__c</referenceTo>
+        <relationshipLabel>Key Actions/Decisions</relationshipLabel>
+        <relationshipName>Key_Actions_Decisions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Related_Request__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Request related to current  Key Action/Decision</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If this Key Action/Decision is directly related to a single Request, select that Request here.</inlineHelpText>
+        <label>Related Requirement</label>
+        <referenceTo>Request__c</referenceTo>
+        <relationshipLabel>Key Actions/Decisions</relationshipLabel>
+        <relationshipName>Key_Actions_Decisions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Related_Sprint__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related Sprint</label>
+        <referenceTo>Sprint__c</referenceTo>
+        <relationshipLabel>Key Actions/Decisions</relationshipLabel>
+        <relationshipName>Key_Actions_Decisions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Related_User_Story__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related User Story</label>
+        <referenceTo>User_Story__c</referenceTo>
+        <relationshipLabel>Key Actions/Decisions</relationshipLabel>
+        <relationshipName>Key_Actions_Decisions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SOURCE_ID__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>SOURCE ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <description>Current status of  Key Action/Decision</description>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Started</fullName>
+                    <color>#A53711</color>
+                    <default>true</default>
+                    <label>Not Started</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <color>#F3D904</color>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <color>#419249</color>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Team__c</fullName>
+        <externalId>false</externalId>
+        <label>Team</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Accounts, Leads, Contacts</fullName>
+                    <default>false</default>
+                    <label>Accounts, Leads, Contacts</label>
+                </value>
+                <value>
+                    <fullName>Approvals/IWA</fullName>
+                    <default>false</default>
+                    <label>Approvals/IWA</label>
+                </value>
+                <value>
+                    <fullName>CPQ Analytics</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ Analytics</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Arch &amp; Data</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - Arch &amp; Data</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Architecture &amp; Integration</fullName>
+                    <default>false</default>
+                    <label>CPQ - Architecture &amp; Integration</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Capabilities</fullName>
+                    <default>false</default>
+                    <label>CPQ - Capabilities</label>
+                </value>
+                <value>
+                    <fullName>CPQ CCB</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ CCB</label>
+                </value>
+                <value>
+                    <fullName>CPQ - CCB</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - CCB</label>
+                </value>
+                <value>
+                    <fullName>CPQ Configure</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ Configure</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Configure / PPI</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - Configure / PPI</label>
+                </value>
+                <value>
+                    <fullName>CPQ - CQ</fullName>
+                    <default>false</default>
+                    <label>CPQ - CQ</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Cross-stream</fullName>
+                    <default>false</default>
+                    <label>CPQ - Cross-stream</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Direct ION</fullName>
+                    <default>false</default>
+                    <label>CPQ - Direct ION</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Direct MN</fullName>
+                    <default>false</default>
+                    <label>CPQ - Direct MN</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Direct NSW</fullName>
+                    <default>false</default>
+                    <label>CPQ - Direct NSW</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Enterprise</fullName>
+                    <default>false</default>
+                    <label>CPQ - Enterprise</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Indirect</fullName>
+                    <default>false</default>
+                    <label>CPQ - Indirect</label>
+                </value>
+                <value>
+                    <fullName>CPQ Masterdata</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ Masterdata</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Masterdata</fullName>
+                    <default>false</default>
+                    <label>CPQ - Masterdata</label>
+                </value>
+                <value>
+                    <fullName>CPQ NPI</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ NPI</label>
+                </value>
+                <value>
+                    <fullName>CPQ NPI All</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ NPI All</label>
+                </value>
+                <value>
+                    <fullName>CPQ - NPI All</fullName>
+                    <default>false</default>
+                    <label>CPQ - NPI All</label>
+                </value>
+                <value>
+                    <fullName>CPQ NPI FN</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ NPI FN</label>
+                </value>
+                <value>
+                    <fullName>CPQ - NPI FN</fullName>
+                    <default>false</default>
+                    <label>CPQ - NPI FN</label>
+                </value>
+                <value>
+                    <fullName>CPQ NPI ION</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ NPI ION</label>
+                </value>
+                <value>
+                    <fullName>CPQ - NPI ION</fullName>
+                    <default>false</default>
+                    <label>CPQ - NPI ION</label>
+                </value>
+                <value>
+                    <fullName>CPQ NPI MN</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ NPI MN</label>
+                </value>
+                <value>
+                    <fullName>CPQ - NPI MN</fullName>
+                    <default>false</default>
+                    <label>CPQ - NPI MN</label>
+                </value>
+                <value>
+                    <fullName>CPQ NPI NSW</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ NPI NSW</label>
+                </value>
+                <value>
+                    <fullName>CPQ - NPI NSW</fullName>
+                    <default>false</default>
+                    <label>CPQ - NPI NSW</label>
+                </value>
+                <value>
+                    <fullName>CPQ - O2Q / Q2O</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - O2Q / Q2O</label>
+                </value>
+                <value>
+                    <fullName>CPQ Price</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ Price</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Pricing</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - Pricing</label>
+                </value>
+                <value>
+                    <fullName>CPQ Quote (to Order)</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ Quote (to Order)</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Scrum-of-Scrum</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - Scrum-of-Scrum</label>
+                </value>
+                <value>
+                    <fullName>Data Migration</fullName>
+                    <default>false</default>
+                    <label>Data Migration</label>
+                </value>
+                <value>
+                    <fullName>Deployment</fullName>
+                    <default>false</default>
+                    <label>Deployment</label>
+                </value>
+                <value>
+                    <fullName>Digital Sales</fullName>
+                    <default>false</default>
+                    <label>Digital Sales</label>
+                </value>
+                <value>
+                    <fullName>Doc Strategy</fullName>
+                    <default>false</default>
+                    <label>Doc Strategy</label>
+                </value>
+                <value>
+                    <fullName>Encryption</fullName>
+                    <default>false</default>
+                    <label>Encryption</label>
+                </value>
+                <value>
+                    <fullName>Forecasting</fullName>
+                    <default>false</default>
+                    <label>Forecasting</label>
+                </value>
+                <value>
+                    <fullName>Interfaces/ETL</fullName>
+                    <default>false</default>
+                    <label>Interfaces/ETL</label>
+                </value>
+                <value>
+                    <fullName>LoA</fullName>
+                    <default>false</default>
+                    <label>LoA</label>
+                </value>
+                <value>
+                    <fullName>Mobile</fullName>
+                    <default>false</default>
+                    <label>Mobile</label>
+                </value>
+                <value>
+                    <fullName>NGOEP</fullName>
+                    <default>false</default>
+                    <label>NGOEP</label>
+                </value>
+                <value>
+                    <fullName>Org Strategy/Sales Hierarchy</fullName>
+                    <default>false</default>
+                    <label>Org Strategy/Sales Hierarchy</label>
+                </value>
+                <value>
+                    <fullName>Overall Project</fullName>
+                    <default>false</default>
+                    <label>Overall Project</label>
+                </value>
+                <value>
+                    <fullName>Partner Portal</fullName>
+                    <default>false</default>
+                    <label>Partner Portal</label>
+                </value>
+                <value>
+                    <fullName>PreSales/Risk</fullName>
+                    <default>false</default>
+                    <label>PreSales/Risk</label>
+                </value>
+                <value>
+                    <fullName>Project Management</fullName>
+                    <default>false</default>
+                    <label>Project Management</label>
+                </value>
+                <value>
+                    <fullName>Reporting</fullName>
+                    <default>false</default>
+                    <label>Reporting</label>
+                </value>
+                <value>
+                    <fullName>Sales Process</fullName>
+                    <default>false</default>
+                    <label>Sales Process</label>
+                </value>
+                <value>
+                    <fullName>Security</fullName>
+                    <default>false</default>
+                    <label>Security</label>
+                </value>
+                <value>
+                    <fullName>Training</fullName>
+                    <default>false</default>
+                    <label>Training</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Use_Case__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Use Case</label>
+        <referenceTo>Use_Case__c</referenceTo>
+        <relationshipLabel>Key Actions/Decisions</relationshipLabel>
+        <relationshipName>Key_Actions_Decisions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Key Action/Decision</label>
+    <listViews>
+        <fullName>All_Action_Items_RM</fullName>
+        <columns>NAME</columns>
+        <columns>Key_Action_Decision__c</columns>
+        <columns>Status__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>Days_Open__c</columns>
+        <columns>Description__c</columns>
+        <columns>Decision_Outcome__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>Key_Action_Decision_Owner__c</columns>
+        <columns>Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Action Items (RM)</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Completed_Key_Decision_Items</fullName>
+        <columns>NAME</columns>
+        <columns>Key_Action_Decision__c</columns>
+        <columns>Status__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>Days_Open__c</columns>
+        <columns>Description__c</columns>
+        <columns>Decision_Outcome__c</columns>
+        <columns>Key_Action_Decision_Owner__c</columns>
+        <columns>Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Key_Action_Decision__c.Key_Decision</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Completed</value>
+        </filters>
+        <label>All Completed Key Decision Items</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Open_Action_Items</fullName>
+        <columns>NAME</columns>
+        <columns>Key_Action_Decision__c</columns>
+        <columns>Status__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>Days_Open__c</columns>
+        <columns>Description__c</columns>
+        <columns>Decision_Outcome__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>Key_Action_Decision_Owner__c</columns>
+        <columns>Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Key_Action_Decision__c.Action_Item</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>Sales Process</value>
+        </filters>
+        <label>Sales Team View (RM)</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Open_Action_Items1</fullName>
+        <columns>Key_Action_Decision__c</columns>
+        <columns>NAME</columns>
+        <columns>Key_Action_Decision_Owner__c</columns>
+        <columns>Status__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Description__c</columns>
+        <columns>Decision_Outcome__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>Days_Open__c</columns>
+        <columns>Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <label>All Open Action Items</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Open_Action_Items_Sales_Process</fullName>
+        <columns>NAME</columns>
+        <columns>Key_Action_Decision__c</columns>
+        <columns>Status__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>Days_Open__c</columns>
+        <columns>Description__c</columns>
+        <columns>Decision_Outcome__c</columns>
+        <columns>Key_Action_Decision_Owner__c</columns>
+        <columns>Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Key_Action_Decision__c.Action_Item</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>Sales Process</value>
+        </filters>
+        <label>All Open Action Items - Sales Process</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Open_Decisions</fullName>
+        <columns>NAME</columns>
+        <columns>Key_Action_Decision__c</columns>
+        <columns>Status__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>Days_Open__c</columns>
+        <columns>Description__c</columns>
+        <columns>Decision_Outcome__c</columns>
+        <columns>Key_Action_Decision_Owner__c</columns>
+        <columns>Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Key_Action_Decision__c.Key_Decision</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <label>All Open Decisions</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Open_LoA_Decisions</fullName>
+        <columns>NAME</columns>
+        <columns>Key_Action_Decision__c</columns>
+        <columns>Status__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>Days_Open__c</columns>
+        <columns>Description__c</columns>
+        <columns>Decision_Outcome__c</columns>
+        <columns>Key_Action_Decision_Owner__c</columns>
+        <columns>Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>LoA</value>
+        </filters>
+        <label>All Open LoA Decisions</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Overdue_Action_Items</fullName>
+        <columns>NAME</columns>
+        <columns>Key_Action_Decision__c</columns>
+        <columns>Status__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>Days_Open__c</columns>
+        <columns>Description__c</columns>
+        <columns>Decision_Outcome__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Key_Action_Decision__c.Action_Item</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <filters>
+            <field>Due_Date__c</field>
+            <operation>lessThan</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>All Overdue Action Items</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Overdue_Decisions</fullName>
+        <columns>NAME</columns>
+        <columns>Key_Action_Decision__c</columns>
+        <columns>Status__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>Days_Open__c</columns>
+        <columns>Description__c</columns>
+        <columns>Decision_Outcome__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Key_Action_Decision__c.Key_Decision</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <filters>
+            <field>Due_Date__c</field>
+            <operation>lessThan</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>All Overdue Decision</label>
+    </listViews>
+    <listViews>
+        <fullName>CPQ_O2Q_Q2O_Actions_and_Decisions</fullName>
+        <columns>NAME</columns>
+        <columns>Related_User_Story__c</columns>
+        <columns>Status__c</columns>
+        <columns>Key_Action_Decision_Owner__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>Due_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>CPQ - O2Q / Q2O</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Key_Action_Decision__c.Action_Item</value>
+        </filters>
+        <label>CPQ - O2Q / Q2O Actions</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>CPQ_Pricing_Actions</fullName>
+        <columns>NAME</columns>
+        <columns>Related_User_Story__c</columns>
+        <columns>Key_Action_Decision_Owner__c</columns>
+        <columns>Status__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>CPQ - Pricing</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Key_Action_Decision__c.Action_Item</value>
+        </filters>
+        <label>CPQ - Pricing Actions</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Digital_Sales_SWx</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Priority__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Due_Date__c</columns>
+        <columns>Description__c</columns>
+        <columns>Decision_Outcome__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>Digital Sales</value>
+        </filters>
+        <label>Digital Sales // SWx</label>
+    </listViews>
+    <listViews>
+        <fullName>PRMRel_4_OpenActions_DecisionForBusiness</fullName>
+        <columns>NAME</columns>
+        <columns>Priority__c</columns>
+        <columns>Status__c</columns>
+        <columns>Key_Action_Decision_Owner__c</columns>
+        <columns>Description__c</columns>
+        <columns>Related_Sprint__c</columns>
+        <columns>Related_Request__c</columns>
+        <columns>Related_User_Story__c</columns>
+        <columns>Days_Open__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Domain__c</field>
+            <operation>equals</operation>
+            <value>Accenture</value>
+        </filters>
+        <filters>
+            <field>Related_Release__c</field>
+            <operation>equals</operation>
+            <value>PRM Release 4,PRM August 2018</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <label>PRM Rel 4-Open Actions/Decision Internal</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>PRM_Project_Accenture_Team</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>PRM_3_1_Action_Items1</fullName>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Description__c</columns>
+        <columns>Key_Action_Decision_Owner__c</columns>
+        <columns>Status__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Related_Release__c</field>
+            <operation>equals</operation>
+            <value>PRM Release 3.2</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <filters>
+            <field>Related_Release__c</field>
+            <operation>equals</operation>
+            <value>PRM August 2018</value>
+        </filters>
+        <label>PRM R4 Action Items</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>PRM_3_2_View</fullName>
+        <columns>NAME</columns>
+        <columns>Related_Release__c</columns>
+        <columns>Key_Action_Decision_Owner__c</columns>
+        <columns>Description__c</columns>
+        <columns>Decision_Outcome__c</columns>
+        <columns>Status__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>Priority__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Related_Release__c</field>
+            <operation>equals</operation>
+            <value>PRM Release 3.2</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+        </filters>
+        <label>PRM 3.2 View</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>PRM_Actions1</fullName>
+        <columns>NAME</columns>
+        <columns>Related_Capability__c</columns>
+        <columns>Status__c</columns>
+        <columns>Key_Action_Decision_Owner__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <filters>
+            <field>Related_Release__c</field>
+            <operation>startsWith</operation>
+            <value>PRM</value>
+        </filters>
+        <filters>
+            <field>Domain__c</field>
+            <operation>equals</operation>
+            <value>Business</value>
+        </filters>
+        <label>PRM - Actions</label>
+    </listViews>
+    <listViews>
+        <fullName>PRM_Change_Enablement_Actions</fullName>
+        <columns>NAME</columns>
+        <columns>Key_Action_Decision__c</columns>
+        <columns>Status__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>Days_Open__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Key_Action_Decision_Owner__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Key_Action_Decision__c.Action_Item</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <filters>
+            <field>Related_Release__c</field>
+            <operation>contains</operation>
+            <value>PRM</value>
+        </filters>
+        <filters>
+            <field>Related_Capability__c</field>
+            <operation>equals</operation>
+            <value>Change Enablement</value>
+        </filters>
+        <label>PRM - Change Enablement Actions</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>PRM_Hypercare_Oppty_Deal_Reg_Actions</fullName>
+        <columns>NAME</columns>
+        <columns>Key_Action_Decision__c</columns>
+        <columns>Status__c</columns>
+        <columns>Related_User_Story__c</columns>
+        <columns>Key_Action_Decision_Owner__c</columns>
+        <columns>Decision_Outcome__c</columns>
+        <columns>Team__c</columns>
+        <columns>Related_Capability__c</columns>
+        <columns>Description__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>Completed_Date__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>Priority__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Related_Sprint__c</field>
+            <operation>equals</operation>
+            <value>PRM Release 1 - Hypercare</value>
+        </filters>
+        <filters>
+            <field>Related_Capability__c</field>
+            <operation>equals</operation>
+            <value>Opportunity Management,Deal Registration</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Not Started,In Progress</value>
+        </filters>
+        <label>PRM Hypercare- Oppty/Deal Reg Actions</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>PRM_Integration</fullName>
+        <columns>NAME</columns>
+        <columns>Related_Key_Action_Decision__c</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <columns>Key_Action_Decision__c</columns>
+        <columns>Status__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>Days_Open__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Key_Action_Decision_Owner__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Key_Action_Decision__c.Action_Item</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <filters>
+            <field>Related_Release__c</field>
+            <operation>contains</operation>
+            <value>PRM</value>
+        </filters>
+        <filters>
+            <field>Related_Capability__c</field>
+            <operation>equals</operation>
+            <value>Integrations and Migrations</value>
+        </filters>
+        <label>PRM - Integration</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>PRM_R2_ACN_Review</fullName>
+        <columns>NAME</columns>
+        <columns>Related_Release__c</columns>
+        <columns>Key_Action_Decision_Owner__c</columns>
+        <columns>Description__c</columns>
+        <columns>Decision_Outcome__c</columns>
+        <columns>Status__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>Priority__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Domain__c</field>
+            <operation>contains</operation>
+            <value>Accenture</value>
+        </filters>
+        <filters>
+            <field>Related_Release__c</field>
+            <operation>contains</operation>
+            <value>PRM Release 2</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <label>PRM R2 ACN Review</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>PRM_R3_ACN_Review1</fullName>
+        <columns>NAME</columns>
+        <columns>Related_Release__c</columns>
+        <columns>Key_Action_Decision_Owner__c</columns>
+        <columns>Description__c</columns>
+        <columns>Decision_Outcome__c</columns>
+        <columns>Status__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>Priority__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Domain__c</field>
+            <operation>contains</operation>
+            <value>Accenture</value>
+        </filters>
+        <filters>
+            <field>Related_Release__c</field>
+            <operation>contains</operation>
+            <value>PRM Release 3</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <label>PRM R3 ACN Review</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>PRM_Rel_4_Open_Key_Actions_Decisions</fullName>
+        <columns>NAME</columns>
+        <columns>Priority__c</columns>
+        <columns>Status__c</columns>
+        <columns>Key_Action_Decision_Owner__c</columns>
+        <columns>Description__c</columns>
+        <columns>Related_Sprint__c</columns>
+        <columns>Related_Request__c</columns>
+        <columns>Related_User_Story__c</columns>
+        <columns>Days_Open__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Domain__c</field>
+            <operation>equals</operation>
+            <value>Business</value>
+        </filters>
+        <filters>
+            <field>Related_Release__c</field>
+            <operation>equals</operation>
+            <value>PRM Release 4,PRM August 2018</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <filters>
+            <field>Related_Issue_Risk__c</field>
+            <operation>equals</operation>
+        </filters>
+        <label>PRMRel 4-OpenActions/DecisionForBusiness</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>PRM_Project_Accenture_Team</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>PRM_Release_2_1_Action_Items_Denise</fullName>
+        <columns>NAME</columns>
+        <columns>Related_Release__c</columns>
+        <columns>Related_Capability__c</columns>
+        <columns>Related_User_Story__c</columns>
+        <columns>Description__c</columns>
+        <columns>Decision_Outcome__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Key_Action_Decision_Owner__c</field>
+            <operation>contains</operation>
+            <value>Denise</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>greaterOrEqual</operation>
+            <value>7/10/2017 12:00 AM</value>
+        </filters>
+        <label>PRM Release 2.1 Action Items - Denise</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>PRM_Release_2_Oppty_Deal_Reg_Actions</fullName>
+        <columns>NAME</columns>
+        <columns>Description__c</columns>
+        <columns>Key_Action_Decision__c</columns>
+        <columns>Status__c</columns>
+        <columns>Related_User_Story__c</columns>
+        <columns>Key_Action_Decision_Owner__c</columns>
+        <columns>Decision_Outcome__c</columns>
+        <columns>Team__c</columns>
+        <columns>Related_Capability__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>Completed_Date__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>Priority__c</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Related_Capability__c</field>
+            <operation>equals</operation>
+            <value>Opportunity Management,Deal Registration</value>
+        </filters>
+        <filters>
+            <field>Related_Release__c</field>
+            <operation>equals</operation>
+            <value>PRM Release 2.1,PRM Release 2</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Not Started,In Progress</value>
+        </filters>
+        <label>PRM Release 2 - Oppty/Deal Reg Actions</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>PRM_SIT_and_UAT</fullName>
+        <columns>NAME</columns>
+        <columns>Related_Sprint__c</columns>
+        <columns>Key_Action_Decision_Owner__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>Status__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Related_Sprint__c</field>
+            <operation>equals</operation>
+            <value>PRM SIT,PRM UAT</value>
+        </filters>
+        <filters>
+            <field>Related_Release__c</field>
+            <operation>startsWith</operation>
+            <value>PRM</value>
+        </filters>
+        <label>PRM SIT and UAT</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Sprint_34_Oppty_Deal_Reg_Actions</fullName>
+        <columns>NAME</columns>
+        <columns>Key_Action_Decision__c</columns>
+        <columns>Status__c</columns>
+        <columns>Related_User_Story__c</columns>
+        <columns>Key_Action_Decision_Owner__c</columns>
+        <columns>Decision_Outcome__c</columns>
+        <columns>Team__c</columns>
+        <columns>Related_Capability__c</columns>
+        <columns>Description__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>Completed_Date__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>Priority__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Related_Sprint__c</field>
+            <operation>equals</operation>
+            <value>PRM Sprint 4</value>
+        </filters>
+        <filters>
+            <field>Related_Capability__c</field>
+            <operation>equals</operation>
+            <value>Opportunity Management,Deal Registration</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Not Started,In Progress</value>
+        </filters>
+        <label>Sprint 4 - Oppty/Deal Reg Actions</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Sprint_3_Oppty_Deal_Reg_Actions</fullName>
+        <columns>NAME</columns>
+        <columns>Key_Action_Decision_Owner__c</columns>
+        <columns>Decision_Outcome__c</columns>
+        <columns>Team__c</columns>
+        <columns>Related_Capability__c</columns>
+        <columns>Description__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>Completed_Date__c</columns>
+        <columns>Status__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>Priority__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Related_Sprint__c</field>
+            <operation>equals</operation>
+            <value>PRM Sprint 3</value>
+        </filters>
+        <filters>
+            <field>Related_Capability__c</field>
+            <operation>equals</operation>
+            <value>Opportunity Management,Deal Registration</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <label>Sprint 3 - Oppty/Deal Reg Actions</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Yvonne_Actions_Items_My_Action_Items</fullName>
+        <columns>NAME</columns>
+        <columns>Due_Date__c</columns>
+        <columns>Status__c</columns>
+        <columns>Description__c</columns>
+        <columns>Decision_Outcome__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Key_Action_Decision_Owner__c</field>
+            <operation>contains</operation>
+            <value>Yvonne</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <label>Yvonne Actions Items/My Action Items</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Key Action/Decision Name</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Key Actions/Decisions</pluralLabel>
+    <recordTypeTrackFeedHistory>true</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>true</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Action_Item</fullName>
+        <active>true</active>
+        <description>Used to document Action Items that need to be completed by resources on the Program/Project.</description>
+        <label>Action Item</label>
+        <picklistValues>
+            <picklist>Domain__c</picklist>
+            <values>
+                <fullName>Accenture</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Team__c</picklist>
+            <values>
+                <fullName>Accounts%2C Leads%2C Contacts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Approvals%2FIWA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Architecture %26 Integration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - CQ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Capabilities</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Cross-stream</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Direct ION</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Direct MN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Direct NSW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Enterprise</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Indirect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Masterdata</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - NPI All</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - NPI FN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - NPI ION</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - NPI MN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - NPI NSW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Migration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deployment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Doc Strategy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Encryption</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Forecasting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interfaces%2FETL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LoA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NGOEP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Org Strategy%2FSales Hierarchy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Overall Project</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner Portal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PreSales%2FRisk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reporting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Key_Decision</fullName>
+        <active>true</active>
+        <description>Used to track Key Decisions that impact the Program/Project.</description>
+        <label>Key Decision</label>
+        <picklistValues>
+            <picklist>Domain__c</picklist>
+            <values>
+                <fullName>Accenture</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Team__c</picklist>
+            <values>
+                <fullName>Accounts%2C Leads%2C Contacts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Approvals%2FIWA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Architecture %26 Integration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - CQ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Capabilities</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Cross-stream</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Direct ION</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Direct MN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Direct NSW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Enterprise</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Indirect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Masterdata</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - NPI All</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - NPI FN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - NPI ION</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - NPI MN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - NPI NSW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Migration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deployment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Doc Strategy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Encryption</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Forecasting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interfaces%2FETL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LoA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NGOEP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Org Strategy%2FSales Hierarchy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Overall Project</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner Portal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PreSales%2FRisk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reporting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Key_Action_Decision__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>RECORDTYPE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Due_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OWNER.FIRST_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OWNER.LAST_NAME</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Key_Action_Decision__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>RECORDTYPE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Due_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OWNER.FIRST_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OWNER.LAST_NAME</lookupDialogsAdditionalFields>
+        <searchFilterFields>Status__c</searchFilterFields>
+        <searchFilterFields>RECORDTYPE</searchFilterFields>
+        <searchResultsAdditionalFields>Key_Action_Decision__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>RECORDTYPE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Due_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OWNER.FIRST_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OWNER.LAST_NAME</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Decision_Outcome_Required_when_Completed</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAL( Status__c, &quot;Completed&quot;) &amp;&amp; ISNULL( Decision_Outcome__c )</errorConditionFormula>
+        <errorDisplayField>Decision_Outcome__c</errorDisplayField>
+        <errorMessage>Decision/Outcome is required when Status is Completed.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

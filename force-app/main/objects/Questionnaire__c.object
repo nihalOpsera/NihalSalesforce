@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Competitive_Impact_Weight__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Competitive_Impact__c, &quot;No&quot;),0, 
+IF(ISPICKVAL(Competitive_Impact__c, &quot;Questionable&quot;), 0.25, 
+IF(ISPICKVAL(Competitive_Impact__c, &quot;Partly&quot;), 0.5,
+IF(ISPICKVAL(Competitive_Impact__c, &quot;Mainly&quot;), 0.75, 
+IF(ISPICKVAL(Competitive_Impact__c, &quot;Fully&quot;), 1, 0)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Competitive Impact Weight</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Competitive_Impact__c</fullName>
+        <externalId>false</externalId>
+        <label>Competitive Impact</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Questionable</fullName>
+                    <default>false</default>
+                    <label>Questionable</label>
+                </value>
+                <value>
+                    <fullName>Partly</fullName>
+                    <default>false</default>
+                    <label>Partly</label>
+                </value>
+                <value>
+                    <fullName>Mainly</fullName>
+                    <default>false</default>
+                    <label>Mainly</label>
+                </value>
+                <value>
+                    <fullName>Fully</fullName>
+                    <default>false</default>
+                    <label>Fully</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Customer__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Customer_s_Ability_To_Award_The_Business__c, &quot;No&quot;),0, 
+IF(ISPICKVAL(Customer_s_Ability_To_Award_The_Business__c, &quot;Questionable&quot;), 0.25, 
+IF(ISPICKVAL(Customer_s_Ability_To_Award_The_Business__c, &quot;Partly&quot;), 0.5,
+IF(ISPICKVAL(Customer_s_Ability_To_Award_The_Business__c, &quot;Mainly&quot;), 0.75, 
+IF(ISPICKVAL(Customer_s_Ability_To_Award_The_Business__c, &quot;Fully&quot;), 1,0)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Customer&apos;s Ability Weight</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Customer_s_Ability_To_Award_The_Business__c</fullName>
+        <description>This field would provide the options for the users to choose.</description>
+        <externalId>false</externalId>
+        <label>Customer`s Ability To Award The Business</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Probability_Selection</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Date_Completed__c</fullName>
+        <description>675: Questionnaire Field Updates</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Date Completed</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Description_Competitive_Impact__c</fullName>
+        <defaultValue>&quot;We have a competitive advantage. We understand Nokia`s existing reputation with the customer vs. our competitors. Nokia is an incumbent and not a newcomer to the customer. We have strong experience in the country.&quot;</defaultValue>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Description Competitive Impact</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Description_Customer_Ability__c</fullName>
+        <defaultValue>&quot;We know the (assumed) budget and the drivers for the underlying TCO model. This is part of the customer`s stated business strategy/network plan and not an information gathering exercise. Our commercial offer (pricing and terms) is in line with customer`s expectations for this stage of the offer. The customer isn’t requesting unusual terms or conditions which may be difficult to meet. We have strong relationships with the customer decision makers.&quot;</defaultValue>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Description Customer Ability</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Description_Nokia_Ability__c</fullName>
+        <defaultValue>&quot;We understand what the Customer Pain Point(s) are. We know the customer`s business case and how to align with it. Nokia bid team has all necessary competences and the needed knowledge base.&quot;</defaultValue>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Description Nokia Ability</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Nokia_s_Ability_To_Win__c</fullName>
+        <description>This field will provide users option to choose for Questionnaire.</description>
+        <externalId>false</externalId>
+        <label>Nokia`s Ability To Win</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Probability_Selection</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Nokia_s_Ability_Weight__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( Nokia_s_Ability_To_Win__c , &quot;No&quot;),0, 
+IF(ISPICKVAL( Nokia_s_Ability_To_Win__c , &quot;Questionable&quot;), 0.25, 
+IF(ISPICKVAL( Nokia_s_Ability_To_Win__c , &quot;Partly&quot;), 0.5,
+IF(ISPICKVAL( Nokia_s_Ability_To_Win__c , &quot;Mainly&quot;), 0.75, 
+IF(ISPICKVAL( Nokia_s_Ability_To_Win__c , &quot;Fully&quot;), 1,0)))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Nokia&apos;s Ability Weight</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipName>Questionaires</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Questionnaire_Label__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Questionnaire Label</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Win_Probability__c</fullName>
+        <description>Calculating Win Probability based on formula</description>
+        <externalId>false</externalId>
+        <formula>(Customer__c * 0.50 + Nokia_s_Ability_Weight__c * 0.30 + Competitive_Impact_Weight__c  * 0.20)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Calculating Win Probability based on formula</inlineHelpText>
+        <label>Win Probability</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <label>Win Probability Questionnaire</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>A-{0000}</displayFormat>
+        <label>Questionnaire</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Win Probability Questionnaires</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Freeze_Date_Completed</fullName>
+        <active>false</active>
+        <description>675: Questionnaire Field Updates</description>
+        <errorConditionFormula>AND ( 
+OR( 
+ISPICKVAL( Opportunity__r.StageName , &quot;Develop Opportunity&quot;),
+ISPICKVAL( Opportunity__r.StageName , &quot;Create Offer (Bid)&quot;),
+ISPICKVAL( Opportunity__r.StageName , &quot;Win the Case (Negotiate)&quot;), 
+ISPICKVAL( Opportunity__r.StageName , &quot;Handover (Prepare for Delivery)&quot;) 
+), 
+ISCHANGED(  Date_Completed__c  ) 
+)</errorConditionFormula>
+        <errorMessage>Date Completed is fixed and cannot be changed.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Freeze_Questionnaire_Label</fullName>
+        <active>true</active>
+        <description>675: Questionnaire Field Updates</description>
+        <errorConditionFormula>AND ( 
+OR( 
+ISPICKVAL( Opportunity__r.StageName , &quot;Develop Opportunity&quot;),
+ISPICKVAL( Opportunity__r.StageName , &quot;Create Offer (Bid)&quot;),
+ISPICKVAL( Opportunity__r.StageName , &quot;Win the Case (Negotiate)&quot;), 
+ISPICKVAL( Opportunity__r.StageName , &quot;Handover (Prepare for Delivery)&quot;) 
+), 
+ISCHANGED(  Questionnaire_Label__c  ) 
+)</errorConditionFormula>
+        <errorMessage>Questionnaire Label is fixed and cannot be changed.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

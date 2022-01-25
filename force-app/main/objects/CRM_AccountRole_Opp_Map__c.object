@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>AR_on_opportunity__c</fullName>
+        <description>Value in &quot;Account Role&quot; Opportunity field that is mapped from Account</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Value in &quot;Account Role&quot; Opportunity field that is mapped from Account</inlineHelpText>
+        <label>AR on opportunity</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BPR_at_Account__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Value in &quot;Business Partner Role&quot; account field to be mapped into Opportunity</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Value in &quot;Business Partner Role&quot; account field to be mapped into Opportunity</inlineHelpText>
+        <label>BPR at  Account</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <label>CRM Account Role Opp Map</label>
+    <visibility>Public</visibility>
+</CustomObject>

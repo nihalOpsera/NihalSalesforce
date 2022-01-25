@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>A set of claims tied to a specific fund request.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>SFCCLtngPtr__Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The partner account that made the claim request. Typically updated via a scontrol or APEX code rather than having the partner select their own account.</description>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Fund Claims</relationshipLabel>
+        <relationshipName>R00N30000002DjDKEA0</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Age_Days__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of elapsed days since the claim was created</description>
+        <externalId>false</externalId>
+        <formula>NOW() - CreatedDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Age (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Amount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The amount of the current claim</description>
+        <externalId>false</externalId>
+        <label>Amount</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Approved_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date the fund claim was approved. This should be updated through a workflow approval process.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Approved Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Approved__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checkbox to trigger budget recalculate workflow</description>
+        <externalId>false</externalId>
+        <label>Approved</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Budget__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Optionally assign the fund claim to a budget. This budget is typically the same budget as the fund request is assigned to</description>
+        <externalId>false</externalId>
+        <label>Budget</label>
+        <referenceTo>SFCCLtngPtr__SFDC_Budget__c</referenceTo>
+        <relationshipLabel>Fund Claims</relationshipLabel>
+        <relationshipName>R00N30000002DjDZEA0</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Claim_Details__c</fullName>
+        <deprecated>false</deprecated>
+        <description>High level information about the fund claim</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Claim Details</label>
+        <length>1000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Claim_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A unique id assigned to the fund claim. Optionally useful for the partner as a means to identify the specific fund claim record.</description>
+        <displayFormat>{YY}{MM}{DD}-{0}</displayFormat>
+        <externalId>false</externalId>
+        <label>Claim ID</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Claim_Paid_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Claim paid date</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Claim Paid Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Expenditure_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A list of available activity/ expenditure types. Customize as needed</description>
+        <externalId>false</externalId>
+        <label>Expenditure Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Booth</fullName>
+                    <default>false</default>
+                    <label>Booth</label>
+                </value>
+                <value>
+                    <fullName>Conference Fees</fullName>
+                    <default>false</default>
+                    <label>Conference Fees</label>
+                </value>
+                <value>
+                    <fullName>List Rental</fullName>
+                    <default>false</default>
+                    <label>List Rental</label>
+                </value>
+                <value>
+                    <fullName>Printing Charges</fullName>
+                    <default>false</default>
+                    <label>Printing Charges</label>
+                </value>
+                <value>
+                    <fullName>Promotional Goods</fullName>
+                    <default>false</default>
+                    <label>Promotional Goods</label>
+                </value>
+                <value>
+                    <fullName>Telemarketing Services</fullName>
+                    <default>false</default>
+                    <label>Telemarketing Services</label>
+                </value>
+                <value>
+                    <fullName>Training Costs</fullName>
+                    <default>false</default>
+                    <label>Training Costs</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Fund_Request__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Note: This cannot be a master detail relationship if you plan to use approval workflow as the fund request will be locked (during approval and most likely post approval) and therefore any child claims cannot be saved</description>
+        <externalId>false</externalId>
+        <label>Fund Request</label>
+        <referenceTo>SFCCLtngPtr__SFDC_MDF__c</referenceTo>
+        <relationshipLabel>Fund Claims</relationshipLabel>
+        <relationshipName>R00N30000002DjDcEAK</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Other_Expenditure_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Used when the user chooses &apos;other&apos; as the expenditure type</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Other Expenditure Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Paid_Check_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Check number used to pay claim.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Paid Check Number</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Partner_Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The user that owns the partner account. Should be updated/ set automatically by an APEX trigger or scontrol rather than entered by the user</description>
+        <externalId>false</externalId>
+        <label>Partner Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>R00N30000002DjDeEAK</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Payment_Method__c</fullName>
+        <deprecated>false</deprecated>
+        <description>How the claim payment was paid/ processed</description>
+        <externalId>false</externalId>
+        <label>Payment Method</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Check</fullName>
+                    <default>false</default>
+                    <label>Check</label>
+                </value>
+                <value>
+                    <fullName>Credit Memo</fullName>
+                    <default>false</default>
+                    <label>Credit Memo</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Performance_Attached__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checked by the partner or the vendor (depending on the field level security and implementation specifics) to indicate that the claim has supporting documentation</description>
+        <externalId>false</externalId>
+        <label>Performance Attached</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Performance_Verified__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Proof of performance verified by the vendor.</description>
+        <externalId>false</externalId>
+        <label>Performance Verified</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The fund claim approval status. This should be updated through an approval process rather than changing through the user interface</description>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>true</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>Submitted</fullName>
+                    <default>false</default>
+                    <label>Submitted</label>
+                </value>
+                <value>
+                    <fullName>In Process</fullName>
+                    <default>false</default>
+                    <label>In Process</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>Paid</fullName>
+                    <default>false</default>
+                    <label>Paid</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Fund Claim</label>
+    <listViews>
+        <fullName>SFCCLtngPtr__All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Claim Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Fund Claims</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>SFCCLtngPtr__Fund_Request__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SFCCLtngPtr__Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SFCCLtngPtr__Amount__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATED_DATE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>SFCCLtngPtr__Fund_Request__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SFCCLtngPtr__Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SFCCLtngPtr__Amount__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CREATED_DATE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SFCCLtngPtr__Fund_Request__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SFCCLtngPtr__Status__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SFCCLtngPtr__Amount__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CREATED_DATE</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>SFCCLtngPtr__Fund_Request__c</searchFilterFields>
+        <searchFilterFields>SFCCLtngPtr__Status__c</searchFilterFields>
+        <searchFilterFields>SFCCLtngPtr__Amount__c</searchFilterFields>
+        <searchFilterFields>CREATED_DATE</searchFilterFields>
+        <searchResultsAdditionalFields>SFCCLtngPtr__Fund_Request__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SFCCLtngPtr__Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SFCCLtngPtr__Amount__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATED_DATE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>SFCCLtngPtr__Amount_Limits</fullName>
+        <active>true</active>
+        <description>The amount must be greater than zero</description>
+        <errorConditionFormula>SFCCLtngPtr__Amount__c &lt;= 0</errorConditionFormula>
+        <errorDisplayField>SFCCLtngPtr__Amount__c</errorDisplayField>
+        <errorMessage>The claim amount must be greater than zero</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SFCCLtngPtr__Require_Other_Expenditure_Type</fullName>
+        <active>true</active>
+        <description>Used to force the user to choose fill in the &apos;other expenditure type&apos; when &apos;other&apos; is chosen as the expenditure type</description>
+        <errorConditionFormula>AND(ISPICKVAL( SFCCLtngPtr__Expenditure_Type__c, &quot;Other&quot;), LEN(SFCCLtngPtr__Other_Expenditure_Type__c )=0)</errorConditionFormula>
+        <errorDisplayField>SFCCLtngPtr__Other_Expenditure_Type__c</errorDisplayField>
+        <errorMessage>Please provide details on the &apos;Other&apos; expenditure type.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

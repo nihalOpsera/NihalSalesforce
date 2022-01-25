@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>Custom_Default</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Custom_Default</fullName>
+        <fields>Name</fields>
+        <fields>Technology_Txt__c</fields>
+        <fields>Technology__c</fields>
+        <fields>Use_Case_Txt__c</fields>
+        <fields>Use_Case__c</fields>
+        <label>Custom Default</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipName>File_Uploads</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Document_Type__c</fullName>
+        <description>Used to identify type of supporting material</description>
+        <externalId>false</externalId>
+        <label>Document Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Supporting_Material_Type__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Contract Overview</fullName>
+                    <default>false</default>
+                    <label>Contract Overview</label>
+                </value>
+                <value>
+                    <fullName>Network Overview</fullName>
+                    <default>false</default>
+                    <label>Network Overview</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>CXM</controllingFieldValue>
+                <valueName>Network Overview</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>New Feature Release</controllingFieldValue>
+                <valueName>Contract Overview</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Frame_Contract_Reference__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Agreement</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.Account__c</field>
+                <operation>equals</operation>
+                <valueField>Apttus__APTS_Agreement__c.Apttus__Account__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipLabel>Supporting Materials</relationshipLabel>
+        <relationshipName>Supporting_Materials</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Network_Overview__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Network Overview</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Purchase_Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Lookup to Customer Purchase Order</description>
+        <externalId>false</externalId>
+        <label>Customer Purchase Order</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.Account__c</field>
+                <operation>equals</operation>
+                <valueField>Apttus_Config2__CustomerPurchaseOrder__c.Apttus_Config2__AccountId__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Apttus_Config2__CustomerPurchaseOrder__c</referenceTo>
+        <relationshipLabel>Supporting Materials</relationshipLabel>
+        <relationshipName>Supporting_Materials</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Supporting_Material_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Supporting Material Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CXM</fullName>
+                    <default>false</default>
+                    <label>CXM</label>
+                </value>
+                <value>
+                    <fullName>New Feature Release</fullName>
+                    <default>false</default>
+                    <label>New Feature Release</label>
+                </value>
+                <value>
+                    <fullName>RMP</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>RMP</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Technology_Txt__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>true</externalId>
+        <label>Technology</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Technology__c</fullName>
+        <externalId>false</externalId>
+        <label>Technology</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>TDD LTE</fullName>
+                    <default>false</default>
+                    <label>TDD LTE</label>
+                </value>
+                <value>
+                    <fullName>FDD LTE</fullName>
+                    <default>false</default>
+                    <label>FDD LTE</label>
+                </value>
+                <value>
+                    <fullName>WCDMA</fullName>
+                    <default>false</default>
+                    <label>WCDMA</label>
+                </value>
+                <value>
+                    <fullName>HW extension</fullName>
+                    <default>false</default>
+                    <label>HW extension</label>
+                </value>
+                <value>
+                    <fullName>Antenna Systems</fullName>
+                    <default>false</default>
+                    <label>Antenna Systems</label>
+                </value>
+                <value>
+                    <fullName>3G Core</fullName>
+                    <default>false</default>
+                    <label>3G Core</label>
+                </value>
+                <value>
+                    <fullName>IMS VoLTE Core</fullName>
+                    <default>false</default>
+                    <label>IMS VoLTE Core</label>
+                </value>
+                <value>
+                    <fullName>Nokia Registers</fullName>
+                    <default>false</default>
+                    <label>Nokia Registers</label>
+                </value>
+                <value>
+                    <fullName>LTE</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>LTE</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Use_Case_Txt__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Use Case</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Use_Case__c</fullName>
+        <externalId>false</externalId>
+        <label>Use Case</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Technology__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Energy Efficiency</fullName>
+                    <default>false</default>
+                    <label>Energy Efficiency</label>
+                </value>
+                <value>
+                    <fullName>eNB User Capacity</fullName>
+                    <default>false</default>
+                    <label>eNB User Capacity</label>
+                </value>
+                <value>
+                    <fullName>Load Balancing</fullName>
+                    <default>false</default>
+                    <label>Load Balancing</label>
+                </value>
+                <value>
+                    <fullName>Air interface UL</fullName>
+                    <default>false</default>
+                    <label>Air interface UL</label>
+                </value>
+                <value>
+                    <fullName>Air interface DL</fullName>
+                    <default>false</default>
+                    <label>Air interface DL</label>
+                </value>
+                <value>
+                    <fullName>VoLTE</fullName>
+                    <default>false</default>
+                    <label>VoLTE</label>
+                </value>
+                <value>
+                    <fullName>Transport / security</fullName>
+                    <default>false</default>
+                    <label>Transport / security</label>
+                </value>
+                <value>
+                    <fullName>LTE Evolution</fullName>
+                    <default>false</default>
+                    <label>LTE Evolution</label>
+                </value>
+                <value>
+                    <fullName>IoT</fullName>
+                    <default>false</default>
+                    <label>IoT</label>
+                </value>
+                <value>
+                    <fullName>Spectrum Use</fullName>
+                    <default>false</default>
+                    <label>Spectrum Use</label>
+                </value>
+                <value>
+                    <fullName>NW Coverage &amp; Quality &amp; NPO</fullName>
+                    <default>false</default>
+                    <label>NW Coverage &amp; Quality &amp; NPO</label>
+                </value>
+                <value>
+                    <fullName>WCDMA Voice Quality</fullName>
+                    <default>false</default>
+                    <label>WCDMA Voice Quality</label>
+                </value>
+                <value>
+                    <fullName>WBTS Capacity</fullName>
+                    <default>false</default>
+                    <label>WBTS Capacity</label>
+                </value>
+                <value>
+                    <fullName>RNC Capacity</fullName>
+                    <default>false</default>
+                    <label>RNC Capacity</label>
+                </value>
+                <value>
+                    <fullName>Coverage</fullName>
+                    <default>false</default>
+                    <label>Coverage</label>
+                </value>
+                <value>
+                    <fullName>Load Balancing &amp; Interworking</fullName>
+                    <default>false</default>
+                    <label>Load Balancing &amp; Interworking</label>
+                </value>
+                <value>
+                    <fullName>3G Core Benchmark – Network Overview</fullName>
+                    <default>false</default>
+                    <label>3G Core Benchmark – Network Overview</label>
+                </value>
+                <value>
+                    <fullName>MSS &amp; MGW Capacity</fullName>
+                    <default>false</default>
+                    <label>MSS &amp; MGW Capacity</label>
+                </value>
+                <value>
+                    <fullName>MSS &amp; MGW Performance</fullName>
+                    <default>false</default>
+                    <label>MSS &amp; MGW Performance</label>
+                </value>
+                <value>
+                    <fullName>3G Core Voice Quality</fullName>
+                    <default>false</default>
+                    <label>3G Core Voice Quality</label>
+                </value>
+                <value>
+                    <fullName>3G Core Service Enablers</fullName>
+                    <default>false</default>
+                    <label>3G Core Service Enablers</label>
+                </value>
+                <value>
+                    <fullName>IMS VoLTE Core Benchmark – Network Overview</fullName>
+                    <default>false</default>
+                    <label>IMS VoLTE Core Benchmark – Network Overview</label>
+                </value>
+                <value>
+                    <fullName>CFX-5000 &amp; TAS Capacity</fullName>
+                    <default>false</default>
+                    <label>CFX-5000 &amp; TAS Capacity</label>
+                </value>
+                <value>
+                    <fullName>CFX-5000 &amp; TAS Performance</fullName>
+                    <default>false</default>
+                    <label>CFX-5000 &amp; TAS Performance</label>
+                </value>
+                <value>
+                    <fullName>Voice Interworking Performance</fullName>
+                    <default>false</default>
+                    <label>Voice Interworking Performance</label>
+                </value>
+                <value>
+                    <fullName>IMS VoLTE Core Service Enablers</fullName>
+                    <default>false</default>
+                    <label>IMS VoLTE Core Service Enablers</label>
+                </value>
+                <value>
+                    <fullName>NT-HLR Capacity</fullName>
+                    <default>false</default>
+                    <label>NT-HLR Capacity</label>
+                </value>
+                <value>
+                    <fullName>HSS Capacity</fullName>
+                    <default>false</default>
+                    <label>HSS Capacity</label>
+                </value>
+                <value>
+                    <fullName>One-NDS Capacity</fullName>
+                    <default>false</default>
+                    <label>One-NDS Capacity</label>
+                </value>
+                <value>
+                    <fullName>LTE Air-interface DL</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>LTE Air-interface DL</label>
+                </value>
+                <value>
+                    <fullName>LTE Air-interface UL</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>LTE Air-interface UL</label>
+                </value>
+                <value>
+                    <fullName>LTE HW extension</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>LTE HW extension</label>
+                </value>
+                <value>
+                    <fullName>LTE Spectrum Use</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>LTE Spectrum Use</label>
+                </value>
+                <value>
+                    <fullName>NW Coverage &amp; Quality</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NW Coverage &amp; Quality</label>
+                </value>
+                <value>
+                    <fullName>VoLTE - Mobility</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>VoLTE - Mobility</label>
+                </value>
+                <value>
+                    <fullName>VoLTE - Quality</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>VoLTE - Quality</label>
+                </value>
+                <value>
+                    <fullName>VoLTE - Usage</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>VoLTE - Usage</label>
+                </value>
+                <value>
+                    <fullName>WBTS Capacity Analysis</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>WBTS Capacity Analysis</label>
+                </value>
+                <value>
+                    <fullName>WCDMA Air Interface DL</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>WCDMA Air Interface DL</label>
+                </value>
+                <value>
+                    <fullName>WCDMA Air Interface UL</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>WCDMA Air Interface UL</label>
+                </value>
+                <value>
+                    <fullName>WCDMA HW extension</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>WCDMA HW extension</label>
+                </value>
+                <value>
+                    <fullName>WCDMA LTE Load balancing</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>WCDMA LTE Load balancing</label>
+                </value>
+                <value>
+                    <fullName>WCDMA RNC Capacity Analysis</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>WCDMA RNC Capacity Analysis</label>
+                </value>
+                <value>
+                    <fullName>WCDMA UE Capabilities</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>WCDMA UE Capabilities</label>
+                </value>
+                <value>
+                    <fullName>WCDMA Voice Performance</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>WCDMA Voice Performance</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>WCDMA</controllingFieldValue>
+                <controllingFieldValue>TDD LTE</controllingFieldValue>
+                <controllingFieldValue>FDD LTE</controllingFieldValue>
+                <valueName>Energy Efficiency</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>WCDMA</controllingFieldValue>
+                <controllingFieldValue>TDD LTE</controllingFieldValue>
+                <controllingFieldValue>FDD LTE</controllingFieldValue>
+                <valueName>Air interface UL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>WCDMA</controllingFieldValue>
+                <controllingFieldValue>TDD LTE</controllingFieldValue>
+                <controllingFieldValue>FDD LTE</controllingFieldValue>
+                <valueName>Air interface DL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>WCDMA</controllingFieldValue>
+                <controllingFieldValue>TDD LTE</controllingFieldValue>
+                <controllingFieldValue>FDD LTE</controllingFieldValue>
+                <valueName>Transport / security</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>WCDMA</controllingFieldValue>
+                <controllingFieldValue>TDD LTE</controllingFieldValue>
+                <controllingFieldValue>FDD LTE</controllingFieldValue>
+                <valueName>Spectrum Use</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>WCDMA</controllingFieldValue>
+                <valueName>WCDMA Voice Quality</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>WCDMA</controllingFieldValue>
+                <valueName>WBTS Capacity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>WCDMA</controllingFieldValue>
+                <valueName>RNC Capacity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>WCDMA</controllingFieldValue>
+                <valueName>Coverage</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>WCDMA</controllingFieldValue>
+                <valueName>Load Balancing &amp; Interworking</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TDD LTE</controllingFieldValue>
+                <controllingFieldValue>FDD LTE</controllingFieldValue>
+                <valueName>eNB User Capacity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TDD LTE</controllingFieldValue>
+                <controllingFieldValue>FDD LTE</controllingFieldValue>
+                <valueName>Load Balancing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TDD LTE</controllingFieldValue>
+                <controllingFieldValue>FDD LTE</controllingFieldValue>
+                <valueName>VoLTE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TDD LTE</controllingFieldValue>
+                <controllingFieldValue>FDD LTE</controllingFieldValue>
+                <valueName>LTE Evolution</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TDD LTE</controllingFieldValue>
+                <controllingFieldValue>FDD LTE</controllingFieldValue>
+                <valueName>NW Coverage &amp; Quality &amp; NPO</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FDD LTE</controllingFieldValue>
+                <valueName>IoT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>3G Core</controllingFieldValue>
+                <valueName>3G Core Benchmark – Network Overview</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>3G Core</controllingFieldValue>
+                <valueName>MSS &amp; MGW Capacity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>3G Core</controllingFieldValue>
+                <valueName>MSS &amp; MGW Performance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>3G Core</controllingFieldValue>
+                <valueName>3G Core Voice Quality</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>3G Core</controllingFieldValue>
+                <valueName>3G Core Service Enablers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IMS VoLTE Core</controllingFieldValue>
+                <valueName>IMS VoLTE Core Benchmark – Network Overview</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IMS VoLTE Core</controllingFieldValue>
+                <valueName>CFX-5000 &amp; TAS Capacity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IMS VoLTE Core</controllingFieldValue>
+                <valueName>CFX-5000 &amp; TAS Performance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IMS VoLTE Core</controllingFieldValue>
+                <valueName>Voice Interworking Performance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IMS VoLTE Core</controllingFieldValue>
+                <valueName>IMS VoLTE Core Service Enablers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Nokia Registers</controllingFieldValue>
+                <valueName>NT-HLR Capacity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Nokia Registers</controllingFieldValue>
+                <valueName>HSS Capacity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Nokia Registers</controllingFieldValue>
+                <valueName>One-NDS Capacity</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <label>Supporting Material</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Technology_Txt__c</columns>
+        <columns>Use_Case_Txt__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>T-{0000}</displayFormat>
+        <label>File Upload Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Supporting Materials</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Technology_Txt__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Use_Case_Txt__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Technology_Txt__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Use_Case_Txt__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Technology_Txt__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Use_Case_Txt__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Technology_Txt__c</searchFilterFields>
+        <searchFilterFields>Use_Case_Txt__c</searchFilterFields>
+        <searchResultsAdditionalFields>Technology_Txt__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Use_Case_Txt__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>AM_and_PM_cant_create_CXM_SM</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(OR($Permission.SWX_CCRE_Account_manager = TRUE, $Permission.SWX_CCRE_Pricing_manager =TRUE),ISPICKVAL(Supporting_Material_Type__c , &apos;CXM&apos;))</errorConditionFormula>
+        <errorMessage>Account Manager and Pricing manager cannot create CXM Supporting Material</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>No_Use_Case_for_Network_overview</fullName>
+        <active>false</active>
+        <description>Cannot select Use case, if network overview checkbox is true</description>
+        <errorConditionFormula>AND(
+ ISPICKVAL( Document_Type__c , &apos;Network Overview&apos;) ,
+ NOT(TEXT(Use_Case__c) = Null)
+)</errorConditionFormula>
+        <errorMessage>Use case should be None for Network Overview</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PM_and_SM_cant_create_RMP_SM</fullName>
+        <active>true</active>
+        <description>Proposal Manager and Solution Manager cannot create RMP Supporting Material</description>
+        <errorConditionFormula>AND(OR( $Permission.SWX_CCRE_Proposal_Manager  = TRUE,  $Permission.SWX_CCRE_Solution_Manager  =TRUE),ISPICKVAL(Supporting_Material_Type__c , &apos;New Feature Release&apos;))</errorConditionFormula>
+        <errorMessage>Proposal Manager and Solution Manager cannot create RMP Supporting Material</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PO_and_FC_not_required_for_CXM</fullName>
+        <active>true</active>
+        <description>PO_and_FC_not_required_for_CXM</description>
+        <errorConditionFormula>AND( 
+ISPICKVAL(Supporting_Material_Type__c , &apos;CXM&apos;), 
+OR(Frame_Contract_Reference__c &lt;&gt; Null,Purchase_Order__c 
+&lt;&gt; Null) 
+)</errorConditionFormula>
+        <errorMessage>Agreement and Customer Purchase Order should not be populated for CXM Supporting Material</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PO_and_FC_required_for_contract_overview</fullName>
+        <active>true</active>
+        <description>PO_and_FC_required_for_contract_overview supporting material</description>
+        <errorConditionFormula>AND(
+ ISPICKVAL(Supporting_Material_Type__c , &apos;New Feature Release&apos;) ,
+ ISPICKVAL(Document_Type__c , &apos;Contract Overview&apos;),
+ OR(Frame_Contract_Reference__c = Null,Purchase_Order__c = Null) 
+)</errorConditionFormula>
+        <errorMessage>Agreement and Customer Purchase Order required for Contract Overview Supporting Material</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

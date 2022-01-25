@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Current_Year_Projected_Product_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>Current Year Projected Product Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Portfolio__c</fullName>
+        <externalId>false</externalId>
+        <label>Portfolio</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Airscale Wifi</fullName>
+                    <default>false</default>
+                    <label>Airscale Wifi</label>
+                </value>
+                <value>
+                    <fullName>Fixed Access - FBA</fullName>
+                    <default>false</default>
+                    <label>Fixed Access - FBA</label>
+                </value>
+                <value>
+                    <fullName>Fixed Access - POL</fullName>
+                    <default>false</default>
+                    <label>Fixed Access - POL</label>
+                </value>
+                <value>
+                    <fullName>IP Routing</fullName>
+                    <default>false</default>
+                    <label>IP Routing</label>
+                </value>
+                <value>
+                    <fullName>Microwave</fullName>
+                    <default>false</default>
+                    <label>Microwave</label>
+                </value>
+                <value>
+                    <fullName>Nuage</fullName>
+                    <default>false</default>
+                    <label>Nuage</label>
+                </value>
+                <value>
+                    <fullName>Optics</fullName>
+                    <default>false</default>
+                    <label>Optics</label>
+                </value>
+                <value>
+                    <fullName>Vital QIP</fullName>
+                    <default>false</default>
+                    <label>Vital QIP</label>
+                </value>
+                <value>
+                    <fullName>Vital Suite</fullName>
+                    <default>false</default>
+                    <label>Vital Suite</label>
+                </value>
+                <value>
+                    <fullName>Optics - WaveLite</fullName>
+                    <default>false</default>
+                    <label>Optics - WaveLite</label>
+                </value>
+                <value>
+                    <fullName>Applications Analytics</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Applications Analytics</label>
+                </value>
+                <value>
+                    <fullName>Fixed Networks</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Fixed Networks</label>
+                </value>
+                <value>
+                    <fullName>IP/Optical Networks</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>IP/Optical Networks</label>
+                </value>
+                <value>
+                    <fullName>Mobile Networks</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Mobile Networks</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Previous_Year_Product_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Fill out the annual product net revenue that Nokia recorded</inlineHelpText>
+        <label>Previous Year Product Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Reason_for_Override__c</fullName>
+        <externalId>false</externalId>
+        <label>Reason for Override</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accreditation Error</fullName>
+                    <default>false</default>
+                    <label>Accreditation Error</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Rebate_Status_Override__c</fullName>
+        <externalId>false</externalId>
+        <label>Rebate Status Override</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accepted</fullName>
+                    <default>false</default>
+                    <label>Accepted</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Rebate_Status__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Determines if the partner is accredited for the selected technology and is eligible for the rebate. If &apos;Rejected&apos;, Finance Team should not enter an amount.</inlineHelpText>
+        <label>Rebate Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accepted</fullName>
+                    <default>false</default>
+                    <label>Accepted</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Rebate__c</fullName>
+        <externalId>false</externalId>
+        <label>Rebate form</label>
+        <referenceTo>Rebate_form__c</referenceTo>
+        <relationshipName>Amounts</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <label>Rebate Amount</label>
+    <nameField>
+        <displayFormat>A-{0000}</displayFormat>
+        <label>Amount Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Rebate Amounts</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Reason_for_override_is_required</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(  NOT(ISPICKVAL( Rebate_Status_Override__c , &apos;&apos;))  ,  ISPICKVAL( Reason_for_Override__c , &apos;&apos;)  )</errorConditionFormula>
+        <errorMessage>Please enter Reason for Override</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Restrict_Amount_filling_when_Rejected</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(And (  ISPICKVAL(Rebate_Status__c , &apos;Rejected&apos;), NOT(ISPICKVAL( Rebate_Status_Override__c , &apos;Accepted&apos;) ) ,  Amount__c &gt; 0   ),
+And (  ISPICKVAL( Rebate_Status_Override__c , &apos;Rejected&apos;) ,  Amount__c &gt; 0   ))</errorConditionFormula>
+        <errorMessage>You are not allowed to enter an amount if the Rebate Status  is Rejected.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

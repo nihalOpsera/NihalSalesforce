@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>AgreementEndParallelByEmail</members>
+        <members>Approval Reply Service</members>
+        <members>ApprovalReplyService</members>
+        <members>ApproverComments</members>
+        <members>CH_CPA_PostToChatter</members>
+        <members>CH_EmailAttachmentHandler</members>
+        <members>EmailToCase</members>
+        <members>EmailToSalesforce</members>
+        <name>EmailServicesFunction</name>
+    </types>
+    <version>50.0</version>
+</Package>

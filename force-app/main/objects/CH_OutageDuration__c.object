@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>DisableSaveAndNew</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>LightningComponent</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This object is created for Case Handling</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>CH_AttributableParty__c</fullName>
+        <description>This field is created for Case Handling</description>
+        <externalId>false</externalId>
+        <label>Attributable Party</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Customer</fullName>
+                    <default>false</default>
+                    <label>Customer</label>
+                </value>
+                <value>
+                    <fullName>External</fullName>
+                    <default>false</default>
+                    <label>External</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Product</fullName>
+                    <default>false</default>
+                    <label>Product</label>
+                </value>
+                <value>
+                    <fullName>Service</fullName>
+                    <default>false</default>
+                    <label>Service</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_DurationClassification__c</fullName>
+        <externalId>false</externalId>
+        <label>Duration Classification</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Partial Service</fullName>
+                    <default>false</default>
+                    <label>Partial Service</label>
+                </value>
+                <value>
+                    <fullName>Total Service</fullName>
+                    <default>false</default>
+                    <label>Total Service</label>
+                </value>
+                <value>
+                    <fullName>Partial Functionality</fullName>
+                    <default>false</default>
+                    <label>Partial Functionality</label>
+                </value>
+                <value>
+                    <fullName>Total Functionality</fullName>
+                    <default>false</default>
+                    <label>Total Functionality</label>
+                </value>
+                <value>
+                    <fullName>Partial</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Partial</label>
+                </value>
+                <value>
+                    <fullName>Total</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Total</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_DurationEndDate__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Duration End Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CH_DurationStartDate__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Duration Start Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CH_ODR_Comment__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>ODR Comment</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CH_OutageContext__c</fullName>
+        <externalId>false</externalId>
+        <label>Outage Context</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Act of Nature</fullName>
+                    <default>false</default>
+                    <label>Act of Nature</label>
+                </value>
+                <value>
+                    <fullName>Configuration</fullName>
+                    <default>false</default>
+                    <label>Configuration</label>
+                </value>
+                <value>
+                    <fullName>Environmental/ Infrastructure Problem</fullName>
+                    <default>false</default>
+                    <label>Environmental/ Infrastructure Problem</label>
+                </value>
+                <value>
+                    <fullName>Eqpt Install-Extend-Removal</fullName>
+                    <default>false</default>
+                    <label>Eqpt Install-Extend-Removal</label>
+                </value>
+                <value>
+                    <fullName>FOA/NPI</fullName>
+                    <default>false</default>
+                    <label>FOA/NPI</label>
+                </value>
+                <value>
+                    <fullName>Hardware Upgrade</fullName>
+                    <default>false</default>
+                    <label>Hardware Upgrade</label>
+                </value>
+                <value>
+                    <fullName>Maintenance-Activity</fullName>
+                    <default>false</default>
+                    <label>Maintenance-Activity</label>
+                </value>
+                <value>
+                    <fullName>Network Element Integration</fullName>
+                    <default>false</default>
+                    <label>Network Element Integration</label>
+                </value>
+                <value>
+                    <fullName>Provisioning</fullName>
+                    <default>false</default>
+                    <label>Provisioning</label>
+                </value>
+                <value>
+                    <fullName>Scheduled Service Affecting window/activity</fullName>
+                    <default>false</default>
+                    <label>Scheduled Service Affecting window/activity</label>
+                </value>
+                <value>
+                    <fullName>Software Upgrade</fullName>
+                    <default>false</default>
+                    <label>Software Upgrade</label>
+                </value>
+                <value>
+                    <fullName>Stable Operation</fullName>
+                    <default>false</default>
+                    <label>Stable Operation</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_OutageDurationCause__c</fullName>
+        <description>This field is created for Case Handling</description>
+        <externalId>false</externalId>
+        <label>Outage Duration Cause</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Environmental</fullName>
+                    <default>false</default>
+                    <label>Environmental</label>
+                </value>
+                <value>
+                    <fullName>Excessive Travel Time</fullName>
+                    <default>false</default>
+                    <label>Excessive Travel Time</label>
+                </value>
+                <value>
+                    <fullName>External Power Failure</fullName>
+                    <default>false</default>
+                    <label>External Power Failure</label>
+                </value>
+                <value>
+                    <fullName>Fiber/Cable Cut</fullName>
+                    <default>false</default>
+                    <label>Fiber/Cable Cut</label>
+                </value>
+                <value>
+                    <fullName>Hardware</fullName>
+                    <default>false</default>
+                    <label>Hardware</label>
+                </value>
+                <value>
+                    <fullName>Hardware Design</fullName>
+                    <default>false</default>
+                    <label>Hardware Design</label>
+                </value>
+                <value>
+                    <fullName>Hardware Failure</fullName>
+                    <default>false</default>
+                    <label>Hardware Failure</label>
+                </value>
+                <value>
+                    <fullName>Late Escalation</fullName>
+                    <default>false</default>
+                    <label>Late Escalation</label>
+                </value>
+                <value>
+                    <fullName>Massive Line Outage</fullName>
+                    <default>false</default>
+                    <label>Massive Line Outage</label>
+                </value>
+                <value>
+                    <fullName>Natural Disaster</fullName>
+                    <default>false</default>
+                    <label>Natural Disaster</label>
+                </value>
+                <value>
+                    <fullName>Network</fullName>
+                    <default>false</default>
+                    <label>Network</label>
+                </value>
+                <value>
+                    <fullName>Overload/Capacity Exceeded</fullName>
+                    <default>false</default>
+                    <label>Overload/Capacity Exceeded</label>
+                </value>
+                <value>
+                    <fullName>Payload</fullName>
+                    <default>false</default>
+                    <label>Payload</label>
+                </value>
+                <value>
+                    <fullName>Policy</fullName>
+                    <default>false</default>
+                    <label>Policy</label>
+                </value>
+                <value>
+                    <fullName>Procedural</fullName>
+                    <default>false</default>
+                    <label>Procedural</label>
+                </value>
+                <value>
+                    <fullName>Procedural-Installation</fullName>
+                    <default>false</default>
+                    <label>Procedural-Installation</label>
+                </value>
+                <value>
+                    <fullName>Procedural-OAM+P</fullName>
+                    <default>false</default>
+                    <label>Procedural-OAM+P</label>
+                </value>
+                <value>
+                    <fullName>Product Documentation</fullName>
+                    <default>false</default>
+                    <label>Product Documentation</label>
+                </value>
+                <value>
+                    <fullName>Remote-Loss of Facilities</fullName>
+                    <default>false</default>
+                    <label>Remote-Loss of Facilities</label>
+                </value>
+                <value>
+                    <fullName>Sabotage</fullName>
+                    <default>false</default>
+                    <label>Sabotage</label>
+                </value>
+                <value>
+                    <fullName>Scheduled</fullName>
+                    <default>false</default>
+                    <label>Scheduled</label>
+                </value>
+                <value>
+                    <fullName>Software</fullName>
+                    <default>false</default>
+                    <label>Software</label>
+                </value>
+                <value>
+                    <fullName>Spare Availability</fullName>
+                    <default>false</default>
+                    <label>Spare Availability</label>
+                </value>
+                <value>
+                    <fullName>Under Investigation</fullName>
+                    <default>false</default>
+                    <label>Under Investigation</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+                <value>
+                    <fullName>Unkown/Insufficient Data</fullName>
+                    <default>false</default>
+                    <label>Unkown/Insufficient Data</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_OutageDurationStatus__c</fullName>
+        <description>This field is created for Case Handling</description>
+        <externalId>false</externalId>
+        <label>Outage Duration Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>true</default>
+                    <label>Active</label>
+                </value>
+                <value>
+                    <fullName>Archived</fullName>
+                    <default>false</default>
+                    <label>Archived</label>
+                </value>
+                <value>
+                    <fullName>Delete</fullName>
+                    <default>false</default>
+                    <label>Delete</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_OutageDuration__c</fullName>
+        <description>It is used to calculate the difference between duration end date and start date</description>
+        <externalId>false</externalId>
+        <formula>((CH_DurationEndDate__c - CH_DurationStartDate__c) * 86400 + SECOND(TIMEVALUE(CH_DurationStartDate__c)) - SECOND(TIMEVALUE(CH_DurationEndDate__c)))/60</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Outage Duration (Minutes)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_OutageImpact__c</fullName>
+        <externalId>false</externalId>
+        <label>Outage Impact</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>None</fullName>
+                    <default>true</default>
+                    <label>None</label>
+                </value>
+                <value>
+                    <fullName>Outage</fullName>
+                    <default>false</default>
+                    <label>Outage</label>
+                </value>
+                <value>
+                    <fullName>High Impact Outage</fullName>
+                    <default>false</default>
+                    <label>High Impact Outage</label>
+                </value>
+                <value>
+                    <fullName>Code Red</fullName>
+                    <default>false</default>
+                    <label>Code Red</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_OutageStartDate__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Outage Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CH_OutageTriggeredby__c</fullName>
+        <externalId>false</externalId>
+        <label>Outage Triggered by</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Product</fullName>
+                    <default>false</default>
+                    <label>Product</label>
+                </value>
+                <value>
+                    <fullName>Service</fullName>
+                    <default>false</default>
+                    <label>Service</label>
+                </value>
+                <value>
+                    <fullName>External</fullName>
+                    <default>false</default>
+                    <label>External</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Customer</fullName>
+                    <default>false</default>
+                    <label>Customer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_OutageUnits__c</fullName>
+        <description>This field is created for Case Handling</description>
+        <externalId>false</externalId>
+        <label>Outage Units</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Percentage</fullName>
+                    <default>false</default>
+                    <label>Percentage</label>
+                </value>
+                <value>
+                    <fullName>Terminations</fullName>
+                    <default>false</default>
+                    <label>Terminations</label>
+                </value>
+                <value>
+                    <fullName>Maximum Configurable Call Capacity</fullName>
+                    <default>false</default>
+                    <label>Maximum Configurable Call Capacity</label>
+                </value>
+                <value>
+                    <fullName>Subscriber</fullName>
+                    <default>false</default>
+                    <label>Subscriber</label>
+                </value>
+                <value>
+                    <fullName>DS1</fullName>
+                    <default>false</default>
+                    <label>DS1</label>
+                </value>
+                <value>
+                    <fullName>OC1</fullName>
+                    <default>false</default>
+                    <label>OC1</label>
+                </value>
+                <value>
+                    <fullName>Optical Channel</fullName>
+                    <default>false</default>
+                    <label>Optical Channel</label>
+                </value>
+                <value>
+                    <fullName>DSL</fullName>
+                    <default>false</default>
+                    <label>DSL</label>
+                </value>
+                <value>
+                    <fullName>Lines</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Lines</label>
+                </value>
+                <value>
+                    <fullName>OC-1</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>OC-1</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Systems</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Systems</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Outage_Units_ODR__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Outage Units</label>
+        <referenceTo>CH_ODRProductUnitsData__c</referenceTo>
+        <relationshipLabel>Outage Durations</relationshipLabel>
+        <relationshipName>Outage_Durations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_SupportTicket__c</fullName>
+        <description>This is created for Case Handling</description>
+        <externalId>false</externalId>
+        <label>Support Ticket</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Outage Durations</relationshipLabel>
+        <relationshipName>Outage_Durations</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>CH_UnitsAffected1__c</fullName>
+        <description>This field is created for Case Handling</description>
+        <externalId>false</externalId>
+        <label>Units Affected</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_UnitsTotal1__c</fullName>
+        <description>This field is created for Case Handling</description>
+        <externalId>false</externalId>
+        <label>Units Total</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ODR_Product_Units_Data__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>ODR Product Units Data</label>
+        <referenceTo>CH_ODRProductUnitsData__c</referenceTo>
+        <relationshipLabel>Outage Durations (ODR Product Units Data)</relationshipLabel>
+        <relationshipName>Outage_Durations1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Outage Duration</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>{00000000}</displayFormat>
+        <label>Outage Duration ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Outage Durations</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <fullName>CH_CheckODRUnitsAffectedTotalDuringEdit</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(
+					AND(CH_Outage_Units_ODR__r.Name=&quot;Percent Affected&quot;,
+						ISCHANGED(CH_UnitsTotal1__c),	
+						CH_UnitsTotal1__c&lt;&gt;100
+				   ),
+					AND(CH_Outage_Units_ODR__r.Name=&quot;Percent Affected&quot;,
+						ISCHANGED(CH_UnitsAffected1__c),
+						OR(CH_UnitsAffected1__c &gt; 100,
+						CH_UnitsAffected1__c &lt; 0)
+				    )
+	)</errorConditionFormula>
+        <errorMessage>If the field “Select a unit” is set to “Percent Affected” the field “Units Total” should be set to “100” and the field “Units Affected” should be set in the range 0-100</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_CheckOutageDurationCompliance</fullName>
+        <active>true</active>
+        <description>Checks if the sum of distinct ODRs and total outage duration on Case are equal
+ when start/end date on ODR is changed manually</description>
+        <errorConditionFormula>AND(
+OR(ISCHANGED(CH_DurationStartDate__c), ISCHANGED(CH_DurationEndDate__c )), 
+NOT(ISNEW()), 
+FLOOR(CH_SupportTicket__r.CH_TotalOutageDuration__c) != FLOOR(  CH_SupportTicket__r.Outage_Duration_Check__c),
+ISPICKVAL(CH_SupportTicket__r.CH_Stage__c,&apos;Close&apos;)
+)</errorConditionFormula>
+        <errorDisplayField>CH_AttributableParty__c</errorDisplayField>
+        <errorMessage>Total Outage duration on Case must equal outage duration coverage by distinct Outage Duration Records</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_ODRStartDateAfterEndDate</fullName>
+        <active>true</active>
+        <errorConditionFormula>CH_DurationStartDate__c  &gt;  CH_DurationEndDate__c</errorConditionFormula>
+        <errorDisplayField>CH_DurationEndDate__c</errorDisplayField>
+        <errorMessage>Duration Start Date cannot be after Duration End Date.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_ODRStartDateBeforeOutageStartDateCase</fullName>
+        <active>true</active>
+        <description>fires when the start date of an ODR is set before the actual Outage start date on the Case
+Old formula:
+
+CH_DurationStartDate__c  &lt;  CH_SupportTicket__r.CH_OutageStartDate__c</description>
+        <errorConditionFormula>AND(DAY(DATEVALUE(CH_DurationStartDate__c))&lt;=DAY(DATEVALUE(CH_SupportTicket__r.CH_OutageStartDate__c)), HOUR(TIMEVALUE(CH_DurationStartDate__c))&lt;=HOUR(TIMEVALUE(CH_SupportTicket__r.CH_OutageStartDate__c)), MINUTE(TIMEVALUE(CH_DurationStartDate__c)) &lt; MINUTE(TIMEVALUE(CH_SupportTicket__r.CH_OutageStartDate__c)))</errorConditionFormula>
+        <errorDisplayField>CH_OutageStartDate__c</errorDisplayField>
+        <errorMessage>Outage Start date on ODR cannot be before Outage Start date on Case</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_ODRStartOrEndDateInFuture</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(CH_DurationStartDate__c &gt; NOW(), CH_DurationEndDate__c &gt; NOW())</errorConditionFormula>
+        <errorMessage>Start- and Enddate cannot be in the future</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

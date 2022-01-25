@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Business_Group__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Select EEC or BG to see available demos and sessions need to be planned for the event. Those are planned in more detail level in sessions (related list under the track).</inlineHelpText>
+        <label>EEC / Business Group</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>EEC</fullName>
+                    <default>false</default>
+                    <label>EEC</label>
+                </value>
+                <value>
+                    <fullName>MN</fullName>
+                    <default>false</default>
+                    <label>MN</label>
+                </value>
+                <value>
+                    <fullName>FN</fullName>
+                    <default>false</default>
+                    <label>FN</label>
+                </value>
+                <value>
+                    <fullName>NSW</fullName>
+                    <default>false</default>
+                    <label>NSW</label>
+                </value>
+                <value>
+                    <fullName>Tech</fullName>
+                    <default>false</default>
+                    <label>Tech</label>
+                </value>
+                <value>
+                    <fullName>GS</fullName>
+                    <default>false</default>
+                    <label>GS</label>
+                </value>
+                <value>
+                    <fullName>ION</fullName>
+                    <default>false</default>
+                    <label>ION</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Event__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Event</label>
+        <referenceTo>Event__c</referenceTo>
+        <relationshipLabel>Tracks</relationshipLabel>
+        <relationshipName>Tracks</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Key_Takeaways__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Key Takeaways</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Publish_to_Web__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field can be used if you wish to build a web integration that will publish track info on your website.</description>
+        <externalId>false</externalId>
+        <label>Publish to Web?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Sessions_to_be_planned__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Select demos and sessions to be planned for the event. More detail level demo/session planning is done in session (related list under track). NOTE! Max 4 EEC demos per event.</inlineHelpText>
+        <label>Demos / Sessions to be planned</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <controllingField>Business_Group__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>MN demo 1</fullName>
+                    <default>false</default>
+                    <label>MN demo 1</label>
+                </value>
+                <value>
+                    <fullName>MN demo 2</fullName>
+                    <default>false</default>
+                    <label>MN demo 2</label>
+                </value>
+                <value>
+                    <fullName>MS demo 3</fullName>
+                    <default>false</default>
+                    <label>MS demo 3</label>
+                </value>
+                <value>
+                    <fullName>FN demo 1</fullName>
+                    <default>false</default>
+                    <label>FN demo 1</label>
+                </value>
+                <value>
+                    <fullName>FN demo 2</fullName>
+                    <default>false</default>
+                    <label>FN demo 2</label>
+                </value>
+                <value>
+                    <fullName>FS demo 3</fullName>
+                    <default>false</default>
+                    <label>FS demo 3</label>
+                </value>
+                <value>
+                    <fullName>GS demo 1</fullName>
+                    <default>false</default>
+                    <label>GS demo 1</label>
+                </value>
+                <value>
+                    <fullName>GS demo 2</fullName>
+                    <default>false</default>
+                    <label>GS demo 2</label>
+                </value>
+                <value>
+                    <fullName>GS demo 3</fullName>
+                    <default>false</default>
+                    <label>GS demo 3</label>
+                </value>
+                <value>
+                    <fullName>5G industrial automation / cooperative robots</fullName>
+                    <default>false</default>
+                    <label>5G industrial automation / cooperative robots</label>
+                </value>
+                <value>
+                    <fullName>5G massive connectivity</fullName>
+                    <default>false</default>
+                    <label>5G massive connectivity</label>
+                </value>
+                <value>
+                    <fullName>5G multi-connectivity</fullName>
+                    <default>false</default>
+                    <label>5G multi-connectivity</label>
+                </value>
+                <value>
+                    <fullName>5G network slicing</fullName>
+                    <default>false</default>
+                    <label>5G network slicing</label>
+                </value>
+                <value>
+                    <fullName>5G network operation</fullName>
+                    <default>false</default>
+                    <label>5G network operation</label>
+                </value>
+                <value>
+                    <fullName>5G VR live experience on AirScale</fullName>
+                    <default>false</default>
+                    <label>5G VR live experience on AirScale</label>
+                </value>
+                <value>
+                    <fullName>AirFrame Data Center Solution</fullName>
+                    <default>false</default>
+                    <label>AirFrame Data Center Solution</label>
+                </value>
+                <value>
+                    <fullName>AirSclale Radio Access</fullName>
+                    <default>false</default>
+                    <label>AirSclale Radio Access</label>
+                </value>
+                <value>
+                    <fullName>AirScale Wi-Fi</fullName>
+                    <default>false</default>
+                    <label>AirScale Wi-Fi</label>
+                </value>
+                <value>
+                    <fullName>CEM analytics for life</fullName>
+                    <default>false</default>
+                    <label>CEM analytics for life</label>
+                </value>
+                <value>
+                    <fullName>Cloud Packet Core</fullName>
+                    <default>false</default>
+                    <label>Cloud Packet Core</label>
+                </value>
+                <value>
+                    <fullName>CloudRAN</fullName>
+                    <default>false</default>
+                    <label>CloudRAN</label>
+                </value>
+                <value>
+                    <fullName>Cognitive Service Platform AVA</fullName>
+                    <default>false</default>
+                    <label>Cognitive Service Platform AVA</label>
+                </value>
+                <value>
+                    <fullName>Compact Network</fullName>
+                    <default>false</default>
+                    <label>Compact Network</label>
+                </value>
+                <value>
+                    <fullName>Contextual communications with IMS APIs</fullName>
+                    <default>false</default>
+                    <label>Contextual communications with IMS APIs</label>
+                </value>
+                <value>
+                    <fullName>Converged CEM</fullName>
+                    <default>false</default>
+                    <label>Converged CEM</label>
+                </value>
+                <value>
+                    <fullName>Core for IoT and Connectivity Management Platform</fullName>
+                    <default>false</default>
+                    <label>Core for IoT and Connectivity Management Platform</label>
+                </value>
+                <value>
+                    <fullName>Customer Experience Index CEI</fullName>
+                    <default>false</default>
+                    <label>Customer Experience Index CEI</label>
+                </value>
+                <value>
+                    <fullName>Data Center Services</fullName>
+                    <default>false</default>
+                    <label>Data Center Services</label>
+                </value>
+                <value>
+                    <fullName>Data Monetization Services</fullName>
+                    <default>false</default>
+                    <label>Data Monetization Services</label>
+                </value>
+                <value>
+                    <fullName>Dynamic Experience Management DEM</fullName>
+                    <default>false</default>
+                    <label>Dynamic Experience Management DEM</label>
+                </value>
+                <value>
+                    <fullName>Eden-NET SON</fullName>
+                    <default>false</default>
+                    <label>Eden-NET SON</label>
+                </value>
+                <value>
+                    <fullName>Evolved Service Operations Center eSOC</fullName>
+                    <default>false</default>
+                    <label>Evolved Service Operations Center eSOC</label>
+                </value>
+                <value>
+                    <fullName>FastMile (LTE to the home)</fullName>
+                    <default>false</default>
+                    <label>FastMile (LTE to the home)</label>
+                </value>
+                <value>
+                    <fullName>FlexiZone &amp; HetNet evolution</fullName>
+                    <default>false</default>
+                    <label>FlexiZone &amp; HetNet evolution</label>
+                </value>
+                <value>
+                    <fullName>IMPACT IoT Platform</fullName>
+                    <default>false</default>
+                    <label>IMPACT IoT Platform</label>
+                </value>
+                <value>
+                    <fullName>IoT community &amp; ecosystem</fullName>
+                    <default>false</default>
+                    <label>IoT community &amp; ecosystem</label>
+                </value>
+                <value>
+                    <fullName>IoT use case: Smart Home</fullName>
+                    <default>false</default>
+                    <label>IoT use case: Smart Home</label>
+                </value>
+                <value>
+                    <fullName>IoT use cases for smart city: Connected cars, smart parking, water leakage</fullName>
+                    <default>false</default>
+                    <label>IoT use cases for smart city: Connected cars, smart parking, water leakage</label>
+                </value>
+                <value>
+                    <fullName>Lean NFV Operations</fullName>
+                    <default>false</default>
+                    <label>Lean NFV Operations</label>
+                </value>
+                <value>
+                    <fullName>LTE Channel Aware Scheduler CAS</fullName>
+                    <default>false</default>
+                    <label>LTE Channel Aware Scheduler CAS</label>
+                </value>
+                <value>
+                    <fullName>LTE TD-FD Carrier Aggregation</fullName>
+                    <default>false</default>
+                    <label>LTE TD-FD Carrier Aggregation</label>
+                </value>
+                <value>
+                    <fullName>LTE TD-LTE Intelligent beamforming</fullName>
+                    <default>false</default>
+                    <label>LTE TD-LTE Intelligent beamforming</label>
+                </value>
+                <value>
+                    <fullName>Microwave capacity toolkit</fullName>
+                    <default>false</default>
+                    <label>Microwave capacity toolkit</label>
+                </value>
+                <value>
+                    <fullName>Multi-access Edge Computing</fullName>
+                    <default>false</default>
+                    <label>Multi-access Edge Computing</label>
+                </value>
+                <value>
+                    <fullName>MulteFire co-existence</fullName>
+                    <default>false</default>
+                    <label>MulteFire co-existence</label>
+                </value>
+                <value>
+                    <fullName>Multilayer cloud security</fullName>
+                    <default>false</default>
+                    <label>Multilayer cloud security</label>
+                </value>
+                <value>
+                    <fullName>NarrowBand-IoT</fullName>
+                    <default>false</default>
+                    <label>NarrowBand-IoT</label>
+                </value>
+                <value>
+                    <fullName>NetGuard security suite incl. IoT security</fullName>
+                    <default>false</default>
+                    <label>NetGuard security suite incl. IoT security</label>
+                </value>
+                <value>
+                    <fullName>Network desk for loyalty scores</fullName>
+                    <default>false</default>
+                    <label>Network desk for loyalty scores</label>
+                </value>
+                <value>
+                    <fullName>Network Function Virtualization NFV - IMS with Telco Cloud Management (CAM)</fullName>
+                    <default>false</default>
+                    <label>Network Function Virtualization NFV - IMS with Telco Cloud Management (CAM)</label>
+                </value>
+                <value>
+                    <fullName>Public Safety incl. IoT</fullName>
+                    <default>false</default>
+                    <label>Public Safety incl. IoT</label>
+                </value>
+                <value>
+                    <fullName>SDN for Enabling Responsive Mobile Transport</fullName>
+                    <default>false</default>
+                    <label>SDN for Enabling Responsive Mobile Transport</label>
+                </value>
+                <value>
+                    <fullName>Services for HetNet: Ease of small cells</fullName>
+                    <default>false</default>
+                    <label>Services for HetNet: Ease of small cells</label>
+                </value>
+                <value>
+                    <fullName>Services for HetNet: Geo-Data as a Service</fullName>
+                    <default>false</default>
+                    <label>Services for HetNet: Geo-Data as a Service</label>
+                </value>
+                <value>
+                    <fullName>Services for HetNet: Pop-Up Network</fullName>
+                    <default>false</default>
+                    <label>Services for HetNet: Pop-Up Network</label>
+                </value>
+                <value>
+                    <fullName>Shared Data Layer SDL</fullName>
+                    <default>false</default>
+                    <label>Shared Data Layer SDL</label>
+                </value>
+                <value>
+                    <fullName>Single RAN 3RAT System Module Sharing</fullName>
+                    <default>false</default>
+                    <label>Single RAN 3RAT System Module Sharing</label>
+                </value>
+                <value>
+                    <fullName>Single RAN Advanced</fullName>
+                    <default>false</default>
+                    <label>Single RAN Advanced</label>
+                </value>
+                <value>
+                    <fullName>Subscriber Data Management SDM</fullName>
+                    <default>false</default>
+                    <label>Subscriber Data Management SDM</label>
+                </value>
+                <value>
+                    <fullName>TD-LTE DL COMP</fullName>
+                    <default>false</default>
+                    <label>TD-LTE DL COMP</label>
+                </value>
+                <value>
+                    <fullName>Ultra Compact Network</fullName>
+                    <default>false</default>
+                    <label>Ultra Compact Network</label>
+                </value>
+                <value>
+                    <fullName>Voice over LTE VoLTE / SRVCC / VoWiFi</fullName>
+                    <default>false</default>
+                    <label>Voice over LTE VoLTE / SRVCC / VoWiFi</label>
+                </value>
+                <value>
+                    <fullName>Virtual Residential Gateway (vRGW)</fullName>
+                    <default>false</default>
+                    <label>Virtual Residential Gateway (vRGW)</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>5G industrial automation / cooperative robots</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>5G massive connectivity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>5G multi-connectivity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>5G network slicing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>5G network operation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>5G VR live experience on AirScale</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>AirFrame Data Center Solution</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>AirSclale Radio Access</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>AirScale Wi-Fi</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>CEM analytics for life</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Cloud Packet Core</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>CloudRAN</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Cognitive Service Platform AVA</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Compact Network</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Contextual communications with IMS APIs</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Converged CEM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Core for IoT and Connectivity Management Platform</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Customer Experience Index CEI</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Data Center Services</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Data Monetization Services</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Dynamic Experience Management DEM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Eden-NET SON</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Evolved Service Operations Center eSOC</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>FastMile (LTE to the home)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>FlexiZone &amp; HetNet evolution</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>IMPACT IoT Platform</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>IoT community &amp; ecosystem</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>IoT use case: Smart Home</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>IoT use cases for smart city: Connected cars, smart parking, water leakage</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Lean NFV Operations</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>LTE Channel Aware Scheduler CAS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>LTE TD-FD Carrier Aggregation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>LTE TD-LTE Intelligent beamforming</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Microwave capacity toolkit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Multi-access Edge Computing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>MulteFire co-existence</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Multilayer cloud security</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>NarrowBand-IoT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>NetGuard security suite incl. IoT security</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Network desk for loyalty scores</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Network Function Virtualization NFV - IMS with Telco Cloud Management (CAM)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Public Safety incl. IoT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>SDN for Enabling Responsive Mobile Transport</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Services for HetNet: Ease of small cells</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Services for HetNet: Geo-Data as a Service</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Services for HetNet: Pop-Up Network</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Shared Data Layer SDL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Single RAN 3RAT System Module Sharing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Single RAN Advanced</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Subscriber Data Management SDM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>TD-LTE DL COMP</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Ultra Compact Network</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Voice over LTE VoLTE / SRVCC / VoWiFi</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EEC</controllingFieldValue>
+                <valueName>Virtual Residential Gateway (vRGW)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MN</controllingFieldValue>
+                <valueName>MN demo 1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MN</controllingFieldValue>
+                <valueName>MN demo 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MN</controllingFieldValue>
+                <valueName>MS demo 3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FN</controllingFieldValue>
+                <valueName>FN demo 1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FN</controllingFieldValue>
+                <valueName>FN demo 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FN</controllingFieldValue>
+                <valueName>FS demo 3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>GS</controllingFieldValue>
+                <valueName>GS demo 1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>GS</controllingFieldValue>
+                <valueName>GS demo 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>GS</controllingFieldValue>
+                <valueName>GS demo 3</valueName>
+            </valueSettings>
+        </valueSet>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Track_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Track Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Category #1</fullName>
+                    <default>false</default>
+                    <label>Category #1</label>
+                </value>
+                <value>
+                    <fullName>Category #2</fullName>
+                    <default>false</default>
+                    <label>Category #2</label>
+                </value>
+                <value>
+                    <fullName>Category #3</fullName>
+                    <default>false</default>
+                    <label>Category #3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Track_Description__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Track Description</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>15</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Track_Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>This person is normally from Customer Engagement team. He/she drives needed actions to prepare presentation materials for agreed sessions.</inlineHelpText>
+        <label>Track Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Tracks</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Track_Status__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Draft - There is at least one session with &quot;Pending&quot;- status.
+Approved - All planned session approved.</inlineHelpText>
+        <label>Track Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>true</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>Ready for Approval</fullName>
+                    <default>false</default>
+                    <label>Ready for Approval</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Track_Website__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Track Website</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <label>Track</label>
+    <nameField>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Track Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Tracks</pluralLabel>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>Event__c</lookupDialogsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

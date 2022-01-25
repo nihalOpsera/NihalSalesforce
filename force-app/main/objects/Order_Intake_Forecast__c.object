@@ -1,0 +1,2587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>OIF_Record_page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>OIF_Record_page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Account_Name__c</fullName>
+        <description>Used this fields in report</description>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Account.Name</formula>
+        <label>Account Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Allocation_Clone__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Req::1439</description>
+        <externalId>false</externalId>
+        <label>Allocation Clone</label>
+        <referenceTo>Order_Intake_Forecast__c</referenceTo>
+        <relationshipLabel>Order Intake Forecast (Allocation Clone)</relationshipLabel>
+        <relationshipName>Order_Intake_Forecast1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Allocation_Line_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Req::1439</description>
+        <externalId>false</externalId>
+        <label>Allocation Line 1</label>
+        <referenceTo>Order_Intake_Forecast__c</referenceTo>
+        <relationshipLabel>Order Intake Forecast (Allocation Line 1)</relationshipLabel>
+        <relationshipName>Order_Intake_Forecast2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Allocation_Line_2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Req::1439</description>
+        <externalId>false</externalId>
+        <label>Allocation Line 2</label>
+        <referenceTo>Order_Intake_Forecast__c</referenceTo>
+        <relationshipLabel>Order Intake Forecast (Allocation Line 2)</relationshipLabel>
+        <relationshipName>Order_Intake_Forecast3</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Allocation_Line_3__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Req::1439</description>
+        <externalId>false</externalId>
+        <label>Allocation Line 3</label>
+        <referenceTo>Order_Intake_Forecast__c</referenceTo>
+        <relationshipLabel>Order Intake Forecast (Allocation Line 3)</relationshipLabel>
+        <relationshipName>Order_Intake_Forecast4</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Allocation_Sequence__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Req::1439</description>
+        <externalId>false</externalId>
+        <label>Allocation Sequence</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Allocation__c</fullName>
+        <description>Req::1439</description>
+        <externalId>false</externalId>
+        <formula>IF( NOT(ISBLANK(Cloned_From__c)), TRUE, FALSE)</formula>
+        <label>Allocation</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BusinessLine2__c</fullName>
+        <externalId>false</externalId>
+        <label>Business Line</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>5G</fullName>
+                    <default>false</default>
+                    <label>5G</label>
+                </value>
+                <value>
+                    <fullName>AMNS</fullName>
+                    <default>false</default>
+                    <label>AMNS</label>
+                </value>
+                <value>
+                    <fullName>AMS</fullName>
+                    <default>false</default>
+                    <label>AMS</label>
+                </value>
+                <value>
+                    <fullName>APPS</fullName>
+                    <default>false</default>
+                    <label>APPS</label>
+                </value>
+                <value>
+                    <fullName>BUAACARE</fullName>
+                    <default>false</default>
+                    <label>BUAACARE</label>
+                </value>
+                <value>
+                    <fullName>CCN</fullName>
+                    <default>false</default>
+                    <label>CCN</label>
+                </value>
+                <value>
+                    <fullName>CCNCARE</fullName>
+                    <default>false</default>
+                    <label>CCNCARE</label>
+                </value>
+                <value>
+                    <fullName>CLOUDRAN</fullName>
+                    <default>false</default>
+                    <label>CLOUDRAN</label>
+                </value>
+                <value>
+                    <fullName>CNSBSBL</fullName>
+                    <default>false</default>
+                    <label>CNSBSBL</label>
+                </value>
+                <value>
+                    <fullName>CNSBSSER</fullName>
+                    <default>false</default>
+                    <label>CNSBSSER</label>
+                </value>
+                <value>
+                    <fullName>CNSCEBL</fullName>
+                    <default>false</default>
+                    <label>CNSCEBL</label>
+                </value>
+                <value>
+                    <fullName>COPPERBU</fullName>
+                    <default>false</default>
+                    <label>COPPERBU</label>
+                </value>
+                <value>
+                    <fullName>DIGHOME</fullName>
+                    <default>false</default>
+                    <label>DIGHOME</label>
+                </value>
+                <value>
+                    <fullName>FIBERBU</fullName>
+                    <default>false</default>
+                    <label>FIBERBU</label>
+                </value>
+                <value>
+                    <fullName>FNCABLE</fullName>
+                    <default>false</default>
+                    <label>FNCABLE</label>
+                </value>
+                <value>
+                    <fullName>FNFWA</fullName>
+                    <default>false</default>
+                    <label>FNFWA</label>
+                </value>
+                <value>
+                    <fullName>FNSER</fullName>
+                    <default>false</default>
+                    <label>FNSER</label>
+                </value>
+                <value>
+                    <fullName>GSCARE</fullName>
+                    <default>false</default>
+                    <label>GSCARE</label>
+                </value>
+                <value>
+                    <fullName>GSMS</fullName>
+                    <default>false</default>
+                    <label>GSMS</label>
+                </value>
+                <value>
+                    <fullName>GSNI</fullName>
+                    <default>false</default>
+                    <label>GSNI</label>
+                </value>
+                <value>
+                    <fullName>GSNPO</fullName>
+                    <default>false</default>
+                    <label>GSNPO</label>
+                </value>
+                <value>
+                    <fullName>GSSI</fullName>
+                    <default>false</default>
+                    <label>GSSI</label>
+                </value>
+                <value>
+                    <fullName>GSSIV</fullName>
+                    <default>false</default>
+                    <label>GSSIV</label>
+                </value>
+                <value>
+                    <fullName>GSSNMBL</fullName>
+                    <default>false</default>
+                    <label>GSSNMBL</label>
+                </value>
+                <value>
+                    <fullName>HETRAN</fullName>
+                    <default>false</default>
+                    <label>HETRAN</label>
+                </value>
+                <value>
+                    <fullName>IONIPRTG</fullName>
+                    <default>false</default>
+                    <label>IONIPRTG</label>
+                </value>
+                <value>
+                    <fullName>IONOPTIC</fullName>
+                    <default>false</default>
+                    <label>IONOPTIC</label>
+                </value>
+                <value>
+                    <fullName>IPRSVCBU</fullName>
+                    <default>false</default>
+                    <label>IPRSVCBU</label>
+                </value>
+                <value>
+                    <fullName>LTEN</fullName>
+                    <default>false</default>
+                    <label>LTEN</label>
+                </value>
+                <value>
+                    <fullName>MN2G3G</fullName>
+                    <default>false</default>
+                    <label>MN2G3G</label>
+                </value>
+                <value>
+                    <fullName>MNPFTE</fullName>
+                    <default>false</default>
+                    <label>MNPFTE</label>
+                </value>
+                <value>
+                    <fullName>MNRANNM</fullName>
+                    <default>false</default>
+                    <label>MNRANNM</label>
+                </value>
+                <value>
+                    <fullName>NENSOL</fullName>
+                    <default>false</default>
+                    <label>NENSOL</label>
+                </value>
+                <value>
+                    <fullName>OPTSVCBU</fullName>
+                    <default>false</default>
+                    <label>OPTSVCBU</label>
+                </value>
+                <value>
+                    <fullName>SIOPBU</fullName>
+                    <default>false</default>
+                    <label>SIOPBU</label>
+                </value>
+                <value>
+                    <fullName>CNSCCSNF</fullName>
+                    <default>false</default>
+                    <label>CNSCCSNF</label>
+                </value>
+                <value>
+                    <fullName>CNSWAN</fullName>
+                    <default>false</default>
+                    <label>CNSWAN</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BusinessLine__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Its look up to Product (Req.152)</description>
+        <externalId>false</externalId>
+        <label>Product Line</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Product2.IsActive</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <filterItems>
+                <field>Product2.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Business Line</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Order Intake Forecast</relationshipLabel>
+        <relationshipName>Order_Intake_Forecast</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Business_Group__c</fullName>
+        <description>Automatically update as per the Business Line(Req.152)</description>
+        <externalId>false</externalId>
+        <label>Business Group</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>true</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Business_Group_Values</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Business_Unit__c</fullName>
+        <description>Automatically update as per the Business Line(Req.152)</description>
+        <externalId>false</externalId>
+        <label>Business Unit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Business_Unit_Value</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Business_line_Data__c</fullName>
+        <description>Used to get the Old information (Req::779)</description>
+        <externalId>false</externalId>
+        <formula>BusinessLine__r.Name</formula>
+        <label>Product Line Data</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Changes_on_relevant_fields__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Don&apos;t add to layout + read-only for all profiles except sys admin and tracking this field in reports(Req::779)</description>
+        <externalId>false</externalId>
+        <label>Changes on relevant fields</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Cloned_From__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Clone value from OIF line(Req::1439)</description>
+        <externalId>false</externalId>
+        <label>Cloned From</label>
+        <referenceTo>Order_Intake_Forecast__c</referenceTo>
+        <relationshipLabel>Order Intake Forecast</relationshipLabel>
+        <relationshipName>Order_Intake_Forecast</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Close_Date__c</fullName>
+        <description>Close Date will update as per the Opportunity Close Date, Read only permission for All Profiles (Req :136)</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>OIF Decision Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>true</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Competitor_Bypass__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+AND((MINUTE(TIMEVALUE(NOW()))-MINUTE(TIMEVALUE(CreatedDate))&lt;1),
+OR(
+Opportunity__r.Is_Auto_Upsell__c=True,
+!ISPICKVAL( Opportunity__r.Lead_Type__c ,&apos;&apos;)
+
+
+) ) ,True,
+
+IF(
+AND(
+ 
+!ISPICKVAL( Opportunity__r.Sales_Outcome__c ,&apos;Won&apos;),
+!ISPICKVAL( Opportunity__r.Sales_Outcome__c ,&apos;Won (Requested)&apos;),
+!ISPICKVAL( Opportunity__r.Sales_Outcome__c ,&apos;&apos;)
+) 
+,True,
+IF(
+AND(
+OR(
+Opportunity__r.Previous_Sales_Outcome__c&lt;&gt;&apos;Won&apos;,
+Opportunity__r.Previous_Sales_Outcome__c&lt;&gt;&apos;Won (Requested)&apos;
+),
+
+Update_Status__c=true
+
+
+),True,False
+
+)
+
+
+)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Competitor Bypass</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DQI_PREDICTIVE__c</fullName>
+        <description>Req#2655 : Calculates Data Quality OIF Value EUR</description>
+        <externalId>false</externalId>
+        <formula>if(OIF_Value_EUR__c &lt;&gt; 0, Data_Quality_OIF_Value_EUR_PREDICTIVE__c / OIF_Value_EUR__c, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DQI % PREDICTIVE</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>DQI_Percent__c</fullName>
+        <description>Req #2643 : &quot;Data Quality OIF Value EUR&quot; divided by OIF Value EUR</description>
+        <externalId>false</externalId>
+        <formula>if(OIF_Value_EUR__c  &lt;&gt; 0 ,Data_Quality_Unweighted_Value__c  /  OIF_Value_EUR__c,0)</formula>
+        <label>DQI %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>DQ_LastModifiedDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( ((TODAY()-(DATEVALUE( Opportunity__r.Last_User_Modified__c ))) &gt; 90), true, false)</formula>
+        <label>Data Quality Last Modified Date</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DQ_Last_Modified_Date_Only_Value_EUR__c</fullName>
+        <description>Req #2636 : Reflect &quot;OIF Value EUR&quot; if &quot;DQ_LastModifiedDate__c&quot; is true</description>
+        <externalId>false</externalId>
+        <formula>IF(DQ_Last_Modified_Date_Only_share_Percent__c = 1 , OIF_Value_EUR__c , 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DQ Last Modified Date Only Value EUR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DQ_Last_Modified_Date_Only_share_Percent__c</fullName>
+        <description>Req # 2644 : DQ Last Modified Date ONLY Value EUR divided by OIF Value EUR</description>
+        <externalId>false</externalId>
+        <formula>IF( 
+(Past_Due__c = false &amp;&amp; 
+DQ_LastModifiedDate__c = true &amp;&amp; 
+Opportunity__r.DQ_Plan_Date__c = false), 
+1 , 0)</formula>
+        <label>DQ Last Modified Date Only % share</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>DQ_Last_Modified_Past_Due_Percent__c</fullName>
+        <description>Req # 2648 : DQ Last Modified &amp; Past Due Value EUR divided by OIF Value EUR</description>
+        <externalId>false</externalId>
+        <formula>IF(
+   (Past_Due__c = true  &amp;&amp; 
+    DQ_LastModifiedDate__c = true &amp;&amp;  
+    Opportunity__r.DQ_Plan_Date__c = false), 
+1 , 0)</formula>
+        <label>DQ Last Modified &amp; Past Due %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>DQ_Last_Modified_Past_Due_Value_EUR__c</fullName>
+        <description>Req #2640 : Reflect &quot;OIF Value EUR&quot; if DQ_LastModifiedDate__c &amp;&amp; Past_Due__c are true</description>
+        <externalId>false</externalId>
+        <formula>IF(DQ_Last_Modified_Past_Due_Percent__c = 1 , OIF_Value_EUR__c , 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DQ Last Modified &amp; Past Due Value EUR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DQ_Last_Modified_Plan_Date_Past_Due_Perc__c</fullName>
+        <description>Req # 2650 : DQ Last Modified &amp; Plan Date &amp; Past Due Value EUR
+divided by OIF Value EUR</description>
+        <externalId>false</externalId>
+        <formula>IF(
+   (Past_Due__c = true  &amp;&amp; 
+    DQ_LastModifiedDate__c = true  &amp;&amp;  
+    Opportunity__r.DQ_Plan_Date__c = true  ), 
+1, 0)</formula>
+        <label>DQ LastModified &amp; Plan Date &amp; Past Due %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>DQ_Last_Modified_Plan_Date_Past_Due__c</fullName>
+        <description>Req #2642 : Reflect &quot;OIF Value EUR&quot; if DQ_LastModifiedDate__c &amp;&amp; Opportunities DQ_Plan_Date__c &amp;&amp; Past_Due__c are true</description>
+        <externalId>false</externalId>
+        <formula>IF(DQ_Last_Modified_Plan_Date_Past_Due_Perc__c = 1 , OIF_Value_EUR__c , 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DQ Last Modified &amp; Plan Date &amp; Past Due</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DQ_Last_Modified_Plan_Date_Percent__c</fullName>
+        <description>Req # 2647 : DQ Last Modified &amp; Plan Date Value EUR divided by OIF Value EUR</description>
+        <externalId>false</externalId>
+        <formula>IF( 
+(Past_Due__c = false &amp;&amp; 
+DQ_LastModifiedDate__c = true &amp;&amp; 
+Opportunity__r.DQ_Plan_Date__c = true), 
+1 , 0)</formula>
+        <label>DQ Last Modified &amp; Plan Date %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>DQ_Last_Modified_Plan_Date_Value_EUR__c</fullName>
+        <description>Req #2639 : Reflect &quot;OIF Value EUR&quot; if DQ_LastModifiedDate__c &amp;&amp; Opportunities DQ_Plan_Date__c are true</description>
+        <externalId>false</externalId>
+        <formula>IF(DQ_Last_Modified_Plan_Date_Percent__c = 1 , OIF_Value_EUR__c , 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DQ Last Modified &amp; Plan Date Value EUR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DQ_Past_Due_Only_Percent__c</fullName>
+        <description>Req # 2646 : DQ Past Due ONLY Value EUR divided by OIF Value EUR</description>
+        <externalId>false</externalId>
+        <formula>IF(
+   (Past_Due__c = true  &amp;&amp; 
+    DQ_LastModifiedDate__c = false  &amp;&amp;  
+    Opportunity__r.DQ_Plan_Date__c = false), 
+1, 0)</formula>
+        <label>DQ Past Due Only %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>DQ_Plan_Date_Only_Percent__c</fullName>
+        <description>Req # 2645 : DQ Plan Date Only Value EUR divided by OIF Value EUR</description>
+        <externalId>false</externalId>
+        <formula>IF(
+   (Past_Due__c = false &amp;&amp; 
+    DQ_LastModifiedDate__c = false  &amp;&amp;  
+    Opportunity__r.DQ_Plan_Date__c = true ), 
+1, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DQ Plan Date Only %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>DQ_Plan_Date_Only_Value_EUR__c</fullName>
+        <description>Req #2637 : Reflect &quot;OIF Value EUR&quot; if Opportunities &quot;DQ_Plan_Date__c&quot; is true</description>
+        <externalId>false</externalId>
+        <formula>IF(DQ_Plan_Date_Only_Percent__c = 1, OIF_Value_EUR__c , 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DQ Plan Date Only Value EUR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DQ_Plan_Date_Past_Due_Percent__c</fullName>
+        <description>Req # 2649 : DQ Plan Date &amp; Past Due Value EUR divided by OIF Value EUR</description>
+        <externalId>false</externalId>
+        <formula>IF(
+   (Past_Due__c = true  &amp;&amp; 
+    DQ_LastModifiedDate__c = false  &amp;&amp;  
+    Opportunity__r.DQ_Plan_Date__c = true ), 
+1, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DQ Plan Date &amp; Past Due %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>DQ_Plan_Date_Past_Due_Value_EUR__c</fullName>
+        <description>Req #2641 : Reflect &quot;OIF Value EUR&quot; if Opportunities DQ_Plan_Date__c and Past_Due are true</description>
+        <externalId>false</externalId>
+        <formula>IF(DQ_Plan_Date_Past_Due_Percent__c = 1 , OIF_Value_EUR__c , 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DQ Plan Date &amp; Past Due Value EUR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Info_PREDICTIVE__c</fullName>
+        <description>Req #3744 : Shows Data Quality Predictive Issues</description>
+        <externalId>false</externalId>
+        <formula>IF(Opportunity__r.Data_Quality_Plan_Date_PREDICTIVE__c, 
+   IF(Data_Quality_Past_Due_PREDICTIVE__c, 
+     IF(OR((TODAY()-(DATEVALUE(Opportunity__r.Last_User_Modified__c)))&gt;90, 
+(DATEVALUE($Label.Current_Period_End_Date) - DATEVALUE(Opportunity__r.Last_User_Modified__c)) &gt;= 90),&apos;All 3 DQI Predictive Issues&apos;, &apos;Past Gate &amp; Past Due Predictive&apos;), 
+    IF(OR((TODAY()-(DATEVALUE(Opportunity__r.Last_User_Modified__c)))&gt;90, 
+(DATEVALUE($Label.Current_Period_End_Date) - DATEVALUE(Opportunity__r.Last_User_Modified__c)) &gt;= 90),&apos;Past Gate &amp; Last Modified Predictive&apos;,&apos;Past Gate Predictive Only&apos;)
+	),
+	IF(Data_Quality_Past_Due_PREDICTIVE__c,
+	  IF(OR((TODAY()-(DATEVALUE(Opportunity__r.Last_User_Modified__c)))&gt;90, 
+(DATEVALUE($Label.Current_Period_End_Date) - DATEVALUE(Opportunity__r.Last_User_Modified__c)) &gt;= 90),&apos;Past Due &amp; Last Modified Predictive&apos;,&apos;Past Due Predictive Only&apos;),
+	  IF(OR((TODAY()-(DATEVALUE(Opportunity__r.Last_User_Modified__c)))&gt;90, 
+(DATEVALUE($Label.Current_Period_End_Date) - DATEVALUE(Opportunity__r.Last_User_Modified__c)) &gt;= 90),&apos;Last Modified Predictive Only&apos;,&apos;No DQ Predictive Issues&apos;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Data Quality Info PREDICTIVE</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Info__c</fullName>
+        <externalId>false</externalId>
+        <formula>BLANKVALUE(If(Opportunity__r.DQ_Plan_Date__c, 
+	If(Past_Due__c, 
+		IF(DQ_LastModifiedDate__c,&apos;All 3 DQIs&apos;, 
+			IF(!DQ_LastModifiedDate__c,&apos;Past Due &amp; Past Gate&apos;,&apos;&apos;)),
+				IF(DQ_LastModifiedDate__c,&apos;Past Gate &amp; Last Modified&apos;,
+					IF(!DQ_LastModifiedDate__c,&apos;Past Gate Only&apos;,&apos;&apos;))),
+						IF(Past_Due__c, IF(!DQ_LastModifiedDate__c,&apos;Past Due Only&apos;,
+							IF(DQ_LastModifiedDate__c,&apos;Past Due &amp; Last Modified&apos;,&apos;&apos;)),
+								IF(DQ_LastModifiedDate__c,&apos;Last Modified Only&apos;,&apos;&apos;))),&apos;No DQ Issue&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Data Quality Info</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Last_Modified_Date_PREDICTI__c</fullName>
+        <description>Req#2651: Data Quality last modified date issue for predictive analysis.</description>
+        <externalId>false</externalId>
+        <formula>OR( 
+DQ_LastModifiedDate__c, 
+(DATEVALUE($Label.Current_Period_End_Date) - DATEVALUE(Opportunity__r.Last_User_Modified__c)) &gt;= 90 
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DQ Last Modified Date PREDICTIVE</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_OIF_Value_EUR_PREDICTIVE__c</fullName>
+        <description>Req#2654 : Reflects the OIF Value EUR, if any of Data Quality Predictive fields have any issue.</description>
+        <externalId>false</externalId>
+        <formula>If( 
+((Opportunity__r.Data_Quality_Plan_Date_PREDICTIVE__c = True)|| 
+(Data_Quality_Past_Due_PREDICTIVE__c =True) || 
+(Data_Quality_Last_Modified_Date_PREDICTI__c =True)), 
+OIF_Value_EUR__c,0)</formula>
+        <label>Data Quality OIF Value EUR PREDICTIVE</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_OIF_Value_USD_PREDICTIVE__c</fullName>
+        <description>Req #3744 : Shows OIF&apos;s Data Quality Predictive Issues in USD</description>
+        <externalId>false</externalId>
+        <formula>If( 
+((Opportunity__r.Data_Quality_Plan_Date_PREDICTIVE__c = True)|| 
+(Data_Quality_Past_Due_PREDICTIVE__c =True) || 
+(Data_Quality_Last_Modified_Date_PREDICTI__c =True)), 
+OIF_Value_USD__c,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Data Quality OIF Value USD PREDICTIVE</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_OIF_Value_USD__c</fullName>
+        <description>Req #3744 : Shows OIF&apos;s Data Quality in USD currency</description>
+        <externalId>false</externalId>
+        <formula>If(
+((Opportunity__r.DQ_Plan_Date__c= True)|| (Past_Due__c=True) || (DQ_LastModifiedDate__c=True)),
+  OIF_Value_USD__c,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Data Quality OIF Value USD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Past_Due_PREDICTIVE__c</fullName>
+        <description>Req#2653: Data Quality past due issue for predictive analysis.</description>
+        <externalId>false</externalId>
+        <formula>OR( 
+ISPICKVAL( Forecast_Category__c , &quot;Risk&quot;), 
+ISPICKVAL( Forecast_Category__c, &quot;Upside&quot;), 
+ISPICKVAL( Forecast_Category__c, &quot;Secure&quot;), 
+ISPICKVAL( Forecast_Category__c, &quot;ROP&quot;), 
+ISPICKVAL( Forecast_Category__c, &quot;Excluded&quot;) 
+) 
+&amp;&amp; 
+( 
+Past_Due__c = True 
+|| 
+( 
+Today() &gt;= POPlanReceipt__r.Start_Date__c 
+&amp;&amp; 
+Today() &lt;= POPlanReceipt__r.End_Date__c 
+)= True)</formula>
+        <label>Data Quality Past Due PREDICTIVE</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Past_Due_Value_EUR__c</fullName>
+        <description>Changed as part of Req #2638 : Reflect &quot;OIF Value EUR&quot; if &quot;Past_Due__c&quot; is true and DQ LastModifiedDate and DQ Plan Date are false</description>
+        <externalId>false</externalId>
+        <formula>IF(DQ_Past_Due_Only_Percent__c = 1, OIF_Value_EUR__c  , 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DQ Past Due Only Value EUR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Unweighted_Value__c</fullName>
+        <description>Req #2657 : Change the label from&quot; Data Quality Unweighted Value EUR* to &quot;Data Quality OIF Value EUR&quot;
+#SF: 7759 : Changing formula type from currency to number</description>
+        <externalId>false</externalId>
+        <formula>If(
+((Opportunity__r.DQ_Plan_Date__c= True)|| (Past_Due__c=True) || (DQ_LastModifiedDate__c=True)),
+  OIF_Value_EUR__c,0)</formula>
+        <label>Data Quality OIF Value EUR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Exclude_Reason__c</fullName>
+        <description>Dependent pick list vales as per the Forecast category (Req::620)</description>
+        <externalId>false</externalId>
+        <label>Exclude Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Forecast_Category__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Multi-Country</fullName>
+                    <default>false</default>
+                    <label>Multi-Country</label>
+                </value>
+                <value>
+                    <fullName>Multi-Year</fullName>
+                    <default>false</default>
+                    <label>Multi-Year</label>
+                </value>
+                <value>
+                    <fullName>Frame Contract</fullName>
+                    <default>false</default>
+                    <label>Frame Contract</label>
+                </value>
+                <value>
+                    <fullName>Multi-Channel</fullName>
+                    <default>false</default>
+                    <label>Multi-Channel</label>
+                </value>
+                <value>
+                    <fullName>Offer Rqmt</fullName>
+                    <default>false</default>
+                    <label>Offer Rqmt</label>
+                </value>
+                <value>
+                    <fullName>Multi-Currency</fullName>
+                    <default>false</default>
+                    <label>Multi-Currency</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Excluded</controllingFieldValue>
+                <valueName>Multi-Country</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Excluded</controllingFieldValue>
+                <valueName>Multi-Year</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Excluded</controllingFieldValue>
+                <valueName>Frame Contract</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Excluded</controllingFieldValue>
+                <valueName>Multi-Channel</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Excluded</controllingFieldValue>
+                <valueName>Offer Rqmt</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Excluded</controllingFieldValue>
+                <valueName>Multi-Currency</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Excluded</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Forecast_Category__c</fullName>
+        <description>Select The Category ,its mandatory filed (Req:152)</description>
+        <externalId>false</externalId>
+        <label>Forecast Category</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>true</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Secure</fullName>
+                    <default>false</default>
+                    <label>Secure</label>
+                </value>
+                <value>
+                    <fullName>Risk</fullName>
+                    <default>false</default>
+                    <label>Risk</label>
+                </value>
+                <value>
+                    <fullName>Upside</fullName>
+                    <default>false</default>
+                    <label>Upside</label>
+                </value>
+                <value>
+                    <fullName>RoP</fullName>
+                    <default>true</default>
+                    <label>RoP</label>
+                </value>
+                <value>
+                    <fullName>Excluded</fullName>
+                    <default>false</default>
+                    <label>Excluded</label>
+                </value>
+                <value>
+                    <fullName>Booked</fullName>
+                    <default>false</default>
+                    <label>Booked</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Lost</fullName>
+                    <default>false</default>
+                    <label>Lost</label>
+                </value>
+                <value>
+                    <fullName>F Booked</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>F Booked</label>
+                </value>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Open</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>L4_Name__c</fullName>
+        <description>Used this filed in reports</description>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Account.L4Name__c</formula>
+        <label>L4 Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>L5_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Account.L5Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>L5 Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Last_Batch_Update_Period__c</fullName>
+        <description>Used to store id of the batch for monthly job run</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Last Batch Update(Period)</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Modified_by_Owner__c</fullName>
+        <description>That is checked, if changes to OIF line were made by Opportunity Owner, Sys Admin, Global Process Admin, SDC, Interface, Data Loader (Req::779)</description>
+        <externalId>false</externalId>
+        <formula>if(
+(OR(
+ (LastModifiedById= Opportunity__r.OwnerId),
+  (LastModifiedBy.Profile.Name  =  $Label.Data_Loader_Profile_Name),
+  ( LastModifiedBy.Profile.Name  = $Label.System_Admin_Profile ),
+  (LastModifiedBy.Profile.Name  = $Label.Integration_Profile ),
+  (LastModifiedBy.Profile.Name  = $Label.SDC_Profile_Name ),
+  (LastModifiedBy.Profile.Name  = $Label.Global_Process_Admin_Profile_Name)
+  )
+), 
+
+
+True,
+False
+
+
+)</formula>
+        <label>Modified by Owner</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>NFC_Start_Date__c</fullName>
+        <description>Req::950 Used this field in batch job</description>
+        <externalId>false</externalId>
+        <formula>POPlanReceipt__r.Start_Date__c</formula>
+        <label>NFC Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Non_SW_Value__c</fullName>
+        <description>Req::819 Non-SW Value: OIF Value - SW Value</description>
+        <externalId>false</externalId>
+        <formula>OIF_Value__c - SW_Value__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Non-SW Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Non_Software__c</fullName>
+        <description>calculated field, not shown on UI ,calc. = 1 - Software % (Req:152)</description>
+        <externalId>false</externalId>
+        <formula>1- Software__c</formula>
+        <label>Non-Software(%)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Notes__c</fullName>
+        <description>text field to give comments on line item(Req:152)</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Notes</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OIF_Last_User_Modified__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>OIF Last User Modified</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>OIF_Value_EUR__c</fullName>
+        <description>OIF Value EUR:: this field will update as per the OIF Value (Req:136)</description>
+        <externalId>false</externalId>
+        <label>OIF Value EUR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>true</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OIF_Value_USD__c</fullName>
+        <description>Convert the OIF value into USD Req#3124</description>
+        <externalId>false</externalId>
+        <label>OIF Value USD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OIF_Value_Weighted__c</fullName>
+        <description>Req::819 OIF Value Weighted=OIF Value * Opportunity Probability</description>
+        <externalId>false</externalId>
+        <formula>OIF_Value__c * Opportunity__r.Probability</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>OIF Value Weighted</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>OIF_Value__c</fullName>
+        <description>This is a Amount Filed (Req:152)</description>
+        <externalId>false</externalId>
+        <label>OIF Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>true</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Opportuity_Competitor_Count__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.NoOfCompetitor__c</formula>
+        <label>Opportuity Competitor Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <description>Its a Lookup to Opportunity to build a master detail relation(Req:151)</description>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Order Intake Forecast</relationshipLabel>
+        <relationshipName>Order_Intake_Forecast_del</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>true</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>POPlanReceipt__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Its related to Nokia Finance Calendar (Req.406)</description>
+        <externalId>false</externalId>
+        <label>PO Plan / Receipt</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Nokia_Financial_Calendar__c.Current_Future__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>Nokia_Financial_Calendar__c</referenceTo>
+        <relationshipLabel>Order Intake Forecast</relationshipLabel>
+        <relationshipName>Order_Intake_Forecast</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>true</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PO_Plan_Data__c</fullName>
+        <description>Store the PO Plan data(Req::779)</description>
+        <externalId>false</externalId>
+        <formula>POPlanReceipt__r.Name</formula>
+        <label>PO Plan Data</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Past_Due__c</fullName>
+        <description>if Forecast Category equals Risk, Upside, Secure OR RoP AND Period is in past (reference End Date of Nokia Financial Calendar record) = TRUE (Req:186)
+
+Req #2656 : Change the label from &quot;Past Due&quot; to &quot;Data Quality Past Due&quot;</description>
+        <externalId>false</externalId>
+        <formula>OR(
+ISPICKVAL( Forecast_Category__c  , &quot;Risk&quot;),
+ISPICKVAL( Forecast_Category__c, &quot;Upside&quot;),
+ISPICKVAL( Forecast_Category__c, &quot;Secure&quot;),
+ISPICKVAL( Forecast_Category__c, &quot;ROP&quot;), 
+ISPICKVAL( Forecast_Category__c, &quot;Excluded&quot;) 
+)
+&amp;&amp;
+(
+POPlanReceipt__r.End_Date__c &lt;= Today()
+)=True</formula>
+        <inlineHelpText>Indicates, if the OIF line is open but is assigned to a period in the past. If so, please update Forecast Category or Period</inlineHelpText>
+        <label>Data Quality Past Due</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Pre_G5_OLI__c</fullName>
+        <description>Req:: 2934 check the flag as per the G5 approval / plan dates</description>
+        <externalId>false</externalId>
+        <formula>IF( (ISBLANK( Opportunity__r.G5_Approval_Date__c)&amp;&amp; POPlanReceipt__r.End_Date__c&lt;Opportunity__r.G5_Planned_Date__c &amp;&amp; ( ISPICKVAL( Forecast_Category__c ,&apos;Secure&apos;) ||  ISPICKVAL(Forecast_Category__c,&apos;Risk&apos;) ||  ISPICKVAL(Forecast_Category__c ,&apos;Upside&apos;) || ISPICKVAL(Forecast_Category__c , &apos;RoP&apos;) ||  ISPICKVAL(Forecast_Category__c , &apos;Excluded&apos;)  ) ),TRUE,
+(
+
+IF( (!ISBLANK( Opportunity__r.G5_Approval_Date__c)&amp;&amp; POPlanReceipt__r.End_Date__c&lt; DATEVALUE(Opportunity__r.G5_Approval_Date__c) &amp;&amp; ( ISPICKVAL( Forecast_Category__c ,&apos;Secure&apos;) ||  ISPICKVAL(Forecast_Category__c,&apos;Risk&apos;) ||  ISPICKVAL(Forecast_Category__c ,&apos;Upside&apos;) || ISPICKVAL(Forecast_Category__c , &apos;RoP&apos;) ||  ISPICKVAL(Forecast_Category__c , &apos;Excluded&apos;)  )  ),TRUE,False
+)
+
+)
+ 
+
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Pre-G5 OLI</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Previous_Business_Line__c</fullName>
+        <description>Track this field in report (Req::779)</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Previous Product Line</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Previous_Forecast_Category__c</fullName>
+        <description>Track this field in Report (Req::779)</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Previous Forecast Category</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Previous_OIF_Value__c</fullName>
+        <description>This field will be used in reports (Req::779)</description>
+        <externalId>false</externalId>
+        <label>Previous OIF Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Previous_PO_Plan_Receipt__c</fullName>
+        <description>track this filed in Report (Req:779)</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Previous PO Plan / Receipt</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Previous_Software__c</fullName>
+        <description>This field will used in report (779)</description>
+        <externalId>false</externalId>
+        <label>Previous Software(%)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Product_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>BusinessLine__r.Description</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quarter_Name__c</fullName>
+        <description>Used this filed in Quater</description>
+        <externalId>false</externalId>
+        <formula>POPlanReceipt__r.Quarter_Name__c</formula>
+        <label>Quarter Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Related_Sales_Outcome__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Related Sales Outcome</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rev_RecPlan_Receipt__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This Field is required by the business on OIF Object to be called: &quot;Rev Rec Plan&quot;. (Req::885)</description>
+        <externalId>false</externalId>
+        <label>Rev Rec Plan (NAM Only)</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Nokia_Financial_Calendar__c.Current_Future__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>Nokia_Financial_Calendar__c</referenceTo>
+        <relationshipLabel>Order Intake Forecast (Rev Rec Plan / Receipt)</relationshipLabel>
+        <relationshipName>Order_Intake_Forecast1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SW_Value__c</fullName>
+        <description>Req::819 SW Value: OIF Value * SW%</description>
+        <externalId>false</externalId>
+        <formula>OIF_Value__c * Software__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SW Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Software__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>(input field, 0 - 100%, default 0%, only integer values) (Req:152)</description>
+        <externalId>false</externalId>
+        <label>Software(%)</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Total_BL_Allocation__c</fullName>
+        <externalId>false</externalId>
+        <formula>BusinessLine__r.Total_Allocation__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total PL Allocation</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Total_Decided_OIF_Value__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+  AND(
+     ISPICKVAL(Opportunity__r.Sales_Outcome__c,&apos;Won&apos;),
+     OR(
+       ISPICKVAL(Forecast_Category__c,&apos;Booked&apos;),
+       ISPICKVAL(Forecast_Category__c,&apos;Secure&apos;),
+       ISPICKVAL(Forecast_Category__c,&apos;Risk&apos;),
+       ISPICKVAL(Forecast_Category__c,&apos;Upside&apos;),
+       ISPICKVAL(Forecast_Category__c,&apos;RoP&apos;)
+     )
+  ), 
+  OIF_Value_EUR__c,
+  IF(
+    OR(
+      ISPICKVAL(Opportunity__r.Sales_Outcome__c,&apos;Cancelled by Customer&apos;),
+      ISPICKVAL(Opportunity__r.Sales_Outcome__c,&apos;Withdrawn by Nokia&apos;),
+      ISPICKVAL(Opportunity__r.Sales_Outcome__c,&apos;Lost to Competitor&apos;)
+    ),
+  OIF_Value_EUR__c ,0
+  )
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Decided OIF Value EUR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Won_OIF_VALUE__c</fullName>
+        <externalId>false</externalId>
+        <formula>If ( 
+AND( (ISPICKVAL( Opportunity__r.Sales_Outcome__c,&apos;Won&apos;)), 
+( 
+OR( 
+ISPICKVAL( Forecast_Category__c,&apos;Booked&apos;), 
+ISPICKVAL( Forecast_Category__c,&apos;Secure&apos;), 
+ISPICKVAL( Forecast_Category__c,&apos;Risk&apos;), 
+ISPICKVAL( Forecast_Category__c,&apos;Upside&apos;), 
+ISPICKVAL( Forecast_Category__c,&apos;RoP&apos;) 
+
+
+
+) 
+
+) 
+
+
+), 
+OIF_Value_EUR__c ,0 
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Won OIF Value EUR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Update_Status__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Req::1439</description>
+        <externalId>false</externalId>
+        <label>Update Status</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <label>Order Intake Forecast</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Opportunity__c</columns>
+        <columns>Business_Group__c</columns>
+        <columns>BusinessLine__c</columns>
+        <columns>Software__c</columns>
+        <columns>Forecast_Category__c</columns>
+        <columns>OIF_Value__c</columns>
+        <columns>POPlanReceipt__c</columns>
+        <columns>Past_Due__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Quick_OIF_updater</fullName>
+        <columns>Account_Name__c</columns>
+        <columns>Opportunity__c</columns>
+        <columns>BusinessLine__c</columns>
+        <columns>Software__c</columns>
+        <columns>Forecast_Category__c</columns>
+        <columns>OIF_Value__c</columns>
+        <columns>POPlanReceipt__c</columns>
+        <columns>Notes__c</columns>
+        <columns>Business_Group__c</columns>
+        <columns>CURRENCY_ISO_CODE</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Order_Intake_Forecast__c.OIF_Open</value>
+        </filters>
+        <filters>
+            <field>Opportunity__c</field>
+            <operation>equals</operation>
+            <value>700 MHZ</value>
+        </filters>
+        <filters>
+            <field>Account_Name__c</field>
+            <operation>contains</operation>
+            <value>ALTAN</value>
+        </filters>
+        <label>Quick OIF updater</label>
+    </listViews>
+    <listViews>
+        <fullName>Telefonica_Moviles_CL_OIF</fullName>
+        <columns>NAME</columns>
+        <columns>Opportunity__c</columns>
+        <columns>Business_Group__c</columns>
+        <columns>BusinessLine__c</columns>
+        <columns>Forecast_Category__c</columns>
+        <columns>POPlanReceipt__c</columns>
+        <columns>OIF_Value__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Account_Name__c</field>
+            <operation>contains</operation>
+            <value>Telefónica Móviles Chile</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Order_Intake_Forecast__c.OIF_Open</value>
+        </filters>
+        <label>Telefonica Moviles CL OIF</label>
+    </listViews>
+    <nameField>
+        <displayFormat>OIF-{0000}</displayFormat>
+        <label>Order Intake Forecast Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Order Intake Forecast</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>OIF_Closed</fullName>
+        <active>true</active>
+        <label>OIF Closed</label>
+        <picklistValues>
+            <picklist>BusinessLine2__c</picklist>
+            <values>
+                <fullName>5G</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AMNS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>APPS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BUAACARE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CCN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CCNCARE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLOUDRAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CNSBSBL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CNSBSSER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CNSCCSNF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CNSCEBL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CNSWAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>COPPERBU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DIGHOME</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FIBERBU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FNCABLE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FNFWA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FNSER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GSCARE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GSMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GSNI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GSNPO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GSSI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GSSIV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GSSNMBL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HETRAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IONIPRTG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IONOPTIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IPRSVCBU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LTEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MN2G3G</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MNPFTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MNRANNM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NENSOL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OPTSVCBU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SIOPBU</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Business_Group__c</picklist>
+            <values>
+                <fullName>CNS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NI</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Business_Unit__c</picklist>
+            <values>
+                <fullName>CNSBS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CNSCMO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CNSCORE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IPRTG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MNMWCSN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MNRAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OPTICS</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Exclude_Reason__c</picklist>
+            <values>
+                <fullName>Frame Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Multi-Channel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Multi-Country</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Multi-Currency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Multi-Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Offer Rqmt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Forecast_Category__c</picklist>
+            <values>
+                <fullName>Booked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Excluded</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Risk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RoP</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Secure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upside</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>OIF_Open</fullName>
+        <active>true</active>
+        <label>OIF Open</label>
+        <picklistValues>
+            <picklist>BusinessLine2__c</picklist>
+            <values>
+                <fullName>5G</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AMNS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>APPS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BUAACARE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CCN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CCNCARE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLOUDRAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CNSBSBL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CNSBSSER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CNSCCSNF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CNSCEBL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CNSWAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>COPPERBU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DIGHOME</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FIBERBU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FNCABLE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FNFWA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FNSER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GSCARE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GSMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GSNI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GSNPO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GSSI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GSSIV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GSSNMBL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HETRAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IONIPRTG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IONOPTIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IPRSVCBU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LTEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MN2G3G</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MNPFTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MNRANNM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NENSOL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OPTSVCBU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SIOPBU</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Business_Group__c</picklist>
+            <values>
+                <fullName>CNS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NI</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Business_Unit__c</picklist>
+            <values>
+                <fullName>CNSBS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CNSCMO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CNSCORE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IPRTG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MNMWCSN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MNRAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OPTICS</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Exclude_Reason__c</picklist>
+            <values>
+                <fullName>Frame Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Multi-Channel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Multi-Country</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Multi-Currency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Multi-Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Offer Rqmt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Forecast_Category__c</picklist>
+            <values>
+                <fullName>Booked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Excluded</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Risk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RoP</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Secure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upside</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Opportunity__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>BusinessLine__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Forecast_Category__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OIF_Value__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>POPlanReceipt__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Opportunity__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>BusinessLine__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Forecast_Category__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OIF_Value__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>POPlanReceipt__c</lookupDialogsAdditionalFields>
+        <lookupFilterFields>Business_Group__c</lookupFilterFields>
+        <lookupFilterFields>Business_Unit__c</lookupFilterFields>
+        <lookupPhoneDialogsAdditionalFields>BusinessLine__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>Forecast_Category__c</searchFilterFields>
+        <searchFilterFields>Business_Group__c</searchFilterFields>
+        <searchFilterFields>Business_Unit__c</searchFilterFields>
+        <searchResultsAdditionalFields>Opportunity__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>BusinessLine__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Forecast_Category__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OIF_Value__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>POPlanReceipt__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Avoid_Changing_Opportunity</fullName>
+        <active>true</active>
+        <description>User should not be able to change the Opportunity on the OIF line.(Req:768)</description>
+        <errorConditionFormula>OR(
+
+AND(
+ISCHANGED(Opportunity__c),
+OR(
+($Profile.Name &lt;&gt; $Label.Data_Loader_Profile_Name),
+ ($Profile.Name &lt;&gt; $Label.System_Admin_Profile),
+( $Profile.Name &lt;&gt; $Label.Integration_Profile )
+)  
+),
+(
+AND(
+ISNEW(),
+ISCHANGED(Opportunity__c),
+OR(
+($Profile.Name &lt;&gt; $Label.Data_Loader_Profile_Name),
+($Profile.Name &lt;&gt; $Label.System_Admin_Profile),
+( $Profile.Name &lt;&gt; $Label.Integration_Profile )   
+)
+)
+)
+
+)</errorConditionFormula>
+        <errorMessage>User Can&apos;t Change Opportunity</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Avoid_Creating_OIF_on_PSRO</fullName>
+        <active>true</active>
+        <description>Avoid_Creating_OIF_on_PSRO (SF ticket :: 8510, 25/12/2017)</description>
+        <errorConditionFormula>AND( 
+ISNEW(), 
+$Profile.Name &lt;&gt; $Label.Data_Loader_Profile_Name , 
+OR( 
+Opportunity__r.RecordType.DeveloperName = &apos;Pre_Sales_Risk_Opportunity&apos; , 
+Opportunity__r.RecordType.DeveloperName =&apos;Pre_Sales_Risk_Opportunity_read_only&apos; 
+) 
+
+)</errorConditionFormula>
+        <errorMessage>Can&apos;t Create the OIF on Pre-sales Opportunity.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Avoid_selecting_the_allocated_BL_Line</fullName>
+        <active>true</active>
+        <description>Req::2308 if user  trying to create /update the line with allocation product then display the error message</description>
+        <errorConditionFormula>AND(
+
+  BusinessLine__r.Allocation_Only__c=TRUE,
+  $Profile.Name &lt;&gt; $Label.Data_Loader_Profile_Name 
+
+)</errorConditionFormula>
+        <errorMessage>You cannot create OIF Lines for allocation only Business Lines</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Choose_Past_Periods</fullName>
+        <active>true</active>
+        <description>Forecast Categories (Upside, Risk, Secure, RoP) cannot have Periods selected which end date is in the past(Req:186).06-10-2017 AJ: Req.#2897, Added bypass in Validation to allow old period OIF line creation for Upsell Opportunity at G5 gate confirmation.</description>
+        <errorConditionFormula>AND( 
+$Profile.Name&lt;&gt; $Label.Data_Loader_Profile_Name, 
+OR(AND(ISNEW(), Opportunity__r.Is_Auto_Upsell__c &lt;&gt; true),ISCHANGED(Forecast_Category__c), ISCHANGED( POPlanReceipt__c)), 
+OR(ISPICKVAL( Forecast_Category__c , &quot;Risk&quot;),ISPICKVAL( Forecast_Category__c, &quot;Upside&quot;),ISPICKVAL( Forecast_Category__c, &quot;Secure&quot;), ISPICKVAL( Forecast_Category__c, &quot;ROP&quot;), ISPICKVAL( Forecast_Category__c, &quot;Excluded&quot;)), 
+POPlanReceipt__r.End_Date__c &lt; Today(), 
+Allocation__c = false 
+)</errorConditionFormula>
+        <errorDisplayField>POPlanReceipt__c</errorDisplayField>
+        <errorMessage>An open OIF line cannot have a past PO Plan / Receipt period. Please change period or Forecast Category.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Compare_the_Rev_Rec_Plan_and_Po_Plan</fullName>
+        <active>true</active>
+        <description>That makes sure, that Rev Rec Plan / Receipt period is greater or equal PO Plan / Receipt period (Req::885)</description>
+        <errorConditionFormula>AND( 
+( $Profile.Name&lt;&gt; $Label.Data_Loader_Profile_Name ), 
+(Rev_RecPlan_Receipt__r.Start_Date__c &lt; POPlanReceipt__r.Start_Date__c), 
+(Rev_RecPlan_Receipt__r.End_Date__c &lt; POPlanReceipt__r.End_Date__c), 
+Allocation__c = false 
+)</errorConditionFormula>
+        <errorDisplayField>Rev_RecPlan_Receipt__c</errorDisplayField>
+        <errorMessage>Revenue Recognition period cannot be earlier than the PO period.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Do_not_update_OIF</fullName>
+        <active>false</active>
+        <description>CRM-created.   To be temporarily activated during Product Hierarchy updates of Annual Plan deployments when users are allowed in the system but should have read-only access to OIFs.</description>
+        <errorConditionFormula>AND($Profile.Name &lt;&gt; $Label.Data_Loader_Profile_Name,
+OR(ISCHANGED(Opportunity__c),ISCHANGED(Business_Group__c) ,ISCHANGED(BusinessLine2__c),ISCHANGED(Business_Unit__c) ,ISCHANGED(BusinessLine__c),ISCHANGED( Forecast_Category__c ), ISCHANGED( OIF_Value__c ) ))</errorConditionFormula>
+        <errorMessage>OIFs cannot be edited at this time due to ongoing changes to the product hierarchy.  Notification will be sent when editing is permissible.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>No_Chnages_of_Allocation_Line</fullName>
+        <active>true</active>
+        <description>Req::1439 If user trying to change the allocation lines then display waring</description>
+        <errorConditionFormula>AND(
+ Allocation__c=TRUE,
+ Update_Status__c=False, 
+$Profile.Name &lt;&gt; $Label.Data_Loader_Profile_Name ,
+
+( 
+OR(
+ISCHANGED( BusinessLine__c ), 
+ISCHANGED( Forecast_Category__c ),
+ISCHANGED( OIF_Value__c ), 
+ISCHANGED( Software__c ) ,
+ISCHANGED( POPlanReceipt__c ),
+ISCHANGED( Exclude_Reason__c ),
+ISCHANGED( Notes__c ),
+ISCHANGED( Rev_RecPlan_Receipt__c )
+
+) 
+
+)
+
+
+
+
+)</errorConditionFormula>
+        <errorMessage>You are not allowed to change automatic created allocation lines.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>No_OIF_line_Creates_on_ClosedOpportunity</fullName>
+        <active>true</active>
+        <description>OIF that does not allow to create new OIF lines, if related Opportunity is in Sales Phase &apos;Completed&apos; OR in Sales Outcome &apos;Cancelled&apos;, &apos;Withdrawn&apos;, &apos;Obsolete&apos; or &apos;Lost&apos;. Do the changes within hypercare phase(Defect::D-1098)</description>
+        <errorConditionFormula>AND 
+( 
+ISNEW(), 
+OR( 
+AND(
+ISPICKVAL( Opportunity__r.StageName ,&apos;Completed&apos;),
+ISNUll(Opportunity__r.Days_until_Closing__c)
+),
+ 
+ISPICKVAL( Opportunity__r.StageName,&apos;Closed - Cancelled by Customer&apos;), 
+ISPICKVAL(Opportunity__r.StageName,&apos;Closed - Lost to Competitor&apos;), 
+ISPICKVAL(Opportunity__r.StageName,&apos;Closed - Withdrawn by Nokia&apos;), 
+ISPICKVAL(Opportunity__r.StageName,&apos;Closed – Obsolete&apos;) 
+
+
+), 
+( $Profile.Name&lt;&gt; $Label.Data_Loader_Profile_Name ) 
+)</errorConditionFormula>
+        <errorMessage>You cannot create new OIF lines for closed Opportunties.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Opportunity_Competitor_Check</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(
+$Profile.Name&lt;&gt;$Label.Data_Loader_Profile_Name,
+   ( Opportunity__r.Unweighted_Amount_EUR__c &gt;=VALUE($Label.OpportunityThreshouldValue)),
+ Opportunity__r.NoOfCompetitor__c&lt;1,
+OR(
+ Opportunity__r.RecordType.DeveloperName = &apos;Direct_Record_Type&apos;,
+Opportunity__r.RecordType.DeveloperName = &apos;Indirect_Record_Type&apos;
+)
+
+)</errorConditionFormula>
+        <errorMessage>Request You to add at least one competitor to this Opportunity</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Opportunity_Mandatory_Fields_Check</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(AND(
+($Profile.Name &lt;&gt; $Label.Data_Loader_Profile_Name),
+($Profile.Name &lt;&gt; $Label.System_Admin_Profile),
+( $Profile.Name &lt;&gt; $Label.Integration_Profile )
+) ,ISBLANK(TEXT(Opportunity__r.Contract_Signing_Entity__c)))</errorConditionFormula>
+        <errorMessage>Opportunity mandatory fields must be populated</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Rev_Rec_Plan_Mandatory_for_NAM_Oppty</fullName>
+        <active>true</active>
+        <description>OIF that does not allow saving an OIF line with empty Rev Rec Plan if Account related to the Opportunity does contain &apos;North America&apos;.(Req:1440)</description>
+        <errorConditionFormula>AND( 
+(CONTAINS( Opportunity__r.Account.L4Name__c , &apos;North America&apos;)),
+ ISBLANK( Rev_RecPlan_Receipt__c ),
+ ($Profile.Name &lt;&gt; $Label.Data_Loader_Profile_Name ) 
+
+)</errorConditionFormula>
+        <errorDisplayField>Rev_RecPlan_Receipt__c</errorDisplayField>
+        <errorMessage>Please Fill The Rev Rec Plan.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Sales_Phase_Validation</fullName>
+        <active>true</active>
+        <description>If Sales Phase on Oppty is NOT &apos;Handover&apos; or &apos;Execute&apos; and Forecast Category is &apos;Booked&apos;(Req:397)</description>
+        <errorConditionFormula>OR(
+AND( 
+(ISNEW()||ISCHANGED(Forecast_Category__c)),
+( $Profile.Name&lt;&gt;$Label.Data_Loader_Profile_Name),
+
+NOT( 
+OR( 
+ISPICKVAL( 
+Opportunity__r.StageName ,&apos;Handover (Prepare for Delivery)&apos;) 
+, 
+ISPICKVAL( 
+Opportunity__r.StageName ,&apos;Execute (Start Delivery)&apos;), 
+ISPICKVAL( 
+Opportunity__r.StageName ,&apos;Completed&apos;) 
+
+)
+),
+Opportunity__r.Advanced_PO_Booking__c = FALSE 
+),
+AND(
+ (ISNEW()||ISCHANGED(Forecast_Category__c)),
+( $Profile.Name&lt;&gt;$Label.Data_Loader_Profile_Name),
+NOT( 
+OR( 
+ISPICKVAL( 
+Opportunity__r.StageName ,&apos;Handover (Prepare for Delivery)&apos;) 
+, 
+ISPICKVAL( 
+Opportunity__r.StageName ,&apos;Execute (Start Delivery)&apos;), 
+ISPICKVAL( 
+Opportunity__r.StageName ,&apos;Completed&apos;),
+ISPICKVAL( Opportunity__r.StageName ,&apos;Win the Case (Negotiate)&apos;) 
+
+)
+),
+Opportunity__r.Advanced_PO_Booking__c = TRUE
+)
+)
+
+&amp;&amp; 
+ISPICKVAL( Forecast_Category__c ,&apos;Booked&apos;)
+&amp;&amp;
+ISBLANK(Cloned_From__c)</errorConditionFormula>
+        <errorDisplayField>Forecast_Category__c</errorDisplayField>
+        <errorMessage>You cannot book OIF before Win Declaration is complete unless Advanced PO Booking is checked on Opportunity page and G4 approved.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Softwarefield_Data_Formate_Rule</fullName>
+        <active>true</active>
+        <description>Software % (input field, 0 - 100% Only)  (Req:152)</description>
+        <errorConditionFormula>OR(Software__c&lt; 0,Software__c &gt; 1) &amp;&amp; ( $Profile.Name&lt;&gt;$Label.Data_Loader_Profile_Name)</errorConditionFormula>
+        <errorDisplayField>Software__c</errorDisplayField>
+        <errorMessage>Please enter the values in between 0-100 Only</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Upsell_Oppty_Forecast_on_OIF_Creation</fullName>
+        <active>false</active>
+        <description>Feature 1700 = remove the Forecast Category restriction
+(old: Requirement :4992. OIF categories to be blocked on creation.)</description>
+        <errorConditionFormula>AND
+(ISNEW(),
+$Profile.Name &lt;&gt; $Label.Data_Loader_Profile_Name,
+ISPICKVAL(Opportunity__r.Business_Type__c , &apos;Committed Upsell&apos;),
+OR(Opportunity__r.RecordType.DeveloperName = &apos;Direct_Record_Type&apos;,
+Opportunity__r.RecordType.DeveloperName = &apos;Indirect_Record_Type&apos;
+),
+OR(
+ISPICKVAL(Forecast_Category__c , &apos;Excluded&apos;), 
+ISPICKVAL(Forecast_Category__c , &apos;Cancelled&apos;), 
+ISPICKVAL(Forecast_Category__c , &apos;Lost&apos;),
+ISPICKVAL(Forecast_Category__c , &apos;Upside&apos;),
+ISPICKVAL(Forecast_Category__c , &apos;RoP&apos;)
+),
+ISBLANK(Cloned_From__c)
+)</errorConditionFormula>
+        <errorMessage>You can only select Booked, Secure or Risk when creating an OIF line on a committed upsell opportunity.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Upsell_Oppty_Forecast_on_OIF_Updation</fullName>
+        <active>false</active>
+        <description>Feature 1700 = remove the Forecast Category restriction
+(old: Requirement :4992. OIF categories to be blocked on updation.)</description>
+        <errorConditionFormula>AND(
+NOT(ISNEW()),
+$Profile.Name &lt;&gt; $Label.Data_Loader_Profile_Name,
+ISPICKVAL(Opportunity__r.Business_Type__c , &apos;Committed Upsell&apos;),
+OR(
+Opportunity__r.RecordType.DeveloperName = &apos;Direct_Record_Type&apos;, 
+Opportunity__r.RecordType.DeveloperName = &apos;Indirect_Record_Type&apos;
+),
+OR
+(ISPICKVAL(Forecast_Category__c , &apos;Upside&apos;),
+ISPICKVAL(Forecast_Category__c , &apos;RoP&apos;))
+)</errorConditionFormula>
+        <errorMessage>You can only select Booked, Secure, Risk, Excluded, Cancelled or Lost when modifying an existing OIF line on a committed upsell opportunity.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

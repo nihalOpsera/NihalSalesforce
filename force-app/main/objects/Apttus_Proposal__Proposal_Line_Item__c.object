@@ -1,0 +1,4534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents a product or service line item associated with a quote/proposal</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Alias_for_Exports__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Alias for Exports</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The line description</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Ext_Net_Price__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>Apttus_Proposal__Unit_Net_Price__c  *  Apttus_Proposal__Quantity__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Ext Net Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Ext_Price__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>Apttus_Proposal__Quantity__c  *  Apttus_Proposal__Unit_Price__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Ext Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the selected product or service</description>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Proposal Line Items</relationshipLabel>
+        <relationshipName>R00N70000001yUfPEAU</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Proposal__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the associated quote/proposal</description>
+        <externalId>false</externalId>
+        <label>Quote/Proposal</label>
+        <referenceTo>Apttus_Proposal__Proposal__c</referenceTo>
+        <relationshipLabel>Line Items</relationshipLabel>
+        <relationshipName>R00N70000001yUfBEAU</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Quantity__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Quantity</label>
+        <precision>9</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Sales_Discount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Sales Discount</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Service_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Service Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Unit_Net_Price__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>Apttus_Proposal__Unit_Price__c  * (1 -  Apttus_Proposal__Sales_Discount__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Unit Net Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_Proposal__Unit_Price__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Unit Price</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPApprov__Approval_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The approval status of the quote/proposal line item</description>
+        <externalId>false</externalId>
+        <label>Approval Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+                <value>
+                    <fullName>Approval Required</fullName>
+                    <default>false</default>
+                    <label>Approval Required</label>
+                </value>
+                <value>
+                    <fullName>Not Submitted</fullName>
+                    <default>true</default>
+                    <label>Not Submitted</label>
+                </value>
+                <value>
+                    <fullName>Pending Approval</fullName>
+                    <default>false</default>
+                    <label>Pending Approval</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__AdjustedPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The adjusted price (including option price)</description>
+        <externalId>false</externalId>
+        <label>Adjusted Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__AdjustmentAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price adjustment amount.</description>
+        <externalId>false</externalId>
+        <label>Adjustment Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__AdjustmentType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price adjustment type</description>
+        <externalId>false</externalId>
+        <label>Adjustment Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>% Discount</fullName>
+                    <default>false</default>
+                    <label>% Discount</label>
+                </value>
+                <value>
+                    <fullName>Discount Amount</fullName>
+                    <default>false</default>
+                    <label>Discount Amount</label>
+                </value>
+                <value>
+                    <fullName>% Markup</fullName>
+                    <default>false</default>
+                    <label>% Markup</label>
+                </value>
+                <value>
+                    <fullName>Markup Amount</fullName>
+                    <default>false</default>
+                    <label>Markup Amount</label>
+                </value>
+                <value>
+                    <fullName>Price Override</fullName>
+                    <default>false</default>
+                    <label>Price Override</label>
+                </value>
+                <value>
+                    <fullName>Base Price Override</fullName>
+                    <default>false</default>
+                    <label>Base Price Override</label>
+                </value>
+                <value>
+                    <fullName>Price Factor</fullName>
+                    <default>false</default>
+                    <label>Price Factor</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__AssetId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the asset associated with the product</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the asset associated with the product</inlineHelpText>
+        <label>Asset</label>
+        <referenceTo>Asset</referenceTo>
+        <relationshipLabel>Proposal Line Items</relationshipLabel>
+        <relationshipName>ProposalLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__AssetLineItemId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated asset line item from which the line item is created.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated asset line item from which the line item is created.</inlineHelpText>
+        <label>Asset Line Item</label>
+        <referenceTo>Apttus_Config2__AssetLineItem__c</referenceTo>
+        <relationshipLabel>Proposal Line Items</relationshipLabel>
+        <relationshipName>ProposalLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__AttributeValueId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated product attribute value</description>
+        <externalId>false</externalId>
+        <label>Attribute Value</label>
+        <referenceTo>Apttus_QPConfig__ProposalProductAttributeValue__c</referenceTo>
+        <relationshipLabel>Line Items</relationshipLabel>
+        <relationshipName>ProposalLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__AutoActivateOrder__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the order line item associated with the proposal line item will be automatically activated when the quote/proposal is accepted.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the order line item associated with the proposal line item will be automatically activated when the quote/proposal is accepted.</inlineHelpText>
+        <label>Auto Activate Order ?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__AutoCreateBill__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether billing schedules would be created for the order line item associated with the proposal line item when the quote/proposal is accepted.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether billing schedules would be created for the order line item associated with the proposal line item when the quote/proposal is accepted.</inlineHelpText>
+        <label>Auto Create Bill ?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__AutoCreateRevenue__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether revenue schedules would be created for the order line item associated with the proposal line item when the quote/proposal is accepted.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether revenue schedules would be created for the order line item associated with the proposal line item when the quote/proposal is accepted.</inlineHelpText>
+        <label>Auto Create Revenue ?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__AutoRenew__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the recurring item would auto renew at end of term</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the recurring item would auto renew at end of term</inlineHelpText>
+        <label>Auto Renew</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__AutoRenewalTerm__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The auto renewal term</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The auto renewal term</inlineHelpText>
+        <label>Auto Renewal Term</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__AutoRenewalType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The auto renewal type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The auto renewal type</inlineHelpText>
+        <label>Auto Renewal Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Fixed</fullName>
+                    <default>false</default>
+                    <label>Fixed</label>
+                </value>
+                <value>
+                    <fullName>Evergreen</fullName>
+                    <default>false</default>
+                    <label>Evergreen</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__BaseCostOverride__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The base cost overridden by the user</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The base cost overridden by the user</inlineHelpText>
+        <label>Base Cost (Override)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__BaseCost__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The base cost is Cost + Automatic Adjustments for individual products and options</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The base cost is Cost + Automatic Adjustments for individual products and options</inlineHelpText>
+        <label>Base Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__BaseExtendedCost__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The base extended cost is Quantity X Term (if applicable) X (Base Cost + Cost Adjustment) for individual products and options</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The base extended cost is Quantity X Term (if applicable) X (Base Cost + Cost Adjustment) for individual products and options</inlineHelpText>
+        <label>Base Extended Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__BaseExtendedPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The base extended price is Quantity X Term (if applicable) X (Base Price + Price Adjustment) for individual products and options</description>
+        <externalId>false</externalId>
+        <label>Base Extended Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__BasePriceMethod__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The base price method</description>
+        <externalId>false</externalId>
+        <label>Base Price Method</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Per Unit</fullName>
+                    <default>false</default>
+                    <label>Per Unit</label>
+                </value>
+                <value>
+                    <fullName>Flat Price</fullName>
+                    <default>false</default>
+                    <label>Flat Price</label>
+                </value>
+                <value>
+                    <fullName>Tiered Rate</fullName>
+                    <default>false</default>
+                    <label>Tiered Rate</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__BasePriceOverride__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The base price overridden by the user</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The base price overridden by the user</inlineHelpText>
+        <label>Base Price (Override)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__BasePrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The base price is List price + Automatic Adjustments for individual products and options</description>
+        <externalId>false</externalId>
+        <label>Base Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__BaseProductId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated base product.</description>
+        <externalId>false</externalId>
+        <label>Base Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Proposal Line Items (Base Product)</relationshipLabel>
+        <relationshipName>BaseProposalLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__BillToAccountId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the bill to account associated with the line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the bill to account associated with the line item</inlineHelpText>
+        <label>Bill To</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Quote Line Items (Bill To)</relationshipLabel>
+        <relationshipName>QuoteLineItemsBillTo</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__BillingFrequency__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The billing frequency associated with the recurring or usage price</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The billing frequency associated with the recurring or usage price</inlineHelpText>
+        <label>Billing Frequency</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hourly</fullName>
+                    <default>false</default>
+                    <label>Hourly</label>
+                </value>
+                <value>
+                    <fullName>Daily</fullName>
+                    <default>false</default>
+                    <label>Daily</label>
+                </value>
+                <value>
+                    <fullName>Monthly</fullName>
+                    <default>false</default>
+                    <label>Monthly</label>
+                </value>
+                <value>
+                    <fullName>Quarterly</fullName>
+                    <default>false</default>
+                    <label>Quarterly</label>
+                </value>
+                <value>
+                    <fullName>Half Yearly</fullName>
+                    <default>false</default>
+                    <label>Half Yearly</label>
+                </value>
+                <value>
+                    <fullName>Yearly</fullName>
+                    <default>false</default>
+                    <label>Yearly</label>
+                </value>
+                <value>
+                    <fullName>One Time</fullName>
+                    <default>false</default>
+                    <label>One Time</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__BillingPlanId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated billing plan</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated billing plan</inlineHelpText>
+        <label>Billing Plan</label>
+        <referenceTo>Apttus_Config2__BillingPlan__c</referenceTo>
+        <relationshipLabel>Proposal Line Items</relationshipLabel>
+        <relationshipName>ProposalLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__BillingPreferenceId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated billing preference</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated billing preference</inlineHelpText>
+        <label>Billing Preference</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Apttus_Config2__BillingPreference__c.Apttus_Config2__Active__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <infoMessage>Please select a billing preference</infoMessage>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Apttus_Config2__BillingPreference__c</referenceTo>
+        <relationshipLabel>Quote Line Items</relationshipLabel>
+        <relationshipName>QuoteLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__BillingRule__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The billing rule associated with the price item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The billing rule associated with the price item</inlineHelpText>
+        <label>Billing Rule</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bill In Advance</fullName>
+                    <default>false</default>
+                    <label>Bill In Advance</label>
+                </value>
+                <value>
+                    <fullName>Bill In Arrears</fullName>
+                    <default>false</default>
+                    <label>Bill In Arrears</label>
+                </value>
+                <value>
+                    <fullName>Milestone Billing</fullName>
+                    <default>false</default>
+                    <label>Milestone Billing</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ChargeGroupId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the charge group to which this charge type is associated</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the charge group to which this charge type is associated</inlineHelpText>
+        <label>Charge Group</label>
+        <referenceTo>Apttus_Config2__ChargeGroup__c</referenceTo>
+        <relationshipLabel>Quote Line Items</relationshipLabel>
+        <relationshipName>QuoteLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ChargeType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The charge type associated with the product or service</description>
+        <externalId>false</externalId>
+        <label>Charge Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>License Fee</fullName>
+                    <default>false</default>
+                    <label>License Fee</label>
+                </value>
+                <value>
+                    <fullName>Subscription Fee</fullName>
+                    <default>false</default>
+                    <label>Subscription Fee</label>
+                </value>
+                <value>
+                    <fullName>Implementation Fee</fullName>
+                    <default>false</default>
+                    <label>Implementation Fee</label>
+                </value>
+                <value>
+                    <fullName>Installation Fee</fullName>
+                    <default>false</default>
+                    <label>Installation Fee</label>
+                </value>
+                <value>
+                    <fullName>Maintenance Fee</fullName>
+                    <default>false</default>
+                    <label>Maintenance Fee</label>
+                </value>
+                <value>
+                    <fullName>Adjustment</fullName>
+                    <default>false</default>
+                    <label>Adjustment</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ClassificationHierarchy__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The category hierarchy</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Category Hierarchy</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ClassificationId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the product category</description>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <referenceTo>Apttus_Config2__ClassificationHierarchy__c</referenceTo>
+        <relationshipLabel>Proposal Line Items</relationshipLabel>
+        <relationshipName>ProposalLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__Comments__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Memo text entered by the user</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>4000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__CommitmentQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The quantity commitment associated with the product or option</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The quantity commitment associated with the product or option</inlineHelpText>
+        <label>Commitment Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ConfigurationId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated configuration</description>
+        <externalId>false</externalId>
+        <label>Configuration</label>
+        <referenceTo>Apttus_Config2__ProductConfiguration__c</referenceTo>
+        <relationshipLabel>Proposal Line Items</relationshipLabel>
+        <relationshipName>ProposalLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ContractNumbers__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A comma separated list of contract numbers associated with the line item</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>A comma separated list of contract numbers associated with the line item</inlineHelpText>
+        <label>Contract Numbers</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__Cost__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The cost for the product or service with no adjustments</description>
+        <externalId>false</externalId>
+        <label>Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__CouponCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The incentive coupon code</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>The incentive coupon code</inlineHelpText>
+        <label>Coupon Code</label>
+        <length>6</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__DeltaPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The change to the net price of the asset due to the latest order. It is positive for increments, negative for decrements and zero when there is no change.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The change to the net price of the asset due to the latest order. It is positive for increments, negative for decrements and zero when there is no change.</inlineHelpText>
+        <label>Delta Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__DeltaQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The change in quantity for the asset due to the latest order. It is positive for increments, negative for decrements and zero when there is no change.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The change in quantity for the asset due to the latest order. It is positive for increments, negative for decrements and zero when there is no change.</inlineHelpText>
+        <label>Delta Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__DerivedFromId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The ID of the line item this was derived from</description>
+        <externalId>false</externalId>
+        <label>Derived From</label>
+        <referenceTo>Apttus_Config2__LineItem__c</referenceTo>
+        <relationshipLabel>Derived Proposal Line Items</relationshipLabel>
+        <relationshipName>DerivedProposalLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__EndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The end date for products and services</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ExtendedCost__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The extended cost is Quantity X Term X (Base Cost + Cost Adjustment + Option Cost)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The extended cost is Quantity X Term X (Base Cost + Cost Adjustment + Option Cost)</inlineHelpText>
+        <label>Extended Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ExtendedDescription__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The extended line description</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Extended Description</label>
+        <length>2048</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ExtendedPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The extended price is Quantity X Term X (Base Price + Price Adjustment + Option Price)</description>
+        <externalId>false</externalId>
+        <label>Extended Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ExtendedQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The extended quantity is Quantity X Parent Quantity)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The extended quantity is Quantity X Parent Quantity)</inlineHelpText>
+        <label>Extended Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__FlatOptionPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rolled up adjusted flat price of options for the bundle product</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The rolled up adjusted flat price of options for the bundle product</inlineHelpText>
+        <label>Flat Option Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__Frequency__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The pricing frequency associated with the recurring or usage price</description>
+        <externalId>false</externalId>
+        <label>Pricing Frequency</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hourly</fullName>
+                    <default>false</default>
+                    <label>Hourly</label>
+                </value>
+                <value>
+                    <fullName>Daily</fullName>
+                    <default>false</default>
+                    <label>Daily</label>
+                </value>
+                <value>
+                    <fullName>Monthly</fullName>
+                    <default>false</default>
+                    <label>Monthly</label>
+                </value>
+                <value>
+                    <fullName>Quarterly</fullName>
+                    <default>false</default>
+                    <label>Quarterly</label>
+                </value>
+                <value>
+                    <fullName>Half Yearly</fullName>
+                    <default>false</default>
+                    <label>Half Yearly</label>
+                </value>
+                <value>
+                    <fullName>Yearly</fullName>
+                    <default>false</default>
+                    <label>Yearly</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__FulfilledQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Total quantity fulfilled for the order line items created against the quote/proposal line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Total quantity fulfilled for the order line items created against the quote/proposal line item</inlineHelpText>
+        <label>Fulfilled Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__FulfillmentStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The order fulfillment line status</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The order fulfillment line status</inlineHelpText>
+        <label>Fulfillment Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Fulfilled</fullName>
+                    <default>true</default>
+                    <label>Not Fulfilled</label>
+                </value>
+                <value>
+                    <fullName>Partially Fulfilled</fullName>
+                    <default>false</default>
+                    <label>Partially Fulfilled</label>
+                </value>
+                <value>
+                    <fullName>Fulfilled</fullName>
+                    <default>false</default>
+                    <label>Fulfilled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__GroupAdjustmentPercent__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The group adjustment percent</description>
+        <externalId>false</externalId>
+        <label>Group Adjustment (%)</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__Guidance__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The pricing guidance associated with the line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The pricing guidance associated with the line item</inlineHelpText>
+        <label>Guidance</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Green</fullName>
+                    <default>false</default>
+                    <label>Green</label>
+                </value>
+                <value>
+                    <fullName>Yellow</fullName>
+                    <default>false</default>
+                    <label>Yellow</label>
+                </value>
+                <value>
+                    <fullName>Red</fullName>
+                    <default>false</default>
+                    <label>Red</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__HasAttributes__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the product has attributes.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the product has attributes.</inlineHelpText>
+        <label>Has Attributes</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__HasIncentives__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether there are one or more incentives associated with the line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether there are one or more incentives associated with the line item</inlineHelpText>
+        <label>Has Incentives</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__HasOptions__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the product has options.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the product has options.</inlineHelpText>
+        <label>Has Options</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__HideInvoiceDisplay__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the item would be hidden in the invoice display.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the item would be hidden in the invoice display.</inlineHelpText>
+        <label>Hide Invoice Display</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__IncentiveAdjustmentAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The incentive adjustment amount</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The incentive adjustment amount</inlineHelpText>
+        <label>Incentive Adjustment Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__IncentiveCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The incentive code available to customers to identify the incentive</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>The incentive code available to customers to identify the incentive</inlineHelpText>
+        <label>Incentive Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__IncentiveExtendedPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The incentive extended price is Quantity X Incentive Base Price X Term (if applicable) for individual products and options</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The incentive extended price is Quantity X Incentive Base Price X Term (if applicable) for individual products and options</inlineHelpText>
+        <label>Incentive Extended Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__IncentiveId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated incentive</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated incentive</inlineHelpText>
+        <label>Incentive</label>
+        <referenceTo>Apttus_Config2__Incentive__c</referenceTo>
+        <relationshipLabel>Proposal Line Items</relationshipLabel>
+        <relationshipName>ProposalLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__IncentiveType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The incentive type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The incentive type</inlineHelpText>
+        <label>Incentive Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Promotion</fullName>
+                    <default>false</default>
+                    <label>Promotion</label>
+                </value>
+                <value>
+                    <fullName>Rebate</fullName>
+                    <default>false</default>
+                    <label>Rebate</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__IsAssetPricing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether asset pricing is in effect for the line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether asset pricing is in effect for the line item</inlineHelpText>
+        <label>Is Asset Pricing</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__IsCustomPricing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether custom pricing is in effect for the line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether custom pricing is in effect for the line item</inlineHelpText>
+        <label>Is Custom Pricing</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__IsOptionRollupLine__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the line is an option rollup line</description>
+        <externalId>false</externalId>
+        <label>Is Option Rollup Line</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__IsOptional__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the line item is optional</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the line item is optional</inlineHelpText>
+        <label>Is Optional</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__IsPrimaryLine__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the line is the primary line for the product or option</description>
+        <externalId>false</externalId>
+        <label>Is Primary Line</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__IsPrimaryRampLine__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the line is the primary line for the price ramp. Only applicable when price ramp is in effect for the product or option</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the line is the primary line for the price ramp. Only applicable when price ramp is in effect for the product or option</inlineHelpText>
+        <label>Is Primary Ramp Line</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__IsUsageTierModifiable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the usage price tier is modifiable for the product or option</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the usage price tier is modifiable for the product or option</inlineHelpText>
+        <label>Is Usage Tier Modifiable</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ItemSequence__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The sequence of items belonging to a line</description>
+        <externalId>false</externalId>
+        <label>Item Sequence</label>
+        <precision>5</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__LineNumber__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The line number</description>
+        <externalId>false</externalId>
+        <label>Line Number</label>
+        <precision>5</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__LineStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The line status</description>
+        <externalId>false</externalId>
+        <label>Line Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Existing</fullName>
+                    <default>false</default>
+                    <label>Existing</label>
+                </value>
+                <value>
+                    <fullName>Renewed</fullName>
+                    <default>false</default>
+                    <label>Renewed</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Incremented</fullName>
+                    <default>false</default>
+                    <label>Incremented</label>
+                </value>
+                <value>
+                    <fullName>Amended</fullName>
+                    <default>false</default>
+                    <label>Amended</label>
+                </value>
+                <value>
+                    <fullName>Upgraded</fullName>
+                    <default>false</default>
+                    <label>Upgraded</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__LineType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The line type</description>
+        <externalId>false</externalId>
+        <label>Line Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Product/Service</fullName>
+                    <default>true</default>
+                    <label>Product/Service</label>
+                </value>
+                <value>
+                    <fullName>Option</fullName>
+                    <default>false</default>
+                    <label>Option</label>
+                </value>
+                <value>
+                    <fullName>Misc</fullName>
+                    <default>false</default>
+                    <label>Misc</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ListPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The list price for the product or service with no adjustments</description>
+        <externalId>false</externalId>
+        <label>List Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__LocationId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated account location</description>
+        <externalId>false</externalId>
+        <label>Location</label>
+        <referenceTo>Apttus_Config2__AccountLocation__c</referenceTo>
+        <relationshipLabel>Proposal Line Items</relationshipLabel>
+        <relationshipName>ProposalLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__NetAdjustmentPercent__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The net adjustment percent</description>
+        <externalId>false</externalId>
+        <label>Net Adjustment (%)</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__NetPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The net price for the product or service is the Adjusted Price after applying the Group Adjustment %</description>
+        <externalId>false</externalId>
+        <label>Net Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__NetUnitPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The net unit price for the product or service is the Unit Adjusted Price after applying the Group Adjustment %</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The net unit price for the product or service is the Unit Adjusted Price after applying the Group Adjustment %</inlineHelpText>
+        <label>Net Unit Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__OptionCost__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rolled up extended cost of options for the product</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The rolled up extended cost of options for the product</inlineHelpText>
+        <label>Option Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__OptionId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the selected option</description>
+        <externalId>false</externalId>
+        <label>Option</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Proposal Option Line Items</relationshipLabel>
+        <relationshipName>ProposalOptionLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__OptionPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The rolled up adjusted price of options for the product</description>
+        <externalId>false</externalId>
+        <label>Option Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__OrderedQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Total quantity for which sales orders have been created against the quote/proposal line item when the order is accepted</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Total quantity for which sales orders have been created against the quote/proposal line item when the order is accepted</inlineHelpText>
+        <label>Ordered Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ParentBundleNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Represents the parent bundle number associated with the child bundle</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Represents the parent bundle number associated with the child bundle</inlineHelpText>
+        <label>Parent Bundle Number</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__PaymentTermId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the payment term associated with the quote/proposal</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the payment term associated with the quote/proposal</inlineHelpText>
+        <label>Payment Term</label>
+        <referenceTo>Apttus_Config2__PaymentTerm__c</referenceTo>
+        <relationshipLabel>Quote Line Items</relationshipLabel>
+        <relationshipName>QuoteLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__PriceAdjustmentAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price adjustment amount</description>
+        <externalId>false</externalId>
+        <label>Price Adjustment Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__PriceAdjustmentType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price adjustment type</description>
+        <externalId>false</externalId>
+        <label>Price Adjustment Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>% Discount</fullName>
+                    <default>false</default>
+                    <label>% Discount</label>
+                </value>
+                <value>
+                    <fullName>Discount Amount</fullName>
+                    <default>false</default>
+                    <label>Discount Amount</label>
+                </value>
+                <value>
+                    <fullName>% Markup</fullName>
+                    <default>false</default>
+                    <label>% Markup</label>
+                </value>
+                <value>
+                    <fullName>Markup Amount</fullName>
+                    <default>false</default>
+                    <label>Markup Amount</label>
+                </value>
+                <value>
+                    <fullName>Price Override</fullName>
+                    <default>false</default>
+                    <label>Price Override</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__PriceAdjustment__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price adjustment is computed using aggregate price rules</description>
+        <externalId>false</externalId>
+        <label>Price Adjustment</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__PriceGroup__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price group associated with the product or option</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The price group associated with the product or option</inlineHelpText>
+        <label>Price Group</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Price Ramp</fullName>
+                    <default>false</default>
+                    <label>Price Ramp</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__PriceIncludedInBundle__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the option price is included in the bundle. Only applicable to Option line types.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the option price is included in the bundle. Only applicable to Option line types.</inlineHelpText>
+        <label>Price Included In Bundle</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__PriceListId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the price list associated with the product or service</description>
+        <externalId>false</externalId>
+        <label>Price List</label>
+        <referenceTo>Apttus_Config2__PriceList__c</referenceTo>
+        <relationshipLabel>Proposal Line Items</relationshipLabel>
+        <relationshipName>ProposalLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__PriceListItemId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated price list item</description>
+        <externalId>false</externalId>
+        <label>Price List Item</label>
+        <referenceTo>Apttus_Config2__PriceListItem__c</referenceTo>
+        <relationshipLabel>Proposal Line Items</relationshipLabel>
+        <relationshipName>ProposalLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__PriceMethod__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price method</description>
+        <externalId>false</externalId>
+        <label>Price Method</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Per Unit</fullName>
+                    <default>false</default>
+                    <label>Per Unit</label>
+                </value>
+                <value>
+                    <fullName>Flat Price</fullName>
+                    <default>false</default>
+                    <label>Flat Price</label>
+                </value>
+                <value>
+                    <fullName>Percentage</fullName>
+                    <default>false</default>
+                    <label>Percentage</label>
+                </value>
+                <value>
+                    <fullName>Related Price</fullName>
+                    <default>false</default>
+                    <label>Related Price</label>
+                </value>
+                <value>
+                    <fullName>Tiered Rate</fullName>
+                    <default>false</default>
+                    <label>Tiered Rate</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__PriceType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The price type</description>
+        <externalId>false</externalId>
+        <label>Price Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>One Time</fullName>
+                    <default>false</default>
+                    <label>One Time</label>
+                </value>
+                <value>
+                    <fullName>Recurring</fullName>
+                    <default>false</default>
+                    <label>Recurring</label>
+                </value>
+                <value>
+                    <fullName>Usage</fullName>
+                    <default>false</default>
+                    <label>Usage</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__PriceUom__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The pricing unit of measure for the product</description>
+        <externalId>false</externalId>
+        <label>Pricing Uom</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Each</fullName>
+                    <default>false</default>
+                    <label>Each</label>
+                </value>
+                <value>
+                    <fullName>Hour</fullName>
+                    <default>false</default>
+                    <label>Hour</label>
+                </value>
+                <value>
+                    <fullName>Day</fullName>
+                    <default>false</default>
+                    <label>Day</label>
+                </value>
+                <value>
+                    <fullName>Month</fullName>
+                    <default>false</default>
+                    <label>Month</label>
+                </value>
+                <value>
+                    <fullName>Year</fullName>
+                    <default>false</default>
+                    <label>Year</label>
+                </value>
+                <value>
+                    <fullName>Quarter</fullName>
+                    <default>false</default>
+                    <label>Quarter</label>
+                </value>
+                <value>
+                    <fullName>Case</fullName>
+                    <default>false</default>
+                    <label>Case</label>
+                </value>
+                <value>
+                    <fullName>Gallon</fullName>
+                    <default>false</default>
+                    <label>Gallon</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__PricingDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The pricing date, The product list price is determined based on this date.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>The pricing date, The product list price is determined based on this date.</inlineHelpText>
+        <label>Pricing Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__PrimaryLineNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Represents the unique number for each primary line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Represents the unique number for each primary line item</inlineHelpText>
+        <label>Primary Line Number</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ProductOptionId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the selected product option</description>
+        <externalId>false</externalId>
+        <label>Product Option</label>
+        <referenceTo>Apttus_Config2__ProductOptionComponent__c</referenceTo>
+        <relationshipLabel>Proposal Line Items</relationshipLabel>
+        <relationshipName>ProposalLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__PurchaseId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The purchase identifier associated with the asset</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>true</externalId>
+        <inlineHelpText>The purchase identifier associated with the asset</inlineHelpText>
+        <label>Purchase Identifier</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__Quantity2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The product or service quantity</description>
+        <externalId>false</externalId>
+        <label>Quantity (2)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ReadyForActivationDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date the order item is ready for activation. The order item is activated on this date.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>The date the order item is ready for activation. The order item is activated on this date.</inlineHelpText>
+        <label>Ready For Activation Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ReadyForBillingDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date when the order item is ready for billing. The billing schedules are created on this date.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>The date when the order item is ready for billing. The billing schedules are created on this date.</inlineHelpText>
+        <label>Ready For Billing Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ReadyForFulfillmentDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date the order item is ready for fulfillment. The order item is fulfilled on this date.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>The date the order item is ready for fulfillment. The order item is fulfilled on this date.</inlineHelpText>
+        <label>Ready For Fulfillment Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ReadyForRevRecDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date when the order item is ready for revenue recognition. The revenue schedules are created on this date.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>The date when the order is order item for revenue recognition. The revenue schedules are created on this date.</inlineHelpText>
+        <label>Ready For Revenue Recognition Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__RenewalAdjustmentAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The renewal price adjustment amount.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The renewal price adjustment amount.</inlineHelpText>
+        <label>Renewal Adjustment Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__RenewalAdjustmentType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The renewal price adjustment type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The renewal price adjustment type</inlineHelpText>
+        <label>Renewal Adjustment Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>% Uplift</fullName>
+                    <default>false</default>
+                    <label>% Uplift</label>
+                </value>
+                <value>
+                    <fullName>Uplift Amount</fullName>
+                    <default>false</default>
+                    <label>Uplift Amount</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__SellingFrequency__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The selling frequency associated with the recurring or usage price</description>
+        <externalId>false</externalId>
+        <label>Selling Frequency</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hourly</fullName>
+                    <default>false</default>
+                    <label>Hourly</label>
+                </value>
+                <value>
+                    <fullName>Daily</fullName>
+                    <default>false</default>
+                    <label>Daily</label>
+                </value>
+                <value>
+                    <fullName>Monthly</fullName>
+                    <default>false</default>
+                    <label>Monthly</label>
+                </value>
+                <value>
+                    <fullName>Quarterly</fullName>
+                    <default>false</default>
+                    <label>Quarterly</label>
+                </value>
+                <value>
+                    <fullName>Half Yearly</fullName>
+                    <default>false</default>
+                    <label>Half Yearly</label>
+                </value>
+                <value>
+                    <fullName>Yearly</fullName>
+                    <default>false</default>
+                    <label>Yearly</label>
+                </value>
+                <value>
+                    <fullName>One Time</fullName>
+                    <default>false</default>
+                    <label>One Time</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__SellingTerm__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The selling term associated with the product or service</description>
+        <externalId>false</externalId>
+        <label>Selling Term</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__SellingUom__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The selling unit of measure for the product</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The selling unit of measure for the product</inlineHelpText>
+        <label>Selling Uom</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Each</fullName>
+                    <default>false</default>
+                    <label>Each</label>
+                </value>
+                <value>
+                    <fullName>Hour</fullName>
+                    <default>false</default>
+                    <label>Hour</label>
+                </value>
+                <value>
+                    <fullName>Day</fullName>
+                    <default>false</default>
+                    <label>Day</label>
+                </value>
+                <value>
+                    <fullName>Month</fullName>
+                    <default>false</default>
+                    <label>Month</label>
+                </value>
+                <value>
+                    <fullName>Year</fullName>
+                    <default>false</default>
+                    <label>Year</label>
+                </value>
+                <value>
+                    <fullName>Quarter</fullName>
+                    <default>false</default>
+                    <label>Quarter</label>
+                </value>
+                <value>
+                    <fullName>Case</fullName>
+                    <default>false</default>
+                    <label>Case</label>
+                </value>
+                <value>
+                    <fullName>Gallon</fullName>
+                    <default>false</default>
+                    <label>Gallon</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ServiceLocationId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the associated service location</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the associated service location</inlineHelpText>
+        <label>Service Location</label>
+        <referenceTo>Apttus_Config2__ServiceLocation__c</referenceTo>
+        <relationshipLabel>Quote Line Items</relationshipLabel>
+        <relationshipName>QuoteLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__ShipToAccountId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the ship to account associated with the line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the ship to account associated with the line item</inlineHelpText>
+        <label>Ship To</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Quote Line Items (Ship To)</relationshipLabel>
+        <relationshipName>QuoteLineItemsShipTo</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__StartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The start date for products and services</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__SummaryGroupId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the summary group associated with the item</description>
+        <externalId>false</externalId>
+        <label>Summary Group</label>
+        <referenceTo>Apttus_QPConfig__ProposalSummaryGroup__c</referenceTo>
+        <relationshipLabel>Line Items</relationshipLabel>
+        <relationshipName>ProposalLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__TaxCodeId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the tax code associated with the line item. Only applicable for taxable items.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the tax code associated with the line item. Only applicable for taxable items.</inlineHelpText>
+        <label>Tax Code</label>
+        <referenceTo>Apttus_Config2__TaxCode__c</referenceTo>
+        <relationshipLabel>Quote Line Items</relationshipLabel>
+        <relationshipName>QuoteLineItems</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__TaxInclusive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the price is tax inclusive. Only applicable for taxable items.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the price is tax inclusive. Only applicable for taxable items.</inlineHelpText>
+        <label>Tax Inclusive ?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__Taxable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the line item is taxable</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether the line item is taxable</inlineHelpText>
+        <label>Taxable ?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__Term__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The pricing term associated with the product or service</description>
+        <externalId>false</externalId>
+        <label>Pricing Term</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__TotalQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total quantity is Quantity + Asset Quantity</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total quantity is Quantity + Asset Quantity</inlineHelpText>
+        <label>Total Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus_QPConfig__Uom__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The product or service unit of measure</description>
+        <externalId>false</externalId>
+        <label>Product Uom</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Each</fullName>
+                    <default>true</default>
+                    <label>Each</label>
+                </value>
+                <value>
+                    <fullName>Hour</fullName>
+                    <default>false</default>
+                    <label>Hour</label>
+                </value>
+                <value>
+                    <fullName>Day</fullName>
+                    <default>false</default>
+                    <label>Day</label>
+                </value>
+                <value>
+                    <fullName>Month</fullName>
+                    <default>false</default>
+                    <label>Month</label>
+                </value>
+                <value>
+                    <fullName>Year</fullName>
+                    <default>false</default>
+                    <label>Year</label>
+                </value>
+                <value>
+                    <fullName>Quarter</fullName>
+                    <default>false</default>
+                    <label>Quarter</label>
+                </value>
+                <value>
+                    <fullName>Case</fullName>
+                    <default>false</default>
+                    <label>Case</label>
+                </value>
+                <value>
+                    <fullName>Gallon</fullName>
+                    <default>false</default>
+                    <label>Gallon</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CMN__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>CMN</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_Activity_Type__c</fullName>
+        <description>Used in Surround CPQ/QTC output templates</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Used in Surround CPQ/QTC output templates</inlineHelpText>
+        <label>Activity Type</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_Agreement_Contract_Price__c</fullName>
+        <description>Holds the applicable contract price from the agreement</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Holds the applicable contract price from the agreement</inlineHelpText>
+        <label>Agreement Contract Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>CPQ_Agreement_Name__c</fullName>
+        <description>Reference to the agreement name from line item</description>
+        <externalId>false</externalId>
+        <formula>Apttus_QPConfig__DerivedFromId__r.CPQ_Agreement_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Reference to the agreement name from line item</inlineHelpText>
+        <label>Agreement Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_Agreement_Number__c</fullName>
+        <description>Reference to the Project Price List Number on line item</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to the Project Price List Number on line item</inlineHelpText>
+        <label>Agreement Number</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_Applied_Discounts_Info__c</fullName>
+        <description>To store the QLD discount amount applied against the discount entry</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Applied Discounts Info</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_Budget_Hours_calc__c</fullName>
+        <description>From line item. Used on QTC NCQ template for Services Price Detail Sheet</description>
+        <externalId>false</externalId>
+        <inlineHelpText>From line item. Used on QTC NCQ template for Services Price Detail Sheet</inlineHelpText>
+        <label>Budget Hours (calc)</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_Budget_Hrs__c</fullName>
+        <description>Used in Surround CPQ/QTC output templates</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Used in Surround CPQ/QTC output templates</inlineHelpText>
+        <label>Budget Hrs</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_CQ_Check__c</fullName>
+        <externalId>false</externalId>
+        <formula>Apttus_Proposal__Proposal__r.CPQ_CQ_Check__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>IsCQ?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CPQ_Contracted_Price__c</fullName>
+        <description>Stores the extended price from contractual price list items</description>
+        <externalId>false</externalId>
+        <label>Contracted Price Ext.</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>CPQ_Customer_Item_Code__c</fullName>
+        <description>Reference to Customer Item Code from custom object. Populated from line item</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to Customer Item Code from custom object. Populated from line item</inlineHelpText>
+        <label>Customer Item Code</label>
+        <length>75</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_Customer_Item_XREF__c</fullName>
+        <description>Reference to Customer Item XREF for verizon. Populated from line item</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to Customer Item XREF for verizon. Populated from line item</inlineHelpText>
+        <label>Customer Item XREF</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_DA_Unit_Price__c</fullName>
+        <description>Calculates the base unit price to be used in the quote documents.</description>
+        <externalId>false</externalId>
+        <formula>IF(TEXT(Apttus_QPConfig__BasePriceOverride__c) != null, Apttus_QPConfig__BasePriceOverride__c, IF(TEXT(CPQ_Agreement_Contract_Price__c) != null, CPQ_Agreement_Contract_Price__c, Apttus_QPConfig__ListPrice__c))</formula>
+        <inlineHelpText>Calculates the base unit price to be used in in quote documents.</inlineHelpText>
+        <label>DA Unit Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>CPQ_Description__c</fullName>
+        <description>Used in Surround CPQ/QTC output templates</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Used in Surround CPQ/QTC output templates</inlineHelpText>
+        <label>Description (QTC NCQ)</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_Display_in_quote_report_as_line_item__c</fullName>
+        <description>To display line in CQ quote document/report</description>
+        <externalId>false</externalId>
+        <formula>if(AND( NokiaCPQ_Item_Type__c  = &apos;Service&apos;,OR( CPQ_Price_Class__c = &apos;Engineering&apos;,CPQ_Price_Class__c = &apos;Installation&apos;,CPQ_Price_Class__c = &apos;Other&apos;),OR(ISNULL(CPQ_Rollup_Group_Num__c), CPQ_Rollup_Group_Parent__c = True)),True,false)</formula>
+        <inlineHelpText>To display line in CQ quote document/report</inlineHelpText>
+        <label>Display in quote report as line item?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CPQ_Duration_days__c</fullName>
+        <description>From Line Item. Used on QTC NCQ template for Services Price Detail Sheet</description>
+        <externalId>false</externalId>
+        <inlineHelpText>From Line Item. Used on QTC NCQ template for Services Price Detail Sheet</inlineHelpText>
+        <label>Duration (days)</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_Equipment__c</fullName>
+        <description>Reference to Equipment for verizon. Populated from line item</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to Equipment for verizon. Populated from line item</inlineHelpText>
+        <label>Equipment</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_Final_Product_Name__c</fullName>
+        <description>Final product name to be displayed on Surround Quote Report and also to be sent to SAP</description>
+        <externalId>false</externalId>
+        <formula>IF(AND(Item_Type__c = &apos;Service&apos;, CPQ_Product_Description__c  &lt;&gt; null),CPQ_Product_Description__c, IF( ISPICKVAL(Apttus_QPConfig__LineType__c, &apos;Option&apos;) ,Apttus_QPConfig__OptionId__r.Name,Apttus_Proposal__Product__r.Name) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Final product name to be displayed on Surround Quote Report and also to be sent to SAP</inlineHelpText>
+        <label>Final Product Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_Market_Model__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Flexible Group</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_NPT_SI_TYPE__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>CPQ_NPT_SI_TYPE</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_Net_Price_Inc_Trans__c</fullName>
+        <description>Reference to the net price including transport from line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to the net price including transport from line item</inlineHelpText>
+        <label>Net Price (Incl Transport)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>CPQ_Network_Activity__c</fullName>
+        <description>Used in Surround CPQ/QTC output templates</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Used in Surround CPQ/QTC output templates</inlineHelpText>
+        <label>Network Activity</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_Normalization_Adjustment__c</fullName>
+        <description>Captures normalization value applied</description>
+        <externalId>false</externalId>
+        <label>Normalization Adjustment</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_Parent_Check_for_Site_Model__c</fullName>
+        <description>Using this in template to identify the child records of Site Model and display accordingly in template</description>
+        <externalId>false</externalId>
+        <formula>IF( CPQ_Read_Option_value_for_Template__c != null, IF( ISPICKVAL( Apttus_Proposal__Product__r.CPQ_Secondary_Category__c , &apos;Site Model&apos;) , true,false) ,false)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Using this in template to identify the child records of Site Model and display accordingly  in template</inlineHelpText>
+        <label>Parent Check for Site Model</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CPQ_Parent_Check_for_Solution_Model__c</fullName>
+        <description>Using this in template to identify the child records of Solution Model and display accordingly in template</description>
+        <externalId>false</externalId>
+        <formula>IF( CPQ_Read_Option_value_for_Template__c != null, IF( ISPICKVAL( Apttus_Proposal__Product__r.CPQ_Secondary_Category__c , &apos;Solution Model&apos;) , true,false) ,false)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Using this in template to identify the child records of Solution Model and display accordingly in template</inlineHelpText>
+        <label>Parent Check for Solution Model</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CPQ_Parent_Secondary_Category__c</fullName>
+        <description>Populates the Secondary Category from Parent product.</description>
+        <externalId>false</externalId>
+        <formula>IF( NOT(ISBLANK(Apttus_QPConfig__OptionId__c)),TEXT(Apttus_Proposal__Product__r.CPQ_Secondary_Category__c),&apos;&apos;)</formula>
+        <inlineHelpText>Populates the Secondary Category from Parent product.</inlineHelpText>
+        <label>Parent Secondary Category</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_Price_Class__c</fullName>
+        <description>Reference to the price class from line item</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to the price class from line item</inlineHelpText>
+        <label>Price Class</label>
+        <length>75</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_Product_Description__c</fullName>
+        <description>Reference to the custom service description (name) as provided by the sales rep for Surround for Service products</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to the custom service description (name) as provided by the sales rep for Surround for Service products</inlineHelpText>
+        <label>Product Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_Read_Option_value_for_Template__c</fullName>
+        <description>This is used to read the option value and display/restrict in template</description>
+        <externalId>false</externalId>
+        <formula>Apttus_QPConfig__OptionId__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>This is used to read the option value and display/restrict in template</inlineHelpText>
+        <label>Read Option value for Template</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_Rollup_Group_Num__c</fullName>
+        <description>Reference to the RollUp Group Num from line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to the RollUp Group Num from line item</inlineHelpText>
+        <label>RollUp Group Num</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_Rollup_Group_Parent__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Reference to the RollUp Group Parent from line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to the RollUp Group Parent from line item</inlineHelpText>
+        <label>Rollup Group Parent</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CPQ_SSF_Adjust_Type_Class__c</fullName>
+        <description>Reference to the adjusttype from the SSF BOM upload for Surround. API Name twinning from line item</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to the adjusttype from the SSF BOM upload for Surround. API Name twinning from line item</inlineHelpText>
+        <label>SSF Adjust Type Class</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_SSF_Billing_Rule_Code__c</fullName>
+        <description>Reference to the billing rule code for SSF corresponding to billing rule ID</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to the billing rule code for SSF corresponding to billing rule ID</inlineHelpText>
+        <label>SSF Billing Rule Code</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_SSF_Billing_Rule_Description__c</fullName>
+        <description>Reference to the billing Description corresponding to the SSF billing rule code</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to the billing Description corresponding to the SSF billing rule code</inlineHelpText>
+        <label>SSF Billing Rule Description</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_SSF_Billing_Rule_ID__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Selected by sales rep and refers to the ID of the billing rule code</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Selected by sales rep and refers to the ID of the billing rule code</inlineHelpText>
+        <label>SSF Billing Rule ID</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>CPQ_SSFBillingRuleMaster__c.CPQ_Active__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>CPQ_SSFBillingRuleMaster__c</referenceTo>
+        <relationshipLabel>Proposal Line Items</relationshipLabel>
+        <relationshipName>Proposal_Line_Items</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CPQ_SSF_Discount_Percent__c</fullName>
+        <description>Reference to the unitdisc (recurring) or onetimedisc (onetime) from the SSF BOM upload for Surround</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to the unitdisc (recurring) or onetimedisc (onetime) from the SSF BOM upload for Surround</inlineHelpText>
+        <label>SSF Discount %</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_SSF_Discounted_Base_Price__c</fullName>
+        <description>Reference to the tss_discUnitRate (recurring) or disconetimecharge (onetime) from the SSF BOM upload for Surround. API Name twinning from line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to the tss_discUnitRate (recurring) or disconetimecharge (onetime) from the SSF BOM upload for Surround. API Name twinning from line item</inlineHelpText>
+        <label>SSF Discounted Base Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>CPQ_SSF_Group_ID__c</fullName>
+        <description>Reference to the group ID from the SSF BOM upload for Surround. API Name twinning from line item</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to the group ID from the SSF BOM upload for Surround. API Name twinning from line item</inlineHelpText>
+        <label>SSF Group ID</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_SSF_Permission__c</fullName>
+        <description>Reference to SSF Permitted from product record.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to SSF Permitted from product record.</inlineHelpText>
+        <label>SSF Permission</label>
+        <length>1</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_SSF_Price_Class__c</fullName>
+        <description>Reference to the priceclass from the SSF BOM upload for Surround</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to the priceclass from the SSF BOM upload for Surround</inlineHelpText>
+        <label>SSF Price Class</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_SSF_Product_Manufacturer__c</fullName>
+        <description>Reference to the tss_productManufacturer from the SSF BOM upload for Surround. API Name twinning from line item</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to the tss_productManufacturer from the SSF BOM upload for Surround. API Name twinning from line item</inlineHelpText>
+        <label>SSF Product Manufacturer</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_SSF_Product_Name__c</fullName>
+        <description>Reference to the tss_productname from the SSF BOM upload for Surround. API Name twinning from line item</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to the tss_productname from the SSF BOM upload for Surround. API Name twinning from line item</inlineHelpText>
+        <label>SSF Product Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_SSF_Product_OI_Desc__c</fullName>
+        <description>Reference to the tss_productOIDescription from the SSF BOM upload for Surround. API Name twinning from line item</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to the tss_productOIDescription from the SSF BOM upload for Surround. API Name twinning from line item</inlineHelpText>
+        <label>SSF Product OI Description</label>
+        <length>225</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_SSF_Product_OI__c</fullName>
+        <description>Reference to the tss_productoi from the SSF BOM upload for Surround. API Name twinning from line item</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to the tss_productoi from the SSF BOM upload for Surround. API Name twinning from line item</inlineHelpText>
+        <label>SSF Product OI</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_Secondary_Category__c</fullName>
+        <description>Reference to secondary category for the product. API Name twinning from line item</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to secondary category for the product. API Name twinning from line item</inlineHelpText>
+        <label>Secondary Category</label>
+        <length>75</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_Service_Rollup_Price__c</fullName>
+        <description>Calculates the Price for service rollup group parent</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Calculates the Price for service rollup group parent</inlineHelpText>
+        <label>Service Rollup Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>CPQ_Service_Rollup_Quantity__c</fullName>
+        <description>Calculates the quantity for service rollup group parent</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Calculates the quantity for service rollup group parent</inlineHelpText>
+        <label>Service Rollup Quantity</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_Sub_Heading__c</fullName>
+        <description>Used in Surround CPQ/QTC output templates.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Used in Surround CPQ/QTC output templates.</inlineHelpText>
+        <label>Sub Heading</label>
+        <length>254</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_T_L__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used in Surround CPQ/QTC output templates</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Used in Surround CPQ/QTC output templates</inlineHelpText>
+        <label>T/L</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CPQ_T_L_for_display__c</fullName>
+        <description>Calculated. Used on QTC NCQ template for Services Price Detail Sheet</description>
+        <externalId>false</externalId>
+        <formula>If (CPQ_T_L__c = True,&apos;Y&apos;,&apos;N&apos;)</formula>
+        <inlineHelpText>Calculated. Used on QTC NCQ template for Services Price Detail Sheet</inlineHelpText>
+        <label>T/L for display</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPQ_Transport_Price__c</fullName>
+        <description>Reference to the transport price from line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to the transport price from line item</inlineHelpText>
+        <label>Transport Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>CPQ_Uploaded_via_SSF__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Reference to the Uploaded via SSF? from line item</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Reference to the Uploaded via SSF? from line item</inlineHelpText>
+        <label>Uploaded via SSF?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CPQ_Work_Center__c</fullName>
+        <description>Used in Surround CPQ/QTC output templates</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Used in Surround CPQ/QTC output templates</inlineHelpText>
+        <label>Work Center</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Configuration__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TEXT(Apttus_QPConfig__LineType__c) = &apos;Option&apos;,&apos;Cart Seq# &apos; +TEXT(Apttus_QPConfig__DerivedFromId__r.Apttus_Config2__LineSequence__c)+&apos;: &apos;+Apttus_Proposal__Product__r.Name,&apos;Standalone&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Configuration</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Product_Code__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Custom Product Code</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Product_Name__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Custom Product Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Price_List__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (
+Apttus_QPConfig__PriceListId__c &lt;&gt;  Apttus_QPConfig__PriceListItemId__r.Apttus_Config2__PriceListId__c ,
+true,
+false
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Customer Price List</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DS_Grouping_Name__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Customer Grouping</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DS_Product_TechnicalInfo__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Product Technical Info Level1</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>DS_Product_Technical_Info_Level2__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Product Technical Info Level2</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>EPT_Site_Quantity__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>EPT Site Quantity</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>EPT_Sites__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>EPT Sites</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Equivalent_Price__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(OR(ISBLANK(Apttus_QPConfig__DerivedFromId__r.Equivalent_Price__c), Apttus_QPConfig__DerivedFromId__r.Equivalent_Price__c = 0),
+	Apttus_QPConfig__NetUnitPrice__c, Apttus_QPConfig__DerivedFromId__r.Equivalent_Price__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Equivalent Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>External_Description__c</fullName>
+        <description>This formula is for capturing description from price list item for SFR</description>
+        <externalId>false</externalId>
+        <formula>Apttus_QPConfig__PriceListItemId__r.Apttus_Config2__Description__c</formula>
+        <label>External Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>External_Reference__c</fullName>
+        <description>This formula field is used to capture Contract item number from price list item</description>
+        <externalId>false</externalId>
+        <formula>Apttus_QPConfig__PriceListItemId__r.Apttus_Config2__ContractItemNumber__c</formula>
+        <label>External Reference</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Flexible_group_code__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Flexible group code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IRP_Value__c</fullName>
+        <externalId>false</externalId>
+        <label>IRP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>ISP_Per_Unit__c</fullName>
+        <externalId>false</externalId>
+        <formula>Apttus_QPConfig__NetPrice__c/Apttus_QPConfig__Quantity2__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ISP Per Unit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Invalid_Maintenance_type__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Invalid Maintenance type</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Dummy_Bundle__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TEXT(Apttus_QPConfig__LineType__c)==&quot;Product/Service&quot;, 
+
+ TEXT(Apttus_Proposal__Product__r.Is_Dummy_Bundle_CPQ__c)  , 
+
+ TEXT(Apttus_QPConfig__OptionId__r.Is_Dummy_Bundle_CPQ__c)
+
+ )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Dummy Bundle</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Dummy_Product__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TEXT(Apttus_QPConfig__LineType__c)==&quot;Product/Service&quot;, Apttus_Proposal__Product__r.Is_Dummy_Product__c , Apttus_QPConfig__OptionId__r.Is_Dummy_Product__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Dummy Product</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Item_Type_From_CAT__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Item Type From CAT</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Item_Type__c</fullName>
+        <description>Item Type from Line Item</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Item Type from Line Item</inlineHelpText>
+        <label>Item Type (from LI)</label>
+        <length>30</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Net_Option_Standalone_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Net Option Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Net_Price_two_decimal__c</fullName>
+        <externalId>false</externalId>
+        <formula>Apttus_QPConfig__NetPrice__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Net Price (two decimal)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>No_of_years_of_Maintenance__c</fullName>
+        <externalId>false</externalId>
+        <formula>Text(Apttus_Proposal__Proposal__r.NokiaCPQ_No_of_Years__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>No. of years of Maintenance</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQPortfolio_Package_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TEXT(Apttus_QPConfig__LineType__c)==&quot;Product/Service&quot;,Apttus_Proposal__Product__r.NokiaCPQ_Portfolio_Package_Code__c
+, Apttus_QPConfig__OptionId__r.NokiaCPQ_Portfolio_Package_Code__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Portfolio Package Code</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Account_Id__c</fullName>
+        <externalId>false</externalId>
+        <formula>Apttus_Proposal__Proposal__r.Apttus_Proposal__Account__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Id</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Alias__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Alias</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Alias_fromPAVE__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Alias</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Configuration_Type__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Configuration Type</label>
+        <length>254</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_ExtendedAdvance_NP__c</fullName>
+        <externalId>false</externalId>
+        <label>Extended NP</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_ExtendedPrice_CNP__c</fullName>
+        <externalId>false</externalId>
+        <label>Extended CNP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_ExtendedPrice_CUP__c</fullName>
+        <externalId>false</externalId>
+        <label>Extended CUP 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Extended_CLP_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Extended CLP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Extended_CLP__c</fullName>
+        <externalId>false</externalId>
+        <label>Extended CLP 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Extended_CNP_Without_LSD__c</fullName>
+        <externalId>false</externalId>
+        <label>Extended CNP Before LSD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Extended_CUP_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Extended CUP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Extended_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Extended Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Extended_IRP2__c</fullName>
+        <externalId>false</externalId>
+        <label>Extended IRP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Extended_IRP__c</fullName>
+        <externalId>false</externalId>
+        <label>Extended IRP 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Extended_List_Price__c</fullName>
+        <description>calculates list price * quantity</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( Apttus_QPConfig__ChargeType__c ,&apos;Standard Price&apos; ), Apttus_QPConfig__Quantity2__c *  Apttus_QPConfig__ListPrice__c,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Extended List Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_IsArcadiaBundle__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>CSP Export NSW</description>
+        <externalId>false</externalId>
+        <label>IsArcadiaBundle</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_IsOptions__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TEXT(Apttus_QPConfig__LineType__c)==&quot;Product/Service&quot;, TEXT(Apttus_Proposal__Product__r.Apttus_Config2__ConfigurationType__c) ,  TEXT(Apttus_QPConfig__OptionId__r.Apttus_Config2__ConfigurationType__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>IsOptions</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Is_CLP__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Whether the prices are fetched from Contracted CLP or not.</description>
+        <externalId>false</externalId>
+        <label>Is CLP</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Is_Direct_Option__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field helps to identify the Arcadia and direct options in the configurator</description>
+        <externalId>false</externalId>
+        <label>Is Direct Option</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Item_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Apttus_Proposal__Product__r.ProductCode =&apos;CUSTPROD001&apos;,&apos;Software&apos;,IF(TEXT(Apttus_QPConfig__LineType__c)==&quot;Product/Service&quot;,  TEXT(Apttus_Proposal__Product__r.NokiaCPQ_Item_Type__c) ,  TEXT(Apttus_QPConfig__OptionId__r.NokiaCPQ_Item_Type__c ) ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Item Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Light_Color__c</fullName>
+        <description>Field Created to set guidance color from PCB</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Deal Guidance Color</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_LumpSumDiscount__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Apttus_Proposal__Proposal__r.NokiaCPQ_Quote_CAD__c/100)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>LumpSumDiscount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_MPW_Uplift__c</fullName>
+        <description>Storing MPW Uplift value used for Maintenance calculations</description>
+        <externalId>false</externalId>
+        <formula>1+( $CustomMetadata.MPW_Maintenance_Uplift__mdt.record1.Care_Project_Management__c + $CustomMetadata.MPW_Maintenance_Uplift__mdt.record1.Global_Service__c + $CustomMetadata.MPW_Maintenance_Uplift__mdt.record1.Solution_Support__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>MPW Uplift</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Maint_Yr1_Base_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>NokiaCPQ Maint Yr1 Base Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Maint_Yr1_Extended_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>NokiaCPQ Maint Yr1 Extended Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Maint_Yr2_Base_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>NokiaCPQ_Maint_Yr2_Base_Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Maint_Yr2_Extended_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>NokiaCPQ Maint Yr2 Extended Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_MarketPrice__c</fullName>
+        <externalId>false</externalId>
+        <label>MarketPrice</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Net_Price__c</fullName>
+        <description>Net Price used by Indirect team to show on Quotes related list</description>
+        <externalId>false</externalId>
+        <formula>Apttus_QPConfig__NetPrice__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Extended CLP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Opportunity_Site__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Site</label>
+        <referenceTo>NokiaCPQ_Site__c</referenceTo>
+        <relationshipLabel>Proposal Line Items</relationshipLabel>
+        <relationshipName>Proposal_Line_Items</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Parent_Bundle_Name__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Parent Product Name</label>
+        <length>245</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Parent_Product__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TEXT(Apttus_QPConfig__LineType__c) = &apos;Option&apos;,&apos;Item Seq# &apos; +TEXT(Apttus_QPConfig__DerivedFromId__r.Apttus_Config2__LineSequence__c)+&apos;: &apos;+Apttus_Proposal__Product__r.Name,&apos;Standalone&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Parent Product</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Partner_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Unitary CLP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Price_List__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Price List</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Product_Category__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(is_Custom_Product__c == true , &quot;Custom Product &quot;,
+IF(TEXT(Apttus_QPConfig__LineType__c) =&quot;Product/Service&quot;, TEXT(Apttus_Proposal__Product__r.NokiaCPQ_Category__c),  TEXT(Apttus_QPConfig__OptionId__r.NokiaCPQ_Category__c)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Category</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Product_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TEXT( Apttus_QPConfig__LineType__c )==&quot;Product/Service&quot;,  Apttus_Proposal__Product__r.Description  , Apttus_QPConfig__OptionId__r.Description )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Product_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(is_Custom_Product__c == true , Custom_Product_Name__c,
+IF(TEXT(Apttus_QPConfig__LineType__c )= &quot;Product/Service&quot;,Apttus_Proposal__Product__r.Name , Apttus_QPConfig__OptionId__r.Name ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Product_Type__c</fullName>
+        <description>The field is used to store the Product type such as access points, controller etc.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Product Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Quantity__c</fullName>
+        <externalId>false</externalId>
+        <formula>Apttus_QPConfig__Quantity2__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Rationale_Of_Adjustment__c</fullName>
+        <description>Req 6001: Rationale for adjustment given on cart</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Discount Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Site_Additional_Info__c</fullName>
+        <externalId>false</externalId>
+        <formula>NokiaCPQ_Opportunity_Site__r.NokiaCPQ_Address__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Site Additional Info</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Spare__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Req 6146: Checkbox field to identify spare parts in shopping cart , so we want this field same as on Line Item</description>
+        <externalId>false</externalId>
+        <label>Spare</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_State__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Apttus_Proposal__Product__r.NokiaCPQ_State__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>State</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Static_Bundle_Option__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Static Bundle Option</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Unitary_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Unitary Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Unitary_IRP__c</fullName>
+        <externalId>false</externalId>
+        <label>Unitary IRP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_Unitary_IRPrice__c</fullName>
+        <description>Used in Reconciliation file</description>
+        <externalId>false</externalId>
+        <label>Unitary IRP2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NokiaCPQ_licenseUsage__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Apttus_QPConfig__LineType__c,&quot;Product/Service&quot;),Text(Apttus_Proposal__Product__r.NokiaCPQ_License_Usage__c), Text(Apttus_QPConfig__OptionId__r.NokiaCPQ_License_Usage__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>NokiaCPQ_licenseUsage</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Nokia_Base_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Partner Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Nokia_CPQ_Reserves__c</fullName>
+        <externalId>false</externalId>
+        <formula>Apttus_Proposal__Proposal__r.Nokia_CPQ_Reserves__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Reserves</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Nokia_SRS_Base_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>SRS Base Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Nokia_SSP_Base_Extended_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>SSP_Base_Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Nokia_SSP_Base_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>SSP Base Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>OEM__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(TEXT(Apttus_QPConfig__LineType__c)==&quot;Product/Service&quot;, Apttus_Proposal__Product__r.NokiaCPQ_OEM__c, Apttus_QPConfig__OptionId__r.NokiaCPQ_OEM__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>OEM</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PCI_Code__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>PCI Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Category_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Apttus_Proposal__Product__r.Name</formula>
+        <label>Product Category Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Classification__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Apttus_QPConfig__LineType__c,&quot;Product/Service&quot;),Text(Apttus_Proposal__Product__r.NokiaCPQ_Classification2__c), Text(Apttus_QPConfig__OptionId__r.NokiaCPQ_Classification2__c))</formula>
+        <label>Product Classification</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(is_Custom_Product__c == true , Custom_Product_Code__c, IF(TEXT(Apttus_QPConfig__LineType__c)==&quot;Product/Service&quot;,   Apttus_Proposal__Product__r.ProductCode ,  Apttus_QPConfig__OptionId__r.ProductCode ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Code</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Portfolio__c</fullName>
+        <externalId>false</externalId>
+        <formula>If( Apttus_Proposal__Product__r.ProductCode==&apos;CUSTPROD001&apos;, TEXT(Apttus_Proposal__Proposal__r.NokiaCPQ_Portfolio__c),Apttus_Proposal__Product__r.Portfolio__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Portfolio</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reference_Price__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(Not(ISBLANK(Apttus_QPConfig__DerivedFromId__r.Reference_Price__c)), Apttus_QPConfig__DerivedFromId__r.Reference_Price__c, null)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Reference Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Sequence_Site_Id__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Sequence Site Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Source_X__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( OR(ISNULL(Source__c),ISBLANK(Source__c)),
+IF( OR(ISNULL(Apttus_QPConfig__OptionId__c),ISBLANK(Apttus_QPConfig__OptionId__c)),&apos;Standalone&apos;,&apos;Configurator&apos; ),
+Source__c)</formula>
+        <label>Source</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Source__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Source</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_ONT_Quantity_FBA__c</fullName>
+        <externalId>false</externalId>
+        <label>Total ONT Quantity FBA</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_ONT_Quantity_P2P__c</fullName>
+        <externalId>false</externalId>
+        <label>Total ONT Quantity P2P</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Option_Quantity__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Option Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>is_Custom_Product__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>is Custom Product</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Proposal Line Item</label>
+    <nameField>
+        <displayFormat>QL-{0000000000}</displayFormat>
+        <label>Line Item Id</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Proposal Line Items</pluralLabel>
+    <recordTypes>
+        <fullName>Proposal_Line_Item_Read_Only</fullName>
+        <active>true</active>
+        <label>Proposal Line Item Read Only</label>
+        <picklistValues>
+            <picklist>Apttus_QPApprov__Approval_Status__c</picklist>
+            <values>
+                <fullName>Approval Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__AdjustmentType__c</picklist>
+            <values>
+                <fullName>%25 Discount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%25 Markup</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Base Price Override</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Discount Amount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Markup Amount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price Factor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price Override</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__AutoRenewalType__c</picklist>
+            <values>
+                <fullName>Evergreen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fixed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__BasePriceMethod__c</picklist>
+            <values>
+                <fullName>Flat Price</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Per Unit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tiered Rate</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__BillingFrequency__c</picklist>
+            <values>
+                <fullName>Daily</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Half Yearly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hourly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>One Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quarterly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yearly</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__BillingRule__c</picklist>
+            <values>
+                <fullName>Bill In Advance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bill In Arrears</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Milestone Billing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__ChargeType__c</picklist>
+            <values>
+                <fullName>Adjustment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Implementation Fee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation Fee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>License Fee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maintenance Fee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Subscription Fee</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__Frequency__c</picklist>
+            <values>
+                <fullName>Daily</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Half Yearly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hourly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quarterly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yearly</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__FulfillmentStatus__c</picklist>
+            <values>
+                <fullName>Fulfilled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Fulfilled</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Partially Fulfilled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__Guidance__c</picklist>
+            <values>
+                <fullName>Green</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Red</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yellow</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__IncentiveType__c</picklist>
+            <values>
+                <fullName>Promotion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rebate</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__LineStatus__c</picklist>
+            <values>
+                <fullName>Amended</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Existing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incremented</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Renewed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upgraded</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__LineType__c</picklist>
+            <values>
+                <fullName>Misc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Option</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product%2FService</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__PriceAdjustmentType__c</picklist>
+            <values>
+                <fullName>%25 Discount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%25 Markup</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Discount Amount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Markup Amount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price Override</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__PriceGroup__c</picklist>
+            <values>
+                <fullName>Price Ramp</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__PriceMethod__c</picklist>
+            <values>
+                <fullName>Flat Price</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Per Unit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Percentage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Related Price</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tiered Rate</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__PriceType__c</picklist>
+            <values>
+                <fullName>One Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recurring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usage</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__PriceUom__c</picklist>
+            <values>
+                <fullName>Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Day</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Each</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gallon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Month</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quarter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__RenewalAdjustmentType__c</picklist>
+            <values>
+                <fullName>%25 Uplift</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Uplift Amount</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__SellingFrequency__c</picklist>
+            <values>
+                <fullName>Daily</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Half Yearly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hourly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>One Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quarterly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yearly</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__SellingUom__c</picklist>
+            <values>
+                <fullName>Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Day</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Each</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gallon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Month</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quarter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Apttus_QPConfig__Uom__c</picklist>
+            <values>
+                <fullName>Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Day</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Each</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Gallon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Month</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quarter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Year</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Apttus_QPConfig__AddLineItems</fullName>
+        <availability>online</availability>
+        <description>Add/Update line items to the quote/proposal</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Add Line Items</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/ProposalConfiguration?id={!Apttus_Proposal__Proposal__c.Id}</url>
+    </webLinks>
+</CustomObject>

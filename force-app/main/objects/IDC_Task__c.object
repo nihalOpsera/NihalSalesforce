@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>TOOLKIT - An object that represents work assigned to an offshore team.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Actual_LOE__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Shows the Actual Level of efforts for the Task</description>
+        <externalId>false</externalId>
+        <label>Actual LOE</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assigned_Date__c</fullName>
+        <description>It’s the date when the task was assigned.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Assigned Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Build_Task_Type__c</fullName>
+        <description>Shows type of the Task</description>
+        <externalId>false</externalId>
+        <label>Build Task Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Task_Type__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Configuration</fullName>
+                    <default>false</default>
+                    <label>Configuration</label>
+                </value>
+                <value>
+                    <fullName>Customization</fullName>
+                    <default>false</default>
+                    <label>Customization</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Build</controllingFieldValue>
+                <valueName>Configuration</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Build</controllingFieldValue>
+                <valueName>Customization</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CWB_Updated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Shows if the Config workbook was updated or not</description>
+        <externalId>false</externalId>
+        <label>CWB Updated?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <description>Comments on the Task</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Complete__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Status__c, &quot;Completed&quot;), 1, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Complete?</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Components_Updated_in_CWB__c</fullName>
+        <description>Details of the components updated in connfig workbook for the task</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Components Updated in CWB</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Defect_Description__c</fullName>
+        <description>Description of the defect</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Defect Description</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Defect_Found__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Shows if the defect was found or not</description>
+        <externalId>false</externalId>
+        <label>Defect Found</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Defect__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Related defect to the task</description>
+        <externalId>false</externalId>
+        <label>Defect</label>
+        <referenceTo>Defect__c</referenceTo>
+        <relationshipLabel>IDC Tasks</relationshipLabel>
+        <relationshipName>IDC_Tasks</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>End_Date__c</fullName>
+        <description>End date of the task</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>IDC_Task__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Related IDC Task</description>
+        <externalId>false</externalId>
+        <label>IDC Task</label>
+        <referenceTo>IDC_Task__c</referenceTo>
+        <relationshipLabel>IDC Tasks</relationshipLabel>
+        <relationshipName>IDC_Tasks</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PM_Efforts__c</fullName>
+        <description>Type of &apos;PM efforts&apos; task type</description>
+        <externalId>false</externalId>
+        <label>PM Efforts</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Task_Type__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CAR Activities</fullName>
+                    <default>false</default>
+                    <label>CAR Activities</label>
+                </value>
+                <value>
+                    <fullName>DAR Activities</fullName>
+                    <default>false</default>
+                    <label>DAR Activities</label>
+                </value>
+                <value>
+                    <fullName>DART Activities</fullName>
+                    <default>false</default>
+                    <label>DART Activities</label>
+                </value>
+                <value>
+                    <fullName>EBS Reporting</fullName>
+                    <default>false</default>
+                    <label>EBS Reporting</label>
+                </value>
+                <value>
+                    <fullName>Project Initiation</fullName>
+                    <default>false</default>
+                    <label>Project Initiation</label>
+                </value>
+                <value>
+                    <fullName>Project Planning</fullName>
+                    <default>false</default>
+                    <label>Project Planning</label>
+                </value>
+                <value>
+                    <fullName>Review Defect Logs</fullName>
+                    <default>false</default>
+                    <label>Review Defect Logs</label>
+                </value>
+                <value>
+                    <fullName>Review Issue Logs</fullName>
+                    <default>false</default>
+                    <label>Review Issue Logs</label>
+                </value>
+                <value>
+                    <fullName>Review Risk Logs</fullName>
+                    <default>false</default>
+                    <label>Review Risk Logs</label>
+                </value>
+                <value>
+                    <fullName>Update Issue Logs</fullName>
+                    <default>false</default>
+                    <label>Update Issue Logs</label>
+                </value>
+                <value>
+                    <fullName>Update Project Plan</fullName>
+                    <default>false</default>
+                    <label>Update Project Plan</label>
+                </value>
+                <value>
+                    <fullName>Update Risk Logs</fullName>
+                    <default>false</default>
+                    <label>Update Risk Logs</label>
+                </value>
+                <value>
+                    <fullName>Project Closing</fullName>
+                    <default>false</default>
+                    <label>Project Closing</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>PM Efforts</controllingFieldValue>
+                <valueName>CAR Activities</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PM Efforts</controllingFieldValue>
+                <valueName>DAR Activities</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PM Efforts</controllingFieldValue>
+                <valueName>DART Activities</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PM Efforts</controllingFieldValue>
+                <valueName>EBS Reporting</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PM Efforts</controllingFieldValue>
+                <valueName>Project Initiation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PM Efforts</controllingFieldValue>
+                <valueName>Project Planning</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PM Efforts</controllingFieldValue>
+                <valueName>Review Defect Logs</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PM Efforts</controllingFieldValue>
+                <valueName>Review Issue Logs</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PM Efforts</controllingFieldValue>
+                <valueName>Review Risk Logs</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PM Efforts</controllingFieldValue>
+                <valueName>Update Issue Logs</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PM Efforts</controllingFieldValue>
+                <valueName>Update Project Plan</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PM Efforts</controllingFieldValue>
+                <valueName>Update Risk Logs</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PM Efforts</controllingFieldValue>
+                <valueName>Project Closing</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Planned_LOE__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Shows planned Level of efforts for the Task</description>
+        <externalId>false</externalId>
+        <label>Planned LOE</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Priority__c</fullName>
+        <description>Priority of the task</description>
+        <externalId>false</externalId>
+        <label>Priority</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Request_Name__c</fullName>
+        <description>Related request&apos;s Client request ID</description>
+        <externalId>false</externalId>
+        <formula>Request__r.Client_Request_ID__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Request Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Request__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Related request to the IDC task</description>
+        <externalId>false</externalId>
+        <label>Requirement</label>
+        <referenceTo>Request__c</referenceTo>
+        <relationshipLabel>IDC Tasks</relationshipLabel>
+        <relationshipName>IDC_Tasks</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <description>Start Date of the task</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <description>Status of the task</description>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Started</fullName>
+                    <default>true</default>
+                    <label>Not Started</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Re-assigned</fullName>
+                    <default>false</default>
+                    <label>Re-assigned</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Task_Description__c</fullName>
+        <description>Description of the task</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Task Description</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Task_Type__c</fullName>
+        <description>Type of the task</description>
+        <externalId>false</externalId>
+        <label>Task Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Analysis</fullName>
+                    <default>false</default>
+                    <label>Analysis</label>
+                </value>
+                <value>
+                    <fullName>Design</fullName>
+                    <default>false</default>
+                    <label>Design</label>
+                </value>
+                <value>
+                    <fullName>Build</fullName>
+                    <default>false</default>
+                    <label>Build</label>
+                </value>
+                <value>
+                    <fullName>Build Review</fullName>
+                    <default>false</default>
+                    <label>Build Review</label>
+                </value>
+                <value>
+                    <fullName>Code Review</fullName>
+                    <default>false</default>
+                    <label>Code Review</label>
+                </value>
+                <value>
+                    <fullName>Test Script Preparation</fullName>
+                    <default>false</default>
+                    <label>Test Script Preparation</label>
+                </value>
+                <value>
+                    <fullName>Test Script Review</fullName>
+                    <default>false</default>
+                    <label>Test Script Review</label>
+                </value>
+                <value>
+                    <fullName>Test Script Execution</fullName>
+                    <default>false</default>
+                    <label>Test Script Execution</label>
+                </value>
+                <value>
+                    <fullName>Defect Fix - Build</fullName>
+                    <default>false</default>
+                    <label>Defect Fix - Build</label>
+                </value>
+                <value>
+                    <fullName>Defect Fix - Code</fullName>
+                    <default>false</default>
+                    <label>Defect Fix - Code</label>
+                </value>
+                <value>
+                    <fullName>Defect Fix - Test Script</fullName>
+                    <default>false</default>
+                    <label>Defect Fix - Test Script</label>
+                </value>
+                <value>
+                    <fullName>PM Efforts</fullName>
+                    <default>false</default>
+                    <label>PM Efforts</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Track__c</fullName>
+        <description>Track of the task</description>
+        <externalId>false</externalId>
+        <label>Track</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Track 1</fullName>
+                    <default>false</default>
+                    <label>Track 1</label>
+                </value>
+                <value>
+                    <fullName>Track 2</fullName>
+                    <default>false</default>
+                    <label>Track 2</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Unit_Test_Script_Attached__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Shows if unit test scripts were attached or not</description>
+        <externalId>false</externalId>
+        <label>Unit Test Script Attached?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>IDC Task</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>Task_Type__c</columns>
+        <columns>Build_Task_Type__c</columns>
+        <columns>Assigned_Date__c</columns>
+        <columns>Status__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Request__c</columns>
+        <columns>Defect__c</columns>
+        <columns>Actual_LOE__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>IDCTask-{0000000000}</displayFormat>
+        <label>IDC Task ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>IDC Tasks</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Attributes_Covered</fullName>
+        <active>true</active>
+        <errorConditionFormula>TEXT(Status__c) = &apos;Completed&apos; &amp;&amp; ( Actual_LOE__c = 0.00 || TEXT(Actual_LOE__c) = &apos;&apos; || Comments__c = &apos;&apos; || Planned_LOE__c = 0.00 || TEXT(Planned_LOE__c) = &apos;&apos; || TEXT(Start_Date__c) = &apos;&apos; || TEXT(End_Date__c) = &apos;&apos;)</errorConditionFormula>
+        <errorMessage>Please enter Comments, Start Date, End Date, Actual LOE and Planned LOE.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CWB_Updated_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( IF(CWB_Updated__c , True, False),
+ISBLANK( Components_Updated_in_CWB__c ) )</errorConditionFormula>
+        <errorDisplayField>Components_Updated_in_CWB__c</errorDisplayField>
+        <errorMessage>Please enter components updated in CWB.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

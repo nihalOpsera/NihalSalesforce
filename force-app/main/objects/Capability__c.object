@@ -1,0 +1,2123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>Feature_Record_Page1</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Feature_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>TOOLKIT - An object that represents as set ability, such as managing opportunities.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Assigned_To__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Assigned To</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Features</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Benefits__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Benefits</label>
+        <length>10000</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Business__c</fullName>
+        <externalId>false</externalId>
+        <label>Business Driver(s)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Compliance</fullName>
+                    <default>false</default>
+                    <label>Compliance</label>
+                </value>
+                <value>
+                    <fullName>Simplification</fullName>
+                    <default>false</default>
+                    <label>Simplification</label>
+                </value>
+                <value>
+                    <fullName>Value Add</fullName>
+                    <default>false</default>
+                    <label>Value Add</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Comments_NSS__c</fullName>
+        <description>Field use for comments from NSS Team</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Comments NSS</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Feature_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Feature Category</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Functional_Area</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Feature_Description__c</fullName>
+        <description>Details of the capability</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Feature Description</label>
+        <length>32768</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Feature_Dev_Team__c</fullName>
+        <externalId>false</externalId>
+        <label>Feature Dev Team</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accenture</fullName>
+                    <default>false</default>
+                    <label>Accenture</label>
+                </value>
+                <value>
+                    <fullName>COE</fullName>
+                    <default>false</default>
+                    <label>COE</label>
+                </value>
+                <value>
+                    <fullName>CPQ Master Data</fullName>
+                    <default>false</default>
+                    <label>CPQ Master Data</label>
+                </value>
+                <value>
+                    <fullName>DSC</fullName>
+                    <default>false</default>
+                    <label>DSC</label>
+                </value>
+                <value>
+                    <fullName>Admin Team</fullName>
+                    <default>false</default>
+                    <label>Admin Team</label>
+                </value>
+                <value>
+                    <fullName>Salesforce</fullName>
+                    <default>false</default>
+                    <label>Salesforce</label>
+                </value>
+                <value>
+                    <fullName>Atos</fullName>
+                    <default>false</default>
+                    <label>Atos</label>
+                </value>
+                <value>
+                    <fullName>Accenture Support Recommended</fullName>
+                    <default>false</default>
+                    <label>Accenture Support Recommended</label>
+                </value>
+                <value>
+                    <fullName>Nokia</fullName>
+                    <default>false</default>
+                    <label>Nokia</label>
+                </value>
+                <value>
+                    <fullName>HCL</fullName>
+                    <default>false</default>
+                    <label>HCL</label>
+                </value>
+                <value>
+                    <fullName>Analytics</fullName>
+                    <default>false</default>
+                    <label>Analytics</label>
+                </value>
+                <value>
+                    <fullName>SDC</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>SDC</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Feature_Number__c</fullName>
+        <displayFormat>{0000}</displayFormat>
+        <externalId>true</externalId>
+        <label>Feature Number</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Feature_T_Shirt_Size_High_Level__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>XS	&lt; 5MDs - Very Small
+S	5-10 MDs - Small
+M	10-15 MDs - Medium
+L	15-20 MDs - Large
+XL	20-30 MDs - X-Large
+XXL	30-40 MDs - XX-Large
+XXXL	&gt; 40 MDs - XXX-Large</inlineHelpText>
+        <label>Feature T-Shirt Size (High-Level)</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Very Small</fullName>
+                    <default>false</default>
+                    <label>Very Small</label>
+                </value>
+                <value>
+                    <fullName>Small</fullName>
+                    <default>false</default>
+                    <label>Small</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>Large</fullName>
+                    <default>false</default>
+                    <label>Large</label>
+                </value>
+                <value>
+                    <fullName>X-Large</fullName>
+                    <default>false</default>
+                    <label>X-Large</label>
+                </value>
+                <value>
+                    <fullName>XX-Large</fullName>
+                    <default>false</default>
+                    <label>XX-Large</label>
+                </value>
+                <value>
+                    <fullName>XXX-Large</fullName>
+                    <default>false</default>
+                    <label>XXX-Large</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Feature_T_Shirt_Size_Roll_Up__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Feature_T_Shirt_Value_Roll_Up__c = 0, &quot;Not Estimated&quot;,
+ IF(Feature_T_Shirt_Value_Roll_Up__c &lt;= 5, &quot;Very Small&quot;,
+  IF((Feature_T_Shirt_Value_Roll_Up__c &gt; 5 &amp;&amp; Feature_T_Shirt_Value_Roll_Up__c &lt;= 10), &quot;Small&quot;,
+   IF((Feature_T_Shirt_Value_Roll_Up__c &gt; 10 &amp;&amp; Feature_T_Shirt_Value_Roll_Up__c &lt;= 15), &quot;Medium&quot;,
+    IF((Feature_T_Shirt_Value_Roll_Up__c &gt; 15 &amp;&amp; Feature_T_Shirt_Value_Roll_Up__c &lt;= 20), &quot;Large&quot;,
+     IF((Feature_T_Shirt_Value_Roll_Up__c &gt; 20 &amp;&amp; Feature_T_Shirt_Value_Roll_Up__c &lt;= 30), &quot;X-Large&quot;,
+      IF((Feature_T_Shirt_Value_Roll_Up__c &gt; 30 &amp;&amp; Feature_T_Shirt_Value_Roll_Up__c &lt;= 40), &quot;XX-Large&quot;,
+       IF(Feature_T_Shirt_Value_Roll_Up__c &gt; 40, &quot;XXX-Large&quot;,
+
+
+&quot;ERROR&quot;))))))))</formula>
+        <inlineHelpText>Aggregated T-Shirt Size based on Related User Stories</inlineHelpText>
+        <label>Feature T-Shirt Size (Roll-Up)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Feature_T_Shirt_Value_High_Level__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( Feature_T_Shirt_Size_High_Level__c ,
+&quot;Very Small&quot;, 5,
+&quot;Small&quot;, 10,
+&quot;Medium&quot;, 15,
+&quot;Large&quot;, 20,
+&quot;X-Large&quot;, 30,
+&quot;XX-Large&quot;, 40,
+&quot;XXX-Large&quot;, 80,
+null
+)</formula>
+        <label>Feature T-Shirt Value (High-Level)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Feature_T_Shirt_Value_Roll_Up__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Sum of Related User Story T-Shirt Values</inlineHelpText>
+        <label>Feature T-Shirt Value (Roll-Up)</label>
+        <summarizedField>User_Story__c.User_Story_T_Shirt_Value_Roll_Up__c</summarizedField>
+        <summaryForeignKey>User_Story__c.Capability__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Feature_Type__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines the type of effort/outcome necessary to support this feature</inlineHelpText>
+        <label>Feature Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Delivery</fullName>
+                    <default>true</default>
+                    <label>Delivery</label>
+                </value>
+                <value>
+                    <fullName>Advisory</fullName>
+                    <default>false</default>
+                    <label>Advisory</label>
+                </value>
+                <value>
+                    <fullName>POC</fullName>
+                    <default>false</default>
+                    <label>POC</label>
+                </value>
+                <value>
+                    <fullName>Conceptual</fullName>
+                    <default>false</default>
+                    <label>Conceptual</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Inputs_Dependencies__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Inputs/Dependencies</label>
+        <length>32768</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>L3_Process__c</fullName>
+        <externalId>false</externalId>
+        <label>L3 Process</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>L3_Process</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>L4_Process_Reference__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>L4 Process Reference</label>
+        <length>64</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Needs_Cleanup__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Needs Cleanup</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Out_of_Scope__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Assumptions/Limitations</label>
+        <length>10000</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Outputs_Acceptance_Criteria__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Outputs/Acceptance Criteria</label>
+        <length>32768</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Overall_T_Shirt_Size__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+ OR(ISNULL(Feature_T_Shirt_Size_Roll_Up__c),
+     Feature_T_Shirt_Size_Roll_Up__c = &quot;Not Estimated&quot;,
+     Feature_T_Shirt_Size_Roll_Up__c = &quot;&quot;),
+  TEXT(Feature_T_Shirt_Size_High_Level__c),
+  Feature_T_Shirt_Size_Roll_Up__c
+)</formula>
+        <inlineHelpText>Final T-Shirt Sizing to be used, takes the roll-up size if it exists else uses the high-level size</inlineHelpText>
+        <label>Overall T-Shirt Size</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Overall_T_Shirt_Value__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+ OR(ISNULL(Feature_T_Shirt_Value_Roll_Up__c),
+    Feature_T_Shirt_Value_Roll_Up__c = 0),
+ Feature_T_Shirt_Value_High_Level__c,
+ Feature_T_Shirt_Value_Roll_Up__c
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Final T-Shirt Value to be used, takes the roll-up value if it exists else uses the high-level value</inlineHelpText>
+        <label>Overall T-Shirt Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Priority__c</fullName>
+        <externalId>false</externalId>
+        <label>Priority</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Priority</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Reference_Material_s__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>To associate supporting material references such as Approval Matrix, LoA Policy, etc.</inlineHelpText>
+        <label>Reference Material(s)</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Release__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Related release to the capability</description>
+        <externalId>false</externalId>
+        <label>Release</label>
+        <referenceTo>Release__c</referenceTo>
+        <relationshipName>Capabilities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Risks__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Risks</label>
+        <length>10000</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SOURCE_ID__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>SOURCE ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Scoping_Comments__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Scoping Comments</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Scoping_Identifier__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>For PM usage, to associate Feature set to initial contractual scope</inlineHelpText>
+        <label>Scoping Identifier</label>
+        <length>64</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Started</fullName>
+                    <default>true</default>
+                    <label>Not Started</label>
+                </value>
+                <value>
+                    <fullName>Pending CCB Approval</fullName>
+                    <default>false</default>
+                    <label>Pending CCB Approval</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Blocked</fullName>
+                    <default>false</default>
+                    <label>Blocked</label>
+                </value>
+                <value>
+                    <fullName>Canceled</fullName>
+                    <default>false</default>
+                    <label>Canceled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Team__c</fullName>
+        <externalId>false</externalId>
+        <label>Feature Team</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Accounts, Leads, Contacts</fullName>
+                    <default>false</default>
+                    <label>Accounts, Leads, Contacts</label>
+                </value>
+                <value>
+                    <fullName>Approvals/IWA</fullName>
+                    <default>false</default>
+                    <label>Approvals/IWA</label>
+                </value>
+                <value>
+                    <fullName>Apttus</fullName>
+                    <default>false</default>
+                    <label>Apttus</label>
+                </value>
+                <value>
+                    <fullName>CMD Pack 4</fullName>
+                    <default>false</default>
+                    <label>CMD Pack 4</label>
+                </value>
+                <value>
+                    <fullName>COE</fullName>
+                    <default>false</default>
+                    <label>COE</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Cross BG</fullName>
+                    <default>false</default>
+                    <label>CPQ - Cross BG</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Direct ION</fullName>
+                    <default>false</default>
+                    <label>CPQ - Direct ION</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Direct MN</fullName>
+                    <default>false</default>
+                    <label>CPQ - Direct MN</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Direct NSW</fullName>
+                    <default>false</default>
+                    <label>CPQ - Direct NSW</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Enterprise</fullName>
+                    <default>false</default>
+                    <label>CPQ - Enterprise</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Indirect</fullName>
+                    <default>false</default>
+                    <label>CPQ - Indirect</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Masterdata</fullName>
+                    <default>false</default>
+                    <label>CPQ - Masterdata</label>
+                </value>
+                <value>
+                    <fullName>CPQ - NPI All</fullName>
+                    <default>false</default>
+                    <label>CPQ - NPI All</label>
+                </value>
+                <value>
+                    <fullName>CPQ - NPI FN</fullName>
+                    <default>false</default>
+                    <label>CPQ - NPI FN</label>
+                </value>
+                <value>
+                    <fullName>CPQ - NPI ION</fullName>
+                    <default>false</default>
+                    <label>CPQ - NPI ION</label>
+                </value>
+                <value>
+                    <fullName>CPQ - NPI MN</fullName>
+                    <default>false</default>
+                    <label>CPQ - NPI MN</label>
+                </value>
+                <value>
+                    <fullName>CPQ - NPI NSW</fullName>
+                    <default>false</default>
+                    <label>CPQ - NPI NSW</label>
+                </value>
+                <value>
+                    <fullName>CPQ - QTC Quoting</fullName>
+                    <default>false</default>
+                    <label>CPQ - QTC Quoting</label>
+                </value>
+                <value>
+                    <fullName>CPQ - System &amp; Data</fullName>
+                    <default>false</default>
+                    <label>CPQ - System &amp; Data</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Unassigned</fullName>
+                    <default>false</default>
+                    <label>CPQ - Unassigned</label>
+                </value>
+                <value>
+                    <fullName>Data Migration</fullName>
+                    <default>false</default>
+                    <label>Data Migration</label>
+                </value>
+                <value>
+                    <fullName>Digital Sales</fullName>
+                    <default>false</default>
+                    <label>Digital Sales</label>
+                </value>
+                <value>
+                    <fullName>Doc Strategy</fullName>
+                    <default>false</default>
+                    <label>Doc Strategy</label>
+                </value>
+                <value>
+                    <fullName>Encryption</fullName>
+                    <default>false</default>
+                    <label>Encryption</label>
+                </value>
+                <value>
+                    <fullName>Forecasting</fullName>
+                    <default>false</default>
+                    <label>Forecasting</label>
+                </value>
+                <value>
+                    <fullName>Interfaces/ETL</fullName>
+                    <default>false</default>
+                    <label>Interfaces/ETL</label>
+                </value>
+                <value>
+                    <fullName>LoA</fullName>
+                    <default>false</default>
+                    <label>LoA</label>
+                </value>
+                <value>
+                    <fullName>Mobile</fullName>
+                    <default>false</default>
+                    <label>Mobile</label>
+                </value>
+                <value>
+                    <fullName>NGOEP</fullName>
+                    <default>false</default>
+                    <label>NGOEP</label>
+                </value>
+                <value>
+                    <fullName>NGOEP – CPO</fullName>
+                    <default>false</default>
+                    <label>NGOEP – CPO</label>
+                </value>
+                <value>
+                    <fullName>NGOEP – CSO Request</fullName>
+                    <default>false</default>
+                    <label>NGOEP – CSO Request</label>
+                </value>
+                <value>
+                    <fullName>NGOEP – Flows and Interaction</fullName>
+                    <default>false</default>
+                    <label>NGOEP – Flows and Interaction</label>
+                </value>
+                <value>
+                    <fullName>NGOEP – General</fullName>
+                    <default>false</default>
+                    <label>NGOEP – General</label>
+                </value>
+                <value>
+                    <fullName>Org Strategy/Sales Hierarchy</fullName>
+                    <default>false</default>
+                    <label>Org Strategy/Sales Hierarchy</label>
+                </value>
+                <value>
+                    <fullName>Partner Portal</fullName>
+                    <default>false</default>
+                    <label>Partner Portal</label>
+                </value>
+                <value>
+                    <fullName>PreSales/Risk</fullName>
+                    <default>false</default>
+                    <label>PreSales/Risk</label>
+                </value>
+                <value>
+                    <fullName>Reporting</fullName>
+                    <default>false</default>
+                    <label>Reporting</label>
+                </value>
+                <value>
+                    <fullName>Sales Process</fullName>
+                    <default>false</default>
+                    <label>Sales Process</label>
+                </value>
+                <value>
+                    <fullName>SDC</fullName>
+                    <default>false</default>
+                    <label>SDC</label>
+                </value>
+                <value>
+                    <fullName>Security</fullName>
+                    <default>false</default>
+                    <label>Security</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Theme__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Theme</label>
+        <referenceTo>Theme__c</referenceTo>
+        <relationshipLabel>Features</relationshipLabel>
+        <relationshipName>Features</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Tool_Template_Documented_Knowledge__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Tool, Template, Documented Knowledge</label>
+        <length>32768</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Total_Related_User_Stories__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Related User Stories</label>
+        <summaryForeignKey>User_Story__c.Capability__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_User_Stories__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText># of User Stories related to this Feature.</inlineHelpText>
+        <label>Total User Stories</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Workstream__c</fullName>
+        <externalId>false</externalId>
+        <label>Workstream</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1-Interfaces &amp; Data Migration</fullName>
+                    <default>false</default>
+                    <label>1-Interfaces &amp; Data Migration</label>
+                </value>
+                <value>
+                    <fullName>2-People</fullName>
+                    <default>false</default>
+                    <label>2-People</label>
+                </value>
+                <value>
+                    <fullName>3-Sales Process</fullName>
+                    <default>false</default>
+                    <label>3-Sales Process</label>
+                </value>
+                <value>
+                    <fullName>4-Reporting &amp; Forecasting</fullName>
+                    <default>false</default>
+                    <label>4-Reporting &amp; Forecasting</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>ERM</fullName>
+                    <default>false</default>
+                    <label>ERM</label>
+                </value>
+                <value>
+                    <fullName>EEC</fullName>
+                    <default>false</default>
+                    <label>EEC</label>
+                </value>
+                <value>
+                    <fullName>CSR</fullName>
+                    <default>false</default>
+                    <label>CSR</label>
+                </value>
+                <value>
+                    <fullName>CPQ - NPI</fullName>
+                    <default>false</default>
+                    <label>CPQ - NPI</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Main</fullName>
+                    <default>false</default>
+                    <label>CPQ - Main</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Direct MN</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - Direct MN</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Direct NSW</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - Direct NSW</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Indirect</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - Indirect</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Masterdata</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - Masterdata</label>
+                </value>
+                <value>
+                    <fullName>CPQ - NPI All</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - NPI All</label>
+                </value>
+                <value>
+                    <fullName>CPQ - NPI FN</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - NPI FN</label>
+                </value>
+                <value>
+                    <fullName>CPQ - NPI ION</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - NPI ION</label>
+                </value>
+                <value>
+                    <fullName>CPQ - NPI MN</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - NPI MN</label>
+                </value>
+                <value>
+                    <fullName>CPQ - NPI NSW</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - NPI NSW</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Solution Taskforce</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - Solution Taskforce</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Surround CQs</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - Surround CQs</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Feature</label>
+    <listViews>
+        <fullName>Accounts_Leads_Contacts</fullName>
+        <columns>Feature_Number__c</columns>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>L4_Process_Reference__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Workstream__c</columns>
+        <columns>Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>&quot;Accounts, Leads, Contacts&quot;,Org Strategy/Sales Hierarchy</value>
+        </filters>
+        <filters>
+            <field>Release__c</field>
+            <operation>contains</operation>
+            <value>october</value>
+        </filters>
+        <label>People Release 4</label>
+    </listViews>
+    <listViews>
+        <fullName>Approvals_IWA</fullName>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>Approvals/IWA</value>
+        </filters>
+        <filters>
+            <field>Release__c</field>
+            <operation>contains</operation>
+            <value>october</value>
+        </filters>
+        <label>Approvals / IWA</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>COE_Sales_Team_Portugal_Capability</fullName>
+        <filterScope>Queue</filterScope>
+        <label>COE Sales Team Portugal</label>
+        <queue>COE_Sales_Team_Portugal</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CPQ</fullName>
+        <columns>NAME</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>Release__c</columns>
+        <columns>Status__c</columns>
+        <columns>Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>contains</operation>
+            <value>CPQ</value>
+        </filters>
+        <label>CPQ</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>CoE_October_Release</fullName>
+        <columns>NAME</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>Feature_T_Shirt_Size_High_Level__c</columns>
+        <columns>Priority__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Feature_Dev_Team__c</field>
+            <operation>equals</operation>
+            <value>COE</value>
+        </filters>
+        <filters>
+            <field>Release__c</field>
+            <operation>contains</operation>
+            <value>October</value>
+        </filters>
+        <label>CoE October Release</label>
+    </listViews>
+    <listViews>
+        <fullName>Copy_of_ERM_2_1_Feb19</fullName>
+        <columns>NAME</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Feature_Number__c</columns>
+        <columns>Team__c</columns>
+        <columns>Feature_Type__c</columns>
+        <columns>Status__c</columns>
+        <columns>Release__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Feature_Dev_Team__c</field>
+            <operation>equals</operation>
+            <value>COE</value>
+        </filters>
+        <filters>
+            <field>Release__c</field>
+            <operation>equals</operation>
+            <value>SingleCRM Release February 2019</value>
+        </filters>
+        <label>Features from Coe to Feb19</label>
+        <sharedTo>
+            <group>CoE_PT</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Data_Migration</fullName>
+        <columns>NAME</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>L3_Process__c</columns>
+        <columns>L4_Process_Reference__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Workstream__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>Data Migration</value>
+        </filters>
+        <label>Data Migration</label>
+    </listViews>
+    <listViews>
+        <fullName>Digital_Sales_Feature_List</fullName>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>startsWith</operation>
+            <value>SW</value>
+        </filters>
+        <label>Digital Sales - Feature List</label>
+    </listViews>
+    <listViews>
+        <fullName>Doc_Strategy</fullName>
+        <columns>NAME</columns>
+        <columns>Feature_Number__c</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>L3_Process__c</columns>
+        <columns>L4_Process_Reference__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Workstream__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>Doc Strategy</value>
+        </filters>
+        <label>Doc Strategy</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Doc_Strategy1</fullName>
+        <columns>NAME</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>L3_Process__c</columns>
+        <columns>L4_Process_Reference__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Workstream__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <columns>Feature_Number__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>Doc Strategy</value>
+        </filters>
+        <label>Doc Strategy</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>EDU_Ticketing_System_Features</fullName>
+        <columns>NAME</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>Release__c</columns>
+        <columns>Status__c</columns>
+        <columns>Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Release__c</field>
+            <operation>contains</operation>
+            <value>EDU TS</value>
+        </filters>
+        <label>EDU TS - Features</label>
+    </listViews>
+    <listViews>
+        <fullName>ERM_2_1</fullName>
+        <columns>NAME</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Feature_Number__c</columns>
+        <columns>Team__c</columns>
+        <columns>Feature_Type__c</columns>
+        <columns>Status__c</columns>
+        <columns>Release__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>startsWith</operation>
+            <value>ERM</value>
+        </filters>
+        <label>ERM 2.1</label>
+        <sharedTo>
+            <group>CoE_PT</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>ERM_Features</fullName>
+        <columns>NAME</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Feature_Number__c</columns>
+        <columns>Team__c</columns>
+        <columns>Feature_Type__c</columns>
+        <columns>Status__c</columns>
+        <columns>Release__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Workstream__c</field>
+            <operation>equals</operation>
+            <value>ERM</value>
+        </filters>
+        <label>ERM - Features</label>
+    </listViews>
+    <listViews>
+        <fullName>Encryption</fullName>
+        <columns>NAME</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>L3_Process__c</columns>
+        <columns>L4_Process_Reference__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Workstream__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>Encryption</value>
+        </filters>
+        <label>Encryption</label>
+    </listViews>
+    <listViews>
+        <fullName>Forecasting</fullName>
+        <columns>NAME</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>L3_Process__c</columns>
+        <columns>L4_Process_Reference__c</columns>
+        <columns>Release__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Workstream__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>Forecasting</value>
+        </filters>
+        <label>Forecasting</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Interfaces_ETL</fullName>
+        <columns>NAME</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>L3_Process__c</columns>
+        <columns>L4_Process_Reference__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Workstream__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>Interfaces/ETL</value>
+        </filters>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>AP2019</value>
+        </filters>
+        <label>Interfaces/ETL</label>
+    </listViews>
+    <listViews>
+        <fullName>Interfaces_ETL_Phase_1</fullName>
+        <columns>NAME</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>L3_Process__c</columns>
+        <columns>L4_Process_Reference__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Workstream__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <columns>Release__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>Interfaces/ETL</value>
+        </filters>
+        <filters>
+            <field>Release__c</field>
+            <operation>equals</operation>
+            <value>SingleCRM Phase 1</value>
+        </filters>
+        <label>Interfaces/ETL Phase 1</label>
+    </listViews>
+    <listViews>
+        <fullName>LoA</fullName>
+        <columns>NAME</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>L3_Process__c</columns>
+        <columns>L4_Process_Reference__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Workstream__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <columns>Release__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>LoA</value>
+        </filters>
+        <label>LoA</label>
+    </listViews>
+    <listViews>
+        <fullName>LoA_Digitalization_Features</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Feature_Type__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Release__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Feature_Category__c</field>
+            <operation>equals</operation>
+            <value>&quot;LoA Digitalization, LoA up-sell, LoA Management&quot;</value>
+        </filters>
+        <filters>
+            <field>Theme__c</field>
+            <operation>equals</operation>
+            <value>LoA Digitalization</value>
+        </filters>
+        <label>LoA Digitalization Features</label>
+    </listViews>
+    <listViews>
+        <fullName>MP_Digital_Sales</fullName>
+        <columns>NAME</columns>
+        <columns>Priority__c</columns>
+        <columns>Total_Related_User_Stories__c</columns>
+        <columns>Status__c</columns>
+        <columns>Release__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Release__c</field>
+            <operation>startsWith</operation>
+            <value>Digital Sales</value>
+        </filters>
+        <label>Digital Sales // SWx</label>
+    </listViews>
+    <listViews>
+        <fullName>Mobile</fullName>
+        <columns>NAME</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>L3_Process__c</columns>
+        <columns>L4_Process_Reference__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Workstream__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>Mobile</value>
+        </filters>
+        <label>Mobile</label>
+    </listViews>
+    <listViews>
+        <fullName>NGOEP</fullName>
+        <columns>NAME</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>Release__c</columns>
+        <columns>Workstream__c</columns>
+        <columns>Total_User_Stories__c</columns>
+        <columns>Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Release__c</field>
+            <operation>equals</operation>
+            <value>NGOEP - Release 1</value>
+        </filters>
+        <label>NGOEP</label>
+    </listViews>
+    <listViews>
+        <fullName>Org_Strategy_Sales_Hierarchy</fullName>
+        <columns>Feature_Number__c</columns>
+        <columns>NAME</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>L3_Process__c</columns>
+        <columns>L4_Process_Reference__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Workstream__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <columns>Release__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>Org Strategy/Sales Hierarchy</value>
+        </filters>
+        <label>Org Strategy/Sales Hierarchy</label>
+    </listViews>
+    <listViews>
+        <fullName>PRM_Features</fullName>
+        <columns>NAME</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>Status__c</columns>
+        <columns>Release__c</columns>
+        <columns>Team__c</columns>
+        <columns>Overall_T_Shirt_Value__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Release__c</field>
+            <operation>contains</operation>
+            <value>PRM</value>
+        </filters>
+        <filters>
+            <field>Feature_Category__c</field>
+            <operation>equals</operation>
+            <value>Partner Portal</value>
+        </filters>
+        <label>PRM Features</label>
+    </listViews>
+    <listViews>
+        <fullName>PRM_Features_Open</fullName>
+        <columns>NAME</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>Status__c</columns>
+        <columns>Release__c</columns>
+        <columns>Team__c</columns>
+        <columns>Overall_T_Shirt_Value__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Release__c</field>
+            <operation>contains</operation>
+            <value>PRM</value>
+        </filters>
+        <filters>
+            <field>Feature_Category__c</field>
+            <operation>equals</operation>
+            <value>Partner Portal</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Not Started,In Progress,Blocked</value>
+        </filters>
+        <label>PRM Features - Open</label>
+        <sharedTo>
+            <group>PRM_Admin</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Partner_Portal</fullName>
+        <columns>NAME</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>L3_Process__c</columns>
+        <columns>L4_Process_Reference__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Workstream__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>Partner Portal</value>
+        </filters>
+        <label>Partner Portal</label>
+    </listViews>
+    <listViews>
+        <fullName>People_Backlog</fullName>
+        <columns>Feature_Number__c</columns>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Workstream__c</columns>
+        <columns>Team__c</columns>
+        <columns>Feature_T_Shirt_Size_High_Level__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>&quot;Accounts, Leads, Contacts&quot;,Org Strategy/Sales Hierarchy</value>
+        </filters>
+        <filters>
+            <field>Release__c</field>
+            <operation>contains</operation>
+            <value>backlog</value>
+        </filters>
+        <label>People Backlog</label>
+    </listViews>
+    <listViews>
+        <fullName>People_Features</fullName>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Status__c</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>Release__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Workstream__c</columns>
+        <columns>Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>&quot;Accounts, Leads, Contacts&quot;,Org Strategy/Sales Hierarchy</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Completed,Canceled</value>
+        </filters>
+        <label>People Features</label>
+    </listViews>
+    <listViews>
+        <fullName>Pre_Sales_Features</fullName>
+        <columns>NAME</columns>
+        <columns>Total_Related_User_Stories__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Status__c</columns>
+        <columns>Release__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>PreSales/Risk</value>
+        </filters>
+        <label>Pre-Sales Features</label>
+    </listViews>
+    <listViews>
+        <fullName>Pricing_Release_1</fullName>
+        <columns>NAME</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>Release__c</columns>
+        <columns>Status__c</columns>
+        <columns>Priority__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>CPQ Team</value>
+        </filters>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>Price</value>
+        </filters>
+        <label>Pricing Features</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Release_4_People</fullName>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <columns>Feature_Number__c</columns>
+        <columns>NAME</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>Feature_Type__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Release__c</columns>
+        <columns>Status__c</columns>
+        <columns>Feature_T_Shirt_Size_High_Level__c</columns>
+        <columns>Team__c</columns>
+        <columns>Workstream__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Release__c</field>
+            <operation>contains</operation>
+            <value>October</value>
+        </filters>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>Org Strategy/Sales Hierarchy,&quot;Accounts, Leads, Contacts&quot;</value>
+        </filters>
+        <filters>
+            <field>Workstream__c</field>
+            <operation>equals</operation>
+            <value>2-People</value>
+        </filters>
+        <label>Release 4 People Features</label>
+    </listViews>
+    <listViews>
+        <fullName>Release_5_People_Features</fullName>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <columns>Feature_Number__c</columns>
+        <columns>NAME</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>Feature_Type__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Release__c</columns>
+        <columns>Status__c</columns>
+        <columns>Feature_T_Shirt_Size_High_Level__c</columns>
+        <columns>Team__c</columns>
+        <columns>Workstream__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Release__c</field>
+            <operation>contains</operation>
+            <value>5</value>
+        </filters>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>Org Strategy/Sales Hierarchy,&quot;Accounts, Leads, Contacts&quot;</value>
+        </filters>
+        <filters>
+            <field>Workstream__c</field>
+            <operation>equals</operation>
+            <value>2-People</value>
+        </filters>
+        <label>People Release 5</label>
+    </listViews>
+    <listViews>
+        <fullName>SDC_features</fullName>
+        <columns>Feature_Number__c</columns>
+        <columns>OBJECT_ID</columns>
+        <columns>NAME</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>Feature_Dev_Team__c</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Status__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Feature_Dev_Team__c</field>
+            <operation>equals</operation>
+            <value>SDC</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed,Canceled</value>
+        </filters>
+        <filters>
+            <field>Release__c</field>
+            <operation>equals</operation>
+            <value>SingleCRM Release August 2018</value>
+        </filters>
+        <label>SDC features</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>HCL_Members</group>
+            <group>SDC</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Sales_Process</fullName>
+        <columns>NAME</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>L3_Process__c</columns>
+        <columns>L4_Process_Reference__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Workstream__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <columns>Feature_Dev_Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Feature_Number__c</field>
+            <operation>notEqual</operation>
+            <value>0149</value>
+        </filters>
+        <filters>
+            <field>Feature_Dev_Team__c</field>
+            <operation>equals</operation>
+            <value>COE</value>
+        </filters>
+        <label>Sales Process TEAM</label>
+    </listViews>
+    <listViews>
+        <fullName>Sales_Process_Phase2_April_Spr5</fullName>
+        <columns>Release__c</columns>
+        <columns>Team__c</columns>
+        <columns>NAME</columns>
+        <columns>Total_Related_User_Stories__c</columns>
+        <columns>Workstream__c</columns>
+        <columns>Status__c</columns>
+        <columns>Priority__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Release__c</field>
+            <operation>contains</operation>
+            <value>Phase 2,April,July,October</value>
+        </filters>
+        <filters>
+            <field>Workstream__c</field>
+            <operation>equals</operation>
+            <value>3-Sales Process</value>
+        </filters>
+        <label>Sales Process beyond Phase1</label>
+    </listViews>
+    <listViews>
+        <fullName>Sales_Process_TEAM_Needs_Cleanup</fullName>
+        <columns>NAME</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>L3_Process__c</columns>
+        <columns>L4_Process_Reference__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Workstream__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <columns>Feature_Number__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>Sales Process</value>
+        </filters>
+        <filters>
+            <field>Needs_Cleanup__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Sales Process TEAM (Needs Cleanup)</label>
+    </listViews>
+    <listViews>
+        <fullName>Security</fullName>
+        <columns>NAME</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>L3_Process__c</columns>
+        <columns>L4_Process_Reference__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Workstream__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>Security</value>
+        </filters>
+        <label>Security</label>
+    </listViews>
+    <listViews>
+        <fullName>Team_2a_People_Org_Strategy_Sales_H</fullName>
+        <columns>Feature_Number__c</columns>
+        <columns>NAME</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Team__c</columns>
+        <columns>Workstream__c</columns>
+        <columns>Status__c</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>Release__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>Org Strategy/Sales Hierarchy</value>
+        </filters>
+        <label>Team 2a - People -- Org Strategy/Sales H</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Team_2a_People_Org_Strategy_Sales_H1</fullName>
+        <columns>Feature_Number__c</columns>
+        <columns>NAME</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Team__c</columns>
+        <columns>Workstream__c</columns>
+        <columns>Status__c</columns>
+        <columns>Assigned_To__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>Org Strategy/Sales Hierarchy</value>
+        </filters>
+        <label>Team 2a - People -- Org Strategy/Sales H</label>
+    </listViews>
+    <listViews>
+        <fullName>fALU_decomm</fullName>
+        <columns>Feature_Number__c</columns>
+        <columns>NAME</columns>
+        <columns>Feature_Category__c</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Workstream__c</columns>
+        <columns>Team__c</columns>
+        <columns>Out_of_Scope__c</columns>
+        <columns>Feature_Dev_Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Release__c</field>
+            <operation>equals</operation>
+            <value>fALU SFDC Decommissioning</value>
+        </filters>
+        <label>FSD/ Contracted Quote</label>
+    </listViews>
+    <listViews>
+        <fullName>sCPQ_Backlog_Features</fullName>
+        <columns>Theme__c</columns>
+        <columns>Feature_Number__c</columns>
+        <columns>NAME</columns>
+        <columns>Team__c</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Release__c</columns>
+        <columns>Scoping_Comments__c</columns>
+        <columns>Risks__c</columns>
+        <columns>Out_of_Scope__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Release__c</field>
+            <operation>startsWith</operation>
+            <value>smartCPQ</value>
+        </filters>
+        <filters>
+            <field>Release__c</field>
+            <operation>notContain</operation>
+            <value>February,March,NPI</value>
+        </filters>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>CPQ - Direct MN</value>
+        </filters>
+        <label>smartCPQ (Backlog) Features</label>
+    </listViews>
+    <listViews>
+        <fullName>sCRM_Backlog</fullName>
+        <columns>Team__c</columns>
+        <columns>Feature_Type__c</columns>
+        <columns>NAME</columns>
+        <columns>Priority__c</columns>
+        <columns>Feature_T_Shirt_Size_High_Level__c</columns>
+        <columns>Status__c</columns>
+        <columns>Release__c</columns>
+        <columns>Scoping_Comments__c</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Benefits__c</columns>
+        <columns>Out_of_Scope__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Release__c</field>
+            <operation>equals</operation>
+            <value>SingleCRM Backlog,SingleCRM Release August 2018</value>
+        </filters>
+        <label>sCRM Backlog</label>
+    </listViews>
+    <listViews>
+        <fullName>smartCPQ_Features_July_Release_2019</fullName>
+        <columns>Team__c</columns>
+        <columns>Theme__c</columns>
+        <columns>NAME</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Feature_T_Shirt_Size_High_Level__c</columns>
+        <columns>Feature_T_Shirt_Value_High_Level__c</columns>
+        <columns>Status__c</columns>
+        <columns>Total_Related_User_Stories__c</columns>
+        <columns>Priority__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Release__c</field>
+            <operation>equals</operation>
+            <value>smartCPQ 2019 July</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed,Canceled</value>
+        </filters>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>CPQ - QtC CQ</value>
+        </filters>
+        <label>smartCPQ Features July Release 2019</label>
+    </listViews>
+    <listViews>
+        <fullName>smartCPQ_May_2019_Features</fullName>
+        <columns>Theme__c</columns>
+        <columns>Feature_Number__c</columns>
+        <columns>NAME</columns>
+        <columns>Feature_Description__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Release__c</columns>
+        <columns>Team__c</columns>
+        <columns>Scoping_Comments__c</columns>
+        <columns>Risks__c</columns>
+        <columns>Out_of_Scope__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Release__c</field>
+            <operation>equals</operation>
+            <value>smartCPQ 2019 July</value>
+        </filters>
+        <label>smartCPQ (July 2019) Features</label>
+    </listViews>
+    <nameField>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Feature Name</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Features</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Feature_Category__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Feature_Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>L3_Process__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>L4_Process_Reference__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Priority__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Workstream__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Team__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Feature_Category__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Feature_Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>L3_Process__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>L4_Process_Reference__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Priority__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Workstream__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Team__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Feature_Category__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Feature_Description__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>L3_Process__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>L4_Process_Reference__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Priority__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Workstream__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Team__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Status__c</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Feature_Category__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Feature_Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>L3_Process__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>L4_Process_Reference__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Priority__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Workstream__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Team__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

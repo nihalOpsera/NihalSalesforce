@@ -1,0 +1,3164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>Business_Plan_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Business_Plan_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>Business_Plan_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Business_Plan_Compact_Layout</fullName>
+        <fields>Account_BP__c</fields>
+        <fields>Year__c</fields>
+        <fields>Name</fields>
+        <fields>Business_Plan_Status__c</fields>
+        <label>Business Plan Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>A_A_product_s_you_intend_to_sell__c</fullName>
+        <defaultValue>&apos;Enter Product&apos;</defaultValue>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>*A&amp;A product(s) you intend to sell</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>A_A_service_s_you_intend_to_sell__c</fullName>
+        <defaultValue>&apos;Enter Service&apos;</defaultValue>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>*A&amp;A service(s) you intend to sell</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Account_BP__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Business Plans</relationshipLabel>
+        <relationshipName>Business_Plans</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Affiliates_URL__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Please provide URLs of any affiliated businesses included in the scope of this business plan.</inlineHelpText>
+        <label>Affiliates&apos; URLs</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Approval_Reminder_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Approval Reminder Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Business_Plan_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;Business Plan &quot;  &amp;  TEXT(Year( Review_date__c ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Business Plan Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Business_Plan_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Business Plan Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Submitted</fullName>
+                    <default>false</default>
+                    <label>Submitted</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Cloned_BP__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Cloned BP</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Company_Annual_Revenue_attributed_to_IT__c</fullName>
+        <externalId>false</externalId>
+        <label>*Company Annual Revenue attributed to IT</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>&lt; 5M</fullName>
+                    <default>false</default>
+                    <label>&lt; 5M</label>
+                </value>
+                <value>
+                    <fullName>5M -10 M</fullName>
+                    <default>false</default>
+                    <label>5M -10 M</label>
+                </value>
+                <value>
+                    <fullName>10M -50 M</fullName>
+                    <default>false</default>
+                    <label>10M -50 M</label>
+                </value>
+                <value>
+                    <fullName>50M - 100 M</fullName>
+                    <default>false</default>
+                    <label>50M - 100 M</label>
+                </value>
+                <value>
+                    <fullName>100M - 500M</fullName>
+                    <default>false</default>
+                    <label>100M - 500M</label>
+                </value>
+                <value>
+                    <fullName>&gt; 500M</fullName>
+                    <default>false</default>
+                    <label>&gt; 500M</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Company_URL__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Company URL</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Competitive_Portfolio_you_represent__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Define the vendor portfolios that overlap or compete with Nokia</inlineHelpText>
+        <label>*Competitive Portfolio you represent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+                <value>
+                    <fullName>Arista</fullName>
+                    <default>false</default>
+                    <label>Arista</label>
+                </value>
+                <value>
+                    <fullName>Ciena</fullName>
+                    <default>false</default>
+                    <label>Ciena</label>
+                </value>
+                <value>
+                    <fullName>Cisco</fullName>
+                    <default>false</default>
+                    <label>Cisco</label>
+                </value>
+                <value>
+                    <fullName>Ericsson</fullName>
+                    <default>false</default>
+                    <label>Ericsson</label>
+                </value>
+                <value>
+                    <fullName>Huawei</fullName>
+                    <default>false</default>
+                    <label>Huawei</label>
+                </value>
+                <value>
+                    <fullName>Juniper</fullName>
+                    <default>false</default>
+                    <label>Juniper</label>
+                </value>
+                <value>
+                    <fullName>ZTE</fullName>
+                    <default>false</default>
+                    <label>ZTE</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Complementary_Portfolio_you_represent__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Define the vendor portfolios that complement the Nokia portfolio</inlineHelpText>
+        <label>*Complementary Portfolio you represent</label>
+        <length>150</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Completed_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Completed Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Do_you_measure_Customer_Satisfaction__c</fullName>
+        <externalId>false</externalId>
+        <label>Do you measure Customer Satisfaction?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Executive_Sponsor_Partner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Executive Sponsor is an individual appointed to manage the Nokia executive relationship.</inlineHelpText>
+        <label>Executive Sponsors (Partner)</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Business Plans</relationshipLabel>
+        <relationshipName>Executive_Sponsor_Partner</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Expectations_from_Nokia_to_your_Success__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this Field to define your expectations of Nokia to support your success.</inlineHelpText>
+        <label>Expectations from Nokia to your Success</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Expected_Amount_A_A_Product_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>*Expected Amount A&amp;A Product Revenue</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Expected_Amount_A_A_Services_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>*Expected Amount A&amp;A Services Revenue</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Expected_Amount_FN_Product_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>*Expected Amount FN Product Revenue</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Expected_Amount_FN_Services_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>*Expected Amount FN Services Revenue</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Expected_Amount_GS_Product_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>*Expected Amount GS Solutions Revenue</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Expected_Amount_GS_Services_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>*Expected Amount GS Services Revenue</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Expected_Amount_ION_Product_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>*Expected Amount ION Product Revenue</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Expected_Amount_ION_Services_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>*Expected Amount ION Services Revenue</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Expected_Amount_MN_Product_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>*Expected Amount MN Product Revenue</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Expected_Amount_MN_Services_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>*Expected Amount MN Services Revenue</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Expected_YY_Growth_by_A_A__c</fullName>
+        <externalId>false</externalId>
+        <label>*Expected YY Growth by A&amp;A</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+                <value>
+                    <fullName>&lt;10%</fullName>
+                    <default>false</default>
+                    <label>&lt;10%</label>
+                </value>
+                <value>
+                    <fullName>10-30%</fullName>
+                    <default>false</default>
+                    <label>10-30%</label>
+                </value>
+                <value>
+                    <fullName>&gt; 50%</fullName>
+                    <default>false</default>
+                    <label>&gt; 50%</label>
+                </value>
+                <value>
+                    <fullName>&gt;100%</fullName>
+                    <default>false</default>
+                    <label>&gt;100%</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Expected_YY_Growth_by_FN__c</fullName>
+        <externalId>false</externalId>
+        <label>*Expected YY Growth by FN</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+                <value>
+                    <fullName>&lt;10%</fullName>
+                    <default>false</default>
+                    <label>&lt;10%</label>
+                </value>
+                <value>
+                    <fullName>10-30%</fullName>
+                    <default>false</default>
+                    <label>10-30%</label>
+                </value>
+                <value>
+                    <fullName>&gt; 50%</fullName>
+                    <default>false</default>
+                    <label>&gt; 50%</label>
+                </value>
+                <value>
+                    <fullName>&gt;100%</fullName>
+                    <default>false</default>
+                    <label>&gt;100%</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Expected_YY_Growth_by_GS__c</fullName>
+        <externalId>false</externalId>
+        <label>*Expected YY Growth by GS</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+                <value>
+                    <fullName>&lt;10%</fullName>
+                    <default>false</default>
+                    <label>&lt;10%</label>
+                </value>
+                <value>
+                    <fullName>10-30%</fullName>
+                    <default>false</default>
+                    <label>10-30%</label>
+                </value>
+                <value>
+                    <fullName>&gt; 50%</fullName>
+                    <default>false</default>
+                    <label>&gt; 50%</label>
+                </value>
+                <value>
+                    <fullName>&gt;100%</fullName>
+                    <default>false</default>
+                    <label>&gt;100%</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Expected_YY_Growth_by_ION__c</fullName>
+        <externalId>false</externalId>
+        <label>*Expected YY Growth by ION</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+                <value>
+                    <fullName>&lt;10%</fullName>
+                    <default>false</default>
+                    <label>&lt;10%</label>
+                </value>
+                <value>
+                    <fullName>10-30%</fullName>
+                    <default>false</default>
+                    <label>10-30%</label>
+                </value>
+                <value>
+                    <fullName>&gt; 50%</fullName>
+                    <default>false</default>
+                    <label>&gt; 50%</label>
+                </value>
+                <value>
+                    <fullName>&gt;100%</fullName>
+                    <default>false</default>
+                    <label>&gt;100%</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Expected_YY_Growth_by_MN__c</fullName>
+        <externalId>false</externalId>
+        <label>*Expected YY Growth by MN</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+                <value>
+                    <fullName>&lt;10%</fullName>
+                    <default>false</default>
+                    <label>&lt;10%</label>
+                </value>
+                <value>
+                    <fullName>10-30%</fullName>
+                    <default>false</default>
+                    <label>10-30%</label>
+                </value>
+                <value>
+                    <fullName>&gt; 50%</fullName>
+                    <default>false</default>
+                    <label>&gt; 50%</label>
+                </value>
+                <value>
+                    <fullName>&gt;100%</fullName>
+                    <default>false</default>
+                    <label>&gt;100%</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FN_product_s_you_intend_to_sell__c</fullName>
+        <defaultValue>&apos;Enter Product&apos;</defaultValue>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>*FN product(s) you intend to sell</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>FN_service_s_you_intend_to_sell__c</fullName>
+        <defaultValue>&apos;Enter Service&apos;</defaultValue>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>*FN service(s) you intend to sell</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Facebook__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Facebook</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>GS_product_s_you_intend_to_sell__c</fullName>
+        <defaultValue>&apos;Enter Product&apos;</defaultValue>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>*GS solution(s) you intend to sell</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>GS_service_s_you_intend_to_sell__c</fullName>
+        <defaultValue>&apos;Enter Service&apos;</defaultValue>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>*GS service(s) you intend to sell</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>ION_product_s_you_intend_to_sell__c</fullName>
+        <defaultValue>&apos;Enter Product&apos;</defaultValue>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>*ION product(s) you intend to sell</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>ION_service_s_you_intend_to_sell__c</fullName>
+        <defaultValue>&apos;Enter Service&apos;</defaultValue>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>*ION service(s) you intend to sell</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>If_Other_provide_Competitive_Portfolio__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>If Other, provide Competitive Portfolio</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>If_Other_provide_Product_Portfolio__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>If Other, provide Product Portfolio</label>
+        <length>150</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>If_Yes_how_frequent_do_you_measure__c</fullName>
+        <externalId>false</externalId>
+        <label>If Yes, how frequent do you measure?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Do_you_measure_Customer_Satisfaction__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Every transaction</fullName>
+                    <default>false</default>
+                    <label>Every transaction</label>
+                </value>
+                <value>
+                    <fullName>Every 6 months</fullName>
+                    <default>false</default>
+                    <label>Every 6 months</label>
+                </value>
+                <value>
+                    <fullName>Annually</fullName>
+                    <default>false</default>
+                    <label>Annually</label>
+                </value>
+                <value>
+                    <fullName>Bi-annually</fullName>
+                    <default>false</default>
+                    <label>Bi-annually</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Yes</controllingFieldValue>
+                <valueName>Every transaction</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Yes</controllingFieldValue>
+                <valueName>Every 6 months</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Yes</controllingFieldValue>
+                <valueName>Annually</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Yes</controllingFieldValue>
+                <valueName>Bi-annually</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Intend_to_use_Nokia_s_SF_for_pipeline__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Does your company intend to use Nokia&apos;s Salesforce to manage pipelines and deal registrations?</inlineHelpText>
+        <label>Intend to use Nokia&apos;s SF for pipeline?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Introduction__c</fullName>
+        <defaultValue>&apos;This business planning document has been designed to capture the joint business objectives for the year as well as the investments that both parties plan to make in an effort to meet these business goals. Nokia recommends that the plan be documented and agreed upon annually, at the start of each calendar year. In addition, the plan will be governed by a partner / vendor relationship team on a quarterly basis. Both parties acknowledge that the data provided corresponds to the most accurate intent of business and related investments at the time the plan is agreed. This plan does not represent a contractual commitment that these business targets will be met.&apos;+ 
+BR() + 
+BR() + 
+&apos;The Business Plan is confidential between Nokia and the Partner and should not be shared outside of those two parties.&apos;+ 
+BR() + 
+BR() + 
+&apos;Fill in all the required fields (Red asterisks – required on creation, Black asterisks – required on submission for approval) on the Business Plan and go to related list to add Marketing Plans, Labs &amp; Demos and Certifications &amp; Accreditations. You are required to enter all these information before you can submit the Business Plan for approval.&apos;</defaultValue>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Introduction</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Investment_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Investment Count</label>
+        <summaryForeignKey>Investments_in_Lab_and_Demo_Equipment__c.Business_Plan_ID__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>IsClone__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>After clicking Save, go to the Cloned Business Plan record and update it as required</inlineHelpText>
+        <label>Do you want to clone the Business Plan?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Validated__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( OR(
+	ISBLANK(Territory_Covered_in_Business_Plan__c) ,
+	ISBLANK(Nokia_Product_Portfolio_represented__c),
+	ISPICKVAL(Is_the_company_Public_or_Private__c,&apos;&apos;) ,
+	ISPICKVAL(Company_Annual_Revenue_attributed_to_IT__c,&apos;&apos;) ,
+	ISBLANK(Joint_Business_Objectives_by_Industry__c) ,
+	ISBLANK(Which_Business_Segments_do_you_serve__c) ,
+	ISBLANK(Competitive_Portfolio_you_represent__c) ,
+	ISBLANK(Complementary_Portfolio_you_represent__c)
+), false, true)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Validated</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_the_company_Public_or_Private__c</fullName>
+        <externalId>false</externalId>
+        <label>*Is the company Public or Private?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Public</fullName>
+                    <default>false</default>
+                    <label>Public</label>
+                </value>
+                <value>
+                    <fullName>Private</fullName>
+                    <default>false</default>
+                    <label>Private</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Joint_Business_Objectives_by_Industry__c</fullName>
+        <externalId>false</externalId>
+        <label>*Joint Business Objectives by Industry</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Agriculture</fullName>
+                    <default>false</default>
+                    <label>Agriculture</label>
+                </value>
+                <value>
+                    <fullName>Banking/Finance</fullName>
+                    <default>false</default>
+                    <label>Banking/Finance</label>
+                </value>
+                <value>
+                    <fullName>Business Services</fullName>
+                    <default>false</default>
+                    <label>Business Services</label>
+                </value>
+                <value>
+                    <fullName>Government</fullName>
+                    <default>false</default>
+                    <label>Government</label>
+                </value>
+                <value>
+                    <fullName>Higher Education</fullName>
+                    <default>false</default>
+                    <label>Higher Education</label>
+                </value>
+                <value>
+                    <fullName>K-12 Education</fullName>
+                    <default>false</default>
+                    <label>K-12 Education</label>
+                </value>
+                <value>
+                    <fullName>Manufacturing</fullName>
+                    <default>false</default>
+                    <label>Manufacturing</label>
+                </value>
+                <value>
+                    <fullName>Health and Medical</fullName>
+                    <default>false</default>
+                    <label>Health and Medical</label>
+                </value>
+                <value>
+                    <fullName>Oil/Gas/Chemical</fullName>
+                    <default>false</default>
+                    <label>Oil/Gas/Chemical</label>
+                </value>
+                <value>
+                    <fullName>Transportation</fullName>
+                    <default>false</default>
+                    <label>Transportation</label>
+                </value>
+                <value>
+                    <fullName>Retail</fullName>
+                    <default>false</default>
+                    <label>Retail</label>
+                </value>
+                <value>
+                    <fullName>Media &amp; Entertainment</fullName>
+                    <default>false</default>
+                    <label>Media &amp; Entertainment</label>
+                </value>
+                <value>
+                    <fullName>Service Provider (Internal Network)</fullName>
+                    <default>false</default>
+                    <label>Service Provider (Internal Network)</label>
+                </value>
+                <value>
+                    <fullName>Telecom</fullName>
+                    <default>false</default>
+                    <label>Telecom</label>
+                </value>
+                <value>
+                    <fullName>Utilities</fullName>
+                    <default>false</default>
+                    <label>Utilities</label>
+                </value>
+                <value>
+                    <fullName>Web Services</fullName>
+                    <default>false</default>
+                    <label>Web Services</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>LinkedIn__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>LinkedIn</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>MN_product_s_you_intend_to_sell__c</fullName>
+        <defaultValue>&apos;Enter Product&apos;</defaultValue>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>*MN product(s) you intend to sell</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>MN_service_s_you_intend_to_sell__c</fullName>
+        <defaultValue>&apos;Enter Service&apos;</defaultValue>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>*MN service(s) you intend to sell</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Marketing_Plan_and_Industry_Events_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Marketing Plan and Industry Events Count</label>
+        <summaryForeignKey>Marketing_Plan_and_Industry_Events__c.Marketing_Plan_and_Industry_Events_BP__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Nokia_Partner_Primary_Partner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Use search field below to enter and select the primary Nokia PSM responsible for this business plan.</inlineHelpText>
+        <label>Nokia Partner Primary Partner (PSM)</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>The User you are searching is not PSM.</errorMessage>
+            <filterItems>
+                <field>User.Profile.Name</field>
+                <operation>equals</operation>
+                <value>Nokia Sales Profile</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Nokia_Partner_Primary_Partner</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Nokia_Product_Portfolio_represented__c</fullName>
+        <externalId>false</externalId>
+        <label>*Nokia Product Portfolio represented</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Airscale Wifi</fullName>
+                    <default>false</default>
+                    <label>Airscale Wifi</label>
+                </value>
+                <value>
+                    <fullName>Fixed Access - FBA</fullName>
+                    <default>false</default>
+                    <label>Fixed Access - FBA</label>
+                </value>
+                <value>
+                    <fullName>Fixed Access - POL</fullName>
+                    <default>false</default>
+                    <label>Fixed Access - POL</label>
+                </value>
+                <value>
+                    <fullName>IP Routing</fullName>
+                    <default>false</default>
+                    <label>IP Routing</label>
+                </value>
+                <value>
+                    <fullName>Microwave</fullName>
+                    <default>false</default>
+                    <label>Microwave</label>
+                </value>
+                <value>
+                    <fullName>Nuage</fullName>
+                    <default>false</default>
+                    <label>Nuage</label>
+                </value>
+                <value>
+                    <fullName>Optics</fullName>
+                    <default>false</default>
+                    <label>Optics</label>
+                </value>
+                <value>
+                    <fullName>Optics - WaveLite</fullName>
+                    <default>false</default>
+                    <label>Optics - WaveLite</label>
+                </value>
+                <value>
+                    <fullName>Vital QIP</fullName>
+                    <default>false</default>
+                    <label>Vital QIP</label>
+                </value>
+                <value>
+                    <fullName>Vital Suite</fullName>
+                    <default>false</default>
+                    <label>Vital Suite</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PSM_s_Manager_Email__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>PSM&apos;s Manager Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PSM_s_Manager_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Nokia_Partner_Primary_Partner__r.Manager.FirstName + &apos; &apos; +Nokia_Partner_Primary_Partner__r.Manager.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>PSM&apos;s Manager Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pending_for_more_than_60_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+AND
+(
+(Today()- DATEVALUE(CreatedDate))&gt;60,
+ ISPICKVAL(Business_Plan_Status__c ,&apos;New&apos;)
+), True,False)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Pending for more than 60 Days</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Primary_Partner_Program_Contact_s_PRM__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Use search field below to enter and select Primary PRM who is responsible for this business plan.</inlineHelpText>
+        <label>Primary Partner Program Contact(s) / PRM</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>(1 AND 2) OR 3 OR 4</booleanFilter>
+            <errorMessage>The User you are searching is not PRM.</errorMessage>
+            <filterItems>
+                <field>User.Profile.Name</field>
+                <operation>equals</operation>
+                <value>PRM Partner Relationship Manager Login</value>
+            </filterItems>
+            <filterItems>
+                <field>User.Contact.AccountId</field>
+                <operation>equals</operation>
+                <valueField>$Source.Account_BP__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>User.UserRole.Name</field>
+                <operation>contains</operation>
+                <value>Partner Sales Manager</value>
+            </filterItems>
+            <filterItems>
+                <field>User.UserRole.Name</field>
+                <operation>contains</operation>
+                <value>Regional Sales Lead</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Business_Plans_PRM</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Review_date__c</fullName>
+        <defaultValue>DATE(Year(Today()),06,30)</defaultValue>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Review date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Send_Review_Email__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Send Review Email</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Territory_Covered_in_Business_Plan__c</fullName>
+        <externalId>false</externalId>
+        <label>*Territory Covered in Business Plan</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Afghanistan</fullName>
+                    <default>false</default>
+                    <label>Afghanistan</label>
+                </value>
+                <value>
+                    <fullName>Albania</fullName>
+                    <default>false</default>
+                    <label>Albania</label>
+                </value>
+                <value>
+                    <fullName>Algeria</fullName>
+                    <default>false</default>
+                    <label>Algeria</label>
+                </value>
+                <value>
+                    <fullName>American Samoa</fullName>
+                    <default>false</default>
+                    <label>American Samoa</label>
+                </value>
+                <value>
+                    <fullName>Andorra</fullName>
+                    <default>false</default>
+                    <label>Andorra</label>
+                </value>
+                <value>
+                    <fullName>Angola</fullName>
+                    <default>false</default>
+                    <label>Angola</label>
+                </value>
+                <value>
+                    <fullName>Anguilla</fullName>
+                    <default>false</default>
+                    <label>Anguilla</label>
+                </value>
+                <value>
+                    <fullName>Antigua and Barbuda</fullName>
+                    <default>false</default>
+                    <label>Antigua and Barbuda</label>
+                </value>
+                <value>
+                    <fullName>Argentina</fullName>
+                    <default>false</default>
+                    <label>Argentina</label>
+                </value>
+                <value>
+                    <fullName>Armenia</fullName>
+                    <default>false</default>
+                    <label>Armenia</label>
+                </value>
+                <value>
+                    <fullName>Aruba</fullName>
+                    <default>false</default>
+                    <label>Aruba</label>
+                </value>
+                <value>
+                    <fullName>Australia</fullName>
+                    <default>false</default>
+                    <label>Australia</label>
+                </value>
+                <value>
+                    <fullName>Austria</fullName>
+                    <default>false</default>
+                    <label>Austria</label>
+                </value>
+                <value>
+                    <fullName>Azerbaijan</fullName>
+                    <default>false</default>
+                    <label>Azerbaijan</label>
+                </value>
+                <value>
+                    <fullName>Bahamas</fullName>
+                    <default>false</default>
+                    <label>Bahamas</label>
+                </value>
+                <value>
+                    <fullName>Bahrain</fullName>
+                    <default>false</default>
+                    <label>Bahrain</label>
+                </value>
+                <value>
+                    <fullName>Bangladesh</fullName>
+                    <default>false</default>
+                    <label>Bangladesh</label>
+                </value>
+                <value>
+                    <fullName>Barbados</fullName>
+                    <default>false</default>
+                    <label>Barbados</label>
+                </value>
+                <value>
+                    <fullName>Belarus</fullName>
+                    <default>false</default>
+                    <label>Belarus</label>
+                </value>
+                <value>
+                    <fullName>Belgium</fullName>
+                    <default>false</default>
+                    <label>Belgium</label>
+                </value>
+                <value>
+                    <fullName>Belize</fullName>
+                    <default>false</default>
+                    <label>Belize</label>
+                </value>
+                <value>
+                    <fullName>Benin</fullName>
+                    <default>false</default>
+                    <label>Benin</label>
+                </value>
+                <value>
+                    <fullName>Bermuda</fullName>
+                    <default>false</default>
+                    <label>Bermuda</label>
+                </value>
+                <value>
+                    <fullName>Bhutan</fullName>
+                    <default>false</default>
+                    <label>Bhutan</label>
+                </value>
+                <value>
+                    <fullName>Bolivia</fullName>
+                    <default>false</default>
+                    <label>Bolivia</label>
+                </value>
+                <value>
+                    <fullName>Bosnia and Herzegovina</fullName>
+                    <default>false</default>
+                    <label>Bosnia and Herzegovina</label>
+                </value>
+                <value>
+                    <fullName>Botswana</fullName>
+                    <default>false</default>
+                    <label>Botswana</label>
+                </value>
+                <value>
+                    <fullName>Brazil</fullName>
+                    <default>false</default>
+                    <label>Brazil</label>
+                </value>
+                <value>
+                    <fullName>Brunei Darussalam</fullName>
+                    <default>false</default>
+                    <label>Brunei Darussalam</label>
+                </value>
+                <value>
+                    <fullName>Bulgaria</fullName>
+                    <default>false</default>
+                    <label>Bulgaria</label>
+                </value>
+                <value>
+                    <fullName>Burkina Faso</fullName>
+                    <default>false</default>
+                    <label>Burkina Faso</label>
+                </value>
+                <value>
+                    <fullName>Burundi</fullName>
+                    <default>false</default>
+                    <label>Burundi</label>
+                </value>
+                <value>
+                    <fullName>Cambodia</fullName>
+                    <default>false</default>
+                    <label>Cambodia</label>
+                </value>
+                <value>
+                    <fullName>Cameroon</fullName>
+                    <default>false</default>
+                    <label>Cameroon</label>
+                </value>
+                <value>
+                    <fullName>Canada</fullName>
+                    <default>false</default>
+                    <label>Canada</label>
+                </value>
+                <value>
+                    <fullName>Cape Verde</fullName>
+                    <default>false</default>
+                    <label>Cape Verde</label>
+                </value>
+                <value>
+                    <fullName>Cayman Islands</fullName>
+                    <default>false</default>
+                    <label>Cayman Islands</label>
+                </value>
+                <value>
+                    <fullName>Central African Republic</fullName>
+                    <default>false</default>
+                    <label>Central African Republic</label>
+                </value>
+                <value>
+                    <fullName>Chad</fullName>
+                    <default>false</default>
+                    <label>Chad</label>
+                </value>
+                <value>
+                    <fullName>Chile</fullName>
+                    <default>false</default>
+                    <label>Chile</label>
+                </value>
+                <value>
+                    <fullName>China</fullName>
+                    <default>false</default>
+                    <label>China</label>
+                </value>
+                <value>
+                    <fullName>Colombia</fullName>
+                    <default>false</default>
+                    <label>Colombia</label>
+                </value>
+                <value>
+                    <fullName>Comoros</fullName>
+                    <default>false</default>
+                    <label>Comoros</label>
+                </value>
+                <value>
+                    <fullName>Congo</fullName>
+                    <default>false</default>
+                    <label>Congo</label>
+                </value>
+                <value>
+                    <fullName>Cook Islands</fullName>
+                    <default>false</default>
+                    <label>Cook Islands</label>
+                </value>
+                <value>
+                    <fullName>Costa Rica</fullName>
+                    <default>false</default>
+                    <label>Costa Rica</label>
+                </value>
+                <value>
+                    <fullName>Croatia</fullName>
+                    <default>false</default>
+                    <label>Croatia</label>
+                </value>
+                <value>
+                    <fullName>Cuba</fullName>
+                    <default>false</default>
+                    <label>Cuba</label>
+                </value>
+                <value>
+                    <fullName>Cyprus</fullName>
+                    <default>false</default>
+                    <label>Cyprus</label>
+                </value>
+                <value>
+                    <fullName>Czech Republic</fullName>
+                    <default>false</default>
+                    <label>Czech Republic</label>
+                </value>
+                <value>
+                    <fullName>Democratic Republic of Congo</fullName>
+                    <default>false</default>
+                    <label>Democratic Republic of Congo</label>
+                </value>
+                <value>
+                    <fullName>Denmark</fullName>
+                    <default>false</default>
+                    <label>Denmark</label>
+                </value>
+                <value>
+                    <fullName>Djibouti</fullName>
+                    <default>false</default>
+                    <label>Djibouti</label>
+                </value>
+                <value>
+                    <fullName>Dominica</fullName>
+                    <default>false</default>
+                    <label>Dominica</label>
+                </value>
+                <value>
+                    <fullName>Dominican Republic</fullName>
+                    <default>false</default>
+                    <label>Dominican Republic</label>
+                </value>
+                <value>
+                    <fullName>Ecuador</fullName>
+                    <default>false</default>
+                    <label>Ecuador</label>
+                </value>
+                <value>
+                    <fullName>Egypt</fullName>
+                    <default>false</default>
+                    <label>Egypt</label>
+                </value>
+                <value>
+                    <fullName>El Salvador</fullName>
+                    <default>false</default>
+                    <label>El Salvador</label>
+                </value>
+                <value>
+                    <fullName>Equatorial Guinea</fullName>
+                    <default>false</default>
+                    <label>Equatorial Guinea</label>
+                </value>
+                <value>
+                    <fullName>Eritrea</fullName>
+                    <default>false</default>
+                    <label>Eritrea</label>
+                </value>
+                <value>
+                    <fullName>Estonia</fullName>
+                    <default>false</default>
+                    <label>Estonia</label>
+                </value>
+                <value>
+                    <fullName>Ethiopia</fullName>
+                    <default>false</default>
+                    <label>Ethiopia</label>
+                </value>
+                <value>
+                    <fullName>Falkland Islands</fullName>
+                    <default>false</default>
+                    <label>Falkland Islands</label>
+                </value>
+                <value>
+                    <fullName>Faroe Islands</fullName>
+                    <default>false</default>
+                    <label>Faroe Islands</label>
+                </value>
+                <value>
+                    <fullName>Fiji</fullName>
+                    <default>false</default>
+                    <label>Fiji</label>
+                </value>
+                <value>
+                    <fullName>Finland</fullName>
+                    <default>false</default>
+                    <label>Finland</label>
+                </value>
+                <value>
+                    <fullName>France</fullName>
+                    <default>false</default>
+                    <label>France</label>
+                </value>
+                <value>
+                    <fullName>French Guiana</fullName>
+                    <default>false</default>
+                    <label>French Guiana</label>
+                </value>
+                <value>
+                    <fullName>French Polynesia</fullName>
+                    <default>false</default>
+                    <label>French Polynesia</label>
+                </value>
+                <value>
+                    <fullName>French Southern Territories</fullName>
+                    <default>false</default>
+                    <label>French Southern Territories</label>
+                </value>
+                <value>
+                    <fullName>Gabon</fullName>
+                    <default>false</default>
+                    <label>Gabon</label>
+                </value>
+                <value>
+                    <fullName>Gambia</fullName>
+                    <default>false</default>
+                    <label>Gambia</label>
+                </value>
+                <value>
+                    <fullName>Georgia</fullName>
+                    <default>false</default>
+                    <label>Georgia</label>
+                </value>
+                <value>
+                    <fullName>Germany</fullName>
+                    <default>false</default>
+                    <label>Germany</label>
+                </value>
+                <value>
+                    <fullName>Ghana</fullName>
+                    <default>false</default>
+                    <label>Ghana</label>
+                </value>
+                <value>
+                    <fullName>Gibraltar</fullName>
+                    <default>false</default>
+                    <label>Gibraltar</label>
+                </value>
+                <value>
+                    <fullName>Greece</fullName>
+                    <default>false</default>
+                    <label>Greece</label>
+                </value>
+                <value>
+                    <fullName>Greenland</fullName>
+                    <default>false</default>
+                    <label>Greenland</label>
+                </value>
+                <value>
+                    <fullName>Grenada</fullName>
+                    <default>false</default>
+                    <label>Grenada</label>
+                </value>
+                <value>
+                    <fullName>Guadeloupe</fullName>
+                    <default>false</default>
+                    <label>Guadeloupe</label>
+                </value>
+                <value>
+                    <fullName>Guam</fullName>
+                    <default>false</default>
+                    <label>Guam</label>
+                </value>
+                <value>
+                    <fullName>Guatemala</fullName>
+                    <default>false</default>
+                    <label>Guatemala</label>
+                </value>
+                <value>
+                    <fullName>Guernsey</fullName>
+                    <default>false</default>
+                    <label>Guernsey</label>
+                </value>
+                <value>
+                    <fullName>Guinea</fullName>
+                    <default>false</default>
+                    <label>Guinea</label>
+                </value>
+                <value>
+                    <fullName>Guinea-Bissau</fullName>
+                    <default>false</default>
+                    <label>Guinea-Bissau</label>
+                </value>
+                <value>
+                    <fullName>Guyana</fullName>
+                    <default>false</default>
+                    <label>Guyana</label>
+                </value>
+                <value>
+                    <fullName>Haiti</fullName>
+                    <default>false</default>
+                    <label>Haiti</label>
+                </value>
+                <value>
+                    <fullName>Honduras</fullName>
+                    <default>false</default>
+                    <label>Honduras</label>
+                </value>
+                <value>
+                    <fullName>Hong Kong</fullName>
+                    <default>false</default>
+                    <label>Hong Kong</label>
+                </value>
+                <value>
+                    <fullName>Hungary</fullName>
+                    <default>false</default>
+                    <label>Hungary</label>
+                </value>
+                <value>
+                    <fullName>Iceland</fullName>
+                    <default>false</default>
+                    <label>Iceland</label>
+                </value>
+                <value>
+                    <fullName>India</fullName>
+                    <default>false</default>
+                    <label>India</label>
+                </value>
+                <value>
+                    <fullName>Indonesia</fullName>
+                    <default>false</default>
+                    <label>Indonesia</label>
+                </value>
+                <value>
+                    <fullName>Iran, Islamic Republic Of</fullName>
+                    <default>false</default>
+                    <label>Iran, Islamic Republic Of</label>
+                </value>
+                <value>
+                    <fullName>Iraq</fullName>
+                    <default>false</default>
+                    <label>Iraq</label>
+                </value>
+                <value>
+                    <fullName>Ireland</fullName>
+                    <default>false</default>
+                    <label>Ireland</label>
+                </value>
+                <value>
+                    <fullName>Israel</fullName>
+                    <default>false</default>
+                    <label>Israel</label>
+                </value>
+                <value>
+                    <fullName>Italy</fullName>
+                    <default>false</default>
+                    <label>Italy</label>
+                </value>
+                <value>
+                    <fullName>Ivory Coast</fullName>
+                    <default>false</default>
+                    <label>Ivory Coast</label>
+                </value>
+                <value>
+                    <fullName>Jamaica</fullName>
+                    <default>false</default>
+                    <label>Jamaica</label>
+                </value>
+                <value>
+                    <fullName>Japan</fullName>
+                    <default>false</default>
+                    <label>Japan</label>
+                </value>
+                <value>
+                    <fullName>Jersey</fullName>
+                    <default>false</default>
+                    <label>Jersey</label>
+                </value>
+                <value>
+                    <fullName>Jordan</fullName>
+                    <default>false</default>
+                    <label>Jordan</label>
+                </value>
+                <value>
+                    <fullName>Kazakhstan</fullName>
+                    <default>false</default>
+                    <label>Kazakhstan</label>
+                </value>
+                <value>
+                    <fullName>Kenya</fullName>
+                    <default>false</default>
+                    <label>Kenya</label>
+                </value>
+                <value>
+                    <fullName>Kiribati</fullName>
+                    <default>false</default>
+                    <label>Kiribati</label>
+                </value>
+                <value>
+                    <fullName>Korea, Republic Of</fullName>
+                    <default>false</default>
+                    <label>Korea, Republic Of</label>
+                </value>
+                <value>
+                    <fullName>Kosovo</fullName>
+                    <default>false</default>
+                    <label>Kosovo</label>
+                </value>
+                <value>
+                    <fullName>Kuwait</fullName>
+                    <default>false</default>
+                    <label>Kuwait</label>
+                </value>
+                <value>
+                    <fullName>Kyrgyzstan</fullName>
+                    <default>false</default>
+                    <label>Kyrgyzstan</label>
+                </value>
+                <value>
+                    <fullName>Lao People&apos;s Democratic Republic</fullName>
+                    <default>false</default>
+                    <label>Lao People&apos;s Democratic Republic</label>
+                </value>
+                <value>
+                    <fullName>Latvia</fullName>
+                    <default>false</default>
+                    <label>Latvia</label>
+                </value>
+                <value>
+                    <fullName>Lebanon</fullName>
+                    <default>false</default>
+                    <label>Lebanon</label>
+                </value>
+                <value>
+                    <fullName>Lesotho</fullName>
+                    <default>false</default>
+                    <label>Lesotho</label>
+                </value>
+                <value>
+                    <fullName>Liberia</fullName>
+                    <default>false</default>
+                    <label>Liberia</label>
+                </value>
+                <value>
+                    <fullName>Libya</fullName>
+                    <default>false</default>
+                    <label>Libya</label>
+                </value>
+                <value>
+                    <fullName>Liechtenstein</fullName>
+                    <default>false</default>
+                    <label>Liechtenstein</label>
+                </value>
+                <value>
+                    <fullName>Lithuania</fullName>
+                    <default>false</default>
+                    <label>Lithuania</label>
+                </value>
+                <value>
+                    <fullName>Luxembourg</fullName>
+                    <default>false</default>
+                    <label>Luxembourg</label>
+                </value>
+                <value>
+                    <fullName>Macau</fullName>
+                    <default>false</default>
+                    <label>Macau</label>
+                </value>
+                <value>
+                    <fullName>Macedonia</fullName>
+                    <default>false</default>
+                    <label>Macedonia</label>
+                </value>
+                <value>
+                    <fullName>Madagascar</fullName>
+                    <default>false</default>
+                    <label>Madagascar</label>
+                </value>
+                <value>
+                    <fullName>Malawi</fullName>
+                    <default>false</default>
+                    <label>Malawi</label>
+                </value>
+                <value>
+                    <fullName>Malaysia</fullName>
+                    <default>false</default>
+                    <label>Malaysia</label>
+                </value>
+                <value>
+                    <fullName>Maldives</fullName>
+                    <default>false</default>
+                    <label>Maldives</label>
+                </value>
+                <value>
+                    <fullName>Mali</fullName>
+                    <default>false</default>
+                    <label>Mali</label>
+                </value>
+                <value>
+                    <fullName>Malta</fullName>
+                    <default>false</default>
+                    <label>Malta</label>
+                </value>
+                <value>
+                    <fullName>Marshall Islands</fullName>
+                    <default>false</default>
+                    <label>Marshall Islands</label>
+                </value>
+                <value>
+                    <fullName>Martinique</fullName>
+                    <default>false</default>
+                    <label>Martinique</label>
+                </value>
+                <value>
+                    <fullName>Mauritania</fullName>
+                    <default>false</default>
+                    <label>Mauritania</label>
+                </value>
+                <value>
+                    <fullName>Mauritius</fullName>
+                    <default>false</default>
+                    <label>Mauritius</label>
+                </value>
+                <value>
+                    <fullName>Mayotte</fullName>
+                    <default>false</default>
+                    <label>Mayotte</label>
+                </value>
+                <value>
+                    <fullName>Mexico</fullName>
+                    <default>false</default>
+                    <label>Mexico</label>
+                </value>
+                <value>
+                    <fullName>Micronesia (Federated States of)</fullName>
+                    <default>false</default>
+                    <label>Micronesia (Federated States of)</label>
+                </value>
+                <value>
+                    <fullName>Moldova, Republic Of</fullName>
+                    <default>false</default>
+                    <label>Moldova, Republic Of</label>
+                </value>
+                <value>
+                    <fullName>Monaco</fullName>
+                    <default>false</default>
+                    <label>Monaco</label>
+                </value>
+                <value>
+                    <fullName>Mongolia</fullName>
+                    <default>false</default>
+                    <label>Mongolia</label>
+                </value>
+                <value>
+                    <fullName>Montenegro</fullName>
+                    <default>false</default>
+                    <label>Montenegro</label>
+                </value>
+                <value>
+                    <fullName>Montserrat</fullName>
+                    <default>false</default>
+                    <label>Montserrat</label>
+                </value>
+                <value>
+                    <fullName>Morocco</fullName>
+                    <default>false</default>
+                    <label>Morocco</label>
+                </value>
+                <value>
+                    <fullName>Mozambique</fullName>
+                    <default>false</default>
+                    <label>Mozambique</label>
+                </value>
+                <value>
+                    <fullName>Myanmar</fullName>
+                    <default>false</default>
+                    <label>Myanmar</label>
+                </value>
+                <value>
+                    <fullName>Namibia</fullName>
+                    <default>false</default>
+                    <label>Namibia</label>
+                </value>
+                <value>
+                    <fullName>Nauru</fullName>
+                    <default>false</default>
+                    <label>Nauru</label>
+                </value>
+                <value>
+                    <fullName>Nepal</fullName>
+                    <default>false</default>
+                    <label>Nepal</label>
+                </value>
+                <value>
+                    <fullName>Netherlands</fullName>
+                    <default>false</default>
+                    <label>Netherlands</label>
+                </value>
+                <value>
+                    <fullName>Netherlands Antilles</fullName>
+                    <default>false</default>
+                    <label>Netherlands Antilles</label>
+                </value>
+                <value>
+                    <fullName>New Caledonia</fullName>
+                    <default>false</default>
+                    <label>New Caledonia</label>
+                </value>
+                <value>
+                    <fullName>New Zealand</fullName>
+                    <default>false</default>
+                    <label>New Zealand</label>
+                </value>
+                <value>
+                    <fullName>Nicaragua</fullName>
+                    <default>false</default>
+                    <label>Nicaragua</label>
+                </value>
+                <value>
+                    <fullName>Niger</fullName>
+                    <default>false</default>
+                    <label>Niger</label>
+                </value>
+                <value>
+                    <fullName>Nigeria</fullName>
+                    <default>false</default>
+                    <label>Nigeria</label>
+                </value>
+                <value>
+                    <fullName>Niue</fullName>
+                    <default>false</default>
+                    <label>Niue</label>
+                </value>
+                <value>
+                    <fullName>Norfolk Island</fullName>
+                    <default>false</default>
+                    <label>Norfolk Island</label>
+                </value>
+                <value>
+                    <fullName>Northern Mariana Islands</fullName>
+                    <default>false</default>
+                    <label>Northern Mariana Islands</label>
+                </value>
+                <value>
+                    <fullName>North Korea</fullName>
+                    <default>false</default>
+                    <label>North Korea</label>
+                </value>
+                <value>
+                    <fullName>Norway</fullName>
+                    <default>false</default>
+                    <label>Norway</label>
+                </value>
+                <value>
+                    <fullName>Oman</fullName>
+                    <default>false</default>
+                    <label>Oman</label>
+                </value>
+                <value>
+                    <fullName>Pakistan</fullName>
+                    <default>false</default>
+                    <label>Pakistan</label>
+                </value>
+                <value>
+                    <fullName>Palau</fullName>
+                    <default>false</default>
+                    <label>Palau</label>
+                </value>
+                <value>
+                    <fullName>Palestine</fullName>
+                    <default>false</default>
+                    <label>Palestine</label>
+                </value>
+                <value>
+                    <fullName>Panama</fullName>
+                    <default>false</default>
+                    <label>Panama</label>
+                </value>
+                <value>
+                    <fullName>Papua New Guinea</fullName>
+                    <default>false</default>
+                    <label>Papua New Guinea</label>
+                </value>
+                <value>
+                    <fullName>Paraguay</fullName>
+                    <default>false</default>
+                    <label>Paraguay</label>
+                </value>
+                <value>
+                    <fullName>Peru</fullName>
+                    <default>false</default>
+                    <label>Peru</label>
+                </value>
+                <value>
+                    <fullName>Philippines</fullName>
+                    <default>false</default>
+                    <label>Philippines</label>
+                </value>
+                <value>
+                    <fullName>Pitcairn</fullName>
+                    <default>false</default>
+                    <label>Pitcairn</label>
+                </value>
+                <value>
+                    <fullName>Poland</fullName>
+                    <default>false</default>
+                    <label>Poland</label>
+                </value>
+                <value>
+                    <fullName>Portugal</fullName>
+                    <default>false</default>
+                    <label>Portugal</label>
+                </value>
+                <value>
+                    <fullName>Puerto Rico</fullName>
+                    <default>false</default>
+                    <label>Puerto Rico</label>
+                </value>
+                <value>
+                    <fullName>Qatar</fullName>
+                    <default>false</default>
+                    <label>Qatar</label>
+                </value>
+                <value>
+                    <fullName>Reunion</fullName>
+                    <default>false</default>
+                    <label>Reunion</label>
+                </value>
+                <value>
+                    <fullName>Romania</fullName>
+                    <default>false</default>
+                    <label>Romania</label>
+                </value>
+                <value>
+                    <fullName>Russian Federation</fullName>
+                    <default>false</default>
+                    <label>Russian Federation</label>
+                </value>
+                <value>
+                    <fullName>Rwanda</fullName>
+                    <default>false</default>
+                    <label>Rwanda</label>
+                </value>
+                <value>
+                    <fullName>Saint Helena</fullName>
+                    <default>false</default>
+                    <label>Saint Helena</label>
+                </value>
+                <value>
+                    <fullName>Saint Kitts and Nevis</fullName>
+                    <default>false</default>
+                    <label>Saint Kitts and Nevis</label>
+                </value>
+                <value>
+                    <fullName>Saint Lucia</fullName>
+                    <default>false</default>
+                    <label>Saint Lucia</label>
+                </value>
+                <value>
+                    <fullName>Saint Pierre and Miquelon</fullName>
+                    <default>false</default>
+                    <label>Saint Pierre and Miquelon</label>
+                </value>
+                <value>
+                    <fullName>Saint Vincent and the Grenadines</fullName>
+                    <default>false</default>
+                    <label>Saint Vincent and the Grenadines</label>
+                </value>
+                <value>
+                    <fullName>Samoa</fullName>
+                    <default>false</default>
+                    <label>Samoa</label>
+                </value>
+                <value>
+                    <fullName>San Marino</fullName>
+                    <default>false</default>
+                    <label>San Marino</label>
+                </value>
+                <value>
+                    <fullName>Sao Tome and Principe</fullName>
+                    <default>false</default>
+                    <label>Sao Tome and Principe</label>
+                </value>
+                <value>
+                    <fullName>Saudi Arabia</fullName>
+                    <default>false</default>
+                    <label>Saudi Arabia</label>
+                </value>
+                <value>
+                    <fullName>Senegal</fullName>
+                    <default>false</default>
+                    <label>Senegal</label>
+                </value>
+                <value>
+                    <fullName>Serbia</fullName>
+                    <default>false</default>
+                    <label>Serbia</label>
+                </value>
+                <value>
+                    <fullName>Seychelles</fullName>
+                    <default>false</default>
+                    <label>Seychelles</label>
+                </value>
+                <value>
+                    <fullName>Sierra Leone</fullName>
+                    <default>false</default>
+                    <label>Sierra Leone</label>
+                </value>
+                <value>
+                    <fullName>Singapore</fullName>
+                    <default>false</default>
+                    <label>Singapore</label>
+                </value>
+                <value>
+                    <fullName>Slovakia</fullName>
+                    <default>false</default>
+                    <label>Slovakia</label>
+                </value>
+                <value>
+                    <fullName>Slovenia</fullName>
+                    <default>false</default>
+                    <label>Slovenia</label>
+                </value>
+                <value>
+                    <fullName>Solomon Islands</fullName>
+                    <default>false</default>
+                    <label>Solomon Islands</label>
+                </value>
+                <value>
+                    <fullName>Somalia</fullName>
+                    <default>false</default>
+                    <label>Somalia</label>
+                </value>
+                <value>
+                    <fullName>South Africa</fullName>
+                    <default>false</default>
+                    <label>South Africa</label>
+                </value>
+                <value>
+                    <fullName>South Georgia and the South Sandwich Islands</fullName>
+                    <default>false</default>
+                    <label>South Georgia and the South Sandwich Islands</label>
+                </value>
+                <value>
+                    <fullName>Spain</fullName>
+                    <default>false</default>
+                    <label>Spain</label>
+                </value>
+                <value>
+                    <fullName>Sri Lanka</fullName>
+                    <default>false</default>
+                    <label>Sri Lanka</label>
+                </value>
+                <value>
+                    <fullName>Sudan</fullName>
+                    <default>false</default>
+                    <label>Sudan</label>
+                </value>
+                <value>
+                    <fullName>Suriname</fullName>
+                    <default>false</default>
+                    <label>Suriname</label>
+                </value>
+                <value>
+                    <fullName>Swaziland</fullName>
+                    <default>false</default>
+                    <label>Swaziland</label>
+                </value>
+                <value>
+                    <fullName>Sweden</fullName>
+                    <default>false</default>
+                    <label>Sweden</label>
+                </value>
+                <value>
+                    <fullName>Switzerland</fullName>
+                    <default>false</default>
+                    <label>Switzerland</label>
+                </value>
+                <value>
+                    <fullName>Syrian Arab Republic</fullName>
+                    <default>false</default>
+                    <label>Syrian Arab Republic</label>
+                </value>
+                <value>
+                    <fullName>Taiwan</fullName>
+                    <default>false</default>
+                    <label>Taiwan</label>
+                </value>
+                <value>
+                    <fullName>Tajikistan</fullName>
+                    <default>false</default>
+                    <label>Tajikistan</label>
+                </value>
+                <value>
+                    <fullName>Tanzania, United Republic Of</fullName>
+                    <default>false</default>
+                    <label>Tanzania, United Republic Of</label>
+                </value>
+                <value>
+                    <fullName>Thailand</fullName>
+                    <default>false</default>
+                    <label>Thailand</label>
+                </value>
+                <value>
+                    <fullName>Togo</fullName>
+                    <default>false</default>
+                    <label>Togo</label>
+                </value>
+                <value>
+                    <fullName>Tokelau</fullName>
+                    <default>false</default>
+                    <label>Tokelau</label>
+                </value>
+                <value>
+                    <fullName>Tonga</fullName>
+                    <default>false</default>
+                    <label>Tonga</label>
+                </value>
+                <value>
+                    <fullName>Trinidad and Tobago</fullName>
+                    <default>false</default>
+                    <label>Trinidad and Tobago</label>
+                </value>
+                <value>
+                    <fullName>Tunisia</fullName>
+                    <default>false</default>
+                    <label>Tunisia</label>
+                </value>
+                <value>
+                    <fullName>Turkey</fullName>
+                    <default>false</default>
+                    <label>Turkey</label>
+                </value>
+                <value>
+                    <fullName>Turkmenistan</fullName>
+                    <default>false</default>
+                    <label>Turkmenistan</label>
+                </value>
+                <value>
+                    <fullName>Turks and Caicos Islands</fullName>
+                    <default>false</default>
+                    <label>Turks and Caicos Islands</label>
+                </value>
+                <value>
+                    <fullName>Tuvalu</fullName>
+                    <default>false</default>
+                    <label>Tuvalu</label>
+                </value>
+                <value>
+                    <fullName>Uganda</fullName>
+                    <default>false</default>
+                    <label>Uganda</label>
+                </value>
+                <value>
+                    <fullName>Ukraine</fullName>
+                    <default>false</default>
+                    <label>Ukraine</label>
+                </value>
+                <value>
+                    <fullName>United Arab Emirates</fullName>
+                    <default>false</default>
+                    <label>United Arab Emirates</label>
+                </value>
+                <value>
+                    <fullName>United Kingdom</fullName>
+                    <default>false</default>
+                    <label>United Kingdom</label>
+                </value>
+                <value>
+                    <fullName>United States Minor Outlying Islands</fullName>
+                    <default>false</default>
+                    <label>United States Minor Outlying Islands</label>
+                </value>
+                <value>
+                    <fullName>Uruguay</fullName>
+                    <default>false</default>
+                    <label>Uruguay</label>
+                </value>
+                <value>
+                    <fullName>USA</fullName>
+                    <default>false</default>
+                    <label>USA</label>
+                </value>
+                <value>
+                    <fullName>Uzbekistan</fullName>
+                    <default>false</default>
+                    <label>Uzbekistan</label>
+                </value>
+                <value>
+                    <fullName>Vanuatu</fullName>
+                    <default>false</default>
+                    <label>Vanuatu</label>
+                </value>
+                <value>
+                    <fullName>Venezuela</fullName>
+                    <default>false</default>
+                    <label>Venezuela</label>
+                </value>
+                <value>
+                    <fullName>Viet Nam</fullName>
+                    <default>false</default>
+                    <label>Viet Nam</label>
+                </value>
+                <value>
+                    <fullName>Virgin Islands, British</fullName>
+                    <default>false</default>
+                    <label>Virgin Islands, British</label>
+                </value>
+                <value>
+                    <fullName>Virgin Islands, U.S.</fullName>
+                    <default>false</default>
+                    <label>Virgin Islands, U.S.</label>
+                </value>
+                <value>
+                    <fullName>Wallis and Futuna</fullName>
+                    <default>false</default>
+                    <label>Wallis and Futuna</label>
+                </value>
+                <value>
+                    <fullName>Yemen</fullName>
+                    <default>false</default>
+                    <label>Yemen</label>
+                </value>
+                <value>
+                    <fullName>Zambia</fullName>
+                    <default>false</default>
+                    <label>Zambia</label>
+                </value>
+                <value>
+                    <fullName>Zimbabwe</fullName>
+                    <default>false</default>
+                    <label>Zimbabwe</label>
+                </value>
+                <value>
+                    <fullName>Isle of Man</fullName>
+                    <default>false</default>
+                    <label>Isle of Man</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Test_Reminder_Date__c</fullName>
+        <defaultValue>DATETIMEVALUE(&apos;07/09/2017 18:30&apos;)</defaultValue>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Test Reminder Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Tier_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Account_BP__r.Tier_Status__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tier Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Amount_for_Expected_Revenues__c</fullName>
+        <externalId>false</externalId>
+        <formula>Expected_Amount_A_A_Product_Revenue__c  +  Expected_Amount_A_A_Services_Revenue__c  + 
+Expected_Amount_FN_Product_Revenue__c  +  Expected_Amount_FN_Services_Revenue__c  +  Expected_Amount_GS_Product_Revenue__c  +  Expected_Amount_GS_Services_Revenue__c  +  Expected_Amount_ION_Product_Revenue__c  +  Expected_Amount_ION_Services_Revenue__c  +  Expected_Amount_MN_Product_Revenue__c  +  Expected_Amount_MN_Services_Revenue__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Amount for Expected Revenues</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Total_Coop_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Coop Amount</label>
+        <summarizedField>Marketing_Plan_and_Industry_Events__c.Co_op__c</summarizedField>
+        <summaryForeignKey>Marketing_Plan_and_Industry_Events__c.Marketing_Plan_and_Industry_Events_BP__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_MDF_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Total MDF Amount</label>
+        <summarizedField>Marketing_Plan_and_Industry_Events__c.MDF__c</summarizedField>
+        <summaryForeignKey>Marketing_Plan_and_Industry_Events__c.Marketing_Plan_and_Industry_Events_BP__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Marketing_Plan_Budget__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Marketing Plan Budget</label>
+        <summarizedField>Marketing_Plan_and_Industry_Events__c.Expected_Total_Cost_of_the_Activity__c</summarizedField>
+        <summaryForeignKey>Marketing_Plan_and_Industry_Events__c.Marketing_Plan_and_Industry_Events_BP__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Partner_Funded_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Partner Funded Amount</label>
+        <summarizedField>Marketing_Plan_and_Industry_Events__c.Partner_Fund__c</summarizedField>
+        <summaryForeignKey>Marketing_Plan_and_Industry_Events__c.Marketing_Plan_and_Industry_Events_BP__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Product_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <formula>( Expected_Amount_A_A_Product_Revenue__c  +  Expected_Amount_FN_Product_Revenue__c  +  Expected_Amount_GS_Product_Revenue__c  +   Expected_Amount_ION_Product_Revenue__c + Expected_Amount_MN_Product_Revenue__c   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Product Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Total_Services_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Expected_Amount_A_A_Services_Revenue__c  +  Expected_Amount_FN_Services_Revenue__c + Expected_Amount_GS_Services_Revenue__c  +   Expected_Amount_ION_Services_Revenue__c  +  Expected_Amount_MN_Services_Revenue__c  )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Services Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Training_Certification_Plan_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Training &amp; Certification Plan Count</label>
+        <summaryForeignKey>Training_Certification_Plan__c.Business_Plan_Training_Certification__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Twitter__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Twitter</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Which_Business_Segments_do_you_serve__c</fullName>
+        <externalId>false</externalId>
+        <label>*Which Business Segments do you serve?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Business &amp; Professional Services</fullName>
+                    <default>false</default>
+                    <label>Business &amp; Professional Services</label>
+                </value>
+                <value>
+                    <fullName>Cable MSO</fullName>
+                    <default>false</default>
+                    <label>Cable MSO</label>
+                </value>
+                <value>
+                    <fullName>Defense</fullName>
+                    <default>false</default>
+                    <label>Defense</label>
+                </value>
+                <value>
+                    <fullName>Education</fullName>
+                    <default>false</default>
+                    <label>Education</label>
+                </value>
+                <value>
+                    <fullName>Education – Higher</fullName>
+                    <default>false</default>
+                    <label>Education – Higher</label>
+                </value>
+                <value>
+                    <fullName>Education – K – 12</fullName>
+                    <default>false</default>
+                    <label>Education – K – 12</label>
+                </value>
+                <value>
+                    <fullName>Enterprise</fullName>
+                    <default>false</default>
+                    <label>Enterprise</label>
+                </value>
+                <value>
+                    <fullName>Federal Government </fullName>
+                    <default>false</default>
+                    <label>Federal Government </label>
+                </value>
+                <value>
+                    <fullName>Financial Services</fullName>
+                    <default>false</default>
+                    <label>Financial Services</label>
+                </value>
+                <value>
+                    <fullName>Government</fullName>
+                    <default>false</default>
+                    <label>Government</label>
+                </value>
+                <value>
+                    <fullName>Government – Local and Provincial</fullName>
+                    <default>false</default>
+                    <label>Government – Local and Provincial</label>
+                </value>
+                <value>
+                    <fullName>Healthcare</fullName>
+                    <default>false</default>
+                    <label>Healthcare</label>
+                </value>
+                <value>
+                    <fullName>Highways</fullName>
+                    <default>false</default>
+                    <label>Highways</label>
+                </value>
+                <value>
+                    <fullName>Hospitality</fullName>
+                    <default>false</default>
+                    <label>Hospitality</label>
+                </value>
+                <value>
+                    <fullName>Large Enterprise</fullName>
+                    <default>false</default>
+                    <label>Large Enterprise</label>
+                </value>
+                <value>
+                    <fullName>Manufacturing</fullName>
+                    <default>false</default>
+                    <label>Manufacturing</label>
+                </value>
+                <value>
+                    <fullName>Mid Market</fullName>
+                    <default>false</default>
+                    <label>Mid Market</label>
+                </value>
+                <value>
+                    <fullName>Mining</fullName>
+                    <default>false</default>
+                    <label>Mining</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Pharmaceutical</fullName>
+                    <default>false</default>
+                    <label>Pharmaceutical</label>
+                </value>
+                <value>
+                    <fullName>Ports &amp; Airport</fullName>
+                    <default>false</default>
+                    <label>Ports &amp; Airport</label>
+                </value>
+                <value>
+                    <fullName>Public Safety</fullName>
+                    <default>false</default>
+                    <label>Public Safety</label>
+                </value>
+                <value>
+                    <fullName>Public Sector</fullName>
+                    <default>false</default>
+                    <label>Public Sector</label>
+                </value>
+                <value>
+                    <fullName>Railways</fullName>
+                    <default>false</default>
+                    <label>Railways</label>
+                </value>
+                <value>
+                    <fullName>Retail</fullName>
+                    <default>false</default>
+                    <label>Retail</label>
+                </value>
+                <value>
+                    <fullName>SMB</fullName>
+                    <default>false</default>
+                    <label>SMB</label>
+                </value>
+                <value>
+                    <fullName>Telco (SP)</fullName>
+                    <default>false</default>
+                    <label>Telco (SP)</label>
+                </value>
+                <value>
+                    <fullName>Transportation</fullName>
+                    <default>false</default>
+                    <label>Transportation</label>
+                </value>
+                <value>
+                    <fullName>Utilities, Oil &amp; Gas</fullName>
+                    <default>false</default>
+                    <label>Utilities, Oil &amp; Gas</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>X5_Business_Day_Reminder__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(MOD( DATEVALUE(Test_Reminder_Date__c) - DATE(1900, 1, 7), 7),
+0, Test_Reminder_Date__c+5, 
+1, Test_Reminder_Date__c+7, 
+2, Test_Reminder_Date__c+7, 
+3, Test_Reminder_Date__c+7, 
+4, Test_Reminder_Date__c+7, 
+5,Test_Reminder_Date__c+7, 
+6,Test_Reminder_Date__c+6, 
+Test_Reminder_Date__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>5 Business Day Reminder</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Year__c</fullName>
+        <externalId>false</externalId>
+        <label>Year</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>2017</fullName>
+                    <default>false</default>
+                    <label>2017</label>
+                </value>
+                <value>
+                    <fullName>2018</fullName>
+                    <default>false</default>
+                    <label>2018</label>
+                </value>
+                <value>
+                    <fullName>2019</fullName>
+                    <default>false</default>
+                    <label>2019</label>
+                </value>
+                <value>
+                    <fullName>2020</fullName>
+                    <default>false</default>
+                    <label>2020</label>
+                </value>
+                <value>
+                    <fullName>2021</fullName>
+                    <default>false</default>
+                    <label>2021</label>
+                </value>
+                <value>
+                    <fullName>2022</fullName>
+                    <default>false</default>
+                    <label>2022</label>
+                </value>
+                <value>
+                    <fullName>2023</fullName>
+                    <default>false</default>
+                    <label>2023</label>
+                </value>
+                <value>
+                    <fullName>2024</fullName>
+                    <default>false</default>
+                    <label>2024</label>
+                </value>
+                <value>
+                    <fullName>2025</fullName>
+                    <default>false</default>
+                    <label>2025</label>
+                </value>
+                <value>
+                    <fullName>2026</fullName>
+                    <default>false</default>
+                    <label>2026</label>
+                </value>
+                <value>
+                    <fullName>2027</fullName>
+                    <default>false</default>
+                    <label>2027</label>
+                </value>
+                <value>
+                    <fullName>2028</fullName>
+                    <default>false</default>
+                    <label>2028</label>
+                </value>
+                <value>
+                    <fullName>2029</fullName>
+                    <default>false</default>
+                    <label>2029</label>
+                </value>
+                <value>
+                    <fullName>2030</fullName>
+                    <default>false</default>
+                    <label>2030</label>
+                </value>
+                <value>
+                    <fullName>2031</fullName>
+                    <default>false</default>
+                    <label>2031</label>
+                </value>
+                <value>
+                    <fullName>2032</fullName>
+                    <default>false</default>
+                    <label>2032</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Youtube__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Youtube</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <label>Business Plan</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>BP-{0000000}</displayFormat>
+        <label>Business Plan ID</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Business Plans</pluralLabel>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Year__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>Affiliates_URL_Val</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT(ISBLANK(Affiliates_URL__c )) &amp;&amp;
+NOT( CONTAINS( Affiliates_URL__c , &apos;WWW.&apos;) ||  CONTAINS( Affiliates_URL__c , &apos;www.&apos;) )</errorConditionFormula>
+        <errorDisplayField>Affiliates_URL__c</errorDisplayField>
+        <errorMessage>Please enter the correct Affiliates URL</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Company_URL_Val</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISCHANGED( Company_URL__c ) &amp;&amp; NOT(ISNEW()) &amp;&amp;  NOT(REGEX(Company_URL__c , &quot;([www]+[.]+[a-z]+[.]+[a-z]*)|([www]+[.]+[a-z]+[.]+[a-z]+[.]+[a-z]*)|([WWW]+[.]+[A-Z]+[.]+[A-Z]*)|([WWW]+[.]+[A-Z]+[.]+[A-Z]+[.]+[A-Z]*)&quot;))</errorConditionFormula>
+        <errorDisplayField>Company_URL__c</errorDisplayField>
+        <errorMessage>Please enter the correct URL</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Competitive_Portfolio_Value</fullName>
+        <active>true</active>
+        <errorConditionFormula>INCLUDES(Competitive_Portfolio_you_represent__c , &apos;Other&apos;)  &amp;&amp; 
+ISBLANK( If_Other_provide_Competitive_Portfolio__c )</errorConditionFormula>
+        <errorDisplayField>If_Other_provide_Competitive_Portfolio__c</errorDisplayField>
+        <errorMessage>You have indicated Other. Please enter Competitive Portfolio.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Cust_Satisfation_Dependency</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAL( Do_you_measure_Customer_Satisfaction__c , &apos;Yes&apos;) &amp;&amp;  ISBLANK(  TEXT(If_Yes_how_frequent_do_you_measure__c ) )</errorConditionFormula>
+        <errorDisplayField>If_Yes_how_frequent_do_you_measure__c</errorDisplayField>
+        <errorMessage>Please select the frequency.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Facebook_URL_check_on_Business_Plan</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT( ISBLANK(Facebook__c) ),NOT(OR(
+	CONTAINS(Facebook__c,&apos;facebook.com&apos;),
+	CONTAINS(Facebook__c,&apos;fb.me&apos;)
+ )
+)
+)</errorConditionFormula>
+        <errorDisplayField>Facebook__c</errorDisplayField>
+        <errorMessage>Please enter the correct Facebook URL containing facebook.com or Fb.me.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>LinkedIn_URL_check_on_Business_Plan</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT( ISBLANK( LinkedIn__c ) ),NOT(
+	CONTAINS(LinkedIn__c ,&apos;linkedin.com&apos;)
+ )
+)</errorConditionFormula>
+        <errorDisplayField>LinkedIn__c</errorDisplayField>
+        <errorMessage>Please enter the correct LinkedIn URL containing linkedin.com.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Nokia_Product_Portfolio_Val</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF(INCLUDES(Nokia_Product_Portfolio_represented__c , &apos;Other&apos;), TRUE, FALSE) &amp;&amp; (ISBLANK(If_Other_provide_Product_Portfolio__c ))</errorConditionFormula>
+        <errorDisplayField>If_Other_provide_Product_Portfolio__c</errorDisplayField>
+        <errorMessage>You have indicated Other. Please enter Product Portfolio.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Not_Other_Competitive_Portfolio_Value</fullName>
+        <active>true</active>
+        <errorConditionFormula>!INCLUDES(Competitive_Portfolio_you_represent__c , &apos;Other&apos;)  &amp;&amp; 
+!ISBLANK( If_Other_provide_Competitive_Portfolio__c )</errorConditionFormula>
+        <errorDisplayField>If_Other_provide_Competitive_Portfolio__c</errorDisplayField>
+        <errorMessage>You have already indicated the Competitive Portfolio.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Other_Nokia_Product_Portfolio_Val</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF(NOT(INCLUDES(Nokia_Product_Portfolio_represented__c , &apos;Other&apos;)), TRUE, FALSE) &amp;&amp; (NOT(ISBLANK(If_Other_provide_Product_Portfolio__c )))</errorConditionFormula>
+        <errorDisplayField>If_Other_provide_Product_Portfolio__c</errorDisplayField>
+        <errorMessage>You have already selected Product Portfolio.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PrimaryPartnerProgramContactsPRMIsEmpty</fullName>
+        <active>true</active>
+        <description>If Primary Partner Program Contacts PRM field is Empty.</description>
+        <errorConditionFormula>OR(ISBLANK(Primary_Partner_Program_Contact_s_PRM__c ), Primary_Partner_Program_Contact_s_PRM__c ==&apos;&apos;)</errorConditionFormula>
+        <errorDisplayField>A_A_product_s_you_intend_to_sell__c</errorDisplayField>
+        <errorMessage>The Primary Partner Program Contact(s)/PRM is a required field. If this contact is not yet known, Please populates this field with the same person identified in the Nokia Partner Primary Partner (PSM) field.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Status_Should_Be_Approved_For_Cloning</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT(ISNEW()) &amp;&amp; Text(Business_Plan_Status__c)  &lt;&gt;  &apos;Approved&apos; &amp;&amp;  IsClone__c</errorConditionFormula>
+        <errorMessage>You Can only Clone Business Plan if the Business Plan is approved</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Test_Val</fullName>
+        <active>false</active>
+        <errorConditionFormula>ISBLANK(Competitive_Portfolio_you_represent__c)</errorConditionFormula>
+        <errorMessage>Error</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Twiitter_URL_check_on_Business_Plan</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT( ISBLANK( Twitter__c ) ),
+NOT(OR(
+CONTAINS(Twitter__c ,&apos;twitter.com&apos;),
+CONTAINS(Twitter__c ,&apos;t.co&apos;)
+)
+)
+)</errorConditionFormula>
+        <errorDisplayField>Twitter__c</errorDisplayField>
+        <errorMessage>Please enter the correct Twitter URL containing twitter.com or t.co.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>YouTube_URL_check_on_Business_Plan</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT( ISBLANK( Youtube__c ) ),
+NOT(OR(
+CONTAINS(Youtube__c ,&apos;youtube.com&apos;),
+CONTAINS(Youtube__c ,&apos;y2u.be&apos;),
+CONTAINS(Youtube__c ,&apos;youtu.be&apos;)
+)
+)
+)</errorConditionFormula>
+        <errorDisplayField>Youtube__c</errorDisplayField>
+        <errorMessage>Please enter the correct Youtube URL containing youtube.com, y2u.be or youtu.be.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

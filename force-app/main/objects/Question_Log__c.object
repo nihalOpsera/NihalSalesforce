@@ -1,0 +1,1864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>TOOLKIT - An object that represents a question that a project team member has about a request.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Actual_Close_Date__c</fullName>
+        <description>Closing date of Question Log</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Status__c, &quot;Closed&quot;), 
+TODAY(),null)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Actual Close Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Answer__c</fullName>
+        <description>Answer for the Question Log</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Answer</label>
+        <length>32768</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Assigned_To__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>User responsible to answer the Question Log</description>
+        <externalId>false</externalId>
+        <label>Assigned To</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Question_Logs2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Capability__c</fullName>
+        <description>Related request&apos;s capability name</description>
+        <externalId>false</externalId>
+        <formula>Request__r.Feature__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Feature</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Date_Reported__c</fullName>
+        <description>Date of Question Log Creation.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Date Reported</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_Resolved__c</fullName>
+        <description>Date of Question Log resolved.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Date Resolved</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <description>Additional details about Question Log.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32768</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Domain__c</fullName>
+        <externalId>false</externalId>
+        <label>Domain</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Account Management</fullName>
+                    <default>false</default>
+                    <label>Account Management</label>
+                </value>
+                <value>
+                    <fullName>Assets/Install Base</fullName>
+                    <default>false</default>
+                    <label>Assets/Install Base</label>
+                </value>
+                <value>
+                    <fullName>Campaign Management</fullName>
+                    <default>false</default>
+                    <label>Campaign Management</label>
+                </value>
+                <value>
+                    <fullName>Case Management</fullName>
+                    <default>false</default>
+                    <label>Case Management</label>
+                </value>
+                <value>
+                    <fullName>Chatter</fullName>
+                    <default>false</default>
+                    <label>Chatter</label>
+                </value>
+                <value>
+                    <fullName>Communications Media and Technologies</fullName>
+                    <default>false</default>
+                    <label>Communications Media and Technologies</label>
+                </value>
+                <value>
+                    <fullName>Contact</fullName>
+                    <default>false</default>
+                    <label>Contact</label>
+                </value>
+                <value>
+                    <fullName>Currency Management</fullName>
+                    <default>false</default>
+                    <label>Currency Management</label>
+                </value>
+                <value>
+                    <fullName>Financial Services</fullName>
+                    <default>false</default>
+                    <label>Financial Services</label>
+                </value>
+                <value>
+                    <fullName>Forecasting</fullName>
+                    <default>false</default>
+                    <label>Forecasting</label>
+                </value>
+                <value>
+                    <fullName>Lead Management</fullName>
+                    <default>false</default>
+                    <label>Lead Management</label>
+                </value>
+                <value>
+                    <fullName>Life Sciences</fullName>
+                    <default>false</default>
+                    <label>Life Sciences</label>
+                </value>
+                <value>
+                    <fullName>Mobile</fullName>
+                    <default>false</default>
+                    <label>Mobile</label>
+                </value>
+                <value>
+                    <fullName>Opportunity Management</fullName>
+                    <default>false</default>
+                    <label>Opportunity Management</label>
+                </value>
+                <value>
+                    <fullName>Outlook</fullName>
+                    <default>false</default>
+                    <label>Outlook</label>
+                </value>
+                <value>
+                    <fullName>Product Management</fullName>
+                    <default>false</default>
+                    <label>Product Management</label>
+                </value>
+                <value>
+                    <fullName>Products</fullName>
+                    <default>false</default>
+                    <label>Products</label>
+                </value>
+                <value>
+                    <fullName>Reports and Dashboards</fullName>
+                    <default>false</default>
+                    <label>Reports and Dashboards</label>
+                </value>
+                <value>
+                    <fullName>Retail Marketing</fullName>
+                    <default>false</default>
+                    <label>Retail Marketing</label>
+                </value>
+                <value>
+                    <fullName>Search Marketing</fullName>
+                    <default>false</default>
+                    <label>Search Marketing</label>
+                </value>
+                <value>
+                    <fullName>Tasks and Activities</fullName>
+                    <default>false</default>
+                    <label>Tasks and Activities</label>
+                </value>
+                <value>
+                    <fullName>User Management</fullName>
+                    <default>false</default>
+                    <label>User Management</label>
+                </value>
+                <value>
+                    <fullName>Website Integration</fullName>
+                    <default>false</default>
+                    <label>Website Integration</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Expected_Close_Date__c</fullName>
+        <description>Expected Closing Date for Question Log.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Expected Close Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Industry__c</fullName>
+        <externalId>false</externalId>
+        <label>Industry</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Communications, Media and Technology</fullName>
+                    <default>false</default>
+                    <label>Communications, Media and Technology</label>
+                </value>
+                <value>
+                    <fullName>Financial Services</fullName>
+                    <default>false</default>
+                    <label>Financial Services</label>
+                </value>
+                <value>
+                    <fullName>Health &amp; Public Services</fullName>
+                    <default>false</default>
+                    <label>Health &amp; Public Services</label>
+                </value>
+                <value>
+                    <fullName>Products</fullName>
+                    <default>false</default>
+                    <label>Products</label>
+                </value>
+                <value>
+                    <fullName>Resources</fullName>
+                    <default>false</default>
+                    <label>Resources</label>
+                </value>
+                <value>
+                    <fullName>Cross-Industry</fullName>
+                    <default>false</default>
+                    <label>Cross-Industry</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Is_Value_Delivery_Question__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Value Delivery Question</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Priority__c</fullName>
+        <description>Severity of Question Log.</description>
+        <externalId>false</externalId>
+        <label>Priority</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Question__c</fullName>
+        <description>Detailed question.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Question</label>
+        <length>32768</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Request__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Related request to the question log</description>
+        <externalId>false</externalId>
+        <label>Requirement</label>
+        <referenceTo>Request__c</referenceTo>
+        <relationshipLabel>Question Log</relationshipLabel>
+        <relationshipName>Question_Log</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Requested_Date__c</fullName>
+        <description>Date of request of Question Log</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Requested Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Requirement_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Request__r.Status__c)</formula>
+        <label>Requirement Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolution_Comments__c</fullName>
+        <description>Additional details about Question Log</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Resolution/Comments</label>
+        <length>32768</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Scope__c</fullName>
+        <externalId>false</externalId>
+        <label>Phase</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Plan and Analyze</fullName>
+                    <default>false</default>
+                    <label>Plan and Analyze</label>
+                </value>
+                <value>
+                    <fullName>Scope</fullName>
+                    <default>false</default>
+                    <label>Scope</label>
+                </value>
+                <value>
+                    <fullName>Design</fullName>
+                    <default>false</default>
+                    <label>Design</label>
+                </value>
+                <value>
+                    <fullName>Build</fullName>
+                    <default>false</default>
+                    <label>Build</label>
+                </value>
+                <value>
+                    <fullName>Test</fullName>
+                    <default>false</default>
+                    <label>Test</label>
+                </value>
+                <value>
+                    <fullName>Deploy</fullName>
+                    <default>false</default>
+                    <label>Deploy</label>
+                </value>
+                <value>
+                    <fullName>Initiate and Confirm</fullName>
+                    <default>false</default>
+                    <label>Initiate and Confirm</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sprint__c</fullName>
+        <externalId>false</externalId>
+        <formula>Request__r.Sprint__r.Name</formula>
+        <label>Sprint</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status_Indicator__c</fullName>
+        <description>Displays a status as red, green or yellow ball</description>
+        <externalId>false</externalId>
+        <formula>IMAGE(if(ISPICKVAL(Status__c ,&quot;Clarification Requested&quot;) &amp;&amp; today() - datevalue(CreatedDate) &lt; 2, &quot;/img/samples/light_green.gif&quot;,
+if(ISPICKVAL(Status__c ,&quot;Clarification Requested&quot;) &amp;&amp; today() - datevalue(CreatedDate) &lt; 5, &quot;/img/samples/light_yellow.gif&quot;,&quot;/img/samples/light_red.gif&quot;)),&quot;/img/samples/light_green.gif&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Status Indicator</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <description>Current status of Question Log</description>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Clarification Requested</fullName>
+                    <default>false</default>
+                    <label>Clarification Requested</label>
+                </value>
+                <value>
+                    <fullName>Clarification Provided</fullName>
+                    <default>false</default>
+                    <label>Clarification Provided</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sub_Capability__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub-Capability</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Access</fullName>
+                    <default>false</default>
+                    <label>Access</label>
+                </value>
+                <value>
+                    <fullName>Account Hierarchy</fullName>
+                    <default>false</default>
+                    <label>Account Hierarchy</label>
+                </value>
+                <value>
+                    <fullName>Account Maintenance</fullName>
+                    <default>false</default>
+                    <label>Account Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Account Ownership and Assignment</fullName>
+                    <default>false</default>
+                    <label>Account Ownership and Assignment</label>
+                </value>
+                <value>
+                    <fullName>Case Solutions</fullName>
+                    <default>false</default>
+                    <label>Case Solutions</label>
+                </value>
+                <value>
+                    <fullName>Collaboration</fullName>
+                    <default>false</default>
+                    <label>Collaboration</label>
+                </value>
+                <value>
+                    <fullName>Custom Reports</fullName>
+                    <default>false</default>
+                    <label>Custom Reports</label>
+                </value>
+                <value>
+                    <fullName>Dashboards</fullName>
+                    <default>false</default>
+                    <label>Dashboards</label>
+                </value>
+                <value>
+                    <fullName>Data Management</fullName>
+                    <default>false</default>
+                    <label>Data Management</label>
+                </value>
+                <value>
+                    <fullName>Definition</fullName>
+                    <default>false</default>
+                    <label>Definition</label>
+                </value>
+                <value>
+                    <fullName>Email Marketing</fullName>
+                    <default>false</default>
+                    <label>Email Marketing</label>
+                </value>
+                <value>
+                    <fullName>Fields</fullName>
+                    <default>false</default>
+                    <label>Fields</label>
+                </value>
+                <value>
+                    <fullName>Files and Attachments</fullName>
+                    <default>false</default>
+                    <label>Files and Attachments</label>
+                </value>
+                <value>
+                    <fullName>General</fullName>
+                    <default>false</default>
+                    <label>General</label>
+                </value>
+                <value>
+                    <fullName>Integration</fullName>
+                    <default>false</default>
+                    <label>Integration</label>
+                </value>
+                <value>
+                    <fullName>Knowledge Articles</fullName>
+                    <default>false</default>
+                    <label>Knowledge Articles</label>
+                </value>
+                <value>
+                    <fullName>Lead Assignment</fullName>
+                    <default>false</default>
+                    <label>Lead Assignment</label>
+                </value>
+                <value>
+                    <fullName>Lead Conversion</fullName>
+                    <default>false</default>
+                    <label>Lead Conversion</label>
+                </value>
+                <value>
+                    <fullName>Lead Creation</fullName>
+                    <default>false</default>
+                    <label>Lead Creation</label>
+                </value>
+                <value>
+                    <fullName>Lead Qualification</fullName>
+                    <default>false</default>
+                    <label>Lead Qualification</label>
+                </value>
+                <value>
+                    <fullName>Lead Source</fullName>
+                    <default>false</default>
+                    <label>Lead Source</label>
+                </value>
+                <value>
+                    <fullName>Lead Workflow Process</fullName>
+                    <default>false</default>
+                    <label>Lead Workflow Process</label>
+                </value>
+                <value>
+                    <fullName>Legal</fullName>
+                    <default>false</default>
+                    <label>Legal</label>
+                </value>
+                <value>
+                    <fullName>Managing Multiple Currencies</fullName>
+                    <default>false</default>
+                    <label>Managing Multiple Currencies</label>
+                </value>
+                <value>
+                    <fullName>Ownership</fullName>
+                    <default>false</default>
+                    <label>Ownership</label>
+                </value>
+                <value>
+                    <fullName>Page Layouts</fullName>
+                    <default>false</default>
+                    <label>Page Layouts</label>
+                </value>
+                <value>
+                    <fullName>Permissions</fullName>
+                    <default>false</default>
+                    <label>Permissions</label>
+                </value>
+                <value>
+                    <fullName>Pricing Book</fullName>
+                    <default>false</default>
+                    <label>Pricing Book</label>
+                </value>
+                <value>
+                    <fullName>Process</fullName>
+                    <default>false</default>
+                    <label>Process</label>
+                </value>
+                <value>
+                    <fullName>Product Catalog</fullName>
+                    <default>false</default>
+                    <label>Product Catalog</label>
+                </value>
+                <value>
+                    <fullName>Quotas</fullName>
+                    <default>false</default>
+                    <label>Quotas</label>
+                </value>
+                <value>
+                    <fullName>Reports</fullName>
+                    <default>false</default>
+                    <label>Reports</label>
+                </value>
+                <value>
+                    <fullName>Validations</fullName>
+                    <default>false</default>
+                    <label>Validations</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Submitter__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>User who submitted the Question Log</description>
+        <externalId>false</externalId>
+        <label>Submitter</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Question_Logs1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Team__c</fullName>
+        <externalId>false</externalId>
+        <formula>Request__r.Team__c</formula>
+        <label>Team</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tips_and_Comments__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Tips and Comments</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Track__c</fullName>
+        <description>Track of the question log</description>
+        <externalId>false</externalId>
+        <label>Track</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Track 1</fullName>
+                    <default>false</default>
+                    <label>Track 1</label>
+                </value>
+                <value>
+                    <fullName>Track 2</fullName>
+                    <default>false</default>
+                    <label>Track 2</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Use_Case__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Use Case</label>
+        <referenceTo>Use_Case__c</referenceTo>
+        <relationshipLabel>Question Log</relationshipLabel>
+        <relationshipName>Question_Log</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Question Log</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>Request__c</columns>
+        <columns>Question__c</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>Capability__c</columns>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Submitter__c</columns>
+        <columns>Team__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Closed</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>New,Clarification Requested</value>
+        </filters>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>CPQ_Question_Log</fullName>
+        <columns>NAME</columns>
+        <columns>Submitter__c</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>Question__c</columns>
+        <columns>Answer__c</columns>
+        <columns>Requested_Date__c</columns>
+        <columns>Expected_Close_Date__c</columns>
+        <columns>Status__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Request__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>contains</operation>
+            <value>CPQ</value>
+        </filters>
+        <label>CPQ Question Log</label>
+    </listViews>
+    <listViews>
+        <fullName>FSD_Question_Log</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Expected_Close_Date__c</columns>
+        <columns>Capability__c</columns>
+        <columns>Submitter__c</columns>
+        <columns>Question__c</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>Answer__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sprint__c</field>
+            <operation>contains</operation>
+            <value>FSD</value>
+        </filters>
+        <label>FSD Question Log</label>
+    </listViews>
+    <listViews>
+        <fullName>NGOEP</fullName>
+        <columns>NAME</columns>
+        <columns>Question__c</columns>
+        <columns>Status__c</columns>
+        <columns>Sprint__c</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sprint__c</field>
+            <operation>contains</operation>
+            <value>NGOEP</value>
+        </filters>
+        <label>NGOEP</label>
+    </listViews>
+    <listViews>
+        <fullName>QL_LoA</fullName>
+        <columns>NAME</columns>
+        <columns>Question__c</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>Capability__c</columns>
+        <columns>Request__c</columns>
+        <columns>Status__c</columns>
+        <columns>Submitter__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>LoA</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Closed</value>
+        </filters>
+        <label>QL - LoA</label>
+    </listViews>
+    <listViews>
+        <fullName>SWx_Digital_Sales</fullName>
+        <columns>NAME</columns>
+        <columns>Question__c</columns>
+        <columns>Answer__c</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>Status__c</columns>
+        <columns>Expected_Close_Date__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Submitter__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>Digital Sales</value>
+        </filters>
+        <label>Digital Sales // SWx</label>
+    </listViews>
+    <listViews>
+        <fullName>SaaS_Delivery_Question_Log</fullName>
+        <columns>NAME</columns>
+        <columns>Request__c</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>Team__c</columns>
+        <columns>Capability__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Question_Log__c.SaaS_Delivery_Question_Log</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Closed</value>
+        </filters>
+        <label>SaaS Delivery Question Log</label>
+    </listViews>
+    <listViews>
+        <fullName>SaaS_Delivery_Question_Log1</fullName>
+        <columns>NAME</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>Status__c</columns>
+        <columns>Question__c</columns>
+        <columns>Answer__c</columns>
+        <columns>Request__c</columns>
+        <columns>Expected_Close_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Question_Log__c.SaaS_Delivery_Question_Log</value>
+        </filters>
+        <filters>
+            <field>Capability__c</field>
+            <operation>contains</operation>
+            <value>Price</value>
+        </filters>
+        <label>Question Log for Pricing</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Sprint_2</fullName>
+        <columns>Request__c</columns>
+        <columns>NAME</columns>
+        <columns>Submitter__c</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>Status__c</columns>
+        <columns>Question__c</columns>
+        <columns>Answer__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Priority__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sprint__c</field>
+            <operation>contains</operation>
+            <value>NGOEP</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>New,Clarification Requested</value>
+        </filters>
+        <label>NGOEP - Open questions</label>
+    </listViews>
+    <listViews>
+        <fullName>Value_Delivery_Question_Log</fullName>
+        <columns>NAME</columns>
+        <columns>Capability__c</columns>
+        <columns>Domain__c</columns>
+        <columns>Question__c</columns>
+        <columns>Industry__c</columns>
+        <columns>Scope__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Question_Log__c.Value_Delivery_Question_Log</value>
+        </filters>
+        <label>Value Delivery Question Log</label>
+    </listViews>
+    <nameField>
+        <displayFormat>QL-{0000}</displayFormat>
+        <label>Question Log ID</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Question Log</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>SaaS_Delivery_Question_Log</fullName>
+        <active>true</active>
+        <label>PMO Question</label>
+        <picklistValues>
+            <picklist>Domain__c</picklist>
+            <values>
+                <fullName>Account Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Assets%2FInstall Base</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Campaign Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Case Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chatter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications Media and Technologies</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contact</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Currency Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Forecasting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Life Sciences</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opportunity Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outlook</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reports and Dashboards</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Search Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tasks and Activities</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Website Integration</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Industry__c</picklist>
+            <values>
+                <fullName>Communications%2C Media and Technology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cross-Industry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health %26 Public Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resources</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Scope__c</picklist>
+            <values>
+                <fullName>Build</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deploy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Initiate and Confirm</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plan and Analyze</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scope</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Clarification Provided</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Clarification Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sub_Capability__c</picklist>
+            <values>
+                <fullName>Access</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Account Hierarchy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Account Maintenance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Account Ownership and Assignment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Case Solutions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Collaboration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Custom Reports</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dashboards</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Definition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fields</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Files and Attachments</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Integration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Knowledge Articles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead Assignment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead Conversion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead Creation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead Qualification</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead Source</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead Workflow Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Managing Multiple Currencies</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ownership</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Page Layouts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Permissions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing Book</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Catalog</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quotas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reports</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validations</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Track__c</picklist>
+            <values>
+                <fullName>Track 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Track 2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Value_Delivery_Question_Log</fullName>
+        <active>true</active>
+        <label>Value Delivery Question</label>
+        <picklistValues>
+            <picklist>Domain__c</picklist>
+            <values>
+                <fullName>Account Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Assets%2FInstall Base</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Campaign Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Case Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chatter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications Media and Technologies</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contact</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Currency Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Forecasting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Life Sciences</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opportunity Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outlook</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reports and Dashboards</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Search Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tasks and Activities</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Website Integration</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Industry__c</picklist>
+            <values>
+                <fullName>Communications%2C Media and Technology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cross-Industry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health %26 Public Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resources</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Scope__c</picklist>
+            <values>
+                <fullName>Build</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deploy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Initiate and Confirm</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plan and Analyze</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scope</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Clarification Provided</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Clarification Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sub_Capability__c</picklist>
+            <values>
+                <fullName>Access</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Account Hierarchy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Account Maintenance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Account Ownership and Assignment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Case Solutions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Collaboration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Custom Reports</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dashboards</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Definition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fields</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Files and Attachments</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Integration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Knowledge Articles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead Assignment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead Conversion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead Creation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead Qualification</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead Source</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead Workflow Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Managing Multiple Currencies</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ownership</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Page Layouts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Permissions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing Book</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Catalog</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quotas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reports</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validations</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Track__c</picklist>
+            <values>
+                <fullName>Track 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Track 2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Submitter__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Assigned_To__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Question__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Answer__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Requested_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Expected_Close_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Priority__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Submitter__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Assigned_To__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Question__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Answer__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Requested_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Expected_Close_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Priority__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Submitter__c</searchFilterFields>
+        <searchFilterFields>Assigned_To__c</searchFilterFields>
+        <searchFilterFields>Capability__c</searchFilterFields>
+        <searchFilterFields>Request__c</searchFilterFields>
+        <searchFilterFields>Requested_Date__c</searchFilterFields>
+        <searchFilterFields>Expected_Close_Date__c</searchFilterFields>
+        <searchFilterFields>Priority__c</searchFilterFields>
+        <searchFilterFields>Status__c</searchFilterFields>
+        <searchResultsAdditionalFields>Submitter__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Assigned_To__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Question__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Answer__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Requested_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Expected_Close_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Priority__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Convert_To_Request</fullName>
+        <availability>online</availability>
+        <description>Converting the question to request record</description>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Convert To Request</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>if(&apos;{!Question_Log__c.Answer__c }&apos; == &apos;&apos;){
+alert(&apos;Please provide the Answer before converting the Question into Request.&apos;);
+}else if(&apos;{!Question_Log__c.Request__c}&apos; != &apos;&apos;){
+alert(&apos;This Question is already convered to Request&apos;);
+}else {
+window.location.href=&apos;/apex/VFP_QuestionToRequestConvserion?id={!Question_Log__c.Id}&apos;;
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>New_Question_Log</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>New Question Log</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>window.location.href=&apos;/apex/VFP_SaaSQuestionLogPage?Id={!Request__c.Id}&apos;</url>
+    </webLinks>
+</CustomObject>

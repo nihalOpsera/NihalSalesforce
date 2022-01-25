@@ -1,0 +1,2313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>To Manage Escalation for a Case</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>CH_AccountCountry__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(CH_AccountName__r.Country__c)</formula>
+        <label>Account Country</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_AccountName__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>NOKIASC-903</description>
+        <externalId>false</externalId>
+        <label>Account Name</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Manage Escalations</relationshipLabel>
+        <relationshipName>CH_ManageEscalations_Account</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_CaseNumber__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>NOKIASC-903</description>
+        <externalId>false</externalId>
+        <label>Case Number</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Case.Status</field>
+                <operation>notContain</operation>
+                <value>Rejected, Duplicate, Cancelled, Issue resolved</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Manage Escalations</relationshipLabel>
+        <relationshipName>CH_ManageEscalations_Case</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_CaseStatus__c</fullName>
+        <description>NOKIASC-903</description>
+        <externalId>false</externalId>
+        <label>Case Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>OpenWorking</fullName>
+                    <default>false</default>
+                    <label>OpenWorking</label>
+                </value>
+                <value>
+                    <fullName>Created</fullName>
+                    <default>false</default>
+                    <label>Created</label>
+                </value>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Pending Requester’s input</fullName>
+                    <default>false</default>
+                    <label>Pending Requester’s input</label>
+                </value>
+                <value>
+                    <fullName>Fixed- Ready to be re-tested</fullName>
+                    <default>false</default>
+                    <label>Fixed- Ready to be re-tested</label>
+                </value>
+                <value>
+                    <fullName>Ready for Deployment</fullName>
+                    <default>false</default>
+                    <label>Ready for Deployment</label>
+                </value>
+                <value>
+                    <fullName>To be confirmed in Production</fullName>
+                    <default>false</default>
+                    <label>To be confirmed in Production</label>
+                </value>
+                <value>
+                    <fullName>In Future Roadmap</fullName>
+                    <default>false</default>
+                    <label>In Future Roadmap</label>
+                </value>
+                <value>
+                    <fullName>Requested</fullName>
+                    <default>false</default>
+                    <label>Requested</label>
+                </value>
+                <value>
+                    <fullName>Accept</fullName>
+                    <default>false</default>
+                    <label>Accept</label>
+                </value>
+                <value>
+                    <fullName>Decline</fullName>
+                    <default>false</default>
+                    <label>Decline</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>On Hold</fullName>
+                    <default>false</default>
+                    <label>On Hold</label>
+                </value>
+                <value>
+                    <fullName>Approved by PSM</fullName>
+                    <default>false</default>
+                    <label>Approved by PSM</label>
+                </value>
+                <value>
+                    <fullName>Approved by Compliance</fullName>
+                    <default>false</default>
+                    <label>Approved by Compliance</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>Acceptance Email Sent</fullName>
+                    <default>false</default>
+                    <label>Acceptance Email Sent</label>
+                </value>
+                <value>
+                    <fullName>Duplicate</fullName>
+                    <default>false</default>
+                    <label>Duplicate</label>
+                </value>
+                <value>
+                    <fullName>Requested CMD Account</fullName>
+                    <default>false</default>
+                    <label>Requested CMD Account</label>
+                </value>
+                <value>
+                    <fullName>Onboarding in progress</fullName>
+                    <default>false</default>
+                    <label>Onboarding in progress</label>
+                </value>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>false</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>Assigned</fullName>
+                    <default>false</default>
+                    <label>Assigned</label>
+                </value>
+                <value>
+                    <fullName>Responded in Progress</fullName>
+                    <default>false</default>
+                    <label>Responded in Progress</label>
+                </value>
+                <value>
+                    <fullName>Restoration Provided</fullName>
+                    <default>false</default>
+                    <label>Restoration Provided</label>
+                </value>
+                <value>
+                    <fullName>Root Cause Shared</fullName>
+                    <default>false</default>
+                    <label>Root Cause Shared</label>
+                </value>
+                <value>
+                    <fullName>Temp Sol. Provided</fullName>
+                    <default>false</default>
+                    <label>Temp Sol. Provided</label>
+                </value>
+                <value>
+                    <fullName>Pending Correction</fullName>
+                    <default>false</default>
+                    <label>Pending Correction</label>
+                </value>
+                <value>
+                    <fullName>Solution Shared</fullName>
+                    <default>false</default>
+                    <label>Solution Shared</label>
+                </value>
+                <value>
+                    <fullName>Solution Provided</fullName>
+                    <default>false</default>
+                    <label>Solution Provided</label>
+                </value>
+                <value>
+                    <fullName>Pending Customer</fullName>
+                    <default>false</default>
+                    <label>Pending Customer</label>
+                </value>
+                <value>
+                    <fullName>Pending Approval</fullName>
+                    <default>false</default>
+                    <label>Pending Approval</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Temp. Sol. Shared</fullName>
+                    <default>false</default>
+                    <label>Temp. Sol. Shared</label>
+                </value>
+                <value>
+                    <fullName>Escalated</fullName>
+                    <default>false</default>
+                    <label>Escalated</label>
+                </value>
+                <value>
+                    <fullName>Awaiting on Response</fullName>
+                    <default>false</default>
+                    <label>Awaiting on Response</label>
+                </value>
+                <value>
+                    <fullName>Validated</fullName>
+                    <default>false</default>
+                    <label>Validated</label>
+                </value>
+                <value>
+                    <fullName>Confirmed</fullName>
+                    <default>false</default>
+                    <label>Confirmed</label>
+                </value>
+                <value>
+                    <fullName>Delivered</fullName>
+                    <default>false</default>
+                    <label>Delivered</label>
+                </value>
+                <value>
+                    <fullName>Issue resolved</fullName>
+                    <default>false</default>
+                    <label>Issue resolved</label>
+                </value>
+                <value>
+                    <fullName>Ordered</fullName>
+                    <default>false</default>
+                    <label>Ordered</label>
+                </value>
+                <value>
+                    <fullName>Shipped</fullName>
+                    <default>false</default>
+                    <label>Shipped</label>
+                </value>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>false</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>Request to Cancel</fullName>
+                    <default>false</default>
+                    <label>Request to Cancel</label>
+                </value>
+                <value>
+                    <fullName>Partially Shipped</fullName>
+                    <default>false</default>
+                    <label>Partially Shipped</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Corrective_Preventive_Action__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Corrective &amp; Preventive Action</label>
+        <referenceTo>CH_Corrective_Preventive_Action__c</referenceTo>
+        <relationshipLabel>Manage Escalations</relationshipLabel>
+        <relationshipName>Manage_Escalations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_CustomerNetworkImpact__c</fullName>
+        <description>NOKIASC-903</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Customer Network Impact</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_CustomerTone__c</fullName>
+        <description>NOKIASC-903</description>
+        <externalId>false</externalId>
+        <label>Customer Tone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Green</fullName>
+                    <default>false</default>
+                    <label>Green</label>
+                </value>
+                <value>
+                    <fullName>Red</fullName>
+                    <default>false</default>
+                    <label>Red</label>
+                </value>
+                <value>
+                    <fullName>Yellow</fullName>
+                    <default>false</default>
+                    <label>Yellow</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_EscalationActionHistory__c</fullName>
+        <description>NOKIASC-903</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Escalation Action History</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_EscalationActionNextSteps__c</fullName>
+        <description>NOKIASC-903</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Escalation Action Next Steps</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_EscalationDescription__c</fullName>
+        <description>NOKIASC-903</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Escalation Description</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CH_EscalationDomain__c</fullName>
+        <description>NOKIASC-903</description>
+        <externalId>false</externalId>
+        <label>Escalation Domain</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Care</fullName>
+                    <default>false</default>
+                    <label>Care</label>
+                </value>
+                <value>
+                    <fullName>Installation</fullName>
+                    <default>false</default>
+                    <label>Installation</label>
+                </value>
+                <value>
+                    <fullName>Installation &amp; Enginnering Audit</fullName>
+                    <default>false</default>
+                    <label>Installation &amp; Enginnering Audit</label>
+                </value>
+                <value>
+                    <fullName>Managed Service</fullName>
+                    <default>false</default>
+                    <label>Managed Service</label>
+                </value>
+                <value>
+                    <fullName>Network Engineering Services</fullName>
+                    <default>false</default>
+                    <label>Network Engineering Services</label>
+                </value>
+                <value>
+                    <fullName>Provisionning</fullName>
+                    <default>false</default>
+                    <label>Provisionning</label>
+                </value>
+                <value>
+                    <fullName>Software Develpoment Services</fullName>
+                    <default>false</default>
+                    <label>Software Develpoment Services</label>
+                </value>
+                <value>
+                    <fullName>Telecom Network integration</fullName>
+                    <default>false</default>
+                    <label>Telecom Network integration</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_EscalationEndDate__c</fullName>
+        <description>NOKIASC-903</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Escalation End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CH_EscalationEntryCriteria__c</fullName>
+        <description>NOKIASC-903
+NOKIASC-29112-changed to picklist</description>
+        <externalId>false</externalId>
+        <label>Escalation Entry Criteria</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Customer management escalation at Corporate Level to Nokia confirmed</fullName>
+                    <default>false</default>
+                    <label>Customer management escalation at Corporate Level to Nokia confirmed</label>
+                </value>
+                <value>
+                    <fullName>Health, safety and security issue identified or reported by customer</fullName>
+                    <default>false</default>
+                    <label>Health, safety and security issue identified or reported by customer</label>
+                </value>
+                <value>
+                    <fullName>Nokia risk damages or delay in revenue recognition in next quarter (&gt;=1M euro)</fullName>
+                    <default>false</default>
+                    <label>Nokia risk damages or delay in revenue recognition in next quarter (&gt;=1M euro)</label>
+                </value>
+                <value>
+                    <fullName>Prolonged service outage and critical case that exceeds SLA commitment (only for critical/outage case)</fullName>
+                    <default>false</default>
+                    <label>Prolonged service outage and critical case that exceeds SLA commitment (only for critical/outage case)</label>
+                </value>
+                <value>
+                    <fullName>Delay in restoration or change in business impact (only for critical/outage case)</fullName>
+                    <default>false</default>
+                    <label>Delay in restoration or change in business impact (only for critical/outage case)</label>
+                </value>
+                <value>
+                    <fullName>Significantly increased risk of service outage ( for non outage or non critical case)</fullName>
+                    <default>false</default>
+                    <label>Significantly increased risk of service outage ( for non outage or non critical case)</label>
+                </value>
+                <value>
+                    <fullName>Open case equal to or above 90% of SLA target time for resolution/temporary solution</fullName>
+                    <default>false</default>
+                    <label>Open case equal to or above 90% of SLA target time for resolution/temporary solution</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_EscalationExitCriteria__c</fullName>
+        <description>NOKIASC-903</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Escalation Exit Criteria</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_EscalationLevelSetTime__c</fullName>
+        <defaultValue>NOW()</defaultValue>
+        <description>NOKIASC-903</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Escalation Level Set Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CH_EscalationManagerLevel1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>NOKIASC-903</description>
+        <externalId>false</externalId>
+        <label>Escalation Manager (Level 1)</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>User.IsActive</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>CH_ManageEscalations_L1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_EscalationManagerLevel2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>NOKIASC-903</description>
+        <externalId>false</externalId>
+        <label>Escalation Manager (Level 2)</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>User.IsActive</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>CH_ManageEscalations_L2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_EscalationManagerLevel3__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>NOKIASC-903</description>
+        <externalId>false</externalId>
+        <label>Escalation Manager (Level 3)</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>User.IsActive</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>CH_Manage_Escalations3</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_EscalationPartner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>NOKIASC-903</description>
+        <externalId>false</externalId>
+        <label>Escalation Partner</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>User.IsActive</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>CH_ManageEscalations_Partner</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_EscalationPlan__c</fullName>
+        <description>NOKIASC-903</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Escalation Plan</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>50</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CH_EscalationProcessStage__c</fullName>
+        <description>NOKIASC-903</description>
+        <externalId>false</externalId>
+        <label>Escalation Process Stage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Initiate</fullName>
+                    <default>true</default>
+                    <label>Initiate</label>
+                </value>
+                <value>
+                    <fullName>Activate</fullName>
+                    <default>false</default>
+                    <label>Activate</label>
+                </value>
+                <value>
+                    <fullName>Follow-up</fullName>
+                    <default>false</default>
+                    <label>Follow-up</label>
+                </value>
+                <value>
+                    <fullName>Close</fullName>
+                    <default>false</default>
+                    <label>Close</label>
+                </value>
+                <value>
+                    <fullName>Follow</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Follow</label>
+                </value>
+                <value>
+                    <fullName>Identify</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Identify</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_EscalationRejectionDate__c</fullName>
+        <description>NOKIASC-903</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Escalation Rejection Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CH_EscalationRequester__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>NOKIASC-903</description>
+        <externalId>false</externalId>
+        <label>Escalation Requester</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>User.IsActive</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>CH_ManageEscalations_Requester</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_EscalationSource__c</fullName>
+        <description>NOKIASC-903</description>
+        <externalId>false</externalId>
+        <label>Escalation Source</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Business Impact Increased</fullName>
+                    <default>false</default>
+                    <label>Business Impact Increased</label>
+                </value>
+                <value>
+                    <fullName>Case SLA Exceeded</fullName>
+                    <default>false</default>
+                    <label>Case SLA Exceeded</label>
+                </value>
+                <value>
+                    <fullName>Customer Complaint</fullName>
+                    <default>false</default>
+                    <label>Customer Complaint</label>
+                </value>
+                <value>
+                    <fullName>HSS Issue</fullName>
+                    <default>false</default>
+                    <label>HSS Issue</label>
+                </value>
+                <value>
+                    <fullName>Nokia Mgt Complaint</fullName>
+                    <default>false</default>
+                    <label>Nokia Mgt Complaint</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_EscalationStartDate__c</fullName>
+        <defaultValue>NOW()</defaultValue>
+        <description>NOKIASC-903</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Escalation Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CH_EscalationStatus__c</fullName>
+        <description>NOKIASC-903</description>
+        <externalId>false</externalId>
+        <label>Escalation Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+                <value>
+                    <fullName>In-Progress</fullName>
+                    <default>false</default>
+                    <label>In-Progress</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>Requested</fullName>
+                    <default>false</default>
+                    <label>Requested</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_EscalationTrend__c</fullName>
+        <description>NOKIASC-903</description>
+        <externalId>false</externalId>
+        <label>Escalation Trend</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Negative</fullName>
+                    <default>false</default>
+                    <label>Negative</label>
+                </value>
+                <value>
+                    <fullName>Neutral</fullName>
+                    <default>false</default>
+                    <label>Neutral</label>
+                </value>
+                <value>
+                    <fullName>Positive</fullName>
+                    <default>false</default>
+                    <label>Positive</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Escalation_Partner1_Non_SF_User__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter valid email address of NON SF Users here</inlineHelpText>
+        <label>Escalation Partner 1 (Non-SF User)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_Escalation_Partner_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Escalation Partner 1</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$User.IsActive</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Manage_Escalations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_Escalation_Partner_2_Non_SF_User__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter valid email address of NON SF User here</inlineHelpText>
+        <label>Escalation Partner 2 (Non-SF User)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_Escalation_Partner_2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Escalation Partner 2</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$User.IsActive</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Manage_Escalations1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_Escalation_Partner_3_Non_SF_User__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter valid email address of NON SF Users here</inlineHelpText>
+        <label>Escalation Partner 3 (Non-SF User)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_Escalation_Partner_3__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Escalation Partner 3</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$User.IsActive</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Manage_Escalations2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_Escalation_Partner_4_Non_SF_User__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter valid email address of NON SF Users here</inlineHelpText>
+        <label>Escalation Partner 4 (Non-SF User)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_Escalation_Partner_4__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Escalation Partner 4</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$User.IsActive</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Manage_Escalations3</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_Escalation_Partner_5_Non_SF_User__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter valid email address of NON SF Users here</inlineHelpText>
+        <label>Escalation Partner 5 (Non-SF User)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_Escalation_Partner_5__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Escalation Partner 5</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$User.IsActive</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Manage_Escalations4</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_ExecutiveSummary__c</fullName>
+        <description>NOKIASC-903</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Executive Summary</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_ExitCriteriaReached__c</fullName>
+        <description>NOKIASC-903</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Exit Criteria Reached</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_FinancialRisk__c</fullName>
+        <description>NOKIASC-903</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Financial Risk</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_ImpactedOrganization__c</fullName>
+        <description>NOKIASC-903</description>
+        <externalId>false</externalId>
+        <label>Impacted Organization</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Fixed Networks</fullName>
+                    <default>false</default>
+                    <label>Fixed Networks</label>
+                </value>
+                <value>
+                    <fullName>Global Services / Mobile Networks</fullName>
+                    <default>false</default>
+                    <label>Global Services / Mobile Networks</label>
+                </value>
+                <value>
+                    <fullName>IP Optical Networks</fullName>
+                    <default>false</default>
+                    <label>IP Optical Networks</label>
+                </value>
+                <value>
+                    <fullName>Nokia Software Application</fullName>
+                    <default>false</default>
+                    <label>Nokia Software Application</label>
+                </value>
+                <value>
+                    <fullName>Nokia Software Core</fullName>
+                    <default>false</default>
+                    <label>Nokia Software Core</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CH_IssueStatement__c</fullName>
+        <description>NOKIASC-903</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Issue Statement</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CH_LevelofEscalation__c</fullName>
+        <description>NOKIASC-903</description>
+        <externalId>false</externalId>
+        <label>Level of Escalation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Level 1</fullName>
+                    <default>false</default>
+                    <label>Level 1</label>
+                </value>
+                <value>
+                    <fullName>Level 2</fullName>
+                    <default>false</default>
+                    <label>Level 2</label>
+                </value>
+                <value>
+                    <fullName>Level 3</fullName>
+                    <default>false</default>
+                    <label>Level 3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_MECase_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(CH_CaseNumber__r.Status)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Case Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_MECountry__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(CH_AccountName__r.Country__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Country</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_MELink__c</fullName>
+        <externalId>false</externalId>
+        <formula>LEFT($Api.Partner_Server_URL_300, FIND( &apos;/services&apos;, $Api.Partner_Server_URL_300))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ME_Link</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_ME_UserisManagerOrNot__c</fullName>
+        <externalId>false</externalId>
+        <formula>$User.Id = CH_EscalationManagerLevel1__r.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CH_ME_UserisManagerOrNot</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CH_NokiaBusinessImpact__c</fullName>
+        <description>NOKIASC-903</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Nokia Business Impact</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>NOKIASC-903</description>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Manage Escalations</relationshipLabel>
+        <relationshipName>CH_ManageEscalations_Product</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_QCE__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>NOKIASC-903</description>
+        <externalId>false</externalId>
+        <label>QCE</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CH_RejectionCause__c</fullName>
+        <description>NOKIASC-903</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Rejection Cause</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_SupportTicketStatus__c</fullName>
+        <description>NOKIASC-903: This Support Ticket Status will be pulled from the linked Support Ticket which will contain picklist value.</description>
+        <externalId>false</externalId>
+        <formula>TEXT(CH_CaseNumber__r.Status)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Support Ticket Status.</inlineHelpText>
+        <label>Support Ticket Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_TopIssue__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>NOKIASC-903</description>
+        <externalId>false</externalId>
+        <label>Top Issue</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Manage Escalation</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>CH_EscalationManagersFN_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- FN</label>
+        <queue>CH_EscalationManagersFN</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_EscalationManagersGSMN_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers-GS-MN</label>
+        <queue>CH_EscalationManagersGSMN</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_EscalationManagersION_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- ION</label>
+        <queue>CH_EscalationManagersION</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_ManagersOther_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers-Other</label>
+        <queue>CH_Escalation_ManagersOther</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_FN_APJ_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- FN-APJ</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_FN_APJ</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_FN_China_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- FN-China</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_FN_China</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_FN_Europe_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- FN-Europe</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_FN_Europe</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_FN_India_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- FN-India</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_FN_India</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_FN_LAT_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- FN-LAT</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_FN_LAT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_FN_MEA_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- FN-MEA</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_FN_MEA</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_FN_NAM_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- FN-NAM</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_FN_NAM</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_GS_MN_APJ_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers-GS-MN-APJ</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_GS_MN_APJ</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_GS_MN_China_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers-GS-MN-China</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_GS_MN_China</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_GS_MN_Europe_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers-GS-MN-Europe</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_GS_MN_Europe</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_GS_MN_India_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers-GS-MN-India</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_GS_MN_India</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_GS_MN_LAT_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers-GS-MN-LAT</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_GS_MN_LAT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_GS_MN_MEA_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers-GS-MN-MEA</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_GS_MN_MEA</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_GS_MN_NAM_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers-GS-MN-NAM</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_GS_MN_NAM</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_ION_APJ_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- ION-APJ</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_ION_APJ</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_ION_China_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- ION-China</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_ION_China</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_ION_Europe_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- ION-Europe</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_ION_Europe</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_ION_India_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- ION-India</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_ION_India</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_ION_LAT_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- ION-LAT</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_ION_LAT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_ION_MEA_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- ION-MEA</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_ION_MEA</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_ION_NAM_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- ION-NAM</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_ION_NAM</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_NSW_AS_APJ_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- NSW-AS-APJ</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_NSW_AS_APJ</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_NSW_AS_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- NSW-AS</label>
+        <queue>CH_Escalation_Managers_NSW_AS</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_NSW_AS_China_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- NSW-AS-China</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_NSW_AS_China</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_NSW_AS_Europe_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- NSW-AS-Europe</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_NSW_AS_Europe</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_NSW_AS_India_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- NSW-AS-India</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_NSW_AS_India</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_NSW_AS_LAT_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- NSW-AS-LAT</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_NSW_AS_LAT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_NSW_AS_MEA_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- NSW-AS-MEA</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_NSW_AS_MEA</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_NSW_AS_NAM_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- NSW-AS-NAM</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_NSW_AS_NAM</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_NSW_CORE_APJ_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- NSW-CORE-APJ</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_NSW_CORE_APJ</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_NSW_CORE_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- NSW-CORE</label>
+        <queue>CH_Escalation_Managers_NSW_CORE</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_NSW_CORE_China_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- NSW-CORE-China</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_NSW_CORE_China</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_NSW_CORE_Europe_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- NSW-CORE-Europe</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_NSW_CORE_Europe</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_NSW_CORE_India_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- NSW-CORE-India</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_NSW_CORE_India</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_NSW_CORE_LAT_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- NSW-CORE-LAT</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_NSW_CORE_LAT</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_NSW_CORE_MEA_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- NSW-CORE-MEA</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_NSW_CORE_MEA</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CH_Escalation_Managers_NSW_CORE_NAM_CH_Manage_Escalation</fullName>
+        <columns>NAME</columns>
+        <columns>CH_EscalationStatus__c</columns>
+        <columns>CH_CaseNumber__c</columns>
+        <columns>CH_AccountName__c</columns>
+        <columns>CH_Product__c</columns>
+        <columns>CH_EscalationManagerLevel1__c</columns>
+        <columns>CH_EscalationEndDate__c</columns>
+        <columns>CH_EscalationStartDate__c</columns>
+        <filterScope>Queue</filterScope>
+        <label>Escalation-Managers- NSW-CORE-NAM</label>
+        <language>en_US</language>
+        <queue>CH_Escalation_Managers_NSW_CORE_NAM</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <displayFormat>E-{0000}</displayFormat>
+        <label>Escalation ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Manage Escalations</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>CH_EscalationStatus__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CH_CaseNumber__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CH_AccountName__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CH_Product__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CH_EscalationManagerLevel1__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CH_EscalationStartDate__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CH_EscalationEndDate__c</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>CH_EscalationStatus__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CH_CaseNumber__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CH_AccountName__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CH_Product__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CH_EscalationManagerLevel1__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CH_EscalationStartDate__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CH_EscalationEndDate__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>CH_MEManagerCanEditOnly</fullName>
+        <active>true</active>
+        <description>SC 21567</description>
+        <errorConditionFormula>AND(
+AND($User.Id &lt;&gt; CH_EscalationManagerLevel1__c,
+$User.Id &lt;&gt; CH_EscalationManagerLevel2__c,
+$User.Id &lt;&gt; CH_EscalationManagerLevel3__c
+), NOT(ISNEW()),
+OR( 
+
+ISCHANGED(CH_EscalationDomain__c),
+ISCHANGED(CH_EscalationEntryCriteria__c),
+ISCHANGED(CH_TopIssue__c),
+ISCHANGED(CH_QCE__c),
+ISCHANGED(CH_IssueStatement__c),
+ISCHANGED(CH_EscalationDescription__c),
+ISCHANGED(CH_CustomerTone__c),
+ISCHANGED(CH_FinancialRisk__c),
+ISCHANGED(CH_CustomerNetworkImpact__c),
+ISCHANGED(CH_LevelofEscalation__c),
+ISCHANGED(CH_ImpactedOrganization__c),
+ISCHANGED(CH_EscalationTrend__c),
+ISCHANGED(CH_NokiaBusinessImpact__c),
+ISCHANGED(CH_EscalationPlan__c),
+ISCHANGED(CH_EscalationActionNextSteps__c),
+ISCHANGED(CH_EscalationActionHistory__c),
+ISCHANGED(CH_ExecutiveSummary__c),
+ISCHANGED(CH_EscalationLevelSetTime__c),
+ISCHANGED(CH_EscalationEndDate__c),
+ISCHANGED(CH_EscalationRejectionDate__c),
+ISCHANGED(CH_EscalationExitCriteria__c),
+ISCHANGED(CH_Corrective_Preventive_Action__c),
+ISCHANGED(CH_ExitCriteriaReached__c),
+ISCHANGED(CH_RejectionCause__c),
+ISCHANGED(CH_EscalationManagerLevel2__c),
+ISCHANGED(CH_EscalationManagerLevel3__c)
+)
+)</errorConditionFormula>
+        <errorDisplayField>CH_AccountName__c</errorDisplayField>
+        <errorMessage>You are not authorized to Perform the actions.Only Manager Can Edit the details.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_ME_ExitCriteriaReached_Closed</fullName>
+        <active>true</active>
+        <description>the ‘exit criteria reached’ field should be filled otherwise an error message is displayed  if the status is put ‘Closed’ without this field filled</description>
+        <errorConditionFormula>AND(
+ ISBLANK(CH_ExitCriteriaReached__c),
+	 ISPICKVAL(CH_EscalationStatus__c, &quot;Closed&quot;) 
+)</errorConditionFormula>
+        <errorDisplayField>CH_ExitCriteriaReached__c</errorDisplayField>
+        <errorMessage>Exit Criteria Reached field should be filled</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_ME_OnlyManagerCanCloseEscalation</fullName>
+        <active>true</active>
+        <description>As Escalation manager  I need to be able to close a escalation</description>
+        <errorConditionFormula>AND(AND($User.Id &lt;&gt; CH_EscalationManagerLevel1__r.Id,
+	   $User.Id &lt;&gt; CH_EscalationManagerLevel2__r.Id,
+	   $User.Id &lt;&gt; CH_EscalationManagerLevel3__r.Id
+	   ),
+	   ISPICKVAL(CH_EscalationStatus__c, &quot;Closed&quot;)
+	   )</errorConditionFormula>
+        <errorDisplayField>CH_EscalationStatus__c</errorDisplayField>
+        <errorMessage>You are not allowed to close an escalation as you are not Escalation Manager</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_VR_Manage_Esc_EndDt_Criteria</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(ISPICKVAL(CH_EscalationProcessStage__c, &apos;Close&apos;),
+				ISPICKVAL(CH_EscalationStatus__c, &apos;Closed&apos;),
+				ISBLANK(CH_ExitCriteriaReached__c))
+				||
+AND(ISPICKVAL(CH_EscalationProcessStage__c, &apos;Close&apos;),
+				ISPICKVAL(CH_EscalationStatus__c, &apos;Closed&apos;),
+				ISBLANK(CH_EscalationEndDate__c))</errorConditionFormula>
+        <errorMessage>Please enter Exit Criteria Reached /  Escalation End Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_VR_Manage_Esc_Level_Set_Time</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(ISPICKVAL(CH_EscalationStatus__c, &apos;In-Progress&apos;),
+				ISPICKVAL(CH_EscalationProcessStage__c, &apos;Identify&apos;),
+				ISBLANK(CH_EscalationLevelSetTime__c))</errorConditionFormula>
+        <errorDisplayField>CH_AccountName__c</errorDisplayField>
+        <errorMessage>Please enter Escalation Level Set Time</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_VR_Manage_Esc_M_Activate</fullName>
+        <active>false</active>
+        <description>Set Mandetory when Stage is Activate</description>
+        <errorConditionFormula>AND(ISPICKVAL(CH_EscalationProcessStage__c, &apos;Activate&apos;),				
+				 ISBLANK(CH_EscalationPartner__c)
+				)</errorConditionFormula>
+        <errorDisplayField>CH_EscalationPartner__c</errorDisplayField>
+        <errorMessage>Please enter Required Feild</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_VR_Manage_Esc_M_Follow</fullName>
+        <active>false</active>
+        <description>Set Mandetory when Stage is Follow</description>
+        <errorConditionFormula>AND(ISPICKVAL(CH_EscalationProcessStage__c, &apos;Follow&apos;),				
+			(LEN(CH_EscalationPlan__c)==0
+				||
+				ISPICKVAL(CH_EscalationTrend__c,&quot;&quot;)||
+				NOT(CH_QCE__c)
+					))</errorConditionFormula>
+        <errorMessage>Please enter Required Escalation Plan /  Escalation Trend / QCE</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_VR_Manage_Esc_M_Identify</fullName>
+        <active>false</active>
+        <description>Set Mandetory when Stage is Identify</description>
+        <errorConditionFormula>AND(ISPICKVAL(CH_EscalationProcessStage__c, &apos;Identify&apos;),				
+				 OR(ISBLANK(CH_EscalationRequester__c),
+								ISBLANK(CH_EscalationManagerLevel1__c),
+								ISPICKVAL(CH_EscalationSource__c,&quot;&quot;),
+							ISBLANK(CH_EscalationDescription__c),
+							ISPICKVAL(CH_EscalationDomain__c,&quot;&quot;),
+							ISBLANK(CH_EscalationEntryCriteria__c),
+		     ISPICKVAL(CH_CustomerTone__c,&quot;&quot;),
+							ISBLANK(CH_AccountName__c),
+							ISBLANK(CH_Product__c)
+							) 
+				)</errorConditionFormula>
+        <errorMessage>Please enter Required Escalation Requester / Escalation Manager level1 /  Escalation Source / Escalation Description / ME domain / Escalation Entry criteria /  Customer Tone / Account name / Product</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_VR_Manage_Esc_Rejection</fullName>
+        <active>false</active>
+        <errorConditionFormula>(AND(ISPICKVAL(CH_EscalationProcessStage__c, &apos;Identify&apos;),
+ISPICKVAL(CH_EscalationStatus__c,&apos;Rejected&apos;),
+ISBLANK(CH_RejectionCause__c)))
+||
+(AND(ISPICKVAL(CH_EscalationProcessStage__c, &apos;Identify&apos;),
+ISPICKVAL(CH_EscalationStatus__c,&apos;Rejected&apos;),
+ISBLANK(CH_EscalationRejectionDate__c)))</errorConditionFormula>
+        <errorMessage>Please enter the Rejection Cause / Rejection Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CH_VR_Manage_Esc_Start_date</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(ISPICKVAL(CH_EscalationProcessStage__c, &apos;Identify&apos;),
+				ISPICKVAL(CH_EscalationStatus__c, &apos;Requested&apos;),
+				ISBLANK(CH_EscalationStartDate__c))</errorConditionFormula>
+        <errorDisplayField>CH_EscalationStartDate__c</errorDisplayField>
+        <errorMessage>Please provide Escalation Start Date</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

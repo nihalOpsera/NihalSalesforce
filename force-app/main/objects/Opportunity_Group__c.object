@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Junction Object - To associate several deals to one opportunity.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Deal__c</fullName>
+        <description>Req 4556: Junction Object: Opportunity Group</description>
+        <externalId>false</externalId>
+        <inlineHelpText>It is not permitted to associate two Framed Deals or two Upsell Deals with the same Opportunity. The combination of Framed Deal and Upsell Deal is only allowed for Master Opportunities.</inlineHelpText>
+        <label>Deal</label>
+        <referenceTo>Deal__c</referenceTo>
+        <relationshipLabel>Deal-Opportunity Grouping</relationshipLabel>
+        <relationshipName>Opportunity_Groups</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Relation__c</fullName>
+        <description>Req 4556: Junction Object: Opportunity Group</description>
+        <externalId>false</externalId>
+        <label>Opportunity Relation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Master</fullName>
+                    <default>false</default>
+                    <label>Master</label>
+                </value>
+                <value>
+                    <fullName>Subordinate</fullName>
+                    <default>false</default>
+                    <label>Subordinate</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <description>Req 4556: Junction Object: Opportunity Group</description>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <lookupFilter>
+            <active>false</active>
+            <booleanFilter>1 OR 2 OR 3</booleanFilter>
+            <errorMessage>Deals can only be related to Direct or Indirect Opportunities that are not closed or submitted for approval.</errorMessage>
+            <filterItems>
+                <field>Opportunity.RecordType.Name</field>
+                <operation>equals</operation>
+                <value>Create Direct Sales Opportunity</value>
+            </filterItems>
+            <filterItems>
+                <field>Opportunity.RecordType.Name</field>
+                <operation>equals</operation>
+                <value>Create Indirect Sales Opportunity</value>
+            </filterItems>
+            <filterItems>
+                <field>$Profile.Name</field>
+                <operation>equals</operation>
+                <value>Data Loader Profile</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Deal-Opportunity Grouping</relationshipLabel>
+        <relationshipName>Opportunity_Groups</relationshipName>
+        <relationshipOrder>1</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Unweighted_Value_in_EUR__c</fullName>
+        <description>Req 4556: Junction Object: Opportunity Group</description>
+        <externalId>false</externalId>
+        <label>Unweighted Value in EUR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Deal-Opportunity Grouping</label>
+    <nameField>
+        <displayFormat>G-{0}</displayFormat>
+        <label>Opportunity Group Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Deal-Opportunity Grouping</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>LockOpptyGroupForPendingApprovalOppty</fullName>
+        <active>true</active>
+        <description>This validation will lock the deal-opportunity grouping record if opportunity is pending for approval or closed.</description>
+        <errorConditionFormula>AND( 
+$Profile.Name &lt;&gt; $Label.Data_Loader_Profile_Name, 
+OR( 
+Opportunity__r.RecordType.DeveloperName == &apos;Direct_Record_Type&apos;, 
+Opportunity__r.RecordType.DeveloperName == &apos;Indirect_Record_Type&apos;,
+Opportunity__r.RecordType.DeveloperName == &apos;Read_Only&apos;, 
+Opportunity__r.RecordType.DeveloperName == &apos;Read_Only_Indirect&apos;
+), 
+OR( 
+ISPICKVAL(Opportunity__r.Phase_Status__c , &apos;Submitted for G2 Approval&apos;), 
+ISPICKVAL(Opportunity__r.Phase_Status__c , &apos;Submitted for G3 Approval&apos;), 
+ISPICKVAL(Opportunity__r.Phase_Status__c , &apos;Submitted for G4 Approval&apos;), 
+ISPICKVAL(Opportunity__r.Phase_Status__c , &apos;Submitted for G5 Approval&apos;), 
+ISPICKVAL(Opportunity__r.Phase_Status__c , &apos;Submitted for G6 Approval&apos;))
+)</errorConditionFormula>
+        <errorMessage>Since Opportunity record is Locked, no operations allowed on related Deal-Opportunity Grouping records.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>RestrictMasterOpptyForSimpleDeal</fullName>
+        <active>true</active>
+        <description>Req. 5127 : Restrict the option to select &quot;Master&quot; as &quot;Opportunity Relation&quot; for simple deals.</description>
+        <errorConditionFormula>AND( 
+$Profile.Name&lt;&gt;$Label.Data_Loader_Profile_Name,
+ISPICKVAL(Opportunity_Relation__c,&apos;Master&apos;),
+ Deal__r.RecordType.DeveloperName = &apos;Simple_Deal&apos;
+)</errorConditionFormula>
+        <errorDisplayField>Opportunity_Relation__c</errorDisplayField>
+        <errorMessage>Simple deals cannot have master opportunities.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>RestrictUpsellOpptyAsMasterOpptyToDeal</fullName>
+        <active>true</active>
+        <description>Restrict the option to associate Upsell Opportunities as Master Opportunities to a Deal.</description>
+        <errorConditionFormula>AND( 
+$Profile.Name&lt;&gt;$Label.Data_Loader_Profile_Name, 
+ISPICKVAL(Opportunity_Relation__c,&apos;Master&apos;),
+ISPICKVAL(Opportunity__r.Business_Type__c,&apos;Committed Upsell&apos;),
+NOT(Deal__r.RecordType.Name = &apos;Framed Deal&apos;)
+)</errorConditionFormula>
+        <errorMessage>Committed upsell opportunities cannot be assigned to an Upsell Deal with a master relation. Please select &apos;Subordinate&apos; or associate a standard opportunity.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

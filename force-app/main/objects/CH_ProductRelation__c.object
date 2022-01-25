@@ -1,0 +1,1190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This object holds the relationships on product2 records. This way you can link solutions to products, products to variants.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>CH_Child_Design_Element__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Child Design Element</label>
+        <referenceTo>CH_Design_Element__c</referenceTo>
+        <relationshipLabel>CH Product Relations</relationshipLabel>
+        <relationshipName>CH_Product_Relations</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_Child_Product_Name__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Child_Product_Name</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_Child_Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This field points to the child product in Product2</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field points to the child product in Product2</inlineHelpText>
+        <label>Child Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipName>CH_Child_Product</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_Child_Release__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Child Release</label>
+        <referenceTo>CH_ProductRelease__c</referenceTo>
+        <relationshipLabel>CH Product Relations (Child Release)</relationshipLabel>
+        <relationshipName>CH_Product_Relations</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_Child_Type__c</fullName>
+        <description>This field describes the different types that a of objects can be stored in Product2</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field describes the different types that a of objects can be stored in Product2</inlineHelpText>
+        <label>Child Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>NSN SW Assembly</fullName>
+                    <default>false</default>
+                    <label>NSN SW Assembly</label>
+                </value>
+                <value>
+                    <fullName>NSN Feature</fullName>
+                    <default>false</default>
+                    <label>NSN Feature</label>
+                </value>
+                <value>
+                    <fullName>NSN Customer Documentation Assembly</fullName>
+                    <default>false</default>
+                    <label>NSN Customer Documentation Assembly</label>
+                </value>
+                <value>
+                    <fullName>NSN Software SI</fullName>
+                    <default>false</default>
+                    <label>NSN Software SI</label>
+                </value>
+                <value>
+                    <fullName>NSN Product Configuration Item</fullName>
+                    <default>false</default>
+                    <label>NSN Product Configuration Item</label>
+                </value>
+                <value>
+                    <fullName>NSN HW Assembly</fullName>
+                    <default>false</default>
+                    <label>NSN HW Assembly</label>
+                </value>
+                <value>
+                    <fullName>NSN Hardware SI</fullName>
+                    <default>false</default>
+                    <label>NSN Hardware SI</label>
+                </value>
+                <value>
+                    <fullName>NSN Release</fullName>
+                    <default>false</default>
+                    <label>NSN Release</label>
+                </value>
+                <value>
+                    <fullName>NSN Design Item</fullName>
+                    <default>false</default>
+                    <label>NSN Design Item</label>
+                </value>
+                <value>
+                    <fullName>NSN Service Design Item</fullName>
+                    <default>false</default>
+                    <label>NSN Service Design Item</label>
+                </value>
+                <value>
+                    <fullName>Part Specification</fullName>
+                    <default>false</default>
+                    <label>Part Specification</label>
+                </value>
+                <value>
+                    <fullName>NSN Complementary Item</fullName>
+                    <default>false</default>
+                    <label>NSN Complementary Item</label>
+                </value>
+                <value>
+                    <fullName>NSN Complementary Release</fullName>
+                    <default>false</default>
+                    <label>NSN Complementary Release</label>
+                </value>
+                <value>
+                    <fullName>NSN Design Element</fullName>
+                    <default>false</default>
+                    <label>NSN Design Element</label>
+                </value>
+                <value>
+                    <fullName>NSN NE Design Element</fullName>
+                    <default>false</default>
+                    <label>NSN NE Design Element</label>
+                </value>
+                <value>
+                    <fullName>NSN Solution Design Element</fullName>
+                    <default>false</default>
+                    <label>NSN Solution Design Element</label>
+                </value>
+                <value>
+                    <fullName>NSN Solution</fullName>
+                    <default>false</default>
+                    <label>NSN Solution</label>
+                </value>
+                <value>
+                    <fullName>NSN Solution Release</fullName>
+                    <default>false</default>
+                    <label>NSN Solution Release</label>
+                </value>
+                <value>
+                    <fullName>NSN Customer Documentation SI</fullName>
+                    <default>false</default>
+                    <label>NSN Customer Documentation SI</label>
+                </value>
+                <value>
+                    <fullName>NSN Portfolio Class</fullName>
+                    <default>false</default>
+                    <label>NSN Portfolio Class</label>
+                </value>
+                <value>
+                    <fullName>NSN Services SI</fullName>
+                    <default>false</default>
+                    <label>NSN Services SI</label>
+                </value>
+                <value>
+                    <fullName>NSN Product Hierarchy</fullName>
+                    <default>false</default>
+                    <label>NSN Product Hierarchy</label>
+                </value>
+                <value>
+                    <fullName>NSN PWB</fullName>
+                    <default>false</default>
+                    <label>NSN PWB</label>
+                </value>
+                <value>
+                    <fullName>NSN FW Assembly</fullName>
+                    <default>false</default>
+                    <label>NSN FW Assembly</label>
+                </value>
+                <value>
+                    <fullName>NSN Cable</fullName>
+                    <default>false</default>
+                    <label>NSN Cable</label>
+                </value>
+                <value>
+                    <fullName>NSN Packaging Assembly</fullName>
+                    <default>false</default>
+                    <label>NSN Packaging Assembly</label>
+                </value>
+                <value>
+                    <fullName>NSN Capacitor</fullName>
+                    <default>false</default>
+                    <label>NSN Capacitor</label>
+                </value>
+                <value>
+                    <fullName>NSN Connector</fullName>
+                    <default>false</default>
+                    <label>NSN Connector</label>
+                </value>
+                <value>
+                    <fullName>NSN Discrete Semiconductor</fullName>
+                    <default>false</default>
+                    <label>NSN Discrete Semiconductor</label>
+                </value>
+                <value>
+                    <fullName>NSN EMI Shielding</fullName>
+                    <default>false</default>
+                    <label>NSN EMI Shielding</label>
+                </value>
+                <value>
+                    <fullName>NSN Fan or Thermal Part</fullName>
+                    <default>false</default>
+                    <label>NSN Fan or Thermal Part</label>
+                </value>
+                <value>
+                    <fullName>NSN Fastening</fullName>
+                    <default>false</default>
+                    <label>NSN Fastening</label>
+                </value>
+                <value>
+                    <fullName>NSN Frequency Control</fullName>
+                    <default>false</default>
+                    <label>NSN Frequency Control</label>
+                </value>
+                <value>
+                    <fullName>NSN Holder</fullName>
+                    <default>false</default>
+                    <label>NSN Holder</label>
+                </value>
+                <value>
+                    <fullName>NSN Inductive Component</fullName>
+                    <default>false</default>
+                    <label>NSN Inductive Component</label>
+                </value>
+                <value>
+                    <fullName>NSN Insulator</fullName>
+                    <default>false</default>
+                    <label>NSN Insulator</label>
+                </value>
+                <value>
+                    <fullName>NSN Integrated Circuit</fullName>
+                    <default>false</default>
+                    <label>NSN Integrated Circuit</label>
+                </value>
+                <value>
+                    <fullName>NSN Label or Sticker</fullName>
+                    <default>false</default>
+                    <label>NSN Label or Sticker</label>
+                </value>
+                <value>
+                    <fullName>NSN Lamp</fullName>
+                    <default>false</default>
+                    <label>NSN Lamp</label>
+                </value>
+                <value>
+                    <fullName>NSN Drawing Based Mechanics</fullName>
+                    <default>false</default>
+                    <label>NSN Drawing Based Mechanics</label>
+                </value>
+                <value>
+                    <fullName>NSN Lock Latch Hinge</fullName>
+                    <default>false</default>
+                    <label>NSN Lock Latch Hinge</label>
+                </value>
+                <value>
+                    <fullName>NSN Metal Part</fullName>
+                    <default>false</default>
+                    <label>NSN Metal Part</label>
+                </value>
+                <value>
+                    <fullName>NSN Microwave Component</fullName>
+                    <default>false</default>
+                    <label>NSN Microwave Component</label>
+                </value>
+                <value>
+                    <fullName>NSN OEM Module</fullName>
+                    <default>false</default>
+                    <label>NSN OEM Module</label>
+                </value>
+                <value>
+                    <fullName>NSN Opto Component</fullName>
+                    <default>false</default>
+                    <label>NSN Opto Component</label>
+                </value>
+                <value>
+                    <fullName>NSN Other Active Component</fullName>
+                    <default>false</default>
+                    <label>NSN Other Active Component</label>
+                </value>
+                <value>
+                    <fullName>NSN Other Electromechanical Component</fullName>
+                    <default>false</default>
+                    <label>NSN Other Electromechanical Component</label>
+                </value>
+                <value>
+                    <fullName>NSN Photonic</fullName>
+                    <default>false</default>
+                    <label>NSN Photonic</label>
+                </value>
+                <value>
+                    <fullName>NSN Plastics</fullName>
+                    <default>false</default>
+                    <label>NSN Plastics</label>
+                </value>
+                <value>
+                    <fullName>NSN Production Material</fullName>
+                    <default>false</default>
+                    <label>NSN Production Material</label>
+                </value>
+                <value>
+                    <fullName>NSN Protection Device active</fullName>
+                    <default>false</default>
+                    <label>NSN Protection Device active</label>
+                </value>
+                <value>
+                    <fullName>NSN Rack Case Box Part</fullName>
+                    <default>false</default>
+                    <label>NSN Rack Case Box Part</label>
+                </value>
+                <value>
+                    <fullName>NSN Resistor</fullName>
+                    <default>false</default>
+                    <label>NSN Resistor</label>
+                </value>
+                <value>
+                    <fullName>NSN RF MW Circuit</fullName>
+                    <default>false</default>
+                    <label>NSN RF MW Circuit</label>
+                </value>
+                <value>
+                    <fullName>NSN Socket</fullName>
+                    <default>false</default>
+                    <label>NSN Socket</label>
+                </value>
+                <value>
+                    <fullName>NSN Standard Power Supply</fullName>
+                    <default>false</default>
+                    <label>NSN Standard Power Supply</label>
+                </value>
+                <value>
+                    <fullName>NSN Washer</fullName>
+                    <default>false</default>
+                    <label>NSN Washer</label>
+                </value>
+                <value>
+                    <fullName>NSN URL</fullName>
+                    <default>false</default>
+                    <label>NSN URL</label>
+                </value>
+                <value>
+                    <fullName>Complementary Item</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Complementary Item</label>
+                </value>
+                <value>
+                    <fullName>Design Item</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Design Item</label>
+                </value>
+                <value>
+                    <fullName>NSN Battery</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Battery</label>
+                </value>
+                <value>
+                    <fullName>NSN Document Part</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Document Part</label>
+                </value>
+                <value>
+                    <fullName>NSN Guide Pin</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Guide Pin</label>
+                </value>
+                <value>
+                    <fullName>NSN Nut</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Nut</label>
+                </value>
+                <value>
+                    <fullName>NSN ODM Power Supply</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN ODM Power Supply</label>
+                </value>
+                <value>
+                    <fullName>NSN Other Mechanical Component</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Other Mechanical Component</label>
+                </value>
+                <value>
+                    <fullName>NSN Other Power Product</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Other Power Product</label>
+                </value>
+                <value>
+                    <fullName>NSN Packaging Material</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Packaging Material</label>
+                </value>
+                <value>
+                    <fullName>NSN Power Supply</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Power Supply</label>
+                </value>
+                <value>
+                    <fullName>NSN Production Device</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Production Device</label>
+                </value>
+                <value>
+                    <fullName>NSN Protection Device</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Protection Device</label>
+                </value>
+                <value>
+                    <fullName>NSN Relay</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Relay</label>
+                </value>
+                <value>
+                    <fullName>NSN Rivet</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Rivet</label>
+                </value>
+                <value>
+                    <fullName>NSN Screw Machine</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Screw Machine</label>
+                </value>
+                <value>
+                    <fullName>NSN Screw Tapping</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Screw Tapping</label>
+                </value>
+                <value>
+                    <fullName>NSN Screw Tuning</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Screw Tuning</label>
+                </value>
+                <value>
+                    <fullName>NSN Stepping Motor</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Stepping Motor</label>
+                </value>
+                <value>
+                    <fullName>NSN Switch</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Switch</label>
+                </value>
+                <value>
+                    <fullName>NSN Unclassified Versioned HW Component</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Unclassified Versioned HW Component</label>
+                </value>
+                <value>
+                    <fullName>OTHER</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>OTHER</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Unknown</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_ExternalId__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>true</externalId>
+        <label>ExternalId</label>
+        <length>40</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_Knowledge__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Knowledge</label>
+        <referenceTo>Knowledge__kav</referenceTo>
+        <relationshipLabel>Products</relationshipLabel>
+        <relationshipName>CH_Product_Relations</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_Parent_Design_Element__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Parent Design Element</label>
+        <referenceTo>CH_Design_Element__c</referenceTo>
+        <relationshipLabel>Design Elements</relationshipLabel>
+        <relationshipName>CH_Parent_Design_Elements</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_Parent_Product_Name__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Parent_Product_Name</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_Parent_Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This field points to the parent product in Product2</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field points to the parent product in Product2</inlineHelpText>
+        <label>Parent Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipName>CH_Parent_Product</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_Parent_Release__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Parent Release</label>
+        <referenceTo>CH_ProductRelease__c</referenceTo>
+        <relationshipLabel>CH Product Relations (Parent Release)</relationshipLabel>
+        <relationshipName>CH_Product_Relations1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_Parent_Type__c</fullName>
+        <description>This field describes the different types that a of objects can be stored in Product2</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field describes the different types that a of objects can be stored in Product2</inlineHelpText>
+        <label>Parent Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>NSN Release</fullName>
+                    <default>false</default>
+                    <label>NSN Release</label>
+                </value>
+                <value>
+                    <fullName>Feature</fullName>
+                    <default>false</default>
+                    <label>Feature</label>
+                </value>
+                <value>
+                    <fullName>NSN Complementary Release</fullName>
+                    <default>false</default>
+                    <label>NSN Complementary Release</label>
+                </value>
+                <value>
+                    <fullName>Design Item</fullName>
+                    <default>false</default>
+                    <label>Design Item</label>
+                </value>
+                <value>
+                    <fullName>NSN Solution Release</fullName>
+                    <default>false</default>
+                    <label>NSN Solution Release</label>
+                </value>
+                <value>
+                    <fullName>Build</fullName>
+                    <default>false</default>
+                    <label>Build</label>
+                </value>
+                <value>
+                    <fullName>Complementary Item</fullName>
+                    <default>false</default>
+                    <label>Complementary Item</label>
+                </value>
+                <value>
+                    <fullName>NSN Solution</fullName>
+                    <default>false</default>
+                    <label>NSN Solution</label>
+                </value>
+                <value>
+                    <fullName>NSN Service Design Item</fullName>
+                    <default>false</default>
+                    <label>NSN Service Design Item</label>
+                </value>
+                <value>
+                    <fullName>NSN Customer Documentation Assembly</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Customer Documentation Assembly</label>
+                </value>
+                <value>
+                    <fullName>NSN Customer Documentation SI</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Customer Documentation SI</label>
+                </value>
+                <value>
+                    <fullName>NSN FW Assembly</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN FW Assembly</label>
+                </value>
+                <value>
+                    <fullName>NSN HW Assembly</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN HW Assembly</label>
+                </value>
+                <value>
+                    <fullName>NSN Hardware SI</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Hardware SI</label>
+                </value>
+                <value>
+                    <fullName>NSN Packaging Assembly</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Packaging Assembly</label>
+                </value>
+                <value>
+                    <fullName>NSN Product Configuration Item</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Product Configuration Item</label>
+                </value>
+                <value>
+                    <fullName>NSN Production Device</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Production Device</label>
+                </value>
+                <value>
+                    <fullName>NSN SW Assembly</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN SW Assembly</label>
+                </value>
+                <value>
+                    <fullName>NSN Services SI</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Services SI</label>
+                </value>
+                <value>
+                    <fullName>NSN Software SI</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Software SI</label>
+                </value>
+                <value>
+                    <fullName>NSN Unclassified Versioned HW Component</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Unclassified Versioned HW Component</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Relation_For__c</fullName>
+        <description>This field describes the the relationship Product2 can have</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field describes the the relationship Product2 can have</inlineHelpText>
+        <label>Relation For</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ProductRelation</fullName>
+                    <default>false</default>
+                    <label>ProductRelation</label>
+                </value>
+                <value>
+                    <fullName>ClassfiedItemRelation</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>ClassfiedItemRelation</label>
+                </value>
+                <value>
+                    <fullName>ConfigurationItemRelation</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>ConfigurationItemRelation</label>
+                </value>
+                <value>
+                    <fullName>SalesItemRelation</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>SalesItemRelation</label>
+                </value>
+                <value>
+                    <fullName>SubClassificationRelation</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>SubClassificationRelation</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Relation_Type__c</fullName>
+        <description>This picklist contains the different types of relations that products in Product2 can have</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This picklist contains the different types of relations that products in Product2 can have</inlineHelpText>
+        <label>Relation Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Classified Item</fullName>
+                    <default>false</default>
+                    <label>Classified Item</label>
+                </value>
+                <value>
+                    <fullName>Design Responsibility</fullName>
+                    <default>false</default>
+                    <label>Design Responsibility</label>
+                </value>
+                <value>
+                    <fullName>NSN Is Realised By</fullName>
+                    <default>false</default>
+                    <label>NSN Is Realised By</label>
+                </value>
+                <value>
+                    <fullName>NSN Logical Features</fullName>
+                    <default>false</default>
+                    <label>NSN Logical Features</label>
+                </value>
+                <value>
+                    <fullName>NSN Logically Consists Of</fullName>
+                    <default>false</default>
+                    <label>NSN Logically Consists Of</label>
+                </value>
+                <value>
+                    <fullName>NSN Feature Dependency</fullName>
+                    <default>false</default>
+                    <label>NSN Feature Dependency</label>
+                </value>
+                <value>
+                    <fullName>NSN Platform Dependency</fullName>
+                    <default>false</default>
+                    <label>NSN Platform Dependency</label>
+                </value>
+                <value>
+                    <fullName>NSN Inherited Feature</fullName>
+                    <default>false</default>
+                    <label>NSN Inherited Feature</label>
+                </value>
+                <value>
+                    <fullName>NSN Candidate Logical Features</fullName>
+                    <default>false</default>
+                    <label>NSN Candidate Logical Features</label>
+                </value>
+                <value>
+                    <fullName>NSN Provides</fullName>
+                    <default>false</default>
+                    <label>NSN Provides</label>
+                </value>
+                <value>
+                    <fullName>NSN Is Realised By History</fullName>
+                    <default>false</default>
+                    <label>NSN Is Realised By History</label>
+                </value>
+                <value>
+                    <fullName>NSN Is Realised By Pending</fullName>
+                    <default>false</default>
+                    <label>NSN Is Realised By Pending</label>
+                </value>
+                <value>
+                    <fullName>GBOM</fullName>
+                    <default>false</default>
+                    <label>GBOM</label>
+                </value>
+                <value>
+                    <fullName>NSN Main Product</fullName>
+                    <default>false</default>
+                    <label>NSN Main Product</label>
+                </value>
+                <value>
+                    <fullName>NSN Is Complemented By</fullName>
+                    <default>false</default>
+                    <label>NSN Is Complemented By</label>
+                </value>
+                <value>
+                    <fullName>Products</fullName>
+                    <default>false</default>
+                    <label>Products</label>
+                </value>
+                <value>
+                    <fullName>NSN Main Derived</fullName>
+                    <default>false</default>
+                    <label>NSN Main Derived</label>
+                </value>
+                <value>
+                    <fullName>NSN Compa Dependency</fullName>
+                    <default>false</default>
+                    <label>NSN Compa Dependency</label>
+                </value>
+                <value>
+                    <fullName>NSN Solution Consists Of</fullName>
+                    <default>false</default>
+                    <label>NSN Solution Consists Of</label>
+                </value>
+                <value>
+                    <fullName>Derived</fullName>
+                    <default>false</default>
+                    <label>Derived</label>
+                </value>
+                <value>
+                    <fullName>Reference Document</fullName>
+                    <default>false</default>
+                    <label>Reference Document</label>
+                </value>
+                <value>
+                    <fullName>NSN Compa Dependency Removed</fullName>
+                    <default>false</default>
+                    <label>NSN Compa Dependency Removed</label>
+                </value>
+                <value>
+                    <fullName>NSN Provides Design Element</fullName>
+                    <default>false</default>
+                    <label>NSN Provides Design Element</label>
+                </value>
+                <value>
+                    <fullName>NSN Has Design Element</fullName>
+                    <default>false</default>
+                    <label>NSN Has Design Element</label>
+                </value>
+                <value>
+                    <fullName>NSN Not Inherited Feature</fullName>
+                    <default>false</default>
+                    <label>NSN Not Inherited Feature</label>
+                </value>
+                <value>
+                    <fullName>Main Product</fullName>
+                    <default>false</default>
+                    <label>Main Product</label>
+                </value>
+                <value>
+                    <fullName>NSN Combines</fullName>
+                    <default>false</default>
+                    <label>NSN Combines</label>
+                </value>
+                <value>
+                    <fullName>NSN Includes</fullName>
+                    <default>false</default>
+                    <label>NSN Includes</label>
+                </value>
+                <value>
+                    <fullName>NSN Classification Class</fullName>
+                    <default>false</default>
+                    <label>NSN Classification Class</label>
+                </value>
+                <value>
+                    <fullName>Main Derived</fullName>
+                    <default>false</default>
+                    <label>Main Derived</label>
+                </value>
+                <value>
+                    <fullName>NSN Internal Compa Dependency</fullName>
+                    <default>false</default>
+                    <label>NSN Internal Compa Dependency</label>
+                </value>
+                <value>
+                    <fullName>NSN Service Dependency</fullName>
+                    <default>false</default>
+                    <label>NSN Service Dependency</label>
+                </value>
+                <value>
+                    <fullName>NSN Groups</fullName>
+                    <default>false</default>
+                    <label>NSN Groups</label>
+                </value>
+                <value>
+                    <fullName>NSN Product Category Class</fullName>
+                    <default>false</default>
+                    <label>NSN Product Category Class</label>
+                </value>
+                <value>
+                    <fullName>NSN Care Select Class</fullName>
+                    <default>false</default>
+                    <label>NSN Care Select Class</label>
+                </value>
+                <value>
+                    <fullName>NSN Care Activate Class</fullName>
+                    <default>false</default>
+                    <label>NSN Care Activate Class</label>
+                </value>
+                <value>
+                    <fullName>NSN Care Exception Class</fullName>
+                    <default>false</default>
+                    <label>NSN Care Exception Class</label>
+                </value>
+                <value>
+                    <fullName>NSN Connected Product Hierarchy</fullName>
+                    <default>false</default>
+                    <label>NSN Connected Product Hierarchy</label>
+                </value>
+                <value>
+                    <fullName>NSN Owner Organization Class</fullName>
+                    <default>false</default>
+                    <label>NSN Owner Organization Class</label>
+                </value>
+                <value>
+                    <fullName>Subclass</fullName>
+                    <default>false</default>
+                    <label>Subclass</label>
+                </value>
+                <value>
+                    <fullName>EBOM</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>EBOM</label>
+                </value>
+                <value>
+                    <fullName>EBOM History</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>EBOM History</label>
+                </value>
+                <value>
+                    <fullName>NSN Data Usage Class</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Data Usage Class</label>
+                </value>
+                <value>
+                    <fullName>NSN Is Configuration Of</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Is Configuration Of</label>
+                </value>
+                <value>
+                    <fullName>NSN Release Model Class</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN Release Model Class</label>
+                </value>
+                <value>
+                    <fullName>NSN TL9000 Class</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NSN TL9000 Class</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HWS_HighLevelProductCode__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(TEXT(CH_Child_Product__r.NokiaCPQ_Item_Type__c)==&apos;Hardware&apos;, CH_Parent_Product__r.APTS_Ext_ID__c,&apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>High Level Product Code</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HWS_HighLevelProductName__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(TEXT(CH_Child_Product__r.NokiaCPQ_Item_Type__c)==&apos;Hardware&apos;, CH_Parent_Product__r.Name,&apos;&apos;)</formula>
+        <label>High Level Product Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Product Relation CH</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>CH_Parent_Product__c</columns>
+        <columns>CH_Parent_Type__c</columns>
+        <columns>CH_Child_Product__c</columns>
+        <columns>CH_Child_Type__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>{0}</displayFormat>
+        <label>Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>CH Product Relations</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

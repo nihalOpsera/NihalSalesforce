@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Speakers</relationshipLabel>
+        <relationshipName>Speakers</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Best_Practice_Story_Brief_Description__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Best Practice Story (Brief Description)</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Biography__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Biography</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Expertise_level__c</fullName>
+        <externalId>false</externalId>
+        <label>Expertise level</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Nokia</fullName>
+                    <default>false</default>
+                    <label>Nokia</label>
+                </value>
+                <value>
+                    <fullName>MN</fullName>
+                    <default>false</default>
+                    <label>MN</label>
+                </value>
+                <value>
+                    <fullName>GS</fullName>
+                    <default>false</default>
+                    <label>GS</label>
+                </value>
+                <value>
+                    <fullName>ION</fullName>
+                    <default>false</default>
+                    <label>ION</label>
+                </value>
+                <value>
+                    <fullName>FN</fullName>
+                    <default>false</default>
+                    <label>FN</label>
+                </value>
+                <value>
+                    <fullName>NSW</fullName>
+                    <default>false</default>
+                    <label>NSW</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Gift__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box if the speaker received a gift.</inlineHelpText>
+        <label>Gift</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Hero_Slide__c</fullName>
+        <externalId>false</externalId>
+        <label>Hero Slide</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Received</fullName>
+                    <default>false</default>
+                    <label>Received</label>
+                </value>
+                <value>
+                    <fullName>Declined</fullName>
+                    <default>false</default>
+                    <label>Declined</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Internal_Handler__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Internal Handler</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Speakers</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Partner__c</fullName>
+        <externalId>false</externalId>
+        <label>Partner</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>N/a</fullName>
+                    <default>false</default>
+                    <label>N/a</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Publish_to_Web__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field can be used for web integration if you wish you publish data to your website.</description>
+        <externalId>false</externalId>
+        <label>Publish to Web?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Release_Form__c</fullName>
+        <externalId>false</externalId>
+        <label>Release Form</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Received</fullName>
+                    <default>false</default>
+                    <label>Not Received</label>
+                </value>
+                <value>
+                    <fullName>Received - Yes</fullName>
+                    <default>false</default>
+                    <label>Received - Yes</label>
+                </value>
+                <value>
+                    <fullName>Received - No</fullName>
+                    <default>false</default>
+                    <label>Received - No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Reporting_to__c</fullName>
+        <externalId>false</externalId>
+        <formula>Speaker_Internal__r.Manager.LastName</formula>
+        <inlineHelpText>Information is picked from the user details (Manager) in the tool.</inlineHelpText>
+        <label>Reporting to</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Speak_Hierarchy__c</fullName>
+        <externalId>false</externalId>
+        <label>Speak Hierarchy</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Speaker_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Speaker (External)</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Speakers</relationshipLabel>
+        <relationshipName>Speakers</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Speaker_Details__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Speaker Details</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Speaker_Display_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Speaker_Contact__r.FirstName &amp; &quot; &quot; &amp;  Speaker_Contact__r.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Speaker Display Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Speaker_Image__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Speaker Image</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Speaker_Internal__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Speaker (Internal)</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Speakers1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Speaker_Rating__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter speaker evaluation score (1-5, with 5 as the highest)</inlineHelpText>
+        <label>Speaker Rating</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Speaker_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Speaker Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>true</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Speaker_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Speaker Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Internal</fullName>
+                    <default>false</default>
+                    <label>Internal</label>
+                </value>
+                <value>
+                    <fullName>Customer Speaker</fullName>
+                    <default>false</default>
+                    <label>Customer Speaker</label>
+                </value>
+                <value>
+                    <fullName>Partner Speaker</fullName>
+                    <default>false</default>
+                    <label>Partner Speaker</label>
+                </value>
+                <value>
+                    <fullName>Analyst Speaker</fullName>
+                    <default>false</default>
+                    <label>Analyst Speaker</label>
+                </value>
+                <value>
+                    <fullName>Industry Speaker</fullName>
+                    <default>false</default>
+                    <label>Industry Speaker</label>
+                </value>
+                <value>
+                    <fullName>Academic Speaker</fullName>
+                    <default>false</default>
+                    <label>Academic Speaker</label>
+                </value>
+                <value>
+                    <fullName>Celebrity Speaker</fullName>
+                    <default>false</default>
+                    <label>Celebrity Speaker</label>
+                </value>
+                <value>
+                    <fullName>Session Speaker</fullName>
+                    <default>false</default>
+                    <label>Session Speaker</label>
+                </value>
+                <value>
+                    <fullName>Keynote Speaker</fullName>
+                    <default>false</default>
+                    <label>Keynote Speaker</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Speaker_s_email__c</fullName>
+        <externalId>false</externalId>
+        <formula>Speaker_Internal__r.Email</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Email is picked from the user details (Email) in the tool.</inlineHelpText>
+        <label>Speaker&apos;s email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Speaker_s_office_location__c</fullName>
+        <externalId>false</externalId>
+        <formula>Speaker_Internal__r.City</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Office location is picked from user details (City) in the tool.</inlineHelpText>
+        <label>Speaker&apos;s office location</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Speaker_s_organization__c</fullName>
+        <externalId>false</externalId>
+        <formula>Speaker_Internal__r.Division</formula>
+        <inlineHelpText>Organization is picked from the user details (Division) in the tool.</inlineHelpText>
+        <label>Speaker&apos;s organization</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Speaker_s_title__c</fullName>
+        <externalId>false</externalId>
+        <formula>Speaker_Internal__r.Title</formula>
+        <inlineHelpText>Title is picked from the user details (Title) in the tool.</inlineHelpText>
+        <label>Speaker&apos;s title</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Topic_Expertise__c</fullName>
+        <externalId>false</externalId>
+        <label>Topic Expertise</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <controllingField>Expertise_level__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Nokia company presentation</fullName>
+                    <default>false</default>
+                    <label>Nokia company presentation</label>
+                </value>
+                <value>
+                    <fullName>Nokia strategy and vision</fullName>
+                    <default>false</default>
+                    <label>Nokia strategy and vision</label>
+                </value>
+                <value>
+                    <fullName>Nokia Innovation Strategy</fullName>
+                    <default>false</default>
+                    <label>Nokia Innovation Strategy</label>
+                </value>
+                <value>
+                    <fullName>Bell Labs study #Future X#</fullName>
+                    <default>false</default>
+                    <label>Bell Labs study #Future X#</label>
+                </value>
+                <value>
+                    <fullName>Quality</fullName>
+                    <default>false</default>
+                    <label>Quality</label>
+                </value>
+                <value>
+                    <fullName>Operator Business strategies</fullName>
+                    <default>false</default>
+                    <label>Operator Business strategies</label>
+                </value>
+                <value>
+                    <fullName>Nokia standardization activities</fullName>
+                    <default>false</default>
+                    <label>Nokia standardization activities</label>
+                </value>
+                <value>
+                    <fullName>Nokia Mobile Networks strategy and vision</fullName>
+                    <default>false</default>
+                    <label>Nokia Mobile Networks strategy and vision</label>
+                </value>
+                <value>
+                    <fullName>Mobile Networks Core Strategy update</fullName>
+                    <default>false</default>
+                    <label>Mobile Networks Core Strategy update</label>
+                </value>
+                <value>
+                    <fullName>Evolution</fullName>
+                    <default>false</default>
+                    <label>Evolution</label>
+                </value>
+                <value>
+                    <fullName>Cloud RAN</fullName>
+                    <default>false</default>
+                    <label>Cloud RAN</label>
+                </value>
+                <value>
+                    <fullName>FastMile</fullName>
+                    <default>false</default>
+                    <label>FastMile</label>
+                </value>
+                <value>
+                    <fullName>Radio Strategy update</fullName>
+                    <default>false</default>
+                    <label>Radio Strategy update</label>
+                </value>
+                <value>
+                    <fullName>Mobile Edge Computing</fullName>
+                    <default>false</default>
+                    <label>Mobile Edge Computing</label>
+                </value>
+                <value>
+                    <fullName>Global Services portolio</fullName>
+                    <default>false</default>
+                    <label>Global Services portolio</label>
+                </value>
+                <value>
+                    <fullName>5G</fullName>
+                    <default>false</default>
+                    <label>5G</label>
+                </value>
+                <value>
+                    <fullName>Small cells</fullName>
+                    <default>false</default>
+                    <label>Small cells</label>
+                </value>
+                <value>
+                    <fullName>IoT</fullName>
+                    <default>false</default>
+                    <label>IoT</label>
+                </value>
+                <value>
+                    <fullName>IP Strategy update</fullName>
+                    <default>false</default>
+                    <label>IP Strategy update</label>
+                </value>
+                <value>
+                    <fullName>Optical Strategy update</fullName>
+                    <default>false</default>
+                    <label>Optical Strategy update</label>
+                </value>
+                <value>
+                    <fullName>Fixed Access Strategy Update</fullName>
+                    <default>false</default>
+                    <label>Fixed Access Strategy Update</label>
+                </value>
+                <value>
+                    <fullName>Applications &amp; Analytics strategy</fullName>
+                    <default>false</default>
+                    <label>Applications &amp; Analytics strategy</label>
+                </value>
+                <value>
+                    <fullName>Cloud Strategy update</fullName>
+                    <default>false</default>
+                    <label>Cloud Strategy update</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Nokia</controllingFieldValue>
+                <valueName>Nokia company presentation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Nokia</controllingFieldValue>
+                <valueName>Nokia strategy and vision</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Nokia</controllingFieldValue>
+                <valueName>Nokia Innovation Strategy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Nokia</controllingFieldValue>
+                <valueName>Bell Labs study #Future X#</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Nokia</controllingFieldValue>
+                <valueName>Quality</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Nokia</controllingFieldValue>
+                <valueName>Operator Business strategies</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Nokia</controllingFieldValue>
+                <valueName>Nokia standardization activities</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MN</controllingFieldValue>
+                <valueName>Nokia Mobile Networks strategy and vision</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MN</controllingFieldValue>
+                <valueName>Mobile Networks Core Strategy update</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MN</controllingFieldValue>
+                <valueName>Evolution</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MN</controllingFieldValue>
+                <valueName>Cloud RAN</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MN</controllingFieldValue>
+                <valueName>FastMile</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MN</controllingFieldValue>
+                <valueName>Radio Strategy update</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MN</controllingFieldValue>
+                <valueName>Mobile Edge Computing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MN</controllingFieldValue>
+                <valueName>5G</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MN</controllingFieldValue>
+                <valueName>Small cells</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MN</controllingFieldValue>
+                <valueName>IoT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>GS</controllingFieldValue>
+                <valueName>Global Services portolio</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ION</controllingFieldValue>
+                <valueName>IP Strategy update</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ION</controllingFieldValue>
+                <valueName>Optical Strategy update</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>FN</controllingFieldValue>
+                <valueName>Fixed Access Strategy Update</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>NSW</controllingFieldValue>
+                <valueName>Applications &amp; Analytics strategy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>NSW</controllingFieldValue>
+                <valueName>Cloud Strategy update</valueName>
+            </valueSettings>
+        </valueSet>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Track__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Track</label>
+        <referenceTo>Track__c</referenceTo>
+        <relationshipLabel>Speakers</relationshipLabel>
+        <relationshipName>Speakers</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Speaker</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Speaker_Internal__c</columns>
+        <columns>Speaker_Display_Name__c</columns>
+        <columns>Track__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>All_internal_speakers</fullName>
+        <columns>NAME</columns>
+        <columns>Speaker_Internal__c</columns>
+        <columns>Speaker_s_title__c</columns>
+        <columns>Speaker_s_organization__c</columns>
+        <columns>Expertise_level__c</columns>
+        <columns>Topic_Expertise__c</columns>
+        <columns>Reporting_to__c</columns>
+        <columns>Speaker_Details__c</columns>
+        <columns>Speaker_Type__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All internal speakers</label>
+    </listViews>
+    <nameField>
+        <displayFormat>Speaker-{0000}</displayFormat>
+        <label>Speaker Id</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Speakers</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Speaker_Display_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Track__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Speaker_Contact__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Speaker_Display_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Track__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Speaker_Display_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Track__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

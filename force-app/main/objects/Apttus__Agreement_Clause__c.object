@@ -1,0 +1,2247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Agreement_Clause_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Agreement_Clause_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>CLM_Clause_Header_Layout</fullName>
+        <fields>Apttus__Clause__c</fields>
+        <fields>Apttus__Category__c</fields>
+        <fields>Apttus__Subcategory__c</fields>
+        <fields>CLM_Level__c</fields>
+        <fields>Apttus__Action__c</fields>
+        <fields>Apttus__Status__c</fields>
+        <label>CLM Clause Header Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Represents a clause associated with an agreement</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Apttus__Action__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Action</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Inserted</fullName>
+                    <default>false</default>
+                    <label>Inserted</label>
+                </value>
+                <value>
+                    <fullName>Modified</fullName>
+                    <default>false</default>
+                    <label>Modified</label>
+                </value>
+                <value>
+                    <fullName>Deleted</fullName>
+                    <default>false</default>
+                    <label>Deleted</label>
+                </value>
+                <value>
+                    <fullName>Used</fullName>
+                    <default>false</default>
+                    <label>Used</label>
+                </value>
+                <value>
+                    <fullName>Original</fullName>
+                    <default>false</default>
+                    <label>Original</label>
+                </value>
+                <value>
+                    <fullName>Final</fullName>
+                    <default>false</default>
+                    <label>Final</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Agreement__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Agreement</label>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipName>R00N50000001os4tEAA</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Apttus__AlternateClauseId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the clause used to replace the the Standard Clause</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of the clause used to replace the the Standard Clause</inlineHelpText>
+        <label>Alternate Clause</label>
+        <referenceTo>Apttus__APTS_Template__c</referenceTo>
+        <relationshipLabel>Agreement Clauses</relationshipLabel>
+        <relationshipName>AgreementClauses</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Category__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Default</fullName>
+                    <default>false</default>
+                    <label>Default</label>
+                </value>
+                <value>
+                    <fullName>Acceptance</fullName>
+                    <default>false</default>
+                    <label>Acceptance</label>
+                </value>
+                <value>
+                    <fullName>Warranty</fullName>
+                    <default>false</default>
+                    <label>Warranty</label>
+                </value>
+                <value>
+                    <fullName>Commitment</fullName>
+                    <default>false</default>
+                    <label>Commitment</label>
+                </value>
+                <value>
+                    <fullName>Delivery</fullName>
+                    <default>false</default>
+                    <label>Delivery</label>
+                </value>
+                <value>
+                    <fullName>Financials</fullName>
+                    <default>false</default>
+                    <label>Financials</label>
+                </value>
+                <value>
+                    <fullName>Governance</fullName>
+                    <default>false</default>
+                    <label>Governance</label>
+                </value>
+                <value>
+                    <fullName>Scope</fullName>
+                    <default>false</default>
+                    <label>Scope</label>
+                </value>
+                <value>
+                    <fullName>SLAs</fullName>
+                    <default>false</default>
+                    <label>SLAs</label>
+                </value>
+                <value>
+                    <fullName>Software</fullName>
+                    <default>false</default>
+                    <label>Software</label>
+                </value>
+                <value>
+                    <fullName>Asset Management</fullName>
+                    <default>false</default>
+                    <label>Asset Management</label>
+                </value>
+                <value>
+                    <fullName>Compliance and Assurance</fullName>
+                    <default>false</default>
+                    <label>Compliance and Assurance</label>
+                </value>
+                <value>
+                    <fullName>Customer Security Management</fullName>
+                    <default>false</default>
+                    <label>Customer Security Management</label>
+                </value>
+                <value>
+                    <fullName>Health and Safety Governance</fullName>
+                    <default>false</default>
+                    <label>Health and Safety Governance</label>
+                </value>
+                <value>
+                    <fullName>Identity and Access Management</fullName>
+                    <default>false</default>
+                    <label>Identity and Access Management</label>
+                </value>
+                <value>
+                    <fullName>Incident Response and Handling</fullName>
+                    <default>false</default>
+                    <label>Incident Response and Handling</label>
+                </value>
+                <value>
+                    <fullName>Information Security</fullName>
+                    <default>false</default>
+                    <label>Information Security</label>
+                </value>
+                <value>
+                    <fullName>IT Cybersecurity Controls</fullName>
+                    <default>false</default>
+                    <label>IT Cybersecurity Controls</label>
+                </value>
+                <value>
+                    <fullName>Privacy</fullName>
+                    <default>false</default>
+                    <label>Privacy</label>
+                </value>
+                <value>
+                    <fullName>Product Security</fullName>
+                    <default>false</default>
+                    <label>Product Security</label>
+                </value>
+                <value>
+                    <fullName>Supply Chain Security</fullName>
+                    <default>false</default>
+                    <label>Supply Chain Security</label>
+                </value>
+                <value>
+                    <fullName>Customer Remote Access</fullName>
+                    <default>false</default>
+                    <label>Customer Remote Access</label>
+                </value>
+                <value>
+                    <fullName>Limitation of Liability</fullName>
+                    <default>false</default>
+                    <label>Limitation of Liability</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__Clause__c</fullName>
+        <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Clause</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__Comments2__c</fullName>
+        <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus__Comments__c</fullName>
+        <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Comments (Deprecated)</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus__ContentId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the associated content</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>true</externalId>
+        <inlineHelpText>ID of the associated content</inlineHelpText>
+        <label>Content</label>
+        <length>32</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Apttus__DiffText2__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The clause diff text</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>The clause diff text</inlineHelpText>
+        <label>Diff Text</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus__DiffText__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The clause diff text</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Diff Text (Deprecated)</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus__Exception__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Exception</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Default</fullName>
+                    <default>false</default>
+                    <label>Default</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__Materially_Significant__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Materially Significant</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__PrevText__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The clause previous text</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Previous Text</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus__PreviousVersionId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Previous version of agreement clause</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Previous version of agreement clause</inlineHelpText>
+        <label>Previous Agreement Clause</label>
+        <referenceTo>Apttus__Agreement_Clause__c</referenceTo>
+        <relationshipLabel>Previous Version Agreement Clauses</relationshipLabel>
+        <relationshipName>PreviousAgreementClauseVersions</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__PrimordialVersionId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to the first version of agreement clause</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lookup to the first version of agreement clause</inlineHelpText>
+        <label>Primordial Agreement Clause</label>
+        <referenceTo>Apttus__Agreement_Clause__c</referenceTo>
+        <relationshipLabel>Agreement Clauses (Primordial Agreement Clause)</relationshipLabel>
+        <relationshipName>PrimordialAgreementClauses</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Risk_Rating__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Risk Rating</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+                <value>
+                    <fullName>Red</fullName>
+                    <default>false</default>
+                    <label>Red</label>
+                </value>
+                <value>
+                    <fullName>Yellow</fullName>
+                    <default>false</default>
+                    <label>Yellow</label>
+                </value>
+                <value>
+                    <fullName>Green</fullName>
+                    <default>false</default>
+                    <label>Green</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>G4 Approved</fullName>
+                    <default>false</default>
+                    <label>G4 Approved</label>
+                </value>
+                <value>
+                    <fullName>G5 Approved</fullName>
+                    <default>false</default>
+                    <label>G5 Approved</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__Subcategory__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The clause subcategory</description>
+        <externalId>false</externalId>
+        <label>Subcategory</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Apttus__Category__c</controllingField>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Arbitration</fullName>
+                    <default>false</default>
+                    <label>Arbitration</label>
+                </value>
+                <value>
+                    <fullName>Asset Classification</fullName>
+                    <default>false</default>
+                    <label>Asset Classification</label>
+                </value>
+                <value>
+                    <fullName>Asset Inventory</fullName>
+                    <default>false</default>
+                    <label>Asset Inventory</label>
+                </value>
+                <value>
+                    <fullName>Audit and Log Management​</fullName>
+                    <default>false</default>
+                    <label>Audit and Log Management​</label>
+                </value>
+                <value>
+                    <fullName>Audit and Reporting</fullName>
+                    <default>false</default>
+                    <label>Audit and Reporting</label>
+                </value>
+                <value>
+                    <fullName>Audit Rights</fullName>
+                    <default>false</default>
+                    <label>Audit Rights</label>
+                </value>
+                <value>
+                    <fullName>Best Customer</fullName>
+                    <default>false</default>
+                    <label>Best Customer</label>
+                </value>
+                <value>
+                    <fullName>Business Continuity</fullName>
+                    <default>false</default>
+                    <label>Business Continuity</label>
+                </value>
+                <value>
+                    <fullName>Business Continuity Management</fullName>
+                    <default>false</default>
+                    <label>Business Continuity Management</label>
+                </value>
+                <value>
+                    <fullName>Certificate and Key Management​</fullName>
+                    <default>false</default>
+                    <label>Certificate and Key Management​</label>
+                </value>
+                <value>
+                    <fullName>Change Control Procedure</fullName>
+                    <default>false</default>
+                    <label>Change Control Procedure</label>
+                </value>
+                <value>
+                    <fullName>Change Management</fullName>
+                    <default>false</default>
+                    <label>Change Management</label>
+                </value>
+                <value>
+                    <fullName>China Cybersecurity Law (CSL)</fullName>
+                    <default>false</default>
+                    <label>China Cybersecurity Law (CSL)</label>
+                </value>
+                <value>
+                    <fullName>Communicate Nokia Security Principles</fullName>
+                    <default>false</default>
+                    <label>Communicate Nokia Security Principles</label>
+                </value>
+                <value>
+                    <fullName>Compability</fullName>
+                    <default>false</default>
+                    <label>Compability</label>
+                </value>
+                <value>
+                    <fullName>Compliance against Nokia Security Policies</fullName>
+                    <default>false</default>
+                    <label>Compliance against Nokia Security Policies</label>
+                </value>
+                <value>
+                    <fullName>Compliance with Laws</fullName>
+                    <default>false</default>
+                    <label>Compliance with Laws</label>
+                </value>
+                <value>
+                    <fullName>Confidentiality</fullName>
+                    <default>false</default>
+                    <label>Confidentiality</label>
+                </value>
+                <value>
+                    <fullName>Consequential &amp; Indirect Damages</fullName>
+                    <default>false</default>
+                    <label>Consequential &amp; Indirect Damages</label>
+                </value>
+                <value>
+                    <fullName>Contract Renewal</fullName>
+                    <default>false</default>
+                    <label>Contract Renewal</label>
+                </value>
+                <value>
+                    <fullName>Conversion</fullName>
+                    <default>false</default>
+                    <label>Conversion</label>
+                </value>
+                <value>
+                    <fullName>Counterparts</fullName>
+                    <default>false</default>
+                    <label>Counterparts</label>
+                </value>
+                <value>
+                    <fullName>Credential Management​</fullName>
+                    <default>false</default>
+                    <label>Credential Management​</label>
+                </value>
+                <value>
+                    <fullName>Currency Conversion</fullName>
+                    <default>false</default>
+                    <label>Currency Conversion</label>
+                </value>
+                <value>
+                    <fullName>Customer Commitments (Volume etc)</fullName>
+                    <default>false</default>
+                    <label>Customer Commitments (Volume etc)</label>
+                </value>
+                <value>
+                    <fullName>Customer Compliance Verification</fullName>
+                    <default>false</default>
+                    <label>Customer Compliance Verification</label>
+                </value>
+                <value>
+                    <fullName>Customer Data Security</fullName>
+                    <default>false</default>
+                    <label>Customer Data Security</label>
+                </value>
+                <value>
+                    <fullName>Customer Security Requirement</fullName>
+                    <default>false</default>
+                    <label>Customer Security Requirement</label>
+                </value>
+                <value>
+                    <fullName>Data Breach Management​</fullName>
+                    <default>false</default>
+                    <label>Data Breach Management​</label>
+                </value>
+                <value>
+                    <fullName>Data Loss Prevention</fullName>
+                    <default>false</default>
+                    <label>Data Loss Prevention</label>
+                </value>
+                <value>
+                    <fullName>Data Security</fullName>
+                    <default>false</default>
+                    <label>Data Security</label>
+                </value>
+                <value>
+                    <fullName>Default</fullName>
+                    <default>false</default>
+                    <label>Default</label>
+                </value>
+                <value>
+                    <fullName>Direct Damages</fullName>
+                    <default>false</default>
+                    <label>Direct Damages</label>
+                </value>
+                <value>
+                    <fullName>Dispute Resolution</fullName>
+                    <default>false</default>
+                    <label>Dispute Resolution</label>
+                </value>
+                <value>
+                    <fullName>Endpoint Security​</fullName>
+                    <default>false</default>
+                    <label>Endpoint Security​</label>
+                </value>
+                <value>
+                    <fullName>Enterprise Risk Management</fullName>
+                    <default>false</default>
+                    <label>Enterprise Risk Management</label>
+                </value>
+                <value>
+                    <fullName>Entire Agreement</fullName>
+                    <default>false</default>
+                    <label>Entire Agreement</label>
+                </value>
+                <value>
+                    <fullName>E-Signature</fullName>
+                    <default>false</default>
+                    <label>E-Signature</label>
+                </value>
+                <value>
+                    <fullName>Exclusivity</fullName>
+                    <default>false</default>
+                    <label>Exclusivity</label>
+                </value>
+                <value>
+                    <fullName>Force Majeure</fullName>
+                    <default>false</default>
+                    <label>Force Majeure</label>
+                </value>
+                <value>
+                    <fullName>Forecasting</fullName>
+                    <default>false</default>
+                    <label>Forecasting</label>
+                </value>
+                <value>
+                    <fullName>Forensics​</fullName>
+                    <default>false</default>
+                    <label>Forensics​</label>
+                </value>
+                <value>
+                    <fullName>GDPR</fullName>
+                    <default>false</default>
+                    <label>GDPR</label>
+                </value>
+                <value>
+                    <fullName>General Acceptance Terms</fullName>
+                    <default>false</default>
+                    <label>General Acceptance Terms</label>
+                </value>
+                <value>
+                    <fullName>General Warranty Exclusions</fullName>
+                    <default>false</default>
+                    <label>General Warranty Exclusions</label>
+                </value>
+                <value>
+                    <fullName>General Warranty Terms</fullName>
+                    <default>false</default>
+                    <label>General Warranty Terms</label>
+                </value>
+                <value>
+                    <fullName>Gerneral Warranty Exclusions</fullName>
+                    <default>false</default>
+                    <label>Gerneral Warranty Exclusions</label>
+                </value>
+                <value>
+                    <fullName>Governing Law</fullName>
+                    <default>false</default>
+                    <label>Governing Law</label>
+                </value>
+                <value>
+                    <fullName>Hardware</fullName>
+                    <default>false</default>
+                    <label>Hardware</label>
+                </value>
+                <value>
+                    <fullName>Health &amp; Safety</fullName>
+                    <default>false</default>
+                    <label>Health &amp; Safety</label>
+                </value>
+                <value>
+                    <fullName>Health and Safety Policy​</fullName>
+                    <default>false</default>
+                    <label>Health and Safety Policy​</label>
+                </value>
+                <value>
+                    <fullName>Health and Safety Roles​</fullName>
+                    <default>false</default>
+                    <label>Health and Safety Roles​</label>
+                </value>
+                <value>
+                    <fullName>Incident Reporting</fullName>
+                    <default>false</default>
+                    <label>Incident Reporting</label>
+                </value>
+                <value>
+                    <fullName>Incident Response and Handling​</fullName>
+                    <default>false</default>
+                    <label>Incident Response and Handling​</label>
+                </value>
+                <value>
+                    <fullName>Incoterms</fullName>
+                    <default>false</default>
+                    <label>Incoterms</label>
+                </value>
+                <value>
+                    <fullName>Indemnification</fullName>
+                    <default>false</default>
+                    <label>Indemnification</label>
+                </value>
+                <value>
+                    <fullName>Inflation</fullName>
+                    <default>false</default>
+                    <label>Inflation</label>
+                </value>
+                <value>
+                    <fullName>Information Security Policy</fullName>
+                    <default>false</default>
+                    <label>Information Security Policy</label>
+                </value>
+                <value>
+                    <fullName>Insurance</fullName>
+                    <default>false</default>
+                    <label>Insurance</label>
+                </value>
+                <value>
+                    <fullName>International Standards</fullName>
+                    <default>false</default>
+                    <label>International Standards</label>
+                </value>
+                <value>
+                    <fullName>Invoicing Terms</fullName>
+                    <default>false</default>
+                    <label>Invoicing Terms</label>
+                </value>
+                <value>
+                    <fullName>IS Event Management​</fullName>
+                    <default>false</default>
+                    <label>IS Event Management​</label>
+                </value>
+                <value>
+                    <fullName>IS Incident and Response Management​</fullName>
+                    <default>false</default>
+                    <label>IS Incident and Response Management​</label>
+                </value>
+                <value>
+                    <fullName>IT Cybersecurity Testing​</fullName>
+                    <default>false</default>
+                    <label>IT Cybersecurity Testing​</label>
+                </value>
+                <value>
+                    <fullName>IT Minimum Baseline</fullName>
+                    <default>false</default>
+                    <label>IT Minimum Baseline</label>
+                </value>
+                <value>
+                    <fullName>IT Patch Management</fullName>
+                    <default>false</default>
+                    <label>IT Patch Management</label>
+                </value>
+                <value>
+                    <fullName>Late Payment</fullName>
+                    <default>false</default>
+                    <label>Late Payment</label>
+                </value>
+                <value>
+                    <fullName>Legal and Regulatory HS Compliance​</fullName>
+                    <default>false</default>
+                    <label>Legal and Regulatory HS Compliance​</label>
+                </value>
+                <value>
+                    <fullName>Manage Services</fullName>
+                    <default>false</default>
+                    <label>Manage Services</label>
+                </value>
+                <value>
+                    <fullName>National Security Agreement (NSA)</fullName>
+                    <default>false</default>
+                    <label>National Security Agreement (NSA)</label>
+                </value>
+                <value>
+                    <fullName>Network Documentation</fullName>
+                    <default>false</default>
+                    <label>Network Documentation</label>
+                </value>
+                <value>
+                    <fullName>Network DOS Protection</fullName>
+                    <default>false</default>
+                    <label>Network DOS Protection</label>
+                </value>
+                <value>
+                    <fullName>Network Filtering</fullName>
+                    <default>false</default>
+                    <label>Network Filtering</label>
+                </value>
+                <value>
+                    <fullName>Network Isolation</fullName>
+                    <default>false</default>
+                    <label>Network Isolation</label>
+                </value>
+                <value>
+                    <fullName>Network Security​</fullName>
+                    <default>false</default>
+                    <label>Network Security​</label>
+                </value>
+                <value>
+                    <fullName>Network Segregation</fullName>
+                    <default>false</default>
+                    <label>Network Segregation</label>
+                </value>
+                <value>
+                    <fullName>Other Standards</fullName>
+                    <default>false</default>
+                    <label>Other Standards</label>
+                </value>
+                <value>
+                    <fullName>People/HR Security</fullName>
+                    <default>false</default>
+                    <label>People/HR Security</label>
+                </value>
+                <value>
+                    <fullName>Performance Bond/ Corporate Guarantee</fullName>
+                    <default>false</default>
+                    <label>Performance Bond/ Corporate Guarantee</label>
+                </value>
+                <value>
+                    <fullName>Physical Security</fullName>
+                    <default>false</default>
+                    <label>Physical Security</label>
+                </value>
+                <value>
+                    <fullName>Privacy Engineering and Assurance​</fullName>
+                    <default>false</default>
+                    <label>Privacy Engineering and Assurance​</label>
+                </value>
+                <value>
+                    <fullName>Privacy Management ​</fullName>
+                    <default>false</default>
+                    <label>Privacy Management ​</label>
+                </value>
+                <value>
+                    <fullName>Privacy Requirements Policy​</fullName>
+                    <default>false</default>
+                    <label>Privacy Requirements Policy​</label>
+                </value>
+                <value>
+                    <fullName>Privacy Review​</fullName>
+                    <default>false</default>
+                    <label>Privacy Review​</label>
+                </value>
+                <value>
+                    <fullName>Privacy Roles and Responsibilities​</fullName>
+                    <default>false</default>
+                    <label>Privacy Roles and Responsibilities​</label>
+                </value>
+                <value>
+                    <fullName>Privacy Training and Awareness​</fullName>
+                    <default>false</default>
+                    <label>Privacy Training and Awareness​</label>
+                </value>
+                <value>
+                    <fullName>Priveleged User Access Management</fullName>
+                    <default>false</default>
+                    <label>Priveleged User Access Management</label>
+                </value>
+                <value>
+                    <fullName>Privileged User Access Management</fullName>
+                    <default>false</default>
+                    <label>Privileged User Access Management</label>
+                </value>
+                <value>
+                    <fullName>Product Hardening Guidelines​</fullName>
+                    <default>false</default>
+                    <label>Product Hardening Guidelines​</label>
+                </value>
+                <value>
+                    <fullName>Product Phase Out</fullName>
+                    <default>false</default>
+                    <label>Product Phase Out</label>
+                </value>
+                <value>
+                    <fullName>Product Security Testing​</fullName>
+                    <default>false</default>
+                    <label>Product Security Testing​</label>
+                </value>
+                <value>
+                    <fullName>Product Support</fullName>
+                    <default>false</default>
+                    <label>Product Support</label>
+                </value>
+                <value>
+                    <fullName>Product Threat and Risk Assessment​</fullName>
+                    <default>false</default>
+                    <label>Product Threat and Risk Assessment​</label>
+                </value>
+                <value>
+                    <fullName>PSIRT</fullName>
+                    <default>false</default>
+                    <label>PSIRT</label>
+                </value>
+                <value>
+                    <fullName>Remedies</fullName>
+                    <default>false</default>
+                    <label>Remedies</label>
+                </value>
+                <value>
+                    <fullName>Remote Access User authentication to Nokia network</fullName>
+                    <default>false</default>
+                    <label>Remote Access User authentication to Nokia network</label>
+                </value>
+                <value>
+                    <fullName>Resilience Mechanisms​</fullName>
+                    <default>false</default>
+                    <label>Resilience Mechanisms​</label>
+                </value>
+                <value>
+                    <fullName>Risk Management Health and Safety​</fullName>
+                    <default>false</default>
+                    <label>Risk Management Health and Safety​</label>
+                </value>
+                <value>
+                    <fullName>Roadmap</fullName>
+                    <default>false</default>
+                    <label>Roadmap</label>
+                </value>
+                <value>
+                    <fullName>Secure Coding​</fullName>
+                    <default>false</default>
+                    <label>Secure Coding​</label>
+                </value>
+                <value>
+                    <fullName>Security Awareness and Training</fullName>
+                    <default>false</default>
+                    <label>Security Awareness and Training</label>
+                </value>
+                <value>
+                    <fullName>Security Awareness and Training for Suppliers​</fullName>
+                    <default>false</default>
+                    <label>Security Awareness and Training for Suppliers​</label>
+                </value>
+                <value>
+                    <fullName>Security Baseline Requirements​</fullName>
+                    <default>false</default>
+                    <label>Security Baseline Requirements​</label>
+                </value>
+                <value>
+                    <fullName>Security Requirement</fullName>
+                    <default>false</default>
+                    <label>Security Requirement</label>
+                </value>
+                <value>
+                    <fullName>Services</fullName>
+                    <default>false</default>
+                    <label>Services</label>
+                </value>
+                <value>
+                    <fullName>Session Management</fullName>
+                    <default>false</default>
+                    <label>Session Management</label>
+                </value>
+                <value>
+                    <fullName>Set off Right</fullName>
+                    <default>false</default>
+                    <label>Set off Right</label>
+                </value>
+                <value>
+                    <fullName>Software</fullName>
+                    <default>false</default>
+                    <label>Software</label>
+                </value>
+                <value>
+                    <fullName>Software Licensing Terms</fullName>
+                    <default>false</default>
+                    <label>Software Licensing Terms</label>
+                </value>
+                <value>
+                    <fullName>Software Subscription</fullName>
+                    <default>false</default>
+                    <label>Software Subscription</label>
+                </value>
+                <value>
+                    <fullName>Subcontractors</fullName>
+                    <default>false</default>
+                    <label>Subcontractors</label>
+                </value>
+                <value>
+                    <fullName>Supplier Access</fullName>
+                    <default>false</default>
+                    <label>Supplier Access</label>
+                </value>
+                <value>
+                    <fullName>Supplier Roles and Responsibilities​</fullName>
+                    <default>false</default>
+                    <label>Supplier Roles and Responsibilities​</label>
+                </value>
+                <value>
+                    <fullName>Suppliers Audit and Evaluation​</fullName>
+                    <default>false</default>
+                    <label>Suppliers Audit and Evaluation​</label>
+                </value>
+                <value>
+                    <fullName>Suppliers Response and Recovery​</fullName>
+                    <default>false</default>
+                    <label>Suppliers Response and Recovery​</label>
+                </value>
+                <value>
+                    <fullName>Supply Chain Risk Management​</fullName>
+                    <default>false</default>
+                    <label>Supply Chain Risk Management​</label>
+                </value>
+                <value>
+                    <fullName>Support &amp; Maintenance (Care)</fullName>
+                    <default>false</default>
+                    <label>Support &amp; Maintenance (Care)</label>
+                </value>
+                <value>
+                    <fullName>Swap</fullName>
+                    <default>false</default>
+                    <label>Swap</label>
+                </value>
+                <value>
+                    <fullName>Taxes</fullName>
+                    <default>false</default>
+                    <label>Taxes</label>
+                </value>
+                <value>
+                    <fullName>Telecom Standards</fullName>
+                    <default>false</default>
+                    <label>Telecom Standards</label>
+                </value>
+                <value>
+                    <fullName>User Management</fullName>
+                    <default>false</default>
+                    <label>User Management</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Asset Management</controllingFieldValue>
+                <valueName>Asset Classification</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Asset Management</controllingFieldValue>
+                <valueName>Asset Inventory</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Compliance and Assurance</controllingFieldValue>
+                <valueName>China Cybersecurity Law (CSL)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Compliance and Assurance</controllingFieldValue>
+                <valueName>Compliance against Nokia Security Policies</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Compliance and Assurance</controllingFieldValue>
+                <valueName>International Standards</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Compliance and Assurance</controllingFieldValue>
+                <valueName>National Security Agreement (NSA)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Compliance and Assurance</controllingFieldValue>
+                <valueName>Other Standards</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Compliance and Assurance</controllingFieldValue>
+                <valueName>Telecom Standards</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Customer Security Management</controllingFieldValue>
+                <valueName>Communicate Nokia Security Principles</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Customer Security Management</controllingFieldValue>
+                <valueName>Customer Compliance Verification</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Customer Security Management</controllingFieldValue>
+                <valueName>Customer Data Security</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Customer Security Management</controllingFieldValue>
+                <valueName>Customer Security Requirement</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Health and Safety Governance</controllingFieldValue>
+                <valueName>Health and Safety Policy​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Health and Safety Governance</controllingFieldValue>
+                <valueName>Health and Safety Roles​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Health and Safety Governance</controllingFieldValue>
+                <valueName>Legal and Regulatory HS Compliance​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Health and Safety Governance</controllingFieldValue>
+                <valueName>Risk Management Health and Safety​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Identity and Access Management</controllingFieldValue>
+                <controllingFieldValue>IT Cybersecurity Controls</controllingFieldValue>
+                <valueName>Audit and Log Management​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Identity and Access Management</controllingFieldValue>
+                <valueName>Certificate and Key Management​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Identity and Access Management</controllingFieldValue>
+                <valueName>Credential Management​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Identity and Access Management</controllingFieldValue>
+                <valueName>Priveleged User Access Management</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Identity and Access Management</controllingFieldValue>
+                <valueName>Remote Access User authentication to Nokia network</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Identity and Access Management</controllingFieldValue>
+                <controllingFieldValue>Customer Remote Access</controllingFieldValue>
+                <valueName>Session Management</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incident Response and Handling</controllingFieldValue>
+                <valueName>Data Breach Management​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incident Response and Handling</controllingFieldValue>
+                <valueName>Forensics​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incident Response and Handling</controllingFieldValue>
+                <valueName>Incident Reporting</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incident Response and Handling</controllingFieldValue>
+                <valueName>Incident Response and Handling​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incident Response and Handling</controllingFieldValue>
+                <valueName>IS Event Management​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incident Response and Handling</controllingFieldValue>
+                <valueName>IS Incident and Response Management​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Information Security</controllingFieldValue>
+                <valueName>Business Continuity Management</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Information Security</controllingFieldValue>
+                <valueName>Change Management</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Information Security</controllingFieldValue>
+                <valueName>Enterprise Risk Management</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Information Security</controllingFieldValue>
+                <valueName>Information Security Policy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Information Security</controllingFieldValue>
+                <valueName>People/HR Security</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Information Security</controllingFieldValue>
+                <valueName>Physical Security</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Information Security</controllingFieldValue>
+                <valueName>Security Awareness and Training</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IT Cybersecurity Controls</controllingFieldValue>
+                <valueName>Data Loss Prevention</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IT Cybersecurity Controls</controllingFieldValue>
+                <controllingFieldValue>Customer Remote Access</controllingFieldValue>
+                <valueName>Endpoint Security​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IT Cybersecurity Controls</controllingFieldValue>
+                <valueName>IT Cybersecurity Testing​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IT Cybersecurity Controls</controllingFieldValue>
+                <valueName>IT Minimum Baseline</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IT Cybersecurity Controls</controllingFieldValue>
+                <valueName>IT Patch Management</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IT Cybersecurity Controls</controllingFieldValue>
+                <valueName>Network Documentation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IT Cybersecurity Controls</controllingFieldValue>
+                <valueName>Network DOS Protection</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IT Cybersecurity Controls</controllingFieldValue>
+                <valueName>Network Filtering</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IT Cybersecurity Controls</controllingFieldValue>
+                <valueName>Network Isolation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IT Cybersecurity Controls</controllingFieldValue>
+                <valueName>Network Segregation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IT Cybersecurity Controls</controllingFieldValue>
+                <valueName>Resilience Mechanisms​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Privacy</controllingFieldValue>
+                <valueName>GDPR</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Privacy</controllingFieldValue>
+                <valueName>Privacy Engineering and Assurance​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Privacy</controllingFieldValue>
+                <valueName>Privacy Management ​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Privacy</controllingFieldValue>
+                <valueName>Privacy Requirements Policy​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Privacy</controllingFieldValue>
+                <valueName>Privacy Review​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Privacy</controllingFieldValue>
+                <valueName>Privacy Roles and Responsibilities​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Privacy</controllingFieldValue>
+                <valueName>Privacy Training and Awareness​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Security</controllingFieldValue>
+                <valueName>Product Hardening Guidelines​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Security</controllingFieldValue>
+                <valueName>Product Security Testing​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Security</controllingFieldValue>
+                <valueName>Product Threat and Risk Assessment​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Security</controllingFieldValue>
+                <valueName>PSIRT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Security</controllingFieldValue>
+                <valueName>Secure Coding​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Security</controllingFieldValue>
+                <valueName>Security Baseline Requirements​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Supply Chain Security</controllingFieldValue>
+                <valueName>Security Awareness and Training for Suppliers​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Supply Chain Security</controllingFieldValue>
+                <valueName>Supplier Access</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Supply Chain Security</controllingFieldValue>
+                <valueName>Supplier Roles and Responsibilities​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Supply Chain Security</controllingFieldValue>
+                <valueName>Suppliers Audit and Evaluation​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Supply Chain Security</controllingFieldValue>
+                <valueName>Suppliers Response and Recovery​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Supply Chain Security</controllingFieldValue>
+                <valueName>Supply Chain Risk Management​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Acceptance</controllingFieldValue>
+                <valueName>General Acceptance Terms</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Acceptance</controllingFieldValue>
+                <controllingFieldValue>Warranty</controllingFieldValue>
+                <valueName>Hardware</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Acceptance</controllingFieldValue>
+                <controllingFieldValue>Warranty</controllingFieldValue>
+                <valueName>Services</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Acceptance</controllingFieldValue>
+                <controllingFieldValue>Warranty</controllingFieldValue>
+                <valueName>Software</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Commitment</controllingFieldValue>
+                <valueName>Best Customer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Commitment</controllingFieldValue>
+                <valueName>Customer Commitments (Volume etc)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Commitment</controllingFieldValue>
+                <valueName>Exclusivity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Commitment</controllingFieldValue>
+                <valueName>Product Phase Out</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Commitment</controllingFieldValue>
+                <valueName>Product Support</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Commitment</controllingFieldValue>
+                <valueName>Roadmap</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Delivery</controllingFieldValue>
+                <valueName>Forecasting</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Delivery</controllingFieldValue>
+                <valueName>Incoterms</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Financials</controllingFieldValue>
+                <valueName>Currency Conversion</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Financials</controllingFieldValue>
+                <valueName>Inflation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Financials</controllingFieldValue>
+                <valueName>Insurance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Financials</controllingFieldValue>
+                <valueName>Invoicing Terms</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Financials</controllingFieldValue>
+                <valueName>Late Payment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Financials</controllingFieldValue>
+                <valueName>Performance Bond/ Corporate Guarantee</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Financials</controllingFieldValue>
+                <valueName>Set off Right</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Financials</controllingFieldValue>
+                <valueName>Taxes</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Arbitration</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Audit Rights</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Business Continuity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Compliance with Laws</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Confidentiality</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Contract Renewal</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Counterparts</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Dispute Resolution</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Entire Agreement</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>E-Signature</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Force Majeure</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Governing Law</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Health &amp; Safety</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Indemnification</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Manage Services</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Governance</controllingFieldValue>
+                <valueName>Security Requirement</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Default</controllingFieldValue>
+                <controllingFieldValue>Limitation of Liability</controllingFieldValue>
+                <valueName>Default</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Scope</controllingFieldValue>
+                <valueName>Change Control Procedure</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Scope</controllingFieldValue>
+                <valueName>Subcontractors</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Scope</controllingFieldValue>
+                <valueName>Swap</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Limitation of Liability</controllingFieldValue>
+                <valueName>Consequential &amp; Indirect Damages</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Limitation of Liability</controllingFieldValue>
+                <valueName>Direct Damages</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SLAs</controllingFieldValue>
+                <valueName>Support &amp; Maintenance (Care)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <valueName>Compability</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <valueName>Software Licensing Terms</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <valueName>Software Subscription</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Warranty</controllingFieldValue>
+                <valueName>General Warranty Terms</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Warranty</controllingFieldValue>
+                <valueName>Gerneral Warranty Exclusions</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Warranty</controllingFieldValue>
+                <valueName>Remedies</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Customer Remote Access</controllingFieldValue>
+                <valueName>Audit and Reporting</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Customer Remote Access</controllingFieldValue>
+                <valueName>Data Security</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Customer Remote Access</controllingFieldValue>
+                <valueName>Network Security​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Customer Remote Access</controllingFieldValue>
+                <valueName>User Management</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Apttus__Template__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Template</label>
+        <referenceTo>Apttus__APTS_Template__c</referenceTo>
+        <relationshipName>R00N50000001os4wEAA</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__Text__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The clause text</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Text</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Apttus__User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>R00N50000001os53EAA</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Apttus__VersionId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Indicates Associated Document Version ID</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates Associated Document Version ID</inlineHelpText>
+        <label>Document Version</label>
+        <referenceTo>Apttus__DocumentVersion__c</referenceTo>
+        <relationshipLabel>Agreement Clauses</relationshipLabel>
+        <relationshipName>AgreementClauses</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CLM_Compliance__c</fullName>
+        <externalId>false</externalId>
+        <label>Compliance</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Partial</fullName>
+                    <default>false</default>
+                    <label>Partial</label>
+                </value>
+                <value>
+                    <fullName>Full</fullName>
+                    <default>false</default>
+                    <label>Full</label>
+                </value>
+                <value>
+                    <fullName>Not compliant</fullName>
+                    <default>false</default>
+                    <label>Not compliant</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CLM_Customer_Request_RFQ__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Summarize the Customer Request for this Clause</inlineHelpText>
+        <label>Customer Request (RFQ)</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CLM_Flag_for_review__c</fullName>
+        <externalId>false</externalId>
+        <label>Flag for Review</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Security</fullName>
+                    <default>false</default>
+                    <label>Security</label>
+                </value>
+                <value>
+                    <fullName>Finance</fullName>
+                    <default>false</default>
+                    <label>Finance</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CLM_Help__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Help</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CLM_Inserted_Lookup__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Inserted Lookup</label>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipLabel>Agreement Clauses</relationshipLabel>
+        <relationshipName>InsertedClauses</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CLM_L2D_Trigger_Answer__c</fullName>
+        <description>CM seeks Approval at this level at G4</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>G4 Approval Ask (Answer)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CLM_L2D_Trigger__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(CLM_Question__r.CLM_L2DTrigger__c)</formula>
+        <label>L2D Trigger?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CLM_Level__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Holds the L2D Approval Level (A+ to E) or R if the Clause corresponds to a Non-L2D Trigger</inlineHelpText>
+        <label>Level</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CLM_LoA_Level__c</fullName>
+        <externalId>false</externalId>
+        <label>LoA Level</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A+</fullName>
+                    <default>false</default>
+                    <label>A+</label>
+                </value>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+                <value>
+                    <fullName>D</fullName>
+                    <default>false</default>
+                    <label>D</label>
+                </value>
+                <value>
+                    <fullName>E</fullName>
+                    <default>false</default>
+                    <label>E</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CLM_Mitigation_actions__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Mitigation actions</label>
+        <length>1000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CLM_Modified_Clauses_Lookup__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Modified Clauses Lookup</label>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipLabel>Modified Clauses</relationshipLabel>
+        <relationshipName>Modified_Clauses</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CLM_Nokia_Default_Position__c</fullName>
+        <externalId>false</externalId>
+        <formula>CLM_Question__r.CLM_Nokia_Default_Position__c</formula>
+        <label>Nokia Default Position</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CLM_Nokia_NET_Response_Walk_away__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Nokia NET Response (Walk-away)</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CLM_Position_to_Avoid__c</fullName>
+        <externalId>false</externalId>
+        <formula>CLM_Question__r.CLM_Position_to_Avoid__c</formula>
+        <label>Position to Avoid</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CLM_Pre_Negotiated_Clause_Text__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Original Clause Text</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CLM_Question__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Select an L2D Trigger or Choose Non-L2D Issue if there isn&apos;t a corresponding L2D Trigger for the Clause in the contract</inlineHelpText>
+        <label>Question (Trigger Name)</label>
+        <referenceTo>CLM_L2D_Trigger__c</referenceTo>
+        <relationshipLabel>Agreement Clauses</relationshipLabel>
+        <relationshipName>Agreement_Clauses</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CLM_Risks_Description__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Risks Description</label>
+        <length>1000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CLM_Risks_Mitigated__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>If at final contract signature (G6) risks are mitigated then select Yes</inlineHelpText>
+        <label>Risks Mitigated?</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Muted</fullName>
+                    <default>false</default>
+                    <label>Muted</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CLM_Scope__c</fullName>
+        <externalId>false</externalId>
+        <label>Scope</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Product</fullName>
+                    <default>false</default>
+                    <label>Product</label>
+                </value>
+                <value>
+                    <fullName>Service</fullName>
+                    <default>false</default>
+                    <label>Service</label>
+                </value>
+                <value>
+                    <fullName>Infosec</fullName>
+                    <default>false</default>
+                    <label>Infosec</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CLM_Select_an_Answer__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (ISPICKVAL(CLM_Question__r.CLM_L2DTrigger__c, &quot;No&quot;), HYPERLINK(&quot;/apex/CLM_L2DTriggerPage?L2DType=NonL2d&amp;id=&quot;&amp;Id&amp;&quot;&amp;TrgId=&quot;&amp;CLM_Question__c&amp;&quot;&amp;AgrmntId=&quot;&amp;Apttus__Agreement__c, IMAGE(&quot;/resource/CLM_L2D_Answers&quot;, &quot;L2D Answers&quot;), &quot;_self&quot;), IF (ISPICKVAL(CLM_Question__r.CLM_L2DTrigger__c, &quot;Yes&quot;), HYPERLINK(&quot;/apex/CLM_L2DTriggerPage?L2DType=L2d&amp;id=&quot;&amp;Id&amp;&quot;&amp;TrgId=&quot;&amp;CLM_Question__c&amp;&quot;&amp;AgrmntId=&quot;&amp;Apttus__Agreement__c, IMAGE(&quot;/resource/CLM_L2D_Answers&quot;, &quot;L2D Answers&quot;), &quot;_self&quot;) ,null))</formula>
+        <inlineHelpText>View a list of Answers associated with the L2D Trigger or Enter an Answer if this is a Non-L2D Trigger</inlineHelpText>
+        <label>Possible Answers</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CLM_Trigger_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Trigger Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>L2D</fullName>
+                    <default>false</default>
+                    <label>L2D</label>
+                </value>
+                <value>
+                    <fullName>Non-L2D</fullName>
+                    <default>false</default>
+                    <label>Non-L2D</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Position_at_G5__c</fullName>
+        <description>The final offer to customer at G5 (Ready for Signatures)</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Position at G5</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Situation_vs_L2D__c</fullName>
+        <externalId>false</externalId>
+        <label>Situation vs L2D</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Same</fullName>
+                    <default>false</default>
+                    <label>Same</label>
+                </value>
+                <value>
+                    <fullName>Improved</fullName>
+                    <default>false</default>
+                    <label>Improved</label>
+                </value>
+                <value>
+                    <fullName>Not approved</fullName>
+                    <default>false</default>
+                    <label>Not approved</label>
+                </value>
+                <value>
+                    <fullName>Mitigated/Muted</fullName>
+                    <default>false</default>
+                    <label>Mitigated/Muted</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Agreement Clause</label>
+    <nameField>
+        <displayFormat>{0000}</displayFormat>
+        <label>Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Agreement Clauses</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Apttus__AddClauses</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>sControl</linkType>
+        <masterLabel>Add (Deprecated)</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <scontrol>Apttus__aptsClauseAdd</scontrol>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus__CheckForClauseApproval</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>sControl</linkType>
+        <masterLabel>Check For Clause Approval (Deprecated)</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <scontrol>Apttus__aptsClauseApprovalCheck</scontrol>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus__DeleteClauses</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>sControl</linkType>
+        <masterLabel>Delete (Deprecated)</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <scontrol>Apttus__aptsClauseDelete</scontrol>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus__EditClauses</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>sControl</linkType>
+        <masterLabel>Edit (Deprecated)</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <scontrol>Apttus__aptsClauseEdit</scontrol>
+    </webLinks>
+    <webLinks>
+        <fullName>Apttus__SubmitForClauseApproval</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Submit For Clause Approval</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/Apttus__AgreementSubmitClause?id={!Apttus__APTS_Agreement__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>CLM_Report</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Report</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/lightning/r/Report/00O3h0000042synEAA/view?fv0={!Apttus__APTS_Agreement__c.Id}</url>
+    </webLinks>
+</CustomObject>

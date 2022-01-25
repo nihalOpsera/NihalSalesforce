@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This custom metadata contains default values for SSP &amp; SRS fields on lightning component.</description>
+    <fields>
+        <fullName>AccountLevel_Discount_Applicable__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>AccountLevel Discount Applicable</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Multi_Year_Discount_Applicable__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Multi Year Discount Applicable</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Portfolio__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Portfolio</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SRS_Default_Value__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>SRS Default Value</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SRS_Percentage__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>SRS Percentage</label>
+        <precision>17</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>SRS_Visible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>SRS Visible</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SSP_Default_Value__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>SSP Default Value</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SSP_Visible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>SSP Visible</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tier_Discount_Applicable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Tier Discount Applicable</label>
+        <type>Checkbox</type>
+    </fields>
+    <label>Nokia CPQ SSP SRS Default Value</label>
+    <listViews>
+        <fullName>Nokia_CPQ</fullName>
+        <columns>MasterLabel</columns>
+        <columns>Portfolio__c</columns>
+        <columns>SSP_Default_Value__c</columns>
+        <columns>SRS_Default_Value__c</columns>
+        <columns>SSP_Visible__c</columns>
+        <columns>SRS_Visible__c</columns>
+        <columns>SRS_Percentage__c</columns>
+        <columns>Tier_Discount_Applicable__c</columns>
+        <columns>AccountLevel_Discount_Applicable__c</columns>
+        <columns>Multi_Year_Discount_Applicable__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Nokia CPQ</label>
+        <language>en_US</language>
+    </listViews>
+    <pluralLabel>Nokia CPQ SSP SRS Default Values</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

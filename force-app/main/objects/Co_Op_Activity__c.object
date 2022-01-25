@@ -1,0 +1,2642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>Co_op_Activity_Detail_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Co_op_Activity_Detail_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>Co_op_Activity_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Co_op_Activity_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Activity_Type__c</fields>
+        <fields>Reimbursement_Amount_Requested__c</fields>
+        <fields>Activity_Approved_Amount__c</fields>
+        <fields>Start_Date__c</fields>
+        <fields>End_Date__c</fields>
+        <label>Co-op Activity Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Account_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>Partner_Account__r.AccountNumber</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account_Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Activity_Approved_Amount__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Reimbursement Amount Approved</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Approved_date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Activity Approved date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Awaiting_reimbursement_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Activity Awaiting reimbursement Amount</label>
+        <summarizedField>Claim__c.Amount_Pending_for_Reimbursement__c</summarizedField>
+        <summaryForeignKey>Claim__c.Activity_Number__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Expire_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Activity Expire Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Number__c</fullName>
+        <displayFormat>A{000000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Activity Number</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Open_Approved_Amount__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(
+OR(ISPICKVAL(Activity_Status__c, &apos;Claimed&apos;),
+ISPICKVAL(Activity_Status__c, &apos;Claimable&apos;),
+ISPICKVAL(Activity_Status__c, &apos;Approved&apos;)
+),
+(Claims_Paid_Amount__c + Activity_Awaiting_reimbursement_Amount__c),
+0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Activity Open Approved Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Path_Status__c</fullName>
+        <defaultValue>&apos;new&apos;</defaultValue>
+        <externalId>false</externalId>
+        <label>Activity Path Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Approval Level 1</fullName>
+                    <default>false</default>
+                    <label>Approval Level 1</label>
+                </value>
+                <value>
+                    <fullName>Approval Level 2</fullName>
+                    <default>false</default>
+                    <label>Approval Level 2</label>
+                </value>
+                <value>
+                    <fullName>Approval Level 3</fullName>
+                    <default>false</default>
+                    <label>Approval Level 3</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Claimable</fullName>
+                    <default>false</default>
+                    <label>Claimable</label>
+                </value>
+                <value>
+                    <fullName>Claimed</fullName>
+                    <default>false</default>
+                    <label>Claimed</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+                <value>
+                    <fullName>Expired/Rejected/Cancelled</fullName>
+                    <default>false</default>
+                    <label>Expired/Rejected/Cancelled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Activity_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Activity Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Pending Approval</fullName>
+                    <default>false</default>
+                    <label>Pending Approval</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>On Hold</fullName>
+                    <default>false</default>
+                    <label>On Hold</label>
+                </value>
+                <value>
+                    <fullName>Claimable</fullName>
+                    <default>false</default>
+                    <label>Claimable</label>
+                </value>
+                <value>
+                    <fullName>Claimed</fullName>
+                    <default>false</default>
+                    <label>Claimed</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+                <value>
+                    <fullName>Expired</fullName>
+                    <default>false</default>
+                    <label>Expired</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Activity_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Activity Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Advertising</fullName>
+                    <default>false</default>
+                    <label>Advertising</label>
+                </value>
+                <value>
+                    <fullName>Collateral (Co-branded Brochures, Data Sheets, etc.)</fullName>
+                    <default>false</default>
+                    <label>Collateral (Co-branded Brochures, Data Sheets, etc.)</label>
+                </value>
+                <value>
+                    <fullName>Demonstration Equipment</fullName>
+                    <default>false</default>
+                    <label>Demonstration Equipment</label>
+                </value>
+                <value>
+                    <fullName>Direct Mail / E-mail Campaign / Newsletter</fullName>
+                    <default>false</default>
+                    <label>Direct Mail / E-mail Campaign / Newsletter</label>
+                </value>
+                <value>
+                    <fullName>Funded Head (Consultant / System Architect)</fullName>
+                    <default>false</default>
+                    <label>Funded Head (Consultant / System Architect)</label>
+                </value>
+                <value>
+                    <fullName>Funded Head (Sales Champion)</fullName>
+                    <default>false</default>
+                    <label>Funded Head (Sales Champion)</label>
+                </value>
+                <value>
+                    <fullName>Participation in IT, Applications and/or Telecoms Event</fullName>
+                    <default>false</default>
+                    <label>Participation in IT, Applications and/or Telecoms Event</label>
+                </value>
+                <value>
+                    <fullName>Participation in Nokia Event (i.e. Nokia Partner Conference)</fullName>
+                    <default>false</default>
+                    <label>Participation in Nokia Event (i.e. Nokia Partner Conference)</label>
+                </value>
+                <value>
+                    <fullName>Promotional Items (Co- branded)</fullName>
+                    <default>false</default>
+                    <label>Promotional Items (Co- branded)</label>
+                </value>
+                <value>
+                    <fullName>Public Relations / Press Release</fullName>
+                    <default>false</default>
+                    <label>Public Relations / Press Release</label>
+                </value>
+                <value>
+                    <fullName>Sales Incentive Program (Partner Run)</fullName>
+                    <default>false</default>
+                    <label>Sales Incentive Program (Partner Run)</label>
+                </value>
+                <value>
+                    <fullName>Seminars &amp; Road Shows (Partner developed and/or sponsored)</fullName>
+                    <default>false</default>
+                    <label>Seminars &amp; Road Shows (Partner developed and/or sponsored)</label>
+                </value>
+                <value>
+                    <fullName>Telemarketing</fullName>
+                    <default>false</default>
+                    <label>Telemarketing</label>
+                </value>
+                <value>
+                    <fullName>Trade Shows</fullName>
+                    <default>false</default>
+                    <label>Trade Shows</label>
+                </value>
+                <value>
+                    <fullName>Training(sales, pre-sales and post-sales)</fullName>
+                    <default>false</default>
+                    <label>Training(sales, pre-sales and post-sales)</label>
+                </value>
+                <value>
+                    <fullName>Web Marketing and Development (Website / Microsite)</fullName>
+                    <default>false</default>
+                    <label>Web Marketing and Development (Website / Microsite)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Approval_Due_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Approval Due Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Approval_Level__c</fullName>
+        <externalId>false</externalId>
+        <label>Approval Level</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not in Approval</fullName>
+                    <default>true</default>
+                    <label>Not in Approval</label>
+                </value>
+                <value>
+                    <fullName>Level 1</fullName>
+                    <default>false</default>
+                    <label>Level 1</label>
+                </value>
+                <value>
+                    <fullName>Level 2</fullName>
+                    <default>false</default>
+                    <label>Level 2</label>
+                </value>
+                <value>
+                    <fullName>Level 3</fullName>
+                    <default>false</default>
+                    <label>Level 3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Approver_Level_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Approver Level 1</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Co_Op_Activity</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Approver_Level_2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Approver Level 2</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Co_Op_Activity1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Approver_Level_3__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Approver Level 3</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Co_Op_Activity2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Auto_Reject_By_System__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Auto Reject By System</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Claim_Amount_Pending_Audit__c</fullName>
+        <externalId>false</externalId>
+        <label>Claim Amount Pending Audit</label>
+        <summarizedField>Claim__c.Activity_Claim_Amount__c</summarizedField>
+        <summaryFilterItems>
+            <field>Claim__c.Claim_Status__c</field>
+            <operation>equals</operation>
+            <value>Claimable, Submitted, Incomplete</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Claim__c.Activity_Number__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Claim_Due_By__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF((INCLUDES(Exception__c, &apos;Activity Start Date occurred in the past&apos;)), (Activity_Approved_date__c + 30), (End_Date__c + 60))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Claim Due By</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Claim_count_for_cancellation__c</fullName>
+        <externalId>false</externalId>
+        <label>Claim count for cancellation</label>
+        <summaryFilterItems>
+            <field>Claim__c.Claim_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Claimable, Created</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Claim__c.Activity_Number__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Claims_Paid_Amount__c</fullName>
+        <description>Sum of claims paid with credit memo numbers</description>
+        <externalId>false</externalId>
+        <label>Claims Paid Amount</label>
+        <summarizedField>Claim__c.Reimbursed_Amount_Claim_Paid_Amount__c</summarizedField>
+        <summaryForeignKey>Claim__c.Activity_Number__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Claims_Passed_Audit_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Claims Passed Audit Amount</label>
+        <summarizedField>Claim__c.Claim_Amount_Passed_Audit__c</summarizedField>
+        <summaryForeignKey>Claim__c.Activity_Number__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Claims_Submitted_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Claims Submitted Amount</label>
+        <summarizedField>Claim__c.Activity_Claim_Amount__c</summarizedField>
+        <summaryFilterItems>
+            <field>Claim__c.Claim_Status__c</field>
+            <operation>equals</operation>
+            <value>Submitted, Incomplete, Escalated</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Claim__c.Activity_Number__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <description>Internal Comments</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cost_of_Activity__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Cost of Activity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Partner_Account__r.Country__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Country</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <description>Description of Events</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>End_Date__c</fullName>
+        <description>End Date of the Activity.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Exception_Details__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Please add any other details that would help the Approver(s) approve the request.</inlineHelpText>
+        <label>Exception Details</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Exception__c</fullName>
+        <externalId>false</externalId>
+        <label>Exception</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Travel: transport fares (air, train or taxi), car rental and parking</fullName>
+                    <default>false</default>
+                    <label>Travel: transport fares (air, train or taxi), car rental and parking</label>
+                </value>
+                <value>
+                    <fullName>Living: hotel expenses, food and beverage costs</fullName>
+                    <default>false</default>
+                    <label>Living: hotel expenses, food and beverage costs</label>
+                </value>
+                <value>
+                    <fullName>Activity Start Date occurred in the past</fullName>
+                    <default>false</default>
+                    <label>Activity Start Date occurred in the past</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Fund_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Fund Name</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>Only Main Funds can be linked to Activities.</errorMessage>
+            <filterItems>
+                <field>Fund__c.PRM_Main_Fund__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Fund__c</referenceTo>
+        <relationshipLabel>Co-op Activities</relationshipLabel>
+        <relationshipName>Co_Op_Activity</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>HFLOF_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>HFLOF Amount</label>
+        <summarizedField>Claim__c.HFLOF_Amount__c</summarizedField>
+        <summaryForeignKey>Claim__c.Activity_Number__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>If_Other_Exception_Please_Specify__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>If Other Exception, Please Specify</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Last_Modified_by_Email__c</fullName>
+        <externalId>false</externalId>
+        <formula>LastModifiedBy.Email</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Last Modified by Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Partner_Account__r.Market__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Market</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OnHold_Reimbursement_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>OnHold Reimbursement Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>On_Hold_Approver_del__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>On Hold Approver</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Co_Op_Activity_approver_del</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>On_Hold_Approver_email__c</fullName>
+        <externalId>false</externalId>
+        <formula>On_Hold_Approver_del__r.Email</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>On Hold Approver email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>On_Hold_Reason__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>On Hold Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>On_Hold__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>On Hold</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PRM_Cancellation_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Cancellation Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Budget</fullName>
+                    <default>false</default>
+                    <label>Budget</label>
+                </value>
+                <value>
+                    <fullName>Activity Postponed</fullName>
+                    <default>false</default>
+                    <label>Activity Postponed</label>
+                </value>
+                <value>
+                    <fullName>Activity Cancelled</fullName>
+                    <default>false</default>
+                    <label>Activity Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Decided not to participate at this time</fullName>
+                    <default>false</default>
+                    <label>Decided not to participate at this time</label>
+                </value>
+                <value>
+                    <fullName>Fund Reallocation</fullName>
+                    <default>false</default>
+                    <label>Fund Reallocation</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PRM_Other_Cancellation_Reason__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Other Cancellation Reason</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Partner_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Partner Account</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Customer</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Co-op Activities</relationshipLabel>
+        <relationshipName>Co_Op_Activity</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Previous_level_approver_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Previous level approver 1</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Co_Op_Activity3</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Previous_level_approver_2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Previous level approver 2</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Co_Op_Activity4</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Proof_of_Performance__c</fullName>
+        <externalId>false</externalId>
+        <label>Proof of Performance</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Itemized production and development invoices</fullName>
+                    <default>false</default>
+                    <label>Itemized production and development invoices</label>
+                </value>
+                <value>
+                    <fullName>URL of developed pages</fullName>
+                    <default>false</default>
+                    <label>URL of developed pages</label>
+                </value>
+                <value>
+                    <fullName>Copy (text) of web pages developed</fullName>
+                    <default>false</default>
+                    <label>Copy (text) of web pages developed</label>
+                </value>
+                <value>
+                    <fullName>Itemized invoice(s) for training course fees</fullName>
+                    <default>false</default>
+                    <label>Itemized invoice(s) for training course fees</label>
+                </value>
+                <value>
+                    <fullName>Copy of the Certificate of Completion OR</fullName>
+                    <default>false</default>
+                    <label>Copy of the Certificate of Completion OR</label>
+                </value>
+                <value>
+                    <fullName>Attendee list provided and signed by Nokia instructor</fullName>
+                    <default>false</default>
+                    <label>Attendee list provided and signed by Nokia instructor</label>
+                </value>
+                <value>
+                    <fullName>Itemized invoices showing total costs</fullName>
+                    <default>false</default>
+                    <label>Itemized invoices showing total costs</label>
+                </value>
+                <value>
+                    <fullName>Trade Show details incl. date(s)</fullName>
+                    <default>false</default>
+                    <label>Trade Show details incl. date(s)</label>
+                </value>
+                <value>
+                    <fullName>Trade Show invitation sent by Partner (if applicable)</fullName>
+                    <default>false</default>
+                    <label>Trade Show invitation sent by Partner (if applicable)</label>
+                </value>
+                <value>
+                    <fullName>Photo of booth with Nokia logo (if applicable)</fullName>
+                    <default>false</default>
+                    <label>Photo of booth with Nokia logo (if applicable)</label>
+                </value>
+                <value>
+                    <fullName>Number of booth visitors (if captured)</fullName>
+                    <default>false</default>
+                    <label>Number of booth visitors (if captured)</label>
+                </value>
+                <value>
+                    <fullName>Copy of presentation/agenda with Nokia logo (if applicable)</fullName>
+                    <default>false</default>
+                    <label>Copy of presentation/agenda with Nokia logo (if applicable)</label>
+                </value>
+                <value>
+                    <fullName>If approved as exception, itemized travel and lodging invoices</fullName>
+                    <default>false</default>
+                    <label>If approved as exception, itemized travel and lodging invoices</label>
+                </value>
+                <value>
+                    <fullName>Itemized invoices from telemarketing agency incl. detailed costs</fullName>
+                    <default>false</default>
+                    <label>Itemized invoices from telemarketing agency incl. detailed costs</label>
+                </value>
+                <value>
+                    <fullName>Call list of calls placed</fullName>
+                    <default>false</default>
+                    <label>Call list of calls placed</label>
+                </value>
+                <value>
+                    <fullName>Copy of call script</fullName>
+                    <default>false</default>
+                    <label>Copy of call script</label>
+                </value>
+                <value>
+                    <fullName>Itemized invoices showing total costs of activity</fullName>
+                    <default>false</default>
+                    <label>Itemized invoices showing total costs of activity</label>
+                </value>
+                <value>
+                    <fullName>Final copy of invitation and detailed agenda (if applicable)</fullName>
+                    <default>false</default>
+                    <label>Final copy of invitation and detailed agenda (if applicable)</label>
+                </value>
+                <value>
+                    <fullName>Copy of presentations featuring Nokia</fullName>
+                    <default>false</default>
+                    <label>Copy of presentations featuring Nokia</label>
+                </value>
+                <value>
+                    <fullName>List of attendees (if available)</fullName>
+                    <default>false</default>
+                    <label>List of attendees (if available)</label>
+                </value>
+                <value>
+                    <fullName>Itemized 3rd party invoices</fullName>
+                    <default>false</default>
+                    <label>Itemized 3rd party invoices</label>
+                </value>
+                <value>
+                    <fullName>Itemized invoices for awards or names of award recipients</fullName>
+                    <default>false</default>
+                    <label>Itemized invoices for awards or names of award recipients</label>
+                </value>
+                <value>
+                    <fullName>Awards won for SPIFFs</fullName>
+                    <default>false</default>
+                    <label>Awards won for SPIFFs</label>
+                </value>
+                <value>
+                    <fullName>Copy of approved incentive rules</fullName>
+                    <default>false</default>
+                    <label>Copy of approved incentive rules</label>
+                </value>
+                <value>
+                    <fullName>Point-of-Sale (POS) Report for Nokia products</fullName>
+                    <default>false</default>
+                    <label>Point-of-Sale (POS) Report for Nokia products</label>
+                </value>
+                <value>
+                    <fullName>Itemized production and publisher invoices</fullName>
+                    <default>false</default>
+                    <label>Itemized production and publisher invoices</label>
+                </value>
+                <value>
+                    <fullName>Distribution list and/or Run Report</fullName>
+                    <default>false</default>
+                    <label>Distribution list and/or Run Report</label>
+                </value>
+                <value>
+                    <fullName>Sample of PR/press release incl. publication date &amp; Nokia logo</fullName>
+                    <default>false</default>
+                    <label>Sample of PR/press release incl. publication date &amp; Nokia logo</label>
+                </value>
+                <value>
+                    <fullName>Itemized production invoices</fullName>
+                    <default>false</default>
+                    <label>Itemized production invoices</label>
+                </value>
+                <value>
+                    <fullName>Digital image of promotional merchandise with Nokia logo</fullName>
+                    <default>false</default>
+                    <label>Digital image of promotional merchandise with Nokia logo</label>
+                </value>
+                <value>
+                    <fullName>Itemized invoices showing total cost of event</fullName>
+                    <default>false</default>
+                    <label>Itemized invoices showing total cost of event</label>
+                </value>
+                <value>
+                    <fullName>Copy of presentation/agenda/picture of booth space incl. Nokia logo</fullName>
+                    <default>false</default>
+                    <label>Copy of presentation/agenda/picture of booth space incl. Nokia logo</label>
+                </value>
+                <value>
+                    <fullName>Pay slip of net amount paid to Sales Champion</fullName>
+                    <default>false</default>
+                    <label>Pay slip of net amount paid to Sales Champion</label>
+                </value>
+                <value>
+                    <fullName>Copy of approved Nokia Sales Champion contract</fullName>
+                    <default>false</default>
+                    <label>Copy of approved Nokia Sales Champion contract</label>
+                </value>
+                <value>
+                    <fullName>Completed monthly sales forecast and results</fullName>
+                    <default>false</default>
+                    <label>Completed monthly sales forecast and results</label>
+                </value>
+                <value>
+                    <fullName>Pay slip of net amount paid to Consultant/Systems Architect</fullName>
+                    <default>false</default>
+                    <label>Pay slip of net amount paid to Consultant/Systems Architect</label>
+                </value>
+                <value>
+                    <fullName>Signed copy of Consultant/Systems Architect’s contract</fullName>
+                    <default>false</default>
+                    <label>Signed copy of Consultant/Systems Architect’s contract</label>
+                </value>
+                <value>
+                    <fullName>Itemized invoices of total costs</fullName>
+                    <default>false</default>
+                    <label>Itemized invoices of total costs</label>
+                </value>
+                <value>
+                    <fullName>Digital sample of direct mail/e-mail/social media campaign/newsletters</fullName>
+                    <default>false</default>
+                    <label>Digital sample of direct mail/e-mail/social media campaign/newsletters</label>
+                </value>
+                <value>
+                    <fullName>Itemized invoices for Nokia equipment</fullName>
+                    <default>false</default>
+                    <label>Itemized invoices for Nokia equipment</label>
+                </value>
+                <value>
+                    <fullName>Digital sample of collateral produced incl. Nokia logo or content</fullName>
+                    <default>false</default>
+                    <label>Digital sample of collateral produced incl. Nokia logo or content</label>
+                </value>
+                <value>
+                    <fullName>Sample of magazine/newspaper incl. ad and date</fullName>
+                    <default>false</default>
+                    <label>Sample of magazine/newspaper incl. ad and date</label>
+                </value>
+                <value>
+                    <fullName>Copy of detailed agenda</fullName>
+                    <default>false</default>
+                    <label>Copy of detailed agenda</label>
+                </value>
+                <value>
+                    <fullName>List of Attendees (if applicable)</fullName>
+                    <default>false</default>
+                    <label>List of Attendees (if applicable)</label>
+                </value>
+                <value>
+                    <fullName>Nokia equipment invoices</fullName>
+                    <default>false</default>
+                    <label>Nokia equipment invoices</label>
+                </value>
+                <value>
+                    <fullName>Pay slip showing Name, Date and Amount</fullName>
+                    <default>false</default>
+                    <label>Pay slip showing Name, Date and Amount</label>
+                </value>
+                <value>
+                    <fullName>Nokia Sales Expert &amp; Partner Contract</fullName>
+                    <default>false</default>
+                    <label>Nokia Sales Expert &amp; Partner Contract</label>
+                </value>
+                <value>
+                    <fullName>Picture of booth w/Nokia branding if app</fullName>
+                    <default>false</default>
+                    <label>Picture of booth w/Nokia branding if app</label>
+                </value>
+                <value>
+                    <fullName>Presentation incl. Nokia branding if app</fullName>
+                    <default>false</default>
+                    <label>Presentation incl. Nokia branding if app</label>
+                </value>
+                <value>
+                    <fullName>Agenda that includes Nokia brand if app</fullName>
+                    <default>false</default>
+                    <label>Agenda that includes Nokia brand if app</label>
+                </value>
+                <value>
+                    <fullName>Picture of booth with Nokia branding</fullName>
+                    <default>false</default>
+                    <label>Picture of booth with Nokia branding</label>
+                </value>
+                <value>
+                    <fullName>OR Copy of presentation or agenda</fullName>
+                    <default>false</default>
+                    <label>OR Copy of presentation or agenda</label>
+                </value>
+                <value>
+                    <fullName>Itemized invoices for Nokia Event</fullName>
+                    <default>false</default>
+                    <label>Itemized invoices for Nokia Event</label>
+                </value>
+                <value>
+                    <fullName>Picture of items with Nokia&apos;s logo</fullName>
+                    <default>false</default>
+                    <label>Picture of items with Nokia&apos;s logo</label>
+                </value>
+                <value>
+                    <fullName>Itemized Nokia training invoices</fullName>
+                    <default>false</default>
+                    <label>Itemized Nokia training invoices</label>
+                </value>
+                <value>
+                    <fullName>Attendee list provided by the Nokia</fullName>
+                    <default>false</default>
+                    <label>Attendee list provided by the Nokia</label>
+                </value>
+                <value>
+                    <fullName>Awards won</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Awards won</label>
+                </value>
+                <value>
+                    <fullName>Call list/number of calls placed</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Call list/number of calls placed</label>
+                </value>
+                <value>
+                    <fullName>Copy of incentive rules</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Copy of incentive rules</label>
+                </value>
+                <value>
+                    <fullName>Itemized invoices for awards</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Itemized invoices for awards</label>
+                </value>
+                <value>
+                    <fullName>Names of reward recipients</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Names of reward recipients</label>
+                </value>
+                <value>
+                    <fullName>Nokia SME Consultant &amp; Partner Contract</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Nokia SME Consultant &amp; Partner Contract</label>
+                </value>
+                <value>
+                    <fullName>POS report: Nokia products incl. in SPIF</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>POS report: Nokia products incl. in SPIF</label>
+                </value>
+                <value>
+                    <fullName>Sample of ad with Nokia Logo/run date</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Sample of ad with Nokia Logo/run date</label>
+                </value>
+                <value>
+                    <fullName>Sample of collateral with Nokia logo OR</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Sample of collateral with Nokia logo OR</label>
+                </value>
+                <value>
+                    <fullName>Sample of content promoting Nokia</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Sample of content promoting Nokia</label>
+                </value>
+                <value>
+                    <fullName>Sample with Nokia Logo/Content</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Sample with Nokia Logo/Content</label>
+                </value>
+                <value>
+                    <fullName>Sample with Nokia&apos;s logo/content</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Sample with Nokia&apos;s logo/content</label>
+                </value>
+                <value>
+                    <fullName>Script(copy) showing promotion of Nokia</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Script(copy) showing promotion of Nokia</label>
+                </value>
+                <value>
+                    <fullName>URL of pp. that incl Nokia message/brand</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>URL of pp. that incl Nokia message/brand</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Reimbursement_Amount_Requested__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Reimbursement Amount Requested</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Rejection_Reason__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Rejection Reason</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Segment__c</fullName>
+        <externalId>false</externalId>
+        <label>Activity Target Market</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Business &amp; Professional Services</fullName>
+                    <default>false</default>
+                    <label>Business &amp; Professional Services</label>
+                </value>
+                <value>
+                    <fullName>Cable MSO</fullName>
+                    <default>false</default>
+                    <label>Cable MSO</label>
+                </value>
+                <value>
+                    <fullName>Defense</fullName>
+                    <default>false</default>
+                    <label>Defense</label>
+                </value>
+                <value>
+                    <fullName>Education</fullName>
+                    <default>false</default>
+                    <label>Education</label>
+                </value>
+                <value>
+                    <fullName>Education – Higher</fullName>
+                    <default>false</default>
+                    <label>Education – Higher</label>
+                </value>
+                <value>
+                    <fullName>Education – K – 12</fullName>
+                    <default>false</default>
+                    <label>Education – K – 12</label>
+                </value>
+                <value>
+                    <fullName>Enterprise</fullName>
+                    <default>false</default>
+                    <label>Enterprise</label>
+                </value>
+                <value>
+                    <fullName>Enterprise - Large</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Enterprise - Large</label>
+                </value>
+                <value>
+                    <fullName>Enterprise - SMB</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Enterprise - SMB</label>
+                </value>
+                <value>
+                    <fullName>Federal Government</fullName>
+                    <default>false</default>
+                    <label>Federal Government</label>
+                </value>
+                <value>
+                    <fullName>Financial Services</fullName>
+                    <default>false</default>
+                    <label>Financial Services</label>
+                </value>
+                <value>
+                    <fullName>Government</fullName>
+                    <default>false</default>
+                    <label>Government</label>
+                </value>
+                <value>
+                    <fullName>Government - Federal</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Government - Federal</label>
+                </value>
+                <value>
+                    <fullName>Government – Local and Provincial</fullName>
+                    <default>false</default>
+                    <label>Government – Local and Provincial</label>
+                </value>
+                <value>
+                    <fullName>Government – Public Safety &amp; Defense</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Government – Public Safety &amp; Defense</label>
+                </value>
+                <value>
+                    <fullName>Healthcare</fullName>
+                    <default>false</default>
+                    <label>Healthcare</label>
+                </value>
+                <value>
+                    <fullName>Highways</fullName>
+                    <default>false</default>
+                    <label>Highways</label>
+                </value>
+                <value>
+                    <fullName>Hospitality</fullName>
+                    <default>false</default>
+                    <label>Hospitality</label>
+                </value>
+                <value>
+                    <fullName>Large Enterprise</fullName>
+                    <default>false</default>
+                    <label>Large Enterprise</label>
+                </value>
+                <value>
+                    <fullName>Manufacturing</fullName>
+                    <default>false</default>
+                    <label>Manufacturing</label>
+                </value>
+                <value>
+                    <fullName>Mid-Market</fullName>
+                    <default>false</default>
+                    <label>Mid-Market</label>
+                </value>
+                <value>
+                    <fullName>Mining</fullName>
+                    <default>false</default>
+                    <label>Mining</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Pharmaceutical</fullName>
+                    <default>false</default>
+                    <label>Pharmaceutical</label>
+                </value>
+                <value>
+                    <fullName>Ports &amp; Airport</fullName>
+                    <default>false</default>
+                    <label>Ports &amp; Airport</label>
+                </value>
+                <value>
+                    <fullName>Public Safety</fullName>
+                    <default>false</default>
+                    <label>Public Safety</label>
+                </value>
+                <value>
+                    <fullName>Public Sector</fullName>
+                    <default>false</default>
+                    <label>Public Sector</label>
+                </value>
+                <value>
+                    <fullName>Railways</fullName>
+                    <default>false</default>
+                    <label>Railways</label>
+                </value>
+                <value>
+                    <fullName>Retail</fullName>
+                    <default>false</default>
+                    <label>Retail</label>
+                </value>
+                <value>
+                    <fullName>Service Providers</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Service Providers</label>
+                </value>
+                <value>
+                    <fullName>SMB</fullName>
+                    <default>false</default>
+                    <label>SMB</label>
+                </value>
+                <value>
+                    <fullName>Telco (SP)</fullName>
+                    <default>false</default>
+                    <label>Telco (SP)</label>
+                </value>
+                <value>
+                    <fullName>Transportation</fullName>
+                    <default>false</default>
+                    <label>Transportation</label>
+                </value>
+                <value>
+                    <fullName>Utilities, Oil &amp; Gas</fullName>
+                    <default>false</default>
+                    <label>Utilities, Oil &amp; Gas</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <description>Start Date of the Activity. Must be 15 Days after to todays date.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>If the activity happened in past, please select the date in past and select the Exception as ‘Activity Start Date occurred in the Past</inlineHelpText>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Submitted_Claim_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Submitted Claim Count</label>
+        <summaryFilterItems>
+            <field>Claim__c.Claim_Status__c</field>
+            <operation>equals</operation>
+            <value>Submitted</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Claim__c.Activity_Number__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Submitted_Claim__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Submitted Claim</label>
+        <summaryFilterItems>
+            <field>Claim__c.Claim_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Claimable, Expired</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Claim__c.Activity_Number__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>bypass_last_claim_validation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>bypass last claim validation</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>createdandclaimablecount__c</fullName>
+        <description>Count for claim having status created or claimable</description>
+        <externalId>false</externalId>
+        <label>created and claimable count</label>
+        <summaryFilterItems>
+            <field>Claim__c.Claim_Status__c</field>
+            <operation>equals</operation>
+            <value>Created, Claimable</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Claim__c.Activity_Number__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <label>Co-op Activity</label>
+    <listViews>
+        <fullName>Activities_In_Approval</fullName>
+        <columns>NAME</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>Activity_Expire_Date__c</columns>
+        <columns>Reimbursement_Amount_Requested__c</columns>
+        <columns>Partner_Account__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Activity_Status__c</field>
+            <operation>equals</operation>
+            <value>Pending Approval</value>
+        </filters>
+        <label>Activities Submitted for Approval</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Activity_Status__c</columns>
+        <columns>Reimbursement_Amount_Requested__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>Activity_Expire_Date__c</columns>
+        <columns>Partner_Account__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Approved_Activites</fullName>
+        <columns>NAME</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>Activity_Expire_Date__c</columns>
+        <columns>Reimbursement_Amount_Requested__c</columns>
+        <columns>Activity_Approved_Amount__c</columns>
+        <columns>Partner_Account__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Activity_Status__c</field>
+            <operation>equals</operation>
+            <value>Approved</value>
+        </filters>
+        <label>Approved Activites</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Cancelled_Activities</fullName>
+        <columns>NAME</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>Activity_Expire_Date__c</columns>
+        <columns>Reimbursement_Amount_Requested__c</columns>
+        <columns>Partner_Account__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Activity_Status__c</field>
+            <operation>equals</operation>
+            <value>Cancelled</value>
+        </filters>
+        <label>Cancelled Activities</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Claimable_Activities</fullName>
+        <columns>NAME</columns>
+        <columns>Activity_Expire_Date__c</columns>
+        <columns>Reimbursement_Amount_Requested__c</columns>
+        <columns>Activity_Approved_Amount__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>Partner_Account__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Activity_Status__c</field>
+            <operation>equals</operation>
+            <value>Claimable</value>
+        </filters>
+        <label>Claimable Activities</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Claimed_Activities</fullName>
+        <columns>NAME</columns>
+        <columns>Activity_Expire_Date__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>Reimbursement_Amount_Requested__c</columns>
+        <columns>Activity_Approved_Amount__c</columns>
+        <columns>Partner_Account__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Activity_Status__c</field>
+            <operation>equals</operation>
+            <value>Claimed</value>
+        </filters>
+        <label>Claimed Activities</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Closed_Activities</fullName>
+        <columns>NAME</columns>
+        <columns>Reimbursement_Amount_Requested__c</columns>
+        <columns>Activity_Approved_Amount__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>Partner_Account__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Activity_Status__c</field>
+            <operation>equals</operation>
+            <value>Closed</value>
+        </filters>
+        <label>Closed Activities</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Expired_Activities</fullName>
+        <columns>NAME</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>Reimbursement_Amount_Requested__c</columns>
+        <columns>Activity_Approved_Amount__c</columns>
+        <columns>Partner_Account__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Activity_Status__c</field>
+            <operation>equals</operation>
+            <value>Expired</value>
+        </filters>
+        <label>Expired Activities</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>New_Activities</fullName>
+        <columns>NAME</columns>
+        <columns>Activity_Expire_Date__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>Reimbursement_Amount_Requested__c</columns>
+        <columns>Partner_Account__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Activity_Status__c</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </filters>
+        <label>New Activities</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>On_Hold_Activities</fullName>
+        <columns>NAME</columns>
+        <columns>Activity_Expire_Date__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>On_Hold_Reason__c</columns>
+        <columns>Reimbursement_Amount_Requested__c</columns>
+        <columns>Partner_Account__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Activity_Status__c</field>
+            <operation>equals</operation>
+            <value>On Hold</value>
+        </filters>
+        <label>On Hold Activities</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Open_Activities</fullName>
+        <columns>NAME</columns>
+        <columns>Activity_Status__c</columns>
+        <columns>Activity_Expire_Date__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>Reimbursement_Amount_Requested__c</columns>
+        <columns>Partner_Account__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Activity_Status__c</field>
+            <operation>equals</operation>
+            <value>New,Pending Approval,Approved,On Hold,Claimable,Claimed</value>
+        </filters>
+        <label>Open Activities</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Rejected_Activities</fullName>
+        <columns>NAME</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>Reimbursement_Amount_Requested__c</columns>
+        <columns>Rejection_Reason__c</columns>
+        <columns>Partner_Account__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Activity_Status__c</field>
+            <operation>equals</operation>
+            <value>Rejected</value>
+        </filters>
+        <label>Rejected Activities</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Activity Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Co-op Activities</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Co_op_Activity_Read_only</fullName>
+        <active>true</active>
+        <label>Co-op Activity-Read only</label>
+        <picklistValues>
+            <picklist>Activity_Path_Status__c</picklist>
+            <values>
+                <fullName>Approval Level 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Approval Level 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Approval Level 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Claimable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Claimed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired%2FRejected%2FCancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Activity_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Claimable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Claimed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>On Hold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Activity_Type__c</picklist>
+            <values>
+                <fullName>Advertising</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Collateral %28Co-branded Brochures%2C Data Sheets%2C etc%2E%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demonstration Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Direct Mail %2F E-mail Campaign %2F Newsletter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Funded Head %28Consultant %2F System Architect%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Funded Head %28Sales Champion%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Participation in IT%2C Applications and%2For Telecoms Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Participation in Nokia Event %28i%2Ee%2E Nokia Partner Conference%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Promotional Items %28Co- branded%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Relations %2F Press Release</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Incentive Program %28Partner Run%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminars %26 Road Shows %28Partner developed and%2For sponsored%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telemarketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trade Shows</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training%28sales%2C pre-sales and post-sales%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web Marketing and Development %28Website %2F Microsite%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Approval_Level__c</picklist>
+            <values>
+                <fullName>Level 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Level 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Level 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not in Approval</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Exception__c</picklist>
+            <values>
+                <fullName>Activity Start Date occurred in the past</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Living%3A hotel expenses%2C food and beverage costs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Travel%3A transport fares %28air%2C train or taxi%29%2C car rental and parking</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PRM_Cancellation_Reason__c</picklist>
+            <values>
+                <fullName>Activity Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Activity Postponed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Budget</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decided not to participate at this time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fund Reallocation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Proof_of_Performance__c</picklist>
+            <values>
+                <fullName>Attendee list provided and signed by Nokia instructor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Awards won for SPIFFs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Call list of calls placed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed monthly sales forecast and results</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Copy %28text%29 of web pages developed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Copy of approved Nokia Sales Champion contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Copy of approved incentive rules</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Copy of call script</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Copy of presentation%2Fagenda with Nokia logo %28if applicable%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Copy of presentation%2Fagenda%2Fpicture of booth space incl%2E Nokia logo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Copy of presentations featuring Nokia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Copy of the Certificate of Completion OR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital image of promotional merchandise with Nokia logo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital sample of collateral produced incl%2E Nokia logo or content</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital sample of direct mail%2Fe-mail%2Fsocial media campaign%2Fnewsletters</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distribution list and%2For Run Report</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Final copy of invitation and detailed agenda %28if applicable%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>If approved as exception%2C itemized travel and lodging invoices</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Itemized 3rd party invoices</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Itemized invoice%28s%29 for training course fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Itemized invoices for Nokia equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Itemized invoices for awards or names of award recipients</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Itemized invoices from telemarketing agency incl%2E detailed costs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Itemized invoices of total costs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Itemized invoices showing total cost of event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Itemized invoices showing total costs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Itemized invoices showing total costs of activity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Itemized production and development invoices</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Itemized production and publisher invoices</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Itemized production invoices</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>List of attendees %28if available%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Number of booth visitors %28if captured%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pay slip of net amount paid to Consultant%2FSystems Architect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pay slip of net amount paid to Sales Champion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Photo of booth with Nokia logo %28if applicable%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Point-of-Sale %28POS%29 Report for Nokia products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sample of PR%2Fpress release incl%2E publication date %26 Nokia logo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sample of magazine%2Fnewspaper incl%2E ad and date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Signed copy of Consultant%2FSystems Architect%E2%80%99s contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trade Show details incl%2E date%28s%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trade Show invitation sent by Partner %28if applicable%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>URL of developed pages</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Segment__c</picklist>
+            <values>
+                <fullName>Business %26 Professional Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cable MSO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Defense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education %E2%80%93 Higher</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education %E2%80%93 K %E2%80%93 12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enterprise</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Federal Government</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Government</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Government %E2%80%93 Local and Provincial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Healthcare</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Highways</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospitality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Large Enterprise</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mid-Market</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mining</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pharmaceutical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ports %26 Airport</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Safety</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Sector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Railways</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telco %28SP%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transportation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Utilities%2C Oil %26 Gas</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Activity_Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Reimbursement_Amount_Requested__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Start_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>End_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Activity_Expire_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Partner_Account__c</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Activity_Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Reimbursement_Amount_Requested__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Start_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>End_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Activity_Expire_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Partner_Account__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>ADMIN_AND_PRM_CAN_CANCEL_THE_ACTIVITY</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+
+
+ISPICKVAL( Activity_Status__c , &apos;Cancelled&apos;), 
+ISCHANGED(Activity_Status__c ) , 
+$Permission.PRM_Co_Op_Internal_Users_Permission_Set, 
+NOT( 
+OR( 
+$Profile.Name = &apos;System Administrator&apos;, 
+$Profile.Name = &apos;Data Loader Profile&apos;, 
+$Profile.Name = &apos;Nokia Admin Profile&apos;, 
+$Profile.Name = &apos;Global Process Admin Profile&apos;	
+) 
+) 
+)</errorConditionFormula>
+        <errorMessage>Only Nokia Co-op Administrator and Partner Users are able to cancel Activities prior to submitting claims</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Approved_amount_not_greater_than_request</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+
+Activity_Approved_Amount__c &gt; Reimbursement_Amount_Requested__c, 
+NOT(AND(OnHold_Reimbursement_Amount__c &gt; 0, Reimbursement_Amount_Requested__c = 0)), 
+NOT( 
+OR( 
+$Profile.Name = &apos;System Administrator&apos;, 
+$Profile.Name = &apos;Data Loader Profile&apos;, 
+$Profile.Name = &apos;Nokia Admin Profile&apos;, 
+$Profile.Name = &apos;Global Process Admin Profile&apos;) 
+) 
+)</errorConditionFormula>
+        <errorMessage>Reimbursement Approved Amount should not be greater than Reimbursement requested Amount, please correct Reimbursement Amount Approved.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>End_Date_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+Start_Date__c &gt; End_Date__c,
+
+OR( 
+ISCHANGED( End_Date__c ),
+ ISNEW() ,
+$Profile.Name = &apos;System Administrator&apos;, 
+$Profile.Name = &apos;Data Loader Profile&apos;, 
+$Profile.Name = &apos;Nokia Admin Profile&apos;, 
+$Profile.Name = &apos;Global Process Admin Profile&apos;	
+) 
+
+)</errorConditionFormula>
+        <errorDisplayField>End_Date__c</errorDisplayField>
+        <errorMessage>End Date can&apos;t be Prior to Start Date. Please select a date after the Start Date.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Exception_Details_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+ISBLANK( Exception_Details__c ) , 
+!(ISBLANK( Exception__c )), 
+!(INCLUDES(Exception__c,&apos;Other&apos;)), 
+NOT( 
+OR(  
+$Profile.Name = &apos;System Administrator&apos;, 
+$Profile.Name = &apos;Data Loader Profile&apos;, 
+$Profile.Name = &apos;Nokia Admin Profile&apos;, 
+$Profile.Name = &apos;Global Process Admin Profile&apos;	
+) 
+) 
+)</errorConditionFormula>
+        <errorDisplayField>Exception_Details__c</errorDisplayField>
+        <errorMessage>Please write the details about the exception activity that would help the Approver(s) approve the request.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Manual_Activity_Path_status_update</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+NOT(bypass_last_claim_validation__c), 
+Text(Activity_Path_Status__c) != &apos;New&apos;, 
+Text(Activity_Path_Status__c) != &apos;Expired/Rejected/Cancelled&apos;, 
+ISCHANGED(Activity_Path_Status__c), 
+( 
+OR( 
+$Profile.Name = &apos;PRM Partner Community User Login&apos;, 
+$Profile.Name = &apos;PRM Partner Relationship Manager Login&apos;,
+$Profile.Name = &apos;Customers&apos;, 
+$Profile.Name = &apos;Customers Login&apos;	
+) 
+) 
+)</errorConditionFormula>
+        <errorMessage>Not Applicable</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Manual_Status_Update_Not_Allowed</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+NOT(bypass_last_claim_validation__c),
+	Text(Activity_Status__c) != &apos;New&apos;,
+	Text(Activity_Status__c) != &apos;Cancelled&apos;,
+	ISCHANGED(Activity_Status__c),
+	( 
+		OR( 
+			$Profile.Name = &apos;PRM Partner Community User Login&apos;, 
+			$Profile.Name = &apos;PRM Partner Relationship Manager Login&apos;	
+		) 
+		) 
+	)</errorConditionFormula>
+        <errorDisplayField>Activity_Status__c</errorDisplayField>
+        <errorMessage>You are not allowed to select status other than &quot;New&quot; and &quot;Cancelled&quot;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>On_Hold_Reason_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+On_Hold__c = TRUE,
+ISBLANK(On_Hold_Reason__c),
+NOT( 
+OR( 
+$Profile.Name = &apos;System Administrator&apos;, 
+$Profile.Name = &apos;Data Loader Profile&apos;, 
+$Profile.Name = &apos;Nokia Admin Profile&apos;, 
+$Profile.Name = &apos;Global Process Admin Profile&apos;	
+) 
+) 
+)</errorConditionFormula>
+        <errorDisplayField>On_Hold_Reason__c</errorDisplayField>
+        <errorMessage>Please give the On Hold Reason</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PRM_Cancellation_Reason</fullName>
+        <active>true</active>
+        <description>SFPRM-282</description>
+        <errorConditionFormula>AND(
+				ISPICKVAL(Activity_Status__c, &apos;Cancelled&apos;),
+				ISPICKVAL(PRM_Cancellation_Reason__c, &apos;&apos;)
+)</errorConditionFormula>
+        <errorDisplayField>PRM_Cancellation_Reason__c</errorDisplayField>
+        <errorMessage>Please enter the &apos;Cancellation Reason&apos; before cancelling the activity.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PRM_Other_Cancellation_Reason</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+				ISPICKVAL(PRM_Cancellation_Reason__c, &apos;Other&apos;),
+				ISBLANK(PRM_Other_Cancellation_Reason__c)
+)</errorConditionFormula>
+        <errorDisplayField>PRM_Other_Cancellation_Reason__c</errorDisplayField>
+        <errorMessage>Please enter the &apos;Cancellation Reason&apos; before cancelling the activity.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Requeste_amount_not_greater_than_Cost</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+Cost_of_Activity__c &lt; Reimbursement_Amount_Requested__c, 
+NOT( 
+OR( 
+$Profile.Name = &apos;System Administrator&apos;, 
+$Profile.Name = &apos;Data Loader Profile&apos;, 
+$Profile.Name = &apos;Nokia Admin Profile&apos;, 
+$Profile.Name = &apos;Global Process Admin Profile&apos;) 
+) 
+)</errorConditionFormula>
+        <errorMessage>Reimbursement Amount Requested should not be greater than Cost of Activity, please correct.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Start_Date_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+OR(ISNEW(),
+ISCHANGED(Start_Date__c )),
+(Start_Date__c - TODAY() &lt;15) ,
+NOT(INCLUDES( Exception__c , &apos;Activity Start Date occurred in the past&apos;)),
+NOT( 
+OR( 
+$Profile.Name = &apos;System Administrator&apos;, 
+$Profile.Name = &apos;Data Loader Profile&apos;, 
+$Profile.Name = &apos;Nokia Admin Profile&apos;, 
+$Profile.Name = &apos;Global Process Admin Profile&apos;	
+) 
+) 
+)</errorConditionFormula>
+        <errorMessage>Please select a date 15 days Prior to Start Date of the Activity. 
+Exception: If the activity happened in past, please select the date in past and select the Exception as ‘Activity Start Date occurred in the Past’</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Validation_manual_status_after_rejection</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+Text(Activity_Status__c) = &apos;Rejected&apos;,
+ISCHANGED(Name))</errorConditionFormula>
+        <errorMessage>You are not allowed to Change the Activity Details after it is rejected</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Validation_on_Activity_cancellation</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(Claim_count_for_cancellation__c  &gt; 0,
+ISCHANGED( Activity_Status__c ),
+ISPICKVAL(Activity_Status__c ,&apos;Cancelled&apos;),
+NOT( 
+OR( 
+$Profile.Name = &apos;System Administrator&apos;, 
+$Profile.Name = &apos;Data Loader Profile&apos;, 
+$Profile.Name = &apos;Nokia Admin Profile&apos;, 
+$Profile.Name = &apos;Global Process Admin Profile&apos;	
+) 
+) 
+)</errorConditionFormula>
+        <errorMessage>You are not allowed to cancel the activity because one or more of the associated claims have already been submitted for Audit, passed Audit or were reimbursed</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Validation_on_Currency</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(ISNEW(),
+(TEXT(CurrencyIsoCode) &lt;&gt;  TEXT(Fund_Id__r.CurrencyIsoCode)))</errorConditionFormula>
+        <errorDisplayField>CurrencyIsoCode</errorDisplayField>
+        <errorMessage>The Currency should be same as of the Account Currency. Please choose the correct currency and save the activity.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Validation_on_Other_Exception_value</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+INCLUDES( Exception__c , &apos;Other&apos;) , 
+ISBLANK( If_Other_Exception_Please_Specify__c ) , 
+NOT( 
+OR( 
+$Profile.Name = &apos;System Administrator&apos;, 
+$Profile.Name = &apos;Data Loader Profile&apos;, 
+$Profile.Name = &apos;Nokia Admin Profile&apos;, 
+$Profile.Name = &apos;Global Process Admin Profile&apos;	
+) 
+) )</errorConditionFormula>
+        <errorDisplayField>If_Other_Exception_Please_Specify__c</errorDisplayField>
+        <errorMessage>Please write the other exception as you have selected &quot;Other&quot; in Exception field</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Validation_on_blank_activity_amount</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+ISNEW(), 
+OR( 
+ISBLANK(Cost_of_Activity__c), 
+Cost_of_Activity__c = 0.00, Reimbursement_Amount_Requested__c = 0.00
+) 
+ 
+)</errorConditionFormula>
+        <errorMessage>Please enter non zero amount in &apos;Cost of Activity&apos; and &apos;Reimbursement Amount Requested	&apos;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Validation_on_manual_change_after_locked</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISCHANGED( Name ),
+OR(ISPICKVAL( Activity_Status__c ,&apos;Claimable&apos;),
+ISPICKVAL( Activity_Status__c ,&apos;Claimed&apos;),
+ISPICKVAL( Activity_Status__c ,&apos;Approved&apos;),
+ISPICKVAL( Activity_Status__c ,&apos;Closed&apos;),
+ISPICKVAL( Activity_Status__c ,&apos;Expired&apos;),
+ISPICKVAL( Activity_Status__c ,&apos;Cancelled&apos;)))</errorConditionFormula>
+        <errorMessage>You are not allowed to Change the Activity Name after it is Locked</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

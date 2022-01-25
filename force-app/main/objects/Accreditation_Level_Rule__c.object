@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>PRM rele 4 Accreditation automation rules</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Accreditation_Level__c</fullName>
+        <externalId>false</externalId>
+        <label>Accreditation Level</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Advanced</fullName>
+                    <default>false</default>
+                    <label>Advanced</label>
+                </value>
+                <value>
+                    <fullName>Alliance Partner</fullName>
+                    <default>false</default>
+                    <label>Alliance Partner</label>
+                </value>
+                <value>
+                    <fullName>Authorized</fullName>
+                    <default>false</default>
+                    <label>Authorized</label>
+                </value>
+                <value>
+                    <fullName>Authorized - Accreditation In Progress</fullName>
+                    <default>false</default>
+                    <label>Authorized - Accreditation In Progress</label>
+                </value>
+                <value>
+                    <fullName>Base</fullName>
+                    <default>false</default>
+                    <label>Base</label>
+                </value>
+                <value>
+                    <fullName>Base - Certification In Progress</fullName>
+                    <default>false</default>
+                    <label>Base - Certification In Progress</label>
+                </value>
+                <value>
+                    <fullName>Basic</fullName>
+                    <default>false</default>
+                    <label>Basic</label>
+                </value>
+                <value>
+                    <fullName>Certified</fullName>
+                    <default>false</default>
+                    <label>Certified</label>
+                </value>
+                <value>
+                    <fullName>Co-Branded</fullName>
+                    <default>false</default>
+                    <label>Co-Branded</label>
+                </value>
+                <value>
+                    <fullName>Contract Expired</fullName>
+                    <default>false</default>
+                    <label>Contract Expired</label>
+                </value>
+                <value>
+                    <fullName>Distributor</fullName>
+                    <default>false</default>
+                    <label>Distributor</label>
+                </value>
+                <value>
+                    <fullName>Expert</fullName>
+                    <default>false</default>
+                    <label>Expert</label>
+                </value>
+                <value>
+                    <fullName>Interim</fullName>
+                    <default>false</default>
+                    <label>Interim</label>
+                </value>
+                <value>
+                    <fullName>Master</fullName>
+                    <default>false</default>
+                    <label>Master</label>
+                </value>
+                <value>
+                    <fullName>No Accreditation</fullName>
+                    <default>false</default>
+                    <label>No Accreditation</label>
+                </value>
+                <value>
+                    <fullName>Nokia Brand of Service</fullName>
+                    <default>false</default>
+                    <label>Nokia Brand of Service</label>
+                </value>
+                <value>
+                    <fullName>Partner Branded</fullName>
+                    <default>false</default>
+                    <label>Partner Branded</label>
+                </value>
+                <value>
+                    <fullName>Premier</fullName>
+                    <default>false</default>
+                    <label>Premier</label>
+                </value>
+                <value>
+                    <fullName>Premium</fullName>
+                    <default>false</default>
+                    <label>Premium</label>
+                </value>
+                <value>
+                    <fullName>Professional</fullName>
+                    <default>false</default>
+                    <label>Professional</label>
+                </value>
+                <value>
+                    <fullName>Service Provider</fullName>
+                    <default>false</default>
+                    <label>Service Provider</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Accreditation_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Accreditation Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Product</fullName>
+                    <default>false</default>
+                    <label>Product</label>
+                </value>
+                <value>
+                    <fullName>Maintenance</fullName>
+                    <default>false</default>
+                    <label>Maintenance</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Administration_Software_Only__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Administration Software Only</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Business_Plan_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Business Plan Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Submitted</fullName>
+                    <default>false</default>
+                    <label>Submitted</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Contract_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Contract Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>NIRA</fullName>
+                    <default>false</default>
+                    <label>NIRA</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+                <value>
+                    <fullName>PFA</fullName>
+                    <default>false</default>
+                    <label>PFA</label>
+                </value>
+                <value>
+                    <fullName>PFA-DIS</fullName>
+                    <default>false</default>
+                    <label>PFA-DIS</label>
+                </value>
+                <value>
+                    <fullName>PFA- RES</fullName>
+                    <default>false</default>
+                    <label>PFA- RES</label>
+                </value>
+                <value>
+                    <fullName>PPA-DIS</fullName>
+                    <default>false</default>
+                    <label>PPA-DIS</label>
+                </value>
+                <value>
+                    <fullName>PPA-RES</fullName>
+                    <default>false</default>
+                    <label>PPA-RES</label>
+                </value>
+                <value>
+                    <fullName>PMA-NBOS</fullName>
+                    <default>false</default>
+                    <label>PMA-NBOS</label>
+                </value>
+                <value>
+                    <fullName>PMA-NBOS (Non-PPA Services Partner)</fullName>
+                    <default>false</default>
+                    <label>PMA-NBOS (Non-PPA Services Partner)</label>
+                </value>
+                <value>
+                    <fullName>PMA-Co-Branded</fullName>
+                    <default>false</default>
+                    <label>PMA-Co-Branded</label>
+                </value>
+                <value>
+                    <fullName>Federal Government Agreement</fullName>
+                    <default>false</default>
+                    <label>Federal Government Agreement</label>
+                </value>
+                <value>
+                    <fullName>Services Partner Agreement</fullName>
+                    <default>false</default>
+                    <label>Services Partner Agreement</label>
+                </value>
+                <value>
+                    <fullName>Reseller - (FALU)</fullName>
+                    <default>false</default>
+                    <label>Reseller - (FALU)</label>
+                </value>
+                <value>
+                    <fullName>Reseller - (FNOK)</fullName>
+                    <default>false</default>
+                    <label>Reseller - (FNOK)</label>
+                </value>
+                <value>
+                    <fullName>US Distributor - Legacy</fullName>
+                    <default>false</default>
+                    <label>US Distributor - Legacy</label>
+                </value>
+                <value>
+                    <fullName>DMA-Co-Branded</fullName>
+                    <default>false</default>
+                    <label>DMA-Co-Branded</label>
+                </value>
+                <value>
+                    <fullName>DMA-Co-Branded (non PPA Distributor)</fullName>
+                    <default>false</default>
+                    <label>DMA-Co-Branded (non PPA Distributor)</label>
+                </value>
+                <value>
+                    <fullName>DMA-NBOS</fullName>
+                    <default>false</default>
+                    <label>DMA-NBOS</label>
+                </value>
+                <value>
+                    <fullName>DMA-NBOS (Non PPA Distributor)</fullName>
+                    <default>false</default>
+                    <label>DMA-NBOS (Non PPA Distributor)</label>
+                </value>
+                <value>
+                    <fullName>Letter of Resale Authorization</fullName>
+                    <default>false</default>
+                    <label>Letter of Resale Authorization</label>
+                </value>
+                <value>
+                    <fullName>Managed Services Amendment to SSA/MSA</fullName>
+                    <default>false</default>
+                    <label>Managed Services Amendment to SSA/MSA</label>
+                </value>
+                <value>
+                    <fullName>NDA</fullName>
+                    <default>false</default>
+                    <label>NDA</label>
+                </value>
+                <value>
+                    <fullName>PMA-Co-Branded (Non PPA Services Partner)</fullName>
+                    <default>false</default>
+                    <label>PMA-Co-Branded (Non PPA Services Partner)</label>
+                </value>
+                <value>
+                    <fullName>CPA-RES</fullName>
+                    <default>false</default>
+                    <label>CPA-RES</label>
+                </value>
+                <value>
+                    <fullName>CPA-DIS</fullName>
+                    <default>false</default>
+                    <label>CPA-DIS</label>
+                </value>
+                <value>
+                    <fullName>CPA-DIS family</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPA-DIS family</label>
+                </value>
+                <value>
+                    <fullName>CPA-RES family</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPA-RES family</label>
+                </value>
+                <value>
+                    <fullName>PPA-DIS family</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>PPA-DIS family</label>
+                </value>
+                <value>
+                    <fullName>PPA-RES family</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>PPA-RES family</label>
+                </value>
+                <value>
+                    <fullName>Reseller Agreements</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Reseller Agreements</label>
+                </value>
+                <value>
+                    <fullName>SPaaP- Managed Services</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>SPaaP- Managed Services</label>
+                </value>
+                <value>
+                    <fullName>SPaaP-Hybrid</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>SPaaP-Hybrid</label>
+                </value>
+                <value>
+                    <fullName>SPaaP-Reseller</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>SPaaP-Reseller</label>
+                </value>
+                <value>
+                    <fullName>US Distributors</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>US Distributors</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Field_Technician__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Field Technician</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Geo_Level_1_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Geo Level 1 Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Region North America</fullName>
+                    <default>false</default>
+                    <label>Region North America</label>
+                </value>
+                <value>
+                    <fullName>Region Greater China</fullName>
+                    <default>false</default>
+                    <label>Region Greater China</label>
+                </value>
+                <value>
+                    <fullName>Region Europe</fullName>
+                    <default>false</default>
+                    <label>Region Europe</label>
+                </value>
+                <value>
+                    <fullName>Region Asia-Pacific</fullName>
+                    <default>false</default>
+                    <label>Region Asia-Pacific</label>
+                </value>
+                <value>
+                    <fullName>Region Middle East &amp; Africa</fullName>
+                    <default>false</default>
+                    <label>Region Middle East &amp; Africa</label>
+                </value>
+                <value>
+                    <fullName>Region Latin America</fullName>
+                    <default>false</default>
+                    <label>Region Latin America</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Lab_Equipment_Requirements__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Lab Equipment Requirements</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Level_Rank__c</fullName>
+        <externalId>false</externalId>
+        <label>Level Rank</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market__c</fullName>
+        <externalId>false</externalId>
+        <label>Market</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Market Latin America</fullName>
+                    <default>false</default>
+                    <label>Market Latin America</label>
+                </value>
+                <value>
+                    <fullName>Market Middle East and Africa</fullName>
+                    <default>false</default>
+                    <label>Market Middle East and Africa</label>
+                </value>
+                <value>
+                    <fullName>Market India</fullName>
+                    <default>false</default>
+                    <label>Market India</label>
+                </value>
+                <value>
+                    <fullName>Market Greater China</fullName>
+                    <default>false</default>
+                    <label>Market Greater China</label>
+                </value>
+                <value>
+                    <fullName>Market Europe</fullName>
+                    <default>false</default>
+                    <label>Market Europe</label>
+                </value>
+                <value>
+                    <fullName>Market North America</fullName>
+                    <default>false</default>
+                    <label>Market North America</label>
+                </value>
+                <value>
+                    <fullName>Market Asia Pacific &amp; Japan</fullName>
+                    <default>false</default>
+                    <label>Market Asia Pacific &amp; Japan</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Network_Integration_Engineer__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Network Integration Engineer</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Network_Planning_Engineer__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Network Planning Engineer</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>No_Certification_Optional__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>No Certification (Optional)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Partner_Marketing_Manager__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Partner Marketing Manager</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Partner_Program__c</fullName>
+        <externalId>false</externalId>
+        <label>Partner Program</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>NokiaCPQ_Partner_Program</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Partner_Relationship_Manager__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Partner Relationship Manager</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Partner_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Partner Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Indirect Reseller</fullName>
+                    <default>false</default>
+                    <label>Indirect Reseller</label>
+                </value>
+                <value>
+                    <fullName>Value Added Reseller</fullName>
+                    <default>false</default>
+                    <label>Value Added Reseller</label>
+                </value>
+                <value>
+                    <fullName>Distributor</fullName>
+                    <default>false</default>
+                    <label>Distributor</label>
+                </value>
+                <value>
+                    <fullName>Service Provider</fullName>
+                    <default>false</default>
+                    <label>Service Provider</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Portfolio__c</fullName>
+        <externalId>false</externalId>
+        <label>Portfolio</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Portfolio_New</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Sales_Associate__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Sales Associate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Engineer__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Sales Engineer</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Service_Desk_Clerk__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Service Desk Clerk</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shift_Model__c</fullName>
+        <externalId>false</externalId>
+        <label>Shift Model</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Applicable</fullName>
+                    <default>false</default>
+                    <label>Not Applicable</label>
+                </value>
+                <value>
+                    <fullName>8X5</fullName>
+                    <default>false</default>
+                    <label>8X5</label>
+                </value>
+                <value>
+                    <fullName>16X5</fullName>
+                    <default>false</default>
+                    <label>16X5</label>
+                </value>
+                <value>
+                    <fullName>24X7</fullName>
+                    <default>false</default>
+                    <label>24X7</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Technical_Support_Level_1__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Technical Support Level 1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Technical_Support_Level_2__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Technical Support Level 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Third_Party_Screening__c</fullName>
+        <externalId>false</externalId>
+        <label>Third Party Screening</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Passed</fullName>
+                    <default>false</default>
+                    <label>Passed</label>
+                </value>
+                <value>
+                    <fullName>Conditionally Passed</fullName>
+                    <default>false</default>
+                    <label>Conditionally Passed</label>
+                </value>
+                <value>
+                    <fullName>Failed</fullName>
+                    <default>false</default>
+                    <label>Failed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <label>Accreditation Level Rule</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Partner_Type__c</columns>
+        <columns>Portfolio__c</columns>
+        <columns>Accreditation_Type__c</columns>
+        <columns>Accreditation_Level__c</columns>
+        <columns>Market__c</columns>
+        <columns>Partner_Program__c</columns>
+        <columns>Shift_Model__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>AR - {00000}</displayFormat>
+        <label>Accreditation Level Rules Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Accreditation Level Rule</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Partner_Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Portfolio__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Accreditation_Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Accreditation_Level__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Partner_Program__c</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Partner_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Portfolio__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Accreditation_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Accreditation_Level__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Partner_Program__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Geo_Level_1_Name__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

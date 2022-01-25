@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Custom Object to store the list of Pre-Approved custom products, on the Account level.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Pre-Approved Custom Products</relationshipLabel>
+        <relationshipName>Pre_Approved_Custom_Products</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Expiration_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Expiration Date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Is_NSP__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is NSP?​</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>List_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>List Price​</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>5</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Maintenance_Beyond_Warranty_Rate__c</fullName>
+        <externalId>false</externalId>
+        <label>Maintenance Beyond Warranty Rate %</label>
+        <precision>11</precision>
+        <required>true</required>
+        <scale>5</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Maintenance_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Maintenance Type</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bronze (Return for Exchange)</fullName>
+                    <default>false</default>
+                    <label>Bronze (Return for Exchange)</label>
+                </value>
+                <value>
+                    <fullName>Gold (Return for Exchange)</fullName>
+                    <default>false</default>
+                    <label>Gold (Return for Exchange)</label>
+                </value>
+                <value>
+                    <fullName>Gold (Return for Repair)</fullName>
+                    <default>false</default>
+                    <label>Gold (Return for Repair)</label>
+                </value>
+                <value>
+                    <fullName>Gold (Advanced Exchange)</fullName>
+                    <default>false</default>
+                    <label>Gold (Advanced Exchange)</label>
+                </value>
+                <value>
+                    <fullName>Basic (8x5)</fullName>
+                    <default>false</default>
+                    <label>Basic (8x5)</label>
+                </value>
+                <value>
+                    <fullName>Gold (24x7)</fullName>
+                    <default>false</default>
+                    <label>Gold (24x7)</label>
+                </value>
+                <value>
+                    <fullName>Platinum (higher SLA)</fullName>
+                    <default>false</default>
+                    <label>Platinum (higher SLA)</label>
+                </value>
+                <value>
+                    <fullName>MN GS TSS Basic</fullName>
+                    <default>false</default>
+                    <label>MN GS TSS Basic</label>
+                </value>
+                <value>
+                    <fullName>MN GS TSS Enhanced</fullName>
+                    <default>false</default>
+                    <label>MN GS TSS Enhanced</label>
+                </value>
+                <value>
+                    <fullName>MN GS TSS Enhanced Emergency</fullName>
+                    <default>false</default>
+                    <label>MN GS TSS Enhanced Emergency</label>
+                </value>
+                <value>
+                    <fullName>Basic Support</fullName>
+                    <default>false</default>
+                    <label>Basic Support</label>
+                </value>
+                <value>
+                    <fullName>Pro Support</fullName>
+                    <default>false</default>
+                    <label>Pro Support</label>
+                </value>
+                <value>
+                    <fullName>Total Care</fullName>
+                    <default>false</default>
+                    <label>Total Care</label>
+                </value>
+                <value>
+                    <fullName>Solution Support</fullName>
+                    <default>false</default>
+                    <label>Solution Support</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Maintenance_Under_Warranty_Rate__c</fullName>
+        <externalId>false</externalId>
+        <label>Maintenance Under Warranty Rate %</label>
+        <precision>11</precision>
+        <required>true</required>
+        <scale>5</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Portfolio__c</fullName>
+        <externalId>false</externalId>
+        <label>Portfolio</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>FastMile</fullName>
+                    <default>false</default>
+                    <label>FastMile</label>
+                </value>
+                <value>
+                    <fullName>Fixed Access - FBA</fullName>
+                    <default>false</default>
+                    <label>Fixed Access - FBA</label>
+                </value>
+                <value>
+                    <fullName>Fixed Access - POL</fullName>
+                    <default>false</default>
+                    <label>Fixed Access - POL</label>
+                </value>
+                <value>
+                    <fullName>Fixed Network</fullName>
+                    <default>false</default>
+                    <label>Fixed Network</label>
+                </value>
+                <value>
+                    <fullName>Global Services</fullName>
+                    <default>false</default>
+                    <label>Global Services</label>
+                </value>
+                <value>
+                    <fullName>IP Routing</fullName>
+                    <default>false</default>
+                    <label>IP Routing</label>
+                </value>
+                <value>
+                    <fullName>Microwave</fullName>
+                    <default>false</default>
+                    <label>Microwave</label>
+                </value>
+                <value>
+                    <fullName>Modular Private Wireless Solution</fullName>
+                    <default>false</default>
+                    <label>Modular Private Wireless Solution</label>
+                </value>
+                <value>
+                    <fullName>Nokia Software</fullName>
+                    <default>false</default>
+                    <label>Nokia Software</label>
+                </value>
+                <value>
+                    <fullName>Nuage</fullName>
+                    <default>false</default>
+                    <label>Nuage</label>
+                </value>
+                <value>
+                    <fullName>Optics</fullName>
+                    <default>false</default>
+                    <label>Optics</label>
+                </value>
+                <value>
+                    <fullName>Optics - Wavelite</fullName>
+                    <default>false</default>
+                    <label>Optics - Wavelite</label>
+                </value>
+                <value>
+                    <fullName>QTC</fullName>
+                    <default>false</default>
+                    <label>QTC</label>
+                </value>
+                <value>
+                    <fullName>Wireless PON</fullName>
+                    <default>false</default>
+                    <label>Wireless PON</label>
+                </value>
+                <value>
+                    <fullName>Airscale Wifi</fullName>
+                    <default>false</default>
+                    <label>Airscale Wifi</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Product_Code__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Product Code​</label>
+        <length>15</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Discount_Rate__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Discount Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>SSP_Rate__c</fullName>
+        <externalId>false</externalId>
+        <label>SSP Rate %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <label>Pre-Approved Custom Product</label>
+    <nameField>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Product Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Pre-Approved Custom Products</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

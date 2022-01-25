@@ -1,0 +1,4220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>SWx_Upsell_Proposal_Record_Page1</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>SWx_Upsell_Proposal_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Digital_Proposal</fullName>
+        <fields>Name</fields>
+        <fields>Technology__c</fields>
+        <fields>Use_Case__c</fields>
+        <fields>Collection_Period_Start_Date__c</fields>
+        <fields>Collection_Period_End_Date__c</fields>
+        <fields>Entitlement_Info__c</fields>
+        <fields>Proposal_Status__c</fields>
+        <fields>Identified_Cells__c</fields>
+        <fields>Analysed_Cells__c</fields>
+        <label>Digital Proposal</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AM_Comment__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>AM Comment</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Account ID</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Digital Proposal</relationshipLabel>
+        <relationshipName>SWx_Upsell_Proposals</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Agreement_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Frame_Contract__c  = NULL , NULL , Frame_Contract__r.Apttus__FF_Agreement_Number__c)</formula>
+        <label>Agreement Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Agreement_name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Frame_Contract__r.Name</formula>
+        <label>Agreement</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Analysed_Cells__c</fullName>
+        <externalId>false</externalId>
+        <label>Analysed Cells</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Analytics_File_Refer_ID__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>true</externalId>
+        <label>Analytics File Refer ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Analytics_Source__c</fullName>
+        <externalId>false</externalId>
+        <label>Analytics Source</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CCRE</fullName>
+                    <default>false</default>
+                    <label>CCRE</label>
+                </value>
+                <value>
+                    <fullName>CXM</fullName>
+                    <default>false</default>
+                    <label>CXM</label>
+                </value>
+                <value>
+                    <fullName>RMP</fullName>
+                    <default>false</default>
+                    <label>RMP</label>
+                </value>
+                <value>
+                    <fullName>DS</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>DS</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Business_Line__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>If you don&apos;t  select a Business Line then default values will be set by the system for OIF:
+-	MN - FDD LTE (BL) for CXM Digital proposal
+-	GS - Care HWS (BL) for CCRE Digital Proposal.</inlineHelpText>
+        <label>Business Line</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Product2.IsActive</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <filterItems>
+                <field>Product2.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Business Line</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Digital Proposal</relationshipLabel>
+        <relationshipName>Digital_Proposal</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Business_Rules_Check__c</fullName>
+        <externalId>false</externalId>
+        <label>Business Rules Check</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Grey</fullName>
+                    <default>true</default>
+                    <label>Grey</label>
+                </value>
+                <value>
+                    <fullName>Green</fullName>
+                    <default>false</default>
+                    <label>Green</label>
+                </value>
+                <value>
+                    <fullName>Red</fullName>
+                    <default>false</default>
+                    <label>Red</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Collection_Period_End_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Collection Period End Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Collection_Period_Start_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Collection Period Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Contract_Currency__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Contract Currency</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Creation_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Creation Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Customer_Address__c</fullName>
+        <externalId>false</externalId>
+        <formula>Sold_To_Party__r.BillingStreet &amp;&quot;&quot;&amp; Sold_To_Party__r.BillingCity &amp;&quot;&quot;&amp; Sold_To_Party__r.BillingState &amp;&quot;&quot;&amp;  Sold_To_Party__r.BillingCountry</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Customer Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DS_PO_needed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Is a PO needed for this offer? (in case of AYCE Pricing, PO is not needed)</inlineHelpText>
+        <label>CPO needed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DS_Portal_Display_Timestamp__c</fullName>
+        <description>To store time when the Upsell stage on Digital Proposal is converted to &quot;Ready For Review&quot;.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Portal Display Timestamp</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DS_Recommendation_Link__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(  Quote_ID__c!=null , HYPERLINK(LEFT($Api.Enterprise_Server_URL_300, FIND(&apos;/services&apos;,$Api.Enterprise_Server_URL_300))+&quot;s/proposal/&quot;+Quote_ID__c +&quot;?type=swx&quot;,Quote_Name__c,&quot;_self&quot;) , $Label.DSErrorForDP)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Related Commercial Proposal</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DS_Show_In_Portal__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>A checkbox that clarifies whether to show Digital Proposal to Customer or not</description>
+        <externalId>false</externalId>
+        <label>Show In Portal</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DS_Staging__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>DS Staging</label>
+        <referenceTo>DS_Staging__c</referenceTo>
+        <relationshipLabel>Digital Proposal</relationshipLabel>
+        <relationshipName>Digital_Proposal</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Delivery_System__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+ ISPICKVAL(Entitlement_Info__c , &apos;Entitled&apos;), TEXT(PO__r.Delivery_System__c ) , null)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Delivery System</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Document_Generation_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>TODAY()</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Document Generation Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Entitlement_Info__c</fullName>
+        <externalId>false</externalId>
+        <label>Entitlement Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Can Be Entitled</fullName>
+                    <default>false</default>
+                    <label>Can Be Entitled</label>
+                </value>
+                <value>
+                    <fullName>Entitled</fullName>
+                    <default>false</default>
+                    <label>Entitled</label>
+                </value>
+                <value>
+                    <fullName>Quote Needed</fullName>
+                    <default>false</default>
+                    <label>Quote Needed</label>
+                </value>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Cannot be entitled</fullName>
+                    <default>false</default>
+                    <label>Cannot be entitled</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>Replaced</fullName>
+                    <default>false</default>
+                    <label>Replaced</label>
+                </value>
+                <value>
+                    <fullName>Cancel</fullName>
+                    <default>false</default>
+                    <label>Cancel</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Error_Message__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Error Message</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Expected_LoA_Level__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>SWX case is falling into LoA bypass conditions, so the Expected LoA Level is set automatically to “LoA bypass” and bypass condition to “no LoA&quot;.</inlineHelpText>
+        <label>Expected LoA Level</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>LoA_G4_Approval_Levels</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>File_Upload__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Supporting Material</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>1 AND 2 AND 3</booleanFilter>
+            <filterItems>
+                <field>$Source.Account_ID__c</field>
+                <operation>equals</operation>
+                <valueField>File_Upload__c.Account__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>$Source.Technology__c</field>
+                <operation>equals</operation>
+                <valueField>File_Upload__c.Technology_Txt__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>$Source.Use_Case__c</field>
+                <operation>equals</operation>
+                <valueField>File_Upload__c.Use_Case_Txt__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>File_Upload__c</referenceTo>
+        <relationshipLabel>Digital Proposal</relationshipLabel>
+        <relationshipName>Digital_Proposal</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Frame_Contract__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Lookup to Agreement object</description>
+        <externalId>false</externalId>
+        <label>Agreement</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.Sold_To_Party__c</field>
+                <operation>equals</operation>
+                <valueField>Apttus__APTS_Agreement__c.Apttus__Account__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Apttus__APTS_Agreement__c</referenceTo>
+        <relationshipLabel>Digital Proposal</relationshipLabel>
+        <relationshipName>Digital_Proposal</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Frame_contract_valid_until_date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Frame_Contract__r.Apttus__Contract_End_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Agreement valid until date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>HandoverStatusUnsuccessful__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field will be updated based on related interface log status(if the interface log status is failed and make this checkbox true else false)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates if an issue occurred when Digital Market Place attempted to automatically deliver content to the delivery engine (SWMP).</inlineHelpText>
+        <label>Handover Status Unsuccessful</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Identified_Cells__c</fullName>
+        <externalId>false</externalId>
+        <label>Identified Cells</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Nokia_CPO_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>PO__r.Nokia_CPO_ID__c</formula>
+        <label>Nokia CPO ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>P20_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>P20_Id</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PO_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>PO__r.Name</formula>
+        <label>PO Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PO__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Lookup to Customer Purchase Order</description>
+        <externalId>false</externalId>
+        <label>CPO</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.Account_ID__c</field>
+                <operation>equals</operation>
+                <valueField>Apttus_Config2__CustomerPurchaseOrder__c.Apttus_Config2__AccountId__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Apttus_Config2__CustomerPurchaseOrder__c</referenceTo>
+        <relationshipLabel>Digital Proposal</relationshipLabel>
+        <relationshipName>Digital_Proposal</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PO_valid_until_date__c</fullName>
+        <externalId>false</externalId>
+        <formula>PO__r.Contract_end_date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CPO valid until date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Project_Name__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Project Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Proposal_Recommendation_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Proposal Recommendation Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SW Recommendation</fullName>
+                    <default>false</default>
+                    <label>SW Recommendation</label>
+                </value>
+                <value>
+                    <fullName>HW Recommendation</fullName>
+                    <default>false</default>
+                    <label>HW Recommendation</label>
+                </value>
+                <value>
+                    <fullName>Renewal</fullName>
+                    <default>false</default>
+                    <label>Renewal</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Proposal_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Technical Recommendation Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Active</fullName>
+                    <color>#000066</color>
+                    <default>true</default>
+                    <label>Active</label>
+                </value>
+                <value>
+                    <fullName>Replaced</fullName>
+                    <default>false</default>
+                    <label>Replaced</label>
+                </value>
+                <value>
+                    <fullName>Validated</fullName>
+                    <default>false</default>
+                    <label>Validated</label>
+                </value>
+                <value>
+                    <fullName>Reject</fullName>
+                    <default>false</default>
+                    <label>Reject</label>
+                </value>
+                <value>
+                    <fullName>Close-Validated</fullName>
+                    <color>#0B6FCE</color>
+                    <default>false</default>
+                    <label>Close-Validated</label>
+                </value>
+                <value>
+                    <fullName>Close-Reject</fullName>
+                    <default>false</default>
+                    <label>Close-Reject</label>
+                </value>
+                <value>
+                    <fullName>Replacement Pending</fullName>
+                    <default>false</default>
+                    <label>Replacement Pending</label>
+                </value>
+                <value>
+                    <fullName>Cancel</fullName>
+                    <default>false</default>
+                    <label>Cancel</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Quote_ID__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Quote ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quote_Name__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Quote Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ready_To_Convert_Image__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE(
+ CASE( TEXT(Business_Rules_Check__c ) , &apos;Red&apos;, &quot;/resource/WrongSign&quot;, &apos;Green&apos;, &quot;/resource/CorrectSign&quot;,&quot;/resource/NeutralSignC&quot;), &apos;NONE&apos;,20,20   
+
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Ready To Convert</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ready_to_Convert__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Please check this checkbox once Upsell line items are corrected</inlineHelpText>
+        <label>Ready to Convert</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Recommendation_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+	ISPICKVAL(Analytics_Source__c, &apos;CXM&apos;),
+	&apos;NWIA&apos;,
+	IF(
+		ISPICKVAL(Analytics_Source__c, &apos;RMP&apos;),
+		&apos;Roadmap&apos;,
+		IF(
+			ISPICKVAL(Analytics_Source__c, &apos;CCRE&apos;),
+			&apos;CCRE&apos;,
+			&apos;&apos;
+		)
+	)	
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Recommendation Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rejection_Reason__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>SM_Comment__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>SM Comment</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SWX_Item_Can_Be_Entitled__c</fullName>
+        <externalId>false</externalId>
+        <label>SWX Item Can Be Entitled</label>
+        <summaryFilterItems>
+            <field>SWx_Upsell_Items__c.Temp_Entitlement_Status__c</field>
+            <operation>equals</operation>
+            <value>Can Be Entitled</value>
+        </summaryFilterItems>
+        <summaryForeignKey>SWx_Upsell_Items__c.SWx_Upsell_Proposal__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>SWX_Item_Cant_Be_Entitled__c</fullName>
+        <externalId>false</externalId>
+        <label>SWX Item Cant Be Entitled</label>
+        <summaryFilterItems>
+            <field>SWx_Upsell_Items__c.Temp_Entitlement_Status__c</field>
+            <operation>equals</operation>
+            <value>Can Not Entitled</value>
+        </summaryFilterItems>
+        <summaryForeignKey>SWx_Upsell_Items__c.SWx_Upsell_Proposal__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>SWX_Item_Entitled__c</fullName>
+        <externalId>false</externalId>
+        <label>SWX Item Entitled</label>
+        <summaryFilterItems>
+            <field>SWx_Upsell_Items__c.Temp_Entitlement_Status__c</field>
+            <operation>equals</operation>
+            <value>Entitled</value>
+        </summaryFilterItems>
+        <summaryForeignKey>SWx_Upsell_Items__c.SWx_Upsell_Proposal__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>SWX_Item_Pending__c</fullName>
+        <externalId>false</externalId>
+        <label>SWX Item Pending</label>
+        <summaryFilterItems>
+            <field>SWx_Upsell_Items__c.Temp_Entitlement_Status__c</field>
+            <operation>equals</operation>
+            <value>Pending</value>
+        </summaryFilterItems>
+        <summaryForeignKey>SWx_Upsell_Items__c.SWx_Upsell_Proposal__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>SWX_Reference_Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Reference Opportunity</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <filterItems>
+                <field>Opportunity.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Create Direct Sales Opportunity, Create Indirect Sales Opportunity, Read Only Direct, Read Only Indirect</value>
+            </filterItems>
+            <filterItems>
+                <field>$Profile.Name</field>
+                <operation>equals</operation>
+                <value>Data Loader Profile</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Digital Proposal</relationshipLabel>
+        <relationshipName>Digital_Proposal</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SWx_Source_ID__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>SWx Source ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Scratch_Order__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(ISPICKVAL(Entitlement_Info__c ,&apos;Entitled&apos;),Delivery_System__c = &apos;Scratch Order via P20&apos; , PO__c  &lt;&gt; Null),HYPERLINK(&apos;/apex/Apttus_XApps__EditInExcelLaunch?selectedRecordId=&apos;+Id+&apos;&amp;appName=Scratch Order&amp;mode=touchless&amp;outputType=none&apos;, IMAGE(&quot;/resource/Scratch_Order&quot;,&quot;Scratch Order&quot;),&quot;_self&quot;),null)</formula>
+        <label>Scratch Order</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sold_To_Party__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Sold To Party</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Digital Proposal (Sold To Party)</relationshipLabel>
+        <relationshipName>Digital_Proposal</relationshipName>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Technology__c</fullName>
+        <externalId>false</externalId>
+        <label>Technology</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>TDD LTE</fullName>
+                    <default>false</default>
+                    <label>TDD LTE</label>
+                </value>
+                <value>
+                    <fullName>FDD LTE</fullName>
+                    <default>false</default>
+                    <label>FDD LTE</label>
+                </value>
+                <value>
+                    <fullName>WCDMA</fullName>
+                    <default>false</default>
+                    <label>WCDMA</label>
+                </value>
+                <value>
+                    <fullName>HW extension</fullName>
+                    <default>false</default>
+                    <label>HW extension</label>
+                </value>
+                <value>
+                    <fullName>Antenna Systems</fullName>
+                    <default>false</default>
+                    <label>Antenna Systems</label>
+                </value>
+                <value>
+                    <fullName>3G Core</fullName>
+                    <default>false</default>
+                    <label>3G Core</label>
+                </value>
+                <value>
+                    <fullName>IMS VoLTE Core</fullName>
+                    <default>false</default>
+                    <label>IMS VoLTE Core</label>
+                </value>
+                <value>
+                    <fullName>Nokia Registers</fullName>
+                    <default>false</default>
+                    <label>Nokia Registers</label>
+                </value>
+                <value>
+                    <fullName>Core Others</fullName>
+                    <default>false</default>
+                    <label>Core Others</label>
+                </value>
+                <value>
+                    <fullName>LTE</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>LTE</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Total_SWX_Items__c</fullName>
+        <externalId>false</externalId>
+        <label>Total SWX Items</label>
+        <summaryForeignKey>SWx_Upsell_Items__c.SWx_Upsell_Proposal__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Unique_Id__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Unique Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Unweighted_Value__c</fullName>
+        <defaultValue>0.00</defaultValue>
+        <externalId>false</externalId>
+        <label>Unweighted Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Upsell_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Upsell Stage</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>true</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>Ready For Review</fullName>
+                    <default>false</default>
+                    <label>Ready For Review</label>
+                </value>
+                <value>
+                    <fullName>Ready To Convert</fullName>
+                    <default>false</default>
+                    <label>Ready To Convert</label>
+                </value>
+                <value>
+                    <fullName>Convert</fullName>
+                    <default>false</default>
+                    <label>Convert</label>
+                </value>
+                <value>
+                    <fullName>Cancel</fullName>
+                    <default>false</default>
+                    <label>Cancel</label>
+                </value>
+                <value>
+                    <fullName>Reject</fullName>
+                    <default>false</default>
+                    <label>Reject</label>
+                </value>
+                <value>
+                    <fullName>Replaced</fullName>
+                    <default>false</default>
+                    <label>Replaced</label>
+                </value>
+                <value>
+                    <fullName>Validated</fullName>
+                    <default>false</default>
+                    <label>Validated</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Use_Case__c</fullName>
+        <externalId>false</externalId>
+        <label>Use Case</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Energy Efficiency</fullName>
+                    <default>false</default>
+                    <label>Energy Efficiency</label>
+                </value>
+                <value>
+                    <fullName>eNB User Capacity</fullName>
+                    <default>false</default>
+                    <label>eNB User Capacity</label>
+                </value>
+                <value>
+                    <fullName>Load Balancing</fullName>
+                    <default>false</default>
+                    <label>Load Balancing</label>
+                </value>
+                <value>
+                    <fullName>Air interface UL</fullName>
+                    <default>false</default>
+                    <label>Air interface UL</label>
+                </value>
+                <value>
+                    <fullName>Air interface DL</fullName>
+                    <default>false</default>
+                    <label>Air interface DL</label>
+                </value>
+                <value>
+                    <fullName>VoLTE</fullName>
+                    <default>false</default>
+                    <label>VoLTE</label>
+                </value>
+                <value>
+                    <fullName>Transport / security</fullName>
+                    <default>false</default>
+                    <label>Transport / security</label>
+                </value>
+                <value>
+                    <fullName>LTE Evolution</fullName>
+                    <default>false</default>
+                    <label>LTE Evolution</label>
+                </value>
+                <value>
+                    <fullName>IoT</fullName>
+                    <default>false</default>
+                    <label>IoT</label>
+                </value>
+                <value>
+                    <fullName>Spectrum Use</fullName>
+                    <default>false</default>
+                    <label>Spectrum Use</label>
+                </value>
+                <value>
+                    <fullName>WCDMA Voice Quality</fullName>
+                    <default>false</default>
+                    <label>WCDMA Voice Quality</label>
+                </value>
+                <value>
+                    <fullName>WBTS Capacity</fullName>
+                    <default>false</default>
+                    <label>WBTS Capacity</label>
+                </value>
+                <value>
+                    <fullName>RNC Capacity</fullName>
+                    <default>false</default>
+                    <label>RNC Capacity</label>
+                </value>
+                <value>
+                    <fullName>Coverage</fullName>
+                    <default>false</default>
+                    <label>Coverage</label>
+                </value>
+                <value>
+                    <fullName>Load Balancing &amp; Interworking</fullName>
+                    <default>false</default>
+                    <label>Load Balancing &amp; Interworking</label>
+                </value>
+                <value>
+                    <fullName>3G Core Benchmark – Network Overview</fullName>
+                    <default>false</default>
+                    <label>3G Core Benchmark – Network Overview</label>
+                </value>
+                <value>
+                    <fullName>MSS &amp; MGW Capacity</fullName>
+                    <default>false</default>
+                    <label>MSS &amp; MGW Capacity</label>
+                </value>
+                <value>
+                    <fullName>MSS &amp; MGW Performance</fullName>
+                    <default>false</default>
+                    <label>MSS &amp; MGW Performance</label>
+                </value>
+                <value>
+                    <fullName>3G Core Voice Quality</fullName>
+                    <default>false</default>
+                    <label>3G Core Voice Quality</label>
+                </value>
+                <value>
+                    <fullName>3G Core Service Enablers</fullName>
+                    <default>false</default>
+                    <label>3G Core Service Enablers</label>
+                </value>
+                <value>
+                    <fullName>IMS VoLTE Core Benchmark – Network Overview</fullName>
+                    <default>false</default>
+                    <label>IMS VoLTE Core Benchmark – Network Overview</label>
+                </value>
+                <value>
+                    <fullName>CFX-5000 &amp; TAS Capacity</fullName>
+                    <default>false</default>
+                    <label>CFX-5000 &amp; TAS Capacity</label>
+                </value>
+                <value>
+                    <fullName>CFX-5000 &amp; TAS Performance</fullName>
+                    <default>false</default>
+                    <label>CFX-5000 &amp; TAS Performance</label>
+                </value>
+                <value>
+                    <fullName>Voice Interworking Performance</fullName>
+                    <default>false</default>
+                    <label>Voice Interworking Performance</label>
+                </value>
+                <value>
+                    <fullName>IMS VoLTE Core Service Enablers</fullName>
+                    <default>false</default>
+                    <label>IMS VoLTE Core Service Enablers</label>
+                </value>
+                <value>
+                    <fullName>NT-HLR Capacity</fullName>
+                    <default>false</default>
+                    <label>NT-HLR Capacity</label>
+                </value>
+                <value>
+                    <fullName>HSS Capacity</fullName>
+                    <default>false</default>
+                    <label>HSS Capacity</label>
+                </value>
+                <value>
+                    <fullName>One-NDS Capacity</fullName>
+                    <default>false</default>
+                    <label>One-NDS Capacity</label>
+                </value>
+                <value>
+                    <fullName>NTAS Dev Ops</fullName>
+                    <default>false</default>
+                    <label>NTAS Dev Ops</label>
+                </value>
+                <value>
+                    <fullName>Network overview</fullName>
+                    <default>false</default>
+                    <label>Network overview</label>
+                </value>
+                <value>
+                    <fullName>NW Coverage &amp; Quality</fullName>
+                    <default>false</default>
+                    <label>NW Coverage &amp; Quality</label>
+                </value>
+                <value>
+                    <fullName>Can Be Entitled</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Can Be Entitled</label>
+                </value>
+                <value>
+                    <fullName>Energy Efficiency1</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Energy Efficiency1</label>
+                </value>
+                <value>
+                    <fullName>Energy Effiy</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Energy Effiy</label>
+                </value>
+                <value>
+                    <fullName>FDD Air interface UL</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>FDD Air interface UL</label>
+                </value>
+                <value>
+                    <fullName>LTE Air-interface DL</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>LTE Air-interface DL</label>
+                </value>
+                <value>
+                    <fullName>LTE Air-interface UL</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>LTE Air-interface UL</label>
+                </value>
+                <value>
+                    <fullName>LTE HW extension</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>LTE HW extension</label>
+                </value>
+                <value>
+                    <fullName>LTE Spectrum Use</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>LTE Spectrum Use</label>
+                </value>
+                <value>
+                    <fullName>Load Balancing1</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Load Balancing1</label>
+                </value>
+                <value>
+                    <fullName>Load Balancing11</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Load Balancing11</label>
+                </value>
+                <value>
+                    <fullName>NW Coverage &amp; Quality &amp; NPO</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NW Coverage &amp; Quality &amp; NPO</label>
+                </value>
+                <value>
+                    <fullName>VoLTE - Mobility</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>VoLTE - Mobility</label>
+                </value>
+                <value>
+                    <fullName>VoLTE - Quality</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>VoLTE - Quality</label>
+                </value>
+                <value>
+                    <fullName>VoLTE - Usage</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>VoLTE - Usage</label>
+                </value>
+                <value>
+                    <fullName>VoLTE1</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>VoLTE1</label>
+                </value>
+                <value>
+                    <fullName>WBTS Capacity Analysis</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>WBTS Capacity Analysis</label>
+                </value>
+                <value>
+                    <fullName>WCDMA Air Interface DL</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>WCDMA Air Interface DL</label>
+                </value>
+                <value>
+                    <fullName>WCDMA Air Interface UL</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>WCDMA Air Interface UL</label>
+                </value>
+                <value>
+                    <fullName>WCDMA HW extension</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>WCDMA HW extension</label>
+                </value>
+                <value>
+                    <fullName>WCDMA LTE Load balancing</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>WCDMA LTE Load balancing</label>
+                </value>
+                <value>
+                    <fullName>WCDMA RNC Capacity Analysis</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>WCDMA RNC Capacity Analysis</label>
+                </value>
+                <value>
+                    <fullName>WCDMA UE Capabilities</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>WCDMA UE Capabilities</label>
+                </value>
+                <value>
+                    <fullName>WCDMA Voice Performance</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>WCDMA Voice Performance</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Webservice_Creation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Webservice Creation</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Digital Proposal</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Account_ID__c</columns>
+        <columns>Upsell_Status__c</columns>
+        <columns>Analytics_File_Refer_ID__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <columns>Analytics_Source__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All_Recommendations</fullName>
+        <columns>NAME</columns>
+        <columns>Analytics_File_Refer_ID__c</columns>
+        <columns>Creation_Date__c</columns>
+        <columns>Proposal_Status__c</columns>
+        <columns>Proposal_Recommendation_Type__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Upsell_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Draft</value>
+        </filters>
+        <filters>
+            <field>DS_Show_In_Portal__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>All Recommendations</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Care_Contract_Renewals</fullName>
+        <columns>NAME</columns>
+        <columns>Account_ID__c</columns>
+        <columns>Upsell_Status__c</columns>
+        <columns>Proposal_Recommendation_Type__c</columns>
+        <columns>Unweighted_Value__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Proposal_Recommendation_Type__c</field>
+            <operation>equals</operation>
+            <value>Renewal</value>
+        </filters>
+        <label>Care Contract Renewals</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>DP_Customer_Accepted_Recommendations</fullName>
+        <booleanFilter>1 AND 2 AND 3</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Analytics_File_Refer_ID__c</columns>
+        <columns>Creation_Date__c</columns>
+        <columns>Proposal_Status__c</columns>
+        <columns>Proposal_Recommendation_Type__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Upsell_Status__c</field>
+            <operation>equals</operation>
+            <value>Ready To Convert,Convert</value>
+        </filters>
+        <filters>
+            <field>Proposal_Status__c</field>
+            <operation>equals</operation>
+            <value>Validated,Close-Validated</value>
+        </filters>
+        <filters>
+            <field>DS_Show_In_Portal__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Validated Recommendations</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>DP_Customer_For_your_action</fullName>
+        <columns>NAME</columns>
+        <columns>Analytics_File_Refer_ID__c</columns>
+        <columns>Creation_Date__c</columns>
+        <columns>Proposal_Status__c</columns>
+        <columns>Proposal_Recommendation_Type__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Upsell_Status__c</field>
+            <operation>equals</operation>
+            <value>Ready For Review</value>
+        </filters>
+        <filters>
+            <field>Proposal_Status__c</field>
+            <operation>equals</operation>
+            <value>Active,Replacement Pending</value>
+        </filters>
+        <filters>
+            <field>DS_Show_In_Portal__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>For Your Review</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>DP_Customer_Rejected</fullName>
+        <columns>NAME</columns>
+        <columns>Analytics_File_Refer_ID__c</columns>
+        <columns>Creation_Date__c</columns>
+        <columns>Proposal_Status__c</columns>
+        <columns>Proposal_Recommendation_Type__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Upsell_Status__c</field>
+            <operation>equals</operation>
+            <value>Ready To Convert,Convert,Cancel,Reject,Replace</value>
+        </filters>
+        <filters>
+            <field>Proposal_Status__c</field>
+            <operation>equals</operation>
+            <value>Replaced,Validated,Reject,Close-Validated,Close-Reject,Cancel</value>
+        </filters>
+        <filters>
+            <field>DS_Show_In_Portal__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Closed Recommendations</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>In_Cancelled_Stage</fullName>
+        <columns>NAME</columns>
+        <columns>Account_ID__c</columns>
+        <columns>Upsell_Status__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Upsell_Status__c</field>
+            <operation>equals</operation>
+            <value>Cancel</value>
+        </filters>
+        <label>In Cancelled Stage</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>In_Convert_Stage</fullName>
+        <columns>NAME</columns>
+        <columns>Account_ID__c</columns>
+        <columns>Upsell_Status__c</columns>
+        <columns>SWx_Source_ID__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Upsell_Status__c</field>
+            <operation>equals</operation>
+            <value>Convert</value>
+        </filters>
+        <label>In Convert Stage</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>In_Draft_Stage</fullName>
+        <columns>Analytics_Source__c</columns>
+        <columns>NAME</columns>
+        <columns>Account_ID__c</columns>
+        <columns>Upsell_Status__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Proposal_Recommendation_Type__c</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Upsell_Status__c</field>
+            <operation>equals</operation>
+            <value>Draft</value>
+        </filters>
+        <label>In Draft Stage</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>In_Ready_for_convertion_Stage</fullName>
+        <columns>NAME</columns>
+        <columns>Account_ID__c</columns>
+        <columns>Upsell_Status__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Upsell_Status__c</field>
+            <operation>equals</operation>
+            <value>Ready To Convert</value>
+        </filters>
+        <label>In Ready To Convert Stage</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>In_Reject_Stage</fullName>
+        <columns>NAME</columns>
+        <columns>Account_ID__c</columns>
+        <columns>Upsell_Status__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Upsell_Status__c</field>
+            <operation>equals</operation>
+            <value>Reject</value>
+        </filters>
+        <label>In Reject Stage</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Today_s_Created</fullName>
+        <columns>NAME</columns>
+        <columns>Account_ID__c</columns>
+        <columns>Upsell_Status__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>Today&apos;s Created</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <displayFormat>Digital.Proposal.{000000}</displayFormat>
+        <label>Proposal ID</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Digital Proposal</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>AM_Customer_Portal</fullName>
+        <active>true</active>
+        <label>AM Customer Portal</label>
+        <picklistValues>
+            <picklist>Analytics_Source__c</picklist>
+            <values>
+                <fullName>CCRE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CXM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RMP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Business_Rules_Check__c</picklist>
+            <values>
+                <fullName>Green</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grey</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Red</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Entitlement_Info__c</picklist>
+            <values>
+                <fullName>Can Be Entitled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cannot be entitled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entitled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quote Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Expected_LoA_Level__c</picklist>
+            <values>
+                <fullName>A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>A%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LoA Bypass</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Proposal_Recommendation_Type__c</picklist>
+            <values>
+                <fullName>HW Recommendation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SW Recommendation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Proposal_Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Close-Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Close-Validated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replacement Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Technology__c</picklist>
+            <values>
+                <fullName>3G Core</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Antenna Systems</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Core Others</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FDD LTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HW extension</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IMS VoLTE Core</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Registers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TDD LTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WCDMA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Upsell_Status__c</picklist>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Convert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Ready For Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ready To Convert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Use_Case__c</picklist>
+            <values>
+                <fullName>3G Core Benchmark %E2%80%93 Network Overview</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3G Core Service Enablers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3G Core Voice Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Air interface DL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Air interface UL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CFX-5000 %26 TAS Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CFX-5000 %26 TAS Performance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coverage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Energy Efficiency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HSS Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IMS VoLTE Core Benchmark %E2%80%93 Network Overview</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IMS VoLTE Core Service Enablers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IoT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LTE Evolution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Load Balancing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Load Balancing %26 Interworking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MSS %26 MGW Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MSS %26 MGW Performance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NT-HLR Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NTAS Dev Ops</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>One-NDS Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RNC Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spectrum Use</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transport %2F security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VoLTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Voice Interworking Performance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WBTS Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WCDMA Voice Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eNB User Capacity</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>CCRE_Upsell_Proposal</fullName>
+        <active>true</active>
+        <description>This record type is assigned when Solution Manager upload CCRE JSON file</description>
+        <label>CCRE Upsell Proposal</label>
+        <picklistValues>
+            <picklist>Analytics_Source__c</picklist>
+            <values>
+                <fullName>CCRE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CXM</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Business_Rules_Check__c</picklist>
+            <values>
+                <fullName>Green</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grey</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Red</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Entitlement_Info__c</picklist>
+            <values>
+                <fullName>Can Be Entitled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cannot be entitled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entitled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quote Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Expected_LoA_Level__c</picklist>
+            <values>
+                <fullName>A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>A%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LoA Bypass</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Proposal_Recommendation_Type__c</picklist>
+            <values>
+                <fullName>HW Recommendation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SW Recommendation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Proposal_Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Close-Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Close-Validated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replacement Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Technology__c</picklist>
+            <values>
+                <fullName>Antenna Systems</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FDD LTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HW extension</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TDD LTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WCDMA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Upsell_Status__c</picklist>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Convert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Ready For Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ready To Convert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Use_Case__c</picklist>
+            <values>
+                <fullName>Air interface DL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Air interface UL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coverage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Energy Efficiency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IoT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LTE Evolution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Load Balancing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Load Balancing %26 Interworking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RNC Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spectrum Use</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transport %2F security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VoLTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WBTS Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WCDMA Voice Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eNB User Capacity</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>DS_SWMP_Proposals</fullName>
+        <active>true</active>
+        <description>Record type for SWMP proposals</description>
+        <label>DS SWMP Proposals</label>
+        <picklistValues>
+            <picklist>Analytics_Source__c</picklist>
+            <values>
+                <fullName>RMP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Business_Rules_Check__c</picklist>
+            <values>
+                <fullName>Green</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grey</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Red</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Entitlement_Info__c</picklist>
+            <values>
+                <fullName>Can Be Entitled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cannot be entitled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entitled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quote Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Expected_LoA_Level__c</picklist>
+            <values>
+                <fullName>A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>A%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LoA Bypass</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Proposal_Recommendation_Type__c</picklist>
+            <values>
+                <fullName>HW Recommendation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SW Recommendation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Proposal_Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Close-Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Close-Validated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replacement Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Technology__c</picklist>
+            <values>
+                <fullName>3G Core</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Antenna Systems</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Core Others</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FDD LTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HW extension</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IMS VoLTE Core</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Registers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TDD LTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WCDMA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Upsell_Status__c</picklist>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Ready For Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Use_Case__c</picklist>
+            <values>
+                <fullName>3G Core Benchmark %E2%80%93 Network Overview</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3G Core Service Enablers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3G Core Voice Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Air interface DL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Air interface UL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CFX-5000 %26 TAS Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CFX-5000 %26 TAS Performance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coverage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Energy Efficiency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HSS Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IMS VoLTE Core Benchmark %E2%80%93 Network Overview</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IMS VoLTE Core Service Enablers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IoT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LTE Evolution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Load Balancing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Load Balancing %26 Interworking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MSS %26 MGW Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MSS %26 MGW Performance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NT-HLR Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NTAS Dev Ops</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>One-NDS Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RNC Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spectrum Use</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transport %2F security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VoLTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Voice Interworking Performance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WBTS Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WCDMA Voice Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eNB User Capacity</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>DS_SWMP_Proposals_Read_Only</fullName>
+        <active>true</active>
+        <description>Record type for SWMP read only proposals</description>
+        <label>DS SWMP Proposals Read Only</label>
+        <picklistValues>
+            <picklist>Analytics_Source__c</picklist>
+            <values>
+                <fullName>CCRE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CXM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RMP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Business_Rules_Check__c</picklist>
+            <values>
+                <fullName>Green</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grey</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Red</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Entitlement_Info__c</picklist>
+            <values>
+                <fullName>Can Be Entitled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cannot be entitled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entitled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quote Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Expected_LoA_Level__c</picklist>
+            <values>
+                <fullName>A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>A%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LoA Bypass</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Proposal_Recommendation_Type__c</picklist>
+            <values>
+                <fullName>HW Recommendation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SW Recommendation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Proposal_Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Close-Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Close-Validated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replacement Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Technology__c</picklist>
+            <values>
+                <fullName>3G Core</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Antenna Systems</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Core Others</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FDD LTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HW extension</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IMS VoLTE Core</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Registers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TDD LTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WCDMA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Upsell_Status__c</picklist>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Ready For Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Use_Case__c</picklist>
+            <values>
+                <fullName>3G Core Benchmark %E2%80%93 Network Overview</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3G Core Service Enablers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3G Core Voice Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Air interface DL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Air interface UL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CFX-5000 %26 TAS Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CFX-5000 %26 TAS Performance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coverage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Energy Efficiency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HSS Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IMS VoLTE Core Benchmark %E2%80%93 Network Overview</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IMS VoLTE Core Service Enablers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IoT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LTE Evolution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Load Balancing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Load Balancing %26 Interworking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MSS %26 MGW Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MSS %26 MGW Performance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NT-HLR Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NTAS Dev Ops</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>One-NDS Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RNC Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spectrum Use</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transport %2F security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VoLTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Voice Interworking Performance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WBTS Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WCDMA Voice Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eNB User Capacity</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Digital_Sales_Proposal_Read_Only_Layout</fullName>
+        <active>true</active>
+        <description>This page layout has &quot;Read Only&quot; access to all fields for customers.</description>
+        <label>Digital Sales Proposal Read Only Layout</label>
+        <picklistValues>
+            <picklist>Analytics_Source__c</picklist>
+            <values>
+                <fullName>CCRE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CXM</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Business_Rules_Check__c</picklist>
+            <values>
+                <fullName>Green</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grey</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Red</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Entitlement_Info__c</picklist>
+            <values>
+                <fullName>Can Be Entitled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cannot be entitled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entitled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quote Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Expected_LoA_Level__c</picklist>
+            <values>
+                <fullName>A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>A%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LoA Bypass</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Proposal_Recommendation_Type__c</picklist>
+            <values>
+                <fullName>HW Recommendation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SW Recommendation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Proposal_Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Close-Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Close-Validated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replacement Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Technology__c</picklist>
+            <values>
+                <fullName>WCDMA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Upsell_Status__c</picklist>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Convert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Ready For Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ready To Convert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Use_Case__c</picklist>
+            <values>
+                <fullName>Energy Efficiency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IoT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LTE Evolution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Load Balancing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transport %2F security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eNB User Capacity</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Proposal_Read_only</fullName>
+        <active>true</active>
+        <label>Proposal Read only</label>
+        <picklistValues>
+            <picklist>Analytics_Source__c</picklist>
+            <values>
+                <fullName>CCRE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CXM</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Business_Rules_Check__c</picklist>
+            <values>
+                <fullName>Green</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grey</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Red</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Entitlement_Info__c</picklist>
+            <values>
+                <fullName>Can Be Entitled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cannot be entitled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entitled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quote Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Expected_LoA_Level__c</picklist>
+            <values>
+                <fullName>A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>A%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LoA Bypass</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Proposal_Recommendation_Type__c</picklist>
+            <values>
+                <fullName>HW Recommendation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SW Recommendation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Proposal_Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Close-Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Close-Validated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replacement Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Technology__c</picklist>
+            <values>
+                <fullName>Antenna Systems</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FDD LTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HW extension</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TDD LTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WCDMA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Upsell_Status__c</picklist>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Convert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Ready For Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ready To Convert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Use_Case__c</picklist>
+            <values>
+                <fullName>Air interface DL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Air interface UL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coverage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Energy Efficiency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IoT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LTE Evolution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Load Balancing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Load Balancing %26 Interworking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RNC Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spectrum Use</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transport %2F security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VoLTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WBTS Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WCDMA Voice Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eNB User Capacity</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SWx_Upsell_Proposal</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Digital_Proposal</compactLayoutAssignment>
+        <description>This record type is assigned when Solution Manager upload SWx JSON file</description>
+        <label>SWx Upsell Proposal</label>
+        <picklistValues>
+            <picklist>Analytics_Source__c</picklist>
+            <values>
+                <fullName>CXM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RMP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Business_Rules_Check__c</picklist>
+            <values>
+                <fullName>Green</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grey</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Red</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Entitlement_Info__c</picklist>
+            <values>
+                <fullName>Can Be Entitled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cannot be entitled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entitled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quote Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Expected_LoA_Level__c</picklist>
+            <values>
+                <fullName>A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>A%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LoA Bypass</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Proposal_Recommendation_Type__c</picklist>
+            <values>
+                <fullName>HW Recommendation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SW Recommendation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Proposal_Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Close-Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Close-Validated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replacement Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Technology__c</picklist>
+            <values>
+                <fullName>Antenna Systems</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Core Others</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FDD LTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HW extension</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TDD LTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WCDMA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Upsell_Status__c</picklist>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Convert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Ready For Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ready To Convert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Use_Case__c</picklist>
+            <values>
+                <fullName>Air interface DL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Air interface UL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coverage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Energy Efficiency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IoT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LTE Evolution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Load Balancing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Load Balancing %26 Interworking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NTAS Dev Ops</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NW Coverage %26 Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RNC Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spectrum Use</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transport %2F security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VoLTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WBTS Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WCDMA Voice Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eNB User Capacity</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SWx_Upsell_Proposal_Read_Only</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Digital_Proposal</compactLayoutAssignment>
+        <label>SWx Upsell Proposal Read Only</label>
+        <picklistValues>
+            <picklist>Analytics_Source__c</picklist>
+            <values>
+                <fullName>CXM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RMP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Business_Rules_Check__c</picklist>
+            <values>
+                <fullName>Green</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grey</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Red</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Entitlement_Info__c</picklist>
+            <values>
+                <fullName>Can Be Entitled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cannot be entitled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entitled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quote Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Expected_LoA_Level__c</picklist>
+            <values>
+                <fullName>A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>A%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LoA Bypass</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Proposal_Recommendation_Type__c</picklist>
+            <values>
+                <fullName>HW Recommendation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SW Recommendation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Proposal_Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Close-Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Close-Validated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replacement Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Technology__c</picklist>
+            <values>
+                <fullName>Antenna Systems</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Core Others</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FDD LTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HW extension</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TDD LTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WCDMA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Upsell_Status__c</picklist>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Convert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Ready For Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ready To Convert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reject</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validated</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Use_Case__c</picklist>
+            <values>
+                <fullName>Air interface DL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Air interface UL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coverage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Energy Efficiency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IoT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LTE Evolution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Load Balancing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Load Balancing %26 Interworking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NTAS Dev Ops</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NW Coverage %26 Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RNC Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spectrum Use</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transport %2F security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VoLTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WBTS Capacity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WCDMA Voice Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eNB User Capacity</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Proposal_Recommendation_Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Upsell_Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Unique_Id__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SWx_Source_ID__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Analytics_Source__c</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Proposal_Recommendation_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Proposal_Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Unique_Id__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SWx_Source_ID__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Analytics_Source__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Cannot_Convert_Before_Check</fullName>
+        <active>true</active>
+        <description>This validation rule is to make sure user clicks on button to check Business Rules</description>
+        <errorConditionFormula>AND(OR(AND(Ready_to_Convert__c == false, ISPICKVAL( Business_Rules_Check__c , &apos;Green&apos;)),ISPICKVAL( Business_Rules_Check__c , &apos;Grey&apos; )),
+ ISPICKVAL( Upsell_Status__c , &apos;Convert&apos;) )</errorConditionFormula>
+        <errorMessage>Please click on button &quot;Verify Proposal&quot; before proceeding for conversion.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Cannot_edit_when_Converted_is_TRUE</fullName>
+        <active>false</active>
+        <errorConditionFormula>IF(Ready_to_Convert__c = true, true, false)</errorConditionFormula>
+        <errorMessage>The products are invalid</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Comment_is_mandatory_on_Cancel_Status</fullName>
+        <active>true</active>
+        <description>DSI-39 As a Solution Manager I want to be able to add some comments to the proposal so that I can provide some rationale for turning the proposition into an opportunity
+
+CCRE - DSI-113</description>
+        <errorConditionFormula>AND(
+$Permission.SWX_CCRE_Account_manager,
+ISPICKVAL( Upsell_Status__c ,&apos;Reject&apos;),
+AM_Comment__c = &apos;&apos;
+)</errorConditionFormula>
+        <errorMessage>AM Comment is mandatory when Upsell Proposal Status changed to &apos;Reject&apos;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>DS_CSC_Profile_Cannot_edit_Sold_to_party</fullName>
+        <active>true</active>
+        <description>User with DS CSC profie will not be able to edit sold to party field on DP.</description>
+        <errorConditionFormula>AND(
+$Permission.DS_CSC ,  
+OR(
+ISCHANGED( Sold_To_Party__c ),
+ISCHANGED( Analytics_Source__c ))
+)</errorConditionFormula>
+        <errorMessage>Cannot edit Sold To Party field.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Reference_Opportunity_Mandatory_For_SWX</fullName>
+        <active>true</active>
+        <description>Validation for before converting a SWX DP . Reference Opportunity is mandatory.</description>
+        <errorConditionFormula>AND(
+ISPICKVAL(Upsell_Status__c, &apos;Convert&apos;), 
+SWX_Reference_Opportunity__c = Null,
+$Profile.Name&lt;&gt;$Label.Data_Loader_Profile_Name)</errorConditionFormula>
+        <errorDisplayField>SWX_Reference_Opportunity__c</errorDisplayField>
+        <errorMessage>Reference Opportunity is mandatory for all SWX Digital Proposals.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SWMP_proposals_publish_check</fullName>
+        <active>false</active>
+        <description>Cannot change status to ready for review if Ready to convert field is Red and PO, frame Contract fields are not populated (For SWMP Proposals)</description>
+        <errorConditionFormula>AND(
+ ISPICKVAL( Upsell_Status__c , &apos;Ready For Review&apos;), 
+  RecordType.DeveloperName  = &apos;DS_SWMP_Proposals&apos; ,
+
+OR(
+ PO__c  = null,
+ Frame_Contract__c = null,
+ ISPICKVAL(Business_Rules_Check__c, &apos;Red&apos;) 
+)
+)</errorConditionFormula>
+        <errorMessage>Missing information: In order to move this Digital Proposal to Ready for Review, the following information is required: the Ready to Convert flag must be True, the CPO reference field needs to be populated, and the Agreement needs to be populated</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SWX_Expected_LOA_level_Not_There_CCRE_DP</fullName>
+        <active>true</active>
+        <description>Validation for before converting a CCRE DP . Expected LOA level is mandatory.</description>
+        <errorConditionFormula>AND(
+ISPICKVAL(Upsell_Status__c , &apos;Convert&apos;),ISPICKVAL(Analytics_Source__c ,&apos;CCRE&apos;),
+ISPICKVAL(Expected_LoA_Level__c ,&apos;&apos;),$Profile.Name&lt;&gt;$Label.Data_Loader_Profile_Name)</errorConditionFormula>
+        <errorMessage>Expected LOA is mandatory for every CCRE Digital Proposal.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SWX_Expected_LOA_level_Removed_on_CXM</fullName>
+        <active>true</active>
+        <description>validation for before converting a CXM DP . If expected LOA is removed.</description>
+        <errorConditionFormula>AND( 
+ISPICKVAL(Upsell_Status__c , &apos;Convert&apos;),
+ISPICKVAL(PRIORVALUE(Expected_LoA_Level__c) ,&apos;LoA Bypass&apos;),ISPICKVAL(Expected_LoA_Level__c, &apos;&apos;),
+$Profile.Name&lt;&gt;$Label.Data_Loader_Profile_Name)</errorConditionFormula>
+        <errorMessage>&apos;Expected LoA&apos; is mandatory field. Please add value.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Updating_Upsell_Stage</fullName>
+        <active>true</active>
+        <description>proposal manager can only change state from draft to ready to convert or cancel.</description>
+        <errorConditionFormula>AND(
+ ISCHANGED(Upsell_Status__c),
+OR( $Permission.SWX_CCRE_Proposal_Manager, $Permission.SWX_CCRE_Solution_Manager), 
+OR(
+ISPICKVAL(Upsell_Status__c,&quot;Convert&quot;),
+ISPICKVAL(Upsell_Status__c,&quot;Reject&quot;)))</errorConditionFormula>
+        <errorDisplayField>Upsell_Status__c</errorDisplayField>
+        <errorMessage>your role does not allow you to perform this action</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>validation_on_convert_and_reject_state</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISCHANGED(Upsell_Status__c) ,
+NOT(ISPICKVAL(PRIORVALUE(Upsell_Status__c),&quot;Ready To Convert&quot;)), ISPICKVAL(Upsell_Status__c,&quot;Convert&quot;))</errorConditionFormula>
+        <errorMessage>Proposal must be in &quot;Ready To Convert&quot; state before conversion.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

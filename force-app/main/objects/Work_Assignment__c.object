@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>TOOLKIT - An object that represents the assignment of a specific unit of work to a project team member.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Assignment__c</fullName>
+        <description>Different types of assignments</description>
+        <externalId>false</externalId>
+        <label>Assignment</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Estimate</fullName>
+                    <default>false</default>
+                    <label>Estimate</label>
+                </value>
+                <value>
+                    <fullName>Design</fullName>
+                    <default>false</default>
+                    <label>Design</label>
+                </value>
+                <value>
+                    <fullName>Build</fullName>
+                    <default>false</default>
+                    <label>Build</label>
+                </value>
+                <value>
+                    <fullName>Test</fullName>
+                    <default>false</default>
+                    <label>Test</label>
+                </value>
+                <value>
+                    <fullName>Deploy</fullName>
+                    <default>false</default>
+                    <label>Deploy</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Complete_Date__c</fullName>
+        <defaultValue>TODAY()</defaultValue>
+        <description>Work Requirement created date.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Complete Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Work Requirement Name</description>
+        <externalId>false</externalId>
+        <label>Name</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Requirement_Assignments</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Project_Role__c</fullName>
+        <description>Awaiting requirement specification for the field.</description>
+        <externalId>false</externalId>
+        <label>Project Role</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Business Analyst</fullName>
+                    <default>false</default>
+                    <label>Business Analyst</label>
+                </value>
+                <value>
+                    <fullName>Configuration Resource</fullName>
+                    <default>false</default>
+                    <label>Configuration Resource</label>
+                </value>
+                <value>
+                    <fullName>Data Architect</fullName>
+                    <default>false</default>
+                    <label>Data Architect</label>
+                </value>
+                <value>
+                    <fullName>Data Migration Resource</fullName>
+                    <default>false</default>
+                    <label>Data Migration Resource</label>
+                </value>
+                <value>
+                    <fullName>Development Lead</fullName>
+                    <default>false</default>
+                    <label>Development Lead</label>
+                </value>
+                <value>
+                    <fullName>Development Resource</fullName>
+                    <default>false</default>
+                    <label>Development Resource</label>
+                </value>
+                <value>
+                    <fullName>Integration Resource</fullName>
+                    <default>false</default>
+                    <label>Integration Resource</label>
+                </value>
+                <value>
+                    <fullName>Program Manager</fullName>
+                    <default>false</default>
+                    <label>Program Manager</label>
+                </value>
+                <value>
+                    <fullName>Project Manager</fullName>
+                    <default>false</default>
+                    <label>Project Manager</label>
+                </value>
+                <value>
+                    <fullName>QA/Testing Lead</fullName>
+                    <default>false</default>
+                    <label>QA/Testing Lead</label>
+                </value>
+                <value>
+                    <fullName>QA/Testing Resource</fullName>
+                    <default>false</default>
+                    <label>QA/Testing Resource</label>
+                </value>
+                <value>
+                    <fullName>Release Analyst</fullName>
+                    <default>false</default>
+                    <label>Release Analyst</label>
+                </value>
+                <value>
+                    <fullName>Release Manager</fullName>
+                    <default>false</default>
+                    <label>Release Manager</label>
+                </value>
+                <value>
+                    <fullName>Solution Architect</fullName>
+                    <default>false</default>
+                    <label>Solution Architect</label>
+                </value>
+                <value>
+                    <fullName>Solution Lead</fullName>
+                    <default>false</default>
+                    <label>Solution Lead</label>
+                </value>
+                <value>
+                    <fullName>Technical Architect</fullName>
+                    <default>false</default>
+                    <label>Technical Architect</label>
+                </value>
+                <value>
+                    <fullName>Technical Lead</fullName>
+                    <default>false</default>
+                    <label>Technical Lead</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Requirement_Number__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Related request with the work assignment</description>
+        <externalId>false</externalId>
+        <label>Requirement #</label>
+        <referenceTo>Request__c</referenceTo>
+        <relationshipLabel>Work Assignment</relationshipLabel>
+        <relationshipName>Work_Assignments</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <description>Status of the work asignment</description>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Started</fullName>
+                    <default>true</default>
+                    <label>Not Started</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Complete</fullName>
+                    <default>false</default>
+                    <label>Complete</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Work Assignment</label>
+    <nameField>
+        <displayFormat>{000}</displayFormat>
+        <label>Work ID</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Work Assignments</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Assignment__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Requirement_Number__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATED_DATE</customTabListAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>WA_Create_Date</fullName>
+        <active>false</active>
+        <description>Work Assignment Creation Date must be greater than Today.</description>
+        <errorConditionFormula>Complete_Date__c  &lt; TODAY()</errorConditionFormula>
+        <errorMessage>Creation Date must be greater than Today.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

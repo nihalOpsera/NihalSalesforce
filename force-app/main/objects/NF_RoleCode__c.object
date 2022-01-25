@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Used to fetch duplicate role codes related to iwa.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>A_S__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>A&amp;S</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BG_Attribute__c</fullName>
+        <description>List of possible BG Attribute Values</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>BG Attribute</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hierarchy_Level__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Hierarchy Level</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NF_Multiple_level__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Role code is in multiple level?</description>
+        <externalId>false</externalId>
+        <label>Multiple level?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Role_name__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Role name</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>IWA Role codes</label>
+    <listViews>
+        <fullName>AA_name_change_to_NSW_IWA_Role_Code</fullName>
+        <columns>NAME</columns>
+        <columns>BG_Attribute__c</columns>
+        <columns>Role_name__c</columns>
+        <columns>NF_Multiple_level__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>BG_Attribute__c</field>
+            <operation>contains</operation>
+            <value>AA</value>
+        </filters>
+        <label>AA name change to NSW - IWA Role Code</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_entries</fullName>
+        <columns>NAME</columns>
+        <columns>Hierarchy_Level__c</columns>
+        <columns>Role_name__c</columns>
+        <columns>BG_Attribute__c</columns>
+        <columns>A_S__c</columns>
+        <columns>NF_Multiple_level__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All entries</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>OCT182019</fullName>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <columns>NAME</columns>
+        <columns>A_S__c</columns>
+        <columns>BG_Attribute__c</columns>
+        <columns>Hierarchy_Level__c</columns>
+        <columns>NF_Multiple_level__c</columns>
+        <columns>Role_name__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>equals</operation>
+            <value>NSNA_ESAPA</value>
+        </filters>
+        <filters>
+            <field>NAME</field>
+            <operation>equals</operation>
+            <value>NSNA_TSAPA</value>
+        </filters>
+        <filters>
+            <field>NAME</field>
+            <operation>equals</operation>
+            <value>NSNA_BSAPA</value>
+        </filters>
+        <label>OCT182019</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Omarrrr</fullName>
+        <columns>NAME</columns>
+        <columns>A_S__c</columns>
+        <columns>BG_Attribute__c</columns>
+        <columns>Hierarchy_Level__c</columns>
+        <columns>NF_Multiple_level__c</columns>
+        <columns>Role_name__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>APE</value>
+        </filters>
+        <label>Omar</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Ticket_10225</fullName>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7</booleanFilter>
+        <columns>OBJECT_ID</columns>
+        <columns>NAME</columns>
+        <columns>BG_Attribute__c</columns>
+        <columns>NF_Multiple_level__c</columns>
+        <columns>Role_name__c</columns>
+        <columns>SETUP_TYPE</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Role_name__c</field>
+            <operation>contains</operation>
+            <value>BG FoC Approver</value>
+        </filters>
+        <filters>
+            <field>Role_name__c</field>
+            <operation>contains</operation>
+            <value>BG Risk Order Approver 1</value>
+        </filters>
+        <filters>
+            <field>Role_name__c</field>
+            <operation>contains</operation>
+            <value>BG Risk Order Approver 2</value>
+        </filters>
+        <filters>
+            <field>Role_name__c</field>
+            <operation>contains</operation>
+            <value>BG Trial Demo Approver</value>
+        </filters>
+        <filters>
+            <field>Role_name__c</field>
+            <operation>contains</operation>
+            <value>BG FoC Validator</value>
+        </filters>
+        <filters>
+            <field>Role_name__c</field>
+            <operation>contains</operation>
+            <value>BG Risk Order Validator</value>
+        </filters>
+        <filters>
+            <field>Role_name__c</field>
+            <operation>contains</operation>
+            <value>BG Trial Demo Validator</value>
+        </filters>
+        <label>Ticket 10225</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Ticket_102251</fullName>
+        <columns>OBJECT_ID</columns>
+        <columns>NAME</columns>
+        <columns>BG_Attribute__c</columns>
+        <columns>NF_Multiple_level__c</columns>
+        <columns>Role_name__c</columns>
+        <columns>SETUP_TYPE</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Role_name__c</field>
+            <operation>contains</operation>
+            <value>NSB IB CBT Head</value>
+        </filters>
+        <label>Ticket 10738</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

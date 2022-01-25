@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Stores private groups of Interface Key Users for each external system (ex. Orange)</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>CollaborationGroupName__c</fullName>
+        <description>Name of CollaborationGroup</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of Group of Interface Group Uses</inlineHelpText>
+        <label>Collaboration Group Name</label>
+        <length>100</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ExternalSystem__c</fullName>
+        <description>Name of external system (ex. orange-irma)</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of external system (Case.CH_CaseOriginSystem__c picklist value, ex. orange-irma).</inlineHelpText>
+        <label>External System API Name</label>
+        <length>100</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>CH Interface Key Groups</label>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>CH Customer Specific Target SLA</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>CH_Account__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Set lookup filter to find the correct Account record based on CH_CDB_CustomerId__c. This is part of the Customer specific Legacy target SLA value keys (Account, Service Contract, Line Item Number, Entitlement Id, Severity, Outage)</description>
+        <externalId>false</externalId>
+        <label>Account Name</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>CH Customer Specific Target SLAs</relationshipLabel>
+        <relationshipName>CH_Customer_Specific_Target_SLAs</relationshipName>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_Entitlement__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>When storing the Entitlement record we use this field to map Salesforce Entitlement Id (which then will be used by the Case Milestones) against the correct Service Mapping Id coming from CDB. This is part of the Customer specific Legacy target SLA value keys (Account, Service Contract, Line Item Number, Entitlement Id, Severity, Outage)</description>
+        <externalId>false</externalId>
+        <label>Entitlement Id</label>
+        <referenceTo>Entitlement</referenceTo>
+        <relationshipLabel>CH Customer Specific Target SLAs</relationshipLabel>
+        <relationshipName>CH_Customer_Specific_Target_SLAs</relationshipName>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_IR_Duration__c</fullName>
+        <description>Initial Response Duration field will be a whole number</description>
+        <externalId>false</externalId>
+        <label>Initial Response Duration</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_IR_Percentage__c</fullName>
+        <description>Value when populated should be between 0 to 100</description>
+        <externalId>false</externalId>
+        <label>Initial Response %</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_IR_Unit__c</fullName>
+        <description>Initial Response Unit</description>
+        <externalId>false</externalId>
+        <label>Initial Response Unit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>CH_MilestoneUnitType</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_IR_WorkMins__c</fullName>
+        <description>Intial Response Work Mins will be a whole number</description>
+        <externalId>false</externalId>
+        <label>Intial Response Work Mins</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_LineItemNumber__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Set lookup filter to find the correct Contract Line Item record based on CH_CDB_Entitlement_ID. This is part of the Customer specific Legacy target SLA value keys (Account, Service Contract, Line Item Number, Entitlement Id, Severity, Outage)</description>
+        <externalId>false</externalId>
+        <label>Line Item Number</label>
+        <referenceTo>ContractLineItem</referenceTo>
+        <relationshipLabel>CH Customer Specific Target SLAs (Line Item Number)</relationshipLabel>
+        <relationshipName>CH_Customer_Specific_Target_SLAs1</relationshipName>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_Outage__c</fullName>
+        <description>Outage</description>
+        <externalId>false</externalId>
+        <label>Outage</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_SDR_Duration__c</fullName>
+        <description>Service Disruption Report Duration will be a whole number</description>
+        <externalId>false</externalId>
+        <label>Service Disruption Report Duration</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_SDR_Percentage__c</fullName>
+        <description>Value when populated should be between 0 to 100</description>
+        <externalId>false</externalId>
+        <label>Service Disruption Report %</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_SDR_Unit__c</fullName>
+        <description>Service Disruption Report Unit</description>
+        <externalId>false</externalId>
+        <label>Service Disruption Report Unit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>CH_MilestoneUnitType</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_SDR_WorkMins__c</fullName>
+        <description>Service Disruption Report Work Mins will be a whole number</description>
+        <externalId>false</externalId>
+        <label>Service Disruption Report Work Mins</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_SLARecordStatus__c</fullName>
+        <description>New custom picklist with Default value = Active. When CDB sends updates to customer service contract specific target SLA values, we need to inactivate the old row.</description>
+        <externalId>false</externalId>
+        <label>SLA Record Status</label>
+        <required>true</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>true</default>
+                    <label>Active</label>
+                </value>
+                <value>
+                    <fullName>Inactive</fullName>
+                    <default>false</default>
+                    <label>Inactive</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_SPD_Duration__c</fullName>
+        <description>Solution Provided Duration (Defect) will be a whole number</description>
+        <externalId>false</externalId>
+        <label>Solution Provided Duration (Defect)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_SPD_Percentage__c</fullName>
+        <description>Value when populated should be between 0 to 100</description>
+        <externalId>false</externalId>
+        <label>Solution Provided % (Defect)</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_SPD_Unit__c</fullName>
+        <description>Solution Provided Unit (Defect)</description>
+        <externalId>false</externalId>
+        <label>Solution Provided Unit (Defect)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>CH_MilestoneUnitType</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_SPD_WorkMins__c</fullName>
+        <description>Solution Provided Work Mins (Defect) will be a whole number</description>
+        <externalId>false</externalId>
+        <label>Solution Provided Work Mins (Defect)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_SP_Duration__c</fullName>
+        <description>Solution Provided Duration (Non Defect) will be a whole number</description>
+        <externalId>false</externalId>
+        <label>Solution Provided Duration (Non Defect)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_SP_Percentage__c</fullName>
+        <description>Value when populated should be between 0 to 100</description>
+        <externalId>false</externalId>
+        <label>Solution Provided % (Non Defect)</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_SP_Unit__c</fullName>
+        <description>Solution Provided Unit (Non Defect)</description>
+        <externalId>false</externalId>
+        <label>Solution Provided Unit (Non Defect)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>CH_MilestoneUnitType</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_SP_WorkMins__c</fullName>
+        <description>Solution Provided Work Mins (Non Defect) will be a whole number</description>
+        <externalId>false</externalId>
+        <label>Solution Provided Work Mins (Non Defect)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_SR_Duration__c</fullName>
+        <description>System Restored Duration will be a whole number</description>
+        <externalId>false</externalId>
+        <label>System Restored Duration</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_SR_Percentage__c</fullName>
+        <description>Value when populated should be between 0 to 100</description>
+        <externalId>false</externalId>
+        <label>System Restored %</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_SR_Unit__c</fullName>
+        <description>System Restored Unit</description>
+        <externalId>false</externalId>
+        <label>System Restored Unit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>CH_MilestoneUnitType</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_SR_WorkMins__c</fullName>
+        <description>System Restored Work Mins will be a whole number</description>
+        <externalId>false</externalId>
+        <label>System Restored Work Mins</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_ServiceContract__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Set lookup filter to find the correct Service Contract record based on CH_CDB_Contract_ID. This is part of the Customer specific Legacy target SLA value keys (Account, Service Contract, Line Item Number, Entitlement Id, Severity, Outage)</description>
+        <externalId>false</externalId>
+        <label>Service Contract</label>
+        <referenceTo>ServiceContract</referenceTo>
+        <relationshipLabel>CH Customer Specific Target SLAs</relationshipLabel>
+        <relationshipName>CH_Customer_Specific_Target_SLAs</relationshipName>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_ServiceMappingId__c</fullName>
+        <description>Name of Entitlement Process in SF which will enable mapping.</description>
+        <externalId>false</externalId>
+        <label>Service Mapping Id</label>
+        <required>true</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>CH_ServiceMappingType</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Severity__c</fullName>
+        <description>Case Severity</description>
+        <externalId>false</externalId>
+        <label>Severity</label>
+        <required>true</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Critical</fullName>
+                    <default>false</default>
+                    <label>Critical</label>
+                </value>
+                <value>
+                    <fullName>Major</fullName>
+                    <default>false</default>
+                    <label>Major</label>
+                </value>
+                <value>
+                    <fullName>Minor</fullName>
+                    <default>false</default>
+                    <label>Minor</label>
+                </value>
+                <value>
+                    <fullName>Information Request</fullName>
+                    <default>false</default>
+                    <label>Information Request</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_TSP_Duration__c</fullName>
+        <description>Temp Solution Provided Duration will be a whole number</description>
+        <externalId>false</externalId>
+        <label>Temp Solution Provided Duration</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_TSP_Percentage__c</fullName>
+        <description>Value when populated should be between 0 to 100</description>
+        <externalId>false</externalId>
+        <label>Temp Solution Provided %</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_TSP_Unit__c</fullName>
+        <description>Temp Solution Provided Unit</description>
+        <externalId>false</externalId>
+        <label>Temp Solution Provided Unit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>CH_MilestoneUnitType</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_TSP_WorkMins__c</fullName>
+        <description>Temp Solution Provided Work Mins will be a whole number</description>
+        <externalId>false</externalId>
+        <label>Temp Solution Provided Work Mins</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>CH Customer Specific Target SLA</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>A-{000000}</displayFormat>
+        <label>CH Customer Specific Target SLA Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>CH Customer Specific Target SLAs</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

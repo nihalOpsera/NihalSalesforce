@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Contains merge fields for use in DCP email templates</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>salutation_contact_page__c</fullName>
+        <description>Link to a contact page</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter the URL of a contact page</inlineHelpText>
+        <label>Salutation Contact Page</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>salutation_email__c</fullName>
+        <description>Contact email address</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter an email address.</inlineHelpText>
+        <label>Salutation Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>salutation_name__c</fullName>
+        <description>Name of the Nokia Support Team</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Provide the name of the Nokia support team</inlineHelpText>
+        <label>Salutation Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>salutation_phone__c</fullName>
+        <description>Phone number</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter a phone number</inlineHelpText>
+        <label>Salutation Phone</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <label>Email_Merge_Fields</label>
+    <visibility>Public</visibility>
+</CustomObject>

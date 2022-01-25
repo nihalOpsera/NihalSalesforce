@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Tangible and measurable steps to achieve the plans high level purpose. Each objective has a type, a start and end date, and metrics to quantity targets and achieved results.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>SFCCLtngPtr__Channel_Account_Plan__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Channel Account Plan</label>
+        <referenceTo>SFCCLtngPtr__SFDC_Channel_Account_Plan__c</referenceTo>
+        <relationshipLabel>Objectives</relationshipLabel>
+        <relationshipName>R00N30000001JLxyEAG</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Days_Left_Over__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF (ISPICKVAL (SFCCLtngPtr__Status__c, &quot;Accomplished Objective&quot;),0,     IF (ISPICKVAL (SFCCLtngPtr__Status__c, &quot;Exceeded Expectations&quot;),0,SFCCLtngPtr__End_Date__c-TODAY()))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days Left/ (Over)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>1000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__End_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Goal_Attained__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>if(NULLVALUE(SFCCLtngPtr__Metric_Result__c,0) &lt;&gt; 0,   if(NULLVALUE(SFCCLtngPtr__Metric_Goal__c, 0) &lt;&gt; 0, SFCCLtngPtr__Metric_Result__c / SFCCLtngPtr__Metric_Goal__c, null), null)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>% Goal Attained</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Metric_Goal__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Metric Goal</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Metric_Result__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Metric Result</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Objective_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Objective Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Expand Market Coverage (verticals, geography, product)</fullName>
+                    <default>false</default>
+                    <label>Expand Market Coverage (verticals, geography, product)</label>
+                </value>
+                <value>
+                    <fullName>Generage New Opportunities</fullName>
+                    <default>false</default>
+                    <label>Generage New Opportunities</label>
+                </value>
+                <value>
+                    <fullName>Improve Customer Satisfaction</fullName>
+                    <default>false</default>
+                    <label>Improve Customer Satisfaction</label>
+                </value>
+                <value>
+                    <fullName>Improve Service Levels</fullName>
+                    <default>false</default>
+                    <label>Improve Service Levels</label>
+                </value>
+                <value>
+                    <fullName>Increase Certifications</fullName>
+                    <default>false</default>
+                    <label>Increase Certifications</label>
+                </value>
+                <value>
+                    <fullName>Increase Customer Base</fullName>
+                    <default>false</default>
+                    <label>Increase Customer Base</label>
+                </value>
+                <value>
+                    <fullName>Increase Leads</fullName>
+                    <default>false</default>
+                    <label>Increase Leads</label>
+                </value>
+                <value>
+                    <fullName>Increase Partner Revenue</fullName>
+                    <default>false</default>
+                    <label>Increase Partner Revenue</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Priority__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Priority</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>true</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Urgent</fullName>
+                    <default>false</default>
+                    <label>Urgent</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Stage__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>if ( SFCCLtngPtr__Days_Left_Over__c &lt; 0, &quot;Overdue&quot;, if( SFCCLtngPtr__Days_Left_Over__c &gt; 0, &quot;In Progress&quot;, &quot;Complete&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Stage</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Start_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Half-way</fullName>
+                    <default>false</default>
+                    <label>Half-way</label>
+                </value>
+                <value>
+                    <fullName>Three Quarters</fullName>
+                    <default>false</default>
+                    <label>Three Quarters</label>
+                </value>
+                <value>
+                    <fullName>Accomplished Objective</fullName>
+                    <default>false</default>
+                    <label>Accomplished Objective</label>
+                </value>
+                <value>
+                    <fullName>Exceeded Expectations</fullName>
+                    <default>false</default>
+                    <label>Exceeded Expectations</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SFCCLtngPtr__Success_Measure__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Success Measure</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Revenue</fullName>
+                    <default>false</default>
+                    <label>Revenue</label>
+                </value>
+                <value>
+                    <fullName>Growth</fullName>
+                    <default>false</default>
+                    <label>Growth</label>
+                </value>
+                <value>
+                    <fullName>Brand Recognition</fullName>
+                    <default>false</default>
+                    <label>Brand Recognition</label>
+                </value>
+                <value>
+                    <fullName>Product Knowledge</fullName>
+                    <default>false</default>
+                    <label>Product Knowledge</label>
+                </value>
+                <value>
+                    <fullName>Trained Employees</fullName>
+                    <default>false</default>
+                    <label>Trained Employees</label>
+                </value>
+                <value>
+                    <fullName>Customer Satisfaction</fullName>
+                    <default>false</default>
+                    <label>Customer Satisfaction</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Objective</label>
+    <listViews>
+        <fullName>SFCCLtngPtr__All</fullName>
+        <columns>NAME</columns>
+        <columns>SFCCLtngPtr__Channel_Account_Plan__c</columns>
+        <columns>SFCCLtngPtr__Stage__c</columns>
+        <columns>SFCCLtngPtr__Start_Date__c</columns>
+        <columns>SFCCLtngPtr__End_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>SFCCLtngPtr__ObjectivesDueNext30Days</fullName>
+        <columns>NAME</columns>
+        <columns>SFCCLtngPtr__Channel_Account_Plan__c</columns>
+        <columns>SFCCLtngPtr__End_Date__c</columns>
+        <columns>SFCCLtngPtr__Stage__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>SFCCLtngPtr__End_Date__c</field>
+            <operation>equals</operation>
+            <value>NEXT_N_DAYS:30</value>
+        </filters>
+        <label>Objectives Due - Next 30 Days</label>
+    </listViews>
+    <listViews>
+        <fullName>SFCCLtngPtr__ObjectivesOverdue</fullName>
+        <columns>NAME</columns>
+        <columns>SFCCLtngPtr__Channel_Account_Plan__c</columns>
+        <columns>SFCCLtngPtr__Stage__c</columns>
+        <columns>SFCCLtngPtr__Start_Date__c</columns>
+        <columns>SFCCLtngPtr__End_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>SFCCLtngPtr__Stage__c</field>
+            <operation>equals</operation>
+            <value>Overdue</value>
+        </filters>
+        <label>Objectives - Overdue</label>
+    </listViews>
+    <nameField>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Objective Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Objectives</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>SFCCLtngPtr__Channel_Account_Plan__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SFCCLtngPtr__Stage__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SFCCLtngPtr__Start_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SFCCLtngPtr__End_Date__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>SFCCLtngPtr__Channel_Account_Plan__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SFCCLtngPtr__Start_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SFCCLtngPtr__End_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SFCCLtngPtr__Status__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>SFCCLtngPtr__Channel_Account_Plan__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SFCCLtngPtr__Start_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SFCCLtngPtr__End_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATEDBY_USER</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>CH_Workgroup_Schedule_Layout</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>CH_Workgroup_Schedule_Layout</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>CH_Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>To determine whether schedule is active or not US# 16339</description>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CH_Description__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_EndDateTime__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>EndDateTime</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CH_End_DateTime__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>End DateTime</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CH_End_Date__c</fullName>
+        <description>Created as a part of NOKIASC-33455.Used to store the End Date of the Schedule.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CH_End_Time__c</fullName>
+        <description>Created as a part of NOKIASC-33455.Used to store the End Time of the Schedule.</description>
+        <externalId>false</externalId>
+        <label>End Time</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Time</type>
+    </fields>
+    <fields>
+        <fullName>CH_StartDateTime__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>StartDateTime</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CH_Start_DateTime__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Start DateTime</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CH_Start_Date__c</fullName>
+        <description>Created as a part of NOKIASC-33455.Used to store the Start Date of the Schedule.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CH_Start_Time__c</fullName>
+        <description>Created as a part of NOKIASC-33455.Used to store the Start Time of the Schedule.</description>
+        <externalId>false</externalId>
+        <label>Start Time</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Time</type>
+    </fields>
+    <fields>
+        <fullName>CH_Time_Zone__c</fullName>
+        <defaultValue>&quot;UTC &quot;
++ IF((DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 00:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 01:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 02:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 03:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 04:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 05:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 06:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 07:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 08:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 09:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 10:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 11:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 12:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 13:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 14:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 15:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 16:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 17:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 18:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 19:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 20:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 21:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 22:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 23:00:00&quot;)) - TODAY()) &gt;= 0,&quot;+&quot;,&quot;&quot;)  
++ TEXT(
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 00:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 01:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 02:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 03:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 04:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 05:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 06:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 07:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 08:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 09:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 10:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 11:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 12:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 13:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 14:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 15:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 16:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 17:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 18:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 19:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 20:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 21:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 22:00:00&quot;)) - TODAY()) + 
+(DATEVALUE(DATETIMEVALUE(TEXT(TODAY())+&quot; 23:00:00&quot;)) - TODAY())
+)</defaultValue>
+        <externalId>false</externalId>
+        <label>Time Zone</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>UTC</fullName>
+                    <default>false</default>
+                    <label>UTC</label>
+                </value>
+                <value>
+                    <fullName>UTC -1</fullName>
+                    <default>false</default>
+                    <label>UTC -1</label>
+                </value>
+                <value>
+                    <fullName>UTC -2</fullName>
+                    <default>false</default>
+                    <label>UTC -2</label>
+                </value>
+                <value>
+                    <fullName>UTC -2:30</fullName>
+                    <default>false</default>
+                    <label>UTC -2:30</label>
+                </value>
+                <value>
+                    <fullName>UTC -3</fullName>
+                    <default>false</default>
+                    <label>UTC -3</label>
+                </value>
+                <value>
+                    <fullName>UTC -3:30</fullName>
+                    <default>false</default>
+                    <label>UTC -3:30</label>
+                </value>
+                <value>
+                    <fullName>UTC -4</fullName>
+                    <default>false</default>
+                    <label>UTC -4</label>
+                </value>
+                <value>
+                    <fullName>UTC -5</fullName>
+                    <default>false</default>
+                    <label>UTC -5</label>
+                </value>
+                <value>
+                    <fullName>UTC -6</fullName>
+                    <default>false</default>
+                    <label>UTC -6</label>
+                </value>
+                <value>
+                    <fullName>UTC -7</fullName>
+                    <default>false</default>
+                    <label>UTC -7</label>
+                </value>
+                <value>
+                    <fullName>UTC -8</fullName>
+                    <default>false</default>
+                    <label>UTC -8</label>
+                </value>
+                <value>
+                    <fullName>UTC -9</fullName>
+                    <default>false</default>
+                    <label>UTC -9</label>
+                </value>
+                <value>
+                    <fullName>UTC -9:30</fullName>
+                    <default>false</default>
+                    <label>UTC -9:30</label>
+                </value>
+                <value>
+                    <fullName>UTC -10</fullName>
+                    <default>false</default>
+                    <label>UTC -10</label>
+                </value>
+                <value>
+                    <fullName>UTC -11</fullName>
+                    <default>false</default>
+                    <label>UTC -11</label>
+                </value>
+                <value>
+                    <fullName>UTC -12</fullName>
+                    <default>false</default>
+                    <label>UTC -12</label>
+                </value>
+                <value>
+                    <fullName>UTC +0</fullName>
+                    <default>false</default>
+                    <label>UTC +0</label>
+                </value>
+                <value>
+                    <fullName>UTC +1</fullName>
+                    <default>false</default>
+                    <label>UTC +1</label>
+                </value>
+                <value>
+                    <fullName>UTC +2</fullName>
+                    <default>false</default>
+                    <label>UTC +2</label>
+                </value>
+                <value>
+                    <fullName>UTC +3</fullName>
+                    <default>false</default>
+                    <label>UTC +3</label>
+                </value>
+                <value>
+                    <fullName>UTC +3:30</fullName>
+                    <default>false</default>
+                    <label>UTC +3:30</label>
+                </value>
+                <value>
+                    <fullName>UTC +4</fullName>
+                    <default>false</default>
+                    <label>UTC +4</label>
+                </value>
+                <value>
+                    <fullName>UTC +4:30</fullName>
+                    <default>false</default>
+                    <label>UTC +4:30</label>
+                </value>
+                <value>
+                    <fullName>UTC +5</fullName>
+                    <default>false</default>
+                    <label>UTC +5</label>
+                </value>
+                <value>
+                    <fullName>UTC +5:30</fullName>
+                    <default>false</default>
+                    <label>UTC +5:30</label>
+                </value>
+                <value>
+                    <fullName>UTC +5:45</fullName>
+                    <default>false</default>
+                    <label>UTC +5:45</label>
+                </value>
+                <value>
+                    <fullName>UTC +6</fullName>
+                    <default>false</default>
+                    <label>UTC +6</label>
+                </value>
+                <value>
+                    <fullName>UTC +6:30</fullName>
+                    <default>false</default>
+                    <label>UTC +6:30</label>
+                </value>
+                <value>
+                    <fullName>UTC +7</fullName>
+                    <default>false</default>
+                    <label>UTC +7</label>
+                </value>
+                <value>
+                    <fullName>UTC +8</fullName>
+                    <default>false</default>
+                    <label>UTC +8</label>
+                </value>
+                <value>
+                    <fullName>UTC +8:30</fullName>
+                    <default>false</default>
+                    <label>UTC +8:30</label>
+                </value>
+                <value>
+                    <fullName>UTC +8:45</fullName>
+                    <default>false</default>
+                    <label>UTC +8:45</label>
+                </value>
+                <value>
+                    <fullName>UTC +9</fullName>
+                    <default>false</default>
+                    <label>UTC +9</label>
+                </value>
+                <value>
+                    <fullName>UTC +9:30</fullName>
+                    <default>false</default>
+                    <label>UTC +9:30</label>
+                </value>
+                <value>
+                    <fullName>UTC +10</fullName>
+                    <default>false</default>
+                    <label>UTC +10</label>
+                </value>
+                <value>
+                    <fullName>UTC +11</fullName>
+                    <default>false</default>
+                    <label>UTC +11</label>
+                </value>
+                <value>
+                    <fullName>UTC +12</fullName>
+                    <default>false</default>
+                    <label>UTC +12</label>
+                </value>
+                <value>
+                    <fullName>UTC +12:45</fullName>
+                    <default>false</default>
+                    <label>UTC +12:45</label>
+                </value>
+                <value>
+                    <fullName>UTC +13</fullName>
+                    <default>false</default>
+                    <label>UTC +13</label>
+                </value>
+                <value>
+                    <fullName>UTC +13:45</fullName>
+                    <default>false</default>
+                    <label>UTC +13:45</label>
+                </value>
+                <value>
+                    <fullName>UTC +14</fullName>
+                    <default>false</default>
+                    <label>UTC +14</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Workgroup_Filters_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Workgroup Filters Count</label>
+        <summaryForeignKey>CH_Workgroup_Filter__c.CH_Workgroup_Schedule__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>CH_Workgroup__c</fullName>
+        <externalId>false</externalId>
+        <label>Workgroup</label>
+        <referenceTo>CH_Workgroup__c</referenceTo>
+        <relationshipLabel>Workgroup Schedules</relationshipLabel>
+        <relationshipName>Workgroup_Schedules1</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <label>Workgroup Schedule</label>
+    <nameField>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Workgroup Schedule Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Workgroup Schedules</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>CH_EndDate_After_StartDate</fullName>
+        <active>true</active>
+        <errorConditionFormula>DATETIMEVALUE(CH_End_DateTime__c) &lt;=  DATETIMEVALUE(CH_Start_DateTime__c)</errorConditionFormula>
+        <errorMessage>The end date needs to be later then the start date</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This Custom-Meta Data Type is used in QTO Project. It contains configurations, messages that are used during Tasks Creation &amp; Logs Management (QTO_Customer_Document_Issue_Log__c)</description>
+    <fields>
+        <fullName>QTO_Investigating_Group__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Investigating Group</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Contract Administration(CAM)</fullName>
+                    <default>true</default>
+                    <label>Contract Administration(CAM)</label>
+                </value>
+                <value>
+                    <fullName>Financial Project Controllers (FPC)</fullName>
+                    <default>false</default>
+                    <label>Financial Project Controllers (FPC)</label>
+                </value>
+                <value>
+                    <fullName>MSM</fullName>
+                    <default>false</default>
+                    <label>MSM</label>
+                </value>
+                <value>
+                    <fullName>Order Processing</fullName>
+                    <default>false</default>
+                    <label>Order Processing</label>
+                </value>
+                <value>
+                    <fullName>Project Management</fullName>
+                    <default>false</default>
+                    <label>Project Management</label>
+                </value>
+                <value>
+                    <fullName>Quote Administration</fullName>
+                    <default>false</default>
+                    <label>Quote Administration</label>
+                </value>
+                <value>
+                    <fullName>Sales</fullName>
+                    <default>false</default>
+                    <label>Sales</label>
+                </value>
+                <value>
+                    <fullName>Order Management</fullName>
+                    <default>false</default>
+                    <label>Order Management</label>
+                </value>
+                <value>
+                    <fullName>Market Operation</fullName>
+                    <default>false</default>
+                    <label>Market Operation</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QTO_Log_Details__c</fullName>
+        <description>Message to show in logs</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Log Details</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>QTO_Return_Code__c</fullName>
+        <description>Field to store Return code number - Value must should be Unique.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Return Code</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QTO_Return_Description__c</fullName>
+        <description>Detail description of Error/Warnings</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Return Description</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>QTO_Return_Type__c</fullName>
+        <description>Field to store whether its Error or Warning</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Return Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Error</fullName>
+                    <default>true</default>
+                    <label>Error</label>
+                </value>
+                <value>
+                    <fullName>Warning</fullName>
+                    <default>false</default>
+                    <label>Warning</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QTO_Task_Subject__c</fullName>
+        <description>Value of this field would be used to set Tasks Subject.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Task Subject</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CD Registration</fullName>
+                    <default>true</default>
+                    <label>CD Registration</label>
+                </value>
+                <value>
+                    <fullName>CD Association</fullName>
+                    <default>false</default>
+                    <label>CD Association</label>
+                </value>
+                <value>
+                    <fullName>CD Match</fullName>
+                    <default>false</default>
+                    <label>CD Match</label>
+                </value>
+                <value>
+                    <fullName>CD Enrichment</fullName>
+                    <default>false</default>
+                    <label>CD Enrichment</label>
+                </value>
+                <value>
+                    <fullName>CDLI Registration</fullName>
+                    <default>false</default>
+                    <label>CDLI Registration</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QTO_Tasks_Due_Date__c</fullName>
+        <description>Due Date of Tasks</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Tasks Due Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>QTO_Tasks_Priority__c</fullName>
+        <description>Priority of Tasks</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Tasks Priority</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Normal</fullName>
+                    <default>true</default>
+                    <label>Normal</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Priority</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Priority</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QTO_Tasks_Status__c</fullName>
+        <description>Status of Tasks</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Tasks Status</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>true</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Exception</fullName>
+                    <default>false</default>
+                    <label>Exception</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>QTO Exception Configuration</label>
+    <pluralLabel>QTO Exception Configurations</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

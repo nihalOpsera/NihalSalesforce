@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>This Custom setting is responsible storing the Technology and use-case combination.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>DS_Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field will be active if the Technology is Active.This is used only in the PBI functionality.</description>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DS_Report_Description__c</fullName>
+        <description>This will store the description of the Technology and Use case description</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Report Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DS_Technology_Order_Number__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This will store the  Technology Order Number</inlineHelpText>
+        <label>Technology Order Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DS_Technology__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>This will store the Technology value</inlineHelpText>
+        <label>Technology</label>
+        <length>150</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DS_Tile_Image_URL__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Please include the Static Resource URL</inlineHelpText>
+        <label>Tile Image URL</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DS_UseCase_Order_Number__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This will tell us the order in which report should display</inlineHelpText>
+        <label>Usecase Order Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DS_Usecase__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>This fields will contain the Usecase value.</inlineHelpText>
+        <label>Usecase</label>
+        <length>150</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>DS Technology Usecase Combination</label>
+    <visibility>Public</visibility>
+</CustomObject>

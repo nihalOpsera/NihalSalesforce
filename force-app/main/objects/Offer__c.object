@@ -1,0 +1,3719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>Offer_SingleColumnRecordLightningPageLayout</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Offer_SingleColumnRecordLightningPageLayout</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>ActiveOffer__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Active Offer</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Add_In_Version__c</fullName>
+        <externalId>false</externalId>
+        <label>OLD Add In Version</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Approval_Forum__c</fullName>
+        <externalId>false</externalId>
+        <label>Approval Forum</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>true</default>
+                    <label>Email</label>
+                </value>
+                <value>
+                    <fullName>Meeting</fullName>
+                    <default>false</default>
+                    <label>Meeting</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Approval_Recommendation__c</fullName>
+        <description>Req 410. Approval Comment to be inserted/edited when preparing the Offer for approval and most probably when receiving the approval.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>OLD Approval Recommendation</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Approval_Scope__c</fullName>
+        <description>Requirement 1115</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>This field needs to describe the approval scope of an upcoming gate approval (next G4 or G5): what is expected to be approved. It must include information on changes versus previous approval (no change or change + description of the delta)</inlineHelpText>
+        <label>Approval Scope</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Approved_by_Pricing_Manager_MN__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Requirement 600</description>
+        <externalId>false</externalId>
+        <label>Approved by Pricing Manager(MN)</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Offers</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Authorized_for_Pricing_Manager__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Req 675: This is a Flag whose value if =Y, Then G4 can be bypassed.</description>
+        <externalId>false</externalId>
+        <label>Authorized for Pricing Manager</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Black_White_copies__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Requirement 580</description>
+        <externalId>false</externalId>
+        <label>Black &amp; White copies</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Blanket_Approval_Condition__c</fullName>
+        <description>Req. #3306, Blanket Approval Field for LoA upload --- no longer used after July 2021</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>OLD Blanket Approval Condition</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Budgetary_non_binding__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Budgetary &amp; non-binding</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>By_Pass_Count__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>No longer used after July 2021</description>
+        <externalId>false</externalId>
+        <label>OLD By Pass Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CD_or_Flash_Drive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Requirement 580</description>
+        <externalId>false</externalId>
+        <label>CD or Flash Drive</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Checking_Manual_Updation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Req:5091 - Solution Sign-Off Validations(field to check manual updation of sso to Attached)</description>
+        <externalId>false</externalId>
+        <label>Checking Manual Updation</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Color_copies__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Requirement 580</description>
+        <externalId>false</externalId>
+        <label>Color copies</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Combined_Portfolio_Offer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>675: Used by Bid Manager to indicate that Offer contains portfolio elements from both legacy companies, and may require support of Clearing Team in potential cross-ordering scenarios</description>
+        <externalId>false</externalId>
+        <label>Combined Portfolio Offer</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <description>Requirement 580</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>130000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Commercial_Strategy_Alignment_Comments__c</fullName>
+        <description>Req Num 3764 Offer fields for Multi BG Process Reporting</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>OLD Commercial StrategyAlignmentComments</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Commercial_Strategy_Alignment_Status__c</fullName>
+        <description>Req num 3764 Offer Multi BG Process</description>
+        <externalId>false</externalId>
+        <label>OLD Commercial Strategy Alignment Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>-Empty-</fullName>
+                    <default>false</default>
+                    <label>-Empty-</label>
+                </value>
+                <value>
+                    <fullName>YES</fullName>
+                    <default>false</default>
+                    <label>YES</label>
+                </value>
+                <value>
+                    <fullName>NO (BG/BG)</fullName>
+                    <default>false</default>
+                    <label>NO (BG/BG)</label>
+                </value>
+                <value>
+                    <fullName>NO (BG/CO)</fullName>
+                    <default>false</default>
+                    <label>NO (BG/CO)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Commercial_Strategy_Misalignment__c</fullName>
+        <description>Req Num 3764 Offer fields for Multi BG Process Reporting</description>
+        <externalId>false</externalId>
+        <label>OLD CommercialStrategyConflictDocumented</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>-Empty-</fullName>
+                    <default>false</default>
+                    <label>-Empty-</label>
+                </value>
+                <value>
+                    <fullName>YES</fullName>
+                    <default>false</default>
+                    <label>YES</label>
+                </value>
+                <value>
+                    <fullName>NO</fullName>
+                    <default>false</default>
+                    <label>NO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Country_of_Delivery__c</fullName>
+        <description>Requirement 580: It will capture countryISOCode2 from Account</description>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Account.CountryNameISO2__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Country of Delivery</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Account_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;/&quot;&amp;Opportunity__r.AccountId , Opportunity__r.Account.Name,&apos;_self&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Customer Account Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Offer_Due_Date__c</fullName>
+        <description>Requirement 580</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Customer Offer Due Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Customer_and_Competitive_Situation__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Customer and Competitive Situation</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Decision_Maker__c</fullName>
+        <description>Req 580. Modified label for field-Sales Process : Sprint 5 hyper care fixes: 1114</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>G4/G5 Bypass Decision Maker</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Document_Collaboration_site_SFDocs__c</fullName>
+        <description>May2021: Link to archive of offer documents submitted to customer
+2017: Req: #181-Sprint 3-URL for Sharepoint location for large-team collaboration on offer development</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Link to archive of offer documents submitted to customer (if not directly uploaded in CRM)</inlineHelpText>
+        <label>Customer Submission Repository</label>
+        <length>1000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Excel_File_Version__c</fullName>
+        <description>Req #064
+Sprint 3
+To store changes made by third party tool while uploading Excel</description>
+        <externalId>false</externalId>
+        <label>OLD Excel File Version</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Expected_LoA_G4_Approval_Level__c</fullName>
+        <description>The Expected LoA G4 Approval Level has the same Value Set as the automatically assigned</description>
+        <externalId>false</externalId>
+        <label>Old Expected LoA Level</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>LoA_G4_Approval_Levels</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>G4ApprovalDateVsCreatedDate__c</fullName>
+        <description>SF Ticket: 00004886 : Check if G4ApprovalDate &lt; Offer CreatedDate if True &apos;Cleanup required&apos; else &apos;Cleanup Not Required&apos;</description>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK(G4_Approval_Date__c)) &amp;&amp;(G4_Approval_Date__c &lt; DATEVALUE(CreatedDate)) ,&quot;Yes&quot; , &quot;No&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>IsCleanupRequired</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>G4_Approval_Cycle_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>G4 Approval Cycle time</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>G4_Approval_Date_Per_Offer_Version__c</fullName>
+        <description>Requirement 1115 : will be automatically stamped with approvers go decision.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>OLD G4 Approval Date Per Offer Version</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>G4_Approval_Date__c</fullName>
+        <description>675: Auto updated from Opportunity.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>G4 Approval Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>G4_Approval_Overdue_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>if( ISBLANK( G4_Approval_Date__c ) , today() - Opportunity__r.G4_Planned_Date__c ,  G4_Approval_Date__c - Opportunity__r.G4_Planned_Date__c )</formula>
+        <label>G4 Approval Overdue Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>G4_Approver__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>G4 Approver</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>G4_passed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Req #5672
+Checkbox on active offer which is getting ticked if the opportunity has passed G4 approval.</description>
+        <externalId>false</externalId>
+        <label>G4 passed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>LOA_Bypass__c</fullName>
+        <description>Sales Process : Sprint 5 hyper care fixes: 1114
+D-8480: New Help text
+00018285: Corrected Help Text
+ticket 242449 replase Help Text</description>
+        <externalId>false</externalId>
+        <inlineHelpText>&quot;Pre-approved&quot;
+For AM: pricing and T&amp;Cs follow a blanket approval.
+For PrM: pricing/margin and T&amp;Cs authorized by the BG.
+&quot;G4 approved or contracted&quot;: pricing and T&amp;Cs are exactly the one of the signed contract Or Inline with previous approved G4.</inlineHelpText>
+        <label>G4/G5 Bypass Offer Condition</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No LoA</fullName>
+                    <default>false</default>
+                    <label>G4 Approved or Contracted</label>
+                </value>
+                <value>
+                    <fullName>Authorized for Pricing Manager</fullName>
+                    <default>false</default>
+                    <label>Authorized for Pricing Manager</label>
+                </value>
+                <value>
+                    <fullName>Pre-approved Price List for Account Managers</fullName>
+                    <default>false</default>
+                    <label>Pre-approved Price List for Account Managers</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Last_Time_Modified_By_WTD_Tool__c</fullName>
+        <description>When Offer is updated from WTD tool, this field is also updated, giving the information when the update happened.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>When Offer is updated from WTD tool, this field is also updated, giving the information when the update happened.</inlineHelpText>
+        <label>Last Time Modified By WTD Tool</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Last_User_Updating_WTD_Information__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Last User Updating WTD Information</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>OffersUpdatedByWTD</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Lead_BG__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>Lead BG</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Business_Group_Values</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Lead_BU__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>Lead BU</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Offer_Lead_BU</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LoA_Approval_Level_G4__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>Approval Level (G4)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A+</fullName>
+                    <default>false</default>
+                    <label>A+</label>
+                </value>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+                <value>
+                    <fullName>D</fullName>
+                    <default>false</default>
+                    <label>D</label>
+                </value>
+                <value>
+                    <fullName>E</fullName>
+                    <default>false</default>
+                    <label>E</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LoA_Approval_Level_G5__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>Approval Level (G5)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A+</fullName>
+                    <default>false</default>
+                    <label>A+</label>
+                </value>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+                <value>
+                    <fullName>D</fullName>
+                    <default>false</default>
+                    <label>D</label>
+                </value>
+                <value>
+                    <fullName>E</fullName>
+                    <default>false</default>
+                    <label>E</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LoA_Approval_Level__c</fullName>
+        <description>LoA Approval Level is a picklist Field on Offer Object.</description>
+        <externalId>false</externalId>
+        <label>Approval Level</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>LoA_G4_Approval_Levels</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LoA_Bypass_Sign_Off_BG_AA__c</fullName>
+        <description>Sales Process : Sprint 5 hyper care fixes: 1114</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Bypass Sign-Off BG NSW</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LoA_Bypass_Sign_Off_BG_FN__c</fullName>
+        <description>Sales Process : Sprint 5 hyper care fixes: 1114</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Bypass Sign-Off BG FN</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LoA_Bypass_Sign_Off_BG_GS__c</fullName>
+        <description>LoA: Sprint 7
+Hypercare Fixes: &apos;SF Support Ticket
+00005299&apos; Spliting the field &apos;LoA Bypass Sign-Off BG MN/GS&apos; to &apos;LoA Bypass Sign-Off BG GS&apos;</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Bypass Sign-Off BG GS</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LoA_Bypass_Sign_Off_BG_ION__c</fullName>
+        <description>Sales Process : Sprint 5 hyper care fixes: 1114</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Bypass Sign-Off BG ION</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LoA_Bypass_Sign_Off_BG_MN__c</fullName>
+        <description>Sales Process : Sprint 5 hyper care fixes: 1114
+LoA: Sprint 7 Defect Fixed: 2272 Changing the label from &apos;LoA Bypass Sign-Off BG MN&apos; to &apos;LoA Bypass Sign-Off BG MN/GS&apos;
+LoA: Sprint 7 
+Hypercare Fixes: &apos;SF Support Ticket 
+00005299&apos; Spliting the field &apos;LoA Bypass Sign-Off BG MN/GS&apos; to &apos;LoA Bypass Sign-Off BG MN&apos;</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Bypass Sign-Off BG MN</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LoA_Bypass_Sign_Off_BG_NEN__c</fullName>
+        <description>LOA Sprint 19</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Bypass Sign-Off BG NEN</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LoA_Bypass_Sign_Off_PrM_for_BG_AA__c</fullName>
+        <description>Sales Process : Sprint 5 hyper care fixes: 1114</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>OLD Signed-Off by PricingManager BG NSW</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>LoA_Bypass_Sign_Off_PrM_for_BG_FN__c</fullName>
+        <description>Sales Process : Sprint 5 hyper care fixes: 1114</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>OLD Signed-Off by PricingManager BG FN</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>LoA_Bypass_Sign_Off_PrM_for_BG_ION__c</fullName>
+        <description>Sales Process : Sprint 5 hyper care fixes: 1114</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>OLD Signed-Off by PricingManager BG ION</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>LoA_Bypass_Sign_Off_PrM_for_BG_MN__c</fullName>
+        <description>Sales Process : Sprint 5 hyper care fixes: 1114
+LoA: Sprint 7 Defect Fixed: 2272 Changing the label from &apos;Signed-Off by PricingManager BG MN&apos; to &apos;Signed-Off by PricingManager BG MN/GS&apos;.
+LoA: Sprint 7 
+Hypercare Fixes: &apos;SF Support Ticket 
+00005299&apos; Spliting the field &apos;Signed-Off by PricingManager BG MN&apos; to &apos;Signed-Off by PricingManager BG MN&apos;</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>OLD Signed-Off by PricingManager BG MN</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>LoA_Currency__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>AP Currency</label>
+        <length>3</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Customer_Net_Price_AA__c</fullName>
+        <description>Req Num 3764 Offer fields for Multi BG Process Reporting</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Customer Net Price NSW</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Customer_Net_Price_BU_NE_DAaaS__c</fullName>
+        <description>Req #5585</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Customer Net Price BU NE DAaaS</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Customer_Net_Price_BU_NE_EOP__c</fullName>
+        <description>Req #5585</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Customer Net Price BU NE EOP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Customer_Net_Price_BU_NE_IoT__c</fullName>
+        <description>Req #5585</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Customer Net Price BU NE IoT</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Customer_Net_Price_FN__c</fullName>
+        <description>Req Num 3764 Offer fields for Multi BG Process Reporting</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Customer Net Price FN</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Customer_Net_Price_GS__c</fullName>
+        <description>Req Num 3764 Offer fields for Multi BG Process Reporting</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Customer Net Price GS</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Customer_Net_Price_ION_IPR__c</fullName>
+        <description>Req Num 3764 Offer fields for Multi BG Process Reporting</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Customer Net Price ION IPR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Customer_Net_Price_ION_Optics__c</fullName>
+        <description>Req Num 3764 Offer fields for Multi BG Process Reporting</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Customer Net Price ION Optics</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Customer_Net_Price_ION_Video__c</fullName>
+        <description>Req Num 3764 Offer fields for Multi BG Process Reporting</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Customer Net Price ION Video</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Customer_Net_Price_ION__c</fullName>
+        <description>Req Num 3764 Offer fields for Multi BG Process Reporting</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Customer Net Price ION</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Customer_Net_Price_MN__c</fullName>
+        <description>Req Num 3764 Offer fields for Multi BG Process Reporting</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Customer Net Price MN</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Customer_Net_Price_NEN__c</fullName>
+        <description>LOA SPrint 19</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Customer Net Price BG NEN</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Customer_Unit_Price_AA__c</fullName>
+        <description>Req Num 3764 Offer fields for Multi BG Process Reporting</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Customer Unit Price NSW</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Customer_Unit_Price_BU_NE_DAaaS__c</fullName>
+        <description>Req #5585</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Customer Unit Price BU NE DAaaS</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Customer_Unit_Price_BU_NE_EOP__c</fullName>
+        <description>Req #5585</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Customer Unit Price BU NE EOP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Customer_Unit_Price_BU_NE_IoT__c</fullName>
+        <description>Req #5585</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Customer Unit Price BU NE IoT</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Customer_Unit_Price_FN__c</fullName>
+        <description>Req Num 3764 Offer fields for Multi BG Process Reporting</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Customer Unit Price FN</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Customer_Unit_Price_GS__c</fullName>
+        <description>Req Num 3764 Offer fields for Multi BG Process Reporting</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Customer Unit Price GS</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Customer_Unit_Price_ION_IPR__c</fullName>
+        <description>Req Num 3764 Offer fields for Multi BG Process Reporting</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Customer Unit Price ION IPR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Customer_Unit_Price_ION_Optics__c</fullName>
+        <description>Req Num 3764 Offer fields for Multi BG Process Reporting</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Customer Unit Price ION Optics</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Customer_Unit_Price_ION_Video__c</fullName>
+        <description>Req Num 3764 Offer fields for Multi BG Process Reporting</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Customer Unit Price ION Video</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Customer_Unit_Price_ION__c</fullName>
+        <description>Req Num 3764 Offer fields for Multi BG Process Reporting</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Customer Unit Price ION</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Customer_Unit_Price_MN__c</fullName>
+        <description>Req Num 3764 Offer fields for Multi BG Process Reporting</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Customer Unit Price MN</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Customer_Unit_Price_NEN__c</fullName>
+        <description>LOA sprint 19</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Customer Unit Price BG NEN</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_G4_Approval_Level__c</fullName>
+        <description>LoA Approval Level is a picklist Field on Offer Object.</description>
+        <externalId>false</externalId>
+        <label>G4 Approval Level</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>LoA_G4_Approval_Levels</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LoA_Level_Adjustment_Approver__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Approval Level Adjustment Approver</label>
+        <length>128</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoA_Level_After_STA_G4__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>Approval Level After STA (G4)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A+</fullName>
+                    <default>false</default>
+                    <label>A+</label>
+                </value>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+                <value>
+                    <fullName>D</fullName>
+                    <default>false</default>
+                    <label>D</label>
+                </value>
+                <value>
+                    <fullName>E</fullName>
+                    <default>false</default>
+                    <label>E</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LoA_Level_After_STA_G5__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>Approval Level After STA (G5)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A+</fullName>
+                    <default>false</default>
+                    <label>A+</label>
+                </value>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+                <value>
+                    <fullName>D</fullName>
+                    <default>false</default>
+                    <label>D</label>
+                </value>
+                <value>
+                    <fullName>E</fullName>
+                    <default>false</default>
+                    <label>E</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LoA_Level_After_Single_Trigger_Approval__c</fullName>
+        <description>Requirement 1115: automatically filled out of LoA file (G11 in upload tab &gt; LoA file)</description>
+        <externalId>false</externalId>
+        <label>Approval Level After STA</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>LoA_G4_Approval_Levels</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LoA_Level_Before_STA_G4__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>Approval Level Before STA (G4)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A+</fullName>
+                    <default>false</default>
+                    <label>A+</label>
+                </value>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+                <value>
+                    <fullName>D</fullName>
+                    <default>false</default>
+                    <label>D</label>
+                </value>
+                <value>
+                    <fullName>E</fullName>
+                    <default>false</default>
+                    <label>E</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LoA_Level_Before_STA_G5__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>Approval Level Before STA (G5)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A+</fullName>
+                    <default>false</default>
+                    <label>A+</label>
+                </value>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+                <value>
+                    <fullName>D</fullName>
+                    <default>false</default>
+                    <label>D</label>
+                </value>
+                <value>
+                    <fullName>E</fullName>
+                    <default>false</default>
+                    <label>E</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LoA_Level_Before_Trigger_Approval__c</fullName>
+        <description>Requirement #932 : Renaming label as per Requirement 1326</description>
+        <externalId>false</externalId>
+        <label>Approval Level before STA</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>LoA_G4_Approval_Levels</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LoA_Level_Original__c</fullName>
+        <description>Requirement 1115 : Automatically filled out of LoA file (concrete field already provided)</description>
+        <externalId>false</externalId>
+        <label>LoA Level Original</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>LoA_G4_Approval_Levels</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Net_Price_Erosion__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>OLD Net Price Erosion</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Net_Sales_LoA_Base_Case_BG_AA__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value is in LoA Currency.</inlineHelpText>
+        <label>OLD Net Sales (LoA Base Case) BG NSW</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Net_Sales_LoA_Base_Case_BG_FN__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value is in LoA Currency.</inlineHelpText>
+        <label>OLD Net Sales (LoA Base Case) BG FN</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Net_Sales_LoA_Base_Case_BG_GS__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value is in LoA Currency.</inlineHelpText>
+        <label>OLD Net Sales (LoA Base Case) BG GS</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Net_Sales_LoA_Base_Case_BG_ION__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value is in LoA Currency.</inlineHelpText>
+        <label>OLD Net Sales (LoA Base Case) BG ION</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Net_Sales_LoA_Base_Case_BG_MN__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value is in LoA Currency.</inlineHelpText>
+        <label>OLD Net Sales (LoA Base Case) BG MN</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Net_Sales_LoA_Base_Case_BG_NEN__c</fullName>
+        <description>LOA Sprint 19</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value is in LoA Currency.</inlineHelpText>
+        <label>OLD Net Sales (LoA Base Case) BG NEN</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Net_Sales_LoA_Base_Case_BU_ION_IPR__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value is in LoA Currency.</inlineHelpText>
+        <label>OLD Net Sales (LoA Base Case) BU ION IPR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Net_Sales_LoA_Base_Case_BU_ION_Optics__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value is in LoA Currency.</inlineHelpText>
+        <label>OLD Net Sales(LoABaseCase)BU ION Optics</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Net_Sales_LoA_Base_Case_BU_ION_Video__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value is in LoA Currency.</inlineHelpText>
+        <label>OLD Net Sales (LoABaseCase) BU ION Video</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Net_Sales_LoA_Base_Case_BU_NE_DAaaS__c</fullName>
+        <description>Req #5585</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value is in LoA Currency.</inlineHelpText>
+        <label>OLD Net Sales (LoABaseCase) BU NE DAaaS</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Net_Sales_LoA_Base_Case_BU_NE_EOP__c</fullName>
+        <description>Req #5585</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value is in LoA Currency.</inlineHelpText>
+        <label>OLD Net Sales (LoA Base Case) BU NE EOP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Net_Sales_LoA_Base_Case_BU_NE_IoT__c</fullName>
+        <description>Req #5585</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value is in LoA Currency.</inlineHelpText>
+        <label>OLD Net Sales (LoA Base Case) BU NE IoT</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Net_Sales_LoA_Base_Case__c</fullName>
+        <description>Ticket #26483: Label update
+Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value is in AP Currency.</inlineHelpText>
+        <label>Total Net Sales (AP Currency)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>New_Proposed_Credit_Limit__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>OLD New Proposed Credit Limit</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>No_Execute_Decision_Maker__c</fullName>
+        <description>Sales Process: Sprint 12 Requirement 3789 : The label for the &apos;Gate 6 Bypass (No Execute needed)&apos; decision maker.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>No execute Decision maker</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>No_LoA__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>REQ 934 : On Offer object for Direct Opportunities only: 
+- New Flag: &quot;No LoA&quot;</description>
+        <externalId>false</externalId>
+        <label>G4 Approved or Contracted</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>No_Support_Decision_Maker__c</fullName>
+        <description>Sprint 8 Requirement 2505 Creating field on &apos;Offer&apos; Object</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>No Offer Support Decision Maker</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>No_Support_Offer_Condition__c</fullName>
+        <defaultValue>&quot;No&quot;</defaultValue>
+        <description>Sprint 8 Req#2505. Creating field on &apos;Offer&apos; Object. D-3996 (rename the label)</description>
+        <externalId>false</externalId>
+        <label>Retired Field - Gate 3 Bypass</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Offer_Approval_Date__c</fullName>
+        <description>Req 580</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Offer Approval Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Offer_Close_Date__c</fullName>
+        <description>Requirement 580: Indicates when tendering teams have finished their work.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Offer Close Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Offer_DSO__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Days Sales Outstanding</inlineHelpText>
+        <label>OLD Offer DSO</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Offer_Description__c</fullName>
+        <description>Req 580</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Offer Description</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Offer_ID__c</fullName>
+        <displayFormat>{0000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Offer ID</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Offer_IRD__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Inventory Rotation Days</inlineHelpText>
+        <label>OLD Offer IRD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Offer_Language__c</fullName>
+        <description>D-0917: As per 5.7</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Offer Language</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Offer_Name__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Offer Name</label>
+        <length>120</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Offer_Notes__c</fullName>
+        <description>Req 580</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Offer Notes</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Offer_Number__c</fullName>
+        <description>This field will capture the Offer Number from external system or auto populate in SFDC</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>true</externalId>
+        <label>Offer Number</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Offer__c</fullName>
+        <description>This field will be appended at the end of Offer Number (01, 02)</description>
+        <externalId>false</externalId>
+        <formula>if(
+	Opportunity__r.count_offer__c &lt; 9, &apos;0&apos; &amp; TEXT(Opportunity__r.count_offer__c +1 ), TEXT(Opportunity__r.count_offer__c+ 1)
+)</formula>
+        <label>#Offer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Offer_submitted_to_customer_date__c</fullName>
+        <description>Req 580: On offer revision, clear out/recalculate G4, G5, G6 dates at Oppty level</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Offer Submitted to Customer Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <description>Req 341</description>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Opportunity.Business_Type__c</field>
+                <operation>contains</operation>
+                <value>Standard Opportunity, Committed Upsell</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Offers</relationshipLabel>
+        <relationshipName>Offers</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Page_count__c</fullName>
+        <description>Requirement 580</description>
+        <externalId>false</externalId>
+        <label>Page count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pre_C5_Flag_NPI__c</fullName>
+        <description>ITBACRM-69: May2021 = managed in WTD, not in CRM anymore (and NPI notif disabled)
+(old Requ 910: changing the label / Requ 675: Notification to NPI that Pre-C5 products are included.)</description>
+        <externalId>false</externalId>
+        <label>OLD Pre-C5 NPI Support Required</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Pre_approval_BG_AA__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>OLD Pre-approval BG NSW</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Pre_approval_BG_FN__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>OLD Pre-approval BG FN</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Pre_approval_BG_GS__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>OLD Pre-approval BG GS</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Pre_approval_BG_ION__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>OLD Pre-approval BG ION</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Pre_approval_BG_MN__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>OLD Pre-approval BG MN</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Pre_approval_BG_NEN__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>LOA Sprint 19</description>
+        <externalId>false</externalId>
+        <label>OLD Pre-approval BG NEN</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Pre_approved_Decision_Maker__c</fullName>
+        <description>Req 580</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Pre-approved Decision Maker</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Pre_approved_Price_List_for_Acc_Managers__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Pre-approved Price List for AM</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Pre_approved_Pricelist_for_BG_Pre_sales__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Req 580</description>
+        <externalId>false</externalId>
+        <label>Pre-approved Pricelist for BG Pre-sales</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Price__c</fullName>
+        <description>Req 580: Copy of the Unweighted Value from Opportunity(D-0913)
+		D-6487 - changed currency length to (16,2) from (18,0)</description>
+        <externalId>false</externalId>
+        <label>Total Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Pricing_Strategy__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>OLD Pricing Strategy</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Print_Date__c</fullName>
+        <description>Requirement 580</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Print Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Product_Only_Offer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Req:3789-Rename Product/Software only flag
+Defect:5303- Help Text needs to be added</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Tick if EXECUTE Process not applicable - G6 approval not required. Refer to BG Project Categories for criteria (Hyperlink to Document available at Sales Path Guide of Handover Phase).</inlineHelpText>
+        <label>Retired Field - Gate 6 Bypass</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Revenue_Split_Method__c</fullName>
+        <defaultValue>&apos;Customer Price based&apos;</defaultValue>
+        <description>Req Num 3764 Offer fields for Multi BG Process Reporting</description>
+        <externalId>false</externalId>
+        <label>OLD Revenue Split Method</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Customer Price based</fullName>
+                    <default>false</default>
+                    <label>Customer Price based</label>
+                </value>
+                <value>
+                    <fullName>Market Price based</fullName>
+                    <default>false</default>
+                    <label>Market Price based</label>
+                </value>
+                <value>
+                    <fullName>Pre-agreed %</fullName>
+                    <default>false</default>
+                    <label>Pre-agreed %</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Risk_Assessment_Position_Statement__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Risk Assessment Position Statement</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SSO_Exception_Reason__c</fullName>
+        <description>Req:5087 - New Solution Sign-Off Fields</description>
+        <externalId>false</externalId>
+        <label>SSO Exception Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Solution_Sign_Off_New__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Case with no presales solutioning work</fullName>
+                    <default>false</default>
+                    <label>Case with no presales solutioning work</label>
+                </value>
+                <value>
+                    <fullName>Pure Spare Part or Training offer</fullName>
+                    <default>false</default>
+                    <label>Pure Spare Part or Training offer</label>
+                </value>
+                <value>
+                    <fullName>Care offer without SW Release Upgrade (no solutioning work)</fullName>
+                    <default>false</default>
+                    <label>Care offer without SW Release Upgrade (no solutioning work)</label>
+                </value>
+                <value>
+                    <fullName>Frame agreement extension (no solutioning work)</fullName>
+                    <default>false</default>
+                    <label>Frame agreement extension (no solutioning work)</label>
+                </value>
+                <value>
+                    <fullName>Pure pricing exercise case</fullName>
+                    <default>false</default>
+                    <label>Pure pricing exercise case</label>
+                </value>
+                <value>
+                    <fullName>Legal/regulatory/financial approval case only</fullName>
+                    <default>false</default>
+                    <label>Legal/regulatory/financial approval case only</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Not Required</controllingFieldValue>
+                <valueName>Case with no presales solutioning work</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Not Required</controllingFieldValue>
+                <valueName>Pure Spare Part or Training offer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Not Required</controllingFieldValue>
+                <valueName>Care offer without SW Release Upgrade (no solutioning work)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Not Required</controllingFieldValue>
+                <valueName>Frame agreement extension (no solutioning work)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Not Required</controllingFieldValue>
+                <valueName>Pure pricing exercise case</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Not Required</controllingFieldValue>
+                <valueName>Legal/regulatory/financial approval case only</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>STA_Trigger_Group__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>STA Trigger Group</label>
+        <length>16</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Signed_Off_by_PricingManager_BG_GS__c</fullName>
+        <description>LoA: Sprint 7 
+Hypercare Fixes: &apos;SF Support Ticket 
+00005299&apos; Spliting the field &apos;Signed-Off by PricingManager BG MN/GS&apos; to &apos;Signed-Off by PricingManager BG GS&apos;</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>OLD Signed-Off by PricingManager BG GS</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Signed_Off_by_PricingManager_BG_NEN__c</fullName>
+        <description>LOA Sprint 19</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>OLD Signed-Off by PricingManager BG NEN</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Solution_Sign_Off_New__c</fullName>
+        <description>Req:5087 - New Solution Sign-Off Fields</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Cases with presales solutioning work require a Solution Sign-off. Change to Not Required only if a case SSO is not needed.</inlineHelpText>
+        <label>Solution Sign-Off</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Required</fullName>
+                    <default>false</default>
+                    <label>Required</label>
+                </value>
+                <value>
+                    <fullName>Required (Attached)</fullName>
+                    <default>false</default>
+                    <label>Required (Attached)</label>
+                </value>
+                <value>
+                    <fullName>Not Required</fullName>
+                    <default>false</default>
+                    <label>Not Required</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Supporting_BG_AA__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>OLD Supporting BG NSW</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Lead_BG__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>NSW</fullName>
+                    <default>false</default>
+                    <label>NSW</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>MN</controllingFieldValue>
+                <valueName>NSW</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Supporting_BG_FN__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>OLD Supporting BG FN</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Lead_BG__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>FN</fullName>
+                    <default>false</default>
+                    <label>FN</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>MN</controllingFieldValue>
+                <valueName>FN</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Supporting_BG_GS__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>OLD Supporting BG GS</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>GS</fullName>
+                    <default>false</default>
+                    <label>GS</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Supporting_BG_ION__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>OLD Supporting BG ION</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Lead_BG__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ION</fullName>
+                    <default>false</default>
+                    <label>ION</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>MN</controllingFieldValue>
+                <valueName>ION</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Supporting_BG_MN__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>OLD Supporting BG MN</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Lead_BG__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>MN</fullName>
+                    <default>false</default>
+                    <label>MN</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>MN</controllingFieldValue>
+                <valueName>MN</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Supporting_BG_NEN__c</fullName>
+        <description>LOA Sprint 19</description>
+        <externalId>false</externalId>
+        <label>OLD Supporting BG NEN</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Lead_BG__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>NEN</fullName>
+                    <default>false</default>
+                    <label>NEN</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>MN</controllingFieldValue>
+                <valueName>NEN</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Supporting_BGs_BUs__c</fullName>
+        <externalId>false</externalId>
+        <label>Supporting BGs/BUs</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Offer_Lead_BU</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Supporting_BU_ION_IPR__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>OLD Supporting BU ION IPR</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ION IPR</fullName>
+                    <default>false</default>
+                    <label>ION IPR</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Supporting_BU_ION_Optics__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>OLD Supporting BU ION Optics</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ION Optics</fullName>
+                    <default>false</default>
+                    <label>ION Optics</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Supporting_BU_ION_Video__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>OLD Supporting BU ION Video</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ION Video</fullName>
+                    <default>false</default>
+                    <label>ION Video</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Supporting_BU_NE_DAaaS__c</fullName>
+        <description>Req #5585</description>
+        <externalId>false</externalId>
+        <label>OLD Supporting BU NE DAaaS</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>NE DAaaS</fullName>
+                    <default>false</default>
+                    <label>NE DAaaS</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Supporting_BU_NE_EOP__c</fullName>
+        <description>Req #5585</description>
+        <externalId>false</externalId>
+        <label>OLD Supporting BU NE EOP</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>NE EOP</fullName>
+                    <default>false</default>
+                    <label>NE EOP</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Supporting_BU_NE_IoT__c</fullName>
+        <description>req #5585</description>
+        <externalId>false</externalId>
+        <label>OLD Supporting BU NE IoT</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>NE IoT</fullName>
+                    <default>false</default>
+                    <label>NE IoT</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Time_to_Offer_Submission__c</fullName>
+        <externalId>false</externalId>
+        <formula>Customer_Offer_Due_Date__c - TODAY()</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Time to Offer Submission</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Top_3_Risks_1_Category__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Top 3 Risks 1 Category</label>
+        <length>32</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Top_3_Risks_1_Description__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Top 3 Risks 1 Description</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Top_3_Risks_2_Category__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Top 3 Risks 2 Category</label>
+        <length>32</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Top_3_Risks_2_Description__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Top 3 Risks 2 Description</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Top_3_Risks_3_Category__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Top 3 Risks 3 Category</label>
+        <length>32</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Top_3_Risks_3_Description__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Top 3 Risks 3 Description</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Top_5_trigger_1_Category__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Top 5 trigger 1 Category</label>
+        <length>64</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Top_5_trigger_1_Level__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>Top 5 trigger 1 Level</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A+</fullName>
+                    <default>false</default>
+                    <label>A+</label>
+                </value>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+                <value>
+                    <fullName>D</fullName>
+                    <default>false</default>
+                    <label>D</label>
+                </value>
+                <value>
+                    <fullName>E</fullName>
+                    <default>false</default>
+                    <label>E</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Top_5_trigger_1_Name__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Top 5 trigger 1 Name</label>
+        <length>64</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Top_5_trigger_2_Category__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Top 5 trigger 2 Category</label>
+        <length>32</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Top_5_trigger_2_Level__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>Top 5 trigger 2 Level</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A+</fullName>
+                    <default>false</default>
+                    <label>A+</label>
+                </value>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+                <value>
+                    <fullName>D</fullName>
+                    <default>false</default>
+                    <label>D</label>
+                </value>
+                <value>
+                    <fullName>E</fullName>
+                    <default>false</default>
+                    <label>E</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Top_5_trigger_2_Name__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Top 5 trigger 2 Name</label>
+        <length>64</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Top_5_trigger_3_Category__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Top 5 trigger 3 Category</label>
+        <length>32</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Top_5_trigger_3_Level__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>Top 5 trigger 3 Level</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A+</fullName>
+                    <default>false</default>
+                    <label>A+</label>
+                </value>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+                <value>
+                    <fullName>D</fullName>
+                    <default>false</default>
+                    <label>D</label>
+                </value>
+                <value>
+                    <fullName>E</fullName>
+                    <default>false</default>
+                    <label>E</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Top_5_trigger_3_Name__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Top 5 trigger 3 Name</label>
+        <length>64</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Top_5_trigger_4_Category__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Top 5 trigger 4 Category</label>
+        <length>32</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Top_5_trigger_4_Level__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>Top 5 trigger 4 Level</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A+</fullName>
+                    <default>false</default>
+                    <label>A+</label>
+                </value>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+                <value>
+                    <fullName>D</fullName>
+                    <default>false</default>
+                    <label>D</label>
+                </value>
+                <value>
+                    <fullName>E</fullName>
+                    <default>false</default>
+                    <label>E</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Top_5_trigger_4_Name__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Top 5 trigger 4 Name</label>
+        <length>64</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Top_5_trigger_5_Category__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Top 5 trigger 5 Category</label>
+        <length>32</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Top_5_trigger_5_Level__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>Top 5 trigger 5 Level</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A+</fullName>
+                    <default>false</default>
+                    <label>A+</label>
+                </value>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+                <value>
+                    <fullName>D</fullName>
+                    <default>false</default>
+                    <label>D</label>
+                </value>
+                <value>
+                    <fullName>E</fullName>
+                    <default>false</default>
+                    <label>E</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Top_5_trigger_5_Name__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Top 5 trigger 5 Name</label>
+        <length>64</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Bonds_and_Guarantees__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <externalId>false</externalId>
+        <label>OLD Total Bonds and Guarantees</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Credit_Limit__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In
+Req #4286: Change the label of the offer field &quot;Total Credit Limit&quot; to &quot;LoA Credit Limit&quot;.</description>
+        <externalId>false</externalId>
+        <label>OLD LoA Credit Limit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Customer_Net_Price_Currency__c</fullName>
+        <description>Req Num 3764 Offer fields for Multi BG Process Reporting</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>AP (Annual Plan) Currency reflecting as Total G4/G5 Customer Net Price</inlineHelpText>
+        <label>Total Customer Net Price Currency</label>
+        <length>3</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Customer_Unitary_Price_Currency__c</fullName>
+        <description>Req Num 3764 Offer fields for Multi BG Process Reporting</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>G4/G5 Currency reflecting as Total Customer Unitary Price Currency</inlineHelpText>
+        <label>Total Customer Unitary Price Currency</label>
+        <length>3</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_LoA_Customer_Net_Price_CNP__c</fullName>
+        <description>Req Num 3764 Offer fields for Multi BG Process Reporting</description>
+        <externalId>false</externalId>
+        <label>Customer Net Price (CNP)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_LoA_Customer_Unit_Price_CUP__c</fullName>
+        <description>Req Num 3764 Offer fields for Multi BG Process Reporting</description>
+        <externalId>false</externalId>
+        <label>Customer Unit Price (CUP)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Net_Sales_in_LoA_EUR__c</fullName>
+        <externalId>false</externalId>
+        <label>Net Sales (EUR)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Price_At_Approval_Net_Sale__c</fullName>
+        <description>Requirement 1115</description>
+        <externalId>false</externalId>
+        <label>Total Price At Approval Net Sale</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Type_of_Guarantee__c</fullName>
+        <description>Req #2286 : Create new field for Excel Add-In</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>OLD Type of Guarantee</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Unweighted_Amount__c</fullName>
+        <description>Req 464: this will copy the unweighted Amount for active Offer</description>
+        <externalId>false</externalId>
+        <formula>IF( ActiveOffer__c = true,  Opportunity__r.Amount, Null)</formula>
+        <label>Unweighted Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Using_Pre_configured_Packages__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>To be ticked if Pre-Configured Packages (products/services/solutions with predefined blueprint, configuration, prices etc) will be part of the solution offered to customer.
+ITBACRM-74-11Sept2020</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Flag if the offer production is automated, based on pre-configured solution &amp; price packages.</inlineHelpText>
+        <label>Using Pre-configured Packages</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>WTD_Case__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>In case of error message &apos;Site can&apos;t be reached&apos; then please get connected to the Nokia network (via office LAN, NOSI wifi or VPN)</inlineHelpText>
+        <label>WTD Case</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>X3rd_Party_Content__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Requirement 580</description>
+        <externalId>false</externalId>
+        <label>3rd Party Content</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>of_copies__c</fullName>
+        <description>Requirement 580</description>
+        <externalId>false</externalId>
+        <label># of copies</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Offer</label>
+    <listViews>
+        <fullName>all</fullName>
+        <columns>Offer_Number__c</columns>
+        <columns>NAME</columns>
+        <columns>LoA_Approval_Level__c</columns>
+        <columns>Opportunity__c</columns>
+        <columns>Customer_Account_Name__c</columns>
+        <columns>Customer_Offer_Due_Date__c</columns>
+        <columns>Price__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Offers</label>
+    </listViews>
+    <nameField>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Offers</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <fullName>Add_In_Versioning_Of_Uploaded_Document</fullName>
+        <active>false</active>
+        <description>#Req 064
+Sprint 3
+To Validate File Versioning on Offer  Object.</description>
+        <errorConditionFormula>AND( 
+( OR( Add_In_Version__c &lt; VALUE($Label.Excel_Add_In_Version), Add_In_Version__c = null)), 
+!(ISCHANGED( Price__c )), 
+$Profile.Name=$Label.Excel_Add_In_Profile_Name 
+)</errorConditionFormula>
+        <errorMessage>Please upload LoA File using New Add in Version . The version you tried to load is outdated. The Excel Add-in Version should be v2.7.0.0</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Customer_Offer_Due_Date_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+$Profile.Name  &lt;&gt; $Label.Data_Loader_Profile_Name, 
+ 
+OR(Opportunity__r.RecordType.DeveloperName == &apos;Direct_Record_Type&apos;, 
+Opportunity__r.RecordType.DeveloperName == &apos;Indirect_Record_Type&apos; ,Opportunity__r.RecordType.DeveloperName == &apos;Read_Only&apos;,Opportunity__r.RecordType.DeveloperName == &apos;Read_Only_Indirect&apos;) ,
+NOT(
+OR(
+ISPICKVAL( Opportunity__r.StageName, &apos;Identify Opportunity&apos;),
+ISPICKVAL( Opportunity__r.StageName, &apos;Develop Opportunity&apos;),
+ISPICKVAL( Opportunity__r.StageName, &apos;Create Offer (Bid)&apos;))),  ISCHANGED( Customer_Offer_Due_Date__c ) )</errorConditionFormula>
+        <errorMessage>It will not be possible to update the field once opportunity is G4 approved</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Edit_No_LoA</fullName>
+        <active>true</active>
+        <description>28Feb2020 Feature 1144 &amp; 2005: LoA Bypass = &quot;No LoA&quot; or &quot;Pre-approved price list for Account Manager&quot; can be selected only if an opportunity has been added in &quot;Reference Opportunity&quot; field and if that related oppty has been G4 approved with a LoA level.</description>
+        <errorConditionFormula>AND(
+$Profile.Name &lt;&gt; $Label.Data_Loader_Profile_Name,
+OR(
+Opportunity__r.RecordType.DeveloperName == &apos;Direct_Record_Type&apos;,
+Opportunity__r.RecordType.DeveloperName == &apos;Indirect_Record_Type&apos;,
+Opportunity__r.RecordType.DeveloperName == &apos;Read_Only&apos;,
+Opportunity__r.RecordType.DeveloperName == &apos;Read_Only_Indirect&apos;),
+
+AND
+(
+AND (ISCHANGED(LOA_Bypass__c), OR(ISPICKVAL(LOA_Bypass__c,&apos;No LoA&apos;), ISPICKVAL(LOA_Bypass__c,&apos;Pre-approved Price List for Account Managers&apos;) ) ),
+OR (ISBLANK(Opportunity__r.Reference_Opportunity__r.G4_Approval_Date__c),ISBLANK(Opportunity__r.Reference_Opportunity__r.LOA_Level__c))
+
+)
+
+)</errorConditionFormula>
+        <errorDisplayField>LOA_Bypass__c</errorDisplayField>
+        <errorMessage>G4/G5 Bypass offer condition = &quot;G4 approved or contracted&quot; or &quot;Pre-approved price list for Account Manager&quot; can be selected only if an opportunity has been added in &quot;Reference Opportunity&quot; field and if that related oppty has been G4 approved</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Freeze_AppScope_After_G5</fullName>
+        <active>true</active>
+        <description>Freeze approval scope after G5 Approval</description>
+        <errorConditionFormula>!ISNEW() &amp;&amp;
+	ISCHANGED( Approval_Scope__c )  &amp;&amp;
+	NOT(ISBLANK( Opportunity__r.G5_Approval_Date__c)) &amp;&amp;
+	( ISPICKVAL(Opportunity__r.StageName , &quot;Handover (Prepare for Delivery)&quot;) ||
+	ISPICKVAL(Opportunity__r.StageName , &quot;Execute (Start Delivery)&quot;) ||
+	ISPICKVAL(Opportunity__r.StageName , &quot;Completed&quot;) ) &amp;&amp;
+	$Profile.Name&lt;&gt; $Label.Data_Loader_Profile_Name &amp;&amp;
+	$Profile.Name&lt;&gt; $Label.System_Admin_Profile &amp;&amp;
+	$Profile.Name&lt;&gt; $Label.Global_Process_Admin_Profile_Name &amp;&amp;
+	( Opportunity__r.RecordType.DeveloperName == &apos;Direct_Record_Type&apos; ||
+	Opportunity__r.RecordType.DeveloperName == &apos;Indirect_Record_Type&apos; )</errorConditionFormula>
+        <errorDisplayField>Approval_Scope__c</errorDisplayField>
+        <errorMessage>This offer field cannot be edited after G5 approval</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Freeze_Description_After_G5</fullName>
+        <active>true</active>
+        <description>Freeze description after G5 Approval</description>
+        <errorConditionFormula>!ISNEW() &amp;&amp;
+	ISCHANGED(  Offer_Description__c ) &amp;&amp;
+	NOT(ISBLANK( Opportunity__r.G5_Approval_Date__c)) &amp;&amp;
+	( ISPICKVAL(Opportunity__r.StageName , &quot;Handover (Prepare for Delivery)&quot;) ||
+	ISPICKVAL(Opportunity__r.StageName , &quot;Execute (Start Delivery)&quot;) ||
+	ISPICKVAL(Opportunity__r.StageName , &quot;Completed&quot;) ) &amp;&amp;
+	$Profile.Name&lt;&gt; $Label.Data_Loader_Profile_Name &amp;&amp;
+	$Profile.Name&lt;&gt; $Label.System_Admin_Profile &amp;&amp;
+	$Profile.Name&lt;&gt; $Label.Global_Process_Admin_Profile_Name &amp;&amp;
+	( Opportunity__r.RecordType.DeveloperName == &apos;Direct_Record_Type&apos; ||
+	Opportunity__r.RecordType.DeveloperName == &apos;Indirect_Record_Type&apos; )</errorConditionFormula>
+        <errorDisplayField>Offer_Description__c</errorDisplayField>
+        <errorMessage>This offer field cannot be edited after G5 approval</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Freeze_G4ApprovalDate_and_LoABypassOffer</fullName>
+        <active>true</active>
+        <description>Req 4802: Merge Offer Validation Rules</description>
+        <errorConditionFormula>AND(
+	OR(
+	ISPICKVAL( Opportunity__r.StageName , &quot;Win the Case (Negotiate)&quot;), 
+	ISPICKVAL( Opportunity__r.StageName , &quot;Handover (Prepare for Delivery)&quot;), 
+	ISPICKVAL( Opportunity__r.StageName , &quot;Execute (Start Delivery)&quot;),
+	ISPICKVAL( Opportunity__r.StageName , &quot;Completed&quot;)
+	),
+	$Profile.Name&lt;&gt;$Label.Data_Loader_Profile_Name, 
+	OR(
+		AND(
+			!ISNULL(PRIORVALUE(G4_Approval_Date__c )),
+			ISCHANGED( G4_Approval_Date__c ),
+			G4_Approval_Date__c != DATEVALUE( Opportunity__r.G4_Approval_Date__c )
+		),
+		AND(
+			ISCHANGED(LOA_Bypass__c),		
+			OR( 
+			Opportunity__r.RecordType.DeveloperName == &apos;Direct_Record_Type&apos;, 
+			Opportunity__r.RecordType.DeveloperName == &apos;Indirect_Record_Type&apos;, 
+			Opportunity__r.RecordType.DeveloperName == &apos;Read_Only&apos;, 
+			Opportunity__r.RecordType.DeveloperName == &apos;Read_Only_Indirect&apos; 
+			)
+		)
+	)
+)</errorConditionFormula>
+        <errorMessage>G4 Approval Date and G4/G5 Bypass offer condition are fixed and cannot be edited manually.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Freeze_NPI_C5_After_Successful_G4</fullName>
+        <active>true</active>
+        <description>Requirement 956: The ‘Pre C5 NPI support required’ field should remain editable till the opportunity reached Gate 4, and afterwards the answer should be frozen, to reflect the requirement at the time of offer submission.</description>
+        <errorConditionFormula>AND(
+$Profile.Name &lt;&gt; $Label.Data_Loader_Profile_Name,
+  OR(G4_Approval_Date__c = TODAY(),
+        G4_Approval_Date__c &lt; TODAY()
+    ),
+    ISCHANGED(Pre_C5_Flag_NPI__c)
+)</errorConditionFormula>
+        <errorDisplayField>Pre_C5_Flag_NPI__c</errorDisplayField>
+        <errorMessage>You cannot edit &apos;Pre-C5 NPI Support Required&apos; after successful G4.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Freeze_Offer_Fields</fullName>
+        <active>true</active>
+        <description>Req 4802: Merge offer validation rules.</description>
+        <errorConditionFormula>AND ( 
+OR(
+	ISPICKVAL( Opportunity__r.StageName , &quot;Win the Case (Negotiate)&quot;), 
+	ISPICKVAL( Opportunity__r.StageName , &quot;Handover (Prepare for Delivery)&quot;) 
+), 
+$Profile.Name&lt;&gt; $Label.Data_Loader_Profile_Name,
+OR(
+	ISCHANGED( Pre_C5_Flag_NPI__c ),
+	ISCHANGED( Pre_approved_Decision_Maker__c ),
+	ISCHANGED( Opportunity__c ),
+	ISCHANGED( Offer_Number__c ),
+	ISCHANGED( LoA_G4_Approval_Level__c ),
+	ISCHANGED( LastModifiedById ),
+	ISCHANGED( Customer_Account_Name__c ),
+	ISCHANGED( Country_of_Delivery__c )
+),
+OR( 
+Opportunity__r.RecordType.DeveloperName == &apos;Direct_Record_Type&apos;, 
+Opportunity__r.RecordType.DeveloperName == &apos;Indirect_Record_Type&apos;, 
+Opportunity__r.RecordType.DeveloperName == &apos;Read_Only&apos;, 
+Opportunity__r.RecordType.DeveloperName == &apos;Read_Only_Indirect&apos; 
+) 
+)</errorConditionFormula>
+        <errorMessage>The Offer field you are trying to modify is fixed and cannot be changed.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>LoA_mutually_exclusive_check</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+  OR(AND(No_LoA__c = True,Pre_approved_Price_List_for_Acc_Managers__c = True), AND(Authorized_for_Pricing_Manager__c = True, No_LoA__c = True), AND(Pre_approved_Price_List_for_Acc_Managers__c = True, Authorized_for_Pricing_Manager__c = True), AND(Pre_approved_Price_List_for_Acc_Managers__c = True, Authorized_for_Pricing_Manager__c = True, No_LoA__c = True)),
+  $Profile.Name&lt;&gt;$Label.Data_Loader_Profile_Name
+  )</errorConditionFormula>
+        <errorMessage>Among &quot;G4 approved or contracted&quot;, &quot;Authorized for Pricing Manager&quot;, only one can be checked at a time.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>NF_AvoidOfferSaveOnPendingOpps</fullName>
+        <active>true</active>
+        <description>Avoid saving Offers when Opportunity is on Pending Approvals</description>
+        <errorConditionFormula>AND(ISPICKVAL(Opportunity__r.Apttus_Approval__Approval_Status__c , &apos;Pending Approval&apos;),
+$Profile.Name&lt;&gt;&apos;System Administrator&apos;, 
+$Profile.Name&lt;&gt;&apos;Global Process Admin Profile&apos;, 
+$Profile.Name&lt;&gt;&apos;Integration API Only Profile&apos;, 
+$Profile.Name&lt;&gt;&apos;Data Loader Profile&apos; 
+)</errorConditionFormula>
+        <errorMessage>You cannot update the offer, when the opportunity is pending for approval</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Offer_Creation_Past_G3</fullName>
+        <active>true</active>
+        <description>D-0743: Offer Creation when Sales Phase is &apos;Create Offer (Bid)&apos; or &apos;Win the Case&apos;.
+Req 943: Allowing offer creation from intial Sales Phase.
+: Req 888 - For New Sales Path (Updated on 30-05-2017).</description>
+        <errorConditionFormula>AND(
+ISNEW(), 
+$Profile.Name != &apos;Data Loader Profile&apos;,
+OR( 
+Opportunity__r.RecordType.DeveloperName == &apos;Direct_Record_Type&apos;, 
+Opportunity__r.RecordType.DeveloperName == &apos;Indirect_Record_Type&apos;, 
+Opportunity__r.RecordType.DeveloperName == &apos;Read_Only&apos;, 
+Opportunity__r.RecordType.DeveloperName == &apos;Read_Only_Indirect&apos; 
+), 
+OR(
+TEXT(Opportunity__r.Phase_Status__c) = &apos;Submitted for G2 Approval&apos;,
+TEXT(Opportunity__r.Phase_Status__c) = &apos;Submitted for G3 Approval&apos;,
+TEXT(Opportunity__r.Phase_Status__c) = &apos;Submitted for G4 Approval&apos;,
+TEXT(Opportunity__r.Phase_Status__c) = &apos;Submitted for G5 Approval&apos;,
+TEXT(Opportunity__r.Phase_Status__c) = &apos;Submitted for G6 Approval&apos;,
+TEXT(Opportunity__r.Phase_Status__c) = &apos;Closed&apos;,
+TEXT(Opportunity__r.Phase_Status__c) = &apos;Closed(not won)&apos;,
+TEXT(Opportunity__r.Phase_Status__c) = &apos;Closed Handover&apos;,
+TEXT(Opportunity__r.StageName) = &apos;Handover (Prepare for Delivery)&apos;,
+TEXT( Opportunity__r.StageName) = &apos;Execute (Start Delivery)&apos;,
+TEXT(Opportunity__r.StageName) = &apos;Closed&apos;
+)
+)</errorConditionFormula>
+        <errorMessage>Offer cannot be created past G5 or when Opportunity is locked.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Offer_locked_at_Pending_Win_Loss</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(  
+	$Profile.Name &lt;&gt; $Label.Data_Loader_Profile_Name,
+	
+	OR(
+		Opportunity__r.RecordType.DeveloperName == &apos;Direct_Record_Type&apos;, 
+		Opportunity__r.RecordType.DeveloperName == &apos;Indirect_Record_Type&apos;
+		), OR(
+	ISPICKVAL( Opportunity__r.Phase_Status__c , &apos;Pending Win/Loss Declaration&apos;), ISPICKVAL( Opportunity__r.Phase_Status__c , &apos;PTA (PROJECT TARGET AGREEMENT) HANDOVER TO DELIVERY/OPERATIONS&apos;),ISPICKVAL( Opportunity__r.Phase_Status__c , &apos;PTA (PROJECT TARGET AGREEMENT) HANDOVER TO DELIVERY/OPERATIONS&apos;),ISPICKVAL( Opportunity__r.Phase_Status__c , &apos;In Execution&apos;)) 
+)</errorConditionFormula>
+        <errorMessage>Active offer cannot be changed past G5</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Restrict_Manual_change_SSO_To_Attached</fullName>
+        <active>true</active>
+        <description>Req:5091 :Solution Sign-Off Validations</description>
+        <errorConditionFormula>AND( 
+ ISNEW() ,
+$Profile.Name&lt;&gt;$Label.Data_Loader_Profile_Name,
+OR( 
+Opportunity__r.RecordType.DeveloperName == &apos;Direct_Record_Type&apos;, 
+Opportunity__r.RecordType.DeveloperName == &apos;Indirect_Record_Type&apos;
+),
+  ISPICKVAL(Solution_Sign_Off_New__c,&apos;Required (Attached)&apos;)
+)</errorConditionFormula>
+        <errorMessage>Please attach a Solution Sign-Off document. &apos;Required (attached)&apos; will be updated automatically.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Versioning_Of_Uploaded_Document</fullName>
+        <active>false</active>
+        <description>#Req 064
+Sprint 3
+To Validate File Versioning on Offer  Object.</description>
+        <errorConditionFormula>AND( 
+(Excel_File_Version__c &lt; VALUE($Label.Excel_File_Version)), 
+!(ISCHANGED( Price__c )), 
+$Profile.Name= $Label.Excel_Add_In_Profile_Name 
+)</errorConditionFormula>
+        <errorMessage>Please proceed with LoA data upload using Win the Deal tool. 
+Is not permitted to upload with LoA file.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

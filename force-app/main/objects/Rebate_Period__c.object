@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>Rebate_Period_Record_Page1</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Rebate_Period_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Rebate form PRM</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>End_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Rebate End Date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Enrollment_End_Date_Formula__c</fullName>
+        <description>D-4293</description>
+        <externalId>false</externalId>
+        <formula>TEXT(DAY(Enrollment_End_Date__c )) + &quot; &quot; +
+CASE(MONTH(Enrollment_End_Date__c ), 
+01, &quot;January&quot;, 
+02, &quot;February&quot;, 
+03, &quot;March&quot;, 
+04, &quot;April&quot;, 
+05, &quot;May&quot;, 
+06, &quot;June&quot;, 
+07, &quot;July&quot;, 
+08, &quot;August&quot;, 
+09, &quot;September&quot;, 
+10, &quot;October&quot;, 
+11, &quot;November&quot;, 
+12, &quot;December&quot;, 
+&quot;None&quot;)  
++ &quot;, &quot; + TEXT(YEAR(Enrollment_End_Date__c ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Enrollment End Date Formula</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Enrollment_End_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Enrollment End Date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Enrollment_Notification__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This Field help us to send enrollment notification once it is checked</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this Box to send Notification to PSMs and PRMs for Enrollment</inlineHelpText>
+        <label>Enrollment Notification</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Enrollment_start_date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Enrollment Start Date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Partner_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Partner Type Available for Rebate Period</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Value Added Reseller</fullName>
+                    <default>false</default>
+                    <label>Value Added Reseller</label>
+                </value>
+                <value>
+                    <fullName>Distributor</fullName>
+                    <default>false</default>
+                    <label>Distributor</label>
+                </value>
+                <value>
+                    <fullName>Indirect Reseller</fullName>
+                    <default>false</default>
+                    <label>Indirect Reseller</label>
+                </value>
+                <value>
+                    <fullName>Alliance Partner</fullName>
+                    <default>false</default>
+                    <label>Alliance Partner</label>
+                </value>
+                <value>
+                    <fullName>Service Provider</fullName>
+                    <default>false</default>
+                    <label>Service Provider</label>
+                </value>
+                <value>
+                    <fullName>Industrial Partner/System Integrator</fullName>
+                    <default>false</default>
+                    <label>Industrial Partner/System Integrator</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Rebate_Notification__c</fullName>
+        <externalId>false</externalId>
+        <label>Rebate Notification</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Final Review</fullName>
+                    <default>false</default>
+                    <label>Final Review</label>
+                </value>
+                <value>
+                    <fullName>Reminder</fullName>
+                    <default>false</default>
+                    <label>Reminder</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Rebate_Region__c</fullName>
+        <externalId>false</externalId>
+        <label>Rebate Region</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Market North America</fullName>
+                    <default>false</default>
+                    <label>Market North America</label>
+                </value>
+                <value>
+                    <fullName>Market Latin America</fullName>
+                    <default>false</default>
+                    <label>Market Latin America</label>
+                </value>
+                <value>
+                    <fullName>Market Middle East and Africa</fullName>
+                    <default>false</default>
+                    <label>Market Middle East and Africa</label>
+                </value>
+                <value>
+                    <fullName>Market India</fullName>
+                    <default>false</default>
+                    <label>Market India</label>
+                </value>
+                <value>
+                    <fullName>Market greater China</fullName>
+                    <default>false</default>
+                    <label>Market greater China</label>
+                </value>
+                <value>
+                    <fullName>Market Europe</fullName>
+                    <default>false</default>
+                    <label>Market Europe</label>
+                </value>
+                <value>
+                    <fullName>Market Asia Pacific &amp; Japan</fullName>
+                    <default>false</default>
+                    <label>Market Asia Pacific &amp; Japan</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>7</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Rebate_Terms_and_Conditions__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Rebate Terms and Conditions</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Rebate Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Technologies__c</fullName>
+        <externalId>false</externalId>
+        <label>Technologies Available for Rebate</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Airscale Wifi</fullName>
+                    <default>false</default>
+                    <label>Airscale Wifi</label>
+                </value>
+                <value>
+                    <fullName>Fixed Access - FBA</fullName>
+                    <default>false</default>
+                    <label>Fixed Access - FBA</label>
+                </value>
+                <value>
+                    <fullName>Fixed Access - POL</fullName>
+                    <default>false</default>
+                    <label>Fixed Access - POL</label>
+                </value>
+                <value>
+                    <fullName>IP Routing</fullName>
+                    <default>false</default>
+                    <label>IP Routing</label>
+                </value>
+                <value>
+                    <fullName>Microwave</fullName>
+                    <default>false</default>
+                    <label>Microwave</label>
+                </value>
+                <value>
+                    <fullName>Nuage</fullName>
+                    <default>false</default>
+                    <label>Nuage</label>
+                </value>
+                <value>
+                    <fullName>Optics</fullName>
+                    <default>false</default>
+                    <label>Optics</label>
+                </value>
+                <value>
+                    <fullName>Vital QIP</fullName>
+                    <default>false</default>
+                    <label>Vital QIP</label>
+                </value>
+                <value>
+                    <fullName>Vital Suite</fullName>
+                    <default>false</default>
+                    <label>Vital Suite</label>
+                </value>
+                <value>
+                    <fullName>Optics - WaveLite</fullName>
+                    <default>false</default>
+                    <label>Optics - WaveLite</label>
+                </value>
+                <value>
+                    <fullName>Applications Analytics</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Applications Analytics</label>
+                </value>
+                <value>
+                    <fullName>Fixed Networks</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Fixed Networks</label>
+                </value>
+                <value>
+                    <fullName>IP/Optical Networks</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>IP/Optical Networks</label>
+                </value>
+                <value>
+                    <fullName>Mobile Networks</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Mobile Networks</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <label>Rebate Period</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Rebate Period Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Rebate Periods</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Email_Notification_Validation_Check</fullName>
+        <active>true</active>
+        <description>Req#3574</description>
+        <errorConditionFormula>AND(NOT(OR( 
+$Profile.Name = &apos;Data Loader Profile&apos; ,
+$Profile.Name = &apos;System Administrator&apos;
+)),
+ISCHANGED(Enrollment_Notification__c ),
+Enrollment_Notification__c  = false)</errorConditionFormula>
+        <errorDisplayField>Enrollment_Notification__c</errorDisplayField>
+        <errorMessage>You are only allowed to send the initial enrollment notification once.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>End_date_should_have_Greater_value</fullName>
+        <active>true</active>
+        <errorConditionFormula>Start_Date__c  &gt;=   End_Date__c</errorConditionFormula>
+        <errorDisplayField>End_Date__c</errorDisplayField>
+        <errorMessage>Rebate End Date cannot be less than the Rebate Start Date.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>EnrollmenEnd_date_should_have_Greater_v</fullName>
+        <active>true</active>
+        <description>D-4346</description>
+        <errorConditionFormula>Enrollment_start_date__c  &gt;=  Enrollment_End_Date__c</errorConditionFormula>
+        <errorDisplayField>Enrollment_End_Date__c</errorDisplayField>
+        <errorMessage>Enrollment End Date cannot be less than the Enrollment Start Date.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Enrollment_End_date_will_be_a_current_or</fullName>
+        <active>true</active>
+        <errorConditionFormula>Enrollment_End_Date__c &lt;  TODAY()</errorConditionFormula>
+        <errorDisplayField>Enrollment_End_Date__c</errorDisplayField>
+        <errorMessage>Enrollment End date will be a current or future date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Rebate_Start_Date_can_be_date_in_the_pas</fullName>
+        <active>true</active>
+        <description>D-4285</description>
+        <errorConditionFormula>Start_Date__c  &lt;  TODAY()</errorConditionFormula>
+        <errorDisplayField>Start_Date__c</errorDisplayField>
+        <errorMessage>Rebate Start date, Only current and future dates could be entered.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>RestrictNotifBeforeEnrollmentStart</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ISCHANGED(Enrollment_Notification__c),
+Enrollment_Notification__c,
+Enrollment_start_date__c &gt; Today())</errorConditionFormula>
+        <errorDisplayField>Enrollment_Notification__c</errorDisplayField>
+        <errorMessage>Enrollment has not yet started for this rebate period. Please send enrollment notification on &quot;Enrollment Start Date&quot;</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

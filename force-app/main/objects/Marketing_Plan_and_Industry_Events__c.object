@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>Marketing_Plan_and_Industry_Events_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Marketing_Plan_and_Industry_Events_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>Marketing_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Marketing_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Campaign_or_Activity_Type__c</fields>
+        <fields>Expected_Benefit_Outcome__c</fields>
+        <label>Marketing Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Field created for Report</description>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipName>Marketing_Plans</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Campaign__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Campaign</label>
+        <length>150</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Campaign_or_Activity_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Campaign or Activity Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Traditional Marketing Activity</fullName>
+                    <default>false</default>
+                    <label>Traditional Marketing Activity</label>
+                </value>
+                <value>
+                    <fullName>Industry Events - Trade Shows</fullName>
+                    <default>false</default>
+                    <label>Industry Events - Trade Shows</label>
+                </value>
+                <value>
+                    <fullName>Social media</fullName>
+                    <default>false</default>
+                    <label>Social media</label>
+                </value>
+                <value>
+                    <fullName>Digital Media</fullName>
+                    <default>false</default>
+                    <label>Digital Media</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Campaign_or_Activity_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Activity Type</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Social media lead generation campaign</fullName>
+                    <default>false</default>
+                    <label>Social media lead generation campaign</label>
+                </value>
+                <value>
+                    <fullName>‎Workshop</fullName>
+                    <default>false</default>
+                    <label>‎Workshop</label>
+                </value>
+                <value>
+                    <fullName>‎Road-show</fullName>
+                    <default>false</default>
+                    <label>‎Road-show</label>
+                </value>
+                <value>
+                    <fullName>‎Private event</fullName>
+                    <default>false</default>
+                    <label>‎Private event</label>
+                </value>
+                <value>
+                    <fullName>‎Event sponsorship</fullName>
+                    <default>false</default>
+                    <label>‎Event sponsorship</label>
+                </value>
+                <value>
+                    <fullName>‎Demo equipment</fullName>
+                    <default>false</default>
+                    <label>‎Demo equipment</label>
+                </value>
+                <value>
+                    <fullName>‎EDM (Electronic direct email) campaign</fullName>
+                    <default>false</default>
+                    <label>‎EDM (Electronic direct email) campaign</label>
+                </value>
+                <value>
+                    <fullName>Social media</fullName>
+                    <default>false</default>
+                    <label>Social media</label>
+                </value>
+                <value>
+                    <fullName>‎Social media messages</fullName>
+                    <default>false</default>
+                    <label>‎Social media messages</label>
+                </value>
+                <value>
+                    <fullName>‎Landing page / dedicated website for solution or product</fullName>
+                    <default>false</default>
+                    <label>‎Landing page / dedicated website for solution or product</label>
+                </value>
+                <value>
+                    <fullName>‎Telemarketing activity</fullName>
+                    <default>false</default>
+                    <label>‎Telemarketing activity</label>
+                </value>
+                <value>
+                    <fullName>‎Corporate campaign</fullName>
+                    <default>false</default>
+                    <label>‎Corporate campaign</label>
+                </value>
+                <value>
+                    <fullName>‎Co-marketing campaign with lead generation</fullName>
+                    <default>false</default>
+                    <label>‎Co-marketing campaign with lead generation</label>
+                </value>
+                <value>
+                    <fullName>Webinar</fullName>
+                    <default>false</default>
+                    <label>Webinar</label>
+                </value>
+                <value>
+                    <fullName>PR (press release, case studies, project wins, etc.)</fullName>
+                    <default>false</default>
+                    <label>PR (press release, case studies, project wins, etc.)</label>
+                </value>
+                <value>
+                    <fullName>Promotional materials (giveaways, roll-up, etc.)</fullName>
+                    <default>false</default>
+                    <label>Promotional materials (giveaways, roll-up, etc.)</label>
+                </value>
+                <value>
+                    <fullName>Other (please specify)</fullName>
+                    <default>false</default>
+                    <label>Other (please specify)</label>
+                </value>
+                <value>
+                    <fullName>Digital Media</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Digital Media</label>
+                </value>
+                <value>
+                    <fullName>Industry Events - Trade Shows</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Industry Events - Trade Shows</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Traditional Marketing Activity</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Traditional Marketing Activity</label>
+                </value>
+                <value>
+                    <fullName>Web-based proposals</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Web-based proposals</label>
+                </value>
+                <value>
+                    <fullName>‎Co-marketing campaign</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>‎Co-marketing campaign</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Co_op__c</fullName>
+        <externalId>false</externalId>
+        <label>Amount to be covered by Co-op</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Completed_Date__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Completed Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Customer_Success_Stories__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Success Stories</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Expected_Benefit_Outcome__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Expected Benefit/ Outcome</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Expected_Cost_of_the_Activity__c</fullName>
+        <externalId>false</externalId>
+        <label>Expected Cost of the Activity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Expected_Financial_Outcome__c</fullName>
+        <externalId>false</externalId>
+        <label>Expected Financial Outcome</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Expected_Total_Cost_of_the_Activity__c</fullName>
+        <externalId>false</externalId>
+        <formula>Co_op__c  +  Partner_Fund__c  +  MDF__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Expected Total Cost of the Activity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Financial_Outcome_Result__c</fullName>
+        <externalId>false</externalId>
+        <label>Financial Outcome Result</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+                <value>
+                    <fullName>&lt;100k</fullName>
+                    <default>false</default>
+                    <label>&lt;100k</label>
+                </value>
+                <value>
+                    <fullName>100k – 250k</fullName>
+                    <default>false</default>
+                    <label>100k – 250k</label>
+                </value>
+                <value>
+                    <fullName>250k – 500k</fullName>
+                    <default>false</default>
+                    <label>250k – 500k</label>
+                </value>
+                <value>
+                    <fullName>500k – 1M</fullName>
+                    <default>false</default>
+                    <label>500k – 1M</label>
+                </value>
+                <value>
+                    <fullName>1M - 2M</fullName>
+                    <default>false</default>
+                    <label>1M - 2M</label>
+                </value>
+                <value>
+                    <fullName>2M - 5M</fullName>
+                    <default>false</default>
+                    <label>2M - 5M</label>
+                </value>
+                <value>
+                    <fullName>&gt;5M</fullName>
+                    <default>false</default>
+                    <label>&gt;5M</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Identify_Product_Related_to_the_Activity__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Identify Solution(s) or Product(s)</label>
+        <length>150</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Introduction__c</fullName>
+        <defaultValue>&apos;In this section please enter the marketing actions which you deem necessary to reach agreed target market / segments or associated projects. Include social media and web-based proposals.&apos; &amp;  BR()  &amp;  BR()  &amp; &apos;Please create a record for each planned marketing campaign or activity, and attach a relevant plan or document on the RELATED tab of Business Plan.&apos;</defaultValue>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Introduction</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>MDF__c</fullName>
+        <externalId>false</externalId>
+        <label>Amount to be covered by MDF</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Marketing_Plan_and_Industry_Events_BP__c</fullName>
+        <externalId>false</externalId>
+        <label>Business Plan ID</label>
+        <referenceTo>Business_Plan__c</referenceTo>
+        <relationshipName>Marketing_Plan_and_Industry_Events</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>No_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>No Cost</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Other_Expected_Benefits__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of Leads, Branding, Promotion</inlineHelpText>
+        <label>Other Expected Benefits</label>
+        <length>150</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Other_Outcome_Benefits__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of Leads, Branding, Promotion</inlineHelpText>
+        <label>Other Outcome Benefits</label>
+        <length>150</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Outcome__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Outcome</label>
+        <length>150</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Partner_Company_Partner_Prime__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Partner Company Partner Prime</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Partner_Fund__c</fullName>
+        <externalId>false</externalId>
+        <label>Amount to be Funded by Partner</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Provide_the_Campaign_or_Activity_Details__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Marketing Activity Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Source_of_Requested_Funding__c</fullName>
+        <externalId>false</externalId>
+        <label>Source of Requested Funding</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Self Funds</fullName>
+                    <default>false</default>
+                    <label>Self Funds</label>
+                </value>
+                <value>
+                    <fullName>Coop</fullName>
+                    <default>false</default>
+                    <label>Coop</label>
+                </value>
+                <value>
+                    <fullName>MDF</fullName>
+                    <default>false</default>
+                    <label>MDF</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Specify_Other__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Specify Other</label>
+        <length>150</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <defaultValue>&apos;Planned&apos;</defaultValue>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Planned</fullName>
+                    <default>false</default>
+                    <label>Planned</label>
+                </value>
+                <value>
+                    <fullName>In progress</fullName>
+                    <default>false</default>
+                    <label>In progress</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Target_Market_Segments_Project__c</fullName>
+        <externalId>false</externalId>
+        <label>Target Market/ Segments/Project</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Business &amp; Professional Services</fullName>
+                    <default>false</default>
+                    <label>Business &amp; Professional Services</label>
+                </value>
+                <value>
+                    <fullName>Cable MSO</fullName>
+                    <default>false</default>
+                    <label>Cable MSO</label>
+                </value>
+                <value>
+                    <fullName>Defense</fullName>
+                    <default>false</default>
+                    <label>Defense</label>
+                </value>
+                <value>
+                    <fullName>Education</fullName>
+                    <default>false</default>
+                    <label>Education</label>
+                </value>
+                <value>
+                    <fullName>Education – Higher</fullName>
+                    <default>false</default>
+                    <label>Education – Higher</label>
+                </value>
+                <value>
+                    <fullName>Education – K – 12</fullName>
+                    <default>false</default>
+                    <label>Education – K – 12</label>
+                </value>
+                <value>
+                    <fullName>Enterprise</fullName>
+                    <default>false</default>
+                    <label>Enterprise</label>
+                </value>
+                <value>
+                    <fullName>Federal Government</fullName>
+                    <default>false</default>
+                    <label>Federal Government</label>
+                </value>
+                <value>
+                    <fullName>Financial Services</fullName>
+                    <default>false</default>
+                    <label>Financial Services</label>
+                </value>
+                <value>
+                    <fullName>Government</fullName>
+                    <default>false</default>
+                    <label>Government</label>
+                </value>
+                <value>
+                    <fullName>Government – Local and Provincial</fullName>
+                    <default>false</default>
+                    <label>Government – Local and Provincial</label>
+                </value>
+                <value>
+                    <fullName>Healthcare</fullName>
+                    <default>false</default>
+                    <label>Healthcare</label>
+                </value>
+                <value>
+                    <fullName>Highways</fullName>
+                    <default>false</default>
+                    <label>Highways</label>
+                </value>
+                <value>
+                    <fullName>Hospitality</fullName>
+                    <default>false</default>
+                    <label>Hospitality</label>
+                </value>
+                <value>
+                    <fullName>Large Enterprise</fullName>
+                    <default>false</default>
+                    <label>Large Enterprise</label>
+                </value>
+                <value>
+                    <fullName>Manufacturing</fullName>
+                    <default>false</default>
+                    <label>Manufacturing</label>
+                </value>
+                <value>
+                    <fullName>Mid-Market</fullName>
+                    <default>false</default>
+                    <label>Mid-Market</label>
+                </value>
+                <value>
+                    <fullName>Mining</fullName>
+                    <default>false</default>
+                    <label>Mining</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Pharmaceutical</fullName>
+                    <default>false</default>
+                    <label>Pharmaceutical</label>
+                </value>
+                <value>
+                    <fullName>Ports &amp; Airport</fullName>
+                    <default>false</default>
+                    <label>Ports &amp; Airport</label>
+                </value>
+                <value>
+                    <fullName>Public Safety</fullName>
+                    <default>false</default>
+                    <label>Public Safety</label>
+                </value>
+                <value>
+                    <fullName>Public Sector</fullName>
+                    <default>false</default>
+                    <label>Public Sector</label>
+                </value>
+                <value>
+                    <fullName>Railways</fullName>
+                    <default>false</default>
+                    <label>Railways</label>
+                </value>
+                <value>
+                    <fullName>Retail</fullName>
+                    <default>false</default>
+                    <label>Retail</label>
+                </value>
+                <value>
+                    <fullName>SMB</fullName>
+                    <default>false</default>
+                    <label>SMB</label>
+                </value>
+                <value>
+                    <fullName>Telco (SP)</fullName>
+                    <default>false</default>
+                    <label>Telco (SP)</label>
+                </value>
+                <value>
+                    <fullName>Transportation</fullName>
+                    <default>false</default>
+                    <label>Transportation</label>
+                </value>
+                <value>
+                    <fullName>Utilities, Oil &amp; Gas</fullName>
+                    <default>false</default>
+                    <label>Utilities, Oil &amp; Gas</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Targeted_Date_of_Activity_Launched__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Targeted Date of Activity Launched</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <label>Marketing Plan</label>
+    <nameField>
+        <displayFormat>MP-{0000}</displayFormat>
+        <label>Marketing Plan and Industry Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Marketing Plan</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Specify_No_Other_Activity_Type</fullName>
+        <active>true</active>
+        <errorConditionFormula>!ISPICKVAL( Campaign_or_Activity_Type__c , &apos;Other (please specify)&apos;) &amp;&amp;  !ISBLANK(Specify_Other__c)</errorConditionFormula>
+        <errorDisplayField>Specify_Other__c</errorDisplayField>
+        <errorMessage>You are only allowed to enter the value in this field if you select &quot;Other&quot; in Activity Type</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Specify_Other_Activity_Type</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAL( Campaign_or_Activity_Type__c , &apos;Other (please specify)&apos;) &amp;&amp;  ISBLANK(Specify_Other__c)</errorConditionFormula>
+        <errorDisplayField>Specify_Other__c</errorDisplayField>
+        <errorMessage>Please specify other as you have selected &quot;Other&quot; in Activity Type</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

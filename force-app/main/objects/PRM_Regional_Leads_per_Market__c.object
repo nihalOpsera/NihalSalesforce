@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>stores PRM regional lead per market</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Regional_Leads_Email__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>store PRM Reginal lea emails per market</inlineHelpText>
+        <label>Regional Leads Email</label>
+        <length>250</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>PRM Regional Leads per Market</label>
+    <visibility>Public</visibility>
+</CustomObject>

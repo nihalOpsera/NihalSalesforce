@@ -1,0 +1,1983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This object will be used for Interface/error handling</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Comment__c</fullName>
+        <description>Comment section for Error Log</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Comment</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>DS_Payload__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>DS Payload</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Digital_Proposal__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Digital Proposal</label>
+        <referenceTo>SWx_Upsell_Proposal__c</referenceTo>
+        <relationshipLabel>Interface Log</relationshipLabel>
+        <relationshipName>Interface_Log</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Interface_Request_Sent__c</fullName>
+        <description>This field will be used if there will be any request</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Interface Request Sent</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Interface_Type__c</fullName>
+        <description>What are the type of Interface</description>
+        <externalId>false</externalId>
+        <label>Interface Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>ALCR ACC SYNC</fullName>
+                    <default>false</default>
+                    <label>ALCR ACC SYNC</label>
+                </value>
+                <value>
+                    <fullName>Business Hours</fullName>
+                    <default>false</default>
+                    <label>Business Hours</label>
+                </value>
+                <value>
+                    <fullName>CAPSV to SF</fullName>
+                    <default>false</default>
+                    <label>CAPSV to SF</label>
+                </value>
+                <value>
+                    <fullName>CARES Authorised Entitlement</fullName>
+                    <default>false</default>
+                    <label>CARES Authorised Entitlement</label>
+                </value>
+                <value>
+                    <fullName>CARES Child Service Contract</fullName>
+                    <default>false</default>
+                    <label>CARES Child Service Contract</label>
+                </value>
+                <value>
+                    <fullName>CARES Contract Line Item</fullName>
+                    <default>false</default>
+                    <label>CARES Contract Line Item</label>
+                </value>
+                <value>
+                    <fullName>CARES Parent Service Contract</fullName>
+                    <default>false</default>
+                    <label>CARES Parent Service Contract</label>
+                </value>
+                <value>
+                    <fullName>CART Interface</fullName>
+                    <default>false</default>
+                    <label>CART Interface</label>
+                </value>
+                <value>
+                    <fullName>CDB/CARES Interface Generic Error</fullName>
+                    <default>false</default>
+                    <label>CDB/CARES Interface Generic Error</label>
+                </value>
+                <value>
+                    <fullName>CDB CARE Contract Type</fullName>
+                    <default>false</default>
+                    <label>CDB CARE Contract Type</label>
+                </value>
+                <value>
+                    <fullName>CDB CARE Service Contract</fullName>
+                    <default>false</default>
+                    <label>CDB CARE Service Contract</label>
+                </value>
+                <value>
+                    <fullName>CDB ServiceContract</fullName>
+                    <default>false</default>
+                    <label>CDB ServiceContract</label>
+                </value>
+                <value>
+                    <fullName>CDB Supplier</fullName>
+                    <default>false</default>
+                    <label>CDB Supplier</label>
+                </value>
+                <value>
+                    <fullName>CMD Pack1 Account Sync</fullName>
+                    <default>false</default>
+                    <label>CMD Pack1 Account Sync</label>
+                </value>
+                <value>
+                    <fullName>CMD Pack3 P20ID Sync</fullName>
+                    <default>false</default>
+                    <label>CMD Pack3 P20ID Sync</label>
+                </value>
+                <value>
+                    <fullName>CMD Pack4 Sales Role Sync</fullName>
+                    <default>false</default>
+                    <label>CMD Pack4 Sales Role Sync</label>
+                </value>
+                <value>
+                    <fullName>CMD Pack4 User Sync</fullName>
+                    <default>false</default>
+                    <label>CMD Pack4 User Sync</label>
+                </value>
+                <value>
+                    <fullName>CMD Pack 5 Account Sync</fullName>
+                    <default>false</default>
+                    <label>CMD Pack 5 Account Sync</label>
+                </value>
+                <value>
+                    <fullName>Contract Line Item</fullName>
+                    <default>false</default>
+                    <label>Contract Line Item</label>
+                </value>
+                <value>
+                    <fullName>CQ Process Quote</fullName>
+                    <default>false</default>
+                    <label>CQ Process Quote</label>
+                </value>
+                <value>
+                    <fullName>CQ Sync Offer</fullName>
+                    <default>false</default>
+                    <label>CQ Sync Offer</label>
+                </value>
+                <value>
+                    <fullName>CQ Sync Quote</fullName>
+                    <default>false</default>
+                    <label>CQ Sync Quote</label>
+                </value>
+                <value>
+                    <fullName>CQ UpdateQuote/Pricing</fullName>
+                    <default>false</default>
+                    <label>CQ UpdateQuote/Pricing</label>
+                </value>
+                <value>
+                    <fullName>CQ UpdateQuote/Status</fullName>
+                    <default>false</default>
+                    <label>CQ UpdateQuote/Status</label>
+                </value>
+                <value>
+                    <fullName>CSOD Certification Sync</fullName>
+                    <default>false</default>
+                    <label>CSOD Certification Sync</label>
+                </value>
+                <value>
+                    <fullName>CSOD Course Sync</fullName>
+                    <default>false</default>
+                    <label>CSOD Course Sync</label>
+                </value>
+                <value>
+                    <fullName>CSOD Curriculum Mapping Table Sync</fullName>
+                    <default>false</default>
+                    <label>CSOD Curriculum Mapping Table Sync</label>
+                </value>
+                <value>
+                    <fullName>Customer S2S</fullName>
+                    <default>false</default>
+                    <label>Customer S2S</label>
+                </value>
+                <value>
+                    <fullName>Customers SSO JIT</fullName>
+                    <default>false</default>
+                    <label>Customers SSO JIT</label>
+                </value>
+                <value>
+                    <fullName>DS Northbound</fullName>
+                    <default>false</default>
+                    <label>DS Northbound</label>
+                </value>
+                <value>
+                    <fullName>DS ProposalCreation</fullName>
+                    <default>false</default>
+                    <label>DS ProposalCreation</label>
+                </value>
+                <value>
+                    <fullName>DS Southbound</fullName>
+                    <default>false</default>
+                    <label>DS Southbound</label>
+                </value>
+                <value>
+                    <fullName>EAI Quote Sync</fullName>
+                    <default>false</default>
+                    <label>EAI Quote Sync</label>
+                </value>
+                <value>
+                    <fullName>EDP CH Processing</fullName>
+                    <default>false</default>
+                    <label>EDP CH Processing</label>
+                </value>
+                <value>
+                    <fullName>EDP Configuration Item Stage</fullName>
+                    <default>false</default>
+                    <label>EDP Configuration Item Stage</label>
+                </value>
+                <value>
+                    <fullName>EDP Design Element Stage</fullName>
+                    <default>false</default>
+                    <label>EDP Design Element Stage</label>
+                </value>
+                <value>
+                    <fullName>EDP Feature Stage</fullName>
+                    <default>false</default>
+                    <label>EDP Feature Stage</label>
+                </value>
+                <value>
+                    <fullName>EDP Feature to Product2</fullName>
+                    <default>false</default>
+                    <label>EDP Feature to Product2</label>
+                </value>
+                <value>
+                    <fullName>EDP PCI to Product2</fullName>
+                    <default>false</default>
+                    <label>EDP PCI to Product2</label>
+                </value>
+                <value>
+                    <fullName>EDP PI to Product2</fullName>
+                    <default>false</default>
+                    <label>EDP PI to Product2</label>
+                </value>
+                <value>
+                    <fullName>EDP PI to Product Content</fullName>
+                    <default>false</default>
+                    <label>EDP PI to Product Content</label>
+                </value>
+                <value>
+                    <fullName>EDP Portfolio Item Stage</fullName>
+                    <default>false</default>
+                    <label>EDP Portfolio Item Stage</label>
+                </value>
+                <value>
+                    <fullName>EDP Product Classification Stage</fullName>
+                    <default>false</default>
+                    <label>EDP Product Classification Stage</label>
+                </value>
+                <value>
+                    <fullName>EDP Product Master Data</fullName>
+                    <default>false</default>
+                    <label>EDP Product Master Data</label>
+                </value>
+                <value>
+                    <fullName>EDP Product Relations Stage</fullName>
+                    <default>false</default>
+                    <label>EDP Product Relations Stage</label>
+                </value>
+                <value>
+                    <fullName>EDP RedBox Data</fullName>
+                    <default>false</default>
+                    <label>EDP RedBox Data</label>
+                </value>
+                <value>
+                    <fullName>EDP Release Stage</fullName>
+                    <default>false</default>
+                    <label>EDP Release Stage</label>
+                </value>
+                <value>
+                    <fullName>EDP Sales Item Stage</fullName>
+                    <default>false</default>
+                    <label>EDP Sales Item Stage</label>
+                </value>
+                <value>
+                    <fullName>EDP SI to Product2</fullName>
+                    <default>false</default>
+                    <label>EDP SI to Product2</label>
+                </value>
+                <value>
+                    <fullName>fALU CQ Integration</fullName>
+                    <default>false</default>
+                    <label>fALU CQ Integration</label>
+                </value>
+                <value>
+                    <fullName>fALU Offer Sync</fullName>
+                    <default>false</default>
+                    <label>fALU Offer Sync</label>
+                </value>
+                <value>
+                    <fullName>fALU Oppty Sync</fullName>
+                    <default>false</default>
+                    <label>fALU Oppty Sync</label>
+                </value>
+                <value>
+                    <fullName>fALU OTM Sync</fullName>
+                    <default>false</default>
+                    <label>fALU OTM Sync</label>
+                </value>
+                <value>
+                    <fullName>fALU SO Integration</fullName>
+                    <default>false</default>
+                    <label>fALU SO Integration</label>
+                </value>
+                <value>
+                    <fullName>fNOK Oppty Sync</fullName>
+                    <default>false</default>
+                    <label>fNOK Oppty Sync</label>
+                </value>
+                <value>
+                    <fullName>fNOK OTM Sync</fullName>
+                    <default>false</default>
+                    <label>fNOK OTM Sync</label>
+                </value>
+                <value>
+                    <fullName>FX Rates Integration</fullName>
+                    <default>false</default>
+                    <label>FX Rates Integration</label>
+                </value>
+                <value>
+                    <fullName>LoA Download Interface</fullName>
+                    <default>false</default>
+                    <label>LoA Download Interface</label>
+                </value>
+                <value>
+                    <fullName>NAM Pre-Approval</fullName>
+                    <default>false</default>
+                    <label>NAM Pre-Approval</label>
+                </value>
+                <value>
+                    <fullName>NAM User Details</fullName>
+                    <default>false</default>
+                    <label>NAM User Details</label>
+                </value>
+                <value>
+                    <fullName>NED User Deactivation</fullName>
+                    <default>false</default>
+                    <label>NED User Deactivation</label>
+                </value>
+                <value>
+                    <fullName>NED User Enrichment</fullName>
+                    <default>false</default>
+                    <label>NED User Enrichment</label>
+                </value>
+                <value>
+                    <fullName>NPT Outbound</fullName>
+                    <default>false</default>
+                    <label>NPT Outbound</label>
+                </value>
+                <value>
+                    <fullName>NSA User Sync</fullName>
+                    <default>false</default>
+                    <label>NSA User Sync</label>
+                </value>
+                <value>
+                    <fullName>PRM Partners SSO JIT</fullName>
+                    <default>false</default>
+                    <label>PRM Partners SSO JIT</label>
+                </value>
+                <value>
+                    <fullName>PRM to SUS Interface</fullName>
+                    <default>false</default>
+                    <label>PRM to SUS Interface</label>
+                </value>
+                <value>
+                    <fullName>Product Content</fullName>
+                    <default>false</default>
+                    <label>Product Content</label>
+                </value>
+                <value>
+                    <fullName>Pronto/Jira Interface</fullName>
+                    <default>false</default>
+                    <label>Pronto/Jira Interface</label>
+                </value>
+                <value>
+                    <fullName>Prospect Creation Interface</fullName>
+                    <default>false</default>
+                    <label>Prospect Creation Interface</label>
+                </value>
+                <value>
+                    <fullName>Sales Order Sync</fullName>
+                    <default>false</default>
+                    <label>Sales Order Sync</label>
+                </value>
+                <value>
+                    <fullName>Service Contract Team</fullName>
+                    <default>false</default>
+                    <label>Service Contract Team</label>
+                </value>
+                <value>
+                    <fullName>SharePoint ALU Contact Sync</fullName>
+                    <default>false</default>
+                    <label>SharePoint ALU Contact Sync</label>
+                </value>
+                <value>
+                    <fullName>SharePoint Gate Partocipants and Delegate Sync</fullName>
+                    <default>false</default>
+                    <label>SharePoint Gate Partocipants and Delegate Sync</label>
+                </value>
+                <value>
+                    <fullName>SharePoint Offer Sync</fullName>
+                    <default>false</default>
+                    <label>SharePoint Offer Sync</label>
+                </value>
+                <value>
+                    <fullName>SharePoint OPP Sync</fullName>
+                    <default>false</default>
+                    <label>SharePoint OPP Sync</label>
+                </value>
+                <value>
+                    <fullName>SharePoint OTM Sync</fullName>
+                    <default>false</default>
+                    <label>SharePoint OTM Sync</label>
+                </value>
+                <value>
+                    <fullName>SharePoint Send Quote Document</fullName>
+                    <default>false</default>
+                    <label>SharePoint Send Quote Document</label>
+                </value>
+                <value>
+                    <fullName>SharePoint UserProfile Sync</fullName>
+                    <default>false</default>
+                    <label>SharePoint UserProfile Sync</label>
+                </value>
+                <value>
+                    <fullName>SOO</fullName>
+                    <default>false</default>
+                    <label>SOO</label>
+                </value>
+                <value>
+                    <fullName>SRT2TerritoryAssociation</fullName>
+                    <default>false</default>
+                    <label>SRT2TerritoryAssociation</label>
+                </value>
+                <value>
+                    <fullName>STARS Sales Order Sync</fullName>
+                    <default>false</default>
+                    <label>STARS Sales Order Sync</label>
+                </value>
+                <value>
+                    <fullName>Surround Files</fullName>
+                    <default>false</default>
+                    <label>Surround Files</label>
+                </value>
+                <value>
+                    <fullName>SUS Favorite Products</fullName>
+                    <default>false</default>
+                    <label>SUS Favorite Products</label>
+                </value>
+                <value>
+                    <fullName>SUS to PRM Interface</fullName>
+                    <default>false</default>
+                    <label>SUS to PRM Interface</label>
+                </value>
+                <value>
+                    <fullName>VZW Contact Sync</fullName>
+                    <default>false</default>
+                    <label>VZW Contact Sync</label>
+                </value>
+                <value>
+                    <fullName>LoA Excel Add-in Interface</fullName>
+                    <default>false</default>
+                    <label>WTD Interface</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>JSON_ID_NPT__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>true</externalId>
+        <label>JSON ID(NPT)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Message_Type__c</fullName>
+        <description>What is the type of the message</description>
+        <externalId>false</externalId>
+        <label>Message Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Inbound</fullName>
+                    <default>false</default>
+                    <label>Inbound</label>
+                </value>
+                <value>
+                    <fullName>Outbound</fullName>
+                    <default>false</default>
+                    <label>Outbound</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Month_Day_Year__c</fullName>
+        <description>Check the creation date</description>
+        <externalId>false</externalId>
+        <formula>DATE(YEAR(DATEVALUE(CreatedDate)),MONTH(DATEVALUE(CreatedDate)),01)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Month/Day/Year</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Number_of_Record_Processed__c</fullName>
+        <description>Use to process the positive record</description>
+        <externalId>false</externalId>
+        <label>Number of Record Processed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Records_Errored__c</fullName>
+        <description>Track the number of error records</description>
+        <externalId>false</externalId>
+        <label>Number of Records Errored</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Records_Success__c</fullName>
+        <description>Number of successful records</description>
+        <externalId>false</externalId>
+        <label>Number of Records Success</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Operation_Type__c</fullName>
+        <description>What is the type of operation like insert/ delete/update</description>
+        <externalId>false</externalId>
+        <label>Operation Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Delete</fullName>
+                    <default>false</default>
+                    <label>Delete</label>
+                </value>
+                <value>
+                    <fullName>Insert</fullName>
+                    <default>false</default>
+                    <label>Insert</label>
+                </value>
+                <value>
+                    <fullName>Update</fullName>
+                    <default>false</default>
+                    <label>Update</label>
+                </value>
+                <value>
+                    <fullName>Upsert</fullName>
+                    <default>false</default>
+                    <label>Upsert</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Post_Processing_Status__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Post Processing Status</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Configuration__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Product Configuration</label>
+        <referenceTo>Apttus_Config2__ProductConfiguration__c</referenceTo>
+        <relationshipLabel>Interface Log</relationshipLabel>
+        <relationshipName>Interface_Log</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Resend__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Resend</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <description>What is the status of the error/interface log</description>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Batch Update Opportunity Managers - Apex Batch Logs</fullName>
+                    <default>false</default>
+                    <label>Batch Update Opportunity Managers - Apex Batch Logs</label>
+                </value>
+                <value>
+                    <fullName>Failure</fullName>
+                    <default>false</default>
+                    <label>Failure</label>
+                </value>
+                <value>
+                    <fullName>Partial Success (Race Conditions Occurred)</fullName>
+                    <default>false</default>
+                    <label>Partial Success (Race Conditions Occurred)</label>
+                </value>
+                <value>
+                    <fullName>Request queued for future callout</fullName>
+                    <default>false</default>
+                    <label>Request queued for future callout</label>
+                </value>
+                <value>
+                    <fullName>Success</fullName>
+                    <default>false</default>
+                    <label>Success</label>
+                </value>
+                <value>
+                    <fullName>Post Processing Error</fullName>
+                    <default>false</default>
+                    <label>Post Processing Error</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>User_Market__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(CreatedBy.Market__c)</formula>
+        <inlineHelpText>Market of the User who created the iLog record. To track LoA Uploads by Market.</inlineHelpText>
+        <label>User Market</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>iLog_Timestamp__c</fullName>
+        <externalId>false</externalId>
+        <formula>CreatedDate</formula>
+        <label>iLog Timestamp</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <label>Interface Log</label>
+    <listViews>
+        <fullName>CARES_CDB_Interface</fullName>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Status__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>startsWith</operation>
+            <value>CARES</value>
+        </filters>
+        <filters>
+            <field>NAME</field>
+            <operation>startsWith</operation>
+            <value>CDB</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>greaterThan</operation>
+            <value>5/5/2020 12:00 AM</value>
+        </filters>
+        <label>CARES/CDB Interface</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>CDB_Business_Hours</fullName>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>equals</operation>
+            <value>Business Hours batch status</value>
+        </filters>
+        <label>CDB Business Hours</label>
+    </listViews>
+    <listViews>
+        <fullName>CMD_Pack4</fullName>
+        <columns>NAME</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>Comment__c</columns>
+        <columns>iLog_Timestamp__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Failure</value>
+        </filters>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>CMD Pack4 Sales Role Sync,CMD Pack4 User Sync</value>
+        </filters>
+        <filters>
+            <field>iLog_Timestamp__c</field>
+            <operation>equals</operation>
+            <value>THIS_MONTH</value>
+        </filters>
+        <label>Failure_CMD Pack4 This Month</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>SDC</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CSOD_Interface</fullName>
+        <columns>NAME</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>Comment__c</columns>
+        <columns>iLog_Timestamp__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>CSOD Course Sync</value>
+        </filters>
+        <label>CSOD Interface - Course Sync</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>PRM_Admin</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CSOD_Interface_Cert_Sync</fullName>
+        <columns>NAME</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>Comment__c</columns>
+        <columns>iLog_Timestamp__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>CSOD Certification Sync</value>
+        </filters>
+        <label>CSOD Interface - Cert Sync</label>
+        <sharedTo>
+            <group>PRM_Admin</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CSOD_Interface_Curriculum_Mapping</fullName>
+        <columns>NAME</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>Comment__c</columns>
+        <columns>iLog_Timestamp__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>CSOD Curriculum Mapping Table Sync</value>
+        </filters>
+        <label>CSOD Interface - Curriculum Mapping</label>
+        <sharedTo>
+            <group>PRM_Admin</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CSOD_VIEW</fullName>
+        <columns>NAME</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>Comment__c</columns>
+        <columns>iLog_Timestamp__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Failure</value>
+        </filters>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>CSOD Certification Sync,CSOD Course Sync,CSOD Curriculum Mapping Table Sync</value>
+        </filters>
+        <filters>
+            <field>iLog_Timestamp__c</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>Failure_CSOD Today</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>SDC</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CST_Integration</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Comment__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>OBJECT_ID</columns>
+        <columns>Number_of_Records_Success__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>contains</operation>
+            <value>QtC integration</value>
+        </filters>
+        <label>CST Integration</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>CST_Integration1</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Comment__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>Interface_Request_Sent__c</columns>
+        <columns>OBJECT_ID</columns>
+        <columns>Number_of_Records_Success__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>contains</operation>
+            <value>CST Tact</value>
+        </filters>
+        <label>CST Tactic Integration</label>
+    </listViews>
+    <listViews>
+        <fullName>Copy_of_CST_Campaign_Member_Status_Logs_TODAY</fullName>
+        <columns>NAME</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Status__c</columns>
+        <columns>Interface_Request_Sent__c</columns>
+        <columns>iLog_Timestamp__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>iLog_Timestamp__c</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>CST Tactic Status Integration</value>
+        </filters>
+        <label>CST Campaign Member Status Logs - Today</label>
+    </listViews>
+    <listViews>
+        <fullName>DS_Eccenca_Northbound</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Comment__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Message_Type__c</field>
+            <operation>equals</operation>
+            <value>Inbound</value>
+        </filters>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>DS Northbound</value>
+        </filters>
+        <label>DS Eccenca Northbound</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>DS_Eccenca_Southbound</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Comment__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>DS Southbound</value>
+        </filters>
+        <label>DS Eccenca Southbound</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Digital_Sales_Interface_Log</fullName>
+        <columns>NAME</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>Status__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>DS ProposalCreation</value>
+        </filters>
+        <label>Digital Sales Interface Log</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>EDP_Processing_Inbound_Failure</fullName>
+        <columns>NAME</columns>
+        <columns>Interface_Request_Sent__c</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Status__c</columns>
+        <columns>Comment__c</columns>
+        <columns>Message_Type__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>EDP CH Processing</value>
+        </filters>
+        <filters>
+            <field>Message_Type__c</field>
+            <operation>equals</operation>
+            <value>Inbound</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Failure</value>
+        </filters>
+        <label>EDP Processing Inbound Failure</label>
+    </listViews>
+    <listViews>
+        <fullName>Failed_Record</fullName>
+        <columns>CREATED_DATE</columns>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>Comment__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Failure</value>
+        </filters>
+        <filters>
+            <field>Message_Type__c</field>
+            <operation>equals</operation>
+            <value>Inbound</value>
+        </filters>
+        <filters>
+            <field>iLog_Timestamp__c</field>
+            <operation>greaterThan</operation>
+            <value>1/15/2020 12:00 AM</value>
+        </filters>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>ALCR ACC SYNC,CMD Pack1 Account Sync,CMD Pack 5 Account Sync</value>
+        </filters>
+        <label>Failed Record</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Failure_CMD_Pack4_Last_Month</fullName>
+        <columns>NAME</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>Comment__c</columns>
+        <columns>iLog_Timestamp__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Success</value>
+        </filters>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>CMD Pack4 Sales Role Sync,CMD Pack4 User Sync</value>
+        </filters>
+        <filters>
+            <field>iLog_Timestamp__c</field>
+            <operation>equals</operation>
+            <value>LAST_MONTH</value>
+        </filters>
+        <label>Success_CMD Pack4 Last Month</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>SDC</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Failure_CSOD_Today</fullName>
+        <columns>NAME</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>Comment__c</columns>
+        <columns>iLog_Timestamp__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Failure</value>
+        </filters>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>CSOD Certification Sync,CSOD Course Sync,CSOD Curriculum Mapping Table Sync</value>
+        </filters>
+        <filters>
+            <field>iLog_Timestamp__c</field>
+            <operation>greaterThan</operation>
+            <value>10/25/2018 4:04 AM</value>
+        </filters>
+        <label>Failure_CSOD Today</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>SDC</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Failure_CSOD_Today1</fullName>
+        <columns>NAME</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>Comment__c</columns>
+        <columns>iLog_Timestamp__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Failure</value>
+        </filters>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>CSOD Certification Sync,CSOD Course Sync,CSOD Curriculum Mapping Table Sync</value>
+        </filters>
+        <filters>
+            <field>iLog_Timestamp__c</field>
+            <operation>greaterThan</operation>
+            <value>10/25/2018 12:00 AM</value>
+        </filters>
+        <label>Failure_CSOD Today</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>SDC</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Fitch_fALU_Oppty_Sync_View</fullName>
+        <columns>NAME</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>Comment__c</columns>
+        <columns>iLog_Timestamp__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Failure</value>
+        </filters>
+        <filters>
+            <field>iLog_Timestamp__c</field>
+            <operation>equals</operation>
+            <value>THIS_WEEK</value>
+        </filters>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>fALU Oppty Sync,fALU Offer Sync,fNOK Oppty Sync</value>
+        </filters>
+        <label>Failure_Oppty&amp;Offer SyncThis Week</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>SDC</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>HWS_Admin_Queue_Interface_Log</fullName>
+        <filterScope>Queue</filterScope>
+        <label>HWS Admin Queue</label>
+        <queue>HWS_Admin_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Inbound_Today1</fullName>
+        <columns>NAME</columns>
+        <columns>iLog_Timestamp__c</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>Status__c</columns>
+        <columns>Comment__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Message_Type__c</field>
+            <operation>equals</operation>
+            <value>Inbound</value>
+        </filters>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>Customer S2S</value>
+        </filters>
+        <label>Inbound Today</label>
+    </listViews>
+    <listViews>
+        <fullName>LoA_Download_Today</fullName>
+        <columns>NAME</columns>
+        <columns>Interface_Request_Sent__c</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>Message_Type__c</columns>
+        <columns>OBJECT_ID</columns>
+        <columns>Status__c</columns>
+        <columns>Operation_Type__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>LoA Download Interface</value>
+        </filters>
+        <label>L2D Download Logs</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>LoA_Excel_Add_In_Interfaces</fullName>
+        <columns>NAME</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>Status__c</columns>
+        <columns>Interface_Request_Sent__c</columns>
+        <columns>Comment__c</columns>
+        <columns>iLog_Timestamp__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>LoA Excel Add-in Interface</value>
+        </filters>
+        <label>WtD CRM Interface Log</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>NAM_Integration</fullName>
+        <columns>NAME</columns>
+        <columns>iLog_Timestamp__c</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>Status__c</columns>
+        <columns>Comment__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>equals</operation>
+            <value>NAM Integration</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Success</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Failure</value>
+        </filters>
+        <label>NAM Integration</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>NED_Deactivation</fullName>
+        <columns>NAME</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>Status__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>NED User Deactivation</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>NED Deactivation</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>NPT_Integration</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Comment__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>contains</operation>
+            <value>EDP RedBox Data</value>
+        </filters>
+        <label>NPT Integration</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>OTM_Sync_s_failure_of_Last_Week</fullName>
+        <columns>NAME</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>Comment__c</columns>
+        <columns>iLog_Timestamp__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Failure</value>
+        </filters>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>fALU OTM Sync,fNOK OTM Sync</value>
+        </filters>
+        <filters>
+            <field>iLog_Timestamp__c</field>
+            <operation>equals</operation>
+            <value>THIS_WEEK</value>
+        </filters>
+        <label>Failure_OTM Sync This Week</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>SDC</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Outbound_Today</fullName>
+        <columns>NAME</columns>
+        <columns>iLog_Timestamp__c</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>Status__c</columns>
+        <columns>Comment__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Message_Type__c</field>
+            <operation>equals</operation>
+            <value>Outbound</value>
+        </filters>
+        <filters>
+            <field>iLog_Timestamp__c</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>R&amp;D</value>
+        </filters>
+        <label>Outbound Today</label>
+    </listViews>
+    <listViews>
+        <fullName>Prospects_Enriched_Inbound_update</fullName>
+        <columns>NAME</columns>
+        <columns>iLog_Timestamp__c</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>CMD Pack1 Account Sync</value>
+        </filters>
+        <filters>
+            <field>Message_Type__c</field>
+            <operation>equals</operation>
+            <value>Inbound</value>
+        </filters>
+        <filters>
+            <field>Operation_Type__c</field>
+            <operation>equals</operation>
+            <value>Update</value>
+        </filters>
+        <filters>
+            <field>NAME</field>
+            <operation>startsWith</operation>
+            <value>3</value>
+        </filters>
+        <label>Prospects Enriched (Inbound update)</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Prospects_outbound</fullName>
+        <columns>NAME</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>contains</operation>
+            <value>Prospect Creation Interface</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>greaterThan</operation>
+            <value>3/1/2018 12:00 AM</value>
+        </filters>
+        <label>Prospects outbound</label>
+    </listViews>
+    <listViews>
+        <fullName>S2S_Inbound_Failure</fullName>
+        <columns>NAME</columns>
+        <columns>Interface_Request_Sent__c</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Status__c</columns>
+        <columns>Comment__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Number_of_Records_Errored__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>Pronto/Jira Interface</value>
+        </filters>
+        <filters>
+            <field>Message_Type__c</field>
+            <operation>equals</operation>
+            <value>Inbound</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Failure</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_WEEK</value>
+        </filters>
+        <label>S2S Inbound Failure</label>
+    </listViews>
+    <listViews>
+        <fullName>S2S_Outbound_Failed</fullName>
+        <columns>NAME</columns>
+        <columns>Interface_Request_Sent__c</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Status__c</columns>
+        <columns>Comment__c</columns>
+        <columns>Message_Type__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>Customer S2S</value>
+        </filters>
+        <filters>
+            <field>Message_Type__c</field>
+            <operation>equals</operation>
+            <value>Outbound</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_WEEK</value>
+        </filters>
+        <label>S2S Outbound Today</label>
+    </listViews>
+    <listViews>
+        <fullName>S2S_Outbound_Success</fullName>
+        <columns>NAME</columns>
+        <columns>Interface_Request_Sent__c</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Status__c</columns>
+        <columns>Message_Type__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>Customer S2S</value>
+        </filters>
+        <filters>
+            <field>Message_Type__c</field>
+            <operation>equals</operation>
+            <value>Outbound</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Failure</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>greaterThan</operation>
+            <value>12/17/2020 12:00 AM</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>lessThan</operation>
+            <value>12/19/2020 12:00 AM</value>
+        </filters>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>tmobile-tim</value>
+        </filters>
+        <label>S2S Outbound Success</label>
+    </listViews>
+    <listViews>
+        <fullName>SP_SSO_Errors_Today</fullName>
+        <columns>Interface_Type__c</columns>
+        <columns>NAME</columns>
+        <columns>Interface_Request_Sent__c</columns>
+        <columns>Comment__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Status__c</columns>
+        <columns>iLog_Timestamp__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>Customers SSO JIT</value>
+        </filters>
+        <label>SP SSO Errors Today</label>
+    </listViews>
+    <listViews>
+        <fullName>SRT2TerritoryAssociation</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>SRT2TerritoryAssociation</value>
+        </filters>
+        <label>SRT2TerritoryAssociation</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>SRT2TerritoryAssociation_Failure</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Comment__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>SRT2TerritoryAssociation</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Failure</value>
+        </filters>
+        <label>SRT2TerritoryAssociation_Failure</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>SUS_Integration</fullName>
+        <columns>NAME</columns>
+        <columns>iLog_Timestamp__c</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>Status__c</columns>
+        <columns>Comment__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>equals</operation>
+            <value>SUS Integration</value>
+        </filters>
+        <label>SUS Integration</label>
+    </listViews>
+    <listViews>
+        <fullName>Success_CMD_Pack4_Today</fullName>
+        <columns>NAME</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>Comment__c</columns>
+        <columns>iLog_Timestamp__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>CMD Pack4 Sales Role Sync,CMD Pack4 User Sync</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Success</value>
+        </filters>
+        <filters>
+            <field>iLog_Timestamp__c</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>Success_CMD Pack4 Today</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>SDC</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Success_OTM_Sync_Today</fullName>
+        <columns>NAME</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>Comment__c</columns>
+        <columns>iLog_Timestamp__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>iLog_Timestamp__c</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>fALU OTM Sync,fNOK OTM Sync</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Success</value>
+        </filters>
+        <label>Success_OTM Sync Today</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>SDC</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Success_Oppty_Offer_Sync_Today</fullName>
+        <columns>NAME</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>Comment__c</columns>
+        <columns>iLog_Timestamp__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>fALU Offer Sync</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Success</value>
+        </filters>
+        <filters>
+            <field>iLog_Timestamp__c</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>Success_Offer Sync Today</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>SDC</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Success_Oppty_Sync_Today</fullName>
+        <columns>NAME</columns>
+        <columns>Interface_Type__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>Comment__c</columns>
+        <columns>iLog_Timestamp__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>iLog_Timestamp__c</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>fALU Oppty Sync</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Failure</value>
+        </filters>
+        <label>Success_Oppty Sync Today</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>SDC</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Successful_Prospects_Today</fullName>
+        <columns>Interface_Type__c</columns>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Resend__c</columns>
+        <columns>Message_Type__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>Prospect Creation Interface</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>Successful Prospects Today</label>
+    </listViews>
+    <listViews>
+        <fullName>VZW_Contact_Sync</fullName>
+        <columns>NAME</columns>
+        <columns>iLog_Timestamp__c</columns>
+        <columns>Interface_Request_Sent__c</columns>
+        <columns>Comment__c</columns>
+        <columns>Operation_Type__c</columns>
+        <columns>Status__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Interface_Type__c</field>
+            <operation>equals</operation>
+            <value>VZW Contact Sync,CQ Sync Offer</value>
+        </filters>
+        <label>VZW Contact Sync</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Interface Log	 Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Interface Log</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>IsotopeSubscription</excludedStandardButtons>
+        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>PrintableListView</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <searchResultsAdditionalFields>Interface_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Message_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Operation_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATED_DATE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Re_send</fullName>
+        <availability>online</availability>
+        <description>Re-send the failed Prospect Creation Interface.</description>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Re-send</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/29.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/29.0/apex.js&quot;)}
+var profileId= &quot;{!$User.ProfileId}&quot;;
+var type = &quot;{!Interface_Log__c.Interface_Type__c}&quot;;
+var flag=&quot;{!Interface_Log__c.Resend__c}&quot;;
+if (profileId==&apos;00e58000000Rh5P&apos; || profileId ==&apos;00e41000000wIbV&apos;){
+if (type == &quot;Prospect Creation Interface&quot;) {
+   if(flag != 1){
+        var p = new sforce.SObject(&quot;Interface_Log__c&quot;); 
+	p.id = &quot;{!Interface_Log__c.Id}&quot;;
+	p.Resend__c = true;
+	result = sforce.connection.update([p]); 
+        if(result[0].success==&quot;true&quot;){
+            alert(&quot;Prospect Creation resent&quot;);
+            location.reload(true);
+        }else{
+            alert(&quot;Resent failed. Please try again.&quot;);
+        }
+  }else{
+      alert(&quot;The resent can not be executed again.&quot;);  
+  }
+}else{
+	alert(&quot;Currently, the re-send function is only available for Prospect Creation Interface.&quot;);
+}
+}else{alert(&quot;Only System Admin or Nokia Admin can use resend funtion&quot;);};</url>
+    </webLinks>
+</CustomObject>

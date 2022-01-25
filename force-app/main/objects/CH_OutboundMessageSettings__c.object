@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>List of settings to control which outbound messages could be sent to external systems</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>CaseCreation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Case Creation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CaseFeedEmailCauseAnalysisReport__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Case Feed Email = Cause Analysis Report</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allow to send outbound message when Case Feed Email = Cause Analysis Report</inlineHelpText>
+        <label>Case Feed Email Cause Analysis Report</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CaseFeedEmailCustomerInformationRequest__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Case Feed Email = Customer Information Request</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allow to send outbound message when Case Feed Email = Customer Information Request</inlineHelpText>
+        <label>Case FeedEmailCustomerInformationRequest</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CaseFeedEmailInitialResponse__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Case Feed Email = Initial Response</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allow to send outbound message when Case Feed Email = Initial Response</inlineHelpText>
+        <label>Case Feed Email Initial Response</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CaseFeedEmailRestoration__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Case Feed Email = Restoration</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allow to send outbound message when Case Feed Email = Restoration</inlineHelpText>
+        <label>Case Feed Email Restoration</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CaseFeedEmailServiceDisruptionReport__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Case Feed Email = Service Disruption Report</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allow to send outbound message when Case Feed Email = Service Disruption Report</inlineHelpText>
+        <label>Case Feed Email Service DisruptionReport</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CaseFeedEmailSolution__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Case Feed Email = Solution</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allow to send outbound message when Case Feed Email = Solution</inlineHelpText>
+        <label>Case Feed Email Solution</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CaseFeedEmailTemporary__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Case Feed Email = Temporary</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allow to send outbound message when Case Feed Email = Temporary</inlineHelpText>
+        <label>Case Feed Email Temporary</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CaseFeedEmailUpdate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Case Feed Email = Update</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allow to send outbound message when Case Feed Email = Update</inlineHelpText>
+        <label>Case Feed Email Update</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CaseStageAssetRespond__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Case Stage = Asset and Respond</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allow to send outbound message when Case Stage = Asset and Respond</inlineHelpText>
+        <label>Case Stage Asset and Respond</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CaseStageClose__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Case Stage = Close</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allow to send outbound message when Case Stage = Close</inlineHelpText>
+        <label>Case Stage Close</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CaseStageDiagnosisTechnicalAnalysis__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Case Stage = Diagnosis and Technical Analysis</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allow to send outbound message when Case Stage = Diagnosis and Technical Analysis</inlineHelpText>
+        <label>Case Stage Diagnosis and Tech Analysis</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CaseStageInvestigateRestore__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Case Stage = Investigate and Restore</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allow to send outbound message when Case Stage = Investigate and Restore</inlineHelpText>
+        <label>Case Stage Investigate and Restore</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CaseStageRegister__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Case Stage = Register</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allow to send outbound message when Case Stage = Register</inlineHelpText>
+        <label>Case Stage Register</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CaseStageResolve__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Case Stage = Resolve</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allow to send outbound message when Case Stage = Resolve</inlineHelpText>
+        <label>Case Stage Resolve</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CaseStageRoute__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Case Stage = Route</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allow to send outbound message when Case Stage = Route</inlineHelpText>
+        <label>Case Stage Route</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>CH Outbound Message Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

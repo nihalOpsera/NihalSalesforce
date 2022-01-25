@@ -1,0 +1,1696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>TOOLKIT - An object that represents an issue or risk with some parts of the project plan.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Actual_Resolution_Date__c</fullName>
+        <description>Issue/Risk&apos;s actual resolution date</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Actual Resolution Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Category__c</fullName>
+        <description>Defines the category of the Issue/Risk</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select one or more categories that the issue/risk is most closely associated to</inlineHelpText>
+        <label>Category</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Budget</fullName>
+                    <default>false</default>
+                    <label>Budget</label>
+                </value>
+                <value>
+                    <fullName>Resources</fullName>
+                    <default>false</default>
+                    <label>Resources</label>
+                </value>
+                <value>
+                    <fullName>Scope</fullName>
+                    <default>false</default>
+                    <label>Scope</label>
+                </value>
+                <value>
+                    <fullName>Solution</fullName>
+                    <default>false</default>
+                    <label>Solution</label>
+                </value>
+                <value>
+                    <fullName>Timeline</fullName>
+                    <default>false</default>
+                    <label>Timeline</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Days_Open__c</fullName>
+        <description>Number of Days since issue/risk is opened</description>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISPICKVAL(Status__c, &quot;Closed&quot;)), NOW() - CreatedDate,  Actual_Resolution_Date__c - DATEVALUE(CreatedDate))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days Open</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <description>Detailed description of the issue/risk.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Detailed description of the issue/risk.</inlineHelpText>
+        <label>Description</label>
+        <length>32000</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Domain__c</fullName>
+        <externalId>false</externalId>
+        <label>Domain</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Business</fullName>
+                    <default>false</default>
+                    <label>Business</label>
+                </value>
+                <value>
+                    <fullName>IT</fullName>
+                    <default>false</default>
+                    <label>IT</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Impact_Description__c</fullName>
+        <description>Details of impact associated with the issue/risk</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Impact Description</label>
+        <length>32000</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Issue_Risk_Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Issue/Risk Owner</label>
+        <referenceTo>Issues_Risks__c</referenceTo>
+        <relationshipLabel>Issues/Risks</relationshipLabel>
+        <relationshipName>Issues_Risks</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Issue__c</fullName>
+        <description>Issue or risk</description>
+        <externalId>false</externalId>
+        <label>Issue / Risk</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Issue</fullName>
+                    <default>true</default>
+                    <label>Issue</label>
+                </value>
+                <value>
+                    <fullName>Risk</fullName>
+                    <default>false</default>
+                    <label>Risk</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Likelihood__c</fullName>
+        <description>Likelihood of a Risk.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>10% - Highly unlikely to occur
+25% - Somewhat likely to occur
+50% - Strong chance to occur
+75% - Likely to occur
+90% - Most likely to occur</inlineHelpText>
+        <label>Likelihood</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>10%</fullName>
+                    <default>false</default>
+                    <label>10%</label>
+                </value>
+                <value>
+                    <fullName>25%</fullName>
+                    <default>false</default>
+                    <label>25%</label>
+                </value>
+                <value>
+                    <fullName>50%</fullName>
+                    <default>false</default>
+                    <label>50%</label>
+                </value>
+                <value>
+                    <fullName>75%</fullName>
+                    <default>false</default>
+                    <label>75%</label>
+                </value>
+                <value>
+                    <fullName>90%</fullName>
+                    <default>false</default>
+                    <label>90%</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Likely_Impact__c</fullName>
+        <description>Likely impact of an impending risk.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Likely impact of an impending risk.</inlineHelpText>
+        <label>Likely Impact</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Logged_Date__c</fullName>
+        <defaultValue>Today()</defaultValue>
+        <description>issue/risk logged date</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Logged Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Milestone__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Milestone related to this Issue/Risk.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Milestone related to this Issue/Risk.</inlineHelpText>
+        <label>Milestone</label>
+        <referenceTo>Milestone__c</referenceTo>
+        <relationshipLabel>Issues/Risks</relationshipLabel>
+        <relationshipName>Issues_Risks</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Other_Description__c</fullName>
+        <description>Description of type of issue/risk</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Other Description</label>
+        <length>120</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Owner of issue/risk logger</description>
+        <externalId>false</externalId>
+        <label>Owner</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Issues/Risks</relationshipLabel>
+        <relationshipName>Issues_Risks</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Past_Due__c</fullName>
+        <description>issue/risk is due or solved</description>
+        <externalId>false</externalId>
+        <formula>IF( ISPICKVAL(Status__c , &quot;Open&quot;) &amp;&amp;  Target_Resolution_Date__c &lt; TODAY(), &quot;Yes&quot;, &quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Past Due?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Priority__c</fullName>
+        <description>Level of severity</description>
+        <externalId>false</externalId>
+        <label>Priority</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Release__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Issues and Risks for this release.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Issues and Risks for this release.</inlineHelpText>
+        <label>Release</label>
+        <referenceTo>Release__c</referenceTo>
+        <relationshipLabel>Issues/Risks</relationshipLabel>
+        <relationshipName>Issues_Risks</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Request__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Shows Issue/Risk&apos;s related request</description>
+        <externalId>false</externalId>
+        <label>Requirement</label>
+        <referenceTo>Request__c</referenceTo>
+        <relationshipLabel>Issues/Risks</relationshipLabel>
+        <relationshipName>Issues_Risks</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Resolution_Mitigating_Actions__c</fullName>
+        <description>Action description needs to be taken</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Resolution / Mitigating Actions</label>
+        <length>32000</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Resolution__c</fullName>
+        <description>Detail description of resolution</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Resolution</label>
+        <length>32000</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Risk_Mitigation_Plan__c</fullName>
+        <description>Document the mitigation plan for this risk.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Document the mitigation plan for this risk.</inlineHelpText>
+        <label>Risk Mitigation Plan</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Risk__c</fullName>
+        <description>Level of severity of issue/risk</description>
+        <externalId>false</externalId>
+        <label>Risk / Issue Level</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Executive Steering Committee</fullName>
+                    <default>false</default>
+                    <label>Executive Steering Committee</label>
+                </value>
+                <value>
+                    <fullName>Leadership Team</fullName>
+                    <default>false</default>
+                    <label>Leadership Team</label>
+                </value>
+                <value>
+                    <fullName>Project Team</fullName>
+                    <default>false</default>
+                    <label>Project Team</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Severity_Level__c</fullName>
+        <description>Individual projects can chose specific definition of Severity levels that meet their needs.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Severity of the impact the Issue or Risk will have on the project if not resolved. Consider immediate and downstream impacts.</inlineHelpText>
+        <label>Severity Level</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1 - Very Low</fullName>
+                    <default>false</default>
+                    <label>1 - Very Low</label>
+                </value>
+                <value>
+                    <fullName>2 - Low</fullName>
+                    <default>false</default>
+                    <label>2 - Low</label>
+                </value>
+                <value>
+                    <fullName>3 - Moderate</fullName>
+                    <default>false</default>
+                    <label>3 - Moderate</label>
+                </value>
+                <value>
+                    <fullName>4 - High</fullName>
+                    <default>false</default>
+                    <label>4 - High</label>
+                </value>
+                <value>
+                    <fullName>5 - Critical</fullName>
+                    <default>false</default>
+                    <label>5 - Critical</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sprint__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Sprint</label>
+        <referenceTo>Sprint__c</referenceTo>
+        <relationshipLabel>Issues/Risks</relationshipLabel>
+        <relationshipName>Issues_Risks</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <description>Risk is resolved or still open for action</description>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>false</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Target_Resolution_Date__c</fullName>
+        <description>Planned date to resolve issue/risk</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Target Resolution Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Team__c</fullName>
+        <description>Department related to issue/risk</description>
+        <externalId>false</externalId>
+        <label>Team</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Accounts, Leads, Contacts</fullName>
+                    <default>false</default>
+                    <label>Accounts, Leads, Contacts</label>
+                </value>
+                <value>
+                    <fullName>Approvals/IWA</fullName>
+                    <default>false</default>
+                    <label>Approvals/IWA</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Cross-stream</fullName>
+                    <default>false</default>
+                    <label>CPQ - Cross-stream</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Direct ION</fullName>
+                    <default>false</default>
+                    <label>CPQ - Direct ION</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Direct MN</fullName>
+                    <default>false</default>
+                    <label>CPQ - Direct MN</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Direct NSW</fullName>
+                    <default>false</default>
+                    <label>CPQ - Direct NSW</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Enterprise</fullName>
+                    <default>false</default>
+                    <label>CPQ - Enterprise</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Indirect</fullName>
+                    <default>false</default>
+                    <label>CPQ - Indirect</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Masterdata</fullName>
+                    <default>false</default>
+                    <label>CPQ - Masterdata</label>
+                </value>
+                <value>
+                    <fullName>CPQ - NPI All</fullName>
+                    <default>false</default>
+                    <label>CPQ - NPI All</label>
+                </value>
+                <value>
+                    <fullName>CPQ - NPI FN</fullName>
+                    <default>false</default>
+                    <label>CPQ - NPI FN</label>
+                </value>
+                <value>
+                    <fullName>CPQ - NPI ION</fullName>
+                    <default>false</default>
+                    <label>CPQ - NPI ION</label>
+                </value>
+                <value>
+                    <fullName>CPQ - NPI MN</fullName>
+                    <default>false</default>
+                    <label>CPQ - NPI MN</label>
+                </value>
+                <value>
+                    <fullName>CPQ - NPI NSW</fullName>
+                    <default>false</default>
+                    <label>CPQ - NPI NSW</label>
+                </value>
+                <value>
+                    <fullName>CPQ - QtC CQ</fullName>
+                    <default>false</default>
+                    <label>CPQ - QtC CQ</label>
+                </value>
+                <value>
+                    <fullName>Data Migration</fullName>
+                    <default>false</default>
+                    <label>Data Migration</label>
+                </value>
+                <value>
+                    <fullName>Deployment</fullName>
+                    <default>false</default>
+                    <label>Deployment</label>
+                </value>
+                <value>
+                    <fullName>Digital Sales</fullName>
+                    <default>false</default>
+                    <label>Digital Sales</label>
+                </value>
+                <value>
+                    <fullName>Doc Strategy</fullName>
+                    <default>false</default>
+                    <label>Doc Strategy</label>
+                </value>
+                <value>
+                    <fullName>Encryption</fullName>
+                    <default>false</default>
+                    <label>Encryption</label>
+                </value>
+                <value>
+                    <fullName>Forecasting</fullName>
+                    <default>false</default>
+                    <label>Forecasting</label>
+                </value>
+                <value>
+                    <fullName>Interfaces/ETL</fullName>
+                    <default>false</default>
+                    <label>Interfaces/ETL</label>
+                </value>
+                <value>
+                    <fullName>LoA</fullName>
+                    <default>false</default>
+                    <label>LoA</label>
+                </value>
+                <value>
+                    <fullName>Mobile</fullName>
+                    <default>false</default>
+                    <label>Mobile</label>
+                </value>
+                <value>
+                    <fullName>NGOEP</fullName>
+                    <default>false</default>
+                    <label>NGOEP</label>
+                </value>
+                <value>
+                    <fullName>Org Strategy/Sales Hierarchy</fullName>
+                    <default>false</default>
+                    <label>Org Strategy/Sales Hierarchy</label>
+                </value>
+                <value>
+                    <fullName>Overall Project</fullName>
+                    <default>false</default>
+                    <label>Overall Project</label>
+                </value>
+                <value>
+                    <fullName>Partner Portal</fullName>
+                    <default>false</default>
+                    <label>Partner Portal</label>
+                </value>
+                <value>
+                    <fullName>PreSales/Risk</fullName>
+                    <default>false</default>
+                    <label>PreSales/Risk</label>
+                </value>
+                <value>
+                    <fullName>Project Management</fullName>
+                    <default>false</default>
+                    <label>Project Management</label>
+                </value>
+                <value>
+                    <fullName>Reporting</fullName>
+                    <default>false</default>
+                    <label>Reporting</label>
+                </value>
+                <value>
+                    <fullName>Sales Process</fullName>
+                    <default>false</default>
+                    <label>Sales Process</label>
+                </value>
+                <value>
+                    <fullName>Security</fullName>
+                    <default>false</default>
+                    <label>Security</label>
+                </value>
+                <value>
+                    <fullName>Training</fullName>
+                    <default>false</default>
+                    <label>Training</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Training_Material_Object__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Training Material Object</label>
+        <referenceTo>Training_Material__c</referenceTo>
+        <relationshipLabel>Issues/Risks</relationshipLabel>
+        <relationshipName>Issues_Risks</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Issue/Risk</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>RECORDTYPE</columns>
+        <columns>NAME</columns>
+        <columns>Team__c</columns>
+        <columns>Release__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>Status__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Description__c</columns>
+        <columns>Target_Resolution_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Open</value>
+        </filters>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>CPQ_Risk_and_Issue_Log</fullName>
+        <booleanFilter>(1 OR 2) and 3</booleanFilter>
+        <columns>NAME</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>Domain__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Severity_Level__c</columns>
+        <columns>Status__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Target_Resolution_Date__c</columns>
+        <columns>Team__c</columns>
+        <columns>Release__c</columns>
+        <columns>Description__c</columns>
+        <columns>Resolution__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Release__c</field>
+            <operation>contains</operation>
+            <value>CPQ</value>
+        </filters>
+        <filters>
+            <field>Release__c</field>
+            <operation>contains</operation>
+            <value>NPI</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Closed</value>
+        </filters>
+        <label>CPQ Risk and Issue Log</label>
+    </listViews>
+    <listViews>
+        <fullName>CPQ_Risk_and_Issues_Feb_Release_2019</fullName>
+        <columns>NAME</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>Domain__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Severity_Level__c</columns>
+        <columns>Status__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Target_Resolution_Date__c</columns>
+        <columns>Team__c</columns>
+        <columns>Release__c</columns>
+        <columns>Description__c</columns>
+        <columns>Resolution__c</columns>
+        <columns>Resolution_Mitigating_Actions__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Release__c</field>
+            <operation>equals</operation>
+            <value>smartCPQ 2019 February</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Open</value>
+        </filters>
+        <label>CPQ Risk and Issues - Feb Release 2019</label>
+    </listViews>
+    <listViews>
+        <fullName>PRM_closed_risks</fullName>
+        <columns>NAME</columns>
+        <columns>Severity_Level__c</columns>
+        <columns>Description__c</columns>
+        <columns>Resolution_Mitigating_Actions__c</columns>
+        <columns>Resolution__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Closed</value>
+        </filters>
+        <filters>
+            <field>Release__c</field>
+            <operation>equals</operation>
+            <value>PRM Release 1</value>
+        </filters>
+        <label>PRM Closed Risks</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>PRM_open_risks</fullName>
+        <columns>NAME</columns>
+        <columns>Domain__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Severity_Level__c</columns>
+        <columns>Team__c</columns>
+        <columns>Owner__c</columns>
+        <columns>Description__c</columns>
+        <columns>Impact_Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Open</value>
+        </filters>
+        <filters>
+            <field>Release__c</field>
+            <operation>contains</operation>
+            <value>PRM</value>
+        </filters>
+        <label>PRM Open Risks</label>
+    </listViews>
+    <listViews>
+        <fullName>closed_risks</fullName>
+        <columns>NAME</columns>
+        <columns>Severity_Level__c</columns>
+        <columns>Description__c</columns>
+        <columns>Resolution_Mitigating_Actions__c</columns>
+        <columns>Resolution__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Closed</value>
+        </filters>
+        <label>closed risks</label>
+    </listViews>
+    <listViews>
+        <fullName>open_risks</fullName>
+        <columns>NAME</columns>
+        <columns>Domain__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Severity_Level__c</columns>
+        <columns>Team__c</columns>
+        <columns>Owner__c</columns>
+        <columns>Description__c</columns>
+        <columns>Impact_Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Open</value>
+        </filters>
+        <label>open risks</label>
+    </listViews>
+    <listViews>
+        <fullName>sCRM_Risk_and_Issue_Log</fullName>
+        <columns>NAME</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>Priority__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Status__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Target_Resolution_Date__c</columns>
+        <columns>Team__c</columns>
+        <columns>Release__c</columns>
+        <columns>Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Release__c</field>
+            <operation>equals</operation>
+            <value>SingleCRM Release August 2018</value>
+        </filters>
+        <label>sCRM Risk and Issue Log</label>
+    </listViews>
+    <nameField>
+        <displayFormat>{0000}</displayFormat>
+        <label>Risk/Issue ID</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Issues/Risks</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Issue</fullName>
+        <active>true</active>
+        <description>Create/Update any issues with the project.</description>
+        <label>Issue</label>
+        <picklistValues>
+            <picklist>Category__c</picklist>
+            <values>
+                <fullName>Budget</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resources</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scope</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Timeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Domain__c</picklist>
+            <values>
+                <fullName>Business</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Issue__c</picklist>
+            <values>
+                <fullName>Issue</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Risk</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Likelihood__c</picklist>
+            <values>
+                <fullName>10%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>25%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>50%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>75%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>90%25</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Risk__c</picklist>
+            <values>
+                <fullName>Executive Steering Committee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Leadership Team</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project Team</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Severity_Level__c</picklist>
+            <values>
+                <fullName>1 - Very Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 - Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 - Moderate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 - High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 - Critical</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Team__c</picklist>
+            <values>
+                <fullName>Accounts%2C Leads%2C Contacts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Approvals%2FIWA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Cross-stream</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Direct ION</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Direct MN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Direct NSW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Enterprise</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Indirect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Masterdata</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - NPI All</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - NPI FN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - NPI ION</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - NPI MN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - NPI NSW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - QtC CQ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Migration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deployment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Doc Strategy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Encryption</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Forecasting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interfaces%2FETL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LoA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NGOEP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Org Strategy%2FSales Hierarchy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Overall Project</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner Portal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PreSales%2FRisk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reporting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Risk</fullName>
+        <active>true</active>
+        <description>Create/Update any risks with the project.</description>
+        <label>Risk</label>
+        <picklistValues>
+            <picklist>Category__c</picklist>
+            <values>
+                <fullName>Budget</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resources</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scope</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Timeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Domain__c</picklist>
+            <values>
+                <fullName>Business</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Issue__c</picklist>
+            <values>
+                <fullName>Issue</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Risk</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Likelihood__c</picklist>
+            <values>
+                <fullName>10%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>25%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>50%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>75%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>90%25</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Risk__c</picklist>
+            <values>
+                <fullName>Executive Steering Committee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Leadership Team</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project Team</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Severity_Level__c</picklist>
+            <values>
+                <fullName>1 - Very Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 - Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 - Moderate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 - High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 - Critical</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Team__c</picklist>
+            <values>
+                <fullName>Accounts%2C Leads%2C Contacts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Approvals%2FIWA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Cross-stream</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Direct ION</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Direct MN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Direct NSW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Enterprise</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Indirect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - Masterdata</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - NPI All</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - NPI FN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - NPI ION</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - NPI MN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - NPI NSW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPQ - QtC CQ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Migration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deployment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Doc Strategy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Encryption</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Forecasting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interfaces%2FETL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LoA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NGOEP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Org Strategy%2FSales Hierarchy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Overall Project</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner Portal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PreSales%2FRisk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reporting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>RECORDTYPE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Target_Resolution_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OWNER.LAST_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Priority__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Milestone__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Release__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>RECORDTYPE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Target_Resolution_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OWNER.LAST_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Priority__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Milestone__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Release__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>RECORDTYPE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Description__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Target_Resolution_Date__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OWNER.LAST_NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Status__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Priority__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Milestone__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Release__c</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>RECORDTYPE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Target_Resolution_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OWNER.LAST_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Priority__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Milestone__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Release__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Act_Resloution_Date</fullName>
+        <active>true</active>
+        <description>Actual Resolution should not be greater than current date.</description>
+        <errorConditionFormula>Actual_Resolution_Date__c &gt;  TODAY()</errorConditionFormula>
+        <errorDisplayField>Actual_Resolution_Date__c</errorDisplayField>
+        <errorMessage>Actual resolution date should not be greater than today&apos;s date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>IR_Res_Date_Val</fullName>
+        <active>false</active>
+        <description>Resolution Date should be greater than logged date.</description>
+        <errorConditionFormula>OR(Target_Resolution_Date__c  &lt; Logged_Date__c,  Actual_Resolution_Date__c &lt;  Logged_Date__c )</errorConditionFormula>
+        <errorMessage>Resolution Date should be greater than issue/risk logged date.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MustDescribeOther</fullName>
+        <active>true</active>
+        <description>User must enter a description of &quot;Other&quot; if it is selected from the MS-Picklist field &apos;Category&apos;</description>
+        <errorConditionFormula>AND(INCLUDES(Category__c, &quot;Other&quot;),
+ISBLANK(Other_Description__c))</errorConditionFormula>
+        <errorDisplayField>Other_Description__c</errorDisplayField>
+        <errorMessage>You must enter a description in this field if &apos;Other&apos; is one of your selections for the category.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>TOOLKIT: An object to capture notes from ALL meetings.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Action_Items__c</fullName>
+        <description>Action Items captured during the meeting. These should be transferred to action items in the toolkit.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Action Items</label>
+        <length>32768</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>20</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Attendees__c</fullName>
+        <description>Names of everyone who attended the meeting.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Attendees</label>
+        <length>32768</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Feature__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Feature</label>
+        <referenceTo>Capability__c</referenceTo>
+        <relationshipLabel>Meeting Notes</relationshipLabel>
+        <relationshipName>Meeting_Notes</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Meeting_Date_and_Time__c</fullName>
+        <description>Date and Time of the Meeting</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Meeting Date and Time</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Meeting_Facilitator__c</fullName>
+        <description>First and Last Name of the Meeting Facilitator</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Meeting Facilitator</label>
+        <length>40</length>
+        <required>true</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Meeting_Notes__c</fullName>
+        <description>Detailed Meeting Notes</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Meeting Notes Details</label>
+        <length>32768</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>50</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Release__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Release to which the meeting is related.</description>
+        <externalId>false</externalId>
+        <label>Release</label>
+        <referenceTo>Release__c</referenceTo>
+        <relationshipLabel>Meeting Notes</relationshipLabel>
+        <relationshipName>Meeting_Notes</relationshipName>
+        <required>true</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Sprint__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Sprint</label>
+        <referenceTo>Sprint__c</referenceTo>
+        <relationshipLabel>Meeting Notes</relationshipLabel>
+        <relationshipName>Meeting_Notes</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Team__c</fullName>
+        <externalId>false</externalId>
+        <label>Team</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Accounts, Leads, Contacts</fullName>
+                    <default>false</default>
+                    <label>Accounts, Leads, Contacts</label>
+                </value>
+                <value>
+                    <fullName>Approvals/IWA</fullName>
+                    <default>false</default>
+                    <label>Approvals/IWA</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Arch &amp; Data</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - Arch &amp; Data</label>
+                </value>
+                <value>
+                    <fullName>CPQ - CCB</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - CCB</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Configure / PPI</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - Configure / PPI</label>
+                </value>
+                <value>
+                    <fullName>CPQ Direct</fullName>
+                    <default>false</default>
+                    <label>CPQ Direct</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Direct</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - Direct</label>
+                </value>
+                <value>
+                    <fullName>CPQ Indirect</fullName>
+                    <default>false</default>
+                    <label>CPQ Indirect</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Indirect</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - Indirect</label>
+                </value>
+                <value>
+                    <fullName>CPQ NPI</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ NPI</label>
+                </value>
+                <value>
+                    <fullName>CPQ NPI Direct</fullName>
+                    <default>false</default>
+                    <label>CPQ NPI Direct</label>
+                </value>
+                <value>
+                    <fullName>CPQ NPI Indirect</fullName>
+                    <default>false</default>
+                    <label>CPQ NPI Indirect</label>
+                </value>
+                <value>
+                    <fullName>CPQ - O2Q / Q2O</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - O2Q / Q2O</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Pricing</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - Pricing</label>
+                </value>
+                <value>
+                    <fullName>CPQ - Scrum-of-Scrum</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ - Scrum-of-Scrum</label>
+                </value>
+                <value>
+                    <fullName>CPQ Solution Taskforce</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CPQ Solution Taskforce</label>
+                </value>
+                <value>
+                    <fullName>Data Migration</fullName>
+                    <default>false</default>
+                    <label>Data Migration</label>
+                </value>
+                <value>
+                    <fullName>Digital Sales</fullName>
+                    <default>false</default>
+                    <label>Digital Sales</label>
+                </value>
+                <value>
+                    <fullName>Doc Strategy</fullName>
+                    <default>false</default>
+                    <label>Doc Strategy</label>
+                </value>
+                <value>
+                    <fullName>Encryption</fullName>
+                    <default>false</default>
+                    <label>Encryption</label>
+                </value>
+                <value>
+                    <fullName>Forecasting</fullName>
+                    <default>false</default>
+                    <label>Forecasting</label>
+                </value>
+                <value>
+                    <fullName>Interfaces/ETL</fullName>
+                    <default>false</default>
+                    <label>Interfaces/ETL</label>
+                </value>
+                <value>
+                    <fullName>LoA</fullName>
+                    <default>false</default>
+                    <label>LoA</label>
+                </value>
+                <value>
+                    <fullName>Mobile</fullName>
+                    <default>false</default>
+                    <label>Mobile</label>
+                </value>
+                <value>
+                    <fullName>NGOEP</fullName>
+                    <default>false</default>
+                    <label>NGOEP</label>
+                </value>
+                <value>
+                    <fullName>Org Strategy/Sales Hierarchy</fullName>
+                    <default>false</default>
+                    <label>Org Strategy/Sales Hierarchy</label>
+                </value>
+                <value>
+                    <fullName>Partner Portal</fullName>
+                    <default>false</default>
+                    <label>Partner Portal</label>
+                </value>
+                <value>
+                    <fullName>PreSales/Risk</fullName>
+                    <default>false</default>
+                    <label>PreSales/Risk</label>
+                </value>
+                <value>
+                    <fullName>Reporting</fullName>
+                    <default>false</default>
+                    <label>Reporting</label>
+                </value>
+                <value>
+                    <fullName>Sales Process</fullName>
+                    <default>false</default>
+                    <label>Sales Process</label>
+                </value>
+                <value>
+                    <fullName>Security</fullName>
+                    <default>false</default>
+                    <label>Security</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Meeting Notes</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>Meeting_Date_and_Time__c</columns>
+        <columns>NAME</columns>
+        <columns>Attendees__c</columns>
+        <columns>Team__c</columns>
+        <columns>Action_Items__c</columns>
+        <filterScope>Mine</filterScope>
+        <label>My meeting note</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Approval_Process_Scrum</fullName>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>approval</value>
+        </filters>
+        <label>Approval Process Scrum</label>
+    </listViews>
+    <listViews>
+        <fullName>CPQ_Architecture_Data</fullName>
+        <columns>Meeting_Date_and_Time__c</columns>
+        <columns>NAME</columns>
+        <columns>Feature__c</columns>
+        <columns>Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Release__c</field>
+            <operation>contains</operation>
+            <value>CPQ</value>
+        </filters>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>CPQ - Arch &amp; Data</value>
+        </filters>
+        <label>CPQ - Architecture &amp; Data</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>CPQ_O2Q</fullName>
+        <columns>Meeting_Date_and_Time__c</columns>
+        <columns>NAME</columns>
+        <columns>Feature__c</columns>
+        <columns>Sprint__c</columns>
+        <columns>Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Release__c</field>
+            <operation>contains</operation>
+            <value>CPQ</value>
+        </filters>
+        <filters>
+            <field>Team__c</field>
+            <operation>contains</operation>
+            <value>O2Q,CPQ - O2Q / Q2O</value>
+        </filters>
+        <label>CPQ - O2Q/Q2O</label>
+    </listViews>
+    <listViews>
+        <fullName>Forecasting</fullName>
+        <columns>NAME</columns>
+        <columns>Sprint__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>equals</operation>
+            <value>Forecasting</value>
+        </filters>
+        <label>Forecasting</label>
+    </listViews>
+    <listViews>
+        <fullName>My_meeting_note</fullName>
+        <columns>NAME</columns>
+        <columns>Attendees__c</columns>
+        <columns>Team__c</columns>
+        <columns>Action_Items__c</columns>
+        <columns>Meeting_Date_and_Time__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>contains</operation>
+            <value>Pricing</value>
+        </filters>
+        <label>CPQ - Pricing meeting notes</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>NGOEP_Sprint_1</fullName>
+        <columns>Meeting_Date_and_Time__c</columns>
+        <columns>NAME</columns>
+        <columns>Feature__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sprint__c</field>
+            <operation>equals</operation>
+            <value>NGOEP - Sprint 1</value>
+        </filters>
+        <label>NGOEP - Sprint 1</label>
+    </listViews>
+    <listViews>
+        <fullName>NGOEP_Sprint_2</fullName>
+        <columns>Meeting_Date_and_Time__c</columns>
+        <columns>NAME</columns>
+        <columns>Feature__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Release__c</field>
+            <operation>startsWith</operation>
+            <value>NGOEP</value>
+        </filters>
+        <filters>
+            <field>Sprint__c</field>
+            <operation>equals</operation>
+            <value>NGOEP - Sprint 2</value>
+        </filters>
+        <label>NGOEP - Sprint 2</label>
+    </listViews>
+    <listViews>
+        <fullName>PRM_Meeting_Notes</fullName>
+        <columns>NAME</columns>
+        <columns>Meeting_Facilitator__c</columns>
+        <columns>Meeting_Date_and_Time__c</columns>
+        <columns>Feature__c</columns>
+        <columns>Sprint__c</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Release__c</field>
+            <operation>contains</operation>
+            <value>PRM</value>
+        </filters>
+        <label>PRM Meeting Notes</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Pricing_meeting_notes</fullName>
+        <columns>Meeting_Date_and_Time__c</columns>
+        <columns>NAME</columns>
+        <columns>Attendees__c</columns>
+        <columns>Team__c</columns>
+        <columns>Action_Items__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team__c</field>
+            <operation>contains</operation>
+            <value>CPQ</value>
+        </filters>
+        <label>CPQ meeting notes</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Meeting Name</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Meeting Notes</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

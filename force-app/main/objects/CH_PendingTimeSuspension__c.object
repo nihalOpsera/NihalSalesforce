@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Adds a new record into this custom object each time the case status is set to Pending Customer</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>CH_CumulativeTimeMin__c</fullName>
+        <description>This field holds the pending time value in minutes</description>
+        <externalId>false</externalId>
+        <formula>(CH_StopTime__c - CH_StartTime__c) * 24 * 60</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Cumulative time(Min)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_CumulativeTime__c</fullName>
+        <externalId>false</externalId>
+        <formula>CH_StopTime__c  -  CH_StartTime__c</formula>
+        <label>Cumulative time(Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_InternalStatus__c</fullName>
+        <description>Copy of Case Internal status</description>
+        <externalId>false</externalId>
+        <label>Internal status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>-None-</fullName>
+                    <default>false</default>
+                    <label>-None-</label>
+                </value>
+                <value>
+                    <fullName>Agent analysis</fullName>
+                    <default>false</default>
+                    <label>Agent analysis</label>
+                </value>
+                <value>
+                    <fullName>Engineer analysis</fullName>
+                    <default>false</default>
+                    <label>Engineer analysis</label>
+                </value>
+                <value>
+                    <fullName>3rd Party analysis</fullName>
+                    <default>false</default>
+                    <label>3rd Party analysis</label>
+                </value>
+                <value>
+                    <fullName>Expert Analysis</fullName>
+                    <default>false</default>
+                    <label>Expert Analysis</label>
+                </value>
+                <value>
+                    <fullName>R&amp;D Analysis</fullName>
+                    <default>false</default>
+                    <label>R&amp;D Analysis</label>
+                </value>
+                <value>
+                    <fullName>Cause Analysis in progress</fullName>
+                    <default>false</default>
+                    <label>Cause Analysis in progress</label>
+                </value>
+                <value>
+                    <fullName>Customer Information Requested</fullName>
+                    <default>false</default>
+                    <label>Customer Information Requested</label>
+                </value>
+                <value>
+                    <fullName>Customer Issue Reproduction</fullName>
+                    <default>false</default>
+                    <label>Customer Issue Reproduction</label>
+                </value>
+                <value>
+                    <fullName>Correction Implementation</fullName>
+                    <default>false</default>
+                    <label>Correction Implementation</label>
+                </value>
+                <value>
+                    <fullName>Customer Acceptance</fullName>
+                    <default>false</default>
+                    <label>Customer Acceptance</label>
+                </value>
+                <value>
+                    <fullName>Software Release</fullName>
+                    <default>false</default>
+                    <label>Software Release</label>
+                </value>
+                <value>
+                    <fullName>HW Delivery</fullName>
+                    <default>false</default>
+                    <label>HW Delivery</label>
+                </value>
+                <value>
+                    <fullName>HW Replacement</fullName>
+                    <default>false</default>
+                    <label>HW Replacement</label>
+                </value>
+                <value>
+                    <fullName>Process Adherence</fullName>
+                    <default>false</default>
+                    <label>Process Adherence</label>
+                </value>
+                <value>
+                    <fullName>Local Team (CT)</fullName>
+                    <default>false</default>
+                    <label>Local Team (CT)</label>
+                </value>
+                <value>
+                    <fullName>Commercial (CT)</fullName>
+                    <default>false</default>
+                    <label>Commercial (CT)</label>
+                </value>
+                <value>
+                    <fullName>Cross BG /Product Analysis</fullName>
+                    <default>false</default>
+                    <label>Cross BG /Product Analysis</label>
+                </value>
+                <value>
+                    <fullName>Feature Request</fullName>
+                    <default>false</default>
+                    <label>Feature Request</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CH_Stage__c</fullName>
+        <description>Copy of Case stage field</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Stage</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CH_StartTime__c</fullName>
+        <description>Tracks the start time of the record whose Status is changed to &quot;Pending Customer&quot;</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Start Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CH_StopTime__c</fullName>
+        <description>Tracks the stop time of the record whose Status changed from &quot;Pending Customer&quot; to other</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Stop Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CH_SupportTicket__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Case field on Pending Time/Suspension object</description>
+        <externalId>false</externalId>
+        <label>Support Ticket</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Pending Time/Suspensions</relationshipLabel>
+        <relationshipName>Pending_Time_Suspensions</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CH_WorkGroup__c</fullName>
+        <description>Updates the related case current workgroup value</description>
+        <externalId>false</externalId>
+        <formula>CH_SupportTicket__r.CH_Workgroup__r.Name</formula>
+        <label>Current WorkGroup</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Pending Time/Suspension</label>
+    <nameField>
+        <encryptionScheme>None</encryptionScheme>
+        <label>Pending Time/Suspension Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Pending Time/Suspensions</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>CH_LockRecord</fullName>
+        <active>false</active>
+        <description>Lock the record for editing</description>
+        <errorConditionFormula>OR(
+     ISCHANGED( CurrencyIsoCode ) ,
+     ISCHANGED( CH_WorkGroup__c ) ,
+     ISCHANGED( CH_InternalStatus__c ) ,
+     ISCHANGED( OwnerId ) ,
+     ISCHANGED( Name ) ,
+     ISCHANGED(  CH_Stage__c ) ,
+     ISCHANGED( CH_StartTime__c ) ,
+     ISCHANGED( CH_SupportTicket__c )
+   )</errorConditionFormula>
+        <errorMessage>You cannot change Pending Time/Suspension once set</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

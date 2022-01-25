@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>List of Nokia Domains</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Nokia_Invalid_Domain__c</fullName>
+        <description>If CH_ContactTypec != Nokia Employee 
+then email domain must not be
+
+nokia
+alcatel
+alcatel-lucent
+nsn
+gmx
+hotmail
+web
+gmail
+yahoo</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Nokia_Invalid_Domain</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Nokia_Valid_Domain__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Nokia_Valid_Domain</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <label>Nokia Employee Email Domains</label>
+    <visibility>Public</visibility>
+</CustomObject>

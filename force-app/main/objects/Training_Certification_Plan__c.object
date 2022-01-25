@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>Training_Certification_Plan_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Training_Certification_Plan_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>Training_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Training_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Technology_BG_product__c</fields>
+        <label>Training Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Field created for Report</description>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Training &amp; Certification Plan</relationshipLabel>
+        <relationshipName>Training_Certification_Plan</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Accreditation_Desired__c</fullName>
+        <externalId>false</externalId>
+        <label>Accreditation Desired</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Partner_Type__c</controllingField>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Advanced</fullName>
+                    <default>false</default>
+                    <label>Advanced</label>
+                </value>
+                <value>
+                    <fullName>Alliance Partner</fullName>
+                    <default>false</default>
+                    <label>Alliance Partner</label>
+                </value>
+                <value>
+                    <fullName>Authorized</fullName>
+                    <default>false</default>
+                    <label>Authorized</label>
+                </value>
+                <value>
+                    <fullName>Authorized - Accreditation In Progress</fullName>
+                    <default>false</default>
+                    <label>Authorized - Accreditation In Progress</label>
+                </value>
+                <value>
+                    <fullName>Base</fullName>
+                    <default>false</default>
+                    <label>Base</label>
+                </value>
+                <value>
+                    <fullName>Base - Certification In Progress</fullName>
+                    <default>false</default>
+                    <label>Base - Certification In Progress</label>
+                </value>
+                <value>
+                    <fullName>Basic</fullName>
+                    <default>false</default>
+                    <label>Basic</label>
+                </value>
+                <value>
+                    <fullName>Certified</fullName>
+                    <default>false</default>
+                    <label>Certified</label>
+                </value>
+                <value>
+                    <fullName>Co-Branded Service</fullName>
+                    <default>false</default>
+                    <label>Co-Branded Service</label>
+                </value>
+                <value>
+                    <fullName>Distributor</fullName>
+                    <default>false</default>
+                    <label>Distributor</label>
+                </value>
+                <value>
+                    <fullName>Expert</fullName>
+                    <default>false</default>
+                    <label>Expert</label>
+                </value>
+                <value>
+                    <fullName>Interim</fullName>
+                    <default>false</default>
+                    <label>Interim</label>
+                </value>
+                <value>
+                    <fullName>Master</fullName>
+                    <default>false</default>
+                    <label>Master</label>
+                </value>
+                <value>
+                    <fullName>No Accreditation</fullName>
+                    <default>false</default>
+                    <label>No Accreditation</label>
+                </value>
+                <value>
+                    <fullName>Nokia Brand of Service</fullName>
+                    <default>false</default>
+                    <label>Nokia Brand of Service</label>
+                </value>
+                <value>
+                    <fullName>Partner Branded Service</fullName>
+                    <default>false</default>
+                    <label>Partner Branded Service</label>
+                </value>
+                <value>
+                    <fullName>Premier</fullName>
+                    <default>false</default>
+                    <label>Premier</label>
+                </value>
+                <value>
+                    <fullName>Premium</fullName>
+                    <default>false</default>
+                    <label>Premium</label>
+                </value>
+                <value>
+                    <fullName>Professional</fullName>
+                    <default>false</default>
+                    <label>Professional</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Alliance Partner</controllingFieldValue>
+                <valueName>Alliance Partner</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Alliance Partner</controllingFieldValue>
+                <controllingFieldValue>Industrial Partner / System Integrator</controllingFieldValue>
+                <valueName>No Accreditation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Distributor</controllingFieldValue>
+                <controllingFieldValue>Value Added Reseller</controllingFieldValue>
+                <controllingFieldValue>Indirect Reseller</controllingFieldValue>
+                <controllingFieldValue>Service Provider</controllingFieldValue>
+                <valueName>Authorized</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Distributor</controllingFieldValue>
+                <controllingFieldValue>Value Added Reseller</controllingFieldValue>
+                <controllingFieldValue>Indirect Reseller</controllingFieldValue>
+                <controllingFieldValue>Service Provider</controllingFieldValue>
+                <valueName>Authorized - Accreditation In Progress</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Distributor</controllingFieldValue>
+                <valueName>Base</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Distributor</controllingFieldValue>
+                <controllingFieldValue>Value Added Reseller</controllingFieldValue>
+                <controllingFieldValue>Indirect Reseller</controllingFieldValue>
+                <controllingFieldValue>Service Provider</controllingFieldValue>
+                <valueName>Basic</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Distributor</controllingFieldValue>
+                <controllingFieldValue>Value Added Reseller</controllingFieldValue>
+                <controllingFieldValue>Indirect Reseller</controllingFieldValue>
+                <controllingFieldValue>Service Provider</controllingFieldValue>
+                <valueName>Co-Branded Service</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Distributor</controllingFieldValue>
+                <valueName>Interim</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Distributor</controllingFieldValue>
+                <controllingFieldValue>Value Added Reseller</controllingFieldValue>
+                <controllingFieldValue>Indirect Reseller</controllingFieldValue>
+                <controllingFieldValue>Service Provider</controllingFieldValue>
+                <valueName>Nokia Brand of Service</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Distributor</controllingFieldValue>
+                <controllingFieldValue>Value Added Reseller</controllingFieldValue>
+                <controllingFieldValue>Indirect Reseller</controllingFieldValue>
+                <controllingFieldValue>Service Provider</controllingFieldValue>
+                <valueName>Partner Branded Service</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Distributor</controllingFieldValue>
+                <valueName>Premier</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value Added Reseller</controllingFieldValue>
+                <controllingFieldValue>Indirect Reseller</controllingFieldValue>
+                <controllingFieldValue>Service Provider</controllingFieldValue>
+                <valueName>Advanced</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value Added Reseller</controllingFieldValue>
+                <controllingFieldValue>Indirect Reseller</controllingFieldValue>
+                <controllingFieldValue>Service Provider</controllingFieldValue>
+                <valueName>Expert</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value Added Reseller</controllingFieldValue>
+                <controllingFieldValue>Indirect Reseller</controllingFieldValue>
+                <controllingFieldValue>Service Provider</controllingFieldValue>
+                <valueName>Premium</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Value Added Reseller</controllingFieldValue>
+                <controllingFieldValue>Indirect Reseller</controllingFieldValue>
+                <controllingFieldValue>Service Provider</controllingFieldValue>
+                <valueName>Professional</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Additional_Certifications__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please select any additional certifications held by employees at your company, and provide the number of certifications held.</inlineHelpText>
+        <label>Additional Certifications</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CCNP - Service Provider</fullName>
+                    <default>false</default>
+                    <label>CCNP - Service Provider</label>
+                </value>
+                <value>
+                    <fullName>CCIP</fullName>
+                    <default>false</default>
+                    <label>CCIP</label>
+                </value>
+                <value>
+                    <fullName>CCIE - Routing &amp; Switching</fullName>
+                    <default>false</default>
+                    <label>CCIE - Routing &amp; Switching</label>
+                </value>
+                <value>
+                    <fullName>CCIE - Service Provider</fullName>
+                    <default>false</default>
+                    <label>CCIE - Service Provider</label>
+                </value>
+                <value>
+                    <fullName>JNCIS-SP</fullName>
+                    <default>false</default>
+                    <label>JNCIS-SP</label>
+                </value>
+                <value>
+                    <fullName>JNCIP-SP</fullName>
+                    <default>false</default>
+                    <label>JNCIP-SP</label>
+                </value>
+                <value>
+                    <fullName>JNCIE-SP</fullName>
+                    <default>false</default>
+                    <label>JNCIE-SP</label>
+                </value>
+                <value>
+                    <fullName>JNCIP-E</fullName>
+                    <default>false</default>
+                    <label>JNCIP-E</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Business_Plan_Training_Certification__c</fullName>
+        <externalId>false</externalId>
+        <label>Business Plan ID</label>
+        <referenceTo>Business_Plan__c</referenceTo>
+        <relationshipLabel>Training &amp; Certification Plan</relationshipLabel>
+        <relationshipName>Training_Certification_Plan</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Certification_Required_for_Accreditation__c</fullName>
+        <defaultValue>&apos;https://www.partners.nokia.com/s/article/Training&apos;</defaultValue>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Certification Required for Accreditation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Field_Technician_of_People__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>If None, please enter 0</inlineHelpText>
+        <label>Field Technician- # of People</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>If_Other_provide_Certification_Name_s__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>If Other, provide Certification Name/s</label>
+        <length>150</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Introduction__c</fullName>
+        <defaultValue>&apos;By completing this form, you will be creating a baseline training plan. Nokia EDU Learning leads will use this as a basis of establishing a full training plan.&apos;&amp;
+BR()
+&amp;&apos;You may use this form to define a full plan your entire team. At a minimum, it should correspond with the certifications that are required to meet the accreditation you would like achieve this plan year.&apos;&amp;
+BR() 
+&amp;&apos;How to complete:&apos;&amp;
+BR() 
+&amp;&apos;1) We recommend you start by reviewing the Certifications Required for Accreditation. It can be found under the Support Assets section of the linked page. &apos;&amp;
+BR() 
+&amp; &apos;2) Select the product line for which you plan to be accredited. Please provide the approximate number of employees who will be trained, by job role and by quarter (Q1, Q2, ...) &apos;&amp;
+BR() 
+&amp; &apos;3) If you plan to accredit in multiple technologies or product lines (IP Routing, Passive Optical LAN...), please complete this form for each accreditation.&apos;</defaultValue>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Introduction</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Maintenance_of_People__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Maintenance- # of People</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Network_Integration_Engineer_of_People__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>If None, please enter 0</inlineHelpText>
+        <label>Network Integration Engineer # of People</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Certifications__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Certifications</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Partner_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Partner Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Alliance Partner</fullName>
+                    <default>false</default>
+                    <label>Alliance Partner</label>
+                </value>
+                <value>
+                    <fullName>Distributor</fullName>
+                    <default>false</default>
+                    <label>Distributor</label>
+                </value>
+                <value>
+                    <fullName>Value Added Reseller</fullName>
+                    <default>false</default>
+                    <label>Value Added Reseller</label>
+                </value>
+                <value>
+                    <fullName>Indirect Reseller</fullName>
+                    <default>false</default>
+                    <label>Indirect Reseller</label>
+                </value>
+                <value>
+                    <fullName>Service Provider</fullName>
+                    <default>false</default>
+                    <label>Service Provider</label>
+                </value>
+                <value>
+                    <fullName>Industrial Partner / System Integrator</fullName>
+                    <default>false</default>
+                    <label>Industrial Partner / System Integrator</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Quarter_Field_Technician__c</fullName>
+        <externalId>false</externalId>
+        <label>Quarter (Field Technician)</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>true</default>
+                    <label>N/A</label>
+                </value>
+                <value>
+                    <fullName>Q1</fullName>
+                    <default>false</default>
+                    <label>Q1</label>
+                </value>
+                <value>
+                    <fullName>Q2</fullName>
+                    <default>false</default>
+                    <label>Q2</label>
+                </value>
+                <value>
+                    <fullName>Q3</fullName>
+                    <default>false</default>
+                    <label>Q3</label>
+                </value>
+                <value>
+                    <fullName>Q4</fullName>
+                    <default>false</default>
+                    <label>Q4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Quarter_Maintenance__c</fullName>
+        <externalId>false</externalId>
+        <label>Quarter (Maintenance)</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>true</default>
+                    <label>N/A</label>
+                </value>
+                <value>
+                    <fullName>Q1</fullName>
+                    <default>false</default>
+                    <label>Q1</label>
+                </value>
+                <value>
+                    <fullName>Q2</fullName>
+                    <default>false</default>
+                    <label>Q2</label>
+                </value>
+                <value>
+                    <fullName>Q3</fullName>
+                    <default>false</default>
+                    <label>Q3</label>
+                </value>
+                <value>
+                    <fullName>Q4</fullName>
+                    <default>false</default>
+                    <label>Q4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Quarter_Network_Integration_Engineer__c</fullName>
+        <externalId>false</externalId>
+        <label>Quarter (Network Integration Engineer)</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>true</default>
+                    <label>N/A</label>
+                </value>
+                <value>
+                    <fullName>Q1</fullName>
+                    <default>false</default>
+                    <label>Q1</label>
+                </value>
+                <value>
+                    <fullName>Q2</fullName>
+                    <default>false</default>
+                    <label>Q2</label>
+                </value>
+                <value>
+                    <fullName>Q3</fullName>
+                    <default>false</default>
+                    <label>Q3</label>
+                </value>
+                <value>
+                    <fullName>Q4</fullName>
+                    <default>false</default>
+                    <label>Q4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Quarter_Sales_Engineer__c</fullName>
+        <externalId>false</externalId>
+        <label>Quarter (Sales Engineer)</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>true</default>
+                    <label>N/A</label>
+                </value>
+                <value>
+                    <fullName>Q1</fullName>
+                    <default>false</default>
+                    <label>Q1</label>
+                </value>
+                <value>
+                    <fullName>Q2</fullName>
+                    <default>false</default>
+                    <label>Q2</label>
+                </value>
+                <value>
+                    <fullName>Q3</fullName>
+                    <default>false</default>
+                    <label>Q3</label>
+                </value>
+                <value>
+                    <fullName>Q4</fullName>
+                    <default>false</default>
+                    <label>Q4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Quarter_Sales__c</fullName>
+        <externalId>false</externalId>
+        <label>Quarter (Sales Associate)</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>true</default>
+                    <label>N/A</label>
+                </value>
+                <value>
+                    <fullName>Q1</fullName>
+                    <default>false</default>
+                    <label>Q1</label>
+                </value>
+                <value>
+                    <fullName>Q2</fullName>
+                    <default>false</default>
+                    <label>Q2</label>
+                </value>
+                <value>
+                    <fullName>Q3</fullName>
+                    <default>false</default>
+                    <label>Q3</label>
+                </value>
+                <value>
+                    <fullName>Q4</fullName>
+                    <default>false</default>
+                    <label>Q4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Quarter_Service_Desk_Clerk__c</fullName>
+        <externalId>false</externalId>
+        <label>Quarter (Service Desk Clerk)</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>true</default>
+                    <label>N/A</label>
+                </value>
+                <value>
+                    <fullName>Q1</fullName>
+                    <default>false</default>
+                    <label>Q1</label>
+                </value>
+                <value>
+                    <fullName>Q2</fullName>
+                    <default>false</default>
+                    <label>Q2</label>
+                </value>
+                <value>
+                    <fullName>Q3</fullName>
+                    <default>false</default>
+                    <label>Q3</label>
+                </value>
+                <value>
+                    <fullName>Q4</fullName>
+                    <default>false</default>
+                    <label>Q4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Quarter_Tech_Support__c</fullName>
+        <externalId>false</externalId>
+        <label>Quarter (Tech Support)</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>true</default>
+                    <label>N/A</label>
+                </value>
+                <value>
+                    <fullName>Q1</fullName>
+                    <default>false</default>
+                    <label>Q1</label>
+                </value>
+                <value>
+                    <fullName>Q2</fullName>
+                    <default>false</default>
+                    <label>Q2</label>
+                </value>
+                <value>
+                    <fullName>Q3</fullName>
+                    <default>false</default>
+                    <label>Q3</label>
+                </value>
+                <value>
+                    <fullName>Q4</fullName>
+                    <default>false</default>
+                    <label>Q4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sales_Engineer_of_People__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>If None, please enter 0</inlineHelpText>
+        <label>Sales Engineer- # of People</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_of_People__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>If None, please enter 0</inlineHelpText>
+        <label>Sales Associate - # of People</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Service_Desk_Clerk_of_People__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>If None, please enter 0</inlineHelpText>
+        <label>Service Desk Clerk- # of People</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Targeted_Date_Field_Technician__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Targeted Date (Field Technician)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Targeted_Date_Sales_Engineer__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Targeted Date (Sales Engineer)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Targeted_Date_Sales__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Targeted Date(Sales Associate)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Targeted_Date_Service_Desk_Clerk__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Targeted Date (Service Desk Clerk)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Targeted_Date_Tech_Support__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Targeted Date (Tech Support)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Targeted_date_Network_Int_Eng__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Targeted Date (Network Int. Eng.)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Tech_Support_of_People__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>If None, please enter 0</inlineHelpText>
+        <label>Tech Support - # of People</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Technology_BG_product__c</fullName>
+        <externalId>false</externalId>
+        <label>Technology/ BG product</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Portfolio</valueSetName>
+        </valueSet>
+    </fields>
+    <label>Training &amp; Certification Plan</label>
+    <nameField>
+        <displayFormat>TC-{0000}</displayFormat>
+        <label>Training &amp; Certification Plan No.</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Training &amp; Certification Plan</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>NumberofCertificateRequired</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT(ISBLANK(Additional_Certifications__c)) &amp;&amp;  ISBLANK(  Number_of_Certifications__c )</errorConditionFormula>
+        <errorDisplayField>Number_of_Certifications__c</errorDisplayField>
+        <errorMessage>Please enter the Number of Certifications.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OtherCertificateNotRequired</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT(INCLUDES( Additional_Certifications__c , &apos;Other&apos;))  &amp;&amp;  NOT(ISBLANK( If_Other_provide_Certification_Name_s__c ))</errorConditionFormula>
+        <errorDisplayField>If_Other_provide_Certification_Name_s__c</errorDisplayField>
+        <errorMessage>You have already selected Additional Certification.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OtherCertificateRequired</fullName>
+        <active>true</active>
+        <errorConditionFormula>INCLUDES( Additional_Certifications__c , &apos;Other&apos;)  &amp;&amp;  ISBLANK( If_Other_provide_Certification_Name_s__c )</errorConditionFormula>
+        <errorDisplayField>If_Other_provide_Certification_Name_s__c</errorDisplayField>
+        <errorMessage>You have indicated Other. Please enter Certification Name/s.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

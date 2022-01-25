@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>NCP_Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Determines whether the support link is shown on the home page.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Active = show</inlineHelpText>
+        <label>Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>NCP_CH_authorised_contact_only__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If checked this field allows users that have a record in the authorised contact object to view this link.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Check this box to make this support link item visible to users with authorised case handling permissions.</inlineHelpText>
+        <label>For CH authorised contacts only</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>NCP_Image_Name__c</fullName>
+        <description>Name of the icon to use to represent this support link</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Image name</label>
+        <required>true</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>notification</fullName>
+                    <default>true</default>
+                    <label>Bell</label>
+                </value>
+                <value>
+                    <fullName>broadcast</fullName>
+                    <default>false</default>
+                    <label>Broadcast</label>
+                </value>
+                <value>
+                    <fullName>macros</fullName>
+                    <default>false</default>
+                    <label>Chevrons right</label>
+                </value>
+                <value>
+                    <fullName>record_create</fullName>
+                    <default>false</default>
+                    <label>Clipboard</label>
+                </value>
+                <value>
+                    <fullName>campaign</fullName>
+                    <default>false</default>
+                    <label>Dart board</label>
+                </value>
+                <value>
+                    <fullName>database</fullName>
+                    <default>false</default>
+                    <label>Database</label>
+                </value>
+                <value>
+                    <fullName>download</fullName>
+                    <default>false</default>
+                    <label>Download</label>
+                </value>
+                <value>
+                    <fullName>delete</fullName>
+                    <default>false</default>
+                    <label>Dustbin</label>
+                </value>
+                <value>
+                    <fullName>graph</fullName>
+                    <default>false</default>
+                    <label>Graph</label>
+                </value>
+                <value>
+                    <fullName>groups</fullName>
+                    <default>false</default>
+                    <label>Group of people</label>
+                </value>
+                <value>
+                    <fullName>hierarchy</fullName>
+                    <default>false</default>
+                    <label>Hierarchy</label>
+                </value>
+                <value>
+                    <fullName>crossfilter</fullName>
+                    <default>false</default>
+                    <label>Interlocking Rings</label>
+                </value>
+                <value>
+                    <fullName>color_swatch</fullName>
+                    <default>false</default>
+                    <label>Keys</label>
+                </value>
+                <value>
+                    <fullName>light_bulb</fullName>
+                    <default>false</default>
+                    <label>Light bulb</label>
+                </value>
+                <value>
+                    <fullName>connected_apps</fullName>
+                    <default>false</default>
+                    <label>Lightning bolt</label>
+                </value>
+                <value>
+                    <fullName>magicwand</fullName>
+                    <default>false</default>
+                    <label>Magic wand</label>
+                </value>
+                <value>
+                    <fullName>thunder</fullName>
+                    <default>false</default>
+                    <label>Mallett</label>
+                </value>
+                <value>
+                    <fullName>location</fullName>
+                    <default>false</default>
+                    <label>Map</label>
+                </value>
+                <value>
+                    <fullName>metrics</fullName>
+                    <default>false</default>
+                    <label>Metrics</label>
+                </value>
+                <value>
+                    <fullName>moneybag</fullName>
+                    <default>false</default>
+                    <label>Money bag</label>
+                </value>
+                <value>
+                    <fullName>edit_form</fullName>
+                    <default>false</default>
+                    <label>Note pad</label>
+                </value>
+                <value>
+                    <fullName>knowledge_base</fullName>
+                    <default>false</default>
+                    <label>Open book</label>
+                </value>
+                <value>
+                    <fullName>package</fullName>
+                    <default>false</default>
+                    <label>Package</label>
+                </value>
+                <value>
+                    <fullName>page</fullName>
+                    <default>false</default>
+                    <label>Page</label>
+                </value>
+                <value>
+                    <fullName>attach</fullName>
+                    <default>false</default>
+                    <label>Paperclip</label>
+                </value>
+                <value>
+                    <fullName>chart</fullName>
+                    <default>false</default>
+                    <label>Pie chart</label>
+                </value>
+                <value>
+                    <fullName>feed</fullName>
+                    <default>false</default>
+                    <label>Pulse</label>
+                </value>
+                <value>
+                    <fullName>rocket</fullName>
+                    <default>false</default>
+                    <label>Rocket</label>
+                </value>
+                <value>
+                    <fullName>approval</fullName>
+                    <default>false</default>
+                    <label>Rubber stamp</label>
+                </value>
+                <value>
+                    <fullName>search</fullName>
+                    <default>false</default>
+                    <label>Search</label>
+                </value>
+                <value>
+                    <fullName>cases</fullName>
+                    <default>false</default>
+                    <label>Search cases</label>
+                </value>
+                <value>
+                    <fullName>shield</fullName>
+                    <default>false</default>
+                    <label>Shield</label>
+                </value>
+                <value>
+                    <fullName>custom_apps</fullName>
+                    <default>false</default>
+                    <label>Spanner</label>
+                </value>
+                <value>
+                    <fullName>favorite</fullName>
+                    <default>false</default>
+                    <label>Star</label>
+                </value>
+                <value>
+                    <fullName>case</fullName>
+                    <default>false</default>
+                    <label>Suitcase</label>
+                </value>
+                <value>
+                    <fullName>questions_and_answers</fullName>
+                    <default>false</default>
+                    <label>Support</label>
+                </value>
+                <value>
+                    <fullName>upload</fullName>
+                    <default>false</default>
+                    <label>Upload</label>
+                </value>
+                <value>
+                    <fullName>wifi</fullName>
+                    <default>false</default>
+                    <label>Wireless</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>NCP_Support_type__c</fullName>
+        <description>Category that the support link falls under</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Support type</label>
+        <required>true</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>selfService</fullName>
+                    <default>true</default>
+                    <label>Self Service</label>
+                </value>
+                <value>
+                    <fullName>toolsAndResources</fullName>
+                    <default>false</default>
+                    <label>Tools and Resources</label>
+                </value>
+                <value>
+                    <fullName>training</fullName>
+                    <default>false</default>
+                    <label>Training</label>
+                </value>
+                <value>
+                    <fullName>supportPolicies</fullName>
+                    <default>false</default>
+                    <label>Support Policies</label>
+                </value>
+                <value>
+                    <fullName>Virtual Tour</fullName>
+                    <default>false</default>
+                    <label>Virtual Tour</label>
+                </value>
+                <value>
+                    <fullName>Support portal tutorials</fullName>
+                    <default>false</default>
+                    <label>Support portal tutorials</label>
+                </value>
+                <value>
+                    <fullName>Support Tickets</fullName>
+                    <default>false</default>
+                    <label>Support Tickets</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>NCP_Tier__c</fullName>
+        <description>Determines the order that the support links are presented in.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Top tiers (1, 2, 3 etc) are presented above the lower tiers (4, 5). Support Links on the same tier will be ordered alphabetically.</inlineHelpText>
+        <label>Tier</label>
+        <required>true</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>5</fullName>
+                    <default>true</default>
+                    <label>5</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>NCP_Title__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Support link title text</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Title</label>
+        <length>50</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>NCP_URL__c</fullName>
+        <description>The url that the support item links away to</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Target URL</label>
+        <required>true</required>
+        <type>Url</type>
+    </fields>
+    <label>Support Link</label>
+    <listViews>
+        <fullName>All_Links</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>NamespacePrefix</columns>
+        <columns>NCP_Active__c</columns>
+        <columns>NCP_Support_type__c</columns>
+        <columns>NCP_Title__c</columns>
+        <columns>NCP_Image_Name__c</columns>
+        <columns>NCP_Tier__c</columns>
+        <columns>NCP_URL__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Links</label>
+        <language>en_US</language>
+    </listViews>
+    <pluralLabel>Support Links</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>
