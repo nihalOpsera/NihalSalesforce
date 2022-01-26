@@ -1,0 +1,3 @@
+{"@odata.context":"https://edpqaapi.azurewebsites.net/api/$metadata#ProductVersionItems?$filter=EDP_LastModifiedDate%20gt%202019-03-22T05:30:00Z&$count=true&$top=1"
+,"@odata.count":5001,"value":[{"Current":"Stat Hello","Description":"Demo_Description","NSNCode":"NSN789632","NSNSourceSystem":"PUM1","Revision":"00002795.01",
+"Type":"type","UnitofMeasure":"PUMA1","EDP_LastModifiedDate":"2019-01-08T08:07:03.8133333Z","EDP_ActiveStatus":true,"SparePart":"CRM"}]

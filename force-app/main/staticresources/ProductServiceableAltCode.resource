@@ -1,0 +1,4 @@
+{"@odata.context":"https://edpqaapi.azurewebsites.net/api/$metadata#ProductServiceableAltCode?
+$filter=EDP_LastModifiedDate%20gt%202019-03-15T02:00:00Z&$count=true&$top=1","@odata.count":5001,"value":[{"AlternateCodeValue":"1234","AlternateCodeType":"CARESID","NSNCode":"1AF22204AAAA","SourceSystem":"PuMA2","EDP_ActiveStatus":true,
+"EDP_DeletedAtSource":true,"PartType":"PART","EDP_LastModifiedDate":"2019-01-08T08:07:03.8133333Z"},{"AlternateCodeValue":"12345","AlternateCodeType":"CARES","NSNCode":"1AF23572AAAA","SourceSystem":"PuMA2","EDP_ActiveStatus":true,
+"EDP_DeletedAtSource":true,"PartType":"PARTREVISION","EDP_LastModifiedDate":"2019-01-08T05:30:00.8133333Z"}]
