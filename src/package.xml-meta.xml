@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
   <types>
-    <name>InboundNetworkConnection</name>
-    <members>networkConnection</members>
+    <name>AssignmentRule</name>
+    <members>Lead.Telemarketing Lead Assignment</members>
+    <members>Case.Indirect Reseller Application Assignment</members>
+    <members>Lead.Telemarketing Queue Lead Assignment</members>
   </types>
   <types>
-    <name>MilestoneType</name>
-    <members>HWS Milestone Tracker</members>
+    <name>AutoResponseRule</name>
+    <members>Case.CH_Portal_customer case creation123</members>
+    <members>Lead.SampleAuto Response Rule1</members>
+    <members>Lead.SampleLeadtest1</members>
+    <members>Case.CH_Portal_customer case creation</members>
+    <members>Lead.Sample test 4 tester</members>
+    <members>Lead.Sample test 4</members>
+    <members>Lead.SampleLeadtest</members>
+    <members>Lead.SampleAuto Response Rule</members>
   </types>
 <version>54.0</version></Package>
