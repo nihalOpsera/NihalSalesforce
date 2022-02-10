@@ -12,4 +12,9 @@
     <name>MilestoneType</name>
     <members>HWS Milestone Tracker</members>
   </types>
+  <types>
+    <name>WorkflowAlert</name>
+    <members>Account.Notification_to_Icare</members>
+    <members>Account.Email_notification_to_be_sent_out_if_the_Partner_Status_is_Customer_Terminated_o</members>
+  </types>
 <version>54.0</version></Package>
