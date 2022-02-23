@@ -289,19 +289,6 @@
     <profileSearchLayouts>
         <fields>ACCOUNT.NAME</fields>
         <fields>ACCOUNT.ACCOUNT_NUMBER</fields>
-        <fields>NCP_P20_ID__c</fields>
-        <fields>ACCOUNT.RECORDTYPE</fields>
-        <fields>Active__c</fields>
-        <fields>Country__c</fields>
-        <fields>ACCOUNT.ADDRESS1_CITY</fields>
-        <fields>InternationalCustomer__c</fields>
-        <fields>BusinessPartnerRole__c</fields>
-        <fields>L7Name__c</fields>
-        <profileName>3rd Party Telemarketing Profile</profileName>
-    </profileSearchLayouts>
-    <profileSearchLayouts>
-        <fields>ACCOUNT.NAME</fields>
-        <fields>ACCOUNT.ACCOUNT_NUMBER</fields>
         <fields>ACCOUNT.RECORDTYPE</fields>
         <fields>ACCOUNT.TYPE</fields>
         <fields>Active__c</fields>
@@ -311,6 +298,19 @@
         <fields>CH_CareContract__c</fields>
         <fields>OperationalCustomerName__c</fields>
         <profileName>CH_3rd Party</profileName>
+    </profileSearchLayouts>
+    <profileSearchLayouts>
+        <fields>ACCOUNT.NAME</fields>
+        <fields>ACCOUNT.ACCOUNT_NUMBER</fields>
+        <fields>NCP_P20_ID__c</fields>
+        <fields>ACCOUNT.RECORDTYPE</fields>
+        <fields>Active__c</fields>
+        <fields>Country__c</fields>
+        <fields>ACCOUNT.ADDRESS1_CITY</fields>
+        <fields>InternationalCustomer__c</fields>
+        <fields>BusinessPartnerRole__c</fields>
+        <fields>L7Name__c</fields>
+        <profileName>3rd Party Telemarketing Profile</profileName>
     </profileSearchLayouts>
     <profileSearchLayouts>
         <fields>ACCOUNT.NAME</fields>
