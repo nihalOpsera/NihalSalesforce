@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RestrictionRule xmlns="http://soap.sforce.com/2006/04/metadata">
     <active>true</active>
-    <description>Please Edit the description as part of your testing Blah</description>
+    <description>Please Edit the description as part of your testing Nihal</description>
     <enforcementType>Restrict</enforcementType>
     <masterLabel>Testing Restriction Rule</masterLabel>
     <recordFilter>Id=&apos;1000001&apos;</recordFilter>
