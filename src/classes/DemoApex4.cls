@@ -1,13 +1,16 @@
+/******************
+@UpdatedDate: 31 Mar 2022
+******************/
 @isTest
 public class DemoApex4 {
 private Integer num;
     
     @isTest
  	public static void helloMethod() {
-        System.debug('Change Hello DemoApexClass4 new changes from git and syncing o org');
+        System.debug('Change Hello DemoApexClass4 new changes');
     }
     
     public static testMethod void testNewMethod() {
-        System.debug('Change Hello DemoApexClass4');
+        System.debug('Change Hello Demo ApexClass');
     }
 }
