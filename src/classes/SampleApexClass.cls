@@ -4,10 +4,10 @@ public class SampleApexClass {
     
     @isTest
  	public static void helloMethod() {
-        System.debug('helloMethod SampleApexClass - new change on 31 Mar');
+        System.debug('helloMethod SampleApexClass - new change on 8 Apr');
     }
     
     public static testMethod void testNewMethod() {
-        System.debug('testNewMethod SampleApexClass - change in sys log');
+        System.debug('testNewMethod SampleApexClass');
     }
 }
