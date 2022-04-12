@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
   <types>
-    <name>MilestoneType</name>
-    <members>HWS Milestone Tracker</members>
-    <members>Initial Response</members>
+    <name>DataCategoryGroup</name>
+    <members>Case_Handling</members>
   </types>
   <types>
-    <name>PostTemplate</name>
-    <members>Session__c.Session_material_approval</members>
+    <name>TopicsForObjects</name>
+    <members>Account</members>
   </types>
 <version>54.0</version></Package>
