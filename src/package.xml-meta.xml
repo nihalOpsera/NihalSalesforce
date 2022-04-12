@@ -3,5 +3,10 @@
   <types>
     <name>MilestoneType</name>
     <members>HWS Milestone Tracker</members>
+    <members>Initial Response</members>
+  </types>
+  <types>
+    <name>PostTemplate</name>
+    <members>Session__c.Session_material_approval</members>
   </types>
 <version>54.0</version></Package>
