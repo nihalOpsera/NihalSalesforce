@@ -4,12 +4,4 @@
     <name>MilestoneType</name>
     <members>Close Case</members>
   </types>
-  <types>
-    <name>PostTemplate</name>
-    <members>Account.Test</members>
-  </types>
-  <types>
-    <name>WorkflowAlert</name>
-    <members>CommSubscription.Test</members>
-  </types>
 <version>54.0</version></Package>
