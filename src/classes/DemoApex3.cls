@@ -7,11 +7,11 @@ private Integer num;
     }
     
     public static void testNewMethod() {
-        System.debug('Change Hello DemoApex3');
-		System.debug('Change Hello DemoApex3');
-		System.debug('Change Hello DemoApex3');
-		System.debug('Change Hello DemoApex3');
-		System.debug('Change Hello DemoApex3');
-		System.debug('Change Hello DemoApex3');
+        System.debug('Change Hello DemoApex3 new changes');
+		System.debug('Change Hello DemoApex3 new changes');
+		System.debug('Change Hello DemoApex3 new changes');
+		System.debug('Change Hello DemoApex3 new changes');
+		System.debug('Change Hello DemoApex3 new changes');
+		System.debug('Change Hello DemoApex3 new changes');
     }
 }
