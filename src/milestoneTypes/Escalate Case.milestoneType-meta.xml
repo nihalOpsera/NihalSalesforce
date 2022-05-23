@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MilestoneType xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Sets a recurring milestone for escalating a Case. Testing 1</description>
+    <description>Sets a recurring milestone for escalating a Case. Testing 1123</description>
     <recurrenceType>recursIndependently</recurrenceType>
 </MilestoneType>
