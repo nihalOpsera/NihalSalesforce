@@ -13,7 +13,7 @@ private class ApprovalCentreControllerTest {
 		Database.insert(fileSharingCustomSettingList);
 		system.runAs(userList[0])
 		{
-			//Create an account
+			//Create an account From Testing Service
 			accountList = TestDataFactory.createAccount(1);
 			accountList[0].Market__c = null;
 			accountList[0].Country__c = null;
