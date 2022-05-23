@@ -1,6 +1,6 @@
 public with sharing class CH_CA_Workgroup { 
 		
-	// Create a CH_CA_Assignment_Criteria_DTO object based on the case data
+	// Create a CH_CA_Assignment_Criteria_DTO object based on the case data in this comment
 	// Modifed Dated 11-03-2019 w.r.t 15646 added AssetId in query
 	public CH_CA_Assignment_Criteria_DTO CreateCaseAssignmentObject(Id caseId){
 		Case supportCase = [SELECT Id, CreatedDate, CH_SystemRestoredTargetDate__c, CH_Initial_Assignment__c,CH_Originating_Incident_Number__c,
