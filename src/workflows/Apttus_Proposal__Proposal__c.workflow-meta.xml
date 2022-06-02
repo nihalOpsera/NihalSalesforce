@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Make_New_CQ_Quote_Read_Only</fullName>
+        <description>Change page layout for New CQ quote upon Approval Stage = Closed(Won) or Closed(not won), via record type change</description>
+        <field>RecordTypeId</field>
+        <lookupValue>CPQ_QTC_CQ_Quote_Read_Only</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Make New CQ Quote Read Only</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>New CQ change to Read only</fullName>
+        <actions>
+            <name>Make_New_CQ_Quote_Read_Only</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Change page layout for CQ quote upon Approval Stage = Closed(Won) or Closed(not won)</description>
+        <formula>AND( CPQ_CQ_Check__c , OR(ISPICKVAL( PRIORVALUE(Apttus_Proposal__Approval_Stage__c ), &quot;Draft&quot;), ISPICKVAL( PRIORVALUE(Apttus_Proposal__Approval_Stage__c ) ,&quot;Approved&quot;), ISPICKVAL( PRIORVALUE(Apttus_Proposal__Approval_Stage__c ) ,&quot;Accepted&quot;), ISPICKVAL( PRIORVALUE(Apttus_Proposal__Approval_Stage__c ),&quot;Rebid&quot;)), OR(ISPICKVAL(Apttus_Proposal__Approval_Stage__c, &apos;Closed (Won)&apos;), ISPICKVAL(Apttus_Proposal__Approval_Stage__c, &apos;Closed(not won)&apos;)))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Send Mail To Partner User For LEO Quote Certification</fullName>
+        <actions>
+            <name>Send_Email_To_Partner_For_LEO_Quote</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Apttus_Proposal__Proposal__c.NokiaCPQ_LEO_Discount__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>
