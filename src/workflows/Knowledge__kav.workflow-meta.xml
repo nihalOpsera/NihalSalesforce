@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>CH_Capture_Version_Creator</fullName>
+        <description>It will Capture the user of version creation</description>
+        <field>CH_Version_Created_By__c</field>
+        <formula>$User.FirstName + &apos; &apos; + $User.LastName</formula>
+        <name>Capture Version Creator</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>
