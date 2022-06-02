@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>PRM_DOD_Approved_on_Opportunity_External</fullName>
+        <description>DOD Approved on Opportunity - External</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Partner</recipient>
+            <type>opportunityTeam</type>
+        </recipients>
+        <senderAddress>nokia_global_partner_communications@nokia.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>PRM_Email_Templates/PRM_DOD_Approved_on_Opportunity_External</template>
+    </alerts>
+    <alerts>
+        <fullName>PRM_DOD_Approved_on_Opportunity_Internal</fullName>
+        <description>DOD Approved on Opportunity - Internal</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <field>PRM_Bus_Ops_Approver__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>nokia_global_partner_communications@nokia.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>PRM_Email_Templates/PRM_DOD_Approved_on_Opportunity_Internal</template>
+    </alerts>
+    <alerts>
+        <fullName>PRM_DOD_Rejected_on_Opportunity_External</fullName>
+        <description>DOD Rejected on Opportunity - External</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Partner</recipient>
+            <type>opportunityTeam</type>
+        </recipients>
+        <senderAddress>nokia_global_partner_communications@nokia.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>PRM_Email_Templates/PRM_DOD_Rejected_on_Opportunity_External</template>
+    </alerts>
+    <alerts>
+        <fullName>PRM_DOD_Rejected_on_Opportunity_Internal</fullName>
+        <description>DOD Rejected on Opportunity - Internal</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <field>PRM_Bus_Ops_Approver__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>nokia_global_partner_communications@nokia.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>PRM_Email_Templates/PRM_DOD_Rejected_on_Opportunity_Internal</template>
+    </alerts>
+    <alerts>
+        <fullName>PRM_DOD_Revoked_on_Opportunity_Internal</fullName>
+        <description>DOD Revoked on Opportunity - Internal</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <field>PRM_Bus_Ops_Approver__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>nokia_global_partner_communications@nokia.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>PRM_Email_Templates/PRM_DOD_Revoked_on_Opportunity_Internal</template>
+    </alerts>
+    <alerts>
+        <fullName>PRM_DOD_Revoked_on_Opportunity_Partners</fullName>
+        <description>DOD Revoked on Opportunity - Partners</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Partner</recipient>
+            <type>opportunityTeam</type>
+        </recipients>
+        <senderAddress>nokia_global_partner_communications@nokia.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>PRM_Email_Templates/PRM_DOD_Revoked_on_Opportunity_External</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>NF_G5_Contract_Sign_Date</fullName>
+        <field>G5_Contract_Approval_Date__c</field>
+        <formula>IF(ISPICKVAL(StageName ,&apos;Identify Opportunity&apos;), NULL,
+			IF( ISPICKVAL(StageName ,&apos;Develop Opportunity&apos;),NULL,
+     IF( ISPICKVAL(StageName ,&apos;Create Offer (Bid)&apos;),NULL,
+        IF(ISPICKVAL(Phase_Status__c,&apos;Offer Submitted to Customer (Manual)&apos;),Null,
+           IF( AND( ISPICKVAL(StageName ,&apos;Handover (Prepare for Delivery)&apos;), NF_LoA_Bypass__c&gt;0,  ISPICKVAL(Blanket_Approval_Condition__c,&apos;&apos;) , ISBLANK(G5_Contract_Approval_Date__c) ) , NOW() ,
+             IF( AND( ISPICKVAL(StageName ,&apos;Handover (Prepare for Delivery)&apos;) ,  NOT(ISPICKVAL(Blanket_Approval_Condition__c,&apos;&apos;)) , ISBLANK(G5_Contract_Approval_Date__c) ) , Now() ,
+																IF( AND( ISPICKVAL(PRIORVALUE(StageName) ,&apos;Win the Case (Negotiate)&apos;),  ISPICKVAL(StageName ,&apos;Execute (Start Delivery)&apos;) ,  Gate_6_Bypass_No_Execute_needed__c   , ISBLANK(G5_Contract_Approval_Date__c) ) , Now() , G5_Contract_Approval_Date__c )
+               )
+											)
+        )
+      )
+			)
+)</formula>
+        <name>NF_G5 Contract Sign  Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>NF_G6_Approval_Date_Update</fullName>
+        <field>G6_Approval_Date__c</field>
+        <formula>IF( ISPICKVAL(StageName ,&apos;Identify Opportunity&apos;),NULL, 
+IF( ISPICKVAL(StageName ,&apos;Develop Opportunity&apos;),NULL, 
+IF(ISPICKVAL(StageName ,&apos;Create Offer (Bid)&apos;),NULL, 
+IF(ISPICKVAL(StageName ,&apos;Win the Case (Negotiate)	&apos;),NULL, 
+IF(ISPICKVAL(StageName ,&apos;Handover (Prepare for Delivery)&apos;) ,NULL, 
+G6_Approval_Date__c  
+) 
+)
+) 
+)
+)</formula>
+        <name>NF_G6 Approval Date Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PSR_PO_Expected_Initial</fullName>
+        <description>Setting the &quot;Initial PO Expected Date&quot; with the &quot;Date PO Expected / Contract Signed&quot; upon approval</description>
+        <field>PSR_Initial_PO_Expected_Date__c</field>
+        <formula>PSR_Date_PO_Expected__c</formula>
+        <name>PSR_PO_Expected_Initial</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Stalling_Opportunity_false</fullName>
+        <field>Stalling_Opportunity__c</field>
+        <literalValue>0</literalValue>
+        <name>Stalling Opportunity_False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <outboundMessages>
+        <fullName>Workato_Outbound_Opportunity</fullName>
+        <apiVersion>51.0</apiVersion>
+        <endpointUrl>https://www.workato.com/webhooks/notify/salesforce?sobject=Opportunity&amp;org_id=00D030000004gKSEAI&amp;name=workato_outbound_opportunity</endpointUrl>
+        <fields>Id</fields>
+        <includeSessionId>false</includeSessionId>
+        <integrationUser>sfdc.no_reply@nokia.com</integrationUser>
+        <name>Workato Outbound Opportunity</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
+    <rules>
+        <fullName>G2 to G6 Submission dates</fullName>
+        <actions>
+            <name>G2_Submission_dates_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Req::792 Updating the Submission dates</description>
+        <formula>AND(  ISCHANGED(Phase_Status__c),  $Profile.Name &lt;&gt; $Label.Data_Loader_Profile_Name )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>NF_ByPassApprovalG5</fullName>
+        <actions>
+            <name>G5_Approval_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( 				 			$User.ProfileId != $Label.Data_Loader_Profile_Id, 			ISPICKVAL(PRIORVALUE(StageName) , &apos;Win the Case (Negotiate)&apos;), 			OR( 						ISPICKVAL(StageName , &apos;Handover (Prepare for Delivery)&apos;), 						AND( 										ISPICKVAL(StageName , &apos;Execute (Start Delivery)&apos;),						 			       Gate_6_Bypass_No_Execute_needed__c 													 						) 					) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>NF_ByPassApprovalG6</fullName>
+        <actions>
+            <name>G6_Approval_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>AND(  	$User.ProfileId != $Label.Data_Loader_Profile_Id,  	OR( 				ISPICKVAL(PRIORVALUE(StageName) , &apos;Handover (Prepare for Delivery)&apos;), 				AND ( 									ISPICKVAL(PRIORVALUE(StageName) , &apos;Win the Case (Negotiate)&apos;), 									Gate_6_Bypass_No_Execute_needed__c  				) 	), 	ISPICKVAL(StageName, &apos;Execute (Start Delivery)&apos;), 	OR( 			 Gate_6_Bypass_No_Execute_needed__c,      NOT(ISPICKVAL(Blanket_Approval_Condition__c,&apos;&apos;)) 	) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Noki 2</fullName>
+        <actions>
+            <name>Stalling_Opportunity</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Stalling_Opportunity_false</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Checking Suspending Opp checkbox when Stage is Create Offer and Phase Status is changing to Submitted for G4 Approval from Offer in Progress</description>
+        <formula>AND(    ISCHANGED( Phase_Status__c),  ISPICKVAL( PRIORVALUE( Phase_Status__c ) , &quot;Offer in Progress&quot; ),   $Profile.Name &lt;&gt; $Label.Data_Loader_Profile_Name  )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>PSR_In_Execution</fullName>
+        <actions>
+            <name>PSR_PO_Expected_Initial</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Rule for when PSRO is approved (moves to In Execution)</description>
+        <formula>AND( ISCHANGED(StageName), ISPICKVAL(StageName, &apos;In Execution&apos;) , ISPICKVAL(PRIORVALUE(StageName), &apos;Submitted For Approval&apos;)  )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Workato WTD - Opportunity</fullName>
+        <actions>
+            <name>Workato_Outbound_Opportunity</name>
+            <type>OutboundMessage</type>
+        </actions>
+        <active>false</active>
+        <description>Sending an outbound message to Workato to then request WtD to sync with CRM, all in real time updates</description>
+        <formula>AND( 	$Profile.Name != &quot;Excel Add-In Profile&quot;, 	OR( 		ISCHANGED( StageName ), 		AND( ISCHANGED(Phase_Status__c)	, OR( ISPICKVAL(Phase_Status__c, &apos;Pending Win/Loss Declaration&apos;) , ISPICKVAL(PRIORVALUE(Phase_Status__c), &apos;Pending Win/Loss Declaration&apos;) )), 		AND( ISCHANGED( Committed_OIF__c ) , ISPICKVAL(StageName, &apos;Develop Opportunity&apos;) ) , 		ISCHANGED( Gate_3_Bypass_no_offer_support__c )							   	) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>teewggr</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Closed - Cancelled by Customer,Closed - Lost to Competitor</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>
