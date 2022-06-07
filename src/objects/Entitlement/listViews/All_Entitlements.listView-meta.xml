@@ -7,5 +7,10 @@
     <columns>ENTITLEMENT.ENDDATE</columns>
     <columns>ENTITLEMENT.STATUS</columns>
     <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>contains</operation>
+        <value>NOKIA OYJ</value>
+    </filters>
     <label>All Entitlements</label>
 </ListView>
