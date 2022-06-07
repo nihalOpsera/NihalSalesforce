@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <rules>
+        <fullName>CH_EscalationEndDateAutoFill</fullName>
+        <actions>
+            <name>CH_ME_EndDAtePopulation</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>CH_Manage_Escalation__c.CH_EscalationStatus__c</field>
+            <operation>equals</operation>
+            <value>Closed</value>
+        </criteriaItems>
+        <description>CH_EscalationEndDateAutoFill</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>CH_WF_ME_Escalation End date</fullName>
+        <actions>
+            <name>CH_End_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>CH_Manage_Escalation__c.CH_EscalationStatus__c</field>
+            <operation>contains</operation>
+            <value>Closed,Rejected</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CH_Manage_Escalation__c.CH_EscalationProcessStage__c</field>
+            <operation>contains</operation>
+            <value>Close</value>
+        </criteriaItems>
+        <description>CH_WF_ME_Escalation End date</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>CH_WF_ME_Escalation Rejection date</fullName>
+        <actions>
+            <name>Rejected_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>CH_Manage_Escalation__c.CH_EscalationStatus__c</field>
+            <operation>equals</operation>
+            <value>Rejected</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

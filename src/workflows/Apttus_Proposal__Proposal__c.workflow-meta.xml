@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>CPQ_Send_Email_to_Submitted_for_Approval_Status_Change</fullName>
+        <description>Send Email to Submitted for Approval Status Change</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Apttus__ApttusEmailTemplates/CPQ_EBG_Send_Email_to_Inform_about_Approval_Stage</template>
+    </alerts>
+    <alerts>
+        <fullName>CPQ_Send_Email_to_Submitter_for_Rejected_Stage</fullName>
+        <description>EBG_Send Email to Submitter for Rejected Stage</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Apttus__ApttusEmailTemplates/CPQ_EBG_Send_Email_to_Inform_about_Rejected_Stage</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_AM</fullName>
+        <description>Email to AM</description>
+        <protected>false</protected>
+        <recipients>
+            <field>NokiaCPQ_Account_Manager_User__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/NotifyQuoteAccountManager_Approval_Required</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Email_To_Partner_For_LEO_Quote</fullName>
+        <ccEmails>heema.1.solanki@nokia.com</ccEmails>
+        <ccEmails>Rahul.garje@nokia.com</ccEmails>
+        <description>Send Email To Partner For LEO Quote</description>
+        <protected>false</protected>
+        <recipients>
+            <field>NokiaCPQ_Partner_Sales_Manager__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Send_Email_to_Partner_to_Inform_about_his_certification</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Email_to_PSM_for_Approval_Status_Change</fullName>
+        <ccEmails>rahul.garje@nokia.com</ccEmails>
+        <description>Send Email to PSM for Approval Status Change</description>
+        <protected>false</protected>
+        <recipients>
+            <field>NokiaCPQ_Partner_Sales_Manager__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Apttus__ApttusEmailTemplates/CPQ_Approval_Status_Change_to_PSM</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Approval_Stage_Update_For_Recall</fullName>
+        <field>Apttus_Proposal__Approval_Stage__c</field>
+        <literalValue>Requires Approval</literalValue>
+        <name>Approval Stage Update For Recall</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CPQ_Application_Code_update</fullName>
+        <description>Set the value of Application Code to ZZ, based on Master quote field for QTC-NCQ quote</description>
+        <field>CPQ_Application_Code__c</field>
+        <literalValue>ZZ</literalValue>
+        <name>Application Code update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Make_NCQ_Quote_Read_Only</fullName>
+        <description>Change page layout for NCQ quote upon Approval Stage = Closed(Won) or Closed(not won), via record type change</description>
+        <field>RecordTypeId</field>
+        <lookupValue>NCQ_ReadOnly_Recordtype</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Make NCQ Quote Read Only</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Make_New_CQ_Quote_Read_Only</fullName>
+        <description>Change page layout for New CQ quote upon Approval Stage = Closed(Won) or Closed(not won), via record type change</description>
+        <field>RecordTypeId</field>
+        <lookupValue>CPQ_QTC_CQ_Quote_Read_Only</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Make New CQ Quote Read Only</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>NCQ_Update_Approval_Stage_to_Approved</fullName>
+        <field>Apttus_Proposal__Approval_Stage__c</field>
+        <literalValue>Approved</literalValue>
+        <name>NCQ Update Approval Stage to Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Application_Code_setup</fullName>
+        <actions>
+            <name>CPQ_Application_Code_update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Apttus_Proposal__Proposal__c.CQ_Master_Quote__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>Set the value of Application Code based on Master quote field for QTC-NCQ quote</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CPQ_EBG Send Email to Inform about Rejected Stage</fullName>
+        <actions>
+            <name>CPQ_Send_Email_to_Submitter_for_Rejected_Stage</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(ISCHANGED(Apttus_Proposal__Approval_Stage__c),ISPICKVAL(Apttus_QPApprov__Approval_Status__c,&quot;Rejected&quot;),Quote_Type__c = &quot;Direct CPQ&quot;, ISPICKVAL(NokiaCPQ_Portfolio__c, &quot;IP Routing&quot;))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CPQ_EBG_Notification for Quote Approval Status</fullName>
+        <actions>
+            <name>CPQ_Send_Email_to_Submitted_for_Approval_Status_Change</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(ISCHANGED( Apttus_Proposal__Approval_Stage__c ),OR(AND(ISPICKVAL(Apttus_Proposal__Approval_Stage__c ,&quot;Approval Required&quot;),NOT(ISPICKVAL(Apttus_QPApprov__Approval_Status__c, &quot;Rejected&quot;))),ISPICKVAL( Apttus_Proposal__Approval_Stage__c , &quot;Approved&quot;),ISPICKVAL( Apttus_Proposal__Approval_Stage__c , &quot;Rejected&quot;),ISPICKVAL( Apttus_QPApprov__Approval_Status__c, &quot;Expired&quot;)),Quote_Type__c  = &quot;Direct CPQ&quot;, ISPICKVAL(NokiaCPQ_Portfolio__c, &quot;IP Routing&quot;))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>DS Send Email Alert To AM when Quote is in Draft</fullName>
+        <actions>
+            <name>DS_Email_Alert_for_Quote_Draft_Stage</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Apttus_Proposal__Proposal__c.Apttus_Proposal__Approval_Stage__c</field>
+            <operation>equals</operation>
+            <value>Draft</value>
+        </criteriaItems>
+        <description>DS Send Email Alert To AM when Quote is in Draft</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>DS Sent Email To AM when Quote is in Approved</fullName>
+        <actions>
+            <name>DS_Email_Alert_for_Quote_Approved_Stage</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Apttus_Proposal__Proposal__c.Apttus_Proposal__Approval_Stage__c</field>
+            <operation>equals</operation>
+            <value>Approved</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>NCQ change to Read only</fullName>
+        <actions>
+            <name>Make_NCQ_Quote_Read_Only</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Change page layout for NCQ quote upon Approval Stage = Closed(Won) or Closed(not won)</description>
+        <formula>AND( CPQ_NCQ_Check__c , OR(ISPICKVAL( PRIORVALUE(Apttus_Proposal__Approval_Stage__c ), &quot;Draft&quot;), ISPICKVAL( PRIORVALUE(Apttus_Proposal__Approval_Stage__c ) ,&quot;Approved&quot;), ISPICKVAL( PRIORVALUE(Apttus_Proposal__Approval_Stage__c ) ,&quot;Accepted&quot;), ISPICKVAL( PRIORVALUE(Apttus_Proposal__Approval_Stage__c ),&quot;Rebid&quot;)), OR(ISPICKVAL(Apttus_Proposal__Approval_Stage__c, &apos;Closed (Won)&apos;), ISPICKVAL(Apttus_Proposal__Approval_Stage__c, &apos;Closed(not won)&apos;)))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>NCQ-Change the Approval Stage to Approved upon document generation</fullName>
+        <actions>
+            <name>NCQ_Update_Approval_Stage_to_Approved</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Apttus_Proposal__Proposal__c.Apttus_Proposal__Approval_Stage__c</field>
+            <operation>equals</operation>
+            <value>Generated</value>
+        </criteriaItems>
+        <description>NCQ-Change the Approval Stage to Approved upon document generation</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>New CQ change to Read only</fullName>
+        <actions>
+            <name>Make_New_CQ_Quote_Read_Only</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Change page layout for CQ quote upon Approval Stage = Closed(Won) or Closed(not won)</description>
+        <formula>AND( CPQ_CQ_Check__c , OR(ISPICKVAL( PRIORVALUE(Apttus_Proposal__Approval_Stage__c ), &quot;Draft&quot;), ISPICKVAL( PRIORVALUE(Apttus_Proposal__Approval_Stage__c ) ,&quot;Approved&quot;), ISPICKVAL( PRIORVALUE(Apttus_Proposal__Approval_Stage__c ) ,&quot;Accepted&quot;), ISPICKVAL( PRIORVALUE(Apttus_Proposal__Approval_Stage__c ),&quot;Rebid&quot;)), OR(ISPICKVAL(Apttus_Proposal__Approval_Stage__c, &apos;Closed (Won)&apos;), ISPICKVAL(Apttus_Proposal__Approval_Stage__c, &apos;Closed(not won)&apos;)))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Notification for PSM for Quote Approval Status</fullName>
+        <actions>
+            <name>Send_Email_to_PSM_for_Approval_Status_Change</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(ISCHANGED( Apttus_Proposal__Approval_Stage__c ),OR(AND(ISPICKVAL(Apttus_Proposal__Approval_Stage__c ,&quot;Requires Approval&quot;),NOT(ISPICKVAL(Apttus_QPApprov__Approval_Status__c, &quot;Rejected&quot;))),ISPICKVAL( Apttus_Proposal__Approval_Stage__c , &quot;Approved&quot;),ISPICKVAL( Apttus_Proposal__Approval_Stage__c , &quot;Rejected&quot;),ISPICKVAL( Apttus_Proposal__Approval_Stage__c , &quot;In Review&quot;)),Quote_Type__c  = &quot;Indirect CPQ&quot;,    NOT(ISNULL(NokiaCPQ_Partner_Sales_Manager__c)))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Notification to AM- Approval Required</fullName>
+        <actions>
+            <name>Email_to_AM</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>Apttus_Proposal__Proposal__c.Apttus_Proposal__Approval_Stage__c</field>
+            <operation>equals</operation>
+            <value>Requires Approval</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Apttus_Proposal__Proposal__c.NokiaCPQ_Portfolio__c</field>
+            <operation>equals</operation>
+            <value>Modular Private Wireless Solution</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Apttus_Proposal__Proposal__c.Apttus_Proposal__Approval_Stage__c</field>
+            <operation>equals</operation>
+            <value>In Review</value>
+        </criteriaItems>
+        <description>For REQ: 7135 Testing workflow created</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Send Mail To Partner User For LEO Quote Certification</fullName>
+        <actions>
+            <name>Send_Email_To_Partner_For_LEO_Quote</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Apttus_Proposal__Proposal__c.NokiaCPQ_LEO_Discount__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>
