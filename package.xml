@@ -24,5 +24,9 @@
     <name>ContentAsset</name>
     <members>budget120png</members>
   </types>
+  <types>
+    <name>BrandingSet</name>
+    <members>LEXTHEMINGOpsera</members>
+  </types>
   <version>55.0</version>
 </Package>
