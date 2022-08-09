@@ -1,0 +1,55 @@
+{
+  "appPageId" : "3fe8c56d-7b29-44cc-9038-f4e27bc50371",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "b41997d2-f660-464c-9a13-f627ef12172f",
+  "label" : "Partner Support Tab",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><span class=\"assist\" ><strong>For any questions related to the Nokia Partner Portal, Nokia Partner Program, certifications/training or general issues…please create a ticket using the <i>Create Ticket</i> button. This will enable us to more effectively manage, track and respond to your question.</strong></span></p> \n<!--&nbsp;</p> -->\n<p><span class=\"assist\">In the event that you have issues creating a ticket, please contact us via email at: &nbsp; <a href=\"mailto: partner.support@nokia.com?\">partner.support@nokia.com</a></span></p>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "5475c2dd-4095-4e35-994d-f0c3e8a2f3f3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "63c054dc-370c-45f4-a71b-e7dda09bc6d7",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:PS_SupportTicketListView",
+      "id" : "77e629a7-f90f-4cb1-8173-7c206ccd3fe4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b6beca71-1398-43f8-bb3f-cf4684f9b8f4",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "685f7e92-c57f-44bf-83ea-4db3dcd16c6d",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Partner Support Tab"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e4b2b03a-a58a-480c-8270-41f29fbde2e7",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1e1921e9-7f31-4287-be25-afc6b039f17a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-partner-support-tab"
+}

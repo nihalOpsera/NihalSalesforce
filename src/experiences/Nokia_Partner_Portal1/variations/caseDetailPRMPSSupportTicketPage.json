@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "a204832f-6fd3-44d3-afc1-66a4ef692923",
+    "propertyOverrides" : {
+      "activeViewId" : "03bfc0ce-33a5-420c-9e91-2f29265324da"
+    },
+    "targetId" : "c6337094-179c-48f6-8381-67062e73f1d4",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Case_Detail_PRM_PS_SupportTicket_Page",
+  "id" : "bcc2e569-4eab-4f5d-abcf-0d08a4b79f63",
+  "type" : "experienceVariation"
+}
