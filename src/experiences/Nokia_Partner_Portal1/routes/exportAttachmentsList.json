@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "154fcebd-6f99-4006-b2bf-280bdeef3088",
+  "appPageId" : "3fe8c56d-7b29-44cc-9038-f4e27bc50371",
+  "configurationTags" : [ ],
+  "id" : "a6fd56d3-17bb-4ca9-a41c-276351461a0a",
+  "label" : "Export Attachments List",
+  "objectApiName" : "CPQ_ExportAttach__c",
+  "routeType" : "list-a2q",
+  "type" : "route",
+  "urlPrefix" : "cpq-exportattach"
+}

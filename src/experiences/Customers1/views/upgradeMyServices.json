@@ -1,0 +1,87 @@
+{
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "5a99e290-3e0e-4b95-aeec-5ee3df59ee70",
+  "label" : "Upgrade My Services",
+  "regions" : [ {
+    "id" : "1b1aa972-84c9-4050-aa49-2ca48f94dae9",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:NCP_UpgradeMyServicesCmp",
+      "id" : "d16e3ff9-1d83-4a89-80f9-f445f14dd381",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "00935e3e-bc73-46a5-af86-54837608ac08",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "confirmButtonLabel" : "Acknowledge",
+        "cookieFooterBackgroundColor" : "rgb(0,0,0)",
+        "cookieFooterButtonAlignment" : "left",
+        "cookieFooterLinkColor" : "rgb(250, 250, 250)",
+        "cookieFooterPadding" : "small",
+        "cookieFooterRelative" : false,
+        "cookieFooterTextColor" : "rgb(250, 250, 250)",
+        "displayType" : "modal",
+        "headingLabel" : "Manage Nokia Cookie",
+        "informationButtonLabel" : "Privacy Policy",
+        "informationButtonLink" : "www.nokia.com",
+        "instructions" : "This policy details how Nokia uses cookies and cookie-like files and technologies on its websites, e.g. Local Shared Objects, also known as “Flash cookies”, web beacons etc. We refer to these generically as “cookies”. If you visit our websites and your browser settings accept cookies, we consider this as acceptance of our use of cookies.",
+        "previewInBuilder" : true,
+        "rejectButtonLabel" : "Decline",
+        "useRelaxedCSP" : false,
+        "viewCookiesLabel" : "View Cookie",
+        "viewCookiesLink" : "https://customer.nokia.com/s/nokia-cookies"
+      },
+      "componentName" : "cookiecon:cookieConsent",
+      "id" : "daaf65ba-bfc2-4aad-a6b9-183e5ae7fb16",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d9680509-9f27-47a8-a535-c2a8ceb2a66e",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Upgrade My Services"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "1ac34f5f-aaa7-4419-a45b-553ebed23e44",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0f3dbb3a-8cea-4a09-b01d-cc97e7846111",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:NCP_UpgradeMyServicesCmp",
+      "id" : "e5c42129-fb55-46f0-b7b9-84360c3143cd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b8ccd88b-4367-4263-8807-5333eacbbc6e",
+    "regionName" : "contentOne",
+    "type" : "region"
+  }, {
+    "id" : "b7467606-1750-4c70-843a-265d606e45a6",
+    "regionName" : "contentTwo",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-upgrade-my-services"
+}

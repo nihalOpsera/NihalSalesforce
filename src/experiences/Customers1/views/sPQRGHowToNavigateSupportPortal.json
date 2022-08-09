@@ -1,0 +1,43 @@
+{
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "componentName" : "c:NCP_layout_2of3_1of3",
+  "id" : "ed2d253b-4ebc-4297-8777-47cc92940a31",
+  "label" : "SP-QRG-How-to-Navigate-Support-Portal",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "articleName" : "How to Navigate the Support Portal"
+      },
+      "componentName" : "c:NCP_NokiaCookies",
+      "id" : "4ad9c533-66d7-47b4-94a0-96b078ba4d19",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1c63c81e-5412-4b8c-8a60-5ec6ba384b7a",
+    "regionName" : "contentOne",
+    "type" : "region"
+  }, {
+    "id" : "d09b7b86-07a1-4221-be64-8b35ea29dfab",
+    "regionName" : "contentTwo",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "SP-QRG-How-to-Navigate-Support-Portal"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "ef0e2709-bdb9-4368-9914-b80291ac5ad8",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ec05a709-b355-4ccc-a16c-9a705e6a7384",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-sp-qrg-how-to-navigate-support-portal"
+}

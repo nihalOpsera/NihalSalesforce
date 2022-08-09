@@ -1,0 +1,43 @@
+{
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "componentName" : "c:NCP_layout_2of3_1of3",
+  "id" : "2ce5e180-38ce-4dfd-a7cb-25b27eaff79c",
+  "label" : "How to Access Community Service",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "articleName" : "How to Access Community Service"
+      },
+      "componentName" : "c:NCP_NokiaCookies",
+      "id" : "d5493eaf-e61a-4c7c-8836-84daf2c36ddd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2237c659-4e74-4e0d-a952-27cf4b341f6c",
+    "regionName" : "contentOne",
+    "type" : "region"
+  }, {
+    "id" : "d40c9abe-b56e-4bca-a5f3-dcbc1501aac6",
+    "regionName" : "contentTwo",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "How to Access Community Service"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "bed7dc3f-8a4d-465b-9910-b2b5c909b38e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9a68b3e2-82d3-430a-be29-f50b76035bac",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-how-to-access-community-service"
+}

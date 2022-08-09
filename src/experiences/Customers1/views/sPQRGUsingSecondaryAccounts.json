@@ -1,0 +1,43 @@
+{
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "componentName" : "c:NCP_layout_2of3_1of3",
+  "id" : "c1cc6ab5-a0ea-4c45-89a7-c531f16c6712",
+  "label" : "SP-QRG-Using-Secondary-Accounts",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "articleName" : "Using Secondary Accounts"
+      },
+      "componentName" : "c:NCP_NokiaCookies",
+      "id" : "f03f16ff-a7e4-48a6-91c7-62545931d9e8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e993e726-a00f-4b42-895b-514ebd782909",
+    "regionName" : "contentOne",
+    "type" : "region"
+  }, {
+    "id" : "a4dff323-4d15-4574-82a9-c8686610c3c5",
+    "regionName" : "contentTwo",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "SP-QRG-Using-Secondary-Accounts"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "6c52d961-9820-416c-b1ed-60d164f3e425",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "95d3ef14-d764-47f3-8629-48a9d2f41e97",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-sp-qrg-using-secondary-accounts"
+}

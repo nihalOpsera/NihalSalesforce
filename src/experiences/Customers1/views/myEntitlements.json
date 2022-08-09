@@ -1,0 +1,71 @@
+{
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "4946dbc6-cd44-4ef3-99bc-f4f598957648",
+  "label" : "My Entitlements",
+  "regions" : [ {
+    "id" : "d6e4bf6d-3568-4936-98bf-065cb8942109",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:NCP_MyEntitlementsCmp",
+      "id" : "05ef0e74-c87d-431b-814e-434f86e0f3a6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cabe39c0-9598-414c-b447-c1b5a40faf9a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "confirmButtonLabel" : "Acknowledge",
+        "cookieFooterBackgroundColor" : "rgb(0,0,0)",
+        "cookieFooterButtonAlignment" : "left",
+        "cookieFooterLinkColor" : "rgb(250, 250, 250)",
+        "cookieFooterPadding" : "small",
+        "cookieFooterRelative" : false,
+        "cookieFooterTextColor" : "rgb(250, 250, 250)",
+        "displayType" : "modal",
+        "headingLabel" : "Manage Nokia Cookie",
+        "informationButtonLabel" : "Privacy Policy",
+        "informationButtonLink" : "www.nokia.com",
+        "instructions" : "This policy details how Nokia uses cookies and cookie-like files and technologies on its websites, e.g. Local Shared Objects, also known as “Flash cookies”, web beacons etc. We refer to these generically as “cookies”. If you visit our websites and your browser settings accept cookies, we consider this as acceptance of our use of cookies.",
+        "previewInBuilder" : true,
+        "rejectButtonLabel" : "Decline",
+        "useRelaxedCSP" : false,
+        "viewCookiesLabel" : "View Cookie",
+        "viewCookiesLink" : "https://customer.nokia.com/s/nokia-cookies"
+      },
+      "componentName" : "cookiecon:cookieConsent",
+      "id" : "bc93d21d-b54e-4c8f-ae24-41081eb42a0c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2cb3267f-a0f6-4205-ac85-350cc9e2f5eb",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "My Entitlements"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "db3bbb84-977b-4386-b4f4-abe9942ad3d7",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "74624e64-6527-4658-8f03-257c84fa396a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-my-entitlements"
+}

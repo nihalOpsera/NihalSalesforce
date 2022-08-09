@@ -1,0 +1,43 @@
+{
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "componentName" : "c:NCP_layout_2of3_1of3",
+  "id" : "70d686cd-e6bd-4448-a07a-95e435b8d6cb",
+  "label" : "SP-QRG-Customer-Registration",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "articleName" : "Customer Registration"
+      },
+      "componentName" : "c:NCP_NokiaCookies",
+      "id" : "85e30c80-fb1e-464f-8032-2f3404dcf74b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "314af0cd-a3bc-40f5-b435-184a6966d7f5",
+    "regionName" : "contentOne",
+    "type" : "region"
+  }, {
+    "id" : "dcb72e3b-3c6c-4e4e-975b-a3d9fb5ee712",
+    "regionName" : "contentTwo",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "SP-QRG-Customer-Registration"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "7f570e64-2b92-4b53-ba05-bf4e3d1303dd",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ade7607b-9a0f-4712-94b8-5096c443c7f0",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-sp-qrg-customer-registration"
+}

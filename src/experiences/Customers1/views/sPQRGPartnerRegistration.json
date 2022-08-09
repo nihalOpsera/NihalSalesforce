@@ -1,0 +1,43 @@
+{
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "componentName" : "c:NCP_layout_2of3_1of3",
+  "id" : "11ef0948-5092-4f10-808e-9d0d2cba44f7",
+  "label" : "SP-QRG-Partner-Registration",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "articleName" : "Partner Registration"
+      },
+      "componentName" : "c:NCP_NokiaCookies",
+      "id" : "1345a48f-5f98-41f2-958a-0d92b50e6706",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0f4d9dbd-cec8-47b2-ac9a-eb44b32fb5f6",
+    "regionName" : "contentOne",
+    "type" : "region"
+  }, {
+    "id" : "dcb40918-459d-40fa-a121-80464499deca",
+    "regionName" : "contentTwo",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "SP-QRG-Partner-Registration"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "575e8a90-a251-46ed-880e-a113d9b09d1a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "558e3018-3704-477d-a5a1-1f5bb814cc5c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-sp-qrg-partner-registration"
+}

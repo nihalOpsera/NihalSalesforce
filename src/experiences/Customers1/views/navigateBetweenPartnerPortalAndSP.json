@@ -1,0 +1,43 @@
+{
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "componentName" : "c:NCP_layout_2of3_1of3",
+  "id" : "a76b66ce-76fb-4a82-8a89-af0635776f90",
+  "label" : "Navigate between Partner Portal and SP",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "articleName" : "Navigate between Partner Portal and SP"
+      },
+      "componentName" : "c:NCP_NokiaCookies",
+      "id" : "17e7a2e6-3a38-4bf7-91be-a3d2c5c15a17",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a8747c2e-942a-49a0-b87d-3492dfcd7b25",
+    "regionName" : "contentOne",
+    "type" : "region"
+  }, {
+    "id" : "627b1b95-1e2f-4e5e-a53e-f17ad07ab0e6",
+    "regionName" : "contentTwo",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Navigate between Partner Portal and SP"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "bbef9b75-9331-4943-97a5-e5caf4ae4038",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7e24ad5f-8582-4695-ab29-1ff634e397ff",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-navigate-between-partner-portal-and-sp"
+}
