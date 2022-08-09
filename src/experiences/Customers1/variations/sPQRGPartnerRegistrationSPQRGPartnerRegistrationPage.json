@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "6d6b6a18-380c-486d-8367-300ca3e27074",
+    "propertyOverrides" : {
+      "activeViewId" : "11ef0948-5092-4f10-808e-9d0d2cba44f7"
+    },
+    "targetId" : "40a27c1b-f242-49b3-aa26-52b318f22c34",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "SPQRGPartnerRegistration_SPQRGPartnerRegistration_Page",
+  "id" : "4d3dc013-84ad-4c4f-aa42-9d73eedee9d5",
+  "type" : "experienceVariation"
+}

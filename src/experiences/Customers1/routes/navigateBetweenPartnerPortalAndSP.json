@@ -1,0 +1,11 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "configurationTags" : [ ],
+  "id" : "77e4f139-48ae-45f1-b1b9-d6e3d4b073f0",
+  "label" : "Navigate between Partner Portal and SP",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-navigate-between-partner-portal-and-sp",
+  "type" : "route",
+  "urlPrefix" : "navigate-between-partner-portal-and-sp"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "configurationTags" : [ ],
+  "id" : "aaa8e053-8bb9-49fe-bf66-0565aa70a936",
+  "label" : "SP-QRG-Supplier-Registration",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-sp-qrg-supplier-registration",
+  "type" : "route",
+  "urlPrefix" : "supplier-registration"
+}

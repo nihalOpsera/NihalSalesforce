@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "7e35ddc5-c6f3-4f4d-a741-bea9d98d9d0d",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "76feb80a-2104-492d-bf12-2d9957503d36",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "How_to_Use_Community_Service_in_SP_NCP_NokiaCookies_Component",
+  "id" : "2124d3e1-0df6-4dd1-9979-cfc3bcfc51cc",
+  "type" : "experienceVariation"
+}

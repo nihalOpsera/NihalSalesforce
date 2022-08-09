@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "c1cc6ab5-a0ea-4c45-89a7-c531f16c6712",
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "configurationTags" : [ ],
+  "id" : "d9c35333-dcf5-4a72-940a-98f44de87a5c",
+  "label" : "SP-QRG-Using-Secondary-Accounts",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-sp-qrg-using-secondary-accounts",
+  "type" : "route",
+  "urlPrefix" : "using-secondary-accounts"
+}

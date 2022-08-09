@@ -1,0 +1,11 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "configurationTags" : [ ],
+  "id" : "436b1770-ebdc-4ca4-b786-b58d60bbf857",
+  "label" : "test- registration",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-test-registration",
+  "type" : "route",
+  "urlPrefix" : "test-registration"
+}

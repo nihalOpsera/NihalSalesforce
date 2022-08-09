@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "e0e3a6ac-d2c5-42f8-88bd-d7e7e88e4f8a",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "90493330-2b4f-4490-9e5b-274b123709a4",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "RegistrationProcessReferenceGuide_NCP_NokiaCookies_Component",
+  "id" : "f8e934eb-316f-4fc1-ab9b-8cd89bc86fa9",
+  "type" : "experienceVariation"
+}

@@ -1,0 +1,43 @@
+{
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "componentName" : "c:NCP_layout_2of3_1of3",
+  "id" : "1953d320-2c59-4b1c-a18d-a44ff7feab0a",
+  "label" : "application and service",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "articleName" : "Applications and services available via portal registration"
+      },
+      "componentName" : "c:NCP_NokiaCookies",
+      "id" : "279edf37-521a-42aa-9fab-aea44c845d42",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a90d1500-4b27-440b-bf2e-a1014c5effe3",
+    "regionName" : "contentOne",
+    "type" : "region"
+  }, {
+    "id" : "cd7af3ff-a993-4b20-913d-f4642962cd3e",
+    "regionName" : "contentTwo",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "application and service"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b2a853d7-1caa-4728-942b-ae77fea1fecc",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5500d2e7-412e-4b98-96bd-71020d53f958",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-application-and-service"
+}

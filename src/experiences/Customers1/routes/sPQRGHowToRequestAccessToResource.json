@@ -1,0 +1,11 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "configurationTags" : [ ],
+  "id" : "f91c2f3c-5af0-4bed-82fc-e6a46a5a78f2",
+  "label" : "SP-QRG-How-to-Request-Access-to-Resource",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-sp-qrg-how-to-request-access-to-resource",
+  "type" : "route",
+  "urlPrefix" : "how-to-request-access-to-resource"
+}

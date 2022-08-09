@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "bf891da3-abf3-4f45-9aaa-81d77030bdf9",
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "configurationTags" : [ ],
+  "id" : "47ecee11-654b-44af-a7d8-543124e980ce",
+  "label" : "Service Quote List",
+  "objectApiName" : "HWS_Service_Quote__c",
+  "routeType" : "list-a9J",
+  "type" : "route",
+  "urlPrefix" : "hws-service-quote"
+}
