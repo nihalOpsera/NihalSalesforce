@@ -5,7 +5,7 @@
     <extensionName>Quotes</extensionName>
     <headerText>Add a Quote</headerText>
     <hoverText>Attach a Quote</hoverText>
-    <icon xsi:nil="true"/>
+    <icon>tiger</icon>
     <isProtected>false</isProtected>
     <masterLabel>Quotes</masterLabel>
     <renderComponent>quotesRender</renderComponent>
