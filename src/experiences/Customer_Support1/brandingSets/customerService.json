@@ -1,7 +1,7 @@
 {
   "definitionName" : "service:branding-service",
   "id" : "f7fbec9f-9530-44c1-8868-42e34b2842fd",
-  "label" : "Customer Service",
+  "label" : "Customer Services",
   "type" : "brandingSet",
   "values" : {
     "ActionColor" : "#2574A9",
