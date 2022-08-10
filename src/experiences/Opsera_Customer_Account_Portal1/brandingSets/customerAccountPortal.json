@@ -1,7 +1,7 @@
 {
   "definitionName" : "cpt:branding-cpt",
   "id" : "2954ccaf-b999-4d46-9c99-2ceeae8c8012",
-  "label" : "Customer Account Portal",
+  "label" : "Customer Account Portals",
   "type" : "brandingSet",
   "values" : {
     "ActionColor" : "#0099DE",
