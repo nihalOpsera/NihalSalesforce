@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "c596601d-03dc-480c-8836-fc4c92d5793e",
+    "propertyOverrides" : {
+      "activeViewId" : "46e4d9d4-8069-4e3f-9f72-64db1c1ee48a"
+    },
+    "targetId" : "f91c2f3c-5af0-4bed-82fc-e6a46a5a78f2",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "SPQRGHowtoRequestAccesstoResource_SPQRGHowtoRequestAccesstoResource_Page",
+  "id" : "8ef2bcf4-12fd-473f-8d21-de3e7d60ff9c",
+  "type" : "experienceVariation"
+}

@@ -1,0 +1,43 @@
+{
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "componentName" : "c:NCP_layout_2of3_1of3",
+  "id" : "76bb9905-e6b3-4237-8c0e-fbb694707739",
+  "label" : "cookie-list",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "articleName" : "Support Portal Cookie List"
+      },
+      "componentName" : "c:NCP_NokiaCookies",
+      "id" : "b0a62710-00d8-4218-a2d3-74df320847b8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1d4274d8-a2ec-4d08-bff7-e15c845bd15d",
+    "regionName" : "contentOne",
+    "type" : "region"
+  }, {
+    "id" : "a22ff4bf-1a81-4111-92af-3d4267a86652",
+    "regionName" : "contentTwo",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "cookie-list"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3a6b3533-9768-4203-8a6a-41048f62b728",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "594559ff-c3b8-4272-a201-195d0b6173cf",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-cookie-list"
+}

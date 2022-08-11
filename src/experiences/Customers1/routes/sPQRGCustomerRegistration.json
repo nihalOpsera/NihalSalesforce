@@ -1,0 +1,11 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "configurationTags" : [ ],
+  "id" : "4d8d6b77-3e0c-4b49-91ee-f7d6c78c0c57",
+  "label" : "SP-QRG-Customer-Registration",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-sp-qrg-customer-registration",
+  "type" : "route",
+  "urlPrefix" : "customer-registration"
+}

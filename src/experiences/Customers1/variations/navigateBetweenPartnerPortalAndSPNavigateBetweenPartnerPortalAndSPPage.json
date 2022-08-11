@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "730ccbc2-60f6-44d1-a783-e8e9288fce4b",
+    "propertyOverrides" : {
+      "activeViewId" : "a76b66ce-76fb-4a82-8a89-af0635776f90"
+    },
+    "targetId" : "77e4f139-48ae-45f1-b1b9-d6e3d4b073f0",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Navigate_between_Partner_Portal_and_SP_Navigate_between_Partner_Portal_and_SP_Page",
+  "id" : "9c53d5c4-dfa8-4e10-aa3f-22aa25e4b3ec",
+  "type" : "experienceVariation"
+}

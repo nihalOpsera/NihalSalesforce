@@ -1,0 +1,11 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "configurationTags" : [ ],
+  "id" : "304e3a4f-5f54-4dbb-88ad-c2a18de29528",
+  "label" : "Support Policies",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-support-policies",
+  "type" : "route",
+  "urlPrefix" : "support-policies"
+}

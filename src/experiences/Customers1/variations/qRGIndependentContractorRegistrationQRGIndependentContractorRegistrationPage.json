@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "dc87299b-4008-4a26-aa94-1ac998330e11",
+    "propertyOverrides" : {
+      "activeViewId" : "9a4bef3f-1464-465b-8a1b-3ff6da35ce0a"
+    },
+    "targetId" : "4145eac9-4541-461c-9382-9da144c24136",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "QRGIndependentContractorRegistration_QRGIndependentContractorRegistration_Page",
+  "id" : "972f2a09-71ca-4e3c-a59a-50cbb194f655",
+  "type" : "experienceVariation"
+}

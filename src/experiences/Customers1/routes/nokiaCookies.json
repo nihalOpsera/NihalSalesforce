@@ -1,0 +1,11 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "configurationTags" : [ ],
+  "id" : "fb817426-ac53-406c-aeb8-76d6df52350b",
+  "label" : "nokia-cookies",
+  "pageAccess" : "Public",
+  "routeType" : "custom-nokia-cookies",
+  "type" : "route",
+  "urlPrefix" : "nokia-cookies"
+}

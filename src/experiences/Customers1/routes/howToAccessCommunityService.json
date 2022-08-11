@@ -1,0 +1,11 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "configurationTags" : [ ],
+  "id" : "78eb426e-a7c4-4aa7-9277-563fc2a74282",
+  "label" : "How to Access Community Service",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-how-to-access-community-service",
+  "type" : "route",
+  "urlPrefix" : "how-to-access-community-service"
+}

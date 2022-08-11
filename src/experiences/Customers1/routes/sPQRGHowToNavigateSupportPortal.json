@@ -1,0 +1,11 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "configurationTags" : [ ],
+  "id" : "40ad64e8-5428-4f45-a9f9-e0c94852fb28",
+  "label" : "SP-QRG-How-to-Navigate-Support-Portal",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-sp-qrg-how-to-navigate-support-portal",
+  "type" : "route",
+  "urlPrefix" : "how-to-navigate-within-support-portal"
+}

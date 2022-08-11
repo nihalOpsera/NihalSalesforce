@@ -1,0 +1,11 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "configurationTags" : [ ],
+  "id" : "e440a907-df73-45f5-9b2b-5579b1e4b696",
+  "label" : "SP-General-FAQ",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-sp-general-faq",
+  "type" : "route",
+  "urlPrefix" : "sp-general-faq"
+}

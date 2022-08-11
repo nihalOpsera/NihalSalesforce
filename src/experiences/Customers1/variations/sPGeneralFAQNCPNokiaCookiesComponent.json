@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "2df2492f-bf71-46f0-bc61-8ad097acb0dc",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "3a9567cc-1c59-466f-b5cc-7e028b719153",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "SPGeneralFAQ_NCP_NokiaCookies_Component",
+  "id" : "22a66a4c-003f-44ea-bd7b-814c8e3c39ee",
+  "type" : "experienceVariation"
+}

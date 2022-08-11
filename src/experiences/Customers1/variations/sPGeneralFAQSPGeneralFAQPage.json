@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "922d8f80-f7f0-46fc-bfbf-b4477f949267",
+    "propertyOverrides" : {
+      "activeViewId" : "7cf360c3-365b-4780-b9d4-5f2de777322d"
+    },
+    "targetId" : "e440a907-df73-45f5-9b2b-5579b1e4b696",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "SPGeneralFAQ_SPGeneralFAQ_Page",
+  "id" : "eed25cde-f9b8-4cbf-b731-849d3768a452",
+  "type" : "experienceVariation"
+}

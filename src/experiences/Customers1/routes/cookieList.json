@@ -1,0 +1,11 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "configurationTags" : [ ],
+  "id" : "9cf7473d-1723-4139-bcc7-1b1affec8077",
+  "label" : "cookie-list",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-cookie-list",
+  "type" : "route",
+  "urlPrefix" : "cookie-list"
+}

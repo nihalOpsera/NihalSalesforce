@@ -1,0 +1,11 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "configurationTags" : [ ],
+  "id" : "2bf185ac-f99c-415d-b6ca-c46d3f5b2bab",
+  "label" : "How to Use Community Service in SP",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-how-to-use-community-service-in-sp",
+  "type" : "route",
+  "urlPrefix" : "how-to-use-community-service"
+}

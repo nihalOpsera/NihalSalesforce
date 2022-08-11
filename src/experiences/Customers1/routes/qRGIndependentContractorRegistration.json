@@ -1,0 +1,11 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "configurationTags" : [ ],
+  "id" : "4145eac9-4541-461c-9382-9da144c24136",
+  "label" : "QRG-Independent-Contractor-Registration",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-qrg-independent-contractor-registration",
+  "type" : "route",
+  "urlPrefix" : "independent-contractor-registration"
+}

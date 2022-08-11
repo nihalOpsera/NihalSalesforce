@@ -1,0 +1,11 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "configurationTags" : [ ],
+  "id" : "f5c67d07-58b0-47b5-b040-54858f23a8a2",
+  "label" : "Registration-Process-Reference-Guide",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-registration-process-reference-guide",
+  "type" : "route",
+  "urlPrefix" : "registration-process-reference-guide"
+}

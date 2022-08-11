@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "67c68483-831c-40ca-8ac2-c93b3cbd6c42",
+    "propertyOverrides" : {
+      "activeViewId" : "0d207845-a000-420f-a46d-3ef05e40cd20"
+    },
+    "targetId" : "f5c67d07-58b0-47b5-b040-54858f23a8a2",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "RegistrationProcessReferenceGuide_RegistrationProcessReferenceGuide_Page",
+  "id" : "a7bc892e-0aa7-4b2e-bce9-4ed6690249a2",
+  "type" : "experienceVariation"
+}

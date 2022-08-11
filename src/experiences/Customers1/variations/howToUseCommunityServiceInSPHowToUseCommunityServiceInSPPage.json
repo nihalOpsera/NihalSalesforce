@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "769e8cd3-e54a-4f50-bf4d-a47f7c2d37e9",
+    "propertyOverrides" : {
+      "activeViewId" : "8eb3f118-183d-4c93-9405-6c09375ff18f"
+    },
+    "targetId" : "2bf185ac-f99c-415d-b6ca-c46d3f5b2bab",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "How_to_Use_Community_Service_in_SP_How_to_Use_Community_Service_in_SP_Page",
+  "id" : "56c5a405-b7b6-4e33-8b35-0dcbcfc0b713",
+  "type" : "experienceVariation"
+}

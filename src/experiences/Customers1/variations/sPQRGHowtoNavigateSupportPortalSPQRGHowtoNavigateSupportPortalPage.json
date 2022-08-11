@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "af4560d7-5022-4026-8202-9d33bfb996cf",
+    "propertyOverrides" : {
+      "activeViewId" : "ed2d253b-4ebc-4297-8777-47cc92940a31"
+    },
+    "targetId" : "40ad64e8-5428-4f45-a9f9-e0c94852fb28",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "SPQRGHowtoNavigateSupportPortal_SPQRGHowtoNavigateSupportPortal_Page",
+  "id" : "85937630-5236-42b7-9dd1-7ac3448f9d09",
+  "type" : "experienceVariation"
+}

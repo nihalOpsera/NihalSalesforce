@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "e5b1d9d8-58d5-40d1-aeb0-f00031eb909c",
+    "propertyOverrides" : {
+      "activeViewId" : "2ce5e180-38ce-4dfd-a7cb-25b27eaff79c"
+    },
+    "targetId" : "78eb426e-a7c4-4aa7-9277-563fc2a74282",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "How_to_Access_Community_Service_How_to_Access_Community_Service_Page",
+  "id" : "481943eb-ce92-41b1-9fac-9ff3e8e8a7bc",
+  "type" : "experienceVariation"
+}

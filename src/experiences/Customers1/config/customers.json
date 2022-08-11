@@ -1,0 +1,42 @@
+{
+  "forgotPasswordRouteId" : "a7c63dfe-4f5f-49b7-a972-7d3e37104e3d",
+  "isAvailableToGuests" : true,
+  "isFilteredComponentsView" : false,
+  "isProgressiveRenderingEnabled" : false,
+  "loginAppPageId" : "1f5ba8b8-f765-41d4-9098-c8bf6060b6bf",
+  "mainAppPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "preferredDomain" : "customer.nokia.com",
+  "selfRegistrationRouteId" : "d9baf808-6c7c-4e49-b35e-90a6d0876669",
+  "trustedSitesForScript" : [ {
+    "id" : "9a65cda9-e135-40f9-8965-5b1e4f4c4cbf",
+    "isActive" : true,
+    "trustedSiteName" : "Google Analytics",
+    "trustedSiteUrl" : "https://www.google-analytics.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "a4e33f00-073e-4d83-a27b-c5baff4faaf5",
+    "isActive" : true,
+    "trustedSiteName" : "Google Tag Manager",
+    "trustedSiteUrl" : "https://www.googletagmanager.com/gtag/js",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "0dcbc307-5830-4cfa-bf66-e5dcb8002995",
+    "isActive" : true,
+    "trustedSiteName" : "Google Analytics Script",
+    "trustedSiteUrl" : "https://ssl.google-analytics.com/ga.js",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "45507317-7411-4856-a8a3-6d9aefccb2f8",
+    "isActive" : true,
+    "trustedSiteName" : "stats.g.doubleclick.net",
+    "trustedSiteUrl" : "https://stats.g.doubleclick.net",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "45f377ec-7953-41bd-9e5e-d8a326eabee3",
+    "isActive" : true,
+    "trustedSiteName" : "Google Tag",
+    "trustedSiteUrl" : "https://www.googletagmanager.com",
+    "type" : "trustedSitesForScripts"
+  } ],
+  "type" : "site"
+}
