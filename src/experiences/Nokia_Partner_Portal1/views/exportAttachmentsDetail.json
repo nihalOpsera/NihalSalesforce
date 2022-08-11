@@ -1,0 +1,49 @@
+{
+  "appPageId" : "3fe8c56d-7b29-44cc-9038-f4e27bc50371",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "412f6447-2173-4985-8fb3-29279ad1feda",
+  "label" : "Export Attachments Detail",
+  "regions" : [ {
+    "id" : "c8c8c5c6-a295-4c34-b02f-901e91b748e4",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "height" : "400",
+        "pageName" : "nokiaCPQ_AccreditationExportFromEA",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:visualforcePage",
+      "id" : "bf165337-7523-4efd-a2a7-57d7a7c49c74",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c3f279c0-1986-49b9-a70e-a74fb965c8b0",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "3b562471-bc9a-4d47-9271-9633ee8c4cc7",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "6234c289-d3ec-457b-a9c5-c9f19d9870af",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b5b567e4-22f8-4dcc-bfbc-9238560dacbb",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-a2q"
+}
