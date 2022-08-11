@@ -1,0 +1,43 @@
+{
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "componentName" : "c:NCP_layout_2of3_1of3",
+  "id" : "8eb3f118-183d-4c93-9405-6c09375ff18f",
+  "label" : "How to Use Community Service in SP",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "articleName" : "How to Use Community Service"
+      },
+      "componentName" : "c:NCP_NokiaCookies",
+      "id" : "76feb80a-2104-492d-bf12-2d9957503d36",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ac46a3d8-1ebc-48e7-85e5-656c690ddaef",
+    "regionName" : "contentOne",
+    "type" : "region"
+  }, {
+    "id" : "670f8d54-4ab8-429b-a868-205fcf1ad13e",
+    "regionName" : "contentTwo",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "How to Use Community Service in SP"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "7a30f8fc-055b-47cb-89ee-1b8242187c09",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "051891ce-7a44-4309-92f3-2caecac2cf71",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-how-to-use-community-service-in-sp"
+}

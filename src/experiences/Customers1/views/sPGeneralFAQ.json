@@ -1,0 +1,43 @@
+{
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "componentName" : "c:NCP_layout_2of3_1of3",
+  "id" : "7cf360c3-365b-4780-b9d4-5f2de777322d",
+  "label" : "SP-General-FAQ",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "articleName" : "SP - General FAQ"
+      },
+      "componentName" : "c:NCP_NokiaCookies",
+      "id" : "3a9567cc-1c59-466f-b5cc-7e028b719153",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d59567e3-b0c7-4eea-9f7c-ba875f1cb644",
+    "regionName" : "contentOne",
+    "type" : "region"
+  }, {
+    "id" : "5e782fb6-8b37-4647-a194-b97b6ad58dfe",
+    "regionName" : "contentTwo",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "SP-General-FAQ"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8c135840-e811-494f-b1aa-8d3d1c571b24",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "425978b5-3ac0-4640-88ed-d69f04c14701",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-sp-general-faq"
+}

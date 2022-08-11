@@ -1,0 +1,43 @@
+{
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "componentName" : "c:NCP_layout_2of3_1of3",
+  "id" : "a8dcd3ed-fddc-48a1-81fe-4e89d85a861b",
+  "label" : "test- registration",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "articleName" : "Registration Process Reference Guide"
+      },
+      "componentName" : "c:NCP_NokiaCookies",
+      "id" : "b0d49659-1e44-4cb9-ba06-afcebb63b53a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4ebeabfd-2f95-446f-95c9-7eadfcc510a1",
+    "regionName" : "contentOne",
+    "type" : "region"
+  }, {
+    "id" : "b8207739-7d9a-4463-872a-651570c10606",
+    "regionName" : "contentTwo",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "test- registration"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "fc79eeba-9b26-40d7-9a50-ea7c8c6dc099",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "aac31f87-80f4-48fb-be61-7003fbda3268",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-test-registration"
+}

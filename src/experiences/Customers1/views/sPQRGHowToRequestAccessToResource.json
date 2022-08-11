@@ -1,0 +1,43 @@
+{
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "componentName" : "c:NCP_layout_2of3_1of3",
+  "id" : "46e4d9d4-8069-4e3f-9f72-64db1c1ee48a",
+  "label" : "SP-QRG-How-to-Request-Access-to-Resource",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "articleName" : "How to Request Access to Resources"
+      },
+      "componentName" : "c:NCP_NokiaCookies",
+      "id" : "8d13d0ce-935c-4cdb-b35c-9618e79a0806",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d2047aea-cdf6-40ce-9792-e8e5340c3cf1",
+    "regionName" : "contentOne",
+    "type" : "region"
+  }, {
+    "id" : "52197321-0a28-4f70-a4d4-7c9db79fd952",
+    "regionName" : "contentTwo",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "SP-QRG-How-to-Request-Access-to-Resource"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "9f5b6df1-f89f-4ecd-a218-17fa5ad2902b",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e6ab67d7-c474-4118-adfd-fd0f13780691",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-sp-qrg-how-to-request-access-to-resource"
+}

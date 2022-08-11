@@ -1,0 +1,93 @@
+{
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "id" : "ef892dac-4a8c-4342-9c6a-0c46fa85a49b",
+  "label" : "User Profile",
+  "regions" : [ {
+    "id" : "c2d99cb0-5f5c-480b-8ae5-2407e928ba4e",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "knowledgeableAboutTitle" : "Knows About",
+        "maxTopics" : 5,
+        "showFullPhotoAsCircle" : true,
+        "showKnowledgeableAbout" : false,
+        "showPhoto" : true,
+        "showReputationInInfluenceCard" : false,
+        "showStats" : false,
+        "userId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:userProfileBody",
+      "id" : "a8eb83de-ab55-4eeb-ad81-977eb9515271",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a0c58e75-72b3-4e1d-a148-ca9910bb718a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "confirmButtonLabel" : "Acknowledge",
+        "cookieFooterBackgroundColor" : "rgb(0,0,0)",
+        "cookieFooterButtonAlignment" : "left",
+        "cookieFooterLinkColor" : "rgb(250, 250, 250)",
+        "cookieFooterPadding" : "small",
+        "cookieFooterRelative" : false,
+        "cookieFooterTextColor" : "rgb(250, 250, 250)",
+        "displayType" : "modal",
+        "headingLabel" : "Manage Nokia Cookie",
+        "informationButtonLabel" : "Privacy Policy",
+        "informationButtonLink" : "www.nokia.com",
+        "instructions" : "This policy details how Nokia uses cookies and cookie-like files and technologies on its websites, e.g. Local Shared Objects, also known as “Flash cookies”, web beacons etc. We refer to these generically as “cookies”. If you visit our websites and your browser settings accept cookies, we consider this as acceptance of our use of cookies.",
+        "previewInBuilder" : true,
+        "rejectButtonLabel" : "Decline",
+        "useRelaxedCSP" : false,
+        "viewCookiesLabel" : "View Cookie",
+        "viewCookiesLink" : "https://customer.nokia.com/s/nokia-cookies"
+      },
+      "componentName" : "cookiecon:cookieConsent",
+      "id" : "c0b8998d-b6e9-459d-a2a6-6d5ee925cfab",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "61241458-6563-4468-9a64-e5b6c17a5fe3",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "knowledgeableAboutTitle" : "Knows About",
+        "maxTopics" : 5,
+        "showFullPhotoAsCircle" : true,
+        "showKnowledgeableAbout" : false,
+        "showReputationInInfluenceCard" : false,
+        "showStats" : false,
+        "userId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:userProfileBody",
+      "id" : "9559c73c-0200-415f-bea4-996810f75067",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c2ea284d-b531-43f2-9a65-37e42af16d2c",
+    "regionName" : "contentOne",
+    "type" : "region"
+  }, {
+    "id" : "fb6b52fe-8a25-4ea9-ae9c-a811907776a7",
+    "regionName" : "contentTwo",
+    "type" : "region"
+  }, {
+    "id" : "eb16e7cf-d830-40f9-a0c6-a2bf0a331b96",
+    "regionName" : "sidebar",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-005"
+}

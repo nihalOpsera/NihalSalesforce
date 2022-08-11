@@ -1,0 +1,43 @@
+{
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "componentName" : "c:NCP_layout_2of3_1of3",
+  "id" : "9a4bef3f-1464-465b-8a1b-3ff6da35ce0a",
+  "label" : "QRG-Independent-Contractor-Registration",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "articleName" : "Independent Contractor Registration"
+      },
+      "componentName" : "c:NCP_NokiaCookies",
+      "id" : "03ee4c6e-6546-45e8-8975-f871543e6eae",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "09e02ec8-5e9a-4f20-9c8d-f49c29ceb271",
+    "regionName" : "contentOne",
+    "type" : "region"
+  }, {
+    "id" : "cda8f17b-001a-438b-85dc-f743960cd832",
+    "regionName" : "contentTwo",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "QRG-Independent-Contractor-Registration"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "fc176e87-364e-425f-af90-2dcdf33495ae",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e5d16748-ca8e-4dfa-bb40-3299155431db",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-qrg-independent-contractor-registration"
+}

@@ -1,0 +1,43 @@
+{
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "componentName" : "c:NCP_layout_2of3_1of3",
+  "id" : "f4f953c6-88f0-4108-b3f0-e77b54547b52",
+  "label" : "Support Policies",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "articleName" : "Support Policies"
+      },
+      "componentName" : "c:NCP_NokiaCookies",
+      "id" : "4cd41440-b0af-432b-9f02-10db6b7e3dd5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a21e669e-c142-4a87-8809-b30bb2f82913",
+    "regionName" : "contentOne",
+    "type" : "region"
+  }, {
+    "id" : "95b86525-e57b-46ca-b8b3-b6585372568e",
+    "regionName" : "contentTwo",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Support Policies"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "ae0d29ad-8c86-4f48-b0c0-cffa0bad4d78",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "026f13a0-9d1e-43c6-b007-91d4c4d17e54",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-support-policies"
+}

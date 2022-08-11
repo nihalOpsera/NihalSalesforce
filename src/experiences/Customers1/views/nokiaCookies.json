@@ -1,0 +1,43 @@
+{
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "componentName" : "c:NCP_layout_2of3_1of3",
+  "id" : "a58e156f-f71f-4756-903d-d6615a9db3d6",
+  "label" : "nokia-cookies",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "articleName" : "Support Portal Cookie"
+      },
+      "componentName" : "c:NCP_NokiaCookies",
+      "id" : "cfdd7416-e676-41b1-8566-45e510eb66f4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6e1c97be-63db-4587-a1e1-beb431372ac0",
+    "regionName" : "contentOne",
+    "type" : "region"
+  }, {
+    "id" : "2339ab49-de96-430b-a2cb-8b797bc35073",
+    "regionName" : "contentTwo",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "nokia-cookies"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "cae3cbe2-edce-455f-9feb-3a5e9248279f",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "26b5ceff-1d17-4139-b26b-4e5a54fd7914",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-nokia-cookies"
+}

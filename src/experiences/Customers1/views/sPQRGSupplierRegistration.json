@@ -1,0 +1,43 @@
+{
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "componentName" : "c:NCP_layout_2of3_1of3",
+  "id" : "f36b91a1-3c9c-45f2-88e5-7d83bd3c1a16",
+  "label" : "SP-QRG-Supplier-Registration",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "articleName" : "Supplier Registration"
+      },
+      "componentName" : "c:NCP_NokiaCookies",
+      "id" : "05be5841-aa5b-42bc-be3a-6e2a090b4bc1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "117a9fa1-ef92-4e37-bc2a-ae90c84084a9",
+    "regionName" : "contentOne",
+    "type" : "region"
+  }, {
+    "id" : "42b86364-236b-439d-9cfe-0d7334e3e905",
+    "regionName" : "contentTwo",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "SP-QRG-Supplier-Registration"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "67d3676b-d048-4a53-a61e-e48a55fc4b52",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f4fc02d3-f600-40fa-9fa6-89edd3cd745b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-sp-qrg-supplier-registration"
+}

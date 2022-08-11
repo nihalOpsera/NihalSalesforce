@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "b41997d2-f660-464c-9a13-f627ef12172f",
+  "appPageId" : "3fe8c56d-7b29-44cc-9038-f4e27bc50371",
+  "configurationTags" : [ ],
+  "id" : "a2f5189f-82fe-46c5-ac54-f68d456c85e7",
+  "label" : "Partner Support Tab",
+  "pageAccess" : "RequiresLogin",
+  "routeType" : "custom-partner-support-tab",
+  "type" : "route",
+  "urlPrefix" : "partner-support-tab"
+}

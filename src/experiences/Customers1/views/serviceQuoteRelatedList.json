@@ -1,0 +1,38 @@
+{
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "5c56fd4b-fcbd-4123-90d7-69815472b653",
+  "label" : "Service Quote Related List",
+  "regions" : [ {
+    "id" : "d500f99f-71af-4dc7-922d-7f0fe435d5e0",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "070212bc-4b49-47f3-825c-21cb70bda874",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0b1889d6-0fbc-427d-a135-5556dfc9bed0",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "277d25d5-df6c-45be-b830-451bdc8cc21d",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-a9J"
+}

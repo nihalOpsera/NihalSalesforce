@@ -1,0 +1,43 @@
+{
+  "appPageId" : "bf67aa00-1cf1-4a5c-8097-1d468d4e1829",
+  "componentName" : "c:NCP_layout_2of3_1of3",
+  "id" : "0d207845-a000-420f-a46d-3ef05e40cd20",
+  "label" : "Registration-Process-Reference-Guide",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "articleName" : "Registration Process Reference Guide"
+      },
+      "componentName" : "c:NCP_NokiaCookies",
+      "id" : "90493330-2b4f-4490-9e5b-274b123709a4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "81fa91e5-5972-463a-960c-757dae76b804",
+    "regionName" : "contentOne",
+    "type" : "region"
+  }, {
+    "id" : "14f05566-2f02-4a50-94e1-cd0aaf7a462b",
+    "regionName" : "contentTwo",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Registration-Process-Reference-Guide"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "427897c0-f4eb-44d1-8772-b0dbc36cf2d2",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8f5922bc-3b01-4de0-be62-dea805bb4917",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-registration-process-reference-guide"
+}
