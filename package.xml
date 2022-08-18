@@ -28,5 +28,29 @@
     <name>BrandingSet</name>
     <members>LEXTHEMINGOpsera</members>
   </types>
+  <types>
+    <name>KeywordList</name>
+    <members>Customer Support.Banned</members>
+    <members>Opsera Customer Account Portal.Banned</members>
+    <members>experience.Banned</members>
+  </types>
+  <types>
+    <name>ModerationRule</name>
+    <members>experience.Block_banned_keywords</members>
+    <members>Opsera Customer Account Portal.Block_banned_keywords</members>
+    <members>Customer Support.Replace_banned</members>
+    <members>Customer Support.Review_the_first_post</members>
+    <members>experience.Replace_banned</members>
+    <members>experience.Flag_banned</members>
+    <members>Customer Support.Freeze_for_frequent_posting</members>
+    <members>experience.Review_the_first_post</members>
+    <members>Opsera Customer Account Portal.Review_the_first_post</members>
+    <members>Customer Support.Flag_banned</members>
+    <members>Customer Support.Block_banned_keywords</members>
+    <members>experience.Freeze_for_frequent_posting</members>
+    <members>Opsera Customer Account Portal.Replace_banned</members>
+    <members>Opsera Customer Account Portal.Flag_banned</members>
+    <members>Opsera Customer Account Portal.Freeze_for_frequent_posting</members>
+  </types>
   <version>55.0</version>
 </Package>
