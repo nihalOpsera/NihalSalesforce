@@ -4,7 +4,7 @@
     <dimensions>
         <field>Id</field>
         <isDerived>false</isDerived>
-        <label>SF Opportunity ID1</label>
+        <label>SF Opportunity ID</label>
         <sortIndex>0</sortIndex>
     </dimensions>
 </WaveXmd>
