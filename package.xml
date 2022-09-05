@@ -101,6 +101,7 @@
   </types>
   <types>
     <name>WaveDataflow</name>
+    <members>WaveRecipe02Sept</members>
     <members>SalesEdgeEltWorkflow</members>
     <members>DataSet_408</members>
     <members>Test2</members>
@@ -112,6 +113,8 @@
   </types>
   <types>
     <name>WaveDataset</name>
+    <members>la_zip_codes</members>
+    <members>waveRecipedataset</members>
     <members>Opportunity_Output</members>
     <members>TestDataSet</members>
     <members>Oppty</members>
@@ -123,6 +126,7 @@
   </types>
   <types>
     <name>WaveRecipe</name>
+    <members>WaveRecipe02Sept</members>
     <members>Account_Recipe</members>
     <members>Copy_of_Account_Recipe</members>
     <members>My_First_Wave_Recipe</members>
