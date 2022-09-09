@@ -254,38 +254,38 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
-    <enableHistory>false</enableHistory>
-    <profileSearchLayouts>
-        <fields>FULL_NAME</fields>
-        <fields>LEAD.TITLE</fields>
-        <fields>LEAD.COMPANY</fields>
-        <fields>LEAD.PHONE</fields>
-        <fields>LEAD.MOBILE_PHONE</fields>
-        <fields>LEAD.EMAIL</fields>
-        <fields>LEAD.STATUS</fields>
-        <fields>LEAD.RECORDTYPE</fields>
-        <fields>CORE.USERS.ALIAS</fields>
-        <profileName>Custom Sys Admin</profileName>
-    </profileSearchLayouts>
+    <enableHistory>true</enableHistory>
+    <externalSharingModel>Private</externalSharingModel>
     <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <searchLayouts>
         <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>LEAD.COMPANY</customTabListAdditionalFields>
         <customTabListAdditionalFields>LEAD.PHONE</customTabListAdditionalFields>
+        <excludedStandardButtons>CreateCallList</excludedStandardButtons>
         <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>LEAD.COMPANY</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LEAD.STATUS</lookupDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>LEAD.COMPANY</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>LEAD.PHONE</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>LEAD.MOBILE_PHONE</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>LEAD.COMPANY</searchFilterFields>
+        <searchFilterFields>LEAD.STATUS</searchFilterFields>
+        <searchFilterFields>LEAD.COUNTRY</searchFilterFields>
+        <searchFilterFields>Budget__c</searchFilterFields>
+        <searchFilterFields>Purchasing_Role__c</searchFilterFields>
+        <searchFilterFields>Purchasing_Time_Frame__c</searchFilterFields>
         <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LEAD.TITLE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LEAD.COMPANY</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LEAD.PHONE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LEAD.MOBILE_PHONE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LEAD.EMAIL</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LEAD.STATUS</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Budget__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Purchasing_Time_Frame__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Purchasing_Role__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Campaign_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.COUNTRY</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>
