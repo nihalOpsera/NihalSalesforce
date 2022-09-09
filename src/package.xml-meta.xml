@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <name>ApexClass</name>
+    <members>CH_EntitlementContactTriggerHandler</members>
+    <members>CH_EmailAttachmentHandler</members>
+    <members>ALCRInboundInterface</members>
+    <members>ALCRInboundInterfaceTest</members>
+    <members>CH_EmailAttachmentHelper</members>
+    <members>DemoApex4</members>
+    <members>CH_EmailAttachmentHelper_Test</members>
+    <members>CH_EmailAttachmentHandler_Test</members>
+    <members>ALCRInboundInterface</members>
+  </types>
+<version>56.0</version></Package>
