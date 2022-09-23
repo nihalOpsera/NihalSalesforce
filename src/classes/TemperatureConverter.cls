@@ -11,12 +11,4 @@ public class TemperatureConverter {
         Decimal fh1 = (cs1* 9/5)+ 32;
         return fh1.setScale(2);
     }
-    
-    public static Decimal CelsiusToKelvin(Decimal cel){
-        
-        Decimal kel = cel+273.15;
-        return kel.setScale(2);
-        //Adding new line to check timestamp based filter
-        
-    }
 }
