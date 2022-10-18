@@ -8,6 +8,6 @@ private Integer num;
     }
     
     public static testMethod void testNewMethod() {
-        System.debug('Change Hello DemoApex10');
+        System.debug('Change Hello DemoApex10 Liverpool FC YNWA');
     }
 }
