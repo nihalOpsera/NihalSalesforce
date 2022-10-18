@@ -1,16 +1,1282 @@
-<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-<types>
-<name>ApexClass</name>
-<members>APTSCU_PreviewApprovalsControllerTest</members>
-<members>APTS_CustomActionCallback_Test</members>
-<members>ALCRInboundInterfaceTest</members>
-<members>APTSCU_ApprovalActionsController</members>
-<members>DeleteDemoApex10</members>
-<members>APTSCU_ApprovalActionsControllerTest</members>
-<members>APTS_CustomActionCallback</members>
-<members>APTSCU_PreviewApprovalsController</members>
-<members>ALCRInboundInterface</members>
-</types>
-<version>56.0</version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <name>ApexClass</name>
+    <members>APTSCU_PreviewApprovalsControllerTest</members>
+    <members>APTS_CustomActionCallback_Test</members>
+    <members>ALCRInboundInterfaceTest</members>
+    <members>APTSCU_ApprovalActionsController</members>
+    <members>DeleteDemoApex10</members>
+    <members>APTSCU_ApprovalActionsControllerTest</members>
+    <members>APTS_CustomActionCallback</members>
+    <members>APTSCU_PreviewApprovalsController</members>
+    <members>ALCRInboundInterface</members>
+  </types>
+  <types>
+    <name>AssignmentRule</name>
+    <members>Lead.Telemarketing Lead Assignment</members>
+    <members>Case.Indirect Reseller Application Assignment</members>
+  </types>
+  <types>
+    <name>AutoResponseRule</name>
+    <members>Case.CH_Portal_customer case creation</members>
+  </types>
+  <types>
+    <name>EscalationRule</name>
+    <members>Case.Case Escalation</members>
+    <members>Case.Case Escalation - Support Portal</members>
+  </types>
+  <types>
+    <name>MatchingRule</name>
+    <members>Business_Plan__c.Business_Plan_Cannot_have_Same_Year_matching_rule</members>
+    <members>Account.Duplicate_Account_Check_matching_rule</members>
+    <members>Lead.CustomLeadEmailMatchRule</members>
+    <members>Lead.Duplicate_Lead_Check_Matching_Rule_With_Blanks</members>
+    <members>CH_Workgroup_Rule__c.CH_KB_Workgroup_Rules_matching_rule</members>
+    <members>Event_Registration__c.Participant_matching_rule</members>
+    <members>CH_Workgroup__c.CH_KB_Workgroups_matching_rule</members>
+    <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
+    <members>Accreditation__c.Duplicate_Accreditation_of_the_same_technology_and_type</members>
+    <members>Account.Standard_Account_Match_Rule_v1_0</members>
+    <members>Contact.Unique_Contact_Email</members>
+    <members>Additional_Resource_Request__c.One_Tool_Per_Contact_matching_rule1</members>
+    <members>CH_Workgroup_Member__c.CH_KB_Workgroup_Members_matching_rule</members>
+    <members>Contact.CustomContactMatchRule</members>
+    <members>CH_Workgroup_Business_Hours_Association__c.CH_Workgroup_Business_Hours</members>
+    <members>Offer__c.Duplicate_Offer_Matching_Rule</members>
+    <members>ERM_Stakeholder__c.CustomStakeholderDuplicateRule_matching_rule</members>
+    <members>Lead.Standard_Lead_Match_Rule_v1_0</members>
+  </types>
+  <types>
+    <name>SharingCriteriaRule</name>
+    <members>Case.EDUT_NLDH_Support</members>
+    <members>Case.SEC_GFI</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Rule_for_Customer_Security_Request_Team</members>
+    <members>Opportunity.Opportunity_Cross_Share_With_Verizon_Group</members>
+    <members>Account.CARE_DVT_Admin</members>
+    <members>Case.EDUT_Course_Contact_MANO_ONAP</members>
+    <members>Location.CH_SEC_GWC_NSB</members>
+    <members>Location.CH_SEC_ATT</members>
+    <members>Case.Share_IR_Nira_with_BG_Approvers</members>
+    <members>Case.EDUT_Course_Contact_Network_Mgt_NetAct</members>
+    <members>Account.CH_SEC_SCEC_Parent_Account</members>
+    <members>Case.EDUT_Course_Contact_Subs_Data_Registers</members>
+    <members>Account.CH_SEC_T_Mobile</members>
+    <members>Case.SEC_Russia</members>
+    <members>Case.CH_Security_Group_SEC_SCEC</members>
+    <members>Session__c.Share_Session_with_ERM_Team</members>
+    <members>Opportunity.Share_with_RG_CHINA</members>
+    <members>Opportunity.Opportunity_Cross_Share_With_Westcon_Solutions</members>
+    <members>Case.SEC_Creative</members>
+    <members>Case.SEC_ASNV</members>
+    <members>Apttus__APTS_Agreement__c.Share_Legacy_records_with_Greater_China_Market</members>
+    <members>Opportunity.Opportunity_Cross_Share_With_Datwyler_IT_Infra_Group</members>
+    <members>Case.CH_Security_Group_SEC_Embargo</members>
+    <members>ServiceContract.CH_SECDefaultVendorContractSharing</members>
+    <members>Case.CH_Security_Group_SEC_USG_ClassA</members>
+    <members>Case.SEC_Adecco</members>
+    <members>Lead.Leads_Global</members>
+    <members>Case.CH_Security_Group_SEC_ALTICE</members>
+    <members>Case.CH_Security_Group_SEC_ClassA</members>
+    <members>Opportunity.Share_with_RG_NAM</members>
+    <members>Account.CH_SEC_USG</members>
+    <members>Account.CH_SEC_T_Mobile_Parent_Account</members>
+    <members>Case.DCP_Support_Desk_Rule</members>
+    <members>Opportunity.Opportunity_Cross_Share_With_Infradata</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Sharing_rule_for_CLM_GSS_APJ</members>
+    <members>Apttus_Config2__PriceList__c.Share_PriceList_With_Partner</members>
+    <members>Case.PS_PartnerSupportTeamSharing</members>
+    <members>Contact.Contact_Cross_Share_With_Nuvias_Zycko</members>
+    <members>Case.Share_NIRA_with_Compliance_team_Approvers</members>
+    <members>Product_Extension__c.FN_BG_Sharing_Rule</members>
+    <members>Lead.lead_cross_share_with_verizon_Group</members>
+    <members>Case.EDUT_Course_Contact_4G_5G_Radio</members>
+    <members>Case.SEC_ATT_Tekmark</members>
+    <members>Account.CH_SEC_Sprint</members>
+    <members>Account.CH_SEC_VWireline</members>
+    <members>Opportunity.Share_with_RG_ASIA</members>
+    <members>Case.SEC_Thales</members>
+    <members>Case.Share_CSR_with_team</members>
+    <members>Case.SEC_Alpiq</members>
+    <members>Lead.Lead_Cross_Share_With_Alcatel_Lucent_Group</members>
+    <members>Apttus_Proposal__Proposal__c.QTC_Approver_Sharing</members>
+    <members>Case.EDUT_Reset_Attempts_Queue</members>
+    <members>Case.EDUT_Course_Contact_IoT_IMPACT_CDP</members>
+    <members>Account.CH_SEC_USG_Parent_Account</members>
+    <members>Asset.CH_SEC_VWireless</members>
+    <members>Account.Account_Cross_Share_with_Netnordic</members>
+    <members>Case.CH_CasebasedsharingSECChina</members>
+    <members>Case.SEC_Thales_USG_USOnly</members>
+    <members>Asset.CH_SEC_T_Mobile</members>
+    <members>Case.EDUT_Course_Contact_SRAN_Products</members>
+    <members>Case.SEC_VWireless_LightRiver</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Rule_for_Project_Contract_Managers_Team</members>
+    <members>Asset.CH_SEC_GWC_NSB</members>
+    <members>Account.Account_Cross_Share_With_Xantaro</members>
+    <members>Case.EDUT_CPLS_Channel_Partner</members>
+    <members>Opportunity.Opportunity_Cross_Share_With_Alcatel_Lucent_Group</members>
+    <members>Apttus_Config2__PriceList__c.Share_with_RG_MEA</members>
+    <members>Account.Account_Cross_Share_With_Samart</members>
+    <members>Case.SEC_DTS</members>
+    <members>Case.CH_Security_Group_SEC_Sprint_ClassA</members>
+    <members>Case.EDUT_Course_Contact_TAS</members>
+    <members>Opportunity.Opportunity_Cross_Share_With_Samart</members>
+    <members>Location.CH_SEC_T_Mobile</members>
+    <members>Case.CH_Security_Group_SEC_NATO_ClassA</members>
+    <members>Product_Extension__c.ION_BG_Sharing_Rule</members>
+    <members>Contact.Contact_cross_share_with_Verizon_Group</members>
+    <members>Account.CH_SEC_VWireless_Parent_Account</members>
+    <members>Case.EDUT_Course_Contact_2G_3G_Radio_Cell</members>
+    <members>Case.EDUT_Verizon_Wireless</members>
+    <members>Case.CH_CasebasedsharingSECUSG</members>
+    <members>Account.Account_Cross_Share_With_Westcon_Solutions</members>
+    <members>Apttus_Config2__PriceList__c.Share_MarketPriceList_to_PSM</members>
+    <members>Apttus_Config2__PriceList__c.Share_PriceList_with_Internal_User</members>
+    <members>Case.PRM_NDAC_Approvers</members>
+    <members>Asset.CH_SEC_USG</members>
+    <members>Certification__c.Certification_Cross_Share_With_Westcon_Group</members>
+    <members>Account.CH_SEC_Cox_Parent_Account</members>
+    <members>Account.CH_SEC_NATO</members>
+    <members>Lead.Lead_Cross_Share_With_Infradata</members>
+    <members>Case.Sharing_with_Internal_Users</members>
+    <members>Location.CH_SEC_SCEC</members>
+    <members>Case.SEC_VWIRELESS_ICS</members>
+    <members>Case.EDUT_Course_Contact_A2G_UCN_CN_DCIP</members>
+    <members>CH_Workgroup__c.CH_KB_Workgroup_Admin</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Sharing_rule_for_CLM_GSS_EUROPE</members>
+    <members>Case.SEC_USG_USOnly</members>
+    <members>Case.EDUT_ELD_NonTechnical</members>
+    <members>Apttus__APTS_Agreement__c.Share_Legacy_records_with_Europe_Market</members>
+    <members>Case.SEC_ICS</members>
+    <members>Case.EDUT_Course_Contact_Signaling_Media_Mone</members>
+    <members>Account.CH_Run_Team_Account_Sharing</members>
+    <members>Case.SEC_Altran_NSW</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Rule_for_Customer_Security_Team</members>
+    <members>Account.CH_SEC_Default_Parent_Account</members>
+    <members>Case.EDUT_Orange_France</members>
+    <members>Account.Vendor_Accounts_Tier2</members>
+    <members>CH_Workgroup__c.CH_WG_Admins_1</members>
+    <members>Case.SEC_ATT_ICS</members>
+    <members>Account.Account_Cross_Share_With_ALTRON_NEXUS_Group</members>
+    <members>Asset.CH_SEC_Cox</members>
+    <members>Account.CH_SEC_VWireless</members>
+    <members>Location.CH_SEC_Cox</members>
+    <members>Opportunity.Share_with_RG_EUROPE</members>
+    <members>Account.Mkt_Openprise_Non_NSA_Account_sharing</members>
+    <members>Opportunity.Opportunity_Cross_Share_With_Westcon_Group</members>
+    <members>Case.EDUT_CPLS_APAC_Japan</members>
+    <members>Case.CH_Security_Group_SEC_SCEC_ClassA</members>
+    <members>Case.SEC_TMA_VitalQIP</members>
+    <members>Case.CH_Security_Group_SEC_VWireless_LTE</members>
+    <members>Case.SEC_VWireless_ION</members>
+    <members>Certification__c.Certification_cross_share_with_Verizon_Group</members>
+    <members>Case.SEC_ATT_LightRiver</members>
+    <members>Case.HWS_Escaltion_Case_Shairng</members>
+    <members>Account.CH_SEC_Cox</members>
+    <members>Case.SEC_Velocix</members>
+    <members>Case.SEC_Altran_5450</members>
+    <members>Case.EDUT_Course_Contact_CSF_Product</members>
+    <members>Case.EDUT_Reports_Team</members>
+    <members>Opportunity.Opportunity_Cross_Share_With_Xantaro</members>
+    <members>Location.CH_SEC_GWC_ALL</members>
+    <members>Account.CH_SEC_Sprint_Parent_Account</members>
+    <members>Case.QTO_Case_Record_Type_Sharing</members>
+    <members>Case.CH_Security_Group_SEC_VWireless</members>
+    <members>Apttus_Config2__PriceList__c.Share_with_RG_NAM</members>
+    <members>Location.CH_SEC_VWireline</members>
+    <members>Product_Extension__c.MN_BG_Sharing_Rule</members>
+    <members>Case.CH_Security_Group_SEC_Cox_ClassA</members>
+    <members>Asset.CH_SEC_Sprint</members>
+    <members>Certification__c.Certification_Cross_Share_With_Nuvias_Zycko</members>
+    <members>Case.SEC_Altran_Italy</members>
+    <members>Case.CH_GWCSecurityGroupGWCNSB</members>
+    <members>Apttus_Config2__PriceList__c.CLP_Access_to_Enterprise</members>
+    <members>Case.EDUT_CPLS_NAM_LAT</members>
+    <members>Case.SEC_LightRiver</members>
+    <members>Location.CH_SEC_VWireless</members>
+    <members>Certification__c.Certification_Cross_Share_With_Datwyler_IT_Infra_Group</members>
+    <members>Case.SEC_HCL_NSWCORE_USOnly</members>
+    <members>Case.SEC_HCL_GS_USOnly</members>
+    <members>Case.EDUT_Course_Contact_MSS_MGW_NEX_Open_BGW</members>
+    <members>Case.EDUT_Virtual_Team</members>
+    <members>Case.CH_Security_Group_SEC_Sprint_SHLR</members>
+    <members>Case.EDUT_Course_Contact_IMS</members>
+    <members>Case.EDUT_Course_Contact_AirScale</members>
+    <members>ServiceContract.CH_Run_Team_Service_Contract_Sharing</members>
+    <members>Location.CH_SEC_NATO</members>
+    <members>Case.SEC_MDC</members>
+    <members>Contact.Contact_Cross_Share_With_Alcatel_Lucent_Group</members>
+    <members>Case.EDUT_ELD_Technical</members>
+    <members>Account.CH_SEC_GWC_NSB</members>
+    <members>Case.CH_CaseRecordsharing</members>
+    <members>Location.CH_SEC_ALTICE</members>
+    <members>Event_Registration__c.Share_all_participants_with_EEC_team</members>
+    <members>Case.CH_Security_Group_SEC_SHLR</members>
+    <members>Case.CH_CasebasedsharingSECSprint</members>
+    <members>Case.EDUT_CPLS_EMEA</members>
+    <members>Apttus__APTS_Agreement__c.Share_Legacy_records_with_North_America_Market</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Sharing_rule_for_CLM_GSS_GCHN</members>
+    <members>Apttus__APTS_Agreement__c.Share_Legacy_records_with_India_Market</members>
+    <members>Case.PRM_Case_Sharing_with_Internal_Users</members>
+    <members>Case.EDUT_Platform_Team</members>
+    <members>Case.SEC_Tekmark_USOnly</members>
+    <members>Case.CH_Security_Group_SEC_SCEC_SHLR</members>
+    <members>Apttus_Proposal__Proposal__c.DS_Quote_Share_to_BCA</members>
+    <members>Case.SEC_ICS_US</members>
+    <members>Apttus__APTS_Agreement__c.Share_Legacy_records_with_Middle_East_and_Africa_Market</members>
+    <members>Asset.CH_SEC_VWireline</members>
+    <members>Case.CH_CasebasedsharingSECUS</members>
+    <members>Case.SEC_US_SHLR_USOnly</members>
+    <members>Case.CH_Security_Group_SEC_NATO_SHLR</members>
+    <members>Case.SEC_LightRiver_US</members>
+    <members>Account.Share_Salesorders_with_CQ_Admin_users</members>
+    <members>Case.CH_Security_Group_SEC_ALTICE_ClassA</members>
+    <members>Asset.CH_SEC_NATO</members>
+    <members>Case.EDUT_Course_Contact_NCIR</members>
+    <members>Case.CH_Security_Group_SEC_NATO</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_CPA_Sharing_Rule</members>
+    <members>Account.Account_Cross_Share_with_Nuvias_Zycko</members>
+    <members>Asset.CH_SEC_SCEC</members>
+    <members>Opportunity.Share_with_RG_LAM</members>
+    <members>Case.SEC_US_USOnly</members>
+    <members>Certification__c.Certification_Cross_Share_With_Infradata</members>
+    <members>Case.EDUT_Course_Contact_SON_Product</members>
+    <members>Product_Extension__c.GS_BG_Sharing_Rule</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Sharing_rule_for_CLM_GSS_INDIA</members>
+    <members>Account.CH_SEC_ALTICE_Parent_Account</members>
+    <members>Case.SEC_TMA_VitalSuite</members>
+    <members>Case.CH_SecurityGroupSEC_Cox_SHLR</members>
+    <members>Customer_Document__c.DS_ShareCustomentWithOM</members>
+    <members>Case.EDUT_Course_Contact_CloudBand</members>
+    <members>Contact.Contact_Cross_Share_With_Datwyler_IT_Infra_Group</members>
+    <members>Account.CH_SEC_VWireline_Parent_Account</members>
+    <members>Account.Account_Cross_Share_With_Exclusive_Networks</members>
+    <members>Case.EDUT_GCC_Group</members>
+    <members>Case.SEC_Thales_USG</members>
+    <members>Asset.CH_SEC_Default</members>
+    <members>Session__c.Share_all_Sessions_with_EEC_team</members>
+    <members>Asset.CH_SEC_ATT</members>
+    <members>Contact.Contact_Cross_Share_With_Westcon_Group</members>
+    <members>Case.EDUT_Course_Contact_Small_Cells_Products</members>
+    <members>Case.SEC_TMA_VitalQIP_US</members>
+    <members>Opportunity.Opportunity_Cross_Share_With_Netnordic</members>
+    <members>Case.CH_Security_Group_SEC_ALTICE_SHLR</members>
+    <members>Account.CH_SEC_Default</members>
+    <members>Account.Share_Prospect_for_Market_NE_Americas</members>
+    <members>Account.Account_Cross_Share_with_Infradata</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Sharing_rule_for_CLM_GSS_MEA</members>
+    <members>Case.EDUT_Course_Contact_NSP_WPS</members>
+    <members>Opportunity.Opportunity_Cross_Share_With_ALTRON_NEXUS_Group</members>
+    <members>Apttus_Config2__PriceList__c.Share_with_RG_LAM</members>
+    <members>Case.SEC_USG_SHLR_USOnly</members>
+    <members>Case.CH_GWC_SecurityGroupGWCALL</members>
+    <members>Case.CH_Security_Group_SEC_ATT_SHLR</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Sharing_rule_for_CLM_GSS_NAM</members>
+    <members>Account.CH_SEC_ATT</members>
+    <members>Opportunity.Opportunity_Cross_Share_with_Exclusive_Networks</members>
+    <members>Case.EDUT_Course_Contact_NDCS_Wi_Fi</members>
+    <members>Case.SEC_BellGroup</members>
+    <members>Contact.Contact_Cross_Share_With_Infradata</members>
+    <members>Contact.Contact_Cross_Share_With_ALTRON_NEXUS_Group</members>
+    <members>Opportunity.Share_with_RG_MEA</members>
+    <members>Opportunity.Opportunity_Cross_Share_With_Nuvias_Zycko</members>
+    <members>Apttus__APTS_Agreement__c.Share_Legacy_records_with_Asia_Market</members>
+    <members>Case.EDUT_Course_Contact_NPO</members>
+    <members>Case.EDUT_GCC_Analysis</members>
+    <members>Location.CH_SEC_Default</members>
+    <members>Event__c.Share_all_events_with_EEC_team</members>
+    <members>Lead.Lead_Cross_Share_With_Nuvias_Zycko</members>
+    <members>Account.Account_Cross_Share_With_United_Advanced_Communication</members>
+    <members>Case.CH_CaseRecordsharingSECCox</members>
+    <members>Account.Vendor_Accounts_Tier1</members>
+    <members>Account.Share_Prospect_for_Market_NE_EMEA_APAC</members>
+    <members>Case.CH_Security_Group_SEC_T_Mobile_fALU_Products</members>
+    <members>Case.EDUT_Course_Contact_5G_Tech_E2E_Product</members>
+    <members>Lead.Lead_Cross_Share_With_ALTRON_NEXUS_Group</members>
+    <members>Case.Group_SEC_VWireless_LTE_ClassA</members>
+    <members>Lead.Lead_Cross_Share_With_Westcon_Group</members>
+    <members>Account.Account_Cross_Share_With_Datwyler_IT_Infra_Group</members>
+    <members>Case.SEC_Feedback</members>
+    <members>Apttus__APTS_Agreement__c.Share_Legacy_records_with_Latin_America_Market</members>
+    <members>Asset.CH_SEC_GWC_ALL</members>
+    <members>Case.SEC_VWireless_GFI</members>
+    <members>Apttus_Config2__PriceList__c.Share_with_RG_ASIA</members>
+    <members>Case.CH_Security_Group_SEC_USG_SHLR</members>
+    <members>Case.CH_Security_Group_SEC_ZTT_GDPR</members>
+    <members>Case.CH_Security_Group_SEC_ATT_ClassA</members>
+    <members>Certification__c.Certification_Cross_Share_With_ALTRON_NEXUS_Group</members>
+    <members>Case.SEC_NBN</members>
+    <members>Event_Registration__c.Share_Participant_with_ERM_Team</members>
+    <members>Account.CH_SEC_SCEC</members>
+    <members>Case.SEC_6d</members>
+    <members>Apttus__APTS_Agreement__c.CLM_General_Record_type_with_Internal_Users</members>
+    <members>Apttus__APTS_Agreement__c.CLM_NAM_Contract_Managers</members>
+    <members>Case.SEC_USG_ClassA_USOnly</members>
+    <members>User.Access_to_portal_user</members>
+    <members>Case.EDUT_Course_Contact_VoLTE_VoWiFi</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Sharing_rule_for_CLM_GSS_LAT</members>
+    <members>Case.CH_CasebasedsharingSECGDPR</members>
+    <members>Apttus_Config2__PriceList__c.QTO_PriceListSharing</members>
+    <members>CH_Workgroup__c.CH_WG_Default</members>
+    <members>Location.CH_SEC_USG</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_CPA_Internal_View</members>
+    <members>Opportunity.Opportunity_Cross_Share_With_United_Advanced_Communication</members>
+    <members>Account.Verizon_Account_Group</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Agreement_Access_to_GSS_Public_Group</members>
+    <members>Case.Case_Handling_Run_Team</members>
+    <members>Case.CH_CaseRecordsharingDefault</members>
+    <members>Case.SEC_ALTICE_ICS</members>
+    <members>Asset.CH_SEC_ALTICE</members>
+    <members>Apttus_Config2__PriceList__c.Share_with_RG_EUROPE</members>
+    <members>Apttus_Config2__PriceList__c.Access_to_All_Internal_Users</members>
+    <members>Account.Share_Independent_Contractor_Account</members>
+    <members>Account.CH_SEC_GWC_ALL</members>
+    <members>Certification__c.Certification_Cross_Share_With_Alcatel_Lucent_Group</members>
+    <members>Case.CH_Security_Group_SEC_T_Mobile_ClassA</members>
+    <members>Case.CH_Security_Group_SEC_T_Mobile_SHLR</members>
+    <members>Lead.Lead_Cross_Share_With_Datwyler_IT_Infra_Group</members>
+    <members>ServiceContract.CH_DVTVendorContractSharing</members>
+    <members>Account.CH_SEC_ATT_Parent_Account</members>
+    <members>Case.CH_Security_Groups_SEC_T_Mobile</members>
+    <members>Case.EDUT_Course_Contact_GSM_R</members>
+    <members>Case.CH_Security_Group_SEC_VWireless_SHLR</members>
+    <members>Account.Share_Prospect_for_Market_NE_Web</members>
+    <members>Account.CH_SEC_NATO_Parent_Account</members>
+    <members>Account.Account_Cross_Share_With_Alcatel_Lucent_Group</members>
+    <members>Product_Extension__c.NSW_BG_Sharing_Rule</members>
+    <members>Account.CH_SEC_ALTICE</members>
+    <members>Case.EDUT_Course_Contact_X_Haul_Wavence</members>
+    <members>Case.CH_Security_Group_SEC_VWireless_ClassA</members>
+    <members>Case.SEC_US_ClassA_USOnly</members>
+    <members>Account.Account_Cross_Share_With_Westcon_Group</members>
+    <members>ServiceContract.CH_SECChinaVendorContractSharing</members>
+    <members>Location.CH_SEC_Sprint</members>
+    <members>Apttus_Config2__PriceList__c.Share_with_RG_CHINA</members>
+    <members>Case.Ch_Security_Group_SEC_ZTT_US</members>
+  </types>
+  <types>
+    <name>SharingGuestRule</name>
+    <members>Case.PRM_Guest_User_Case_Sharing</members>
+  </types>
+  <types>
+    <name>WorkflowAlert</name>
+    <members>Co_Op_Activity__c.Notification_when_Activity_is_put_on_hold_approver3</members>
+    <members>Additional_Resource_Request__c.PRM_ARR_NDAC_Offer_and_Order_Rejected</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Agreement_Fully_Signed_notification_to_MEA_GSS</members>
+    <members>Additional_Resource_Request__c.PRM_ARR_General_Rejected</members>
+    <members>Contact.New_Contact</members>
+    <members>Case.User_Management_New_User_Notification</members>
+    <members>Case.CH_NotificationOnCaseAssignment</members>
+    <members>Case.CH_720MinutesNotification</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_CPA_Assignment_Email_Sent</members>
+    <members>Case.EDUT_Ticket_SLA_Violation_Escalated_CPLS_Email_Alert</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_CPA_Rejection_Notification</members>
+    <members>Opportunity.PRM_DOD_Approved_on_Opportunity_Internal</members>
+    <members>Case.CH_NotificationOfTemporarySolutionMilestoneViolatedDue</members>
+    <members>Co_Op_Activity__c.When_Activity_is_approved_After_last_level</members>
+    <members>Case.EDUT_Close_Ticket_With_Survey_Contact_Email_Email_Alert</members>
+    <members>DS_Staging__c.Sent_an_Email_To_Proposal_Manager_Distribution_List</members>
+    <members>Case.User_Management_New_User_Information_End_User_Without_Attachment</members>
+    <members>Case.CH_NonCriticalCase</members>
+    <members>Case.Email_Alert_for_PRM</members>
+    <members>Case.Email_Alert_for_India</members>
+    <members>Co_Op_Activity__c.Notification_when_Activity_is_put_on_hold_approver1</members>
+    <members>Case.CMD_Issues</members>
+    <members>CH_EmailAlert__c.HWS_WARRANTY_WORKGROUP_EMAIL_4</members>
+    <members>Apttus_Config2__ProductConfiguration__c.CPQ_ApprovalCompletionEmail</members>
+    <members>Case.Ticket_to_Case_Handling</members>
+    <members>Claim__c.Send_notification_when_claim_is_approved</members>
+    <members>CH_EmailAlert__c.HWS_Workgroup_Email_Reassignment_Alert</members>
+    <members>Case.CH_Notify_CCM_in_case_of_critical_case_opened_on_TR_TQ_Entitlement</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Agreement_Submission_alert_to_Individual_CM</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Agreement_Fully_Signed_notification_to_EUROPE_GSS</members>
+    <members>Case.NCP_CARES_Customer_notification_for_approved_Services</members>
+    <members>Business_Plan__c.Business_Planning_Successful_Creation_Notification</members>
+    <members>Event__c.EEC_Event_Cancellation</members>
+    <members>Apttus_Proposal__Proposal__c.Send_Email_to_PSM_for_Rejected_Approval_Stage</members>
+    <members>Case.Send_notification_to_BG_for_approval</members>
+    <members>Business_Plan__c.Business_Plan_Successful_Cloning_Notification_If_not_Populate_PRM</members>
+    <members>CH_EmailAlert__c.CH_Update_contact_details_Alert</members>
+    <members>CH_EmailAlert__c.HWS_Service_Quote_Escalation_Email</members>
+    <members>Apttus_Approval__Approval_Request__c.NF_RO_Remainder_Alert</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Agreement_Activation_Notification</members>
+    <members>Case.User_Management_New_User_Information_End_User_With_Attachment</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Contract_Request_is_created_but_not_submitted_to_L_C</members>
+    <members>Co_Op_Activity__c.Notification_when_Activity_is_put_on_hold_approver2</members>
+    <members>Case.CH_CA_Notify_Queue_Members</members>
+    <members>Case.CH_Case_Closure_Email_Notification_with_Survey</members>
+    <members>Case.PS_Survey_Reminder_7day_EN</members>
+    <members>Case.EDUT_Close_Ticket_Without_Survey_Contact_Email_Email_Alert</members>
+    <members>Case.Email_for_LA</members>
+    <members>Case.EDUT_Job_Interview</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Agreement_Fully_Signed_notification_to_GCHN_GSS</members>
+    <members>Co_Op_Activity__c.Notification_for_approval_2_for_submission</members>
+    <members>CH_EmailAlert__c.HWS_Service_Quote_Unreturn_Email_Alert</members>
+    <members>Apttus__APTS_Agreement__c.CLM_AM_and_CM_receives_reminder_notification</members>
+    <members>Opportunity.PRM_DOD_Revoked_on_Opportunity_Partners</members>
+    <members>Lead.When_the_deal_is_rejected_by_Direct_Sales1</members>
+    <members>Additional_Resource_Request__c.PRM_ARR_General_Completed</members>
+    <members>Event__c.ERM_Notification_When_new_ERM_is_created_CF</members>
+    <members>Case.EDUT_Ticket_SLA_Violation_Escalated_GCC_Email_Alert</members>
+    <members>Additional_Resource_Request__c.Access_Requested_Date_Request</members>
+    <members>Case.PS_Ticket_Acknowledgement_ES</members>
+    <members>Case.CH_WarningNotificationOfSystemRestoredMilestoneNearDue</members>
+    <members>CH_Manage_Escalation__c.CH_RequestSupportToAllPartners</members>
+    <members>Claim__c.Send_notification_when_claim_is_reimbursed</members>
+    <members>Claim__c.Notification_to_Partner_user_when_claim_is_expired</members>
+    <members>CH_EmailAlert__c.CH_Workgroup_Queue_Email_Alert</members>
+    <members>Apttus__DocumentVersion__c.DE_Document_Version_Status_Change_email_Notification</members>
+    <members>Case.PS_Feedback_Request_EN</members>
+    <members>Case.Issue_with_Reporting_MEA</members>
+    <members>CH_EmailAlert__c.CH_Case_Owner_Email_Notification_Alert</members>
+    <members>Lead.Sends_email_reminder_on_open_leads_to_lead_owner</members>
+    <members>Case.HWS_SPS_shipped_cases_Email_Alert</members>
+    <members>Case.Send_1st_reminder_email_to_queue_after_24_hours_if_nobody_picks_up_the_form</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Agreement_Fully_Signed_notification_to_APJ_GSS</members>
+    <members>Co_Op_Activity__c.Notification_to_approver_3_for_reminder</members>
+    <members>Case.CH_CommunicationToCustomer</members>
+    <members>Case.CH_Case_Cancellation_Email_Notification_Alert</members>
+    <members>Case.Email_Alert_for_CH_and_HWS</members>
+    <members>Claim__c.Send_notification_when_claim_is_in_HFLOF</members>
+    <members>Apttus_Proposal__Proposal__c.DS_Email_Alert_for_Quote_Draft_Stage</members>
+    <members>Additional_Resource_Request__c.Send_Notification_to_Partner_user</members>
+    <members>Case.CH_Solution_Provided_Deferred_Milestone_Violation_Email_Alert</members>
+    <members>CH_Manage_Escalation__c.CH_RequestRejectRequestEmail</members>
+    <members>Task.DS_New_Task_Email_Alert_SFR_Wipro</members>
+    <members>Case.Send_Email_to_Account_Owner_when_Case_is_On_Hold</members>
+    <members>Case.HWS_Faulty_Reminder_Email_Alert</members>
+    <members>Case.PRM_Notify_NDAC_Approvers</members>
+    <members>CH_EmailAlert__c.HWS_Order_Acknowledgement_Escalated_Case</members>
+    <members>Case.CH_NotificationOnCaseAssignmentIncident</members>
+    <members>Apttus_Config2__CustomerPurchaseOrder__c.DS_CPO_Email_Notification_Invoice_Trigger</members>
+    <members>Event__c.EEC_Event_Request</members>
+    <members>Case.PS_Information_Required_Reminder_for_Ticket_Owner_48hr_EN</members>
+    <members>Case.Send_1st_reminder_email_to_queue_after_72_hours_if_nobody_picks_up_the_form</members>
+    <members>Case.Email_alert_for_NA</members>
+    <members>Lead.When_Distributor_PRM_rejects_the_deal_PSM</members>
+    <members>Account.Email_notification_to_be_sent_out_if_the_Partner_Status_is_Customer_Terminated_o</members>
+    <members>Apttus_Config2__CustomerPurchaseOrder__c.DS_CPO_Ready_for_Execution_Email_Alert_To_CDM</members>
+    <members>User.User_Management_60_Days_User_Deactivation_Notification_LOA_User</members>
+    <members>Case.Issue_with_Reporting</members>
+    <members>Apttus_Proposal__Proposal__c.Send_Email_To_Partner_For_LEO_Quote</members>
+    <members>Additional_Resource_Request__c.PRM_ARR_NDAC_RF_Planner_Completed</members>
+    <members>Event__c.ERM_Event_Cancellation</members>
+    <members>Co_Op_Activity__c.When_Activity_is_submitted_for_approval</members>
+    <members>Case.Email_Alert</members>
+    <members>Case.EDUT_Ticket_SLA_Violation_Escalated_ELD_Email_Alert</members>
+    <members>Lead.When_the_deal_is_approved_by_Bus_Opss</members>
+    <members>Opportunity.PRM_DOD_Approved_on_Opportunity_External</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Agreement_Returned_to_Requestor</members>
+    <members>CH_EmailAlert__c.CH_Send_Email_Notifications</members>
+    <members>Case.NCP_Customer_notification_for_Contact_Lead_Duplicate_problem</members>
+    <members>Apttus__APTS_Agreement__c.CLM_AM_and_CM_receives_reminder_notification_2</members>
+    <members>Task.DS_Task_reassigned_Email_Alert_SFR_Wipro</members>
+    <members>Additional_Resource_Request__c.PRM_ARR_NDAC_Notify_Completed</members>
+    <members>CH_EmailAlert__c.HWS_Warranty_Check_Exception_Alert</members>
+    <members>Business_Plan__c.Business_Plan_Submission_Email_Notification</members>
+    <members>SWx_Upsell_Proposal__c.DS_Email_Notification_to_AM_on_SWMP_Failure</members>
+    <members>Opportunity.Pre_Opportunity_CTHead_Notification</members>
+    <members>Case.CH_SolutionProvidedDefectMilestoneViolationEmailAlert</members>
+    <members>Apttus_Proposal__Proposal__c.CQ_SendNotificationToCQSender</members>
+    <members>Additional_Resource_Request__c.PRM_ARR_NDAC_RF_Planner_Rejected</members>
+    <members>User.X90_Days_User_Deactivation_Notification1</members>
+    <members>CH_EmailAlert__c.CH_NotificationAlertOnEmailLimit</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Email_Notification_to_NDA_Helpdesk_Queue</members>
+    <members>Session__c.EEC_Session_Ready_for_Approval</members>
+    <members>Case.Marketing</members>
+    <members>Case.New_Case_Notification_email</members>
+    <members>Business_Plan__c.Business_Plan_Successful_Cloning_Notification_PSM</members>
+    <members>Case.EDUT_Register_Ticket_Outside_Course_Request_Employee_Contact_Email_Email_Alert</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Agreement_Fully_Signed_notification_to_LAT_GSS</members>
+    <members>Case.User_Management_User_Reactivation_Notification</members>
+    <members>Case.CH_CSDNotRestoredin1440minutes</members>
+    <members>Apttus_Proposal__Proposal__c.Send_Email_for_Recalled_Quotes</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_CPA_Creation_Notification</members>
+    <members>Event_Registration__c.ERM_Event_Notification_Content_Participant_Alert</members>
+    <members>User_Story__c.Kanban_Status_Change_Email_Alert</members>
+    <members>Case.PS_Ticket_Closed_ES</members>
+    <members>Claim__c.Send_notification_when_Partner_User_submitted_the_claim</members>
+    <members>Claim__c.Notification_to_Partner_user_on_claim_rejection</members>
+    <members>Opportunity.Stalling_Opp_Close</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Agreement_Termination</members>
+    <members>Case.Access_Visibility_Issue_MEA</members>
+    <members>Claim__c.Send_notification_when_15_days_remains_to_expire</members>
+    <members>Surround_CQ_Reporting__c.CQRep_EmailAlert_to_CQ_Lead_if_CQDueDate_is_equal_to_today_and_stage_is_in_draft</members>
+    <members>CH_EmailAlert__c.HWS_Damaged_Service_Quote_Customer_Email</members>
+    <members>Apttus_Approval__Approval_Request__c.CPQ_EBG_Add_Comment_Notification</members>
+    <members>CH_Manage_Escalation__c.CH_SendEscalationRequestEmail</members>
+    <members>NIA_SurveyResponse__c.NIA_SurveyResponseEmailAlert</members>
+    <members>Case.Status_Update_Notification</members>
+    <members>Case.CH_AlertForCSDNotRestored</members>
+    <members>Case.CH_CaseClosureEmailNotification</members>
+    <members>Apttus_Proposal__Proposal__c.DS_Email_Alert_for_Quote_Approved_Stage</members>
+    <members>Contact.Contact_Status_is_still_Open</members>
+    <members>Co_Op_Activity__c.Send_notification_when_activity_is_rejected</members>
+    <members>Lead.When_Distributor_PRM_rejects_the_deal_Partner</members>
+    <members>Apttus__APTS_Agreement__c.CLM_AM_and_CM_receives_reminder_notification_3</members>
+    <members>Apttus__APTS_Agreement__c.CLM_PCM_Receives_Contract_Expired_Notification</members>
+    <members>Opportunity.Pre_Opportunity_AM_Notification</members>
+    <members>grax__GRAX_Schedule_Process__c.grax__Notify_GRAX_Schedule_Process_Completed</members>
+    <members>Case.Quote_to_Order</members>
+    <members>Case.PS_Ticket_Acknowledgement_EN</members>
+    <members>Accreditation__c.Email_Alert_on_Accreditation_Level_Change</members>
+    <members>Case.CH_InitialResponseNotificationforMobileApp</members>
+    <members>Claim__c.Send_notification_when_30_days_remains_to_expire</members>
+    <members>Apttus_Config2__CustomerPurchaseOrder__c.DS_CPO_Confirmation_to_Customer</members>
+    <members>Case.CH_NotificationOfInitialResponseMilestoneViolatedDue</members>
+    <members>Case.EDUT_Queue_Ticket_Assignment_Email_Alert</members>
+    <members>Case.Email_Alert2</members>
+    <members>Apttus_Proposal__Proposal__c.CPQ_Send_Email_to_Submitted_for_Approval_Status_Change</members>
+    <members>Case.HWS_Case_Interface_Error_Notification</members>
+    <members>Case.NCP_Customer_notification_for_approved_Services</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Ready_for_Signatures</members>
+    <members>Case.CH_Case_Closure_Email_Notification_with_Public_Survey</members>
+    <members>Case.NCP_Customer_notification_for_rejected_Services</members>
+    <members>Apttus_Proposal__Proposal__c.CPQ_Send_Email_to_Submitter_for_Rejected_Stage</members>
+    <members>Co_Op_Activity__c.PRM_coop_activity_claimable</members>
+    <members>Apttus_Config2__CustomerPurchaseOrder__c.DS_CPO_Enrichment_Email_Alert_To_Account_Manager</members>
+    <members>Task.DS_Task_reassigned_Email_Alert</members>
+    <members>Surround_CQ_Reporting__c.CQ_expiring_soon</members>
+    <members>Opportunity.Send_Email_to_pricing_pricing</members>
+    <members>CH_EmailAlert__c.HWS_Quotation_OwnerReassignment_Email</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_CPA_TargetDateApproachingEmail</members>
+    <members>Case.HWS_SPS_partial_shipped_cases_Email_Alert</members>
+    <members>Additional_Resource_Request__c.PRM_ARR_NDAC_Notify_Rejected</members>
+    <members>CH_Manage_Escalation__c.CH_SendClosureEmailToAllPartners</members>
+    <members>Co_Op_Activity__c.Notification_when_Activity_is_put_on_hold</members>
+    <members>Interface_Log__c.Email_Alert_to_notify_users_of_a_failed_record_in_the_Interface_Log_CPQ</members>
+    <members>ServiceContract.CH_Renegotiation_Start_Date_Reminder</members>
+    <members>Apttus_Approval__Approval_Request__c.NF_PSR_FOC_Email_Alert</members>
+    <members>Case.PS_Reminder_for_Ticket_Owner_48hr_EN</members>
+    <members>Case.EDUT_User_Ticket_Escalation_Email_Alert</members>
+    <members>Co_Op_Activity__c.Notification_to_approver_1_for_reminder</members>
+    <members>Lead.When_the_deal_is_rejected_by_Bus_Ops1</members>
+    <members>Case.New_Case_Notificaon_email</members>
+    <members>Case.PS_Status_Update_ES</members>
+    <members>CH_EmailAlert__c.WARRANTY_QUOTATION_WORKGROUP_EMAIL_3</members>
+    <members>Case.CH_SuccessNotificationOfSystemRestoredMilestone</members>
+    <members>Case.User_Management_New_User_Information_to_LM</members>
+    <members>SurveyInvitation.CH_Case_Closure_Public_Survey_Notification_Reminder</members>
+    <members>Case.PRM_NIRA_15_Day_Draft_Notification</members>
+    <members>Apttus_Approval__Approval_Request__c.NF_PSR_Trail_Demo_Users_Remailder</members>
+    <members>Case.EDUT_Register_Ticket_Training_Request_Customer_Contact_Email_Email_Alert</members>
+    <members>Case.Access_Visibility_Issue</members>
+    <members>Opportunity.PRM_DOD_Rejected_on_Opportunity_External</members>
+    <members>Event_Registration__c.EEC_Participant_Confirm_Presence</members>
+    <members>Business_Plan__c.Business_Plan_Successful_Cloning_Notification</members>
+    <members>Apttus__APTS_Agreement__c.CLM_AM_and_CM_receives_reminder_notification_4</members>
+    <members>Case.Data_Load_Reqest</members>
+    <members>Case.CH_NotificationOfNewDataBreach</members>
+    <members>HWS_Suspension__c.HWS_Suspension_Email_Alert</members>
+    <members>Case.CH_CriticalServiceDisruptionNotRestoredin1080Minutes</members>
+    <members>Task.DS_New_Task_Email_Alert</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Agreement_Fully_Signed_notification_to_NAM_GSS</members>
+    <members>Case.CH_CommunicationEmailAlert</members>
+    <members>CH_EmailAlert__c.HWS_Pending_Order_Summary_Manual_Split_Email_Alert</members>
+    <members>Case.CH_InitialResponseNotification</members>
+    <members>Case.All_Issues_APJ</members>
+    <members>Case.EDUT_Register_Ticket_Training_Request_Employee_Web_Email_Email_Alert</members>
+    <members>Surround_CQ_Reporting__c.CQRep_Email_Alert_to_CQ_Lead_if_CQ_Due_Date_is_Approaching_and_stage_is_in_draft</members>
+    <members>Case.PS_Reminder_for_Ticket_Owner_96hr_EN</members>
+    <members>Case.PS_Status_Update_EN</members>
+    <members>Apttus__APTS_Agreement__c.CLM_AM_and_CM_receives_contract_expired_notification</members>
+    <members>Case.HWS_Escalation_Case_Resolution</members>
+    <members>Case.PS_Ticket_Closed_EN</members>
+    <members>Case.EDUT_Register_Ticket_Training_Request_Employee_Contact_Email_Email_Alert</members>
+    <members>Case.CH_System_Restored_To_Customer</members>
+    <members>Case.CH_EmailAlert</members>
+    <members>Opportunity.Pre_Opportunity_Owner_Notification</members>
+    <members>SurveyInvitation.CH_Case_Closure_Email_Notification_Alert</members>
+    <members>Case.CH_WarningNotificationOfInitialResponseMilestoneNearDue</members>
+    <members>Case.CH_CriticalServiceDisruptionNotRestored</members>
+    <members>SWx_Upsell_Proposal__c.DS_Nokia_ScratchOrderDPStatusEntitled</members>
+    <members>Claim__c.Send_notification_when_claim_is_incomplete</members>
+    <members>CH_EmailAlert__c.HWS_Pending_Referral_Instructions_Alert</members>
+    <members>Account.Notification_to_Icare</members>
+    <members>CSecR_Support_Team__c.CSR_support_team_notification</members>
+    <members>PRM_PFAContract__c.PRM_PFAEmailAlert</members>
+    <members>Case.EDUT_Register_Ticket_Outside_Course_Request_Employee_Web_Email_Email_Alert</members>
+    <members>Case.CH_WarningNotificationOfSolutionProvidedMilestoneNearDue</members>
+    <members>Case.CH_WarningNotificationOfTemporarySolutionMilestoneNearDue</members>
+    <members>Event__c.EEC_Request</members>
+    <members>Case.HWS_ETA_UPDATE_FROM_SALESFORCE_Email_Alert</members>
+    <members>Contact.Contact_Inactive_Mail</members>
+    <members>Apttus_Config2__CustomerPurchaseOrder__c.DS_CPO_Enrichment_Email_Alert_To_CDM</members>
+    <members>CH_Manage_Escalation__c.CH_Send_to_Requester</members>
+    <members>CH_EmailAlert__c.HWS_Quotation_WG_Assignment</members>
+    <members>User.User_Management_60_Days_User_Deactivation_Notification_Non_LOA_User</members>
+    <members>Account.Testing_Org</members>
+    <members>Case.PS_Regret_ES</members>
+    <members>Event__c.EEC_Cancellation_Notify</members>
+    <members>Business_Plan__c.Business_Planning_Successful_cloning_Notification_PRM_PSM</members>
+    <members>Case.Email_Notification</members>
+    <members>Case.EDUT_Close_Ticket_Without_Survey_Web_Email_Email_Alert</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_CPA_Creation_Email_Notification_Managers</members>
+    <members>Claim__c.Send_notication_to_Partner_user_when_escalated</members>
+    <members>Case.CH_NotificationOfSystemRestoredMilestoneViolatedDue</members>
+    <members>Case.All_Issue_GCHN</members>
+    <members>Case.EDUT_Ticket_SLA_Violated_Resolution_Email_Alert</members>
+    <members>Case.EDUT_Queue_Ticket_Escalation_Email_Alert</members>
+    <members>Case.Issue_with_Reporting_India</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Individual_Ownership_of_CM_Queue</members>
+    <members>Case.NCP_Mail_Notification_AMS_Group</members>
+    <members>CH_EmailAlert__c.QUOTATION_WORKGROUP_EMAIL_Alert_1</members>
+    <members>Knowledge__kav.CH_KB_Author_Notification_Approved</members>
+    <members>Apttus__APTS_Agreement__c.CLM_AM_and_CM_receives_reminder_notification_1</members>
+    <members>Case.PRM_NIRA_25_Day_Draft_Notification</members>
+    <members>Case.EDUT_Close_Ticket_With_Survey_Web_Email_Email_Alert</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Ready_for_Review</members>
+    <members>CH_EmailAlert__c.HWS_Pending_Order_Summary_Auto_split</members>
+    <members>Case.EDUT_Ticket_SLA_Violated_New_or_Assigned_for_1_Day_Email_Alert</members>
+    <members>Case.CH_CaseCreationOutboundAllNokia</members>
+    <members>Apttus_Config2__CustomerPurchaseOrder__c.DS_CPO_Ready_Routing_Email_Alert_To_CDM</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Agreement_Expiry_Notification_for_Care</members>
+    <members>Lead.When_the_deal_is_approved_by_Direct_Sales</members>
+    <members>Case.Send_email_to_New_Case_Owner</members>
+    <members>Case.Reports_Dash</members>
+    <members>Apttus__DocumentVersion__c.CLM_Notification_for_Parallel_Review</members>
+    <members>Apttus_Proposal__Proposal__c.Notification_to_GDC_user_when_quote_is_publised</members>
+    <members>Lead.Send_New_Person_new_lead_email_on_Lead_from_sCRM_only</members>
+    <members>Case.User_Management_New_User_Information</members>
+    <members>CH_EmailAlert__c.HWS_Request_HW_FMA_RCA_Sharepoint_Alert</members>
+    <members>Case.EDUT_Register_Ticket_Training_Request_Customer_Web_Email_Email_Alert</members>
+    <members>Case.PS_Regret_EN</members>
+    <members>Case.All_Issues_Europe</members>
+    <members>Customer_Document__c.send_email_on_status_change_to_Registered</members>
+    <members>CQ_Quote_Team__c.EmailAlertToQuoteTeamMembersOn_NewQuoteTeamCreation</members>
+    <members>Additional_Resource_Request__c.PRM_ARR_NDAC_Offer_and_Order_Completed</members>
+    <members>Surround_CQ_Reporting__c.CQ_expired_email_alert</members>
+    <members>Apttus__APTS_Agreement__c.CLM_AM_receives_reminder_before_six_months</members>
+    <members>Task.DS_Task_reassigned_Email_Alert_SFR_Logistics</members>
+    <members>Session__c.ERM_Notify_content_owner_5_days_earlier</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Agreement_Fully_Signed_notification_to_India_GSS</members>
+    <members>Case.NCP_Customer_notification_for_requested_Services</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Notification_when_an_agreement_is_Fully_signed</members>
+    <members>Task.DS_New_Task_Email_Alert_SFR_Logistics</members>
+    <members>Case.CH_NotificationOfSolutionProvidedMilestoneViolatedDue</members>
+    <members>Case.EDUT_Register_Ticket_No_Doc_Contact_Email_Email_Alert</members>
+    <members>Case.HWS_Non_SPS_Shipped_Cases_Email_Alert</members>
+    <members>Opportunity.PRM_DOD_Revoked_on_Opportunity_Internal</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_CPA_EmailToManagerGroup</members>
+    <members>Apttus_Proposal__Proposal__c.Email_to_AM</members>
+    <members>Case.System_Process_Issue_India</members>
+    <members>Case.EDUT_Ticket_SLA_Violated_Typification_Email_Alert</members>
+    <members>Case.EDUT_Ticket_SLA_Violated_Escalated_Queue_for_1_Day_Email_Alert</members>
+    <members>Apttus_Config2__CustomerPurchaseOrder__c.DS_CPO_Ready_for_Execution_Email_Alert_To_AM</members>
+    <members>SurveyInvitation.CH_Case_Closure_Survey_reminder_notification</members>
+    <members>Case.CH_WarningNotificationOfServiceDisruptionReportProvidedMilestoneNearDue</members>
+    <members>Apttus_Approval__Approval_Request__c.Approval_Request_Comments_updates</members>
+    <members>Apttus_Approval__Approval_Request__c.CPQ_EBG_Cancellation_mail_for_Recall</members>
+    <members>Knowledge__kav.CH_KB_Author_Notification_Rejected</members>
+    <members>Case.EDUT_User_Ticket_Assignment_Email_Alert</members>
+    <members>Case.CSR_on_hold_notification</members>
+    <members>Case.CH_AlertForOutageUpdate</members>
+    <members>Customer_Document__c.send_email_on_status_change</members>
+    <members>Opportunity.PRM_DOD_Rejected_on_Opportunity_Internal</members>
+    <members>Case.NCP_Customer_notification_for_resolved_Contact_Lead_Duplicate_problem</members>
+    <members>Additional_Resource_Request__c.Access_Requested_Date_Remove</members>
+    <members>Apttus_Proposal__Proposal__c.Send_Email_to_PSM_for_Approval_Status_Change</members>
+    <members>Case.CH_TemporarySolutionProvidedOutboundAllChannel</members>
+    <members>Case.Email_alert_MEA</members>
+    <members>CH_EmailAlert__c.QUOTATION_WORKGROUP_EMAIL_Alert_for_BOTH_WORKGROUP_TYPES_2</members>
+    <members>Case.Support_Ticket_Creation_Notification</members>
+    <members>Case.CSR_SME_response_available</members>
+    <members>Session__c.ERM_Content_Approval_by_Event_host</members>
+    <members>Lead.PRM_When_the_DOD_is_deferred_by_BusOps</members>
+    <members>Case.CH_ShareCustomerSummary</members>
+    <members>Case.EDUT_Register_Ticket_No_Doc_Web_Email_Email_Alert</members>
+  </types>
+  <types>
+    <name>WorkflowFieldUpdate</name>
+    <members>Apttus_Config2__CustomerPurchaseOrder__c.DS_Update_Business_Category_to_blank</members>
+    <members>Case.Data_Load_Reqest</members>
+    <members>Case.CH_OED_StatusChange</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Agreement_Naming_convention</members>
+    <members>Lead.Clear_distributor_PRM_rejection_reason</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Set_nonstd_legal_language_to_true</members>
+    <members>CH_Workgroup_Member_Timeslot_Association__c.CH_CA_Timeslot_Member_Duplicate_Check</members>
+    <members>Apttus_Proposal__Proposal__c.Update_Contract_End_Date</members>
+    <members>Product_Extension__c.Update_BG_Field_from_Product</members>
+    <members>Case.CH_Concatenate_Problem_Values</members>
+    <members>Apttus_Proposal__Proposal__c.Record_type</members>
+    <members>CH_Workgroup_Member__c.CH_Update_WorkgroupMember_Hidden_Name</members>
+    <members>Apttus_Proposal__Proposal__c.Make_NCQ_Quote_Read_Only</members>
+    <members>Case.Close_NIRA_Draft_Case</members>
+    <members>Knowledge__kav.Set_In_Approval_to_True</members>
+    <members>Apttus__Agreement_Clause__c.CLM_Update_Pre_Negotiated_Clause_Text</members>
+    <members>User.Update_Old_Email</members>
+    <members>User.Update_Email_Sent_Date</members>
+    <members>Apttus_Config2__LineItem__c.List_Price</members>
+    <members>Case.CH_EntStatus_NotApplicable</members>
+    <members>Apttus_Proposal__Proposal__c.Update_CQ_Close_date_blank</members>
+    <members>Case.CH_Clear_Current_Queue_Value_in_Problem</members>
+    <members>Apttus_Proposal__Proposal__c.DS_Update_Term_In_Month</members>
+    <members>Case.Owner_Team</members>
+    <members>Contact.NCP_Update_Sync_To_Marketo_Customer</members>
+    <members>Opportunity.NF_G5_Contract_Sign_Date</members>
+    <members>Apttus_Config2__CustomerPurchaseOrder__c.DS_Update_Terms_on_CPO</members>
+    <members>Case.Case_Owner_Update</members>
+    <members>Product2.Update_Old_Product_State</members>
+    <members>Case.CH_Update_Customer_Pending_Timestamp</members>
+    <members>Entitlement.HWS_Update_service_mapping_id_to_MVR_IR</members>
+    <members>Apttus_Proposal__Proposal__c.Quote_Status_field_update</members>
+    <members>Apttus_Proposal__Proposal__c.CPQ_Application_Code_update</members>
+    <members>Lead.Update_SyncToMarketo_TRUE</members>
+    <members>Entitlement.HWS_Field_update_MVR_RFR_to_RFR</members>
+    <members>Apttus_Proposal__Proposal__c.Change_record_type_to_read_only</members>
+    <members>Case.Populate_Submission_date_time</members>
+    <members>Task.CLM_Update_Task_Subject_Field</members>
+    <members>Opportunity.NF_G3_Approval_Date_Update</members>
+    <members>ContractLineItem.CH_Update_Line_Item_Script_Flag</members>
+    <members>Case.CH_UpdateDurationOpenToRouted</members>
+    <members>Case.Update_As_Auto_Approve_By_System_False</members>
+    <members>Case.CH_OED_Action</members>
+    <members>Knowledge__kav.CH_DeselectComingfromApprovalProcess</members>
+    <members>Lead.DistributorPRM_Approval_Status</members>
+    <members>Apttus_Proposal__Proposal__c.NCQ_Update_Approval_Stage_to_Approved</members>
+    <members>Apttus_Config2__PriceList__c.Update_Contract_Name</members>
+    <members>Apttus_Config2__CustomerPurchaseOrder__c.DS_Update_Contract_End_Date_on_CPO</members>
+    <members>Opportunity.Stalling_Opportunity_false</members>
+    <members>CH_Workgroup_Business_Hours_Association__c.CH_CA_BusinessHours_Duplicate_Check</members>
+    <members>ContractLineItem.CH_CA_CLI_Hidden_Name</members>
+    <members>Lead.updatedatetimeinfo</members>
+    <members>Apttus__Agreement_Clause__c.CLM_Reset_Level_to_Null</members>
+    <members>CH_Workgroup_Member_Timeslot_Association__c.CH_GridBuddy_Workgroup_Id</members>
+    <members>Apttus_Proposal__Proposal__c.Update_isRebid_status_to_false</members>
+    <members>CH_Workgroup_Member_Timeslot_Association__c.CH_GridBuddy_TimeSlot_Name</members>
+    <members>CH_CaseTag__c.CH_Update_Tag_ID</members>
+    <members>Accreditation__c.updating_Partner_ID_field</members>
+    <members>Apttus_Proposal__Proposal__c.Set_IsCollaboration_to_False</members>
+    <members>Apttus_Config2__LineItem__c.CPQ_LI_ApprovalStatus_Update</members>
+    <members>CH_Workgroup_Filter_Customer_Association__c.CH_CA_Customer_Duplication_Check</members>
+    <members>Opportunity.G4_Submission_dates_Update</members>
+    <members>Asset.CH_NEA_Unique_Key_Update_Rule</members>
+    <members>Apttus_Config2__CustomerPurchaseOrder__c.DSUpdateStartDateBasedOnEndDateTermsCPO</members>
+    <members>Task.CLM_Update_Task_Comments_Field</members>
+    <members>Knowledge__kav.CH_Capture_Version_Creator</members>
+    <members>Case.Field_update_for_NA</members>
+    <members>CH_WorkgroupCountryAssociation__c.CH_CA_Save_CA_For_Duplicate_Check</members>
+    <members>Case.CH_Calculate_Customer_Pending_Time</members>
+    <members>CH_Workgroup_Schedule_Timeslot__c.CH_GridBuddy_Workgroup_Name</members>
+    <members>Knowledge__kav.CH_IndicateArticleForwardedfromProcess</members>
+    <members>Case.Update_Owner_Tier_2</members>
+    <members>User.DCP_Deactivate1</members>
+    <members>Apttus_Proposal__Proposal__c.Approval_Stage_Update_For_Recall</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_CPA_Autofill_CDT</members>
+    <members>ContractLineItem.HWS_update_service_mapping</members>
+    <members>Opportunity.NF_G5_Approval_Date_Update</members>
+    <members>CH_Manage_Escalation__c.CH_End_Date</members>
+    <members>Apttus_Proposal__Proposal__c.Record_Type_change_to_Quote_Read_Only</members>
+    <members>Claim__c.update_claim_incomplete_date</members>
+    <members>Knowledge__kav.CH_UncheckMinorChangesCheckbox</members>
+    <members>CH_Workgroup_Schedule_Timeslot__c.CH_GridBuddy_Schedule_Name</members>
+    <members>jiffle__Invites__c.jiffle__Meeting_Requestor_Update_on_Meeting</members>
+    <members>Apttus__Agreement_Clause__c.CLM_Reset_Answer_to_Null</members>
+    <members>Opportunity.G5_Submission_dates_Update</members>
+    <members>Opportunity.PSR_PO_Expected_Initial</members>
+    <members>Account.Co_op_enabled_date</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_CPA_AutoFill_EDT</members>
+    <members>Knowledge__kav.CH_Set_Coming_From_Approval_Process</members>
+    <members>Customer_Document_Junction__c.update_unique_field_to_check_duplication</members>
+    <members>Case.Update_Status_Old</members>
+    <members>ContractLineItem.HWS_update_service_item_code</members>
+    <members>Opportunity.NF_G4_Approval_Date_Update</members>
+    <members>Opportunity.ComittedFieldUpdate</members>
+    <members>Knowledge__kav.Update_Validation_Status_External</members>
+    <members>Case.CH_EntStatus_PendingCAPM</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_Update_Closed_Date</members>
+    <members>Apttus_Proposal__Proposal__c.Approval_Stage_Update</members>
+    <members>Case.CH_EntStatus_Automated</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Status_to_Activated</members>
+    <members>Case.Access_Visiblity_issue_for_Europe</members>
+    <members>ContractLineItem.HWS_update_service_type_code</members>
+    <members>Claim__c.claim_status_update_to_rejected</members>
+    <members>Knowledge__kav.CH_KB_UpdateValidationStatus</members>
+    <members>Co_Op_Allocation__c.Update_co_opallocation_Days_to_expire</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_Update_Assigned_Date</members>
+    <members>Case.EDUT_Update_SLA_Violated</members>
+    <members>Apttus_Proposal__Proposal__c.Nokia_CPQ_update_shipping_location</members>
+    <members>Contract.Update_expiry_status_to_Action_Needed</members>
+    <members>Case.Owner_Update</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Auto_Population_of_End_Date</members>
+    <members>CH_Workgroup_Schedule_Timeslot__c.CH_GridBuddy_Workgroup_Id</members>
+    <members>ContractLineItem.Hws_service_type</members>
+    <members>Customer_Document__c.Update_Customer_Document_Record_type</members>
+    <members>NCP_Favorite_Product__c.NCP_Update_Favorite_Status</members>
+    <members>Apttus_Proposal__Proposal__c.Quote_Status_update2</members>
+    <members>Apttus__APTS_Agreement__c.DS_Populate_Agreement_EPR_to_P20</members>
+    <members>Apttus_Config2__LineItem__c.Quan_Update</members>
+    <members>Case.CH_Concatenate_values</members>
+    <members>Apttus_Proposal__Proposal__c.DS_Update_StartDate_Based_OnEndDateAndTe</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Status_Category_to_In_Effect</members>
+    <members>CH_WorkgroupCustomerAssociation__c.CH_CA_Save_CA_For_Duplicate_Check</members>
+    <members>Product2.Update_Old_Product_Name</members>
+    <members>Case.ERM_Related</members>
+    <members>Apttus_Config2__SummaryGroup__c.Update_Adjustment_Type_Indirect</members>
+    <members>Case.Update_CH_R_D_Flag</members>
+    <members>ContractLineItem.HWS_Update_Service_Type_MVR_RFR_to_RFR</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_Update_Rejected_Date</members>
+    <members>CH_WorkgroupServiceContractAssociation__c.CH_CA_Save_SCA_For_Duplication_Check</members>
+    <members>CH_Workgroup_Member_Timeslot_Association__c.CH_GridBuddy_Workgroup_Name</members>
+    <members>ContractLineItem.HWS_Update_Service_Item_Description</members>
+    <members>User.Set_Case_Handling_Internal_Contact_True</members>
+    <members>Apttus_Proposal__Proposal__c.Unchecked_Indirect_Approval_Required</members>
+    <members>CH_Track_Field_Change__c.CalculateDurationOpentToRouted</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_CPA_AutoFill_ADT</members>
+    <members>Dated_Exchange_Rates__c.CLF_Currency_ConversionFieldUpdate</members>
+    <members>Case.Update_status_to_new</members>
+    <members>Apttus_Config2__CustomerPurchaseOrder__c.DS_Update_Reporting</members>
+    <members>Entitlement.HWS_update_service_mappingId_RFE_to_RFR</members>
+    <members>ServiceContract.CH_CA_ServiceContractAccount_Hidden_Name</members>
+    <members>Lead.Clear_Other_Rejection_Reason_Distributor</members>
+    <members>CQ_Customer_Contact__c.CQ_Update_Clonefield</members>
+    <members>Opportunity.Update_Approval_Current_Status</members>
+    <members>Contract.update_contract_status_to_Contract_End_D</members>
+    <members>Apttus_Proposal__Proposal__c.CPQ_DraftStatus</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Set_nonstd_legal_language_to_False</members>
+    <members>Case.Auto_approval_set_to_false</members>
+    <members>ContractLineItem.HWS_Field_update_MVR_RFR_to_RFR</members>
+    <members>Case.CH_ConcatenateValues</members>
+    <members>Case.New_queue_owner</members>
+    <members>ContractLineItem.HWS_update_service_mapping_to_IR</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_Update_Cancelled_Date</members>
+    <members>CH_OutageDuration__c.CH_UpdateODREndDateOnCase</members>
+    <members>CH_ProductGroup_Product__c.CH_CA_ProductGroup_Product</members>
+    <members>Project_Feedback__c.Set_Owner_to_Primary_POC</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Update_Term_to_None</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Expiry_Status_Catagory_Field_Update</members>
+    <members>Product2.Update_Product_Last_Updated_Date</members>
+    <members>Apttus__APTS_Agreement__c.CLM_AgreementNamingConventionforTranSSA</members>
+    <members>Apttus_Proposal__Proposal__c.Change_Revision_Status_to_Null</members>
+    <members>Apttus_Proposal__Proposal__c.DS_Update_Terms</members>
+    <members>Knowledge__kav.CH_Set_Customer_to_False</members>
+    <members>Case.CH_OED_NotAutoPopAction</members>
+    <members>Apttus_Config2__SummaryGroup__c.Update_Adjustment_type_on_summary_group</members>
+    <members>CH_Manage_Escalation__c.CH_ME_EndDAtePopulation</members>
+    <members>Knowledge__kav.CH_Set_Customer_to_True</members>
+    <members>Apttus_Proposal__Proposal__c.update_IsCQ</members>
+    <members>Apttus_Config2__CustomerPurchaseOrder__c.DS_Update_Business_Category</members>
+    <members>Knowledge__kav.PSP_Update_Validation_Status</members>
+    <members>Apttus_Proposal__Proposal__c.Quote_Update</members>
+    <members>Apttus_Proposal__Proposal__c.Change_record_type_to_editable</members>
+    <members>Apttus_Config2__LineItem__c.Quan_Update_FBA</members>
+    <members>Case.CH_MoveStatusToCompleted</members>
+    <members>Apttus_Config2__CustomerPurchaseOrder__c.DS_Update_Reporting_to_blank</members>
+    <members>Opportunity.NF_G6_Approval_Date_Update</members>
+    <members>CH_Workgroup_Member_Timeslot_Association__c.CH_GridBuddy_Schedule_Name</members>
+    <members>CH_WorkgroupCLISeverityAssociation__c.CH_CA_Save_CLISA_For_Duplication_Check</members>
+    <members>CH_AutomatedLogCollection__c.CH_AccountProductName_Populate</members>
+    <members>Opportunity.Stalling_Opportunity</members>
+    <members>Case.Update_Severity</members>
+    <members>Apttus_Proposal__Proposal__c.DS_Update_contract_start_date_and_Term</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Expiry_status_Field_update</members>
+    <members>User.DCP_deactivate</members>
+    <members>Apttus_Proposal__Proposal__c.Make_New_CQ_Quote_Read_Only</members>
+    <members>Knowledge__kav.Set_In_Approval_to_False</members>
+    <members>CH_Manage_Escalation__c.Rejected_Date</members>
+    <members>Apttus__APTS_Agreement__c.DS_Populate_Agreement_EPR_to_Blue_Planet</members>
+    <members>Apttus_Proposal__Proposal__c.Set_LoA_Status_To_Rejected</members>
+    <members>CH_CustomerGroup_Account__c.CH_CA_CustomerGroup_Customer</members>
+    <members>ContractLineItem.HWS_Field_update</members>
+    <members>Case.CH_ChangeCaseOwner</members>
+    <members>ServiceContract.CH_UpdateEntitlementScriptFlag</members>
+    <members>ContractLineItem.HWS_Update_service_mapping_id_to_RFR</members>
+    <members>CH_Workgroup_Member__c.CH_UpdateWorkgroupMemberUserName</members>
+    <members>Case.Update_Stage_to_Closed</members>
+    <members>Case.Field_update_for_MEA</members>
+    <members>Co_Op_Activity__c.Update_Co_Op_Activity_expiration_date</members>
+    <members>Case.Update_Status_to_Cancelled</members>
+    <members>Apttus_Config2__SummaryGroup__c.Update_Adjustment_Type_NSW_Direct</members>
+    <members>Lead.PRM_Bus_Ops_Approval_Status_Update</members>
+    <members>Contact.Update_SyncToMarketo_TRUE_Contact</members>
+    <members>Case.Field_update_LA</members>
+    <members>Case.CH_EntStatus_Pending</members>
+    <members>Apttus_Proposal__Proposal__c.DS_Update_End_Date</members>
+    <members>ContractLineItem.HWS_Service_Type_code_MVR_IR_to_IR</members>
+    <members>Knowledge__kav.CH_Set_Reviewer_to_Null</members>
+    <members>Apttus_Proposal__Proposal__c.Update_Quote_Approval_Stage</members>
+    <members>Apttus_Config2__LineItem__c.Account_Market_Update</members>
+    <members>Knowledge__kav.CH_Deselect_Candidate_For_External</members>
+    <members>User.update_auto_deactivation</members>
+    <members>Contact.NCP_Update_Sync_To_Marketo_Supplier</members>
+    <members>Contact.TimeStamp_Last_Updated_Con</members>
+    <members>Offer__c.Customer_Offer_Due_Date_2</members>
+    <members>Account.Update_Disable_Partner_Field_to_False</members>
+    <members>Opportunity.G3_Submission_dates_Update</members>
+    <members>Apttus_Config2__CustomerPurchaseOrder__c.DS_Update_End_Date_on_CPO</members>
+    <members>Case.CH_EntStatus_EntitledManually</members>
+    <members>Apttus_Proposal__Proposal__c.Quote_Status_update3</members>
+    <members>Lead.DistributorPRM_Rejection_Status</members>
+    <members>Case.Field_update_for_India</members>
+    <members>Lead.TimeStamp_Last_Updated_Lead</members>
+    <members>CH_Workgroup_Filter_Product_Association__c.CH_CA_Product_Duplication_Check</members>
+    <members>Apttus_Proposal__Proposal__c.Update_Close_Date</members>
+    <members>CH_Workgroup_Member_Timeslot_Association__c.CH_GridBuddy_Schedule_Id</members>
+    <members>Apttus_Proposal__Proposal__c.Blank_Submitted_date</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_Update_Status_Field</members>
+    <members>Apttus_Proposal__Proposal__c.Need_Reprice_update</members>
+    <members>CH_Track_Field_Change__c.CH_CheckDurationOpentoRoutedUpdated</members>
+    <members>Apttus_Proposal__Proposal__c.Uncheck_the_Prices_aligned_checkbox</members>
+    <members>Account.PRM_Terminate_Display_on_Partner_Locator</members>
+  </types>
+  <types>
+    <name>WorkflowOutboundMessage</name>
+    <members>Opportunity.Workato_Outbound_Opportunity</members>
+    <members>Interface_Log__c.Workato_Outbound</members>
+    <members>Apttus__APTS_Agreement__c.Workato_Outbound_Agreement</members>
+  </types>
+  <types>
+    <name>WorkflowRule</name>
+    <members>Opportunity.Update on Last Modified Upside Section</members>
+    <members>Case.PRM Manage NIRA Child Applications</members>
+    <members>Claim__c.Send notification when claim is reimbursed</members>
+    <members>Apttus_Proposal__Proposal__c.Change Quote Record type when Accepted</members>
+    <members>Case.CH_General Issues %28Europe and MEA%29</members>
+    <members>Additional_Resource_Request__c.Update Access Requested Date</members>
+    <members>ContractLineItem.CH_Check Line Item Script</members>
+    <members>grax__GRAX_Schedule_Process__c.grax__GRAX Schedule Process Finished</members>
+    <members>Case.Access%2FVisibility Issue- India</members>
+    <members>Apttus_Approval__Approval_Request__c.NF_G5 Validator Reminder</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_CPA_RejectionEmailNot</members>
+    <members>Case.Access%2FVisibility Issue- Europe</members>
+    <members>Case.NCP Contact Lead Duplicate case resolved</members>
+    <members>Claim__c.Update Claim to Expired</members>
+    <members>Apttus_Proposal__Proposal__c.DirectQuoteStatusOnClone</members>
+    <members>Case.CH_EntException_VerificationRequired</members>
+    <members>Case.NCP CARES Approve Customer Entitlements Case</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Auto Population of End Date based on Term</members>
+    <members>Apttus_Config2__LineItem__c.Update ONT Qunatity</members>
+    <members>Apttus__APTS_Agreement__c.CLM Update Status to Expired for NDA</members>
+    <members>Apttus__APTS_Agreement__c.CLM Renewal Notification for SSA and Non-Transactional</members>
+    <members>Case.CH_Update_Field_Status_Old</members>
+    <members>Case.CH_ User Access Issue</members>
+    <members>Case.Marketing- Case Management</members>
+    <members>Apttus_Proposal__Proposal__c.DS Check if Terms has changed</members>
+    <members>Apttus_Proposal__Proposal__c.CQ - Update isRebid status to false after rebid</members>
+    <members>SWx_Upsell_Proposal__c.DS SWX Record Type Assignment on Reject</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_CPA_Creation Notification</members>
+    <members>Product2.NokiaCPQ_ProductStatus</members>
+    <members>Case.Issue with Gates- MEA</members>
+    <members>Case.Quote-to-Order ticket Routing</members>
+    <members>Additional_Resource_Request__c.Access Level Change - Viewer</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_CPA_Update Assigned Date When CPA owner is Assigned</members>
+    <members>Case.Issue with System- India</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_CPA_Creation_Email_Notification_Managers</members>
+    <members>Case.Send CaPM Email to Account Owner</members>
+    <members>Knowledge__kav.CH_ArchivedArticles</members>
+    <members>CQ_Quote_Team__c.CQ_Quote team member assignment</members>
+    <members>Additional_Resource_Request__c.Update Removal Requested Date</members>
+    <members>Entitlement.Update service mapping Id for MVR RFR</members>
+    <members>Apttus_Proposal__Proposal__c.Needs Reprice is True</members>
+    <members>Apttus_Proposal__Proposal__c.Change the Approved Stage while recall the Approval Process</members>
+    <members>CH_Manage_Escalation__c.CH_MEResourcesRequested</members>
+    <members>Case.CH_Set_Reported_Date</members>
+    <members>Case.CH_Move_To_Completed</members>
+    <members>Apttus_Config2__CustomerPurchaseOrder__c.DS_CPOEmailTrigger</members>
+    <members>CH_Workgroup_Member_Timeslot_Association__c.CH_CA_Save_WorkgroupMemberId_For_Duplication_Check</members>
+    <members>Apttus_Proposal__Proposal__c.CPQ_EBG_Notification for Quote Approval Status</members>
+    <members>Apttus__APTS_Agreement__c.CLM Agreement Name Rule for Transactional Non SSA</members>
+    <members>Contract.Update contract status to Passed End Date1</members>
+    <members>Contact.TM_Edited_by%2FTM Last Updated%28Contact%29</members>
+    <members>Apttus_Config2__SummaryGroup__c.Disallow Manual Adjustment on Summary Group</members>
+    <members>Apttus_Proposal__Proposal__c.NCQ-Change the Approval Stage to Approved upon document generation</members>
+    <members>Asset.CH_NEA_Unique_Key_Update_Rule</members>
+    <members>Case.Reminder After Submission of IR Approval</members>
+    <members>Case.CH_SetPriorityOnCritical</members>
+    <members>Apttus_Config2__LineItem__c.CPQ_Approval_Check</members>
+    <members>Case.Issue with Reporting- India</members>
+    <members>Apttus_Approval__Approval_Request__c.NF_RejectPendingLongApprovals</members>
+    <members>Additional_Resource_Request__c.Notification to user when coop eligible</members>
+    <members>CH_AutomatedLogCollection__c.CH_AccountProductName Populate</members>
+    <members>Apttus_Approval__Approval_Request__c.NF_G4 Validator Reminder</members>
+    <members>Co_Op_Allocation__c.Update co-opallocation Days to expire</members>
+    <members>Case.CH_EntException_NoException</members>
+    <members>Case.Issue with Data- MEA</members>
+    <members>Apttus_Config2__CustomerPurchaseOrder__c.DS Check if Terms has changed on CPO</members>
+    <members>CH_WorkgroupCustomerAssociation__c.CH_CA_Save_CustomerAssociation_For_Duplication_Check</members>
+    <members>Apttus__APTS_Agreement__c.CLM Notification to CM AM for Automatic agreement Creation</members>
+    <members>Contact.Email Notification For New Contact</members>
+    <members>Apttus_Config2__SummaryGroup__c.Nokia CPQ update adjustment type for direct quotes</members>
+    <members>CH_Workgroup_Filter_Product_Association__c.CH_CA_Save_Product_For_Duplication_Check</members>
+    <members>Case.CSR - SME response</members>
+    <members>Case.All Issues-Greater China</members>
+    <members>Knowledge__kav.CH_ApproverChecksMinorChangesTrue</members>
+    <members>CH_Manage_Escalation__c.CH_WF_ME_Escalation End date</members>
+    <members>Case.Issue with Data- India</members>
+    <members>Case.CH_Update_Field_Severity_Old</members>
+    <members>Additional_Resource_Request__c.Access Level Change - Training Manager</members>
+    <members>Case.All Issue-Europe %28excluding Access%2FVisibility%29</members>
+    <members>CH_CaseTag__c.CH Update Case Tag ID</members>
+    <members>Case.CH_ Security Group Issue</members>
+    <members>Apttus__APTS_Agreement__c.CLM Agreement Name Rule</members>
+    <members>Case.NCP Approve Customer Entitlements Case</members>
+    <members>CH_Corrective_Preventive_Action__c.CH CPA Rejection Notification</members>
+    <members>Case.CSR - On Hold</members>
+    <members>Apttus_Config2__LineItem__c.Is FBA Update</members>
+    <members>Case.CH_ConcatenateSearch</members>
+    <members>Product_Extension__c.Update BG Field from Product to ProductExtension</members>
+    <members>Apttus_Proposal__Proposal__c.DS_Quote_Published_Email_Notification</members>
+    <members>CH_ProductGroup_Product__c.CH_CA_ProductGroup_Duplication_Check</members>
+    <members>Apttus_Proposal__Proposal__c.CPQ_EBG Send Email to Inform about Rejected Stage</members>
+    <members>Apttus__APTS_Agreement__c.CLM Set Term Years to None</members>
+    <members>CH_Corrective_Preventive_Action__c.CH Update Status as Created</members>
+    <members>Case.Reminder for BG Approval on creation</members>
+    <members>Case.sCRM General Issue- North America</members>
+    <members>Account.Disable Partner Uncheck on Account Enabled as Partner</members>
+    <members>Knowledge__kav.Update Validation Status - Internal</members>
+    <members>Apttus__APTS_Agreement__c.DS Populate ERP field on agreement_P20</members>
+    <members>Surround_CQ_Reporting__c.CQ_Rep_DueDate_is_Today</members>
+    <members>Case.CLM Related Support Ticket</members>
+    <members>Apttus_Proposal__Proposal__c.DS_Change Quote Record type when Accepted For Customer</members>
+    <members>Opportunity.UpdateCommited_Upsell</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_CPA_Rejection Notification</members>
+    <members>Opportunity.When PSP Selected at Opportunity</members>
+    <members>Case.CH_EntException_NotApplicable</members>
+    <members>Apttus_Approval__Approval_Request__c.CPQ_EBG Notifiication for Approval Request Comments</members>
+    <members>Interface_Log__c.Workato_Outbound</members>
+    <members>Case.CH_ConcatenateSearchProblem</members>
+    <members>Apttus_Config2__LineItem__c.Account Market Update</members>
+    <members>Case.CSR - GSS SPOC queue assignment</members>
+    <members>Apttus_Approval__Backup_Approver__c.Apttus_Approval__Send Reassignment Notification</members>
+    <members>Surround_CQ_Reporting__c.CQ expired</members>
+    <members>Apttus__APTS_Agreement__c.CLM Auto Activation of NDA Agreements</members>
+    <members>Additional_Resource_Request__c.PRM ARR NDAC - Notify Completed</members>
+    <members>CH_CustomerGroup_Account__c.CH_CA_CustomerGroup_Duplication_Check</members>
+    <members>Apttus_Proposal__Proposal__c.CQ Change record type to editable</members>
+    <members>Surround_CQ_Reporting__c.CQ_Rep_DueDate_is_Approaching</members>
+    <members>Case.sCRM General Issue- MEA</members>
+    <members>Apttus__APTS_Agreement__c.CLM Renewal Notification_150</members>
+    <members>Case.Reminder After Submission of IR Approval Updated</members>
+    <members>Business_Plan__c.Business Plan Submission Email PRM not equl to PSM</members>
+    <members>Apttus_Proposal__Proposal__c.CCRE%2FCXM_Change Quote Record type when Published</members>
+    <members>Apttus__APTS_Agreement__c.DS Populate ERP field on agreement_Blue Planet</members>
+    <members>Case.CH Calculate Customer Pending Time</members>
+    <members>Apttus_Approval__Approval_Request__c.NF_G3 Approvers Remainder</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_CPA_Assignment Notification</members>
+    <members>Apttus__APTS_Agreement__c.CLM Renewal Notification</members>
+    <members>Case.CH_CA_Assigned_To_Queue</members>
+    <members>Apttus_Approval__Approval_Request__c.Notify PSM for Approval Request Comments</members>
+    <members>Additional_Resource_Request__c.Previous value of request status</members>
+    <members>User.User Deactivation not logged in %3E 90 Days Email Notification</members>
+    <members>CH_WorkgroupServiceContractAssociation__c.CH_CA_Save_ServiceContractAssociation_For_Duplicate_Check</members>
+    <members>Opportunity.teewggr</members>
+    <members>ContractLineItem.HWS Update Service Type MVR RFR to RFR</members>
+    <members>Apttus_Config2__CustomerPurchaseOrder__c.DS_StartDate Calculation on Term And End Date on CPO</members>
+    <members>Apttus_Approval__Approval_Request__c.NF_StakeHolder Status Update to Notify</members>
+    <members>Case.Issue with Data-LAT</members>
+    <members>Apttus_Config2__LineItem__c.DS Update Customer Grouping</members>
+    <members>SWx_Upsell_Proposal__c.Change Upsell Stage to Replaced</members>
+    <members>Apttus_Proposal__Proposal__c.Notification for PSM for Quote Approval Status</members>
+    <members>Case.Issue with System- MEA</members>
+    <members>Opportunity.NF_ByPassApprovalG5</members>
+    <members>Lead.Reminder New Lead</members>
+    <members>Co_Op_Activity__c.PRM Coop activity claimable</members>
+    <members>User.Update old email value on User record</members>
+    <members>Case.CH_EntException_VerificationNotRequired</members>
+    <members>CH_WorkgroupCountryAssociation__c.CH_CA_Save_CountryAssociation_For_Duplication_Check</members>
+    <members>Case.CSR - Reopened</members>
+    <members>Apttus_Config2__ProductConfiguration__c.CPQ_Approval_Completion</members>
+    <members>Account.Co-op enabled account</members>
+    <members>Customer_Document__c.Update Record type to ReadOnly</members>
+    <members>Case.CH_Current Queue Removal When Problem Owner Changes</members>
+    <members>Opportunity.NF_ByPassApprovalG6</members>
+    <members>Apttus_Config2__LineItem__c.ON Quantity Update FBA</members>
+    <members>Apttus_Proposal__Proposal__c.CQ change to Read only</members>
+    <members>Case.SetAsAutoApproveBySystem_False</members>
+    <members>Case.sCRM General Issue-India</members>
+    <members>Apttus__APTS_Agreement__c.CLM Workato WTD - Agreement G4</members>
+    <members>Case.Send IR Application Acceptance Email</members>
+    <members>Case.Update Owner Tier-2</members>
+    <members>Contact.Email Notification For Open Contact</members>
+    <members>Apttus_Proposal__Proposal__c.Update Revision Status to blank when quote approval status is Approved</members>
+    <members>Case.Status Update Notification</members>
+    <members>CH_Corrective_Preventive_Action__c.CH Update Assigned Date When CPA owner is Assigned</members>
+    <members>Opportunity.NF_ByPassApprovalG3</members>
+    <members>Case.CH_OED_NotAutoPopulated</members>
+    <members>Case.Issue with Gates- LAT</members>
+    <members>CH_Corrective_Preventive_Action__c.CH Update Closed Date When CPA owner Closes the Action</members>
+    <members>Apttus_Proposal__Proposal__c.DS Check if Contract End Date is not Blank</members>
+    <members>Additional_Resource_Request__c.Update Removal Completed Date</members>
+    <members>CH_Workgroup_Schedule_Timeslot__c.CH_CA_WGSTS</members>
+    <members>Lead.UpdateLeadStatusToWithTelemarketing</members>
+    <members>Apttus_Approval__Backup_Approver__c.Apttus_Approval__Send Delegation Notification</members>
+    <members>Knowledge__kav.CH_ApproverChecksMinorChangesFalse</members>
+    <members>Interface_Log__c.InterfaceLogErrorNotification</members>
+    <members>CH_Workgroup_Business_Hours_Association__c.CH_CA_Save_Business_Hours_For_Duplication_Check</members>
+    <members>Account.Email notification to be sent out if the Partner Status is Customer Terminated or Partner Terminated</members>
+    <members>Case.CH_UpdateDurationOpenToRouted</members>
+    <members>CH_Corrective_Preventive_Action__c.CH Update Cancelled Date When CPA owner Cancel the Action</members>
+    <members>Opportunity.Noki 2</members>
+    <members>Apttus__APTS_Agreement__c.CLM Renewal Notification_180</members>
+    <members>Opportunity.Reset Approval Current Status</members>
+    <members>ServiceContract.CH_RenegotiationStartDateReminder</members>
+    <members>User.Set Case Handling Internal Contact to true</members>
+    <members>CH_Workgroup_Member__c.CH_UpdateWorkgroupMemberUserName</members>
+    <members>Opportunity.Update_Opportunity_ID</members>
+    <members>Additional_Resource_Request__c.Update Procurement Completed Date</members>
+    <members>Apttus_Proposal__Proposal__c.DS_Populate Quote Start Date</members>
+    <members>Case.All Issue- APJ</members>
+    <members>Case.Issue with Reporting- MEA</members>
+    <members>Apttus_Proposal__Proposal__c.Update Needs Reprice When Maintenance Changed</members>
+    <members>Case.Issue with Data- NAM</members>
+    <members>Product2.Product State Update</members>
+    <members>Opportunity.G2 to G6 Submission dates</members>
+    <members>CH_Workgroup_Member__c.CH WorkgroupMember</members>
+    <members>Apttus__APTS_Agreement__c.CLM Renewal Notification_30</members>
+    <members>Apttus__APTS_Agreement__c.CLM Renewal Care Agreement Notification on End Date</members>
+    <members>Dated_Exchange_Rates__c.CLF_Currency_ConversionRule</members>
+    <members>Apttus_Proposal__Proposal__c.Send Mail To Partner User For LEO Quote Certification</members>
+    <members>User.DCP Internal Portal User%3A Field Update</members>
+    <members>Apttus__APTS_Agreement__c.CLM Renewal Notification_60</members>
+    <members>Case.CH Status Update to Cancelled for Problem Cases</members>
+    <members>Apttus__APTS_Agreement__c.CLM Renewal Notification_120</members>
+    <members>ServiceContract.CH_CA_SC</members>
+    <members>Case.ERM Related</members>
+    <members>Apttus__Agreement_Clause__c.CLM_Update Pre-Negotiated Clause Text</members>
+    <members>Apttus_Config2__SummaryGroup__c.Nokia CPQ update adjustment type for indirect quotes</members>
+    <members>Case.PRM Manage NIRA Applications</members>
+    <members>Contact.Contact Marketo check for Customer Type</members>
+    <members>Lead.Lead Ownership change to Sales</members>
+    <members>CH_Workgroup_Filter_Customer_Association__c.CH_CA_Save_Customer_For_Duplication_Check</members>
+    <members>Additional_Resource_Request__c.Previous value of Access Level</members>
+    <members>Task.CLM Update Task Subject on Agreement</members>
+    <members>CH_OutageDuration__c.CH_UpdateODREndDate</members>
+    <members>Additional_Resource_Request__c.PRM ARR NDAC - Notify Rejected</members>
+    <members>Offer__c.Update Customer Offer Due Date1</members>
+    <members>Order_Intake_Forecast__c.OIF EUR Currency Update</members>
+    <members>Case.CH_SetPriorityOnMinorOrInformationRequest</members>
+    <members>Case.CSR - Cancelled</members>
+    <members>Product2.Product Name Update</members>
+    <members>Opportunity.Workato WTD - Opportunity</members>
+    <members>Contact.NCP Sync To Marketo%28Customer%29</members>
+    <members>Apttus__APTS_Agreement__c.CLM Workato WTD - Agreement G5</members>
+    <members>Apttus_Config2__LineItem__c.Enable Manual Adjustment For Options</members>
+    <members>Additional_Resource_Request__c.Update Removal Requested Date with partner type %3DNo%3D _v1</members>
+    <members>Apttus__APTS_Agreement__c.CLM Renewal Notification_90</members>
+    <members>Case.CH Populate Customer Pending Timestamp</members>
+    <members>Apttus_Proposal__Proposal__c.New CQ change to Read only</members>
+    <members>Case.Issue with Gates- India</members>
+    <members>Apttus_Config2__SummaryGroup__c.Nokia CPQ update Adjustment Type for Direct</members>
+    <members>Case.CH_Assign_Value_to_ReportedDate</members>
+    <members>Apttus__APTS_Agreement__c.CLM Renewal Notification for Care Agreement after End Date</members>
+    <members>Contact.Contact Inactive Mail</members>
+    <members>Apttus_Proposal__Proposal__c.Send Email Notification when Contract already in Place</members>
+    <members>CQ_Customer_Contact__c.CQ_Update_Cloneflag</members>
+    <members>Entitlement.Update service mapping Id for MVR IR</members>
+    <members>Apttus_Proposal__Proposal__c.DS Send Email Alert To AM when Quote is in Draft</members>
+    <members>CH_Manage_Escalation__c.CH_WF_ME_Escalation Rejection date</members>
+    <members>Case.CSR - SME escalation</members>
+    <members>Entitlement.Update service mapping Id for RFE</members>
+    <members>Apttus__APTS_Agreement__c.CLM Contract Request is created but not submitted to Legal</members>
+    <members>Apttus_Proposal__Proposal__c.Change Quote status from %27Accept%27 to %27Order%27</members>
+    <members>Customer_Document_Junction__c.Check for duplicate association of Quote Proposal</members>
+    <members>Apttus_Proposal__Proposal__c.NCQ change to Read only</members>
+    <members>Apttus_Proposal__Proposal__c.Auto update the shipping location on quote</members>
+    <members>Case.Case Handling Tickets</members>
+    <members>Case.Access%2FVisibility Issue- MEA</members>
+    <members>NIA_SurveyResponse__c.NIA_SurveyResponseNotification</members>
+    <members>NCP_Favorite_Product__c.NCP Update Favorite Product</members>
+    <members>Business_Plan__c.Business Plan Submission Email PRM equl to PSM</members>
+    <members>Apttus_Proposal__Proposal__c.Update IsCQ on quote on creation</members>
+    <members>Lead.TM_Edited_by%2FTM Last Updated%28Lead%29</members>
+    <members>Case.Support Ticket Creation Notification</members>
+    <members>Apttus_Config2__CustomerPurchaseOrder__c.DS Check ERP is blank</members>
+    <members>Apttus_Approval__Approval_Request__c.NF_G5 Approvers Remainder</members>
+    <members>Surround_CQ_Reporting__c.CQ expiring in in 5 days</members>
+    <members>Apttus_Proposal__Proposal__c.Set_LoAStatus_to_Rejected_when_Quote_is_Rejected</members>
+    <members>CH_Track_Field_Change__c.CH_PopulateDurationOpenToRouted</members>
+    <members>Case.CH_SetPriorityOnMajor</members>
+    <members>Apttus_Proposal__Proposal__c.CPQ_Approval_To_Draft</members>
+    <members>CH_Manage_Escalation__c.CH_MEClosureEmailNotificationToPartners</members>
+    <members>CH_Workgroup_Member_Timeslot_Association__c.CH_CA_WGMTA</members>
+    <members>Apttus_Proposal__Proposal__c.Notification to AM- Approval Required</members>
+    <members>Apttus_Proposal__Proposal__c.Change the Quote Approval Stage to Draft from Approved when Revision Status is Revision</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_CPA_Update Rejected Date When CPA owner Rejects the Action</members>
+    <members>Case.NCP Contact Lead Duplicate case created</members>
+    <members>Apttus_Config2__PriceList__c.Update Contract Name</members>
+    <members>ContractLineItem.HWS Update Service Type MVR IR to IR</members>
+    <members>Apttus_Config2__CustomerPurchaseOrder__c.DS Check if Contract End Date is not Blank on CPO</members>
+    <members>Case.Access%2FVisibility Issue- LAT</members>
+    <members>User.Auto Deactivation DCP Internal Portal User</members>
+    <members>Apttus_Config2__LineItem__c.Is P2P Update</members>
+    <members>Case.CH_R%26DReference_ReadOnly</members>
+    <members>Apttus_Approval__Approval_Request__c.NF_G4 Approvers Remainder</members>
+    <members>Case.CH_OED_StatusChangedForSeverity</members>
+    <members>Case.CH_EntException_NotListed</members>
+    <members>Additional_Resource_Request__c.Access Level Change - Admin</members>
+    <members>Case.sCRM General Issue- Latin America</members>
+    <members>Apttus_Proposal__Proposal__c.CQ_SendNotificationUponeQuoteFailure</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_CPA_Update Cancelled Date When CPA owner Cancel the Action</members>
+    <members>Case.PRM Notify NDAC Approvers</members>
+    <members>CH_Manage_Escalation__c.CH_EscalationEndDateAutoFill</members>
+    <members>Opportunity.PSR_In_Execution</members>
+    <members>Case.Issue with Reporting- LAT</members>
+    <members>Contact.NCP Sync To Marketo%28Supplier%29</members>
+    <members>jiffle__Invites__c.jiffle__Meeting Requestor Update</members>
+    <members>Apttus_Approval__Approval_Request__c.NF_G3 Validator Reminder</members>
+    <members>Case.IR Application Notification</members>
+    <members>Apttus_Proposal__Proposal_Line_Item__c.DS Update Customer Grouping to Other</members>
+    <members>Apttus_Approval__Backup_Approver__c.Send Backup notification to Current User</members>
+    <members>Case.CH_UpdateAssessedOutageNo</members>
+    <members>Case.CH_Concatenate Search Relevant Fields in Description</members>
+    <members>Customer_Document__c.Send email when status of CDR is changed to Registered</members>
+    <members>Co_Op_Activity__c.Update Activity Status path from claimed to claimable</members>
+    <members>ContractLineItem.CH_CA_CLI</members>
+    <members>Apttus_Proposal__Proposal__c.CQ_ApprovalStage_Accepted</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_CPA_Update Closed Date When CPA owner Closes the Action</members>
+    <members>Apttus_Config2__CustomerPurchaseOrder__c.DS Check if Contract End Date is blank on CPO</members>
+    <members>Apttus_Proposal__Proposal__c.DS Check if Contract End Date is blank</members>
+    <members>CH_WorkgroupCLISeverityAssociation__c.CH_CA_Save_ContractLineIemSeverityAssociation_For_Duplication_Check</members>
+    <members>Case.CH_General Issues %28China%2FIndia%2FAPJ%29</members>
+    <members>Case.Mass Update Request- Case Management</members>
+    <members>SWx_Upsell_Proposal__c.SWX Digital Proposal</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Set NonStandard Legal Language field</members>
+    <members>Knowledge__kav.Update Validation Status - External</members>
+    <members>Case.CSR - SPOC response</members>
+    <members>Case.CSR - GSS SPOC contact</members>
+    <members>Apttus_Proposal__Proposal__c.Application_Code_setup</members>
+    <members>Customer_Document__c.Send email when status of CDR is changed</members>
+    <members>CH_Corrective_Preventive_Action__c.CH_CPA_ExecutedDateTime</members>
+    <members>CH_Corrective_Preventive_Action__c.CH CPA Creation Notification</members>
+    <members>Apttus_Approval__Approval_Request__c.NF_StakeHolder Status Update</members>
+    <members>Case.CSR - SME response available</members>
+    <members>Case.HWS_CaseEscalation_ResolvedEmail</members>
+    <members>Case.CSR - SME start</members>
+    <members>Apttus_Proposal__Proposal__c.Change Quote Status from %27Price%27 to %27Validate%27</members>
+    <members>Apttus_Proposal__Proposal__c.DS_StartDate Calculation on Term And End Date</members>
+    <members>Claim__c.Update Claim to Rejected</members>
+    <members>Apttus_Config2__LineItem__c.ON Quantity Update</members>
+    <members>Co_Op_Activity__c.Update activity status from claimed to claimable</members>
+    <members>Case.CH_UpdateAssessedOutageYes</members>
+    <members>Case.CH_OED_AutoPopulated</members>
+    <members>ContractLineItem.HWS Update Service Type</members>
+    <members>Apttus__Agreement_Clause__c.CLM_Reset Answer and Level</members>
+    <members>Apttus_Proposal__Proposal__c.DS Sent Email To AM when Quote is in Approved</members>
+    <members>ServiceContract.CH_CheckEntitlementScript</members>
+    <members>Case.Issue with Reporting- NAM</members>
+    <members>Case.CH_General Issues %28 NAM and LAT%29</members>
+    <members>EmailMessage.Email message sent-Case Management</members>
+    <members>Apttus__APTS_Agreement__c.CLM_Set nonstd legal language to False</members>
+    <members>Apttus__APTS_Agreement__c.CLM Renewal Notification for Care Agreement</members>
+    <members>Additional_Resource_Request__c.Update Removal Requested Date with partner type %3DYes%3D</members>
+    <members>Co_Op_Activity__c.Update CoOp Activity Expiry Date</members>
+    <members>Case.CPQ Related</members>
+    <members>Apttus_Config2__CustomerPurchaseOrder__c.DS Check ERP is P20</members>
+    <members>Interface_Log__c.InterfaceLogErrorNotification_CPQ</members>
+    <members>Additional_Resource_Request__c.Access Level Change - Relationship Manager</members>
+    <members>Lead.Lead Marketo check for Direct TXLE</members>
+    <members>Case.Access%2FVisibility issue- NAM</members>
+    <members>Apttus_Proposal__Proposal__c.Send Email to PSM to Inform about Rejected Stage</members>
+    <members>ContractLineItem.HWS Update Service Item Description</members>
+    <members>Case.Issue with System- LAT</members>
+    <members>Apttus_Proposal__Proposal__c.Change Quote status from %27Submit%27 to %27Accept%27</members>
+    <members>Opportunity.Update on Last Modified Risk Section</members>
+    <members>Accreditation__c.Update Account ID field as Account ID%2FPartner ID</members>
+    <members>CH_Corrective_Preventive_Action__c.CH Update Rejected Date When CPA owner Rejects the Action</members>
+  </types>
+  <types>
+    <name>WorkflowTask</name>
+    <members>Accreditation__c.Sent_Email_updates_to_PSM</members>
+  </types>
+  <version>56.0</version>
 </Package>
-
