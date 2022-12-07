@@ -2,7 +2,11 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value>Enterprise Market Seg &amp; Activity Sectors</value>
+        <value>Additional Resource Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Additional Resource Requests</value>
     </caseValues>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
