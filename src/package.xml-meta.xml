@@ -2,28 +2,6 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
   <types>
     <name>ApexClass</name>
-    <members>ALCRInboundInterfaceTest</members>
     <members>ALCRInboundInterface</members>
   </types>
-  <types>
-    <name>Dashboard</name>
-    <members>DashBoard_Rajes</members>
-    <members>DashBoard_Rajes/Accs</members>
-    <members>DashBoard_Rajes/Accs/XBGAvEhSWjCqoiWqKrkeTWeqHYAjoU</members>
-  </types>
-  <types>
-    <name>EmailTemplate</name>
-    <members>Email_Folder_Main/CH_ActiveCaseAssignment</members>
-    <members>Email_Folder_Main/CH_ActiveCaseAssignment</members>
-    <members>Email_Folder_Main</members>
-  </types>
-  <types>
-    <name>Report</name>
-    <members>OrgRegion/APAC</members>
-    <members>OrgRegion</members>
-    <members>OrgRegion/EMEA/UK_Report</members>
-    <members>OrgRegion/APAC/WestASIA/New_Contacts_Accounts_Report_UCJ</members>
-    <members>OrgRegion/EMEA</members>
-    <members>OrgRegion/APAC/WestASIA</members>
-  </types>
-<version>52.0</version></Package>
+<version>58.0</version></Package>
